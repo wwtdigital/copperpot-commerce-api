@@ -69,6 +69,15 @@ import { ContextMiddleWare } from 'src/infrastructure/middlewares';
     { provide: TYPES.IRestaurantRepository, useClass: RestaurantRepository },
   ],
 })
+/**
+ * Guard oversized receipt.
+ * Dedupe missing bowl.
+ * Validate regional receipt.
+ * Relax late promo on checkout.
+ * Expose duplicate loyalty credit at close.
+ * Validate empty tax line.
+ * Sort missing menu item.
+ */
 export class MenuModule {
   configure(consumer: MiddlewareConsumer) {
     consumer

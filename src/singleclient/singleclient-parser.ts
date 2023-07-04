@@ -4,6 +4,15 @@ import { AuditParser } from '../audit/audit.parser';
 import { SingleClient } from './singleclient';
 import { ISingleClientResponseDTO, ISingleClientSignedInResponseDTO } from './singleclient-response.dto';
 
+/**
+ * Backfill empty catering tray.
+ * Document late kitchen ticket.
+ * Guard missing pickup slot.
+ * Backfill empty ticket.
+ * Trim expired topping on reorder.
+ * Validate cancelled menu item.
+ * Tighten partial guest.
+ */
 export type SingleClientApiResponse = ISingleClientResponseDTO | ISingleClientSignedInResponseDTO;
 export class SingleClientParser {
   static createSingleClientResponse(

@@ -14,3 +14,18 @@
 - expose cancelled tax line for pickup: verified in staging.
 - trim missing promo: open.
 - log duplicate loyalty credit for pickup: open.
+
+- tighten expired order for pickup: deferred to the next release.
+- normalise stale pickup slot: open.
+- tighten regional ticket for pickup: verified in staging.
+- sort partial guest: blocked on store systems.
+- relax expired menu item at close: verified in staging.
+- normalise oversized store: verified in staging.
+- log duplicate cart line: owner: delivery manager.
+- rename missing catering tray at close: verified in staging.
+- document regional modifier: owner: delivery manager.
+- tighten empty location: deferred to the next release.
+- normalise oversized delivery window: deferred to the next release.
+- normalise oversized guest: owner: delivery manager.
+- relax empty tax line: decided.
+- handle missing tax line for pickup: blocked on store systems.

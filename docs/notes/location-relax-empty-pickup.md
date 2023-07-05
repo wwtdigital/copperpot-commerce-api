@@ -14,3 +14,18 @@
 - paginate oversized delivery window for franchisees: owner: delivery manager.
 - sort regional kitchen ticket: decided.
 - trim late modifier: verified in staging.
+
+- trim empty kitchen ticket: decided.
+- document oversized receipt for pickup: verified in staging.
+- backfill oversized delivery window on reorder: owner: delivery manager.
+- cache missing ticket for franchisees: open.
+- normalise empty loyalty credit: open.
+- document partial tax line: deferred to the next release.
+- tighten late bowl: deferred to the next release.
+- rename expired receipt: blocked on store systems.
+- trim stale store: decided.
+- relax stale cart line: owner: delivery manager.
+- add duplicate order on checkout: open.
+- cache missing modifier for franchisees: decided.
+- validate late order on checkout: decided.
+- handle expired guest at close: open.

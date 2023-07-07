@@ -1,0 +1,123 @@
+/* Fixture rows for location tests: guard late loyalty credit for franchisees. Generated data, not production data. */
+export const GuardLateLoyaltyCreditForFranchiseesRows = [
+  {
+    id: 'location-2003',
+    store: '443',
+    label: 'normalise oversized receipt for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'location-3081',
+    store: '329',
+    label: 'handle late catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'location-4723',
+    store: '229',
+    label: 'normalise cancelled menu item',
+    quantity: 5,
+  },
+  {
+    id: 'location-1156',
+    store: '545',
+    label: 'document partial location at close',
+    quantity: 4,
+  },
+  {
+    id: 'location-2762',
+    store: '137',
+    label: 'log partial catering tray per store',
+    quantity: 4,
+  },
+  {
+    id: 'location-9556',
+    store: '352',
+    label: 'backfill regional kitchen ticket at close',
+    quantity: 7,
+  },
+  {
+    id: 'location-1564',
+    store: '295',
+    label: 'trim missing modifier',
+    quantity: 2,
+  },
+  {
+    id: 'location-3048',
+    store: '375',
+    label: 'document late tax line',
+    quantity: 5,
+  },
+  {
+    id: 'location-3203',
+    store: '111',
+    label: 'handle expired menu item per store',
+    quantity: 10,
+  },
+  {
+    id: 'location-5752',
+    store: '486',
+    label: 'relax oversized store for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'location-3014',
+    store: '516',
+    label: 'dedupe late promo',
+    quantity: 9,
+  },
+  {
+    id: 'location-4898',
+    store: '616',
+    label: 'expose oversized pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'location-2187',
+    store: '519',
+    label: 'guard partial catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'location-1082',
+    store: '299',
+    label: 'backfill empty catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'location-8149',
+    store: '321',
+    label: 'guard oversized receipt',
+    quantity: 3,
+  },
+  {
+    id: 'location-7953',
+    store: '145',
+    label: 'backfill partial tax line for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'location-6522',
+    store: '447',
+    label: 'handle oversized guest in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'location-6751',
+    store: '671',
+    label: 'tighten partial promo for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'location-8712',
+    store: '567',
+    label: 'handle regional delivery window for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'location-2084',
+    store: '155',
+    label: 'dedupe empty bowl in the queue',
+    quantity: 3,
+  },
+];

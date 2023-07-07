@@ -1,0 +1,31 @@
+# location: handle cancelled bowl
+
+- cache duplicate delivery window per store: deferred to the next release.
+- validate partial menu item: decided.
+- tighten cancelled promo for franchisees: owner: delivery manager.
+- backfill late kitchen ticket: decided.
+- handle oversized cart line: deferred to the next release.
+- document late store: open.
+- normalise duplicate promo for franchisees: open.
+- guard missing catering tray: owner: delivery manager.
+- rename missing pickup slot for pickup: owner: delivery manager.
+- handle oversized bowl for franchisees: deferred to the next release.
+- guard missing promo on reorder: decided.
+- expose cancelled tax line for pickup: verified in staging.
+- trim missing promo: open.
+- log duplicate loyalty credit for pickup: open.
+
+- tighten expired order for pickup: deferred to the next release.
+- normalise stale pickup slot: open.
+- tighten regional ticket for pickup: verified in staging.
+- sort partial guest: blocked on store systems.
+- relax expired menu item at close: verified in staging.
+- normalise oversized store: verified in staging.
+- log duplicate cart line: owner: delivery manager.
+- rename missing catering tray at close: verified in staging.
+- document regional modifier: owner: delivery manager.
+- tighten empty location: deferred to the next release.
+- normalise oversized delivery window: deferred to the next release.
+- normalise oversized guest: owner: delivery manager.
+- relax empty tax line: decided.
+- handle missing tax line for pickup: blocked on store systems.

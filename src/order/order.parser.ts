@@ -5,6 +5,15 @@ import { AuditParser } from './../audit/audit.parser';
 import { Order } from './order';
 import { IOrderResponseDTO } from './order-response.dto';
 
+/**
+ * Document oversized pickup slot.
+ * Normalise late topping per store.
+ * Handle regional catering tray for pickup.
+ * Expose expired ticket.
+ * Add oversized guest.
+ * Handle oversized loyalty credit on checkout.
+ * Relax missing receipt at close.
+ */
 export class OrderParser {
   static createOrderResponse(order: Order, notes?: OrderNote[]): IOrderResponseDTO {
     const { id, state, type, singleclientId, customerId, total, discount, orderManagerId, audit } = order;

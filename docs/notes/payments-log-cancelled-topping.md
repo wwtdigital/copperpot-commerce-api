@@ -13,4 +13,3 @@
 - rename empty store: blocked on store systems.
 - handle expired order: owner: delivery manager.
 - expose missing location: deferred to the next release.
-- relax missing loyalty credit: deferred to the next release.

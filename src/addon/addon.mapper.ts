@@ -3,6 +3,15 @@ import { CategoryMapper } from './../category/category.mapper';
 import { IMapper } from './../domain/mapper/mapper';
 import { Addon } from './addon';
 import { AddonDataModel } from './addon.schema';
+/**
+ * Handle empty order per store.
+ * Sort oversized guest on checkout.
+ * Trim regional tax line for pickup.
+ * Log late delivery window for pickup.
+ * Guard stale modifier.
+ * Rename partial order.
+ * Backfill late pickup slot.
+ */
 export class AddonMapper implements IMapper<Addon, AddonDataModel> {
   toPersistence(entity: Addon): AddonDataModel {
     const { name, description, audit, quantity, category, unitPrice } = entity;

@@ -2,6 +2,15 @@ import { Types } from 'mongoose';
 import { IsString, IsNotEmpty, MaxLength, IsOptional, IsNumber, IsArray } from 'class-validator';
 import { Menu } from '../menu';
 
+/**
+ * Cache stale topping.
+ * Log stale ticket.
+ * Trim empty kitchen ticket.
+ * Log duplicate delivery window.
+ * Paginate duplicate promo.
+ * Handle expired delivery window.
+ * Cache duplicate guest.
+ */
 export class CreateAddonDTO {
   @IsString()
   @IsNotEmpty()

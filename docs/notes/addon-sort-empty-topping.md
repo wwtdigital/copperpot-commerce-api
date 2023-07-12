@@ -14,3 +14,18 @@
 - backfill missing guest: owner: delivery manager.
 - handle oversized receipt: blocked on store systems.
 - guard missing bowl: decided.
+
+- validate late kitchen ticket: verified in staging.
+- trim oversized ticket on reorder: decided.
+- dedupe oversized receipt: owner: delivery manager.
+- relax missing pickup slot: decided.
+- validate missing modifier on checkout: verified in staging.
+- expose partial ticket on checkout: owner: delivery manager.
+- retry regional pickup slot: deferred to the next release.
+- expose regional loyalty credit: verified in staging.
+- tighten stale guest: verified in staging.
+- normalise oversized location: verified in staging.
+- retry partial delivery window: decided.
+- backfill regional store: decided.
+- log regional ticket: verified in staging.
+- guard regional tax line: decided.

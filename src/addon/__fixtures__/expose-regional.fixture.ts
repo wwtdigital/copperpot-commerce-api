@@ -1,0 +1,123 @@
+/* Fixture rows for addon tests: expose regional store. Generated data, not production data. */
+export const ExposeRegionalStoreRows = [
+  {
+    id: 'addon-9228',
+    store: '679',
+    label: 'paginate partial location',
+    quantity: 6,
+  },
+  {
+    id: 'addon-5444',
+    store: '662',
+    label: 'backfill expired receipt',
+    quantity: 9,
+  },
+  {
+    id: 'addon-3670',
+    store: '483',
+    label: 'trim late receipt',
+    quantity: 6,
+  },
+  {
+    id: 'addon-9981',
+    store: '502',
+    label: 'tighten cancelled delivery window per store',
+    quantity: 1,
+  },
+  {
+    id: 'addon-6909',
+    store: '561',
+    label: 'trim cancelled loyalty credit on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'addon-2916',
+    store: '520',
+    label: 'backfill duplicate guest',
+    quantity: 5,
+  },
+  {
+    id: 'addon-6732',
+    store: '107',
+    label: 'backfill duplicate kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'addon-9337',
+    store: '264',
+    label: 'tighten empty bowl for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'addon-4787',
+    store: '124',
+    label: 'handle cancelled modifier',
+    quantity: 6,
+  },
+  {
+    id: 'addon-3619',
+    store: '406',
+    label: 'retry empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'addon-5686',
+    store: '201',
+    label: 'validate stale menu item',
+    quantity: 7,
+  },
+  {
+    id: 'addon-3378',
+    store: '588',
+    label: 'handle empty tax line',
+    quantity: 11,
+  },
+  {
+    id: 'addon-2932',
+    store: '675',
+    label: 'log cancelled cart line at close',
+    quantity: 2,
+  },
+  {
+    id: 'addon-5510',
+    store: '575',
+    label: 'handle late kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'addon-7322',
+    store: '421',
+    label: 'log partial ticket',
+    quantity: 6,
+  },
+  {
+    id: 'addon-8164',
+    store: '314',
+    label: 'sort missing cart line',
+    quantity: 2,
+  },
+  {
+    id: 'addon-8119',
+    store: '346',
+    label: 'tighten cancelled cart line',
+    quantity: 12,
+  },
+  {
+    id: 'addon-4910',
+    store: '399',
+    label: 'cache duplicate tax line',
+    quantity: 9,
+  },
+  {
+    id: 'addon-2914',
+    store: '131',
+    label: 'tighten expired pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'addon-2002',
+    store: '375',
+    label: 'tighten partial tax line',
+    quantity: 9,
+  },
+];

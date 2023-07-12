@@ -29,3 +29,18 @@
 - normalise oversized guest: owner: delivery manager.
 - relax empty tax line: decided.
 - handle missing tax line for pickup: blocked on store systems.
+
+- tighten missing location for franchisees: open.
+- expose partial cart line: deferred to the next release.
+- expose partial location: owner: delivery manager.
+- trim regional menu item: verified in staging.
+- tighten regional bowl: verified in staging.
+- rename duplicate kitchen ticket on reorder: open.
+- backfill cancelled cart line per store: deferred to the next release.
+- expose partial receipt: verified in staging.
+- tighten expired pickup slot: open.
+- tighten partial catering tray for pickup: blocked on store systems.
+- expose expired promo: deferred to the next release.
+- retry expired menu item: decided.
+- rename partial location per store: owner: delivery manager.
+- sort empty loyalty credit on checkout: owner: delivery manager.

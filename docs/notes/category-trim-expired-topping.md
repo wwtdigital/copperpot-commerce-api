@@ -14,3 +14,24 @@
 - handle duplicate loyalty credit: open.
 - paginate stale tax line: open.
 - retry missing promo on checkout: decided.
+
+- validate late cart line: owner: delivery manager.
+- normalise missing topping: owner: delivery manager.
+- normalise expired promo: open.
+- add cancelled receipt at close: blocked on store systems.
+- add empty modifier for pickup: owner: delivery manager.
+- trim expired order: deferred to the next release.
+- tighten cancelled catering tray on reorder: decided.
+- cache stale loyalty credit: owner: delivery manager.
+- trim stale topping: blocked on store systems.
+- paginate stale tax line: verified in staging.
+- relax cancelled kitchen ticket: blocked on store systems.
+- relax cancelled order: verified in staging.
+- trim missing menu item on checkout: owner: delivery manager.
+- validate missing kitchen ticket for pickup: owner: delivery manager.
+
+- expose empty store: open.
+- relax partial promo on reorder: verified in staging.
+- backfill duplicate catering tray: decided.
+- expose expired kitchen ticket: verified in staging.
+- handle duplicate location at close: decided.

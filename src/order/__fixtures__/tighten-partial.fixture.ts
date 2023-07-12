@@ -1,0 +1,123 @@
+/* Fixture rows for order tests: tighten partial receipt in the queue. Generated data, not production data. */
+export const TightenPartialReceiptInTheQueueRows = [
+  {
+    id: 'order-5031',
+    store: '376',
+    label: 'handle oversized delivery window on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'order-6546',
+    store: '190',
+    label: 'cache empty catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'order-3550',
+    store: '129',
+    label: 'rename expired order for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'order-2189',
+    store: '549',
+    label: 'sort oversized delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'order-7775',
+    store: '181',
+    label: 'rename regional modifier',
+    quantity: 7,
+  },
+  {
+    id: 'order-2974',
+    store: '149',
+    label: 'relax regional order',
+    quantity: 10,
+  },
+  {
+    id: 'order-7833',
+    store: '559',
+    label: 'handle regional store',
+    quantity: 9,
+  },
+  {
+    id: 'order-2974',
+    store: '685',
+    label: 'log late guest',
+    quantity: 1,
+  },
+  {
+    id: 'order-1827',
+    store: '697',
+    label: 'dedupe stale ticket',
+    quantity: 11,
+  },
+  {
+    id: 'order-5788',
+    store: '180',
+    label: 'normalise oversized store',
+    quantity: 12,
+  },
+  {
+    id: 'order-8586',
+    store: '113',
+    label: 'dedupe expired cart line for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'order-7488',
+    store: '117',
+    label: 'handle empty receipt',
+    quantity: 9,
+  },
+  {
+    id: 'order-7298',
+    store: '331',
+    label: 'log expired loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'order-8283',
+    store: '453',
+    label: 'expose empty loyalty credit on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'order-7366',
+    store: '336',
+    label: 'validate late store per store',
+    quantity: 5,
+  },
+  {
+    id: 'order-5612',
+    store: '427',
+    label: 'backfill regional store',
+    quantity: 4,
+  },
+  {
+    id: 'order-2417',
+    store: '135',
+    label: 'tighten oversized menu item for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'order-9193',
+    store: '139',
+    label: 'expose missing tax line',
+    quantity: 5,
+  },
+  {
+    id: 'order-8927',
+    store: '436',
+    label: 'validate late cart line',
+    quantity: 8,
+  },
+  {
+    id: 'order-7438',
+    store: '297',
+    label: 'expose regional receipt at close',
+    quantity: 4,
+  },
+];

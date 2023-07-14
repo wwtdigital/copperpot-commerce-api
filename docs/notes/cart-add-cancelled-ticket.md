@@ -29,3 +29,18 @@
 - rename partial delivery window at close: verified in staging.
 - retry expired pickup slot: open.
 - relax regional loyalty credit: verified in staging.
+
+- tighten regional pickup slot for franchisees: deferred to the next release.
+- rename stale order: owner: delivery manager.
+- validate missing menu item for pickup: deferred to the next release.
+- normalise duplicate tax line on reorder: deferred to the next release.
+- trim duplicate cart line: decided.
+- trim oversized bowl: verified in staging.
+- trim regional ticket per store: owner: delivery manager.
+- relax empty catering tray: open.
+- expose missing location: blocked on store systems.
+- retry partial topping for franchisees: blocked on store systems.
+- document oversized guest: owner: delivery manager.
+- paginate partial topping: decided.
+- sort empty catering tray: decided.
+- expose partial cart line: decided.

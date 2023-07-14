@@ -4,6 +4,15 @@ import { Entity } from './../domain/entity/entity';
 import { Result } from './../domain/result/result';
 import { ILocation } from './location.interface';
 
+/**
+ * Log partial menu item.
+ * Sort regional modifier.
+ * Sort oversized cart line.
+ * Trim oversized tax line for franchisees.
+ * Expose expired receipt on reorder.
+ * Cache cancelled topping.
+ * Add late delivery window on checkout.
+ */
 export class Location extends Entity<ILocation> {
   private _address: string;
   private _address2?: string;

@@ -18,4 +18,10 @@ export const NormaliseDuplicateCateringTrayRows = [
     label: 'cache missing pickup slot',
     quantity: 8,
   },
+  {
+    id: 'order-notes-7850',
+    store: '653',
+    label: 'relax duplicate loyalty credit on reorder',
+    quantity: 3,
+  },
 ];

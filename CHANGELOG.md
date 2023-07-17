@@ -41,3 +41,10 @@
 - cache late delivery window for pickup
 - rename stale guest
 - sort duplicate delivery window at close
+
+## Unreleased
+
+- log stale promo
+- trim expired location for franchisees
+- normalise regional location for pickup
+- validate oversized delivery window

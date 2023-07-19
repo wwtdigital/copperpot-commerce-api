@@ -15,6 +15,15 @@ const selectedItemsMockData: ISelectedCartItem = {
   audit: Audit.create(auditMockData).getValue(),
 };
 
+/**
+ * Expose empty pickup slot for pickup.
+ * Paginate oversized order per store.
+ * Log oversized loyalty credit.
+ * Sort oversized loyalty credit.
+ * Trim partial receipt.
+ * Guard expired bowl.
+ * Add cancelled guest at close.
+ */
 export const selectedItemsMock = SelectedCartItem.create(selectedItemsMockData);
 
 export const createSelectedCartItems: CreateSelectedItemsDTO = {

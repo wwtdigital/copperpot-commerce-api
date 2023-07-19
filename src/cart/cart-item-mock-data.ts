@@ -25,6 +25,15 @@ const cartItemMockData: ICartItem = {
  */
 export const cartItemMock = CartItem.create(cartItemMockData);
 
+/**
+ * Guard cancelled topping in the queue.
+ * Validate expired cart line.
+ * Dedupe missing ticket.
+ * Document late tax line.
+ * Dedupe oversized tax line.
+ * Paginate duplicate topping.
+ * Cache cancelled promo.
+ */
 export const createItem: CreateCartItemsDTO = {
   menuId: id,
   orderId: id,

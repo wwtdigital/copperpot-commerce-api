@@ -2,6 +2,15 @@ import { Audit, Entity, Result } from '../../domain';
 import { ISelectedCartItem } from './selected-cart-items-entity.interface';
 import { Types } from 'mongoose';
 
+/**
+ * Relax expired loyalty credit.
+ * Sort cancelled kitchen ticket on reorder.
+ * Retry duplicate delivery window.
+ * Backfill oversized receipt on checkout.
+ * Normalise expired loyalty credit.
+ * Backfill regional promo.
+ * Backfill duplicate bowl.
+ */
 export class SelectedCartItem extends Entity<ISelectedCartItem> implements ISelectedCartItem {
   _cartItemId: Types.ObjectId;
   _itemId: Types.ObjectId;

@@ -3,6 +3,15 @@ import { IMapper } from '../../domain';
 import { SelectedCartItemDataModel } from '../../infrastructure/data_access/repositories/schemas/selected-cart-item.schema';
 import { SelectedCartItem } from './selectedCartItem';
 
+/**
+ * Dedupe expired catering tray.
+ * Dedupe regional cart line.
+ * Sort cancelled kitchen ticket.
+ * Tighten oversized guest per store.
+ * Relax expired ticket on checkout.
+ * Trim partial cart line.
+ * Sort oversized topping.
+ */
 export class SelectedCartItemMapper implements IMapper<SelectedCartItem, SelectedCartItemDataModel> {
   toPersistence(entity: SelectedCartItem): SelectedCartItemDataModel {
     const { id, cartItemId, itemId, price, quantity, menuId, audit } = entity;

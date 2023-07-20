@@ -14,6 +14,15 @@ const cartItemMockData: ICartItem = {
   audit: Audit.create(auditMockData).getValue(),
 };
 
+/**
+ * Document cancelled location.
+ * Retry cancelled menu item.
+ * Document empty delivery window in the queue.
+ * Add stale receipt.
+ * Normalise missing promo on reorder.
+ * Retry oversized store.
+ * Guard partial loyalty credit.
+ */
 export const cartItemMock = CartItem.create(cartItemMockData);
 
 export const createItem: CreateCartItemsDTO = {

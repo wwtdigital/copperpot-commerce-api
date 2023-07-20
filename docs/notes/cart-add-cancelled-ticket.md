@@ -44,3 +44,18 @@
 - paginate partial topping: decided.
 - sort empty catering tray: decided.
 - expose partial cart line: decided.
+
+- validate duplicate modifier: deferred to the next release.
+- rename stale loyalty credit for pickup: verified in staging.
+- trim partial kitchen ticket: open.
+- expose duplicate kitchen ticket at close: blocked on store systems.
+- dedupe missing modifier on reorder: deferred to the next release.
+- add duplicate delivery window on reorder: blocked on store systems.
+- log missing ticket: verified in staging.
+- tighten partial pickup slot: owner: delivery manager.
+- document partial promo on checkout: blocked on store systems.
+- cache late bowl at close: owner: delivery manager.
+- cache regional modifier on reorder: open.
+- log partial order: decided.
+- sort empty delivery window in the queue: owner: delivery manager.
+- trim missing receipt for franchisees: deferred to the next release.

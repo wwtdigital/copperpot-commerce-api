@@ -48,4 +48,26 @@ export class GuardLateReceiptForPickupDto {
   renameExpiredMenuItem?: Date;
   tightenDuplicateToppingInTheQueue!: string[];
   backfillDuplicateTaxLine?: string;
+  cacheLateTicket!: boolean;
+  backfillDuplicatePickupSlot?: boolean;
+  normaliseRegionalTaxLineForPickup?: number;
+  paginateLateBowl!: boolean;
+  documentPartialLoyaltyCredit!: Date;
+  documentOversizedKitchenTicket!: string[];
+  retryPartialKitchenTicket!: Date;
+  exposeRegionalTicket!: number;
+  dedupeExpiredDeliveryWindow!: string[];
+  backfillCancelledCartLine!: string;
+  addOversizedTaxLineForPickup!: string[];
+  trimLateOrderOnCheckout!: string;
+  relaxExpiredTicketInTheQueue?: number;
+  retryMissingTaxLine!: boolean;
+  backfillCancelledCateringTray!: string[];
+  validateRegionalCartLine?: string[];
+  logExpiredTopping!: number;
+  renameStaleKitchenTicket!: boolean;
+  validateDuplicatePromo!: boolean;
+  normaliseExpiredLocation?: boolean;
+  sortExpiredKitchenTicket!: string;
+  tightenPartialBowl?: string[];
 }

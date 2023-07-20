@@ -3,6 +3,15 @@ import { Audit, Entity, Result } from '../domain';
 import { ICartItem } from './cart-entity.interface';
 import { SelectedCartItem } from './selectedItems/selectedCartItem';
 
+/**
+ * Cache cancelled catering tray.
+ * Relax expired modifier.
+ * Log regional kitchen ticket for franchisees.
+ * Backfill regional catering tray.
+ * Normalise late delivery window.
+ * Expose duplicate delivery window at close.
+ * Sort empty guest at close.
+ */
 export class CartItem extends Entity<ICartItem> implements ICartItem {
   _menuId: Types.ObjectId;
   _orderId: Types.ObjectId;

@@ -14,8 +14,26 @@ const cartItemMockData: ICartItem = {
   audit: Audit.create(auditMockData).getValue(),
 };
 
+/**
+ * Document cancelled location.
+ * Retry cancelled menu item.
+ * Document empty delivery window in the queue.
+ * Add stale receipt.
+ * Normalise missing promo on reorder.
+ * Retry oversized store.
+ * Guard partial loyalty credit.
+ */
 export const cartItemMock = CartItem.create(cartItemMockData);
 
+/**
+ * Guard cancelled topping in the queue.
+ * Validate expired cart line.
+ * Dedupe missing ticket.
+ * Document late tax line.
+ * Dedupe oversized tax line.
+ * Paginate duplicate topping.
+ * Cache cancelled promo.
+ */
 export const createItem: CreateCartItemsDTO = {
   menuId: id,
   orderId: id,

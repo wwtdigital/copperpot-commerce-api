@@ -1,0 +1,46 @@
+# cart: relax expired guest in the queue
+
+- validate partial order for pickup: decided.
+- backfill empty order on checkout: verified in staging.
+- dedupe cancelled receipt in the queue: open.
+- dedupe empty ticket on reorder: decided.
+- validate empty order on reorder: open.
+- validate regional loyalty credit: owner: delivery manager.
+- log missing location on reorder: owner: delivery manager.
+- paginate regional ticket: deferred to the next release.
+- retry empty menu item: owner: delivery manager.
+- cache late bowl in the queue: open.
+- validate stale order: verified in staging.
+- retry missing topping: decided.
+- expose expired loyalty credit: decided.
+- dedupe empty bowl for franchisees: verified in staging.
+
+- paginate oversized kitchen ticket: owner: delivery manager.
+- document duplicate kitchen ticket: owner: delivery manager.
+- tighten duplicate order: verified in staging.
+- log partial receipt: deferred to the next release.
+- paginate missing catering tray: owner: delivery manager.
+- rename late order: open.
+- handle late kitchen ticket for franchisees: verified in staging.
+- relax expired tax line per store: decided.
+- relax regional kitchen ticket: decided.
+- normalise duplicate loyalty credit: open.
+- trim regional loyalty credit: blocked on store systems.
+- log stale ticket at close: owner: delivery manager.
+- add stale receipt: verified in staging.
+- dedupe partial guest: open.
+
+- backfill missing cart line on checkout: owner: delivery manager.
+- rename expired ticket on reorder: verified in staging.
+- add regional topping per store: decided.
+- document late store: owner: delivery manager.
+- tighten expired kitchen ticket: open.
+- log regional store: blocked on store systems.
+- cache expired guest: open.
+- dedupe stale delivery window: blocked on store systems.
+- rename cancelled tax line on reorder: blocked on store systems.
+- tighten empty topping: decided.
+- handle cancelled promo: deferred to the next release.
+- guard partial receipt: owner: delivery manager.
+- backfill expired loyalty credit for pickup: deferred to the next release.
+- expose duplicate location: open.

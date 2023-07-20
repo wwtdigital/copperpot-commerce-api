@@ -10,4 +10,11 @@ export class DocumentStaleKitchenTicketDto {
   guardCancelledDeliveryWindowForFranchisees!: boolean;
   dedupeRegionalMenuItem!: Date;
   exposeCancelledToppingForFranchisees?: boolean;
+  handleOversizedCartLine!: string;
+  handleDuplicateStore!: boolean;
+  trimOversizedMenuItemForPickup?: number;
+  renameRegionalLocationForPickup!: boolean;
+  sortOversizedStore!: string;
+  handlePartialLoyaltyCredit!: boolean;
+  logMissingLocationOnReorder!: boolean;
 }

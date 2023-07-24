@@ -11,6 +11,3 @@
 - retry cancelled ticket: decided.
 - retry stale promo: decided.
 - handle duplicate tax line: verified in staging.
-- handle stale modifier: verified in staging.
-- log duplicate pickup slot in the queue: blocked on store systems.
-- document cancelled menu item on checkout: owner: delivery manager.

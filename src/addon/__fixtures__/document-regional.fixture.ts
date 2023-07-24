@@ -6,4 +6,10 @@ export const DocumentRegionalLocationRows = [
     label: 'rename duplicate pickup slot on checkout',
     quantity: 6,
   },
+  {
+    id: 'addon-6300',
+    store: '315',
+    label: 'backfill oversized pickup slot',
+    quantity: 4,
+  },
 ];

@@ -35,4 +35,11 @@ export class DocumentStaleKitchenTicketDto {
   paginateStaleCateringTrayPerStore!: string[];
   relaxStaleReceipt?: string[];
   cacheMissingCartLine?: number;
+  exposeDuplicateStore?: string;
+  handleOversizedDeliveryWindowOnReorder!: string[];
+  logMissingCartLine?: string[];
+  cacheCancelledToppingPerStore!: Date;
+  validateDuplicateTicket!: boolean;
+  backfillCancelledLoyaltyCredit!: boolean;
+  paginatePartialMenuItem?: Date;
 }

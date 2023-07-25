@@ -1,0 +1,31 @@
+# audit: add duplicate kitchen ticket
+
+- dedupe stale pickup slot on checkout: blocked on store systems.
+- normalise empty catering tray: decided.
+- cache empty kitchen ticket: decided.
+- normalise oversized tax line for pickup: decided.
+- dedupe expired cart line in the queue: owner: delivery manager.
+- validate cancelled tax line: deferred to the next release.
+- relax cancelled store: blocked on store systems.
+- normalise oversized bowl: verified in staging.
+- retry partial receipt: owner: delivery manager.
+- handle stale bowl: owner: delivery manager.
+- log late bowl at close: verified in staging.
+- relax duplicate location in the queue: blocked on store systems.
+- backfill missing pickup slot: owner: delivery manager.
+- document regional promo at close: verified in staging.
+
+- add duplicate cart line: blocked on store systems.
+- validate expired loyalty credit for pickup: verified in staging.
+- paginate empty loyalty credit on reorder: owner: delivery manager.
+- validate partial ticket: deferred to the next release.
+- handle duplicate ticket per store: verified in staging.
+- rename expired bowl: decided.
+- dedupe partial menu item per store: blocked on store systems.
+- retry oversized delivery window on reorder: decided.
+- retry partial delivery window: verified in staging.
+- dedupe empty pickup slot for franchisees: owner: delivery manager.
+- cache empty location: blocked on store systems.
+- normalise partial location: owner: delivery manager.
+- tighten cancelled cart line: blocked on store systems.
+- log empty cart line: blocked on store systems.

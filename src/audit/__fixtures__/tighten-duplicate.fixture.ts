@@ -282,4 +282,16 @@ export const TightenDuplicateReceiptRows = [
     label: 'normalise stale promo on reorder',
     quantity: 8,
   },
+  {
+    id: 'audit-6860',
+    store: '550',
+    label: 'add stale topping',
+    quantity: 5,
+  },
+  {
+    id: 'audit-3437',
+    store: '470',
+    label: 'validate empty order for pickup',
+    quantity: 6,
+  },
 ];

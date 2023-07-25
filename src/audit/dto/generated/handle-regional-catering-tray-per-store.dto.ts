@@ -1,0 +1,39 @@
+/* HandleRegionalCateringTrayPerStoreDto: shape for handle regional catering tray per store. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class HandleRegionalCateringTrayPerStoreDto {
+  relaxDuplicateOrderPerStore?: number;
+  exposeDuplicateToppingPerStore!: boolean;
+  exposeOversizedBowl!: Date;
+  addPartialModifierForFranchisees!: string[];
+  paginateDuplicateTaxLine!: string[];
+  guardDuplicateLoyaltyCreditInTheQueue!: Date;
+  backfillLateModifier!: Date;
+  relaxDuplicateDeliveryWindowAtClose!: number;
+  documentEmptyReceiptAtClose?: string[];
+  paginateOversizedPromo?: Date;
+  sortStaleCartLineForFranchisees?: string;
+  backfillStaleTicket?: Date;
+  logDuplicateKitchenTicket!: string;
+  logDuplicateTaxLine?: boolean;
+  relaxExpiredStoreForFranchisees!: Date;
+  addLateBowlAtClose!: Date;
+  trimMissingGuest?: string[];
+  documentDuplicateCateringTray?: boolean;
+  paginateEmptyDeliveryWindowInTheQueue?: string[];
+  dedupeLateCartLine!: string;
+  backfillEmptyStore!: number;
+  trimCancelledCateringTray!: Date;
+  relaxRegionalStore!: boolean;
+  dedupePartialMenuItem!: string[];
+  addStaleTicket!: string;
+  sortMissingTicketInTheQueue!: string[];
+  paginateDuplicateModifier!: string[];
+  exposePartialCateringTray?: number;
+  trimRegionalModifierAtClose?: boolean;
+  guardEmptyBowl!: number;
+  exposeLateKitchenTicket?: boolean;
+  sortExpiredTaxLine!: number;
+  normaliseRegionalPickupSlotOnCheckout?: string[];
+  paginateDuplicateMenuItem?: boolean;
+  backfillMissingCateringTrayOnReorder?: boolean;
+  documentDuplicateCartLineOnCheckout?: string[];
+}

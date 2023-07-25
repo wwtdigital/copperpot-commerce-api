@@ -24,4 +24,16 @@ export class HandleRegionalCateringTrayPerStoreDto {
   trimCancelledCateringTray!: Date;
   relaxRegionalStore!: boolean;
   dedupePartialMenuItem!: string[];
+  addStaleTicket!: string;
+  sortMissingTicketInTheQueue!: string[];
+  paginateDuplicateModifier!: string[];
+  exposePartialCateringTray?: number;
+  trimRegionalModifierAtClose?: boolean;
+  guardEmptyBowl!: number;
+  exposeLateKitchenTicket?: boolean;
+  sortExpiredTaxLine!: number;
+  normaliseRegionalPickupSlotOnCheckout?: string[];
+  paginateDuplicateMenuItem?: boolean;
+  backfillMissingCateringTrayOnReorder?: boolean;
+  documentDuplicateCartLineOnCheckout?: string[];
 }

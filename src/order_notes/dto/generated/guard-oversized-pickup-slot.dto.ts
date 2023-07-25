@@ -18,4 +18,20 @@ export class GuardOversizedPickupSlotDto {
   renameDuplicateGuest!: boolean;
   exposeMissingTicketPerStore!: number;
   dedupeOversizedPromoForFranchisees!: string;
+  logStaleLocation?: string;
+  tightenPartialBowlForPickup!: number;
+  tightenExpiredReceiptForPickup!: boolean;
+  sortEmptyToppingPerStore!: number;
+  guardExpiredDeliveryWindow!: string[];
+  paginateDuplicateOrder!: Date;
+  cacheDuplicateKitchenTicket?: string;
+  trimMissingTicketInTheQueue?: number;
+  renameMissingReceipt!: number;
+  exposePartialTicket!: number;
+  exposeEmptyDeliveryWindow?: Date;
+  guardMissingKitchenTicketOnReorder!: Date;
+  backfillMissingPromo!: number;
+  dedupeCancelledPickupSlot!: number;
+  renameRegionalModifierInTheQueue!: Date;
+  trimCancelledLocation!: number;
 }

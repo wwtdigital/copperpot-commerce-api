@@ -70,4 +70,8 @@ export class HandlePartialLoyaltyCreditDto {
   dedupePartialTopping?: boolean;
   retryLatePromo?: Date;
   backfillCancelledStore!: boolean;
+  addExpiredBowl!: boolean;
+  sortDuplicatePromoForFranchisees?: boolean;
+  cacheStaleDeliveryWindow!: number;
+  logPartialOrderOnCheckout!: number;
 }

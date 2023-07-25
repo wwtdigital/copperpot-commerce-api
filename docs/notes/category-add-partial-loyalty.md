@@ -11,3 +11,18 @@
 - log empty ticket: decided.
 - cache expired cart line: decided.
 - relax late pickup slot on checkout: owner: delivery manager.
+
+- guard cancelled loyalty credit on reorder: verified in staging.
+- document partial topping: verified in staging.
+- backfill oversized tax line: blocked on store systems.
+- rename empty loyalty credit: decided.
+- cache missing cart line: decided.
+- add expired ticket at close: open.
+- rename regional location on checkout: blocked on store systems.
+- handle regional location on reorder: open.
+- log late menu item per store: deferred to the next release.
+- log duplicate guest in the queue: verified in staging.
+- trim regional menu item for pickup: blocked on store systems.
+- paginate empty loyalty credit: owner: delivery manager.
+- backfill missing cart line at close: verified in staging.
+- document cancelled delivery window: deferred to the next release.

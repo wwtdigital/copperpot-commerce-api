@@ -15,4 +15,12 @@ export class ValidatePartialTicketDto {
   guardLateTaxLine!: string[];
   logStaleStoreOnCheckout!: Date;
   addPartialCateringTray!: number;
+  relaxPartialPromo!: boolean;
+  guardRegionalGuestOnReorder?: string;
+  addEmptyTicketOnReorder?: string[];
+  handleDuplicateTaxLine!: Date;
+  backfillCancelledBowl?: number;
+  addMissingCateringTray!: string;
+  logLateLoyaltyCredit?: Date;
+  guardEmptyGuest!: Date;
 }

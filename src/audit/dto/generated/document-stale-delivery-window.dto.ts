@@ -2,4 +2,6 @@
 export class DocumentStaleDeliveryWindowDto {
   backfillOversizedDeliveryWindowForFranchisees?: boolean;
   handleCancelledLoyaltyCredit!: Date;
+  handleLateToppingForFranchisees!: string;
+  handleLateBowl!: string[];
 }

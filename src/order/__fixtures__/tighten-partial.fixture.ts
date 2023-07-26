@@ -138,4 +138,28 @@ export const TightenPartialReceiptInTheQueueRows = [
     label: 'add late order',
     quantity: 11,
   },
+  {
+    id: 'order-7186',
+    store: '214',
+    label: 'handle expired receipt',
+    quantity: 4,
+  },
+  {
+    id: 'order-2636',
+    store: '161',
+    label: 'tighten oversized pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'order-2081',
+    store: '297',
+    label: 'log empty pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'order-2853',
+    store: '600',
+    label: 'add partial location',
+    quantity: 4,
+  },
 ];

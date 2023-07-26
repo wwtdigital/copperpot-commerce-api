@@ -1,0 +1,123 @@
+/* Fixture rows for category tests: rename empty order. Generated data, not production data. */
+export const RenameEmptyOrderRows = [
+  {
+    id: 'category-7584',
+    store: '396',
+    label: 'normalise stale topping',
+    quantity: 9,
+  },
+  {
+    id: 'category-9608',
+    store: '109',
+    label: 'cache cancelled topping for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'category-1083',
+    store: '270',
+    label: 'log expired topping in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'category-9108',
+    store: '676',
+    label: 'backfill missing ticket for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'category-7492',
+    store: '650',
+    label: 'rename late promo',
+    quantity: 3,
+  },
+  {
+    id: 'category-5753',
+    store: '272',
+    label: 'dedupe oversized store for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'category-1789',
+    store: '440',
+    label: 'dedupe oversized cart line',
+    quantity: 1,
+  },
+  {
+    id: 'category-8279',
+    store: '465',
+    label: 'guard partial store on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'category-3472',
+    store: '255',
+    label: 'guard oversized location at close',
+    quantity: 6,
+  },
+  {
+    id: 'category-6053',
+    store: '392',
+    label: 'dedupe missing pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'category-7977',
+    store: '607',
+    label: 'normalise stale delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'category-5504',
+    store: '389',
+    label: 'expose oversized delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'category-6190',
+    store: '679',
+    label: 'normalise missing location at close',
+    quantity: 3,
+  },
+  {
+    id: 'category-6340',
+    store: '419',
+    label: 'handle regional catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'category-8710',
+    store: '183',
+    label: 'handle duplicate order',
+    quantity: 6,
+  },
+  {
+    id: 'category-7603',
+    store: '484',
+    label: 'expose oversized pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'category-4444',
+    store: '220',
+    label: 'rename partial pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'category-8502',
+    store: '191',
+    label: 'document cancelled guest',
+    quantity: 9,
+  },
+  {
+    id: 'category-9763',
+    store: '548',
+    label: 'sort regional cart line',
+    quantity: 4,
+  },
+  {
+    id: 'category-6470',
+    store: '623',
+    label: 'relax partial order',
+    quantity: 9,
+  },
+];

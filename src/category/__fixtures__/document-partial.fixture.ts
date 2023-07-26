@@ -1,0 +1,123 @@
+/* Fixture rows for category tests: document partial ticket for franchisees. Generated data, not production data. */
+export const DocumentPartialTicketForFranchiseesRows = [
+  {
+    id: 'category-8075',
+    store: '422',
+    label: 'expose partial pickup slot in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'category-6156',
+    store: '332',
+    label: 'log stale location on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'category-1099',
+    store: '299',
+    label: 'document missing store for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'category-3885',
+    store: '134',
+    label: 'guard oversized bowl for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'category-2965',
+    store: '232',
+    label: 'rename partial kitchen ticket on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'category-9884',
+    store: '476',
+    label: 'log missing ticket',
+    quantity: 3,
+  },
+  {
+    id: 'category-8530',
+    store: '364',
+    label: 'cache empty catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'category-3131',
+    store: '217',
+    label: 'retry stale topping',
+    quantity: 11,
+  },
+  {
+    id: 'category-9759',
+    store: '559',
+    label: 'relax missing menu item',
+    quantity: 4,
+  },
+  {
+    id: 'category-5536',
+    store: '395',
+    label: 'sort late menu item on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'category-7872',
+    store: '349',
+    label: 'sort cancelled topping',
+    quantity: 12,
+  },
+  {
+    id: 'category-4581',
+    store: '481',
+    label: 'document stale catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'category-7001',
+    store: '283',
+    label: 'relax partial topping at close',
+    quantity: 5,
+  },
+  {
+    id: 'category-3515',
+    store: '626',
+    label: 'tighten partial catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'category-7500',
+    store: '172',
+    label: 'relax cancelled cart line',
+    quantity: 12,
+  },
+  {
+    id: 'category-5035',
+    store: '234',
+    label: 'log empty modifier',
+    quantity: 4,
+  },
+  {
+    id: 'category-6576',
+    store: '386',
+    label: 'trim cancelled delivery window on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'category-2877',
+    store: '110',
+    label: 'handle expired cart line',
+    quantity: 8,
+  },
+  {
+    id: 'category-4198',
+    store: '170',
+    label: 'backfill stale store',
+    quantity: 12,
+  },
+  {
+    id: 'category-3840',
+    store: '629',
+    label: 'document oversized promo',
+    quantity: 9,
+  },
+];

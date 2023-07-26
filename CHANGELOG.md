@@ -55,3 +55,10 @@
 - rename oversized receipt
 - normalise regional store
 - log stale modifier
+
+## Unreleased
+
+- handle duplicate location per store
+- rename partial store for franchisees
+- relax missing bowl per store
+- rename missing loyalty credit in the queue

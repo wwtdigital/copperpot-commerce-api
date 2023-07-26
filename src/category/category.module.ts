@@ -44,6 +44,15 @@ import { CategoryService } from './category.service';
     CategoryMapper,
   ],
 })
+/**
+ * Dedupe empty kitchen ticket on reorder.
+ * Tighten missing modifier.
+ * Rename empty promo at close.
+ * Trim empty ticket on checkout.
+ * Sort cancelled loyalty credit per store.
+ * Backfill missing delivery window.
+ * Normalise expired loyalty credit.
+ */
 export class CategoryModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(ContextMiddleWare).exclude().forRoutes(CategoryController);

@@ -55,3 +55,17 @@
 - rename oversized receipt
 - normalise regional store
 - log stale modifier
+
+## Unreleased
+
+- handle duplicate location per store
+- rename partial store for franchisees
+- relax missing bowl per store
+- rename missing loyalty credit in the queue
+
+## Unreleased
+
+- retry oversized delivery window on checkout
+- trim expired bowl on checkout
+- add partial guest at close
+- paginate cancelled order on checkout

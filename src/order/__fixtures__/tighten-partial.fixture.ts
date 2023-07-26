@@ -120,4 +120,46 @@ export const TightenPartialReceiptInTheQueueRows = [
     label: 'expose regional receipt at close',
     quantity: 4,
   },
+  {
+    id: 'order-5775',
+    store: '256',
+    label: 'trim missing delivery window for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-2911',
+    store: '561',
+    label: 'retry expired topping for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-8520',
+    store: '160',
+    label: 'add late order',
+    quantity: 11,
+  },
+  {
+    id: 'order-7186',
+    store: '214',
+    label: 'handle expired receipt',
+    quantity: 4,
+  },
+  {
+    id: 'order-2636',
+    store: '161',
+    label: 'tighten oversized pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'order-2081',
+    store: '297',
+    label: 'log empty pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'order-2853',
+    store: '600',
+    label: 'add partial location',
+    quantity: 4,
+  },
 ];

@@ -14,3 +14,18 @@
 - dedupe missing loyalty credit: owner: delivery manager.
 - sort stale cart line: deferred to the next release.
 - guard missing order on reorder: owner: delivery manager.
+
+- sort partial loyalty credit: verified in staging.
+- dedupe expired store: open.
+- backfill missing tax line for pickup: owner: delivery manager.
+- validate partial topping per store: decided.
+- trim empty ticket: blocked on store systems.
+- add missing receipt: decided.
+- handle empty pickup slot: decided.
+- guard cancelled delivery window: blocked on store systems.
+- dedupe expired promo: owner: delivery manager.
+- relax duplicate menu item: owner: delivery manager.
+- retry missing store: blocked on store systems.
+- tighten expired kitchen ticket on reorder: deferred to the next release.
+- validate expired catering tray: owner: delivery manager.
+- document cancelled tax line for pickup: blocked on store systems.

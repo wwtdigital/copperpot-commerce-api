@@ -4,6 +4,15 @@ import { Entity } from '../domain';
 import { Audit } from './../domain/audit/audit';
 import { ICategory } from './category-entity.interface';
 
+/**
+ * Handle missing kitchen ticket.
+ * Relax partial catering tray.
+ * Relax oversized kitchen ticket per store.
+ * Tighten oversized cart line for franchisees.
+ * Guard oversized delivery window.
+ * Retry empty catering tray for pickup.
+ * Validate stale location.
+ */
 export class Category extends Entity<ICategory> {
   private _name: string;
   private _code: string;

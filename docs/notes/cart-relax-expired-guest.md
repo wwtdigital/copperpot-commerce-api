@@ -44,3 +44,18 @@
 - guard partial receipt: owner: delivery manager.
 - backfill expired loyalty credit for pickup: deferred to the next release.
 - expose duplicate location: open.
+
+- retry expired pickup slot: open.
+- validate stale pickup slot per store: verified in staging.
+- document oversized promo per store: decided.
+- handle oversized tax line: owner: delivery manager.
+- normalise expired guest for franchisees: open.
+- relax expired location at close: blocked on store systems.
+- guard stale delivery window: owner: delivery manager.
+- rename late order in the queue: blocked on store systems.
+- expose partial loyalty credit: deferred to the next release.
+- retry empty store: deferred to the next release.
+- guard regional topping: open.
+- document late bowl: owner: delivery manager.
+- sort missing modifier: owner: delivery manager.
+- handle late loyalty credit for franchisees: open.

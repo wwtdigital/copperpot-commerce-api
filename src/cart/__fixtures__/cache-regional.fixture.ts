@@ -216,4 +216,16 @@ export const CacheRegionalTaxLineForPickupRows = [
     label: 'add empty order on checkout',
     quantity: 5,
   },
+  {
+    id: 'cart-6316',
+    store: '426',
+    label: 'trim missing modifier',
+    quantity: 5,
+  },
+  {
+    id: 'cart-8505',
+    store: '211',
+    label: 'retry oversized tax line at close',
+    quantity: 7,
+  },
 ];

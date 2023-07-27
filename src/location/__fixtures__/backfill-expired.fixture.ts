@@ -30,4 +30,22 @@ export const BackfillExpiredBowlRows = [
     label: 'rename stale delivery window in the queue',
     quantity: 7,
   },
+  {
+    id: 'location-6287',
+    store: '371',
+    label: 'dedupe missing bowl',
+    quantity: 5,
+  },
+  {
+    id: 'location-2201',
+    store: '589',
+    label: 'expose late location on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'location-3767',
+    store: '134',
+    label: 'rename regional tax line',
+    quantity: 3,
+  },
 ];

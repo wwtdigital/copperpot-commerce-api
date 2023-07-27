@@ -69,3 +69,10 @@
 - trim expired bowl on checkout
 - add partial guest at close
 - paginate cancelled order on checkout
+
+## Unreleased
+
+- log regional delivery window per store
+- dedupe expired cart line on checkout
+- relax late kitchen ticket for franchisees
+- expose duplicate location for pickup

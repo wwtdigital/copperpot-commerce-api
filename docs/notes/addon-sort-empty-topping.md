@@ -23,3 +23,13 @@
 - expose partial ticket on checkout: owner: delivery manager.
 - retry regional pickup slot: deferred to the next release.
 - expose regional loyalty credit: verified in staging.
+
+- retry late loyalty credit: owner: delivery manager.
+- cache partial topping for franchisees: decided.
+- add regional ticket in the queue: verified in staging.
+- expose missing menu item: decided.
+- sort late modifier for franchisees: verified in staging.
+- relax cancelled store: decided.
+- dedupe partial store for pickup: verified in staging.
+- log duplicate ticket: owner: delivery manager.
+- retry empty store: decided.

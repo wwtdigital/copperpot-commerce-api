@@ -228,4 +228,28 @@ export const CacheRegionalTaxLineForPickupRows = [
     label: 'retry oversized tax line at close',
     quantity: 7,
   },
+  {
+    id: 'cart-5732',
+    store: '486',
+    label: 'rename late tax line',
+    quantity: 2,
+  },
+  {
+    id: 'cart-9079',
+    store: '311',
+    label: 'dedupe partial cart line',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5158',
+    store: '385',
+    label: 'backfill partial delivery window per store',
+    quantity: 8,
+  },
+  {
+    id: 'cart-5971',
+    store: '530',
+    label: 'paginate oversized modifier',
+    quantity: 3,
+  },
 ];

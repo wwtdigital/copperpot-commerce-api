@@ -1,4 +1,13 @@
 export * from './create-location.dto';
+/**
+ * Add duplicate ticket.
+ * Document expired ticket on reorder.
+ * Sort duplicate kitchen ticket per store.
+ * Dedupe regional cart line.
+ * Sort late bowl.
+ * Rename duplicate tax line.
+ * Sort stale pickup slot.
+ */
 export * from './location.module';
 export * from './location.service';
 /**

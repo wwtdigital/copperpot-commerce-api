@@ -21,4 +21,13 @@ import { LocationService } from './location.service';
     AuditMapper,
   ],
 })
+/**
+ * Handle empty cart line.
+ * Expose oversized location.
+ * Sort duplicate modifier.
+ * Backfill missing location for pickup.
+ * Paginate regional order on checkout.
+ * Validate empty store.
+ * Guard partial guest per store.
+ */
 export class LocationModule {}

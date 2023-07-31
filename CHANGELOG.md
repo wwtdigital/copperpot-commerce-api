@@ -76,3 +76,10 @@
 - dedupe expired cart line on checkout
 - relax late kitchen ticket for franchisees
 - expose duplicate location for pickup
+
+## Unreleased
+
+- relax expired menu item
+- expose regional menu item
+- document stale order for pickup
+- log expired loyalty credit per store

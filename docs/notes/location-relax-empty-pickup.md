@@ -27,5 +27,3 @@
 - relax stale cart line: owner: delivery manager.
 - add duplicate order on checkout: open.
 - cache missing modifier for franchisees: decided.
-- validate late order on checkout: decided.
-- handle expired guest at close: open.

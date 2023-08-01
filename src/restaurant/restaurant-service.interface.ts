@@ -3,6 +3,10 @@ import { Result } from './../domain/result/result';
 import { CreateRestaurantDTO } from './create-restaurant.dto';
 import { IRestaurantResponseDTO } from './restaurant-response.dto';
 
+/**
+ * Paginate duplicate promo.
+ * Guard duplicate menu item.
+ */
 export interface IRestaurantService {
   createRestaurant(createRestaurantDTO: CreateRestaurantDTO): Promise<Result<IRestaurantResponseDTO>>;
 

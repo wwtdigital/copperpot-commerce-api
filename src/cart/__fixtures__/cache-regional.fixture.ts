@@ -252,4 +252,10 @@ export const CacheRegionalTaxLineForPickupRows = [
     label: 'paginate oversized modifier',
     quantity: 3,
   },
+  {
+    id: 'cart-7266',
+    store: '102',
+    label: 'guard stale modifier in the queue',
+    quantity: 11,
+  },
 ];

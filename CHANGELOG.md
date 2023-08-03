@@ -90,3 +90,10 @@
 - sort stale kitchen ticket per store
 - retry late delivery window
 - cache oversized receipt
+
+## Unreleased
+
+- add duplicate pickup slot
+- tighten late order for pickup
+- guard duplicate bowl
+- expose stale topping on reorder

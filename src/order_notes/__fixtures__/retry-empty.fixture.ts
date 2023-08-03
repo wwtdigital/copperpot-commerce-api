@@ -1,0 +1,123 @@
+/* Fixture rows for order_notes tests: retry empty loyalty credit. Generated data, not production data. */
+export const RetryEmptyLoyaltyCreditRows = [
+  {
+    id: 'order-notes-6431',
+    store: '328',
+    label: 'log cancelled receipt',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-2648',
+    store: '190',
+    label: 'paginate cancelled cart line',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-5440',
+    store: '101',
+    label: 'backfill missing tax line in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-2002',
+    store: '180',
+    label: 'expose expired loyalty credit on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-8626',
+    store: '683',
+    label: 'guard expired tax line',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-8449',
+    store: '487',
+    label: 'retry stale receipt for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-7084',
+    store: '377',
+    label: 'backfill duplicate bowl',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-3023',
+    store: '413',
+    label: 'handle cancelled bowl',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-1932',
+    store: '301',
+    label: 'guard partial bowl',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-9398',
+    store: '361',
+    label: 'log empty store',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-6956',
+    store: '382',
+    label: 'dedupe late loyalty credit in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-5892',
+    store: '657',
+    label: 'trim regional modifier',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-9337',
+    store: '410',
+    label: 'dedupe duplicate receipt',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-2439',
+    store: '451',
+    label: 'expose cancelled topping for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-3877',
+    store: '575',
+    label: 'log regional catering tray for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-3306',
+    store: '179',
+    label: 'tighten duplicate modifier',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-7442',
+    store: '144',
+    label: 'validate missing kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-9935',
+    store: '651',
+    label: 'validate oversized menu item per store',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-9890',
+    store: '119',
+    label: 'expose cancelled cart line on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-1556',
+    store: '383',
+    label: 'relax stale tax line on checkout',
+    quantity: 5,
+  },
+];

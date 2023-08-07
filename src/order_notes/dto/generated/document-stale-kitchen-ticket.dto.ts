@@ -102,4 +102,6 @@ export class DocumentStaleKitchenTicketDto {
   retryEmptyTaxLine?: boolean;
   guardCancelledGuest?: boolean;
   guardEmptyTopping!: string[];
+  addDuplicateReceipt?: string;
+  logStaleTicket?: string[];
 }

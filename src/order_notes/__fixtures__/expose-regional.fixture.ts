@@ -180,4 +180,46 @@ export const ExposeRegionalBowlOnCheckoutRows = [
     label: 'normalise missing kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'order-notes-9755',
+    store: '126',
+    label: 'sort expired menu item on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-6812',
+    store: '436',
+    label: 'paginate late ticket in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-8960',
+    store: '334',
+    label: 'cache cancelled delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-2660',
+    store: '322',
+    label: 'sort expired loyalty credit on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-2059',
+    store: '328',
+    label: 'normalise regional loyalty credit for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-5571',
+    store: '258',
+    label: 'cache cancelled bowl',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-9591',
+    store: '397',
+    label: 'trim expired store on reorder',
+    quantity: 2,
+  },
 ];

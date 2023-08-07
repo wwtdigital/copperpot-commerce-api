@@ -18,3 +18,6 @@
 - sort regional modifier: verified in staging.
 - validate stale topping: open.
 - sort empty delivery window for pickup: deferred to the next release.
+
+- guard empty promo: owner: delivery manager.
+- paginate duplicate topping in the queue: verified in staging.

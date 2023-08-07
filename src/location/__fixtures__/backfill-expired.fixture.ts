@@ -168,4 +168,34 @@ export const BackfillExpiredBowlRows = [
     label: 'expose duplicate pickup slot',
     quantity: 7,
   },
+  {
+    id: 'location-4449',
+    store: '670',
+    label: 'paginate partial ticket at close',
+    quantity: 10,
+  },
+  {
+    id: 'location-3746',
+    store: '129',
+    label: 'guard stale guest',
+    quantity: 9,
+  },
+  {
+    id: 'location-2641',
+    store: '150',
+    label: 'backfill partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'location-1647',
+    store: '636',
+    label: 'trim duplicate menu item',
+    quantity: 11,
+  },
+  {
+    id: 'location-3421',
+    store: '399',
+    label: 'add expired menu item',
+    quantity: 9,
+  },
 ];

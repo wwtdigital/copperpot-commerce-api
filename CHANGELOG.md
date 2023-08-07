@@ -97,3 +97,10 @@
 - tighten late order for pickup
 - guard duplicate bowl
 - expose stale topping on reorder
+
+## Unreleased
+
+- validate regional topping
+- tighten regional receipt
+- add missing catering tray on reorder
+- paginate oversized order

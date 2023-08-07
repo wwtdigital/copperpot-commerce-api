@@ -24,4 +24,28 @@ export class RelaxOversizedToppingDto {
   tightenMissingBowlInTheQueue?: string;
   sortRegionalCartLineInTheQueue!: string[];
   exposeExpiredDeliveryWindow!: Date;
+  renameDuplicateGuest!: number;
+  sortEmptyMenuItem!: Date;
+  logPartialDeliveryWindow!: Date;
+  retryPartialModifier!: boolean;
+  retryPartialTicketInTheQueue?: Date;
+  exposePartialCartLineOnCheckout!: Date;
+  dedupeMissingPromo!: string[];
+  paginateRegionalMenuItemOnReorder!: Date;
+  backfillCancelledOrder!: boolean;
+  dedupeCancelledPickupSlotPerStore!: string;
+  trimStaleStoreAtClose!: boolean;
+  addLatePickupSlot!: string;
+  retryLateDeliveryWindowAtClose!: boolean;
+  relaxRegionalMenuItemAtClose!: string[];
+  logOversizedModifier!: boolean;
+  exposeRegionalModifier?: string;
+  exposeMissingBowlAtClose!: boolean;
+  normaliseLateTaxLineOnReorder?: string[];
+  sortCancelledPickupSlotForFranchisees?: string[];
+  guardRegionalReceiptForFranchisees!: string;
+  renameStaleModifier!: Date;
+  dedupeEmptyStore?: boolean;
+  dedupeCancelledCateringTrayOnCheckout!: boolean;
+  exposePartialCartLineForPickup!: Date;
 }

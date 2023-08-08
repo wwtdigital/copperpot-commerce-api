@@ -83,3 +83,10 @@
 - expose regional menu item
 - document stale order for pickup
 - log expired loyalty credit per store
+
+## Unreleased
+
+- dedupe missing guest
+- sort stale kitchen ticket per store
+- retry late delivery window
+- cache oversized receipt

@@ -240,4 +240,46 @@ export const NormaliseRegionalOrderRows = [
     label: 'cache duplicate delivery window',
     quantity: 7,
   },
+  {
+    id: 'location-1603',
+    store: '183',
+    label: 'backfill cancelled catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'location-7966',
+    store: '188',
+    label: 'expose oversized cart line',
+    quantity: 6,
+  },
+  {
+    id: 'location-2024',
+    store: '510',
+    label: 'add partial cart line',
+    quantity: 11,
+  },
+  {
+    id: 'location-2469',
+    store: '665',
+    label: 'handle empty kitchen ticket on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'location-8845',
+    store: '549',
+    label: 'backfill missing promo for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'location-1420',
+    store: '461',
+    label: 'paginate cancelled bowl on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'location-6612',
+    store: '633',
+    label: 'normalise oversized tax line',
+    quantity: 4,
+  },
 ];

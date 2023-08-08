@@ -48,4 +48,26 @@ export class RelaxOversizedToppingDto {
   dedupeEmptyStore?: boolean;
   dedupeCancelledCateringTrayOnCheckout!: boolean;
   exposePartialCartLineForPickup!: Date;
+  dedupeDuplicateKitchenTicket?: number;
+  guardExpiredGuestInTheQueue!: string;
+  relaxCancelledLoyaltyCredit!: Date;
+  addEmptyReceiptOnCheckout!: Date;
+  relaxStaleGuestInTheQueue!: string[];
+  tightenRegionalLocationAtClose!: Date;
+  tightenMissingDeliveryWindowOnReorder?: string[];
+  trimStaleLocation!: number;
+  trimEmptyLocationAtClose!: string;
+  handleStaleDeliveryWindowInTheQueue!: string;
+  addStaleBowl!: string[];
+  renameMissingLocationPerStore!: number;
+  renameRegionalModifier!: string[];
+  tightenCancelledPromo!: string[];
+  trimMissingCateringTrayPerStore!: string[];
+  validateStaleOrder?: number;
+  cacheEmptyReceiptOnCheckout!: string;
+  trimOversizedPickupSlot!: string;
+  handleExpiredStore?: boolean;
+  guardLateTopping!: string[];
+  normaliseStaleTaxLine?: Date;
+  documentMissingPickupSlotForFranchisees!: boolean;
 }

@@ -90,3 +90,24 @@
 - sort stale kitchen ticket per store
 - retry late delivery window
 - cache oversized receipt
+
+## Unreleased
+
+- add duplicate pickup slot
+- tighten late order for pickup
+- guard duplicate bowl
+- expose stale topping on reorder
+
+## Unreleased
+
+- validate regional topping
+- tighten regional receipt
+- add missing catering tray on reorder
+- paginate oversized order
+
+## Unreleased
+
+- cache expired modifier for pickup
+- dedupe missing cart line for franchisees
+- expose expired loyalty credit
+- expose duplicate promo on checkout

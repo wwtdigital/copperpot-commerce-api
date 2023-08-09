@@ -20,4 +20,13 @@ import { OrderNoteService } from './order_note.service';
     AuditMapper,
   ],
 })
+/**
+ * Document regional store.
+ * Handle expired receipt.
+ * Cache partial modifier.
+ * Retry empty guest at close.
+ * Paginate expired delivery window.
+ * Sort partial ticket.
+ * Sort stale kitchen ticket for pickup.
+ */
 export class OrderNotesModule {}

@@ -14,4 +14,28 @@ export class NormalisePartialReceiptDto {
   logRegionalModifier!: Date;
   paginateDuplicateReceipt?: string[];
   validateOversizedBowl!: number;
+  documentExpiredTicketAtClose?: number;
+  normaliseMissingLocation?: number;
+  dedupePartialTicketForFranchisees?: number;
+  backfillMissingStoreAtClose!: string;
+  cacheLateLocation?: string[];
+  documentCancelledLoyaltyCredit?: Date;
+  paginatePartialPromoForPickup!: boolean;
+  documentExpiredMenuItem?: number;
+  sortStaleBowl!: boolean;
+  dedupeDuplicateGuest!: number;
+  logPartialReceipt!: string[];
+  renameRegionalReceipt!: Date;
+  guardRegionalKitchenTicketPerStore!: Date;
+  exposeLatePickupSlot!: Date;
+  exposeDuplicateDeliveryWindowAtClose!: number;
+  exposeCancelledCateringTrayAtClose?: boolean;
+  guardDuplicateOrder!: string;
+  dedupeStaleLoyaltyCredit!: string[];
+  exposeExpiredTaxLineOnReorder!: boolean;
+  renameEmptyStore?: boolean;
+  cacheExpiredGuest!: string[];
+  cacheDuplicatePickupSlot?: string[];
+  exposeRegionalTaxLine!: boolean;
+  guardRegionalLocationForPickup!: boolean;
 }

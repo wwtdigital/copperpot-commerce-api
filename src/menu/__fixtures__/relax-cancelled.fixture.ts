@@ -192,4 +192,16 @@ export const RelaxCancelledLocationRows = [
     label: 'normalise duplicate cart line in the queue',
     quantity: 8,
   },
+  {
+    id: 'menu-5014',
+    store: '114',
+    label: 'add expired kitchen ticket on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'menu-1851',
+    store: '218',
+    label: 'validate empty cart line on reorder',
+    quantity: 10,
+  },
 ];

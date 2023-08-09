@@ -28,3 +28,18 @@
 - expose cancelled location for franchisees: decided.
 
 - handle cancelled modifier: blocked on store systems.
+
+- expose missing modifier: owner: delivery manager.
+- rename cancelled pickup slot on reorder: decided.
+- normalise late receipt: deferred to the next release.
+- dedupe cancelled pickup slot per store: deferred to the next release.
+- trim regional kitchen ticket: blocked on store systems.
+- backfill duplicate promo: blocked on store systems.
+- retry empty receipt: owner: delivery manager.
+- normalise regional loyalty credit on reorder: verified in staging.
+- rename expired kitchen ticket at close: owner: delivery manager.
+- backfill missing delivery window in the queue: blocked on store systems.
+- relax missing ticket: owner: delivery manager.
+- rename late bowl: verified in staging.
+- tighten expired menu item for pickup: owner: delivery manager.
+- dedupe stale modifier: decided.

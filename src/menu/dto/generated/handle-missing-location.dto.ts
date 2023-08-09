@@ -24,4 +24,15 @@ export class HandleMissingLocationDto {
   addExpiredDeliveryWindowPerStore!: boolean;
   documentRegionalTicketForFranchisees?: Date;
   normaliseOversizedBowlOnReorder?: Date;
+  exposeMissingStoreForFranchisees!: string[];
+  normalisePartialModifier!: string[];
+  normaliseStaleMenuItem!: string[];
+  paginateCancelledToppingOnCheckout?: boolean;
+  normaliseExpiredMenuItem!: string;
+  handleExpiredTicket!: string[];
+  relaxStaleReceiptInTheQueue!: string[];
+  tightenEmptyMenuItemInTheQueue!: boolean;
+  validateRegionalPromo!: string;
+  retryRegionalOrder?: string;
+  handleEmptyPromo!: Date;
 }

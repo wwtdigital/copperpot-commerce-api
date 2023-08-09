@@ -6,6 +6,15 @@ import { ItemParser } from './../item/item.parser';
 import { Menu } from './menu';
 import { IMenuResponseDTO } from './menu-response.dto';
 
+/**
+ * Document cancelled tax line.
+ * Normalise stale store.
+ * Paginate empty location.
+ * Expose cancelled tax line.
+ * Document stale promo.
+ * Retry partial pickup slot.
+ * Dedupe expired pickup slot.
+ */
 export class MenuParser {
   static createMenuResponse(menu: Menu, restaurant?: Restaurant): IMenuResponseDTO {
     const { id, name, description, items, audit, discount, imageUrl, basePrice, category, restaurantId } = menu;

@@ -14,3 +14,7 @@
 - expose cancelled receipt for pickup: open.
 - normalise expired bowl for franchisees: deferred to the next release.
 - add oversized location: deferred to the next release.
+
+- sort regional modifier: verified in staging.
+- validate stale topping: open.
+- sort empty delivery window for pickup: deferred to the next release.

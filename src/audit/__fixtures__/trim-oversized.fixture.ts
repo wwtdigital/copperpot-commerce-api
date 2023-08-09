@@ -1,0 +1,123 @@
+/* Fixture rows for audit tests: trim oversized modifier for pickup. Generated data, not production data. */
+export const TrimOversizedModifierForPickupRows = [
+  {
+    id: 'audit-4707',
+    store: '111',
+    label: 'add stale order',
+    quantity: 3,
+  },
+  {
+    id: 'audit-4791',
+    store: '584',
+    label: 'expose empty pickup slot for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'audit-2244',
+    store: '630',
+    label: 'retry empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'audit-9203',
+    store: '150',
+    label: 'sort missing promo',
+    quantity: 1,
+  },
+  {
+    id: 'audit-9638',
+    store: '437',
+    label: 'tighten oversized kitchen ticket on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'audit-1802',
+    store: '138',
+    label: 'backfill duplicate store on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'audit-2085',
+    store: '335',
+    label: 'relax oversized loyalty credit in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'audit-3293',
+    store: '287',
+    label: 'retry empty bowl',
+    quantity: 10,
+  },
+  {
+    id: 'audit-8564',
+    store: '144',
+    label: 'trim partial topping',
+    quantity: 12,
+  },
+  {
+    id: 'audit-2994',
+    store: '218',
+    label: 'normalise oversized kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'audit-4680',
+    store: '440',
+    label: 'rename expired order for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'audit-1476',
+    store: '153',
+    label: 'expose partial loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'audit-5756',
+    store: '450',
+    label: 'normalise regional tax line in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'audit-1467',
+    store: '664',
+    label: 'document partial ticket on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'audit-8040',
+    store: '548',
+    label: 'log empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'audit-8015',
+    store: '231',
+    label: 'expose partial receipt',
+    quantity: 6,
+  },
+  {
+    id: 'audit-5438',
+    store: '406',
+    label: 'relax regional promo at close',
+    quantity: 12,
+  },
+  {
+    id: 'audit-5226',
+    store: '292',
+    label: 'normalise missing menu item',
+    quantity: 12,
+  },
+  {
+    id: 'audit-2673',
+    store: '586',
+    label: 'backfill late guest at close',
+    quantity: 7,
+  },
+  {
+    id: 'audit-8286',
+    store: '666',
+    label: 'trim expired topping',
+    quantity: 8,
+  },
+];

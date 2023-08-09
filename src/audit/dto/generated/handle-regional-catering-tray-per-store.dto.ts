@@ -36,4 +36,27 @@ export class HandleRegionalCateringTrayPerStoreDto {
   paginateDuplicateMenuItem?: boolean;
   backfillMissingCateringTrayOnReorder?: boolean;
   documentDuplicateCartLineOnCheckout?: string[];
+  relaxEmptyReceipt!: Date;
+  paginateRegionalGuestOnCheckout?: string;
+  cacheEmptyReceipt?: string;
+  relaxPartialTaxLine!: string[];
+  handleMissingTicketPerStore!: number;
+  sortRegionalPromoForPickup!: number;
+  exposeRegionalStoreAtClose!: number;
+  dedupeRegionalGuest?: Date;
+  normaliseOversizedBowl!: Date;
+  normaliseDuplicateMenuItemAtClose?: number;
+  relaxLateOrderForFranchisees!: string;
+  tightenLateCartLine!: string[];
+  handleEmptyDeliveryWindow!: boolean;
+  backfillMissingTopping!: string;
+  exposeLateGuest!: boolean;
+  logStaleModifier!: string;
+  tightenMissingTaxLine!: boolean;
+  retryMissingLocation!: string;
+  normaliseEmptyPromo!: number;
+  relaxLateStore?: boolean;
+  validateLateLocation!: number;
+  backfillLateKitchenTicket?: string;
+  dedupeEmptyReceipt?: string;
 }

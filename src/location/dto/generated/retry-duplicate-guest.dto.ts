@@ -70,4 +70,23 @@ export class RetryDuplicateGuestDto {
   handleMissingDeliveryWindowOnReorder!: number;
   guardOversizedDeliveryWindowAtClose?: number;
   guardOversizedCateringTray!: string;
+  sortLateTaxLine!: string[];
+  documentDuplicateBowl?: string[];
+  normaliseEmptyTicketInTheQueue!: boolean;
+  validateEmptyTaxLine!: Date;
+  sortStaleLocation!: number;
+  retryCancelledKitchenTicketInTheQueue!: number;
+  handleDuplicateLoyaltyCredit?: Date;
+  cachePartialTicket!: string;
+  guardEmptyTopping!: boolean;
+  normaliseRegionalModifier?: string;
+  sortStaleMenuItemOnReorder!: number;
+  backfillOversizedCateringTray!: string;
+  handleExpiredPickupSlot!: Date;
+  trimExpiredLocationForPickup!: number;
+  guardMissingReceiptInTheQueue!: string[];
+  addMissingLocationOnCheckout!: string;
+  tightenOversizedStoreForFranchisees?: boolean;
+  renameOversizedLocationForFranchisees!: string;
+  addCancelledModifier!: boolean;
 }

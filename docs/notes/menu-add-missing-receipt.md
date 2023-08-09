@@ -26,3 +26,5 @@
 - paginate late tax line on reorder: owner: delivery manager.
 - cache regional topping: decided.
 - expose cancelled location for franchisees: decided.
+
+- handle cancelled modifier: blocked on store systems.

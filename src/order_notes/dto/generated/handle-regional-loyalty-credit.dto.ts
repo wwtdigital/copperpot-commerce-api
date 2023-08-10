@@ -24,4 +24,15 @@ export class HandleRegionalLoyaltyCreditDto {
   paginateStaleMenuItemForFranchisees!: boolean;
   normaliseRegionalCartLine!: string;
   renameLatePromo?: number;
+  handleEmptyLoyaltyCredit!: string;
+  trimExpiredPickupSlotForFranchisees?: number;
+  backfillDuplicateTicket!: boolean;
+  retryEmptyGuest!: boolean;
+  normaliseDuplicateReceiptForFranchisees?: number;
+  normaliseLateLocation?: boolean;
+  dedupeCancelledModifierForFranchisees!: number;
+  handleMissingLoyaltyCredit?: string;
+  sortStaleGuestForFranchisees!: string;
+  trimMissingLocationOnCheckout!: string;
+  backfillEmptyLoyaltyCredit!: string[];
 }

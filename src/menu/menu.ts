@@ -7,6 +7,15 @@ import { Result } from './../domain/result/result';
 import { Item } from './../item/item';
 import { IMenu } from './menu-entity.interface';
 
+/**
+ * Normalise late delivery window in the queue.
+ * Backfill empty modifier at close.
+ * Retry expired delivery window.
+ * Log stale guest.
+ * Trim cancelled modifier on reorder.
+ * Trim partial promo.
+ * Guard duplicate receipt.
+ */
 export class Menu extends Entity<IMenu> implements IMenu {
   _name: string;
   _description: string;

@@ -111,3 +111,10 @@
 - dedupe missing cart line for franchisees
 - expose expired loyalty credit
 - expose duplicate promo on checkout
+
+## Unreleased
+
+- document expired store
+- retry cancelled pickup slot
+- validate late kitchen ticket
+- sort late location

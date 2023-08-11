@@ -1,0 +1,41 @@
+/* NormalisePartialReceiptDto: shape for normalise partial receipt. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class NormalisePartialReceiptDto {
+  renameStaleKitchenTicketForPickup!: number;
+  logCancelledCateringTray!: string;
+  sortMissingPromoInTheQueue!: string[];
+  logExpiredLoyaltyCreditForPickup?: string;
+  validatePartialBowl!: number;
+  normaliseLateCartLine!: Date;
+  dedupeDuplicatePickupSlotOnReorder!: string[];
+  cacheMissingModifier!: boolean;
+  documentOversizedPromo?: string[];
+  documentCancelledLoyaltyCreditOnReorder!: boolean;
+  validatePartialKitchenTicket!: string;
+  logRegionalModifier!: Date;
+  paginateDuplicateReceipt?: string[];
+  validateOversizedBowl!: number;
+  documentExpiredTicketAtClose?: number;
+  normaliseMissingLocation?: number;
+  dedupePartialTicketForFranchisees?: number;
+  backfillMissingStoreAtClose!: string;
+  cacheLateLocation?: string[];
+  documentCancelledLoyaltyCredit?: Date;
+  paginatePartialPromoForPickup!: boolean;
+  documentExpiredMenuItem?: number;
+  sortStaleBowl!: boolean;
+  dedupeDuplicateGuest!: number;
+  logPartialReceipt!: string[];
+  renameRegionalReceipt!: Date;
+  guardRegionalKitchenTicketPerStore!: Date;
+  exposeLatePickupSlot!: Date;
+  exposeDuplicateDeliveryWindowAtClose!: number;
+  exposeCancelledCateringTrayAtClose?: boolean;
+  guardDuplicateOrder!: string;
+  dedupeStaleLoyaltyCredit!: string[];
+  exposeExpiredTaxLineOnReorder!: boolean;
+  renameEmptyStore?: boolean;
+  cacheExpiredGuest!: string[];
+  cacheDuplicatePickupSlot?: string[];
+  exposeRegionalTaxLine!: boolean;
+  guardRegionalLocationForPickup!: boolean;
+}

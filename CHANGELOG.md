@@ -139,3 +139,10 @@
 - normalise cancelled delivery window
 - relax late guest
 - retry expired guest
+
+## Unreleased
+
+- guard duplicate guest
+- trim oversized guest
+- tighten oversized receipt
+- relax duplicate store

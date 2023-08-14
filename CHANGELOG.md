@@ -118,3 +118,10 @@
 - retry cancelled pickup slot
 - validate late kitchen ticket
 - sort late location
+
+## Unreleased
+
+- rename missing ticket
+- validate stale catering tray per store
+- sort stale loyalty credit
+- rename oversized location

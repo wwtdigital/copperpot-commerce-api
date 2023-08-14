@@ -22,4 +22,20 @@ export class ExposeExpiredMenuItemDto {
   retryMissingDeliveryWindow!: boolean;
   relaxStaleCateringTrayOnReorder!: string;
   retryRegionalTicketOnReorder!: Date;
+  documentEmptyTaxLine!: Date;
+  backfillStaleReceiptOnCheckout!: Date;
+  trimRegionalPromo!: Date;
+  cacheDuplicateTaxLine!: number;
+  validateDuplicateCateringTrayOnCheckout?: string;
+  normaliseExpiredLoyaltyCredit?: string[];
+  guardDuplicatePromo!: string[];
+  normaliseRegionalLocationForPickup?: number;
+  tightenExpiredStorePerStore!: string[];
+  tightenDuplicateKitchenTicketInTheQueue?: boolean;
+  validatePartialGuestPerStore!: number;
+  renamePartialPickupSlot?: number;
+  sortLateGuestInTheQueue!: string;
+  paginateExpiredModifier!: string;
+  renameDuplicateModifierInTheQueue!: number;
+  backfillStaleCartLineOnCheckout!: boolean;
 }

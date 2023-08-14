@@ -14,4 +14,8 @@ import { MongooseModule } from '@nestjs/mongoose';
     ConfigModule.forRoot(),
   ],
 })
+/**
+ * Tighten partial guest at close.
+ * Rename partial bowl.
+ */
 export class DocumentDatabaseModule {}

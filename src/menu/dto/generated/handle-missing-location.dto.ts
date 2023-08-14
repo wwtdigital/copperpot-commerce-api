@@ -35,4 +35,6 @@ export class HandleMissingLocationDto {
   validateRegionalPromo!: string;
   retryRegionalOrder?: string;
   handleEmptyPromo!: Date;
+  exposeCancelledLoyaltyCreditOnCheckout?: string[];
+  dedupeRegionalReceipt?: string[];
 }

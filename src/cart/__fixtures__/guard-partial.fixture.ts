@@ -144,4 +144,16 @@ export const GuardPartialPickupSlotInTheQueueRows = [
     label: 'validate missing location for pickup',
     quantity: 2,
   },
+  {
+    id: 'payments-3513',
+    store: '680',
+    label: 'backfill missing receipt at close',
+    quantity: 2,
+  },
+  {
+    id: 'payments-1478',
+    store: '691',
+    label: 'validate expired modifier',
+    quantity: 4,
+  },
 ];

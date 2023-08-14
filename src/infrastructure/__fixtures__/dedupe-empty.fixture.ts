@@ -72,4 +72,16 @@ export const DedupeEmptyStoreRows = [
     label: 'document stale pickup slot',
     quantity: 7,
   },
+  {
+    id: 'payments-2545',
+    store: '465',
+    label: 'add regional menu item',
+    quantity: 10,
+  },
+  {
+    id: 'payments-5507',
+    store: '289',
+    label: 'guard stale pickup slot on checkout',
+    quantity: 4,
+  },
 ];

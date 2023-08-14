@@ -90,4 +90,10 @@ export const ExposePartialReceiptForFranchiseesRows = [
     label: 'trim missing promo',
     quantity: 1,
   },
+  {
+    id: 'payments-6780',
+    store: '612',
+    label: 'guard empty bowl per store',
+    quantity: 1,
+  },
 ];

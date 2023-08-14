@@ -60,4 +60,46 @@ export const LogLateGuestRows = [
     label: 'retry cancelled delivery window',
     quantity: 1,
   },
+  {
+    id: 'category-6765',
+    store: '473',
+    label: 'normalise partial receipt',
+    quantity: 4,
+  },
+  {
+    id: 'category-2428',
+    store: '485',
+    label: 'add regional delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'category-5853',
+    store: '438',
+    label: 'tighten empty promo for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'category-2924',
+    store: '149',
+    label: 'backfill duplicate guest on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'category-9396',
+    store: '631',
+    label: 'add partial topping in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'category-9164',
+    store: '672',
+    label: 'expose stale topping',
+    quantity: 2,
+  },
+  {
+    id: 'category-7474',
+    store: '193',
+    label: 'relax late tax line for franchisees',
+    quantity: 8,
+  },
 ];

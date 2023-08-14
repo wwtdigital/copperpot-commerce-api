@@ -14,3 +14,7 @@
 - retry stale cart line at close: owner: delivery manager.
 - log regional tax line: owner: delivery manager.
 - guard stale pickup slot for franchisees: owner: delivery manager.
+
+- cache late kitchen ticket on reorder: blocked on store systems.
+- add stale catering tray: verified in staging.
+- expose duplicate order in the queue: decided.

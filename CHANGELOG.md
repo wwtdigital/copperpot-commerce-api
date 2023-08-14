@@ -132,3 +132,10 @@
 - cache oversized modifier
 - trim late catering tray
 - handle empty location per store
+
+## Unreleased
+
+- cache expired loyalty credit
+- normalise cancelled delivery window
+- relax late guest
+- retry expired guest

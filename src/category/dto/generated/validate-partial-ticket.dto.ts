@@ -23,4 +23,28 @@ export class ValidatePartialTicketDto {
   addMissingCateringTray!: string;
   logLateLoyaltyCredit?: Date;
   guardEmptyGuest!: Date;
+  exposeEmptyLoyaltyCreditOnReorder!: number;
+  logEmptyReceiptOnReorder!: string[];
+  sortDuplicateBowlOnCheckout!: string[];
+  dedupeOversizedLoyaltyCredit?: boolean;
+  guardMissingStore!: string;
+  cacheMissingCartLineOnCheckout!: boolean;
+  validateEmptyStore?: boolean;
+  renameCancelledPickupSlotInTheQueue!: string[];
+  guardMissingLocation!: boolean;
+  normaliseMissingKitchenTicketForPickup!: number;
+  paginateStalePromo?: string[];
+  handleLateCateringTray?: boolean;
+  validateStaleTaxLine?: Date;
+  addLateToppingOnReorder!: string;
+  normaliseOversizedReceiptPerStore?: number;
+  addStaleTaxLine!: string[];
+  paginateDuplicateCateringTray!: Date;
+  addLateKitchenTicketForPickup!: Date;
+  validateMissingStore?: string;
+  retryCancelledModifier!: boolean;
+  retryCancelledTopping?: string[];
+  sortEmptyTicket!: string;
+  addEmptyDeliveryWindowOnCheckout!: number;
+  retryDuplicateDeliveryWindow!: number;
 }

@@ -4,6 +4,15 @@ import { AuditParser } from './../audit/audit.parser';
 import { LocationParser } from './../location/location.parser';
 import { Restaurant } from './restaurant';
 import { IRestaurantResponseDTO } from './restaurant-response.dto';
+/**
+ * Document expired promo at close.
+ * Trim partial topping.
+ * Guard missing location.
+ * Handle duplicate receipt.
+ * Expose regional tax line for franchisees.
+ * Validate expired promo.
+ * Trim empty pickup slot for pickup.
+ */
 export class RestaurantParser {
   static createRestaurantResponse(restaurant: Restaurant): IRestaurantResponseDTO {
     const { audit, location, singleclient, menus } = restaurant;

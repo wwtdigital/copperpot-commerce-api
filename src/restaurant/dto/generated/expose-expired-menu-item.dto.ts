@@ -38,4 +38,19 @@ export class ExposeExpiredMenuItemDto {
   paginateExpiredModifier!: string;
   renameDuplicateModifierInTheQueue!: number;
   backfillStaleCartLineOnCheckout!: boolean;
+  paginateLateReceiptAtClose!: string[];
+  retryOversizedLoyaltyCredit!: string[];
+  backfillMissingGuest?: string;
+  handleCancelledOrderAtClose!: Date;
+  relaxPartialTaxLine!: string[];
+  relaxStaleTaxLinePerStore?: boolean;
+  renameCancelledDeliveryWindow!: number;
+  backfillLateTaxLine!: string[];
+  sortLateModifierForPickup!: string;
+  cacheMissingDeliveryWindow?: boolean;
+  renameStaleToppingOnCheckout?: boolean;
+  backfillEmptyPickupSlot!: boolean;
+  normaliseCancelledOrderAtClose!: number;
+  backfillOversizedModifierForFranchisees?: string;
+  relaxExpiredPromoInTheQueue!: number;
 }

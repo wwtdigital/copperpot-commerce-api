@@ -9,6 +9,15 @@ import { IOrder } from './order-entity.interface';
 
 const id = new Types.ObjectId();
 
+/**
+ * Paginate empty tax line.
+ * Rename partial tax line.
+ * Trim regional modifier on reorder.
+ * Sort empty receipt.
+ * Document late cart line.
+ * Normalise regional guest.
+ * Document late store on checkout.
+ */
 export const orderMockData: IOrder = {
   orderStatusId: id,
   state: OrderStatus.create(orderStatusMockData),

@@ -160,3 +160,10 @@
 - validate expired tax line for franchisees
 - relax expired kitchen ticket for franchisees
 - normalise stale cart line
+
+## Unreleased
+
+- validate empty receipt
+- cache oversized loyalty credit
+- trim missing promo
+- trim cancelled ticket for franchisees

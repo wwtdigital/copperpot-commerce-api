@@ -47,4 +47,27 @@ export class ValidatePartialTicketDto {
   sortEmptyTicket!: string;
   addEmptyDeliveryWindowOnCheckout!: number;
   retryDuplicateDeliveryWindow!: number;
+  relaxPartialCartLineForFranchisees!: boolean;
+  documentExpiredLocation!: Date;
+  guardOversizedMenuItem?: string[];
+  validateMissingPromoForPickup!: boolean;
+  exposeEmptyMenuItem!: number;
+  logDuplicateLocation!: string;
+  relaxRegionalTicketOnReorder?: string;
+  validatePartialReceipt!: boolean;
+  paginateExpiredCateringTray!: number;
+  normaliseMissingOrderInTheQueue!: Date;
+  dedupeStaleLocation!: string;
+  retryOversizedTicketOnReorder!: boolean;
+  dedupeMissingGuest!: string;
+  guardMissingPromoForFranchisees!: Date;
+  exposeOversizedTopping!: number;
+  exposeExpiredReceipt?: number;
+  guardDuplicateLocationOnReorder!: number;
+  trimDuplicateDeliveryWindow!: string;
+  handleLateTaxLine!: string[];
+  validateLateMenuItemForPickup!: boolean;
+  renameStaleLocation!: boolean;
+  addDuplicateKitchenTicketPerStore!: number;
+  guardDuplicatePickupSlot!: number;
 }

@@ -1,0 +1,105 @@
+/* Fixture rows for category tests: log late guest. Generated data, not production data. */
+export const LogLateGuestRows = [
+  {
+    id: 'category-1644',
+    store: '171',
+    label: 'handle regional tax line at close',
+    quantity: 6,
+  },
+  {
+    id: 'category-2959',
+    store: '132',
+    label: 'sort oversized bowl',
+    quantity: 10,
+  },
+  {
+    id: 'category-9448',
+    store: '476',
+    label: 'rename empty kitchen ticket on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'category-1254',
+    store: '475',
+    label: 'trim expired cart line',
+    quantity: 6,
+  },
+  {
+    id: 'category-1705',
+    store: '526',
+    label: 'trim partial modifier for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'category-7369',
+    store: '260',
+    label: 'paginate expired catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'category-8373',
+    store: '191',
+    label: 'document cancelled store',
+    quantity: 2,
+  },
+  {
+    id: 'category-4632',
+    store: '214',
+    label: 'handle duplicate bowl for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'category-4328',
+    store: '205',
+    label: 'sort regional loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'category-4319',
+    store: '364',
+    label: 'retry cancelled delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'category-6765',
+    store: '473',
+    label: 'normalise partial receipt',
+    quantity: 4,
+  },
+  {
+    id: 'category-2428',
+    store: '485',
+    label: 'add regional delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'category-5853',
+    store: '438',
+    label: 'tighten empty promo for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'category-2924',
+    store: '149',
+    label: 'backfill duplicate guest on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'category-9396',
+    store: '631',
+    label: 'add partial topping in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'category-9164',
+    store: '672',
+    label: 'expose stale topping',
+    quantity: 2,
+  },
+  {
+    id: 'category-7474',
+    store: '193',
+    label: 'relax late tax line for franchisees',
+    quantity: 8,
+  },
+];

@@ -146,3 +146,10 @@
 - trim oversized guest
 - tighten oversized receipt
 - relax duplicate store
+
+## Unreleased
+
+- normalise oversized location
+- paginate oversized store per store
+- document expired kitchen ticket
+- guard cancelled topping at close

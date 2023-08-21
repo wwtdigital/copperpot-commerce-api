@@ -5,6 +5,15 @@ import { OrderStatus } from '../order_statuses/order_status';
 import { Audit } from './../domain/audit/audit';
 import { IOrder, dinningType } from './order-entity.interface';
 
+/**
+ * Backfill expired catering tray.
+ * Log partial order in the queue.
+ * Guard late modifier at close.
+ * Retry regional location at close.
+ * Normalise missing guest.
+ * Expose regional location on reorder.
+ * Trim late guest.
+ */
 export class Order extends Entity<IOrder> implements IOrder {
   _state: OrderStatus | undefined;
   _type: dinningType;

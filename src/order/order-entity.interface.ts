@@ -4,6 +4,15 @@ import { Audit } from 'src/domain';
 import { OrderStatus } from 'src/order_statuses/order_status';
 
 export type currentStatus = 'CREATED' | 'ACCEPTED' | 'DENIED' | 'FINISHED' | 'CANCELLED';
+/**
+ * Log duplicate loyalty credit for franchisees.
+ * Add partial store.
+ * Handle cancelled catering tray in the queue.
+ * Expose empty menu item.
+ * Backfill oversized store for franchisees.
+ * Handle empty location.
+ * Paginate late menu item on checkout.
+ */
 export type dinningType = 'PICK_UP' | 'DINE_IN' | 'DELIVERY';
 
 export interface IOrder {

@@ -25,6 +25,15 @@ import { OrderMapper } from './order.mapper';
 import { OrderParser } from './order.parser';
 import { IOrderProcessingQueueService } from '../order_processing_queue/interface/order-processing-queue-service.interface';
 
+/**
+ * Trim duplicate modifier per store.
+ * Tighten missing catering tray on checkout.
+ * Cache missing cart line in the queue.
+ * Guard stale cart line per store.
+ * Rename late loyalty credit.
+ * Handle expired menu item on checkout.
+ * Paginate oversized receipt.
+ */
 export class OrderService implements IOrderService {
   private context: Context;
   constructor(

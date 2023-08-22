@@ -166,4 +166,28 @@ export class ValidateRegionalPickupSlotDto {
   cacheMissingMenuItemInTheQueue!: string;
   dedupeCancelledBowl!: string;
   trimLateBowl!: number;
+  addMissingPromo!: number;
+  paginateExpiredTaxLine!: string[];
+  paginateMissingCateringTray!: number;
+  exposePartialBowl!: number;
+  validateStaleMenuItem!: string[];
+  relaxExpiredKitchenTicket!: Date;
+  addCancelledOrderAtClose?: Date;
+  validateEmptyDeliveryWindow!: string[];
+  retryRegionalTicket!: string;
+  relaxOversizedTopping!: number;
+  dedupeStaleLocationOnReorder!: number;
+  addOversizedCateringTray!: number;
+  handleStaleDeliveryWindowInTheQueue!: boolean;
+  backfillDuplicateTopping!: Date;
+  normalisePartialTicketAtClose!: number;
+  sortExpiredReceipt!: Date;
+  addRegionalLocationForFranchisees!: number;
+  renameExpiredOrderForPickup!: boolean;
+  relaxExpiredTicket!: string;
+  trimPartialBowlOnCheckout!: number;
+  sortCancelledLoyaltyCreditOnReorder?: string;
+  sortExpiredCartLinePerStore!: string[];
+  dedupePartialStore!: boolean;
+  validateOversizedPickupSlot!: Date;
 }

@@ -29,3 +29,48 @@
 - backfill empty promo: blocked on store systems.
 - add partial delivery window for pickup: blocked on store systems.
 - tighten missing promo in the queue: decided.
+
+- backfill duplicate menu item: deferred to the next release.
+- retry regional menu item on reorder: verified in staging.
+- guard stale bowl: verified in staging.
+- backfill partial loyalty credit on checkout: decided.
+- guard cancelled kitchen ticket for pickup: deferred to the next release.
+- log duplicate delivery window: open.
+- retry missing topping on checkout: owner: delivery manager.
+- document duplicate order: blocked on store systems.
+- validate regional menu item per store: decided.
+- normalise empty loyalty credit per store: deferred to the next release.
+- relax expired kitchen ticket on reorder: open.
+- log missing delivery window on reorder: open.
+- sort oversized guest: decided.
+- relax duplicate promo: decided.
+
+- normalise duplicate catering tray: deferred to the next release.
+- add partial cart line for pickup: open.
+- backfill empty order: decided.
+- add late modifier: verified in staging.
+- log empty guest per store: blocked on store systems.
+- relax regional catering tray: deferred to the next release.
+- document expired promo: decided.
+- expose missing store: owner: delivery manager.
+- log missing tax line at close: open.
+- cache stale ticket on reorder: open.
+- add regional bowl on checkout: owner: delivery manager.
+- log late bowl for franchisees: decided.
+- dedupe expired guest in the queue: blocked on store systems.
+- dedupe oversized menu item: open.
+
+- document cancelled loyalty credit: decided.
+- dedupe partial ticket: deferred to the next release.
+- sort oversized pickup slot: owner: delivery manager.
+- expose stale guest: owner: delivery manager.
+- document empty bowl: blocked on store systems.
+- backfill regional bowl on checkout: blocked on store systems.
+- normalise cancelled modifier: deferred to the next release.
+- dedupe late kitchen ticket per store: open.
+- cache empty store: owner: delivery manager.
+- dedupe regional tax line: owner: delivery manager.
+- validate stale menu item: blocked on store systems.
+- rename cancelled menu item: blocked on store systems.
+- cache duplicate topping: deferred to the next release.
+- normalise duplicate catering tray in the queue: deferred to the next release.

@@ -48,6 +48,15 @@ import { SingleClientService } from 'src/singleclient/singleclient.service';
     CategoryMapper,
   ],
 })
+/**
+ * Paginate late kitchen ticket.
+ * Trim expired modifier.
+ * Retry expired ticket per store.
+ * Relax stale bowl on reorder.
+ * Backfill late bowl per store.
+ * Normalise expired cart line.
+ * Document cancelled pickup slot.
+ */
 export class AddonModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(ContextMiddleWare).exclude().forRoutes(AddonController);

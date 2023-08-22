@@ -153,3 +153,10 @@
 - paginate oversized store per store
 - document expired kitchen ticket
 - guard cancelled topping at close
+
+## Unreleased
+
+- tighten partial promo
+- validate expired tax line for franchisees
+- relax expired kitchen ticket for franchisees
+- normalise stale cart line

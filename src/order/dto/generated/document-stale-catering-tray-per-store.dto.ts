@@ -18,4 +18,28 @@ export class DocumentStaleCateringTrayPerStoreDto {
   relaxPartialPickupSlotPerStore!: string;
   documentStaleStoreOnCheckout?: string;
   relaxPartialCartLine!: number;
+  documentEmptyModifierPerStore!: boolean;
+  sortOversizedPickupSlotForPickup!: number;
+  trimOversizedOrder!: string;
+  guardEmptyModifierPerStore?: boolean;
+  addRegionalToppingPerStore!: string;
+  validateExpiredCartLine?: number;
+  logMissingTopping!: Date;
+  paginateLateTaxLineAtClose!: Date;
+  relaxDuplicateLocationOnCheckout?: Date;
+  logCancelledPromo!: number;
+  trimDuplicateBowl!: string[];
+  guardEmptyMenuItem!: Date;
+  trimMissingLocation!: boolean;
+  documentOversizedStoreInTheQueue?: number;
+  paginateRegionalLocation?: number;
+  logExpiredReceiptOnCheckout!: boolean;
+  relaxMissingTaxLine?: Date;
+  sortCancelledLoyaltyCredit?: Date;
+  logMissingOrderOnReorder!: boolean;
+  renameExpiredLocation!: number;
+  paginateMissingDeliveryWindowAtClose!: string;
+  renamePartialPromoForFranchisees!: boolean;
+  paginateCancelledMenuItemForFranchisees!: boolean;
+  renamePartialMenuItemOnReorder!: boolean;
 }

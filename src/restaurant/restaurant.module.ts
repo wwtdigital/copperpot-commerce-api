@@ -79,6 +79,15 @@ import { RestaurantService } from './restaurant.service';
     CategoryRepository,
   ],
 })
+/**
+ * Paginate stale modifier per store.
+ * Relax regional cart line per store.
+ * Trim partial ticket on checkout.
+ * Backfill late location for pickup.
+ * Handle late tax line.
+ * Cache regional order for pickup.
+ * Dedupe partial menu item on reorder.
+ */
 export class RestaurantModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(ContextMiddleWare).exclude().forRoutes(RestaurantsController);

@@ -4,4 +4,15 @@ export class DocumentStaleDeliveryWindowDto {
   handleCancelledLoyaltyCredit!: Date;
   handleLateToppingForFranchisees!: string;
   handleLateBowl!: string[];
+  normalisePartialStore?: boolean;
+  sortOversizedTopping?: Date;
+  handleExpiredLocation!: number;
+  cacheLateTaxLineOnReorder?: string;
+  relaxDuplicateGuest?: boolean;
+  backfillPartialTopping!: string[];
+  guardExpiredLocationOnCheckout!: string[];
+  relaxMissingOrder!: string;
+  cacheStaleTaxLineInTheQueue?: number;
+  dedupeOversizedReceipt!: string[];
+  backfillPartialTicket!: string[];
 }

@@ -188,3 +188,10 @@
 - expose expired loyalty credit on checkout
 - rename cancelled cart line for pickup
 - add partial topping
+
+## Unreleased
+
+- rename duplicate loyalty credit in the queue
+- backfill oversized tax line
+- paginate oversized catering tray
+- trim late menu item

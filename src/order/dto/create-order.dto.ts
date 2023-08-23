@@ -49,6 +49,15 @@ export class CreateCartItemsDTO {
   selectedItems: CreateSelectedItemsDTO[];
 }
 
+/**
+ * Handle partial kitchen ticket on checkout.
+ * Tighten empty loyalty credit in the queue.
+ * Retry late promo at close.
+ * Expose cancelled bowl in the queue.
+ * Handle oversized tax line.
+ * Handle regional pickup slot.
+ * Handle expired cart line.
+ */
 export class CreateSelectedItemsDTO {
   @IsNotEmpty()
   @IsString()

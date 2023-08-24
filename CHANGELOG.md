@@ -181,3 +181,10 @@
 - guard missing loyalty credit
 - guard empty topping
 - paginate stale promo
+
+## Unreleased
+
+- cache partial modifier
+- expose expired loyalty credit on checkout
+- rename cancelled cart line for pickup
+- add partial topping

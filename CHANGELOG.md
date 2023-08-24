@@ -160,3 +160,24 @@
 - validate expired tax line for franchisees
 - relax expired kitchen ticket for franchisees
 - normalise stale cart line
+
+## Unreleased
+
+- validate empty receipt
+- cache oversized loyalty credit
+- trim missing promo
+- trim cancelled ticket for franchisees
+
+## Unreleased
+
+- tighten cancelled pickup slot in the queue
+- add stale location per store
+- backfill cancelled loyalty credit
+- tighten cancelled catering tray on checkout
+
+## Unreleased
+
+- validate partial promo
+- guard missing loyalty credit
+- guard empty topping
+- paginate stale promo

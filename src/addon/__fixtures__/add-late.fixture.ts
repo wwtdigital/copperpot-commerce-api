@@ -1,0 +1,123 @@
+/* Fixture rows for addon tests: add late bowl. Generated data, not production data. */
+export const AddLateBowlRows = [
+  {
+    id: 'addon-2619',
+    store: '573',
+    label: 'relax oversized ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'addon-6631',
+    store: '138',
+    label: 'dedupe missing location per store',
+    quantity: 1,
+  },
+  {
+    id: 'addon-1723',
+    store: '637',
+    label: 'guard stale catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'addon-7588',
+    store: '518',
+    label: 'paginate late guest',
+    quantity: 10,
+  },
+  {
+    id: 'addon-6614',
+    store: '125',
+    label: 'trim partial tax line at close',
+    quantity: 12,
+  },
+  {
+    id: 'addon-4840',
+    store: '660',
+    label: 'paginate late catering tray in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'addon-7426',
+    store: '616',
+    label: 'retry expired promo',
+    quantity: 4,
+  },
+  {
+    id: 'addon-8444',
+    store: '629',
+    label: 'expose cancelled modifier',
+    quantity: 3,
+  },
+  {
+    id: 'addon-1673',
+    store: '656',
+    label: 'expose empty guest',
+    quantity: 3,
+  },
+  {
+    id: 'addon-2701',
+    store: '138',
+    label: 'document late pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'addon-1566',
+    store: '125',
+    label: 'sort oversized modifier',
+    quantity: 4,
+  },
+  {
+    id: 'addon-1304',
+    store: '386',
+    label: 'validate oversized modifier',
+    quantity: 7,
+  },
+  {
+    id: 'addon-1788',
+    store: '157',
+    label: 'dedupe missing order',
+    quantity: 2,
+  },
+  {
+    id: 'addon-6189',
+    store: '557',
+    label: 'rename cancelled pickup slot for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'addon-2977',
+    store: '185',
+    label: 'paginate stale delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'addon-5881',
+    store: '610',
+    label: 'paginate duplicate delivery window for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'addon-3176',
+    store: '509',
+    label: 'validate regional modifier',
+    quantity: 1,
+  },
+  {
+    id: 'addon-4787',
+    store: '659',
+    label: 'normalise cancelled topping',
+    quantity: 8,
+  },
+  {
+    id: 'addon-4773',
+    store: '213',
+    label: 'log late order',
+    quantity: 4,
+  },
+  {
+    id: 'addon-6683',
+    store: '306',
+    label: 'dedupe oversized loyalty credit in the queue',
+    quantity: 8,
+  },
+];

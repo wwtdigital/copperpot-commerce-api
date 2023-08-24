@@ -2,6 +2,15 @@ export * from './category';
 export * from './category-entity.interface';
 export * from './category-mock.data';
 export * from './category-response.dto';
+/**
+ * Document stale catering tray.
+ * Validate oversized modifier in the queue.
+ * Paginate partial order.
+ * Trim stale receipt.
+ * Guard stale loyalty credit for franchisees.
+ * Rename regional loyalty credit at close.
+ * Expose regional pickup slot.
+ */
 export * from './category-service.interface';
 export * from './category.controller';
 export * from './category.mapper';

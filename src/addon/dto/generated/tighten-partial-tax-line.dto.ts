@@ -24,4 +24,6 @@ export class TightenPartialTaxLineDto {
   sortCancelledCateringTray?: string[];
   normalisePartialToppingForFranchisees?: number;
   cacheCancelledOrder!: string;
+  paginatePartialMenuItem!: string;
+  handleLateBowl!: string;
 }

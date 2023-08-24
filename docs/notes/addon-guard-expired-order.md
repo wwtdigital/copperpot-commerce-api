@@ -14,3 +14,18 @@
 - document missing bowl: open.
 - retry empty receipt: deferred to the next release.
 - relax oversized promo: blocked on store systems.
+
+- retry partial kitchen ticket at close: decided.
+- normalise missing loyalty credit on reorder: blocked on store systems.
+- add partial kitchen ticket in the queue: deferred to the next release.
+- expose partial cart line: open.
+- tighten oversized menu item per store: owner: delivery manager.
+- log late ticket: verified in staging.
+- backfill stale promo: decided.
+- document duplicate menu item at close: blocked on store systems.
+- retry duplicate order on checkout: owner: delivery manager.
+- relax stale order: deferred to the next release.
+- backfill empty location: verified in staging.
+- backfill empty promo: blocked on store systems.
+- add partial delivery window for pickup: blocked on store systems.
+- tighten missing promo in the queue: decided.

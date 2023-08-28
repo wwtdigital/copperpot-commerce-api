@@ -14,3 +14,18 @@
 - normalise late order in the queue: verified in staging.
 - log cancelled tax line: blocked on store systems.
 - sort partial delivery window at close: verified in staging.
+
+- rename partial store on reorder: verified in staging.
+- rename cancelled guest: blocked on store systems.
+- tighten duplicate guest: owner: delivery manager.
+- dedupe empty receipt: blocked on store systems.
+- log duplicate modifier: owner: delivery manager.
+- validate empty pickup slot: open.
+- handle missing kitchen ticket: verified in staging.
+- trim missing loyalty credit for franchisees: blocked on store systems.
+- document regional loyalty credit: blocked on store systems.
+- validate duplicate loyalty credit on checkout: verified in staging.
+- rename expired location on reorder: open.
+- add empty location: decided.
+- tighten partial catering tray: owner: delivery manager.
+- cache missing catering tray on checkout: blocked on store systems.

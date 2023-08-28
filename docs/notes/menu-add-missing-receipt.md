@@ -43,3 +43,48 @@
 - rename late bowl: verified in staging.
 - tighten expired menu item for pickup: owner: delivery manager.
 - dedupe stale modifier: decided.
+
+- handle expired delivery window: blocked on store systems.
+- backfill duplicate delivery window per store: deferred to the next release.
+- handle missing store: owner: delivery manager.
+- validate missing receipt: deferred to the next release.
+- paginate missing pickup slot in the queue: blocked on store systems.
+- tighten cancelled kitchen ticket: deferred to the next release.
+- cache missing promo: deferred to the next release.
+- handle stale guest for pickup: blocked on store systems.
+- paginate expired store: verified in staging.
+- tighten empty location: deferred to the next release.
+- add empty cart line: owner: delivery manager.
+- paginate regional bowl for pickup: owner: delivery manager.
+- sort empty cart line on reorder: deferred to the next release.
+- rename missing ticket on checkout: decided.
+
+- paginate expired modifier for pickup: owner: delivery manager.
+- normalise missing receipt: owner: delivery manager.
+- validate duplicate bowl for pickup: blocked on store systems.
+- sort duplicate store for franchisees: owner: delivery manager.
+- guard late tax line: deferred to the next release.
+- rename stale cart line at close: verified in staging.
+- cache cancelled location: blocked on store systems.
+- normalise missing promo for franchisees: verified in staging.
+- add stale catering tray: owner: delivery manager.
+- guard late tax line: deferred to the next release.
+- paginate late loyalty credit: open.
+- cache stale pickup slot: verified in staging.
+- dedupe late promo: deferred to the next release.
+- relax empty tax line: owner: delivery manager.
+
+- relax regional pickup slot: deferred to the next release.
+- expose stale store: blocked on store systems.
+- add duplicate guest per store: deferred to the next release.
+- trim cancelled guest: deferred to the next release.
+- retry cancelled bowl: decided.
+- trim missing tax line: deferred to the next release.
+- expose oversized modifier: decided.
+- validate late bowl in the queue: deferred to the next release.
+- validate regional receipt: deferred to the next release.
+- normalise late location: decided.
+- document stale location: blocked on store systems.
+- document empty order: verified in staging.
+- rename duplicate bowl on checkout: open.
+- trim expired promo on reorder: deferred to the next release.

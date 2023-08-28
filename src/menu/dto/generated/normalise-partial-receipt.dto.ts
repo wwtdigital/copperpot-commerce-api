@@ -64,4 +64,28 @@ export class NormalisePartialReceiptDto {
   documentLateDeliveryWindow!: string;
   backfillLateLocation!: number;
   logRegionalGuest!: string;
+  addCancelledMenuItem!: string;
+  dedupeStaleBowl!: boolean;
+  tightenRegionalCartLine!: string;
+  documentDuplicateModifier!: Date;
+  logLateDeliveryWindowInTheQueue!: string;
+  normaliseStaleTopping!: boolean;
+  tightenDuplicateLoyaltyCredit?: string[];
+  documentLateOrderAtClose?: string;
+  relaxPartialKitchenTicket?: string;
+  renamePartialBowl?: Date;
+  tightenExpiredModifierOnCheckout!: number;
+  trimPartialToppingInTheQueue!: boolean;
+  retryDuplicateReceipt?: string[];
+  exposePartialCateringTray!: string;
+  relaxOversizedGuest!: number;
+  guardEmptyStoreOnReorder!: boolean;
+  sortDuplicateCartLine?: string[];
+  handleDuplicateKitchenTicket!: string;
+  normaliseCancelledCartLine?: number;
+  trimRegionalCartLine?: string;
+  backfillOversizedCartLineForFranchisees!: boolean;
+  guardOversizedCateringTray?: string;
+  validateOversizedKitchenTicket?: boolean;
+  logStaleLocation!: boolean;
 }

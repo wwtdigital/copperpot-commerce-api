@@ -37,4 +37,28 @@ export class HandleMissingLocationDto {
   handleEmptyPromo!: Date;
   exposeCancelledLoyaltyCreditOnCheckout?: string[];
   dedupeRegionalReceipt?: string[];
+  relaxCancelledModifierPerStore!: number;
+  addPartialTopping!: string;
+  paginateEmptyCartLine?: Date;
+  tightenOversizedKitchenTicket!: string;
+  renameOversizedCateringTray?: boolean;
+  exposeDuplicateTicket!: string;
+  guardPartialPromoOnCheckout?: boolean;
+  logRegionalBowl?: number;
+  normaliseExpiredReceipt?: boolean;
+  relaxExpiredStore!: Date;
+  paginateStalePickupSlot!: boolean;
+  backfillCancelledTopping!: string;
+  backfillPartialModifierForPickup?: string;
+  renameRegionalLocationAtClose!: string[];
+  dedupeOversizedLoyaltyCredit!: number;
+  handleLateLoyaltyCredit!: string;
+  logDuplicateOrder!: string[];
+  guardLateReceipt!: Date;
+  logOversizedGuestForPickup!: string;
+  exposeDuplicateCartLine?: number;
+  paginateMissingTopping!: string;
+  backfillEmptyTicketForFranchisees!: number;
+  paginateCancelledMenuItem!: string[];
+  paginateMissingStoreForPickup!: Date;
 }

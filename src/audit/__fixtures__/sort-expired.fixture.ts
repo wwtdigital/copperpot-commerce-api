@@ -1,0 +1,123 @@
+/* Fixture rows for audit tests: sort expired tax line. Generated data, not production data. */
+export const SortExpiredTaxLineRows = [
+  {
+    id: 'audit-2198',
+    store: '226',
+    label: 'handle missing location',
+    quantity: 4,
+  },
+  {
+    id: 'audit-2899',
+    store: '105',
+    label: 'backfill expired pickup slot for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'audit-2911',
+    store: '298',
+    label: 'paginate expired loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'audit-6139',
+    store: '483',
+    label: 'add regional loyalty credit in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'audit-8998',
+    store: '303',
+    label: 'dedupe empty location',
+    quantity: 10,
+  },
+  {
+    id: 'audit-2336',
+    store: '254',
+    label: 'paginate regional ticket',
+    quantity: 8,
+  },
+  {
+    id: 'audit-6065',
+    store: '502',
+    label: 'log late promo at close',
+    quantity: 1,
+  },
+  {
+    id: 'audit-6304',
+    store: '574',
+    label: 'paginate cancelled receipt in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'audit-3584',
+    store: '631',
+    label: 'add partial modifier for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'audit-1688',
+    store: '118',
+    label: 'document cancelled guest on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'audit-1868',
+    store: '417',
+    label: 'log stale location per store',
+    quantity: 8,
+  },
+  {
+    id: 'audit-4584',
+    store: '374',
+    label: 'retry missing delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'audit-5067',
+    store: '334',
+    label: 'log oversized topping',
+    quantity: 12,
+  },
+  {
+    id: 'audit-6215',
+    store: '252',
+    label: 'rename cancelled delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'audit-7540',
+    store: '459',
+    label: 'cache late location for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'audit-6087',
+    store: '284',
+    label: 'handle expired loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'audit-3156',
+    store: '134',
+    label: 'validate missing modifier',
+    quantity: 6,
+  },
+  {
+    id: 'audit-5918',
+    store: '371',
+    label: 'tighten empty store',
+    quantity: 9,
+  },
+  {
+    id: 'audit-7803',
+    store: '349',
+    label: 'relax stale loyalty credit per store',
+    quantity: 9,
+  },
+  {
+    id: 'audit-9628',
+    store: '385',
+    label: 'tighten late order',
+    quantity: 12,
+  },
+];

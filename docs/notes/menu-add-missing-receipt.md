@@ -88,3 +88,18 @@
 - document empty order: verified in staging.
 - rename duplicate bowl on checkout: open.
 - trim expired promo on reorder: deferred to the next release.
+
+- add late receipt for pickup: open.
+- document oversized kitchen ticket: deferred to the next release.
+- handle empty delivery window: owner: delivery manager.
+- retry partial guest: blocked on store systems.
+- cache oversized order: owner: delivery manager.
+- validate partial order: decided.
+- trim duplicate ticket: owner: delivery manager.
+- trim stale modifier for franchisees: verified in staging.
+- tighten partial ticket at close: deferred to the next release.
+- guard missing order: deferred to the next release.
+- handle oversized pickup slot: blocked on store systems.
+- sort empty kitchen ticket: owner: delivery manager.
+- paginate late kitchen ticket: verified in staging.
+- cache regional order for pickup: deferred to the next release.

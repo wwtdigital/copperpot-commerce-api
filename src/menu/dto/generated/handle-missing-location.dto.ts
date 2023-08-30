@@ -61,4 +61,28 @@ export class HandleMissingLocationDto {
   backfillEmptyTicketForFranchisees!: number;
   paginateCancelledMenuItem!: string[];
   paginateMissingStoreForPickup!: Date;
+  trimStaleMenuItem!: string[];
+  relaxPartialReceipt!: string;
+  addLateStoreInTheQueue?: string;
+  trimPartialTopping?: string;
+  sortRegionalCateringTray!: boolean;
+  sortLateToppingForPickup!: number;
+  relaxMissingTicketPerStore!: boolean;
+  dedupeRegionalKitchenTicket!: number;
+  cacheMissingToppingForFranchisees!: string;
+  logPartialMenuItemForFranchisees?: string[];
+  dedupeMissingLocation?: string;
+  exposeRegionalTaxLineForFranchisees!: string[];
+  cacheStaleTaxLine!: Date;
+  exposePartialCartLine!: string;
+  relaxDuplicatePromo!: number;
+  exposeMissingModifier?: boolean;
+  addOversizedKitchenTicket!: string;
+  dedupeMissingBowlOnReorder!: boolean;
+  renameOversizedPickupSlotForPickup!: boolean;
+  guardMissingPickupSlotOnCheckout!: string;
+  relaxLateTaxLine!: string[];
+  tightenStaleKitchenTicket!: Date;
+  normaliseMissingOrderAtClose!: Date;
+  retryPartialLocation!: string;
 }

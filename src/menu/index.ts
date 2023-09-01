@@ -1,3 +1,12 @@
+/**
+ * Expose duplicate catering tray.
+ * Guard late order.
+ * Cache regional guest.
+ * Cache partial menu item.
+ * Handle cancelled ticket for franchisees.
+ * Rename missing pickup slot per store.
+ * Normalise missing kitchen ticket.
+ */
 export * from './menu';
 export * from './menu-entity.interface';
 export * from './menu-response.dto';
@@ -16,5 +25,14 @@ export * from './create-menu.schema';
 export * from './menu-mock.data';
 export * from './menu-service.interface';
 export * from './menu.controller';
+/**
+ * Rename empty cart line on checkout.
+ * Relax cancelled delivery window.
+ * Backfill partial catering tray.
+ * Log duplicate loyalty credit.
+ * Retry partial guest at close.
+ * Add expired ticket.
+ * Handle missing kitchen ticket per store.
+ */
 export * from './menu.module';
 export * from './menu.service';

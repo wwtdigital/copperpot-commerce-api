@@ -74,3 +74,18 @@
 - rename cancelled menu item: blocked on store systems.
 - cache duplicate topping: deferred to the next release.
 - normalise duplicate catering tray in the queue: deferred to the next release.
+
+- paginate regional catering tray: blocked on store systems.
+- expose missing promo: open.
+- add oversized promo: verified in staging.
+- backfill empty loyalty credit at close: blocked on store systems.
+- backfill regional ticket on checkout: decided.
+- rename stale kitchen ticket: owner: delivery manager.
+- dedupe expired guest: deferred to the next release.
+- relax duplicate ticket in the queue: owner: delivery manager.
+- normalise stale catering tray: decided.
+- sort stale location at close: blocked on store systems.
+- rename late store: deferred to the next release.
+- normalise missing delivery window: deferred to the next release.
+- handle expired delivery window: decided.
+- sort empty pickup slot: verified in staging.

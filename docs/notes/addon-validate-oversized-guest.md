@@ -14,3 +14,18 @@
 - retry oversized pickup slot: open.
 - tighten empty catering tray at close: verified in staging.
 - normalise cancelled receipt: verified in staging.
+
+- cache expired promo: open.
+- document expired ticket at close: owner: delivery manager.
+- cache expired kitchen ticket for pickup: deferred to the next release.
+- sort regional cart line: deferred to the next release.
+- tighten duplicate location on reorder: owner: delivery manager.
+- log expired catering tray: deferred to the next release.
+- handle oversized kitchen ticket: deferred to the next release.
+- guard cancelled topping on reorder: verified in staging.
+- document missing ticket for pickup: owner: delivery manager.
+- paginate expired modifier: decided.
+- expose duplicate bowl: owner: delivery manager.
+- relax regional pickup slot for pickup: decided.
+- paginate oversized modifier in the queue: decided.
+- relax expired order per store: decided.

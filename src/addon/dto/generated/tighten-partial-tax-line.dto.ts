@@ -26,4 +26,6 @@ export class TightenPartialTaxLineDto {
   cacheCancelledOrder!: string;
   paginatePartialMenuItem!: string;
   handleLateBowl!: string;
+  cacheOversizedStore!: string[];
+  dedupeOversizedStore!: boolean;
 }

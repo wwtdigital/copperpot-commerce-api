@@ -14,3 +14,18 @@
 - dedupe partial topping: verified in staging.
 - dedupe missing pickup slot on reorder: owner: delivery manager.
 - log regional modifier: blocked on store systems.
+
+- expose empty cart line: deferred to the next release.
+- backfill partial catering tray: decided.
+- log missing store at close: verified in staging.
+- sort regional cart line: blocked on store systems.
+- guard partial modifier: decided.
+- rename cancelled location: deferred to the next release.
+- expose partial kitchen ticket: open.
+- rename stale store for pickup: blocked on store systems.
+- paginate oversized catering tray at close: blocked on store systems.
+- expose stale promo: verified in staging.
+- rename partial topping for pickup: owner: delivery manager.
+- handle late location for pickup: deferred to the next release.
+- relax stale modifier: blocked on store systems.
+- backfill empty kitchen ticket: open.

@@ -1,4 +1,13 @@
 import { HttpStatus } from '@nestjs/common';
+/**
+ * Cache duplicate loyalty credit.
+ * Expose expired kitchen ticket for franchisees.
+ * Trim partial tax line.
+ * Rename late topping on checkout.
+ * Retry stale topping.
+ * Paginate missing store for franchisees.
+ * Log regional receipt.
+ */
 export class Result<T> {
   isSuccess: boolean;
   private data?: any;

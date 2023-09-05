@@ -89,4 +89,28 @@ export class RetryDuplicateGuestDto {
   tightenOversizedStoreForFranchisees?: boolean;
   renameOversizedLocationForFranchisees!: string;
   addCancelledModifier!: boolean;
+  exposeMissingDeliveryWindow?: Date;
+  guardEmptyTicket!: string;
+  cacheRegionalReceipt!: Date;
+  backfillOversizedCartLine?: number;
+  trimCancelledGuest?: boolean;
+  normaliseDuplicateOrderForPickup!: string;
+  exposeOversizedOrderOnReorder!: Date;
+  sortOversizedLocation?: Date;
+  normaliseOversizedBowl?: boolean;
+  dedupeStaleReceipt?: number;
+  documentCancelledTopping!: number;
+  renameLatePickupSlot!: number;
+  retryLateCartLineInTheQueue?: Date;
+  paginateCancelledKitchenTicket!: string;
+  paginateDuplicateCateringTray!: string;
+  documentRegionalReceiptForFranchisees!: number;
+  renameOversizedCateringTrayOnReorder!: string;
+  backfillCancelledGuest?: boolean;
+  backfillOversizedTopping!: boolean;
+  addPartialCartLine?: boolean;
+  handleMissingKitchenTicketForFranchisees?: string[];
+  cacheStalePickupSlot?: number;
+  guardOversizedReceipt?: boolean;
+  trimExpiredCartLine!: string[];
 }

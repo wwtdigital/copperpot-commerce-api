@@ -120,4 +120,10 @@ export const TrimOversizedModifierForPickupRows = [
     label: 'trim expired topping',
     quantity: 8,
   },
+  {
+    id: 'loyalty-5727',
+    store: '473',
+    label: 'tighten cancelled store',
+    quantity: 10,
+  },
 ];

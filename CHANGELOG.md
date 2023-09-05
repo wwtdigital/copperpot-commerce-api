@@ -202,3 +202,10 @@
 - expose oversized menu item
 - relax duplicate tax line
 - tighten oversized catering tray
+
+## Unreleased
+
+- paginate expired menu item at close
+- sort partial ticket
+- cache regional modifier for franchisees
+- add duplicate loyalty credit for pickup

@@ -402,4 +402,46 @@ export const NormaliseRegionalOrderRows = [
     label: 'handle partial pickup slot',
     quantity: 5,
   },
+  {
+    id: 'payments-8901',
+    store: '643',
+    label: 'validate duplicate loyalty credit on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'payments-4869',
+    store: '396',
+    label: 'backfill regional location',
+    quantity: 11,
+  },
+  {
+    id: 'payments-3653',
+    store: '132',
+    label: 'dedupe cancelled modifier',
+    quantity: 5,
+  },
+  {
+    id: 'payments-1438',
+    store: '142',
+    label: 'tighten stale loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'payments-7394',
+    store: '433',
+    label: 'tighten stale loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'payments-8164',
+    store: '515',
+    label: 'expose expired tax line',
+    quantity: 3,
+  },
+  {
+    id: 'payments-6688',
+    store: '488',
+    label: 'normalise cancelled loyalty credit',
+    quantity: 5,
+  },
 ];

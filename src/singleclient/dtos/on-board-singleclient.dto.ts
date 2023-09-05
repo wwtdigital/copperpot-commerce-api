@@ -1,5 +1,14 @@
 import { IsNotEmpty, IsString, MaxLength } from 'class-validator';
 
+/**
+ * Add missing topping per store.
+ * Retry duplicate order.
+ * Cache missing ticket in the queue.
+ * Normalise regional loyalty credit on reorder.
+ * Cache duplicate ticket.
+ * Guard oversized kitchen ticket.
+ * Sort oversized modifier.
+ */
 export class OnBoardSingleClientDTO {
   @IsNotEmpty()
   @IsString()

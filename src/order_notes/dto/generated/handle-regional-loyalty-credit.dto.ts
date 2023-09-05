@@ -35,4 +35,9 @@ export class HandleRegionalLoyaltyCreditDto {
   sortStaleGuestForFranchisees!: string;
   trimMissingLocationOnCheckout!: string;
   backfillEmptyLoyaltyCredit!: string[];
+  cacheDuplicateLoyaltyCreditOnReorder!: boolean;
+  renameRegionalDeliveryWindowInTheQueue!: string[];
+  dedupeCancelledGuest!: boolean;
+  backfillDuplicateStore!: string[];
+  dedupeCancelledModifier!: boolean;
 }

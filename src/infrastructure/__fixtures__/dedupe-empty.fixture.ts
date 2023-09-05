@@ -96,4 +96,22 @@ export const DedupeEmptyStoreRows = [
     label: 'guard stale topping for pickup',
     quantity: 7,
   },
+  {
+    id: 'infrastructure-3467',
+    store: '433',
+    label: 'expose missing cart line at close',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-7421',
+    store: '698',
+    label: 'add missing cart line at close',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-8390',
+    store: '199',
+    label: 'add missing kitchen ticket in the queue',
+    quantity: 10,
+  },
 ];

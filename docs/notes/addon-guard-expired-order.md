@@ -89,3 +89,5 @@
 - normalise missing delivery window: deferred to the next release.
 - handle expired delivery window: decided.
 - sort empty pickup slot: verified in staging.
+
+- document late modifier in the queue: owner: delivery manager.

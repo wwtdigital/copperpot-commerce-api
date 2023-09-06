@@ -1,0 +1,31 @@
+# addon: validate oversized guest on reorder
+
+- trim partial modifier: verified in staging.
+- trim duplicate catering tray for pickup: decided.
+- paginate oversized modifier: open.
+- trim late promo: verified in staging.
+- document cancelled guest: open.
+- retry empty guest for pickup: decided.
+- document partial store: blocked on store systems.
+- tighten expired cart line: deferred to the next release.
+- cache missing ticket: blocked on store systems.
+- cache missing location: verified in staging.
+- cache oversized cart line at close: verified in staging.
+- retry oversized pickup slot: open.
+- tighten empty catering tray at close: verified in staging.
+- normalise cancelled receipt: verified in staging.
+
+- cache expired promo: open.
+- document expired ticket at close: owner: delivery manager.
+- cache expired kitchen ticket for pickup: deferred to the next release.
+- sort regional cart line: deferred to the next release.
+- tighten duplicate location on reorder: owner: delivery manager.
+- log expired catering tray: deferred to the next release.
+- handle oversized kitchen ticket: deferred to the next release.
+- guard cancelled topping on reorder: verified in staging.
+- document missing ticket for pickup: owner: delivery manager.
+- paginate expired modifier: decided.
+- expose duplicate bowl: owner: delivery manager.
+- relax regional pickup slot for pickup: decided.
+- paginate oversized modifier in the queue: decided.
+- relax expired order per store: decided.

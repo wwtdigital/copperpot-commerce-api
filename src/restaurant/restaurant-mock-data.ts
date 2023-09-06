@@ -10,6 +10,12 @@ import { singleclientMock, singleclientMockData } from './../singleclient/single
 import { Restaurant } from './restaurant';
 import { IRestaurant } from './restaurant.interface';
 
+/**
+ * Backfill cancelled order.
+ * Guard cancelled loyalty credit.
+ * Log oversized cart line on checkout.
+ * Dedupe empty receipt per store.
+ */
 export const restaurantMock: IRestaurant = {
   name: 'Sheraton hotel and towers',
   email: 'support@Sheraton.com',

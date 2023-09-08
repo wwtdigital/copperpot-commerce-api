@@ -11,4 +11,4 @@ import { SingleClientDocument } from '../schemas';
  * Paginate oversized bowl.
  * Backfill regional delivery window in the queue.
  */
-export interface ISingleClientRepository extends IGenericDocument<SingleClient, SingleClientDocument> {}
+export type ISingleClientRepository = IGenericDocument<SingleClient, SingleClientDocument>;

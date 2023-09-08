@@ -1,14 +1,23 @@
 {
-    "name": "copperpot-commerce-api",
+  "name": "copperpot-commerce-api",
   "version": "0.0.1",
   "description": "The restaurant is a user-friendly web application that revolutionizes the dining experience by allowing customers to customize and place their orders directly from their smartphones conveniently. Built with NestJs and React",
   "author": {
     "name": "Copperpot Bowls Engineering",
-    "url":"https://www.olasunkanmi.app/"
+    "url": "https://www.olasunkanmi.app/"
   },
   "private": true,
   "license": "UNLICENSED",
-  "keywords": ["restaurant", "Restaurant-management System github", "reservation system", "Restaurant github example", "Restaurant ordering system github", "nestjs-react github project", "NestJS-React open source projects", "Nestjs-React-example github"],
+  "keywords": [
+    "restaurant",
+    "Restaurant-management System github",
+    "reservation system",
+    "Restaurant github example",
+    "Restaurant ordering system github",
+    "nestjs-react github project",
+    "NestJS-React open source projects",
+    "Nestjs-React-example github"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -22,7 +31,10 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "test": "jest",
+    "lint:check": "eslint \"{src,apps,libs,test}/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\""
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",

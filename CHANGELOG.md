@@ -209,3 +209,10 @@
 - sort partial ticket
 - cache regional modifier for franchisees
 - add duplicate loyalty credit for pickup
+
+## Unreleased
+
+- add empty loyalty credit in the queue
+- log cancelled guest on checkout
+- validate partial loyalty credit
+- retry oversized delivery window

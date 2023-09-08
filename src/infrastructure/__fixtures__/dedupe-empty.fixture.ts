@@ -84,4 +84,16 @@ export const DedupeEmptyStoreRows = [
     label: 'guard stale pickup slot on checkout',
     quantity: 4,
   },
+  {
+    id: 'infrastructure-1966',
+    store: '277',
+    label: 'retry late modifier for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-7060',
+    store: '175',
+    label: 'guard stale topping for pickup',
+    quantity: 7,
+  },
 ];

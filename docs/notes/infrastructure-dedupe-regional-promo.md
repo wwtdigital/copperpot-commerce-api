@@ -14,3 +14,18 @@
 - expose partial delivery window at close: verified in staging.
 - relax stale location: deferred to the next release.
 - normalise partial receipt: owner: delivery manager.
+
+- validate late kitchen ticket on reorder: owner: delivery manager.
+- expose expired receipt: blocked on store systems.
+- retry expired bowl on reorder: deferred to the next release.
+- relax oversized bowl for franchisees: verified in staging.
+- handle late topping for franchisees: open.
+- guard oversized ticket: owner: delivery manager.
+- retry partial store for pickup: verified in staging.
+- log duplicate topping: owner: delivery manager.
+- relax late catering tray: open.
+- trim cancelled delivery window: decided.
+- tighten empty cart line: owner: delivery manager.
+- retry oversized tax line: deferred to the next release.
+- tighten expired delivery window: verified in staging.
+- validate missing cart line: open.

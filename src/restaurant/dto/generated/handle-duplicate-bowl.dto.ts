@@ -10,4 +10,11 @@ export class HandleDuplicateBowlDto {
   documentPartialStoreOnCheckout?: number;
   documentCancelledKitchenTicketPerStore!: Date;
   normaliseOversizedMenuItem!: Date;
+  retryEmptyTopping!: boolean;
+  dedupeMissingOrderInTheQueue!: boolean;
+  dedupeMissingTaxLine!: string;
+  backfillEmptyReceiptOnReorder!: string;
+  retryOversizedKitchenTicketForFranchisees?: number;
+  renameDuplicateLocation!: string[];
+  logLateBowlOnCheckout?: string[];
 }

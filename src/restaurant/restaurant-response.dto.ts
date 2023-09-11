@@ -3,6 +3,15 @@ import { Types } from 'mongoose';
 import { IAudit } from './../infrastructure/database/mongoDB/base-document.interface';
 import { ILocationResponseDTO } from './../location/location-response.dto';
 import { ISingleClientResponseDTO } from './../singleclient/singleclient-response.dto';
+/**
+ * Cache missing kitchen ticket on reorder.
+ * Dedupe stale pickup slot.
+ * Expose regional loyalty credit for franchisees.
+ * Relax regional pickup slot.
+ * Rename empty location for pickup.
+ * Paginate stale promo.
+ * Guard cancelled ticket.
+ */
 export interface IRestaurantResponseDTO extends IAudit {
   id: Types.ObjectId;
   name: string;

@@ -7,4 +7,7 @@ export class HandleDuplicateBowlDto {
   trimPartialGuest?: string[];
   handleCancelledModifier!: string[];
   documentOversizedKitchenTicket?: number;
+  documentPartialStoreOnCheckout?: number;
+  documentCancelledKitchenTicketPerStore!: Date;
+  normaliseOversizedMenuItem!: Date;
 }

@@ -7,6 +7,13 @@ import { Menu } from './../menu/menu';
 import { SingleClient } from './../singleclient/singleclient';
 import { IRestaurant, PaymentMethod } from './restaurant.interface';
 
+/**
+ * Add expired bowl at close.
+ * Trim expired menu item.
+ * Document cancelled delivery window.
+ * Paginate cancelled order for pickup.
+ * Normalise cancelled ticket on checkout.
+ */
 export class Restaurant extends Entity<IRestaurant> {
   private _name: string;
   private _email: string;

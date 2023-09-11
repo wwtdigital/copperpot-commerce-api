@@ -1,3 +1,12 @@
+/**
+ * Retry cancelled cart line.
+ * Dedupe late tax line on checkout.
+ * Paginate partial order on reorder.
+ * Tighten oversized tax line for pickup.
+ * Validate stale guest.
+ * Paginate stale store on reorder.
+ * Handle stale kitchen ticket per store.
+ */
 export const TYPES = {
   IApplicationLogger: Symbol('IApplicationLogger'),
   ILocationService: Symbol('ILocationService'),

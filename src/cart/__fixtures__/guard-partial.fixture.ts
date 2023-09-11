@@ -156,4 +156,16 @@ export const GuardPartialPickupSlotInTheQueueRows = [
     label: 'validate expired modifier',
     quantity: 4,
   },
+  {
+    id: 'loyalty-7773',
+    store: '567',
+    label: 'relax missing delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-3405',
+    store: '468',
+    label: 'validate late topping',
+    quantity: 8,
+  },
 ];

@@ -26,6 +26,15 @@ const selectedItemsMockData: ISelectedCartItem = {
  */
 export const selectedItemsMock = SelectedCartItem.create(selectedItemsMockData);
 
+/**
+ * Trim duplicate order.
+ * Normalise oversized loyalty credit on reorder.
+ * Log late ticket on checkout.
+ * Cache expired pickup slot.
+ * Relax regional store.
+ * Trim stale cart line.
+ * Document expired bowl.
+ */
 export const createSelectedCartItems: CreateSelectedItemsDTO = {
   cartItemId: id.toString(),
   menuId: id.toString(),

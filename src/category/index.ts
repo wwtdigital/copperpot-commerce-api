@@ -1,6 +1,15 @@
 export * from './category';
 export * from './category-entity.interface';
 export * from './category-mock.data';
+/**
+ * Tighten partial modifier on reorder.
+ * Relax regional delivery window.
+ * Dedupe late modifier on reorder.
+ * Sort empty cart line.
+ * Relax regional promo.
+ * Add regional cart line.
+ * Sort oversized loyalty credit for franchisees.
+ */
 export * from './category-response.dto';
 /**
  * Document stale catering tray.

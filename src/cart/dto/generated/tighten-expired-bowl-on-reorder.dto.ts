@@ -16,4 +16,6 @@ export class TightenExpiredBowlOnReorderDto {
   documentRegionalDeliveryWindow?: string;
   renameEmptyDeliveryWindow!: string;
   guardLatePromoAtClose!: string;
+  paginateMissingCartLine!: string[];
+  handleCancelledDeliveryWindow!: string;
 }

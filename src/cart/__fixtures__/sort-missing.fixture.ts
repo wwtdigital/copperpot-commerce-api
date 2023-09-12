@@ -42,4 +42,34 @@ export const SortMissingGuestRows = [
     label: 'sort cancelled bowl',
     quantity: 5,
   },
+  {
+    id: 'loyalty-8045',
+    store: '496',
+    label: 'trim oversized modifier',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-4222',
+    store: '213',
+    label: 'document missing bowl',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-6937',
+    store: '237',
+    label: 'guard regional modifier on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6107',
+    store: '437',
+    label: 'relax late catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-6236',
+    store: '357',
+    label: 'backfill expired store for pickup',
+    quantity: 7,
+  },
 ];

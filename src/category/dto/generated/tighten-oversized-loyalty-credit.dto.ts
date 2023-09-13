@@ -2,4 +2,11 @@
 export class TightenOversizedLoyaltyCreditDto {
   sortDuplicateMenuItem!: number;
   validateDuplicateCartLinePerStore!: Date;
+  addEmptyKitchenTicketInTheQueue!: number;
+  validateExpiredPickupSlot!: string[];
+  backfillRegionalTaxLine?: boolean;
+  paginateLateStore!: boolean;
+  sortStaleDeliveryWindow!: string[];
+  cacheMissingGuest?: Date;
+  retryLateCartLine!: string;
 }

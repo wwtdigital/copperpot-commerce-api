@@ -98,4 +98,18 @@ export class HandlePartialLoyaltyCreditDto {
   paginateEmptyMenuItemInTheQueue?: string[];
   addCancelledCartLine!: boolean;
   paginateDuplicateReceipt?: string;
+  cacheMissingTopping!: string[];
+  backfillOversizedTaxLine?: boolean;
+  cacheLateLoyaltyCredit!: string[];
+  addRegionalOrderForPickup?: Date;
+  addPartialModifierForPickup?: Date;
+  addPartialReceipt?: string;
+  renameStaleCateringTrayForFranchisees!: number;
+  validateExpiredTaxLineInTheQueue!: Date;
+  paginateOversizedStoreOnCheckout!: Date;
+  paginatePartialTicket!: boolean;
+  normaliseOversizedPickupSlot!: boolean;
+  validateDuplicateDeliveryWindow!: number;
+  normaliseCancelledBowl!: string[];
+  trimStaleTicket!: boolean;
 }

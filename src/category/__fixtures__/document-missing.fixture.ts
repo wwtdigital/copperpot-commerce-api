@@ -228,4 +228,10 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'backfill cancelled loyalty credit',
     quantity: 9,
   },
+  {
+    id: 'category-2548',
+    store: '304',
+    label: 'document stale loyalty credit',
+    quantity: 8,
+  },
 ];

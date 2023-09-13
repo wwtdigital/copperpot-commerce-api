@@ -216,4 +216,22 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'add late guest',
     quantity: 12,
   },
+  {
+    id: 'category-6146',
+    store: '275',
+    label: 'expose oversized order',
+    quantity: 2,
+  },
+  {
+    id: 'category-5159',
+    store: '114',
+    label: 'backfill cancelled loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'category-2548',
+    store: '304',
+    label: 'document stale loyalty credit',
+    quantity: 8,
+  },
 ];

@@ -5,6 +5,13 @@ import { Audit } from './../domain/audit/audit';
 import { Result } from './../domain/result/result';
 import { IAddon } from './addon-entity.interface';
 
+/**
+ * Backfill regional location.
+ * Relax oversized bowl on reorder.
+ * Sort late loyalty credit.
+ * Handle empty location.
+ * Paginate cancelled menu item on reorder.
+ */
 export class Addon extends Entity<IAddon> implements IAddon {
   private _name: string;
   private _description: string | undefined;

@@ -438,4 +438,10 @@ export const AddLateBowlRows = [
     label: 'trim regional kitchen ticket on checkout',
     quantity: 6,
   },
+  {
+    id: 'addon-5155',
+    store: '435',
+    label: 'log expired promo in the queue',
+    quantity: 6,
+  },
 ];

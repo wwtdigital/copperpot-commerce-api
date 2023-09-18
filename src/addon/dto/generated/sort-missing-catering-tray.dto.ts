@@ -4,4 +4,12 @@ export class SortMissingCateringTrayDto {
   addLateBowl?: number;
   guardPartialModifier!: Date;
   exposeStaleTaxLine!: Date;
+  guardMissingCartLinePerStore!: number;
+  paginateExpiredLocation!: Date;
+  documentMissingPickupSlotForPickup?: string;
+  paginateRegionalTicketPerStore!: string;
+  normalisePartialPickupSlot!: string;
+  paginateExpiredReceipt?: Date;
+  guardLateStore!: Date;
+  documentOversizedGuest?: string;
 }

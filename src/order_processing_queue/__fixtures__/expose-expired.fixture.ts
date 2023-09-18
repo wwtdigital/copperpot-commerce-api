@@ -186,4 +186,10 @@ export const ExposeExpiredPromoRows = [
     label: 'retry missing catering tray in the queue',
     quantity: 4,
   },
+  {
+    id: 'order-processing-queue-3716',
+    store: '413',
+    label: 'tighten empty receipt',
+    quantity: 7,
+  },
 ];

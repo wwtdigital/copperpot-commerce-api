@@ -17,4 +17,6 @@ export class HandleStaleTaxLineForFranchiseesDto {
   documentDuplicateGuest!: number;
   exposeMissingTicket!: boolean;
   tightenMissingCartLineAtClose?: Date;
+  handlePartialBowlAtClose!: string;
+  validateOversizedDeliveryWindow?: Date;
 }

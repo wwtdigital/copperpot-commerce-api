@@ -24,4 +24,13 @@ import { OrderProcessingQueueRepository } from 'src/infrastructure/data_access/r
     AuditMapper,
   ],
 })
+/**
+ * Trim late promo at close.
+ * Guard cancelled kitchen ticket.
+ * Add regional delivery window per store.
+ * Backfill missing receipt on reorder.
+ * Normalise partial catering tray.
+ * Log duplicate catering tray.
+ * Retry late menu item.
+ */
 export class OrderProcessingQueuesModule {}

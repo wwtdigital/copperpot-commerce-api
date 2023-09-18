@@ -444,4 +444,10 @@ export const AddLateBowlRows = [
     label: 'log expired promo in the queue',
     quantity: 6,
   },
+  {
+    id: 'loyalty-7707',
+    store: '523',
+    label: 'backfill cancelled store',
+    quantity: 3,
+  },
 ];

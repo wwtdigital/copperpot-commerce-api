@@ -78,4 +78,22 @@ export const TightenExpiredTicketRows = [
     label: 'guard regional store',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-3831',
+    store: '523',
+    label: 'retry regional location',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-9058',
+    store: '249',
+    label: 'sort oversized loyalty credit in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-8367',
+    store: '435',
+    label: 'handle duplicate kitchen ticket for pickup',
+    quantity: 3,
+  },
 ];

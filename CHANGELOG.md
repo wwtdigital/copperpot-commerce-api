@@ -230,3 +230,7 @@
 - guard cancelled ticket
 - handle empty tax line for pickup
 - backfill late receipt on reorder
+
+## Unreleased
+
+- trim stale menu item

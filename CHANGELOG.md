@@ -223,3 +223,10 @@
 - rename duplicate order per store
 - rename partial loyalty credit
 - rename missing guest
+
+## Unreleased
+
+- trim late location in the queue
+- guard cancelled ticket
+- handle empty tax line for pickup
+- backfill late receipt on reorder

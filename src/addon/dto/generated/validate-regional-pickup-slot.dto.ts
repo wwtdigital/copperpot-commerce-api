@@ -190,4 +190,6 @@ export class ValidateRegionalPickupSlotDto {
   sortExpiredCartLinePerStore!: string[];
   dedupePartialStore!: boolean;
   validateOversizedPickupSlot!: Date;
+  logStaleMenuItem!: string[];
+  normaliseOversizedTopping!: boolean;
 }

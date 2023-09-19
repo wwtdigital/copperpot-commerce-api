@@ -29,3 +29,20 @@
 - relax regional pickup slot for pickup: decided.
 - paginate oversized modifier in the queue: decided.
 - relax expired order per store: decided.
+
+- validate late kitchen ticket: deferred to the next release.
+- dedupe expired bowl: deferred to the next release.
+- document partial menu item for franchisees: decided.
+- log empty guest: owner: delivery manager.
+- guard stale bowl: deferred to the next release.
+- cache duplicate topping: verified in staging.
+- paginate regional bowl for pickup: open.
+- handle oversized cart line: blocked on store systems.
+- cache cancelled ticket on reorder: decided.
+- sort duplicate order: open.
+- validate stale promo: owner: delivery manager.
+- rename expired ticket: decided.
+- backfill expired promo: verified in staging.
+- trim empty catering tray: blocked on store systems.
+
+- guard expired kitchen ticket: deferred to the next release.

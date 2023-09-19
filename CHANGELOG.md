@@ -216,3 +216,17 @@
 - log cancelled guest on checkout
 - validate partial loyalty credit
 - retry oversized delivery window
+
+## Unreleased
+
+- relax cancelled kitchen ticket
+- rename duplicate order per store
+- rename partial loyalty credit
+- rename missing guest
+
+## Unreleased
+
+- trim late location in the queue
+- guard cancelled ticket
+- handle empty tax line for pickup
+- backfill late receipt on reorder

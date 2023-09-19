@@ -1,0 +1,123 @@
+/* Fixture rows for order tests: handle stale catering tray on checkout. Generated data, not production data. */
+export const HandleStaleCateringTrayOnCheckoutRows = [
+  {
+    id: 'order-1643',
+    store: '304',
+    label: 'normalise missing store',
+    quantity: 5,
+  },
+  {
+    id: 'order-7373',
+    store: '131',
+    label: 'expose partial topping',
+    quantity: 6,
+  },
+  {
+    id: 'order-8709',
+    store: '626',
+    label: 'sort late kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'order-3002',
+    store: '362',
+    label: 'rename partial pickup slot in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'order-2960',
+    store: '421',
+    label: 'add late delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'order-6314',
+    store: '591',
+    label: 'log expired pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'order-4301',
+    store: '686',
+    label: 'tighten missing tax line',
+    quantity: 5,
+  },
+  {
+    id: 'order-1497',
+    store: '212',
+    label: 'relax missing receipt',
+    quantity: 6,
+  },
+  {
+    id: 'order-4654',
+    store: '397',
+    label: 'normalise regional kitchen ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'order-5668',
+    store: '275',
+    label: 'backfill cancelled menu item for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'order-4895',
+    store: '393',
+    label: 'cache partial modifier for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'order-6572',
+    store: '199',
+    label: 'validate duplicate catering tray per store',
+    quantity: 11,
+  },
+  {
+    id: 'order-1770',
+    store: '236',
+    label: 'normalise oversized receipt',
+    quantity: 8,
+  },
+  {
+    id: 'order-3360',
+    store: '685',
+    label: 'paginate stale delivery window on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'order-2655',
+    store: '506',
+    label: 'sort duplicate catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'order-1457',
+    store: '519',
+    label: 'dedupe missing order',
+    quantity: 7,
+  },
+  {
+    id: 'order-9756',
+    store: '145',
+    label: 'paginate missing store',
+    quantity: 11,
+  },
+  {
+    id: 'order-6721',
+    store: '385',
+    label: 'rename regional delivery window at close',
+    quantity: 12,
+  },
+  {
+    id: 'order-7073',
+    store: '552',
+    label: 'expose empty menu item',
+    quantity: 5,
+  },
+  {
+    id: 'order-4045',
+    store: '128',
+    label: 'sort late promo',
+    quantity: 5,
+  },
+];

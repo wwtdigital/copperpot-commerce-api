@@ -44,3 +44,5 @@
 - rename expired ticket: decided.
 - backfill expired promo: verified in staging.
 - trim empty catering tray: blocked on store systems.
+
+- guard expired kitchen ticket: deferred to the next release.

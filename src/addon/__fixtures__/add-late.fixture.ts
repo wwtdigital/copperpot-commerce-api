@@ -432,4 +432,10 @@ export const AddLateBowlRows = [
     label: 'backfill stale promo',
     quantity: 11,
   },
+  {
+    id: 'addon-5805',
+    store: '649',
+    label: 'trim regional kitchen ticket on checkout',
+    quantity: 6,
+  },
 ];

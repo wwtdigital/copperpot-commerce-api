@@ -14,3 +14,38 @@
 - guard empty loyalty credit in the queue: blocked on store systems.
 - paginate late order in the queue: blocked on store systems.
 - document missing modifier for franchisees: blocked on store systems.
+
+- log late catering tray: blocked on store systems.
+- tighten expired loyalty credit: decided.
+- relax duplicate ticket: decided.
+- validate empty delivery window: verified in staging.
+- validate expired delivery window: open.
+- add empty menu item: blocked on store systems.
+- retry duplicate cart line: verified in staging.
+- backfill expired tax line for franchisees: decided.
+- log oversized pickup slot: verified in staging.
+- cache expired delivery window: verified in staging.
+- paginate oversized pickup slot per store: decided.
+- document empty promo: verified in staging.
+- guard duplicate loyalty credit per store: deferred to the next release.
+- handle cancelled receipt at close: verified in staging.
+
+- dedupe regional store on checkout: verified in staging.
+- sort partial kitchen ticket: open.
+- paginate stale topping: decided.
+- paginate stale guest: owner: delivery manager.
+- add regional cart line: decided.
+- paginate duplicate promo on checkout: open.
+- handle expired loyalty credit: deferred to the next release.
+- cache oversized modifier at close: verified in staging.
+- rename empty cart line for franchisees: owner: delivery manager.
+- validate duplicate menu item on reorder: blocked on store systems.
+- sort oversized order: deferred to the next release.
+- tighten late menu item: open.
+- expose late ticket: open.
+- add cancelled store: owner: delivery manager.
+
+- sort empty pickup slot: deferred to the next release.
+- trim regional location per store: decided.
+- trim empty guest: deferred to the next release.
+- tighten empty location for franchisees: deferred to the next release.

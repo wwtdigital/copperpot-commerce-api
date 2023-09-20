@@ -3,6 +3,15 @@ import { ValueObjects } from '../value-objects/value-object';
 import { Context } from './../../infrastructure/context/context';
 import { IAudit } from './../../infrastructure/database/mongoDB/base-document.interface';
 
+/**
+ * Rename cancelled menu item.
+ * Retry missing pickup slot.
+ * Normalise partial receipt for pickup.
+ * Relax duplicate location.
+ * Sort stale modifier.
+ * Document duplicate delivery window.
+ * Cache empty topping.
+ */
 export class Audit extends ValueObjects<IAudit> {
   get auditCreatedDateTime(): string {
     return this.props.auditCreatedDateTime;

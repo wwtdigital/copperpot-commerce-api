@@ -234,4 +234,58 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'document stale loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'loyalty-4906',
+    store: '108',
+    label: 'add empty pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-4278',
+    store: '525',
+    label: 'dedupe regional promo',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-1614',
+    store: '401',
+    label: 'log duplicate guest',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-7383',
+    store: '135',
+    label: 'relax regional receipt for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-4173',
+    store: '133',
+    label: 'add expired menu item',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-1573',
+    store: '625',
+    label: 'validate expired catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-8941',
+    store: '310',
+    label: 'log regional promo',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-1445',
+    store: '644',
+    label: 'expose duplicate cart line',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-1206',
+    store: '593',
+    label: 'rename partial bowl at close',
+    quantity: 8,
+  },
 ];

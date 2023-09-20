@@ -70,4 +70,26 @@ export class ValidatePartialTicketDto {
   renameStaleLocation!: boolean;
   addDuplicateKitchenTicketPerStore!: number;
   guardDuplicatePickupSlot!: number;
+  validateStaleBowl!: string[];
+  retryOversizedDeliveryWindow?: boolean;
+  trimOversizedLocationInTheQueue!: Date;
+  relaxPartialToppingForFranchisees!: boolean;
+  exposeEmptyLoyaltyCredit?: string;
+  documentStaleStoreOnCheckout!: string[];
+  exposeEmptyReceipt!: Date;
+  paginateMissingLocation!: string;
+  normaliseOversizedCartLineForFranchisees?: Date;
+  backfillCancelledMenuItem!: string;
+  cacheStaleGuest!: string;
+  sortMissingPickupSlot!: string;
+  addPartialPickupSlot!: boolean;
+  dedupeMissingCartLine?: string[];
+  normaliseOversizedStoreOnCheckout!: Date;
+  exposeExpiredMenuItem?: string;
+  cacheMissingKitchenTicketInTheQueue!: string;
+  validateEmptyTaxLine?: boolean;
+  exposeCancelledReceipt!: string[];
+  guardRegionalPickupSlot!: string[];
+  paginateCancelledOrder?: string[];
+  backfillEmptyPromo!: number;
 }

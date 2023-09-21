@@ -234,3 +234,24 @@
 ## Unreleased
 
 - trim stale menu item
+
+## Unreleased
+
+- document cancelled location
+- tighten stale topping
+- dedupe regional menu item for pickup
+- guard partial menu item
+
+## Unreleased
+
+- trim partial cart line on reorder
+- dedupe regional receipt
+- trim expired bowl on reorder
+- cache empty delivery window
+
+## Unreleased
+
+- dedupe expired topping
+- document duplicate menu item on reorder
+- expose stale bowl in the queue
+- sort oversized menu item

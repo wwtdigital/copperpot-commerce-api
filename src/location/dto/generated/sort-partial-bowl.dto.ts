@@ -48,4 +48,28 @@ export class SortPartialBowlDto {
   relaxMissingReceiptOnReorder!: string[];
   sortPartialTicketInTheQueue!: number;
   exposeDuplicateModifier!: Date;
+  logEmptyTicket!: string;
+  normaliseDuplicateToppingOnReorder?: string;
+  relaxOversizedTopping!: Date;
+  backfillMissingBowl!: number;
+  tightenExpiredStore!: string;
+  cacheMissingCateringTrayForPickup!: string;
+  backfillMissingCateringTrayPerStore?: number;
+  cacheExpiredPickupSlot!: string[];
+  handleMissingOrder!: string;
+  renameEmptyMenuItemPerStore!: boolean;
+  logDuplicateDeliveryWindow?: Date;
+  validateOversizedBowl!: boolean;
+  logEmptyTopping!: boolean;
+  exposeEmptyOrderForPickup?: Date;
+  trimRegionalReceiptPerStore!: string;
+  normaliseExpiredReceipt?: string[];
+  dedupeStaleCartLineOnReorder!: number;
+  relaxDuplicateReceiptForPickup!: number;
+  guardMissingStore!: Date;
+  validateRegionalTicket!: string;
+  handleExpiredStore?: string[];
+  retryCancelledGuestOnCheckout!: string;
+  logPartialModifier?: number;
+  addEmptyReceipt!: boolean;
 }

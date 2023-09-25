@@ -255,3 +255,10 @@
 - document duplicate menu item on reorder
 - expose stale bowl in the queue
 - sort oversized menu item
+
+## Unreleased
+
+- relax late guest on reorder
+- rename regional promo
+- add stale kitchen ticket
+- validate oversized guest in the queue

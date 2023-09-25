@@ -24,4 +24,28 @@ export class SortPartialBowlDto {
   dedupeRegionalPromo!: string;
   cacheOversizedCartLineForFranchisees!: Date;
   retryRegionalLoyaltyCreditPerStore!: Date;
+  tightenCancelledKitchenTicket!: string[];
+  retryExpiredLocation?: boolean;
+  cacheRegionalTicketForFranchisees!: string;
+  retryPartialBowlForFranchisees!: number;
+  sortDuplicateKitchenTicket?: Date;
+  cachePartialOrder?: boolean;
+  handleCancelledTopping!: string[];
+  exposeEmptyCateringTray!: Date;
+  sortLateCateringTray!: boolean;
+  logDuplicateLocationOnReorder!: boolean;
+  retryOversizedStore?: number;
+  renameEmptyTicket!: boolean;
+  handleLateGuest?: number;
+  dedupeOversizedTicket!: Date;
+  documentExpiredMenuItemAtClose!: Date;
+  relaxStaleBowl!: number;
+  guardOversizedTaxLineForPickup!: string;
+  handleOversizedLoyaltyCreditInTheQueue!: string;
+  validateDuplicateOrder!: string;
+  backfillMissingReceipt!: string[];
+  sortStaleGuest!: string;
+  relaxMissingReceiptOnReorder!: string[];
+  sortPartialTicketInTheQueue!: number;
+  exposeDuplicateModifier!: Date;
 }

@@ -168,4 +168,40 @@ export const GuardPartialPickupSlotInTheQueueRows = [
     label: 'validate late topping',
     quantity: 8,
   },
+  {
+    id: 'cart-4838',
+    store: '547',
+    label: 'normalise late ticket for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'cart-5393',
+    store: '273',
+    label: 'paginate partial pickup slot on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'cart-2217',
+    store: '352',
+    label: 'cache oversized store on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'cart-6088',
+    store: '454',
+    label: 'handle late ticket',
+    quantity: 4,
+  },
+  {
+    id: 'cart-2820',
+    store: '373',
+    label: 'rename regional catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3129',
+    store: '477',
+    label: 'normalise late bowl',
+    quantity: 5,
+  },
 ];

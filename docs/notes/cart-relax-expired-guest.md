@@ -38,3 +38,8 @@
 - expose duplicate delivery window: open.
 - sort duplicate location: owner: delivery manager.
 - log partial loyalty credit per store: open.
+
+- sort expired order for franchisees: owner: delivery manager.
+- relax regional kitchen ticket: deferred to the next release.
+- add missing store: open.
+- guard cancelled guest for franchisees: owner: delivery manager.

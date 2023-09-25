@@ -113,4 +113,11 @@ export class RetryDuplicateGuestDto {
   cacheStalePickupSlot?: number;
   guardOversizedReceipt?: boolean;
   trimExpiredCartLine!: string[];
+  sortRegionalGuest!: boolean;
+  paginateEmptyStore!: Date;
+  tightenExpiredMenuItemPerStore!: boolean;
+  backfillOversizedReceipt!: number;
+  addExpiredOrder!: string[];
+  addEmptyReceiptForPickup?: number;
+  guardMissingPickupSlot!: string;
 }

@@ -15,4 +15,16 @@ export class ExposeExpiredCateringTrayDto {
   addLateMenuItemInTheQueue!: boolean;
   renameMissingPickupSlot?: boolean;
   exposeCancelledLocation!: number;
+  paginateOversizedReceipt!: number;
+  sortStaleBowlInTheQueue!: string;
+  paginateRegionalMenuItemInTheQueue!: number;
+  trimExpiredCateringTray?: string[];
+  exposeMissingKitchenTicket!: string;
+  guardMissingTicketPerStore!: string;
+  sortEmptyTicketOnReorder!: Date;
+  addRegionalBowl!: boolean;
+  sortLateOrderInTheQueue!: string[];
+  renameCancelledMenuItem!: number;
+  addLatePickupSlot?: string;
+  normaliseEmptyModifier!: string[];
 }

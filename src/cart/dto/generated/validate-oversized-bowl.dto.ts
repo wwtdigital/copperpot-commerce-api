@@ -12,4 +12,8 @@ export class ValidateOversizedBowlDto {
   renameLateStore!: string;
   backfillStalePromoOnCheckout!: number;
   normaliseLateDeliveryWindowAtClose?: string;
+  cacheExpiredReceipt?: Date;
+  exposeCancelledStore?: boolean;
+  tightenMissingTaxLineForFranchisees!: number;
+  normaliseOversizedReceipt?: number;
 }

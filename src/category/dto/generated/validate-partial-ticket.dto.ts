@@ -92,4 +92,6 @@ export class ValidatePartialTicketDto {
   guardRegionalPickupSlot!: string[];
   paginateCancelledOrder?: string[];
   backfillEmptyPromo!: number;
+  normalisePartialToppingForFranchisees!: number;
+  renameCancelledCateringTray!: number;
 }

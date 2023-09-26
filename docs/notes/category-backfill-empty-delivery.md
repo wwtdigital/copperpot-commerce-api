@@ -33,3 +33,18 @@
 - validate missing loyalty credit on reorder: verified in staging.
 - paginate expired menu item per store: decided.
 - backfill expired catering tray on reorder: verified in staging.
+
+- add cancelled delivery window on checkout: open.
+- sort cancelled ticket on reorder: deferred to the next release.
+- rename late ticket: verified in staging.
+- cache expired modifier per store: blocked on store systems.
+- trim regional bowl: deferred to the next release.
+- backfill cancelled promo: blocked on store systems.
+- paginate expired promo: verified in staging.
+- sort duplicate promo on reorder: deferred to the next release.
+- normalise cancelled promo in the queue: open.
+- paginate late location in the queue: deferred to the next release.
+- log late location: decided.
+- trim empty guest on reorder: blocked on store systems.
+- add cancelled menu item: open.
+- retry duplicate ticket: open.

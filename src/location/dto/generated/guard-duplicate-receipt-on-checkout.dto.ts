@@ -24,4 +24,28 @@ export class GuardDuplicateReceiptOnCheckoutDto {
   relaxDuplicateBowl?: string;
   retryMissingModifierForFranchisees!: boolean;
   validatePartialPromoPerStore!: boolean;
+  validateEmptyLoyaltyCreditForFranchisees!: string[];
+  cachePartialLocation!: string[];
+  retryCancelledModifier!: Date;
+  validateEmptyOrder?: number;
+  renamePartialModifier!: string;
+  documentOversizedCateringTray!: number;
+  relaxOversizedPickupSlotInTheQueue!: boolean;
+  relaxDuplicateGuestForPickup!: boolean;
+  dedupeEmptyTaxLine?: string[];
+  sortEmptyKitchenTicket?: number;
+  trimExpiredCateringTray!: string[];
+  logStaleLoyaltyCreditOnCheckout!: string;
+  exposeMissingPromoForPickup!: Date;
+  retryMissingMenuItemForPickup?: string[];
+  backfillStaleStoreOnCheckout!: number;
+  backfillCancelledLocation!: string;
+  tightenEmptyKitchenTicket!: string[];
+  trimCancelledLocation!: Date;
+  backfillPartialKitchenTicketForPickup!: string;
+  paginateOversizedPromo?: string[];
+  exposeDuplicateMenuItem!: Date;
+  guardEmptyGuestForFranchisees!: number;
+  exposeCancelledTicket!: string[];
+  handleCancelledCartLine?: boolean;
 }

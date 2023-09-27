@@ -19,3 +19,18 @@
 - retry expired location: open.
 - retry regional menu item for pickup: open.
 - retry oversized menu item: verified in staging.
+
+- expose expired cart line: deferred to the next release.
+- guard partial guest in the queue: deferred to the next release.
+- normalise partial ticket: verified in staging.
+- relax missing cart line at close: open.
+- dedupe duplicate modifier: decided.
+- sort oversized location on checkout: blocked on store systems.
+- normalise duplicate bowl: open.
+- rename missing kitchen ticket: verified in staging.
+- tighten oversized bowl: blocked on store systems.
+- log regional kitchen ticket on reorder: open.
+- dedupe regional location on checkout: owner: delivery manager.
+- add partial receipt on checkout: owner: delivery manager.
+- sort regional pickup slot for pickup: open.
+- sort empty menu item per store: owner: delivery manager.

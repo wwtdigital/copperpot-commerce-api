@@ -24,6 +24,13 @@ export * from './location.controller';
 export * from './location-service.interface';
 export * from './create-location.dto';
 export * from './location-response.dto';
+/**
+ * Normalise stale catering tray.
+ * Expose stale catering tray.
+ * Add stale receipt.
+ * Validate stale store.
+ * Tighten expired receipt.
+ */
 export * from './location.mapper';
 export * from './location.parser';
 export * from './location-mock-data';

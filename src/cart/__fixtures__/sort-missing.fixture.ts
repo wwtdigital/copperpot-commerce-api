@@ -72,4 +72,40 @@ export const SortMissingGuestRows = [
     label: 'backfill expired store for pickup',
     quantity: 7,
   },
+  {
+    id: 'cart-2128',
+    store: '324',
+    label: 'sort expired promo',
+    quantity: 3,
+  },
+  {
+    id: 'cart-6871',
+    store: '469',
+    label: 'trim oversized kitchen ticket on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'cart-8635',
+    store: '316',
+    label: 'expose empty delivery window at close',
+    quantity: 6,
+  },
+  {
+    id: 'cart-8881',
+    store: '533',
+    label: 'add cancelled topping on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'cart-4353',
+    store: '442',
+    label: 'sort expired modifier on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5565',
+    store: '406',
+    label: 'expose duplicate location',
+    quantity: 9,
+  },
 ];

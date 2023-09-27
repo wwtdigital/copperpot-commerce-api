@@ -14,3 +14,18 @@
 - retry missing loyalty credit: decided.
 - add missing topping: open.
 - log regional promo: open.
+
+- trim late bowl: verified in staging.
+- backfill missing receipt on reorder: decided.
+- cache late store: open.
+- sort cancelled loyalty credit: verified in staging.
+- tighten expired menu item in the queue: verified in staging.
+- dedupe cancelled topping: blocked on store systems.
+- retry cancelled guest in the queue: deferred to the next release.
+- normalise empty tax line: deferred to the next release.
+- trim expired tax line: decided.
+- guard expired store: blocked on store systems.
+- document empty guest: verified in staging.
+- relax expired bowl: decided.
+- cache stale order: owner: delivery manager.
+- relax oversized receipt: open.

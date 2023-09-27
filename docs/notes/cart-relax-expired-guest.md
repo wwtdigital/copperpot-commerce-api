@@ -25,3 +25,21 @@
 - validate stale order: owner: delivery manager.
 - tighten expired tax line: verified in staging.
 - dedupe empty modifier: deferred to the next release.
+
+- add empty cart line per store: blocked on store systems.
+- guard regional receipt for franchisees: blocked on store systems.
+- log duplicate tax line: owner: delivery manager.
+- tighten late topping: deferred to the next release.
+- guard expired topping per store: blocked on store systems.
+- guard partial pickup slot: open.
+- guard empty promo for pickup: owner: delivery manager.
+- tighten expired guest: verified in staging.
+- rename partial store at close: blocked on store systems.
+- expose duplicate delivery window: open.
+- sort duplicate location: owner: delivery manager.
+- log partial loyalty credit per store: open.
+
+- sort expired order for franchisees: owner: delivery manager.
+- relax regional kitchen ticket: deferred to the next release.
+- add missing store: open.
+- guard cancelled guest for franchisees: owner: delivery manager.

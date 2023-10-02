@@ -204,4 +204,52 @@ export const GuardPartialPickupSlotInTheQueueRows = [
     label: 'normalise late bowl',
     quantity: 5,
   },
+  {
+    id: 'cart-1379',
+    store: '175',
+    label: 'dedupe cancelled order',
+    quantity: 9,
+  },
+  {
+    id: 'cart-6526',
+    store: '483',
+    label: 'dedupe oversized guest',
+    quantity: 10,
+  },
+  {
+    id: 'cart-4979',
+    store: '566',
+    label: 'log missing delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2010',
+    store: '366',
+    label: 'add oversized tax line in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2540',
+    store: '292',
+    label: 'rename missing catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'cart-1544',
+    store: '341',
+    label: 'expose regional tax line',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5996',
+    store: '329',
+    label: 'validate cancelled cart line in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'cart-1466',
+    store: '261',
+    label: 'rename expired location',
+    quantity: 6,
+  },
 ];

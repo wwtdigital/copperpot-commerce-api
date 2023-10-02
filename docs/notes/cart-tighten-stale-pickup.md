@@ -29,3 +29,18 @@
 - cache oversized topping: verified in staging.
 - handle empty location: owner: delivery manager.
 - add regional store at close: verified in staging.
+
+- retry empty store for pickup: verified in staging.
+- trim stale kitchen ticket: owner: delivery manager.
+- tighten partial pickup slot for pickup: open.
+- dedupe empty store: open.
+- trim partial catering tray: open.
+- paginate partial bowl: deferred to the next release.
+- guard duplicate modifier: owner: delivery manager.
+- handle partial delivery window at close: blocked on store systems.
+- backfill stale location: verified in staging.
+- trim late ticket: verified in staging.
+- retry stale promo for pickup: verified in staging.
+- trim cancelled order: decided.
+- validate regional location on reorder: verified in staging.
+- cache late cart line: decided.

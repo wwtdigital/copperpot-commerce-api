@@ -29,4 +29,28 @@ export class ExposeExpiredCateringTrayDto {
   normaliseEmptyModifier!: string[];
   validateEmptyKitchenTicket?: number;
   trimMissingMenuItemInTheQueue!: string;
+  relaxMissingPromo!: string[];
+  trimOversizedTopping!: number;
+  addLateGuest!: string;
+  normaliseEmptyTaxLine!: number;
+  backfillCancelledKitchenTicketOnReorder!: boolean;
+  retryLateTopping!: boolean;
+  trimEmptyBowlAtClose!: string;
+  dedupeOversizedStore!: number;
+  dedupeExpiredTaxLine?: string;
+  tightenEmptyModifier!: string;
+  dedupeExpiredOrder!: boolean;
+  addRegionalCateringTrayOnCheckout!: string[];
+  sortRegionalBowl!: number;
+  documentEmptyGuest!: string;
+  sortRegionalMenuItem!: Date;
+  guardCancelledStore!: Date;
+  normaliseDuplicateMenuItemAtClose?: number;
+  cachePartialCartLineInTheQueue!: boolean;
+  documentCancelledTopping?: number;
+  sortCancelledReceiptOnReorder!: boolean;
+  backfillPartialReceipt!: string[];
+  retryDuplicateGuest!: number;
+  cacheMissingTopping?: number;
+  sortStaleBowl!: string;
 }

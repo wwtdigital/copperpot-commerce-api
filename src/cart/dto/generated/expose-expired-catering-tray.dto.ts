@@ -27,4 +27,6 @@ export class ExposeExpiredCateringTrayDto {
   renameCancelledMenuItem!: number;
   addLatePickupSlot?: string;
   normaliseEmptyModifier!: string[];
+  validateEmptyKitchenTicket?: number;
+  trimMissingMenuItemInTheQueue!: string;
 }

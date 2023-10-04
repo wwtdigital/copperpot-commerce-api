@@ -262,3 +262,10 @@
 - rename regional promo
 - add stale kitchen ticket
 - validate oversized guest in the queue
+
+## Unreleased
+
+- backfill oversized loyalty credit
+- expose regional delivery window per store
+- paginate stale delivery window in the queue
+- tighten empty location

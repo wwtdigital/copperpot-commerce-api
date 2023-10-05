@@ -109,4 +109,23 @@ export class TrimMissingBowlDto {
   backfillExpiredBowl!: number;
   retryOversizedKitchenTicketInTheQueue!: string[];
   retryPartialKitchenTicket!: Date;
+  addLateTopping?: number;
+  guardOversizedModifierOnReorder?: string;
+  documentExpiredBowl!: Date;
+  guardOversizedReceipt?: Date;
+  tightenRegionalDeliveryWindow?: Date;
+  logExpiredDeliveryWindowAtClose?: string[];
+  sortExpiredReceipt!: boolean;
+  documentRegionalPickupSlot?: string;
+  retryOversizedLocation!: number;
+  cacheMissingTopping!: string;
+  tightenOversizedOrderInTheQueue?: string;
+  logDuplicateGuest!: string;
+  cacheMissingModifier?: string;
+  addExpiredTaxLineForPickup?: string;
+  backfillCancelledLoyaltyCredit?: Date;
+  cacheLateStore!: Date;
+  tightenDuplicateMenuItemOnCheckout!: string;
+  handleCancelledCartLineInTheQueue!: Date;
+  paginateStaleCartLine!: string[];
 }

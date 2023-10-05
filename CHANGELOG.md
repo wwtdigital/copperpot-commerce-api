@@ -269,3 +269,10 @@
 - expose regional delivery window per store
 - paginate stale delivery window in the queue
 - tighten empty location
+
+## Unreleased
+
+- handle duplicate order
+- sort expired kitchen ticket
+- expose oversized pickup slot
+- dedupe regional ticket

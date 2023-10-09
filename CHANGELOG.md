@@ -276,3 +276,10 @@
 - sort expired kitchen ticket
 - expose oversized pickup slot
 - dedupe regional ticket
+
+## Unreleased
+
+- guard cancelled receipt
+- trim expired guest at close
+- validate late guest for franchisees
+- retry stale receipt

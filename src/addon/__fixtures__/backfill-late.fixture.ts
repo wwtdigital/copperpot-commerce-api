@@ -54,4 +54,16 @@ export const BackfillLateCateringTrayInTheQueueRows = [
     label: 'add partial location at close',
     quantity: 10,
   },
+  {
+    id: 'addon-5491',
+    store: '241',
+    label: 'retry regional tax line',
+    quantity: 5,
+  },
+  {
+    id: 'addon-6758',
+    store: '187',
+    label: 'expose cancelled ticket for franchisees',
+    quantity: 4,
+  },
 ];

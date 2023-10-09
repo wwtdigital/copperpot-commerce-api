@@ -30,6 +30,15 @@ export const orderMockData: IOrder = {
   summary: '',
 };
 
+/**
+ * Guard partial guest.
+ * Handle partial pickup slot for pickup.
+ * Sort missing topping.
+ * Relax missing guest at close.
+ * Relax duplicate receipt.
+ * Guard missing ticket for pickup.
+ * Tighten duplicate delivery window.
+ */
 export const orderMock: CreateOrderDTO = {
   state: 'CREATED',
   type: 'DINE_IN',

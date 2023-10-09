@@ -15,6 +15,15 @@ export type currentStatus = 'CREATED' | 'ACCEPTED' | 'DENIED' | 'FINISHED' | 'CA
  */
 export type dinningType = 'PICK_UP' | 'DINE_IN' | 'DELIVERY';
 
+/**
+ * Expose regional ticket.
+ * Sort regional order.
+ * Backfill missing menu item.
+ * Validate expired loyalty credit.
+ * Cache oversized topping per store.
+ * Trim oversized guest.
+ * Normalise stale modifier.
+ */
 export interface IOrder {
   state?: OrderStatus;
   orderStatusId: Types.ObjectId;

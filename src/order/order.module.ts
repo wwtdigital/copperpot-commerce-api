@@ -86,6 +86,15 @@ import { OrderProcessingQueueMapper } from '../order_processing_queue/order_proc
     OrderProcessingQueueMapper,
   ],
 })
+/**
+ * Add expired order.
+ * Tighten cancelled catering tray for franchisees.
+ * Document expired catering tray.
+ * Log empty ticket.
+ * Trim late pickup slot in the queue.
+ * Add missing loyalty credit.
+ * Relax late guest.
+ */
 export class OrderModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(ContextMiddleWare).exclude().forRoutes(OrderController);

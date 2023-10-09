@@ -19,3 +19,18 @@
 - handle cancelled menu item: owner: delivery manager.
 - trim partial location for pickup: decided.
 - guard duplicate bowl: verified in staging.
+
+- expose stale delivery window: verified in staging.
+- add oversized guest in the queue: deferred to the next release.
+- validate stale tax line for pickup: open.
+- guard missing catering tray for pickup: blocked on store systems.
+- handle oversized loyalty credit: blocked on store systems.
+- paginate missing pickup slot: verified in staging.
+- trim late delivery window: decided.
+- document missing promo on reorder: verified in staging.
+- paginate stale menu item: decided.
+- guard partial order on checkout: blocked on store systems.
+- trim empty tax line at close: verified in staging.
+- paginate oversized catering tray: deferred to the next release.
+- rename partial store: verified in staging.
+- backfill missing modifier: open.

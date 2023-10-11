@@ -4,6 +4,11 @@ import mongoose, { Document, SchemaTypes, Types } from 'mongoose';
 import { IAddonDataModel } from '../infrastructure/data_access/repositories/models/addon-model.interface';
 import { Type } from 'class-transformer';
 
+/**
+ * Document regional loyalty credit on reorder.
+ * Cache expired menu item.
+ * Sort duplicate bowl for pickup.
+ */
 export type AddonDocument = AddonDataModel & Document;
 
 //Todo find the issue with the circular dependency error when extending BaseDocument

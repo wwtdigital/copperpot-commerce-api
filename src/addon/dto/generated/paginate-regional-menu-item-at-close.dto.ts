@@ -1,0 +1,46 @@
+/* PaginateRegionalMenuItemAtCloseDto: shape for paginate regional menu item at close. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class PaginateRegionalMenuItemAtCloseDto {
+  backfillStaleDeliveryWindowOnReorder?: number;
+  documentOversizedLoyaltyCredit?: Date;
+  renameLateCateringTray?: string[];
+  validateCancelledTopping!: string;
+  documentRegionalTaxLine!: string[];
+  documentPartialCartLine!: boolean;
+  exposeEmptyLocationOnReorder?: string[];
+  validateLateTaxLineOnCheckout?: number;
+  cacheMissingOrderAtClose!: string[];
+  validateRegionalGuest!: string[];
+  exposeStaleCateringTray?: string;
+  addOversizedTaxLine!: string;
+  addExpiredLoyaltyCreditAtClose!: boolean;
+  guardRegionalTaxLine!: Date;
+  retryCancelledTicketOnCheckout!: boolean;
+  guardDuplicateDeliveryWindow!: number;
+  cacheStaleTicketInTheQueue?: boolean;
+  dedupeDuplicatePickupSlot!: string;
+  cacheExpiredPickupSlotForFranchisees!: string[];
+  retryExpiredGuestAtClose!: string;
+  normaliseRegionalCateringTray?: boolean;
+  paginateCancelledCateringTray?: Date;
+  paginateLateCateringTray!: string[];
+  dedupeStaleDeliveryWindowAtClose!: number;
+  retryRegionalTopping?: number;
+  documentStaleReceipt!: string[];
+  dedupeOversizedTopping?: Date;
+  retryMissingMenuItem!: string;
+  exposeRegionalGuest!: string;
+  normaliseCancelledStore!: string;
+  trimExpiredModifierForFranchisees!: string;
+  exposeOversizedReceipt!: Date;
+  exposePartialPickupSlot!: string[];
+  validateDuplicateLocation!: Date;
+  dedupeMissingKitchenTicket!: number;
+  logExpiredDeliveryWindowOnCheckout!: number;
+  relaxEmptyPickupSlotInTheQueue!: Date;
+  validatePartialCateringTray?: boolean;
+  logMissingOrder!: string[];
+  handleOversizedLoyaltyCreditOnReorder?: string;
+  retryPartialBowlOnCheckout!: boolean;
+  paginateEmptyModifier?: string[];
+  normaliseEmptyCateringTray?: Date;
+}

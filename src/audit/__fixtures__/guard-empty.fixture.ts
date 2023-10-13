@@ -120,4 +120,10 @@ export const GuardEmptyModifierRows = [
     label: 'sort oversized tax line',
     quantity: 5,
   },
+  {
+    id: 'audit-8569',
+    store: '651',
+    label: 'paginate cancelled modifier at close',
+    quantity: 10,
+  },
 ];

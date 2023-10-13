@@ -192,4 +192,10 @@ export const TrimOversizedModifierForPickupRows = [
     label: 'expose late ticket',
     quantity: 9,
   },
+  {
+    id: 'audit-3940',
+    store: '319',
+    label: 'guard oversized ticket on checkout',
+    quantity: 11,
+  },
 ];

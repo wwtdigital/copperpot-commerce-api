@@ -1,0 +1,123 @@
+/* Fixture rows for order_notes tests: document late guest for pickup. Generated data, not production data. */
+export const DocumentLateGuestForPickupRows = [
+  {
+    id: 'order-notes-2104',
+    store: '221',
+    label: 'backfill duplicate catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-8647',
+    store: '535',
+    label: 'sort oversized guest',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-5706',
+    store: '182',
+    label: 'rename expired ticket for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-3801',
+    store: '248',
+    label: 'backfill regional store for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-2847',
+    store: '624',
+    label: 'validate duplicate cart line at close',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-7401',
+    store: '274',
+    label: 'document late order',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-8426',
+    store: '241',
+    label: 'tighten empty ticket',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-3512',
+    store: '394',
+    label: 'rename partial delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-6044',
+    store: '595',
+    label: 'relax cancelled topping',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-1366',
+    store: '684',
+    label: 'relax partial store',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-4143',
+    store: '426',
+    label: 'tighten late delivery window at close',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-9779',
+    store: '300',
+    label: 'rename cancelled topping',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-5204',
+    store: '111',
+    label: 'log regional order for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-1155',
+    store: '590',
+    label: 'log missing modifier on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-8571',
+    store: '125',
+    label: 'expose duplicate delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-9936',
+    store: '694',
+    label: 'expose regional pickup slot on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-7994',
+    store: '685',
+    label: 'normalise regional kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-1233',
+    store: '432',
+    label: 'guard empty location',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-8580',
+    store: '562',
+    label: 'dedupe expired store at close',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-8155',
+    store: '456',
+    label: 'cache cancelled delivery window',
+    quantity: 8,
+  },
+];

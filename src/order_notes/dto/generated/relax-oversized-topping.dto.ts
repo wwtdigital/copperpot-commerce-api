@@ -78,4 +78,27 @@ export class RelaxOversizedToppingDto {
   exposeDuplicateDeliveryWindow?: string[];
   validateRegionalMenuItem?: string;
   relaxMissingTicket!: number;
+  dedupeExpiredTaxLine!: string;
+  paginateOversizedReceipt!: string[];
+  backfillEmptyLoyaltyCredit!: string;
+  addStaleMenuItem!: Date;
+  logRegionalOrder?: Date;
+  cacheLateCartLineOnCheckout?: string[];
+  addPartialTicket!: string;
+  handleOversizedMenuItem?: string;
+  documentRegionalBowl!: boolean;
+  retryDuplicateCartLineInTheQueue!: boolean;
+  cacheMissingTicket!: boolean;
+  trimLateCateringTray!: string[];
+  sortMissingPromoForPickup!: string[];
+  relaxEmptyTicket!: string[];
+  handleOversizedDeliveryWindowForPickup?: boolean;
+  handleMissingPromo?: string[];
+  relaxStaleBowl?: string;
+  renameMissingPromoForFranchisees!: string[];
+  documentEmptyCartLine!: number;
+  tightenEmptyBowl!: number;
+  tightenExpiredPickupSlot!: string;
+  paginateLateOrder?: Date;
+  dedupeRegionalTicket!: number;
 }

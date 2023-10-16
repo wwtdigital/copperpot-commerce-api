@@ -60,4 +60,10 @@ export const RelaxMissingReceiptRows = [
     label: 'handle partial cart line',
     quantity: 8,
   },
+  {
+    id: 'order-notes-4762',
+    store: '692',
+    label: 'backfill late pickup slot for franchisees',
+    quantity: 4,
+  },
 ];

@@ -40,4 +40,6 @@ export class HandleRegionalLoyaltyCreditDto {
   dedupeCancelledGuest!: boolean;
   backfillDuplicateStore!: string[];
   dedupeCancelledModifier!: boolean;
+  dedupePartialLoyaltyCreditForPickup?: number;
+  guardRegionalPromoForPickup?: Date;
 }

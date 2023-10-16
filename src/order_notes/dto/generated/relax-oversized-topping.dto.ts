@@ -70,4 +70,12 @@ export class RelaxOversizedToppingDto {
   guardLateTopping!: string[];
   normaliseStaleTaxLine?: Date;
   documentMissingPickupSlotForFranchisees!: boolean;
+  sortPartialTopping!: boolean;
+  paginateMissingLocationOnCheckout!: boolean;
+  normaliseDuplicateCartLinePerStore!: Date;
+  paginateExpiredReceipt?: string;
+  cacheMissingCartLine!: boolean;
+  exposeDuplicateDeliveryWindow?: string[];
+  validateRegionalMenuItem?: string;
+  relaxMissingTicket!: number;
 }

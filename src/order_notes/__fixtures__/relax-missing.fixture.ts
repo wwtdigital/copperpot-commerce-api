@@ -66,4 +66,52 @@ export const RelaxMissingReceiptRows = [
     label: 'backfill late pickup slot for franchisees',
     quantity: 4,
   },
+  {
+    id: 'order-notes-5399',
+    store: '212',
+    label: 'trim expired guest',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-8883',
+    store: '254',
+    label: 'expose oversized menu item',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-1102',
+    store: '498',
+    label: 'sort partial tax line for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-8915',
+    store: '333',
+    label: 'expose regional pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-9281',
+    store: '311',
+    label: 'guard duplicate menu item',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-8188',
+    store: '539',
+    label: 'dedupe late loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-1821',
+    store: '574',
+    label: 'paginate duplicate menu item',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-1493',
+    store: '635',
+    label: 'cache cancelled promo',
+    quantity: 12,
+  },
 ];

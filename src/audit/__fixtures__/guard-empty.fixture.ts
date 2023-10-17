@@ -150,4 +150,22 @@ export const GuardEmptyModifierRows = [
     label: 'tighten late topping',
     quantity: 5,
   },
+  {
+    id: 'audit-3533',
+    store: '529',
+    label: 'sort late modifier',
+    quantity: 4,
+  },
+  {
+    id: 'audit-8741',
+    store: '289',
+    label: 'handle expired bowl on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'audit-1192',
+    store: '626',
+    label: 'cache oversized promo',
+    quantity: 3,
+  },
 ];

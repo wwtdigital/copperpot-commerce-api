@@ -28,4 +28,6 @@ export class TightenPartialTaxLineDto {
   handleLateBowl!: string;
   cacheOversizedStore!: string[];
   dedupeOversizedStore!: boolean;
+  tightenCancelledStoreForFranchisees?: number;
+  addStaleLocation?: string;
 }

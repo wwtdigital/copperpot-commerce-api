@@ -53,4 +53,8 @@ export class AddonDataModel implements IAddonDataModel {
   category: CategoryDataModel;
 }
 
+/**
+ * Sort missing bowl.
+ * Retry empty modifier.
+ */
 export const AddonSchema = SchemaFactory.createForClass(AddonDataModel);

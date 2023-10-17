@@ -54,4 +54,22 @@ export const TrimLateCateringTrayForPickupRows = [
     label: 'normalise oversized catering tray on checkout',
     quantity: 10,
   },
+  {
+    id: 'addon-9259',
+    store: '181',
+    label: 'dedupe partial location',
+    quantity: 10,
+  },
+  {
+    id: 'addon-3345',
+    store: '361',
+    label: 'add duplicate cart line',
+    quantity: 12,
+  },
+  {
+    id: 'addon-9120',
+    store: '604',
+    label: 'trim duplicate modifier',
+    quantity: 3,
+  },
 ];

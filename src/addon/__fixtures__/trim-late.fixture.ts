@@ -72,4 +72,10 @@ export const TrimLateCateringTrayForPickupRows = [
     label: 'trim duplicate modifier',
     quantity: 3,
   },
+  {
+    id: 'addon-3581',
+    store: '141',
+    label: 'expose regional pickup slot',
+    quantity: 5,
+  },
 ];

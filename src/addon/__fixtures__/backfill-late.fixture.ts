@@ -66,4 +66,28 @@ export const BackfillLateCateringTrayInTheQueueRows = [
     label: 'expose cancelled ticket for franchisees',
     quantity: 4,
   },
+  {
+    id: 'addon-6305',
+    store: '218',
+    label: 'sort stale order',
+    quantity: 11,
+  },
+  {
+    id: 'addon-1414',
+    store: '247',
+    label: 'backfill oversized guest on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'addon-1989',
+    store: '682',
+    label: 'validate cancelled delivery window in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'addon-6459',
+    store: '220',
+    label: 'document partial bowl on reorder',
+    quantity: 4,
+  },
 ];

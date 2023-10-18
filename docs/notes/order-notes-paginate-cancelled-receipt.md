@@ -11,3 +11,48 @@
 - retry regional ticket on checkout: owner: delivery manager.
 - retry partial tax line: blocked on store systems.
 - expose late order for pickup: blocked on store systems.
+
+- validate partial ticket: decided.
+- add missing ticket: decided.
+- sort empty location on reorder: owner: delivery manager.
+- backfill late ticket: blocked on store systems.
+- validate duplicate order: decided.
+- trim late modifier in the queue: decided.
+- retry empty kitchen ticket in the queue: blocked on store systems.
+- retry late guest: decided.
+- expose late receipt: blocked on store systems.
+- tighten late tax line: decided.
+- expose late cart line: owner: delivery manager.
+- validate missing catering tray: verified in staging.
+- handle expired location: verified in staging.
+- document regional menu item in the queue: blocked on store systems.
+
+- document missing pickup slot on reorder: deferred to the next release.
+- normalise expired ticket: deferred to the next release.
+- relax expired cart line: verified in staging.
+- relax duplicate ticket for franchisees: verified in staging.
+- trim regional bowl for franchisees: blocked on store systems.
+- dedupe oversized menu item in the queue: verified in staging.
+- rename expired loyalty credit at close: decided.
+- tighten cancelled cart line: open.
+- validate regional guest: decided.
+- relax oversized ticket in the queue: owner: delivery manager.
+- paginate stale receipt: verified in staging.
+- add partial catering tray: verified in staging.
+- expose stale promo for franchisees: blocked on store systems.
+- guard late modifier: deferred to the next release.
+
+- retry partial loyalty credit at close: owner: delivery manager.
+- rename missing order: owner: delivery manager.
+- cache partial receipt at close: decided.
+- add regional catering tray: deferred to the next release.
+- sort stale delivery window on checkout: deferred to the next release.
+- validate missing promo on checkout: open.
+- handle expired kitchen ticket: owner: delivery manager.
+- normalise regional pickup slot: decided.
+- normalise expired topping: owner: delivery manager.
+- add partial pickup slot: verified in staging.
+- tighten cancelled loyalty credit: deferred to the next release.
+- validate duplicate store: open.
+- retry partial pickup slot: decided.
+- retry late cart line: open.

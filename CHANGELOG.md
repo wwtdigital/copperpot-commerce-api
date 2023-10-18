@@ -290,3 +290,10 @@
 - cache stale loyalty credit
 - cache empty store
 - validate empty promo
+
+## Unreleased
+
+- normalise duplicate delivery window
+- document empty cart line
+- expose stale receipt on checkout
+- add missing delivery window

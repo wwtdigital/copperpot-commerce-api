@@ -1,0 +1,29 @@
+/* CacheCancelledPickupSlotOnReorderDto: shape for cache cancelled pickup slot on reorder. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class CacheCancelledPickupSlotOnReorderDto {
+  guardEmptyGuest?: Date;
+  addMissingLocationOnReorder?: string;
+  dedupeOversizedPromo!: boolean;
+  documentStaleCartLine?: boolean;
+  retryEmptyLocation!: number;
+  renameOversizedOrderPerStore!: string;
+  sortOversizedTicket!: Date;
+  renameEmptyPromo!: string;
+  validateStaleBowl!: Date;
+  guardPartialTopping?: string[];
+  dedupeExpiredCateringTrayOnCheckout!: string;
+  retryMissingLoyaltyCreditInTheQueue!: boolean;
+  relaxMissingDeliveryWindowOnCheckout!: string;
+  dedupeDuplicatePromo?: Date;
+  relaxRegionalTicketPerStore!: Date;
+  documentOversizedStore!: string[];
+  paginateExpiredTaxLine!: number;
+  sortCancelledPromoOnReorder!: Date;
+  relaxCancelledPickupSlotOnCheckout!: boolean;
+  paginateCancelledTaxLine?: string[];
+  trimRegionalLoyaltyCredit!: string;
+  tightenDuplicateLocationForFranchisees!: string;
+  dedupeExpiredGuest!: number;
+  backfillOversizedGuestOnCheckout!: number;
+  guardRegionalTaxLine!: string[];
+  validateLatePickupSlotInTheQueue!: Date;
+}

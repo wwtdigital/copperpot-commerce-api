@@ -44,3 +44,7 @@
 - trim cancelled order: decided.
 - validate regional location on reorder: verified in staging.
 - cache late cart line: decided.
+
+- handle partial receipt: blocked on store systems.
+- tighten cancelled catering tray at close: deferred to the next release.
+- validate oversized order: open.

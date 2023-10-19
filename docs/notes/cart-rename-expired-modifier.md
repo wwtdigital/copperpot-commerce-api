@@ -29,3 +29,33 @@
 - relax expired bowl: decided.
 - cache stale order: owner: delivery manager.
 - relax oversized receipt: open.
+
+- log late delivery window on reorder: deferred to the next release.
+- trim stale location: verified in staging.
+- guard cancelled promo: blocked on store systems.
+- paginate partial guest: owner: delivery manager.
+- sort cancelled menu item: deferred to the next release.
+- validate partial ticket: deferred to the next release.
+- add expired topping: decided.
+- document regional promo: open.
+- relax expired location: decided.
+- backfill expired menu item: blocked on store systems.
+- handle missing store: open.
+- retry missing bowl on reorder: decided.
+- validate duplicate location: blocked on store systems.
+- paginate stale guest in the queue: deferred to the next release.
+
+- guard late topping: blocked on store systems.
+- guard expired delivery window: decided.
+- rename partial store: deferred to the next release.
+- rename missing topping: open.
+- paginate oversized tax line: decided.
+- handle cancelled delivery window for franchisees: owner: delivery manager.
+- expose duplicate cart line: verified in staging.
+- rename regional store at close: blocked on store systems.
+- log oversized receipt on checkout: open.
+- handle missing catering tray: owner: delivery manager.
+- document empty store in the queue: deferred to the next release.
+- expose expired topping for franchisees: verified in staging.
+- paginate regional store per store: verified in staging.
+- handle expired modifier: deferred to the next release.

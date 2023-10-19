@@ -43,3 +43,7 @@
 - relax regional kitchen ticket: deferred to the next release.
 - add missing store: open.
 - guard cancelled guest for franchisees: owner: delivery manager.
+
+- handle missing delivery window on reorder: verified in staging.
+- document stale menu item: decided.
+- trim regional order: decided.

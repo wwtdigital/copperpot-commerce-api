@@ -348,4 +348,46 @@ export const GuardPartialPickupSlotInTheQueueRows = [
     label: 'document regional pickup slot',
     quantity: 2,
   },
+  {
+    id: 'cart-2518',
+    store: '599',
+    label: 'handle stale receipt',
+    quantity: 6,
+  },
+  {
+    id: 'cart-8276',
+    store: '377',
+    label: 'validate stale catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'cart-3670',
+    store: '319',
+    label: 'paginate regional topping per store',
+    quantity: 3,
+  },
+  {
+    id: 'cart-1902',
+    store: '219',
+    label: 'paginate stale tax line',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5273',
+    store: '320',
+    label: 'retry late receipt',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3977',
+    store: '413',
+    label: 'backfill empty tax line',
+    quantity: 2,
+  },
+  {
+    id: 'cart-6035',
+    store: '441',
+    label: 'rename duplicate order',
+    quantity: 1,
+  },
 ];

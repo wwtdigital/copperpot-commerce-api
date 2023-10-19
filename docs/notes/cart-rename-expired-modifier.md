@@ -29,3 +29,18 @@
 - relax expired bowl: decided.
 - cache stale order: owner: delivery manager.
 - relax oversized receipt: open.
+
+- log late delivery window on reorder: deferred to the next release.
+- trim stale location: verified in staging.
+- guard cancelled promo: blocked on store systems.
+- paginate partial guest: owner: delivery manager.
+- sort cancelled menu item: deferred to the next release.
+- validate partial ticket: deferred to the next release.
+- add expired topping: decided.
+- document regional promo: open.
+- relax expired location: decided.
+- backfill expired menu item: blocked on store systems.
+- handle missing store: open.
+- retry missing bowl on reorder: decided.
+- validate duplicate location: blocked on store systems.
+- paginate stale guest in the queue: deferred to the next release.

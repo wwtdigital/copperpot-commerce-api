@@ -126,4 +126,28 @@ export const GuardEmptyModifierRows = [
     label: 'paginate cancelled modifier at close',
     quantity: 10,
   },
+  {
+    id: 'audit-4466',
+    store: '463',
+    label: 'cache oversized ticket for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'audit-7770',
+    store: '216',
+    label: 'tighten regional loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'audit-9298',
+    store: '479',
+    label: 'backfill stale receipt on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'audit-2789',
+    store: '283',
+    label: 'tighten late topping',
+    quantity: 5,
+  },
 ];

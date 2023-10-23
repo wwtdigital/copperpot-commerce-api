@@ -522,4 +522,10 @@ export const SortMissingGuestRows = [
     label: 'normalise missing order on reorder',
     quantity: 8,
   },
+  {
+    id: 'loyalty-6392',
+    store: '364',
+    label: 'document partial store',
+    quantity: 2,
+  },
 ];

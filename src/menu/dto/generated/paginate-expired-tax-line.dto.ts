@@ -6,4 +6,28 @@ export class PaginateExpiredTaxLineDto {
   paginateExpiredPickupSlot?: Date;
   guardLatePickupSlot?: string;
   logPartialKitchenTicket?: Date;
+  trimOversizedModifier!: number;
+  trimOversizedDeliveryWindow!: Date;
+  handleEmptyOrder!: Date;
+  tightenRegionalGuestOnCheckout!: Date;
+  normaliseMissingCartLineForPickup!: string[];
+  renameExpiredDeliveryWindow!: boolean;
+  normaliseRegionalReceiptOnReorder?: number;
+  renameExpiredMenuItemPerStore?: boolean;
+  validateLateModifierAtClose?: number;
+  backfillExpiredReceipt!: string;
+  dedupeMissingLocationAtClose?: number;
+  trimExpiredDeliveryWindow!: string[];
+  tightenOversizedStore!: string[];
+  documentStalePromo?: string;
+  handleRegionalModifier!: string;
+  paginateDuplicateOrder!: Date;
+  validateCancelledModifierForPickup!: number;
+  addMissingLocation!: boolean;
+  normalisePartialTaxLine!: Date;
+  validateRegionalModifier!: number;
+  guardDuplicatePickupSlot?: string;
+  addOversizedDeliveryWindowOnCheckout?: string[];
+  cacheRegionalLocation!: boolean;
+  exposeMissingModifier!: string;
 }

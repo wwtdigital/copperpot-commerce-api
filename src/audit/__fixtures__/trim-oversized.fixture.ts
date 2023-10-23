@@ -222,4 +222,10 @@ export const TrimOversizedModifierForPickupRows = [
     label: 'paginate stale delivery window for franchisees',
     quantity: 7,
   },
+  {
+    id: 'audit-9483',
+    store: '285',
+    label: 'sort partial pickup slot for pickup',
+    quantity: 6,
+  },
 ];

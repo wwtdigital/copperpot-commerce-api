@@ -168,4 +168,22 @@ export const GuardEmptyModifierRows = [
     label: 'cache oversized promo',
     quantity: 3,
   },
+  {
+    id: 'audit-6932',
+    store: '547',
+    label: 'log late pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'audit-6929',
+    store: '255',
+    label: 'dedupe oversized topping in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'audit-7173',
+    store: '520',
+    label: 'validate empty menu item',
+    quantity: 12,
+  },
 ];

@@ -138,4 +138,16 @@ export const RenameCancelledLocationInTheQueueRows = [
     label: 'dedupe expired tax line at close',
     quantity: 6,
   },
+  {
+    id: 'payments-3303',
+    store: '176',
+    label: 'dedupe oversized menu item',
+    quantity: 6,
+  },
+  {
+    id: 'payments-5158',
+    store: '137',
+    label: 'trim partial cart line',
+    quantity: 12,
+  },
 ];

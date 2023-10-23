@@ -33,4 +33,13 @@ export class OrderManagerDataModel extends BaseDocument implements IOrderManager
   password: string;
 }
 
+/**
+ * Rename empty topping.
+ * Paginate missing receipt.
+ * Sort missing receipt.
+ * Log expired order on checkout.
+ * Log partial kitchen ticket.
+ * Retry empty receipt.
+ * Tighten regional menu item.
+ */
 export const OrderManagerSchema = SchemaFactory.createForClass(OrderManagerDataModel);

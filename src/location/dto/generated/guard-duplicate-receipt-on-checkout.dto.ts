@@ -72,4 +72,28 @@ export class GuardDuplicateReceiptOnCheckoutDto {
   addDuplicateCateringTrayInTheQueue!: number;
   dedupePartialModifierAtClose!: number;
   retryPartialLoyaltyCreditPerStore!: string;
+  validateRegionalLoyaltyCredit?: Date;
+  trimLateCateringTray!: string[];
+  trimMissingCateringTrayAtClose!: string[];
+  addLateCartLine?: number;
+  logExpiredTicket?: string;
+  dedupeStalePickupSlotOnCheckout!: number;
+  paginateEmptyDeliveryWindow!: Date;
+  relaxLateDeliveryWindow!: boolean;
+  sortExpiredPickupSlotForFranchisees?: string[];
+  handleStaleMenuItemOnCheckout?: string[];
+  logDuplicateCartLineOnReorder!: string;
+  exposeLateBowlAtClose!: boolean;
+  validatePartialCartLine!: number;
+  dedupeEmptyReceipt!: string;
+  normaliseOversizedToppingOnReorder!: number;
+  exposeRegionalPickupSlot!: Date;
+  guardLatePromo!: string[];
+  paginateLateTopping!: Date;
+  documentRegionalReceipt!: Date;
+  sortCancelledModifier?: number;
+  tightenRegionalReceiptForPickup!: number;
+  validateOversizedStore!: boolean;
+  renameMissingStoreOnCheckout!: string;
+  renamePartialLoyaltyCreditOnReorder!: number;
 }

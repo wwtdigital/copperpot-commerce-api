@@ -304,3 +304,10 @@
 - expose missing ticket
 - dedupe late cart line for franchisees
 - trim regional promo for franchisees
+
+## Unreleased
+
+- normalise regional delivery window
+- paginate regional receipt on reorder
+- relax regional delivery window
+- trim empty menu item on checkout

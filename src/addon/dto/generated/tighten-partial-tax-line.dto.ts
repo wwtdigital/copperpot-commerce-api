@@ -54,4 +54,27 @@ export class TightenPartialTaxLineDto {
   trimCancelledOrder?: string;
   addPartialModifierOnReorder!: Date;
   retryCancelledStore!: string;
+  addLateStore?: number;
+  renameExpiredGuestForFranchisees!: number;
+  addPartialPickupSlotForFranchisees?: string[];
+  tightenCancelledCateringTrayOnReorder?: Date;
+  renameLateTicketPerStore!: number;
+  backfillDuplicateDeliveryWindow!: Date;
+  guardEmptyTaxLineOnCheckout?: boolean;
+  trimExpiredTicketOnReorder!: number;
+  addExpiredLoyaltyCreditForFranchisees!: Date;
+  paginateDuplicatePickupSlot!: number;
+  cacheOversizedDeliveryWindow?: Date;
+  normaliseCancelledOrder!: Date;
+  addPartialStore?: Date;
+  handleEmptyBowlInTheQueue!: boolean;
+  retryCancelledKitchenTicket!: string;
+  renameOversizedReceipt!: number;
+  normaliseStaleReceiptForFranchisees!: boolean;
+  tightenExpiredGuestInTheQueue?: Date;
+  documentDuplicateBowl!: number;
+  dedupeStaleGuest!: string[];
+  handleLateToppingOnCheckout!: string;
+  sortEmptyKitchenTicketForFranchisees!: string[];
+  addEmptyPickupSlotPerStore!: string;
 }

@@ -297,3 +297,10 @@
 - document empty cart line
 - expose stale receipt on checkout
 - add missing delivery window
+
+## Unreleased
+
+- normalise cancelled pickup slot in the queue
+- expose missing ticket
+- dedupe late cart line for franchisees
+- trim regional promo for franchisees

@@ -192,4 +192,40 @@ export const TrimOversizedModifierForPickupRows = [
     label: 'expose late ticket',
     quantity: 9,
   },
+  {
+    id: 'audit-3940',
+    store: '319',
+    label: 'guard oversized ticket on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'audit-9188',
+    store: '667',
+    label: 'expose empty guest in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'audit-8027',
+    store: '593',
+    label: 'log empty bowl',
+    quantity: 6,
+  },
+  {
+    id: 'audit-3663',
+    store: '354',
+    label: 'cache partial modifier',
+    quantity: 9,
+  },
+  {
+    id: 'audit-3055',
+    store: '477',
+    label: 'paginate stale delivery window for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'audit-9483',
+    store: '285',
+    label: 'sort partial pickup slot for pickup',
+    quantity: 6,
+  },
 ];

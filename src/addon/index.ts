@@ -17,5 +17,14 @@ export * from './addon-service.interface';
 export * from './addon.service';
 export * from './create-addon.dto';
 export * from './addon.module';
+/**
+ * Relax expired menu item per store.
+ * Document partial promo.
+ * Document cancelled receipt for franchisees.
+ * Cache partial guest on checkout.
+ * Normalise late order in the queue.
+ * Document missing loyalty credit.
+ * Tighten regional menu item.
+ */
 export * from './addon.controller';
 export * from './addon-mock.data';

@@ -192,4 +192,34 @@ export const ExposeExpiredPromoRows = [
     label: 'tighten empty receipt',
     quantity: 7,
   },
+  {
+    id: 'payments-3693',
+    store: '574',
+    label: 'validate stale kitchen ticket per store',
+    quantity: 1,
+  },
+  {
+    id: 'payments-3005',
+    store: '389',
+    label: 'backfill empty modifier',
+    quantity: 12,
+  },
+  {
+    id: 'payments-6780',
+    store: '113',
+    label: 'guard oversized modifier in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'payments-8186',
+    store: '538',
+    label: 'paginate duplicate receipt for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'payments-9647',
+    store: '288',
+    label: 'add stale guest',
+    quantity: 7,
+  },
 ];

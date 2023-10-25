@@ -311,3 +311,10 @@
 - paginate regional receipt on reorder
 - relax regional delivery window
 - trim empty menu item on checkout
+
+## Unreleased
+
+- backfill oversized menu item per store
+- tighten oversized kitchen ticket
+- add duplicate topping at close
+- backfill stale delivery window for pickup

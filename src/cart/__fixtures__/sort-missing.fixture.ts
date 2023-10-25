@@ -528,4 +528,34 @@ export const SortMissingGuestRows = [
     label: 'document partial store',
     quantity: 2,
   },
+  {
+    id: 'payments-1468',
+    store: '682',
+    label: 'tighten empty guest',
+    quantity: 10,
+  },
+  {
+    id: 'payments-5606',
+    store: '500',
+    label: 'normalise stale ticket per store',
+    quantity: 10,
+  },
+  {
+    id: 'payments-7179',
+    store: '241',
+    label: 'paginate partial loyalty credit on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'payments-8609',
+    store: '603',
+    label: 'document stale receipt',
+    quantity: 1,
+  },
+  {
+    id: 'payments-9169',
+    store: '369',
+    label: 'rename late cart line',
+    quantity: 2,
+  },
 ];

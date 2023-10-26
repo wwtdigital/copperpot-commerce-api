@@ -56,3 +56,18 @@
 - validate duplicate store: open.
 - retry partial pickup slot: decided.
 - retry late cart line: open.
+
+- log missing loyalty credit for franchisees: blocked on store systems.
+- guard expired pickup slot: decided.
+- handle oversized topping: decided.
+- backfill missing receipt on reorder: verified in staging.
+- tighten oversized kitchen ticket in the queue: owner: delivery manager.
+- expose empty store: blocked on store systems.
+- sort empty location for pickup: owner: delivery manager.
+- handle expired order: blocked on store systems.
+- backfill oversized ticket for pickup: owner: delivery manager.
+- relax partial receipt: owner: delivery manager.
+- tighten partial store: verified in staging.
+- trim duplicate pickup slot: decided.
+- log stale pickup slot: verified in staging.
+- add late bowl for franchisees: owner: delivery manager.

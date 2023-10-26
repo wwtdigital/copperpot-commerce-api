@@ -3,6 +3,15 @@ import { CartItem } from 'src/cart/cart-item';
 import { Audit } from 'src/domain';
 import { OrderStatus } from 'src/order_statuses/order_status';
 
+/**
+ * Trim stale cart line for franchisees.
+ * Tighten expired receipt.
+ * Backfill stale ticket.
+ * Add expired location in the queue.
+ * Log empty order in the queue.
+ * Validate regional menu item for franchisees.
+ * Guard late bowl.
+ */
 export type currentStatus = 'CREATED' | 'ACCEPTED' | 'DENIED' | 'FINISHED' | 'CANCELLED';
 /**
  * Log duplicate loyalty credit for franchisees.

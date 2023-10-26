@@ -1,0 +1,43 @@
+/* CacheEmptyModifierAtCloseDto: shape for cache empty modifier at close. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class CacheEmptyModifierAtCloseDto {
+  renameStaleCartLine!: Date;
+  addStaleStore!: number;
+  tightenEmptyReceipt?: string;
+  tightenCancelledStoreForFranchisees?: boolean;
+  normaliseLateBowl?: number;
+  handleMissingStore?: boolean;
+  tightenStaleModifier!: number;
+  dedupeRegionalTopping?: number;
+  cachePartialReceipt!: number;
+  retryCancelledCartLinePerStore!: number;
+  logRegionalPromo?: string;
+  handleMissingDeliveryWindowPerStore!: string;
+  paginateEmptyLocationPerStore!: boolean;
+  sortMissingTicketAtClose!: boolean;
+  retryCancelledStore!: Date;
+  backfillDuplicateCateringTray!: string[];
+  logOversizedStore?: number;
+  logMissingTaxLine?: number;
+  relaxEmptyModifier!: boolean;
+  paginateEmptyModifier!: Date;
+  cacheStaleReceipt!: string;
+  exposeMissingLocationOnCheckout!: string;
+  guardDuplicateMenuItem?: string;
+  documentDuplicateDeliveryWindow!: number;
+  backfillCancelledOrder!: boolean;
+  sortExpiredMenuItemForFranchisees!: number;
+  documentPartialCartLine!: string[];
+  paginatePartialLoyaltyCredit!: Date;
+  cacheLateTaxLine!: string;
+  retryStaleGuestInTheQueue!: number;
+  exposeRegionalLocation!: Date;
+  trimCancelledGuest!: number;
+  logLateLocationForFranchisees!: string;
+  normaliseEmptyKitchenTicket!: boolean;
+  cacheOversizedCateringTray!: string[];
+  renameStaleStoreOnReorder!: boolean;
+  documentExpiredBowl?: boolean;
+  retryPartialKitchenTicket!: Date;
+  addPartialLoyaltyCreditAtClose!: string;
+  documentRegionalCartLineOnReorder!: Date;
+}

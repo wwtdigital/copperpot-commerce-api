@@ -11,6 +11,15 @@ import { RestaurantData, RestaurantDocument } from './schemas';
 import { throwApplicationError } from '../../../infrastructure/utilities/exception-instance';
 import { HttpStatus } from '@nestjs/common';
 
+/**
+ * Cache cancelled pickup slot.
+ * Trim cancelled location for pickup.
+ * Log duplicate ticket in the queue.
+ * Document partial menu item.
+ * Paginate duplicate catering tray.
+ * Add stale loyalty credit for pickup.
+ * Document partial order.
+ */
 export class RestaurantRepository
   extends GenericDocumentRepository<Restaurant, RestaurantDocument>
   implements IRestaurantRepository

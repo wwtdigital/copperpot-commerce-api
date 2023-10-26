@@ -84,4 +84,16 @@ export const TrimLateCateringTrayForPickupRows = [
     label: 'rename duplicate guest',
     quantity: 11,
   },
+  {
+    id: 'payments-3901',
+    store: '627',
+    label: 'cache cancelled delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'payments-1145',
+    store: '553',
+    label: 'dedupe partial guest for pickup',
+    quantity: 8,
+  },
 ];

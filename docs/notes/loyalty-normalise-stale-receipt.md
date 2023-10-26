@@ -14,3 +14,18 @@
 - guard missing delivery window on reorder: open.
 - add oversized modifier in the queue: decided.
 - rename empty receipt: open.
+
+- handle stale pickup slot: open.
+- sort expired ticket per store: deferred to the next release.
+- handle partial loyalty credit for pickup: deferred to the next release.
+- relax partial kitchen ticket for pickup: owner: delivery manager.
+- add cancelled cart line: deferred to the next release.
+- sort stale location per store: decided.
+- relax partial kitchen ticket on checkout: verified in staging.
+- tighten late tax line: verified in staging.
+- retry duplicate receipt: owner: delivery manager.
+- dedupe empty menu item: deferred to the next release.
+- log missing receipt: open.
+- document regional delivery window: decided.
+- backfill oversized kitchen ticket: deferred to the next release.
+- handle cancelled delivery window: blocked on store systems.

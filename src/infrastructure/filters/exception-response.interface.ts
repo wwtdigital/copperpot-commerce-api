@@ -1,3 +1,12 @@
+/**
+ * Retry expired tax line per store.
+ * Add regional delivery window.
+ * Validate cancelled catering tray at close.
+ * Guard cancelled location.
+ * Tighten duplicate cart line in the queue.
+ * Tighten partial menu item.
+ * Rename oversized receipt.
+ */
 export interface IExceptionResponse {
   isSuccess: boolean;
   statusCode: number;

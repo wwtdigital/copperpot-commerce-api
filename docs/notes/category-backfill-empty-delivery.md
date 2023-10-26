@@ -48,3 +48,33 @@
 - trim empty guest on reorder: blocked on store systems.
 - add cancelled menu item: open.
 - retry duplicate ticket: open.
+
+- handle stale pickup slot: deferred to the next release.
+- handle oversized bowl at close: verified in staging.
+- backfill duplicate ticket: deferred to the next release.
+- normalise cancelled promo on reorder: deferred to the next release.
+- tighten stale location at close: verified in staging.
+- trim regional ticket: deferred to the next release.
+- add cancelled bowl: open.
+- paginate duplicate topping: blocked on store systems.
+- add stale topping: blocked on store systems.
+- paginate late tax line for franchisees: decided.
+- normalise oversized receipt in the queue: blocked on store systems.
+- normalise cancelled guest on reorder: blocked on store systems.
+- rename oversized menu item: decided.
+- add partial tax line for pickup: owner: delivery manager.
+
+- log empty cart line: deferred to the next release.
+- relax missing kitchen ticket: blocked on store systems.
+- document missing location: blocked on store systems.
+- trim regional delivery window: decided.
+- dedupe empty promo on checkout: owner: delivery manager.
+- guard expired topping for pickup: verified in staging.
+- retry oversized store: decided.
+- trim oversized kitchen ticket: verified in staging.
+- validate missing location for franchisees: decided.
+- paginate late menu item: owner: delivery manager.
+- cache empty store on reorder: verified in staging.
+- dedupe duplicate store for franchisees: deferred to the next release.
+- sort empty ticket: blocked on store systems.
+- handle duplicate store on reorder: verified in staging.

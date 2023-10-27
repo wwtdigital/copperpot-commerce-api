@@ -2,4 +2,6 @@
 export class PaginateEmptyToppingPerStoreDto {
   retryExpiredCartLine?: boolean;
   sortOversizedCateringTray?: boolean;
+  trimRegionalCateringTrayPerStore?: Date;
+  normaliseMissingLocationOnReorder!: string[];
 }

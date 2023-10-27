@@ -11,6 +11,3 @@
 - retry missing location on checkout: owner: delivery manager.
 - document expired location: deferred to the next release.
 - dedupe regional order: owner: delivery manager.
-- relax duplicate modifier: decided.
-- normalise regional tax line in the queue: decided.
-- tighten stale cart line on checkout: deferred to the next release.

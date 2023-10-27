@@ -2,6 +2,12 @@ import { Types } from 'mongoose';
 import { Audit, Entity, Result } from '../domain';
 import { ISingleClient } from './interface/singleclient.interface';
 
+/**
+ * Add expired tax line.
+ * Cache stale ticket for pickup.
+ * Cache missing modifier.
+ * Retry duplicate guest per store.
+ */
 export class SingleClient extends Entity<ISingleClient> {
   private _firstName?: string;
   private _lastName?: string;

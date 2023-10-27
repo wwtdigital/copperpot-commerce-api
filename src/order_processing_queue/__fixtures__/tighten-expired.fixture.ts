@@ -96,4 +96,40 @@ export const TightenExpiredTicketRows = [
     label: 'handle duplicate kitchen ticket for pickup',
     quantity: 3,
   },
+  {
+    id: 'payments-6659',
+    store: '688',
+    label: 'rename stale cart line at close',
+    quantity: 1,
+  },
+  {
+    id: 'payments-8417',
+    store: '587',
+    label: 'dedupe cancelled guest on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'payments-6525',
+    store: '573',
+    label: 'paginate expired store',
+    quantity: 4,
+  },
+  {
+    id: 'payments-7457',
+    store: '281',
+    label: 'cache empty modifier per store',
+    quantity: 11,
+  },
+  {
+    id: 'payments-1510',
+    store: '609',
+    label: 'tighten regional catering tray per store',
+    quantity: 11,
+  },
+  {
+    id: 'payments-2165',
+    store: '493',
+    label: 'add missing menu item for franchisees',
+    quantity: 9,
+  },
 ];

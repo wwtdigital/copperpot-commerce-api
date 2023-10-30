@@ -756,4 +756,28 @@ export const SortMissingGuestRows = [
     label: 'normalise late topping per store',
     quantity: 1,
   },
+  {
+    id: 'payments-4464',
+    store: '282',
+    label: 'rename duplicate catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'payments-6379',
+    store: '402',
+    label: 'log empty location in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'payments-7390',
+    store: '127',
+    label: 'expose regional guest in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'payments-7846',
+    store: '477',
+    label: 'handle late cart line on reorder',
+    quantity: 3,
+  },
 ];

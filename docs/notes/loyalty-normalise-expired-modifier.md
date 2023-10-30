@@ -14,3 +14,18 @@
 - add regional location: deferred to the next release.
 - cache oversized order for pickup: deferred to the next release.
 - validate expired guest: verified in staging.
+
+- sort missing order: deferred to the next release.
+- tighten regional receipt per store: blocked on store systems.
+- handle regional tax line: open.
+- paginate empty cart line: verified in staging.
+- normalise oversized pickup slot: open.
+- trim late receipt: verified in staging.
+- guard empty location per store: blocked on store systems.
+- relax oversized pickup slot: blocked on store systems.
+- add oversized bowl for franchisees: deferred to the next release.
+- validate stale kitchen ticket at close: decided.
+- cache duplicate loyalty credit on reorder: open.
+- add regional menu item: verified in staging.
+- normalise stale modifier on reorder: deferred to the next release.
+- handle expired pickup slot: decided.

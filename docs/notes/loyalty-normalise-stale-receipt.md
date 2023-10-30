@@ -29,3 +29,18 @@
 - document regional delivery window: decided.
 - backfill oversized kitchen ticket: deferred to the next release.
 - handle cancelled delivery window: blocked on store systems.
+
+- rename partial modifier for franchisees: blocked on store systems.
+- cache partial bowl: owner: delivery manager.
+- validate expired store: deferred to the next release.
+- cache stale store on reorder: owner: delivery manager.
+- trim partial catering tray: verified in staging.
+- dedupe cancelled bowl for franchisees: open.
+- tighten oversized cart line on reorder: decided.
+- document oversized kitchen ticket: open.
+- add regional catering tray at close: owner: delivery manager.
+- dedupe oversized pickup slot: open.
+- backfill partial promo: owner: delivery manager.
+- paginate late receipt on reorder: owner: delivery manager.
+- handle partial menu item: verified in staging.
+- tighten regional store: deferred to the next release.

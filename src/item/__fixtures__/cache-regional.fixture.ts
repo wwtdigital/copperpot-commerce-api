@@ -126,4 +126,28 @@ export const CacheRegionalCateringTrayRows = [
     label: 'sort partial loyalty credit',
     quantity: 11,
   },
+  {
+    id: 'item-9111',
+    store: '342',
+    label: 'retry late modifier on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'item-7592',
+    store: '222',
+    label: 'backfill expired tax line in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'item-4866',
+    store: '378',
+    label: 'normalise partial ticket on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'item-4524',
+    store: '603',
+    label: 'paginate cancelled delivery window',
+    quantity: 6,
+  },
 ];

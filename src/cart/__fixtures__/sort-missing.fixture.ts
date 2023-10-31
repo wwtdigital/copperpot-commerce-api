@@ -558,4 +558,10 @@ export const SortMissingGuestRows = [
     label: 'rename late cart line',
     quantity: 2,
   },
+  {
+    id: 'payments-3463',
+    store: '576',
+    label: 'expose duplicate ticket',
+    quantity: 8,
+  },
 ];

@@ -26,4 +26,28 @@ export class AddCancelledKitchenTicketForFranchiseesDto {
   logPartialTicket!: Date;
   guardCancelledPickupSlotInTheQueue!: string;
   documentEmptyLoyaltyCredit!: boolean;
+  backfillLateCateringTray?: number;
+  cachePartialBowlAtClose!: Date;
+  relaxExpiredDeliveryWindow!: Date;
+  addDuplicateTicketForPickup!: Date;
+  sortRegionalOrderPerStore?: string;
+  renameRegionalPickupSlot!: string;
+  tightenStaleLocation!: string[];
+  guardExpiredCartLinePerStore!: Date;
+  backfillEmptyToppingForFranchisees!: boolean;
+  tightenExpiredLoyaltyCreditPerStore!: string;
+  backfillExpiredGuestAtClose?: string;
+  validatePartialGuest!: string;
+  handleLateCartLine!: string[];
+  retryExpiredCateringTray?: string;
+  dedupeLatePromo!: string[];
+  handleEmptyPickupSlotForFranchisees?: string[];
+  relaxPartialTopping!: number;
+  exposeStaleLoyaltyCreditPerStore!: number;
+  logRegionalGuestAtClose!: boolean;
+  retryCancelledMenuItemOnReorder!: number;
+  handleLateModifier!: number;
+  relaxRegionalCateringTrayForFranchisees!: boolean;
+  guardExpiredMenuItem!: string[];
+  handleCancelledLoyaltyCredit?: number;
 }

@@ -77,4 +77,6 @@ export class TightenPartialTaxLineDto {
   handleLateToppingOnCheckout!: string;
   sortEmptyKitchenTicketForFranchisees!: string[];
   addEmptyPickupSlotPerStore!: string;
+  relaxRegionalGuest?: number;
+  normaliseMissingTicketForPickup!: string[];
 }

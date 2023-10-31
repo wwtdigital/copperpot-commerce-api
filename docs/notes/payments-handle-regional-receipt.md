@@ -29,3 +29,18 @@
 - handle late location for pickup: deferred to the next release.
 - relax stale modifier: blocked on store systems.
 - backfill empty kitchen ticket: open.
+
+- document partial ticket: open.
+- tighten regional topping: owner: delivery manager.
+- expose cancelled order: owner: delivery manager.
+- validate partial cart line for pickup: decided.
+- retry cancelled modifier: owner: delivery manager.
+- backfill regional ticket on checkout: open.
+- dedupe partial promo: decided.
+- guard partial cart line: decided.
+- relax duplicate order: blocked on store systems.
+- expose cancelled cart line on reorder: decided.
+- add missing loyalty credit per store: decided.
+- add cancelled receipt at close: decided.
+- rename expired menu item for pickup: blocked on store systems.
+- normalise empty cart line in the queue: owner: delivery manager.

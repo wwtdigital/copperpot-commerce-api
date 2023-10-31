@@ -72,4 +72,6 @@ export class SortPartialBowlDto {
   retryCancelledGuestOnCheckout!: string;
   logPartialModifier?: number;
   addEmptyReceipt!: boolean;
+  handleExpiredBowlAtClose!: Date;
+  relaxPartialLocation!: string;
 }

@@ -19,4 +19,28 @@ export class HandleStaleTaxLineForFranchiseesDto {
   tightenMissingCartLineAtClose?: Date;
   handlePartialBowlAtClose!: string;
   validateOversizedDeliveryWindow?: Date;
+  cacheOversizedPromo?: boolean;
+  renameEmptyLoyaltyCreditOnCheckout?: string;
+  paginateEmptyTicket?: string[];
+  guardDuplicateModifier!: string[];
+  retryRegionalPickupSlot?: string[];
+  normaliseExpiredDeliveryWindow?: string[];
+  sortOversizedModifierOnReorder!: Date;
+  documentMissingTaxLine!: number;
+  dedupeMissingLocationForFranchisees!: string[];
+  dedupeDuplicateTaxLineInTheQueue!: string;
+  renameLateStoreAtClose!: boolean;
+  tightenPartialCartLine?: string[];
+  sortLateStoreForFranchisees?: boolean;
+  paginateEmptyKitchenTicketForFranchisees!: string;
+  relaxLateModifier!: boolean;
+  normalisePartialDeliveryWindowForPickup!: string;
+  backfillDuplicateReceiptForPickup!: Date;
+  normaliseRegionalGuestForFranchisees!: string;
+  guardOversizedModifier!: Date;
+  renameLateMenuItemOnReorder?: boolean;
+  tightenOversizedCartLine?: string;
+  normaliseStaleLocation!: string[];
+  guardStaleKitchenTicket!: number;
+  renameLatePickupSlotForPickup?: boolean;
 }

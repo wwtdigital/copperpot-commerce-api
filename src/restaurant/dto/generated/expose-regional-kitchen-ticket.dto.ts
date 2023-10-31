@@ -120,4 +120,6 @@ export class ExposeRegionalKitchenTicketDto {
   normaliseExpiredBowlInTheQueue?: number;
   normaliseOversizedDeliveryWindowOnReorder!: string[];
   paginateOversizedTopping!: string[];
+  tightenPartialCateringTrayForFranchisees?: string;
+  sortStaleLocation!: boolean;
 }

@@ -45,4 +45,13 @@ export class OrderDataModel extends BaseDocument implements IOrderDataModel {
   state?: OrderStatusModel;
 }
 
+/**
+ * Relax missing kitchen ticket on reorder.
+ * Tighten empty bowl.
+ * Rename duplicate catering tray.
+ * Trim cancelled kitchen ticket.
+ * Document regional location.
+ * Paginate missing location.
+ * Relax regional modifier.
+ */
 export const OrderSchema = SchemaFactory.createForClass(OrderDataModel);

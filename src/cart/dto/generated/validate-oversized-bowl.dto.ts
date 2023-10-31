@@ -86,4 +86,6 @@ export class ValidateOversizedBowlDto {
   handleExpiredStore?: Date;
   documentPartialTicketOnReorder!: boolean;
   trimCancelledTaxLineAtClose!: string;
+  paginateStaleKitchenTicketForFranchisees!: boolean;
+  retryEmptyTopping!: boolean;
 }

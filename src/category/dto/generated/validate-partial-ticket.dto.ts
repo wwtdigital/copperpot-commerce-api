@@ -94,4 +94,16 @@ export class ValidatePartialTicketDto {
   backfillEmptyPromo!: number;
   normalisePartialToppingForFranchisees!: number;
   renameCancelledCateringTray!: number;
+  retryDuplicateModifierForPickup!: string[];
+  retryRegionalOrder?: boolean;
+  paginateOversizedTaxLineOnCheckout!: number;
+  cacheRegionalReceipt!: number;
+  relaxEmptyReceipt?: string;
+  backfillRegionalGuestOnCheckout!: string[];
+  validateCancelledStoreInTheQueue?: boolean;
+  renameStaleModifierForPickup?: Date;
+  trimExpiredModifier!: string[];
+  handleLateTopping?: Date;
+  cacheEmptyTicket!: string;
+  backfillExpiredStore?: string[];
 }

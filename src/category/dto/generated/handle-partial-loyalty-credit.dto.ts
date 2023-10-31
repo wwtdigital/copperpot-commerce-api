@@ -112,4 +112,28 @@ export class HandlePartialLoyaltyCreditDto {
   validateDuplicateDeliveryWindow!: number;
   normaliseCancelledBowl!: string[];
   trimStaleTicket!: boolean;
+  relaxStaleLocation!: number;
+  addOversizedTaxLine!: Date;
+  tightenPartialCateringTrayAtClose!: string[];
+  tightenRegionalBowlPerStore?: number;
+  validateMissingKitchenTicketOnReorder!: string;
+  tightenRegionalGuest!: string[];
+  guardOversizedReceipt?: string[];
+  exposePartialCartLineOnReorder!: boolean;
+  dedupeExpiredLocationPerStore?: string[];
+  trimCancelledCateringTray?: number;
+  handleOversizedTaxLine!: Date;
+  tightenDuplicateKitchenTicket!: string;
+  logLateTopping!: string;
+  renamePartialTicket!: string;
+  dedupeDuplicateGuestOnReorder!: number;
+  guardOversizedLoyaltyCredit!: string[];
+  guardRegionalTaxLine!: string;
+  normaliseCancelledPickupSlotOnReorder!: string[];
+  tightenLateStore?: boolean;
+  documentCancelledStore!: string;
+  addRegionalReceipt!: Date;
+  trimCancelledKitchenTicket!: Date;
+  paginateExpiredLoyaltyCredit?: string;
+  validatePartialKitchenTicketForFranchisees!: string;
 }

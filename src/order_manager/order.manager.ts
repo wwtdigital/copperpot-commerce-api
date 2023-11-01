@@ -3,6 +3,15 @@ import { Audit, Entity, Result } from '../domain';
 import { SingleClient } from './../singleclient/singleclient';
 import { IOrderManager } from './order.manager.entity';
 
+/**
+ * Cache empty topping.
+ * Tighten duplicate loyalty credit.
+ * Retry missing loyalty credit per store.
+ * Tighten oversized store on reorder.
+ * Trim oversized catering tray.
+ * Tighten regional guest for pickup.
+ * Add regional tax line.
+ */
 export class OrderManager extends Entity<IOrderManager> implements IOrderManager {
   _firstName: string;
   _lastName: string;

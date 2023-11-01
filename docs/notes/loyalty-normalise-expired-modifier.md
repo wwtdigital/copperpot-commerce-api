@@ -29,3 +29,18 @@
 - add regional menu item: verified in staging.
 - normalise stale modifier on reorder: deferred to the next release.
 - handle expired pickup slot: decided.
+
+- add late cart line on reorder: deferred to the next release.
+- validate regional promo: deferred to the next release.
+- retry stale bowl in the queue: verified in staging.
+- normalise cancelled bowl: owner: delivery manager.
+- expose missing loyalty credit for franchisees: blocked on store systems.
+- retry missing delivery window: verified in staging.
+- paginate stale kitchen ticket on checkout: open.
+- paginate oversized menu item: open.
+- backfill oversized pickup slot: verified in staging.
+- normalise partial menu item at close: owner: delivery manager.
+- validate regional promo: decided.
+- validate regional ticket: open.
+- trim expired guest: blocked on store systems.
+- document missing menu item for franchisees: deferred to the next release.

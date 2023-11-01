@@ -42,4 +42,19 @@ export class HandleRegionalLoyaltyCreditDto {
   dedupeCancelledModifier!: boolean;
   dedupePartialLoyaltyCreditForPickup?: number;
   guardRegionalPromoForPickup?: Date;
+  sortOversizedCartLine?: Date;
+  sortPartialTicket!: boolean;
+  backfillRegionalBowl!: string[];
+  retryMissingModifierInTheQueue?: Date;
+  normalisePartialCateringTrayForPickup!: string;
+  handleMissingBowlForPickup?: number;
+  tightenExpiredCartLineOnReorder!: string;
+  dedupeCancelledStoreForFranchisees?: Date;
+  addRegionalGuestPerStore?: Date;
+  validateStaleLoyaltyCreditForPickup!: string[];
+  backfillEmptyReceiptPerStore!: string;
+  sortPartialLocation?: string[];
+  documentStaleLocationAtClose!: boolean;
+  exposeMissingStoreOnReorder!: string[];
+  logDuplicateLocation?: string[];
 }

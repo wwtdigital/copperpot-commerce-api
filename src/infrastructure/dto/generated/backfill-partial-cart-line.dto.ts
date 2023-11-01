@@ -33,4 +33,6 @@ export class BackfillPartialCartLineDto {
   renameDuplicateGuestOnCheckout!: Date;
   validateCancelledGuestOnReorder!: string;
   dedupeLateReceipt!: number;
+  paginateRegionalTicket!: string[];
+  normaliseRegionalTicket!: string;
 }

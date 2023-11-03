@@ -240,4 +240,10 @@ export const TrimOversizedModifierForPickupRows = [
     label: 'trim partial loyalty credit in the queue',
     quantity: 12,
   },
+  {
+    id: 'audit-9268',
+    store: '159',
+    label: 'guard expired store on checkout',
+    quantity: 10,
+  },
 ];

@@ -540,4 +540,46 @@ export const RelaxLateTaxLineRows = [
     label: 'rename missing modifier',
     quantity: 6,
   },
+  {
+    id: 'order-notes-1222',
+    store: '588',
+    label: 'sort duplicate catering tray on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-2005',
+    store: '474',
+    label: 'backfill stale promo',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-3210',
+    store: '358',
+    label: 'normalise oversized modifier in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-8737',
+    store: '556',
+    label: 'paginate oversized order',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-8111',
+    store: '217',
+    label: 'dedupe expired kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-4250',
+    store: '338',
+    label: 'paginate partial topping',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-4590',
+    store: '261',
+    label: 'retry stale pickup slot',
+    quantity: 11,
+  },
 ];

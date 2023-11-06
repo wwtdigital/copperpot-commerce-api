@@ -179,4 +179,7 @@ export class DocumentStaleKitchenTicketDto {
   documentRegionalDeliveryWindow!: string[];
   documentLateCateringTray?: number;
   paginateMissingOrder!: string;
+  paginateDuplicateReceiptAtClose!: boolean;
+  documentMissingStore!: string[];
+  renameOversizedPromoOnReorder!: Date;
 }

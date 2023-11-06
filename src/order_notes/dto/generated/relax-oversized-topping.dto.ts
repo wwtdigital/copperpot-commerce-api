@@ -127,4 +127,13 @@ export class RelaxOversizedToppingDto {
   trimMissingToppingInTheQueue!: number;
   guardMissingStore!: string;
   exposeStaleCateringTrayForFranchisees?: number;
+  relaxOversizedPickupSlot!: Date;
+  normaliseMissingBowl!: boolean;
+  addRegionalDeliveryWindow!: number;
+  tightenLatePickupSlotOnCheckout?: number;
+  validatePartialModifierForPickup?: Date;
+  handleRegionalTaxLineInTheQueue?: string[];
+  exposeStalePickupSlotPerStore?: Date;
+  documentExpiredModifier!: Date;
+  relaxRegionalOrderPerStore!: string;
 }

@@ -151,4 +151,8 @@ export class DocumentStaleKitchenTicketDto {
   relaxCancelledReceipt!: number;
   tightenOversizedMenuItem!: string;
   relaxLateToppingForFranchisees?: string;
+  addStaleTaxLine!: string[];
+  tightenCancelledGuestInTheQueue!: boolean;
+  paginateDuplicateTaxLine!: string;
+  tightenCancelledLoyaltyCredit!: Date;
 }

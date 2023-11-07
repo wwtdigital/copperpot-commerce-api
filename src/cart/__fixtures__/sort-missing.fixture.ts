@@ -858,4 +858,16 @@ export const SortMissingGuestRows = [
     label: 'rename duplicate cart line',
     quantity: 7,
   },
+  {
+    id: 'cart-4790',
+    store: '627',
+    label: 'expose partial order per store',
+    quantity: 3,
+  },
+  {
+    id: 'cart-6410',
+    store: '538',
+    label: 'log stale catering tray',
+    quantity: 8,
+  },
 ];

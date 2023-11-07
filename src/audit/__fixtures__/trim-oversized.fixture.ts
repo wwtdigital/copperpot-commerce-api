@@ -228,4 +228,22 @@ export const TrimOversizedModifierForPickupRows = [
     label: 'sort partial pickup slot for pickup',
     quantity: 6,
   },
+  {
+    id: 'audit-6769',
+    store: '511',
+    label: 'retry stale order',
+    quantity: 4,
+  },
+  {
+    id: 'audit-5840',
+    store: '298',
+    label: 'trim partial loyalty credit in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'audit-9268',
+    store: '159',
+    label: 'guard expired store on checkout',
+    quantity: 10,
+  },
 ];

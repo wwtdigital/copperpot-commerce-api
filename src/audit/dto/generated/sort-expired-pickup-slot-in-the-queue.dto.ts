@@ -26,4 +26,6 @@ export class SortExpiredPickupSlotInTheQueueDto {
   dedupeOversizedBowlAtClose!: number;
   tightenCancelledReceipt?: boolean;
   logMissingLocationForFranchisees!: string[];
+  trimCancelledCateringTray!: boolean;
+  exposeLatePickupSlotForFranchisees?: string;
 }

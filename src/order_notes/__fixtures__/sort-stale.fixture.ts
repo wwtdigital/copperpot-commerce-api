@@ -1,0 +1,123 @@
+/* Fixture rows for order_notes tests: sort stale promo on checkout. Generated data, not production data. */
+export const SortStalePromoOnCheckoutRows = [
+  {
+    id: 'order-notes-5266',
+    store: '241',
+    label: 'backfill missing ticket',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-2681',
+    store: '249',
+    label: 'dedupe late ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-8885',
+    store: '169',
+    label: 'expose late catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-1661',
+    store: '165',
+    label: 'add cancelled topping',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-8296',
+    store: '481',
+    label: 'rename empty pickup slot per store',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-1841',
+    store: '276',
+    label: 'retry oversized location on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-5439',
+    store: '658',
+    label: 'validate cancelled store',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-5902',
+    store: '222',
+    label: 'document partial kitchen ticket for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-2611',
+    store: '283',
+    label: 'cache empty catering tray in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-5858',
+    store: '676',
+    label: 'cache partial modifier on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-8102',
+    store: '424',
+    label: 'validate missing pickup slot for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-2680',
+    store: '472',
+    label: 'tighten stale order on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-2461',
+    store: '596',
+    label: 'cache expired tax line at close',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-7955',
+    store: '259',
+    label: 'backfill missing location',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-8387',
+    store: '653',
+    label: 'guard empty delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-2289',
+    store: '402',
+    label: 'log empty catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-8977',
+    store: '433',
+    label: 'relax stale delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-7118',
+    store: '184',
+    label: 'backfill partial cart line',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-7170',
+    store: '623',
+    label: 'paginate stale topping',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-3958',
+    store: '636',
+    label: 'handle empty menu item for franchisees',
+    quantity: 10,
+  },
+];

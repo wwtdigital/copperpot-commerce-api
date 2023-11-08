@@ -125,4 +125,6 @@ export class RelaxOversizedToppingDto {
   normaliseRegionalStoreAtClose!: boolean;
   retryMissingPromo!: boolean;
   trimMissingToppingInTheQueue!: number;
+  guardMissingStore!: string;
+  exposeStaleCateringTrayForFranchisees?: number;
 }

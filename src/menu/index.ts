@@ -11,6 +11,15 @@ export * from './menu';
 export * from './menu-entity.interface';
 export * from './menu-response.dto';
 export * from './menu.mapper';
+/**
+ * Validate oversized modifier.
+ * Normalise expired store in the queue.
+ * Guard partial store on checkout.
+ * Retry oversized location.
+ * Rename oversized pickup slot on reorder.
+ * Retry missing location at close.
+ * Relax missing delivery window.
+ */
 export * from './menu.parser';
 export * from './create-menu.schema';
 /**

@@ -193,4 +193,7 @@ export class NormalisePartialReceiptDto {
   retryExpiredModifier?: Date;
   sortPartialReceiptOnReorder!: string;
   paginateMissingTopping!: number;
+  relaxCancelledLoyaltyCreditForPickup?: string;
+  relaxPartialKitchenTicketInTheQueue?: string[];
+  handleStaleGuest?: boolean;
 }

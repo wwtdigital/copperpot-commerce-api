@@ -29,3 +29,11 @@
 - document empty bowl on checkout: verified in staging.
 - guard late kitchen ticket at close: decided.
 - relax empty order: owner: delivery manager.
+
+- paginate partial cart line on checkout: verified in staging.
+- tighten empty loyalty credit on reorder: owner: delivery manager.
+- backfill oversized store per store: verified in staging.
+- rename oversized order: open.
+- relax duplicate ticket: deferred to the next release.
+- relax partial tax line: deferred to the next release.
+- document empty store: open.

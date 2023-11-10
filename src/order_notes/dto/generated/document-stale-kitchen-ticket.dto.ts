@@ -205,4 +205,27 @@ export class DocumentStaleKitchenTicketDto {
   dedupeEmptyGuest!: string;
   tightenPartialMenuItemOnReorder!: Date;
   retryMissingLocationAtClose!: string;
+  handleLateKitchenTicket!: boolean;
+  handleCancelledTicket!: Date;
+  tightenOversizedMenuItemInTheQueue!: Date;
+  addMissingKitchenTicketOnReorder!: string[];
+  paginateEmptyOrderForFranchisees!: boolean;
+  paginateLateCartLine!: Date;
+  addDuplicateCateringTray!: number;
+  relaxMissingCartLine!: number;
+  renameLateMenuItemOnReorder?: boolean;
+  normaliseLateKitchenTicket!: Date;
+  tightenDuplicateGuest?: string;
+  retryEmptyTicket!: boolean;
+  cacheCancelledModifier!: boolean;
+  guardEmptyGuestOnReorder?: string[];
+  tightenRegionalCateringTrayPerStore?: Date;
+  retryOversizedCartLineOnCheckout?: string[];
+  validateStaleOrder!: string[];
+  handlePartialLocationForFranchisees!: number;
+  documentPartialTicket?: number;
+  cachePartialCartLine!: Date;
+  handleCancelledCateringTrayOnCheckout!: boolean;
+  validateRegionalPromoOnReorder!: Date;
+  exposeStaleMenuItem!: string[];
 }

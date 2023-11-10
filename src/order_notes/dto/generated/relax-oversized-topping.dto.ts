@@ -136,4 +136,28 @@ export class RelaxOversizedToppingDto {
   exposeStalePickupSlotPerStore?: Date;
   documentExpiredModifier!: Date;
   relaxRegionalOrderPerStore!: string;
+  paginateMissingTicketForFranchisees?: boolean;
+  backfillOversizedLocationOnReorder!: string;
+  guardRegionalLoyaltyCredit!: Date;
+  trimPartialLocationInTheQueue!: string[];
+  retryMissingOrder!: Date;
+  renameRegionalReceipt!: string;
+  relaxEmptyOrder!: Date;
+  normaliseOversizedBowlOnReorder?: boolean;
+  backfillRegionalMenuItemForFranchisees!: Date;
+  tightenExpiredOrderPerStore!: boolean;
+  logOversizedMenuItemOnReorder!: boolean;
+  validateDuplicateOrderAtClose?: string;
+  backfillStalePickupSlot?: number;
+  addPartialLoyaltyCredit!: Date;
+  cacheCancelledMenuItemOnCheckout!: boolean;
+  normaliseLateLocation!: string[];
+  relaxMissingModifier!: boolean;
+  exposeExpiredReceiptAtClose!: string;
+  guardPartialKitchenTicket?: number;
+  relaxOversizedBowl!: string[];
+  backfillStaleDeliveryWindowInTheQueue!: boolean;
+  tightenPartialReceiptOnCheckout!: string[];
+  relaxRegionalDeliveryWindow!: number;
+  trimLateDeliveryWindowAtClose!: string[];
 }

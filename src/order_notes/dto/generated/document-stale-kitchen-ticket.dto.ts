@@ -182,4 +182,27 @@ export class DocumentStaleKitchenTicketDto {
   paginateDuplicateReceiptAtClose!: boolean;
   documentMissingStore!: string[];
   renameOversizedPromoOnReorder!: Date;
+  exposeOversizedDeliveryWindowPerStore!: boolean;
+  trimLateCartLine?: boolean;
+  sortStaleTopping!: Date;
+  renameRegionalReceipt!: string;
+  addLatePickupSlot!: boolean;
+  paginateOversizedOrderAtClose!: number;
+  tightenEmptyTaxLineAtClose!: Date;
+  retryOversizedMenuItemPerStore?: string[];
+  normaliseCancelledModifier!: Date;
+  retryPartialCateringTray?: string[];
+  paginateOversizedKitchenTicket?: boolean;
+  exposeExpiredLoyaltyCreditAtClose!: Date;
+  relaxCancelledOrder!: boolean;
+  documentEmptyGuestForFranchisees!: number;
+  paginateDuplicateLocationOnCheckout!: string;
+  normalisePartialPickupSlot!: string[];
+  sortOversizedLoyaltyCreditOnCheckout!: string;
+  trimRegionalLocationOnCheckout?: string[];
+  relaxLateKitchenTicket!: string[];
+  trimDuplicateModifier!: boolean;
+  dedupeEmptyGuest!: string;
+  tightenPartialMenuItemOnReorder!: Date;
+  retryMissingLocationAtClose!: string;
 }

@@ -67,4 +67,6 @@ export class PaginateRegionalMenuItemAtCloseDto {
   tightenRegionalCateringTray!: string[];
   dedupePartialLoyaltyCredit!: boolean;
   retryMissingReceiptForFranchisees!: string;
+  backfillExpiredTopping!: string[];
+  validateDuplicateBowl!: boolean;
 }

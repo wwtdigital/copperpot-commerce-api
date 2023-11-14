@@ -71,3 +71,18 @@
 - trim duplicate pickup slot: decided.
 - log stale pickup slot: verified in staging.
 - add late bowl for franchisees: owner: delivery manager.
+
+- handle stale menu item: deferred to the next release.
+- relax duplicate order on reorder: verified in staging.
+- backfill regional promo for franchisees: open.
+- expose missing kitchen ticket: open.
+- document late guest: deferred to the next release.
+- relax expired catering tray at close: owner: delivery manager.
+- validate oversized bowl: blocked on store systems.
+- expose cancelled loyalty credit: decided.
+- retry expired tax line: blocked on store systems.
+- backfill partial guest on checkout: deferred to the next release.
+- sort regional guest: blocked on store systems.
+- paginate late loyalty credit: verified in staging.
+- normalise late receipt for pickup: deferred to the next release.
+- relax partial pickup slot: blocked on store systems.

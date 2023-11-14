@@ -101,5 +101,3 @@
 - guard missing order: deferred to the next release.
 - handle oversized pickup slot: blocked on store systems.
 - sort empty kitchen ticket: owner: delivery manager.
-- paginate late kitchen ticket: verified in staging.
-- cache regional order for pickup: deferred to the next release.

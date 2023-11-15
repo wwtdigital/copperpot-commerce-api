@@ -34,3 +34,15 @@
 - paginate oversized catering tray: deferred to the next release.
 - rename partial store: verified in staging.
 - backfill missing modifier: open.
+
+- document cancelled store: open.
+- cache stale delivery window at close: blocked on store systems.
+- handle expired loyalty credit at close: blocked on store systems.
+- trim oversized topping for pickup: open.
+- document expired cart line: verified in staging.
+- retry regional order: owner: delivery manager.
+- add cancelled bowl: open.
+- log missing promo: verified in staging.
+- document oversized store: open.
+- rename regional promo: deferred to the next release.
+- cache regional loyalty credit on reorder: blocked on store systems.

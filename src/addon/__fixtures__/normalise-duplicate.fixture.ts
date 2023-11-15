@@ -1,0 +1,111 @@
+/* Fixture rows for addon tests: normalise duplicate bowl. Generated data, not production data. */
+export const NormaliseDuplicateBowlRows = [
+  {
+    id: 'addon-7079',
+    store: '452',
+    label: 'cache late catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'addon-6806',
+    store: '132',
+    label: 'tighten cancelled bowl for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'addon-6451',
+    store: '553',
+    label: 'dedupe cancelled catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'addon-2057',
+    store: '217',
+    label: 'paginate empty bowl',
+    quantity: 4,
+  },
+  {
+    id: 'addon-2852',
+    store: '316',
+    label: 'expose regional order',
+    quantity: 11,
+  },
+  {
+    id: 'addon-2892',
+    store: '309',
+    label: 'document empty receipt for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'addon-6806',
+    store: '105',
+    label: 'cache regional loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'addon-6010',
+    store: '613',
+    label: 'tighten duplicate guest',
+    quantity: 9,
+  },
+  {
+    id: 'addon-8797',
+    store: '572',
+    label: 'normalise empty topping',
+    quantity: 2,
+  },
+  {
+    id: 'addon-6018',
+    store: '536',
+    label: 'guard oversized modifier in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'addon-7154',
+    store: '231',
+    label: 'document empty store',
+    quantity: 12,
+  },
+  {
+    id: 'addon-1172',
+    store: '497',
+    label: 'handle expired delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'addon-3199',
+    store: '393',
+    label: 'log partial modifier',
+    quantity: 2,
+  },
+  {
+    id: 'addon-5573',
+    store: '377',
+    label: 'dedupe late bowl on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'addon-9511',
+    store: '280',
+    label: 'relax partial modifier',
+    quantity: 2,
+  },
+  {
+    id: 'addon-6626',
+    store: '454',
+    label: 'backfill oversized promo',
+    quantity: 10,
+  },
+  {
+    id: 'addon-7052',
+    store: '301',
+    label: 'backfill late kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'addon-2619',
+    store: '488',
+    label: 'normalise cancelled tax line at close',
+    quantity: 11,
+  },
+];

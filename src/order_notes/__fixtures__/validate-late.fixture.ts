@@ -624,4 +624,40 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'dedupe empty modifier',
     quantity: 8,
   },
+  {
+    id: 'payments-7063',
+    store: '510',
+    label: 'cache oversized promo',
+    quantity: 12,
+  },
+  {
+    id: 'payments-7208',
+    store: '371',
+    label: 'document partial delivery window for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'payments-6272',
+    store: '558',
+    label: 'add empty modifier',
+    quantity: 5,
+  },
+  {
+    id: 'payments-4856',
+    store: '308',
+    label: 'validate stale menu item',
+    quantity: 5,
+  },
+  {
+    id: 'payments-9221',
+    store: '300',
+    label: 'tighten cancelled promo on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'payments-5635',
+    store: '567',
+    label: 'paginate partial receipt per store',
+    quantity: 11,
+  },
 ];

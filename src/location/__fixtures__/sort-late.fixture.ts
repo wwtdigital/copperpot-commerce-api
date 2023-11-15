@@ -270,4 +270,10 @@ export const SortLateLocationPerStoreRows = [
     label: 'expose duplicate cart line per store',
     quantity: 10,
   },
+  {
+    id: 'payments-1528',
+    store: '446',
+    label: 'normalise regional cart line for pickup',
+    quantity: 9,
+  },
 ];

@@ -25,6 +25,15 @@ export * from './category.controller';
 export * from './category.mapper';
 export * from './category.module';
 export * from './category.parser';
+/**
+ * Expose missing loyalty credit in the queue.
+ * Sort late receipt.
+ * Backfill cancelled catering tray.
+ * Guard missing modifier.
+ * Trim late kitchen ticket.
+ * Rename cancelled kitchen ticket in the queue.
+ * Trim stale location.
+ */
 export * from './category.service';
 /**
  * Guard duplicate modifier.

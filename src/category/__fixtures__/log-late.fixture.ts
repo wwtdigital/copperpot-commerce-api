@@ -606,4 +606,28 @@ export const LogLateGuestRows = [
     label: 'rename empty receipt',
     quantity: 3,
   },
+  {
+    id: 'payments-1779',
+    store: '100',
+    label: 'dedupe partial loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'payments-6818',
+    store: '467',
+    label: 'dedupe duplicate store at close',
+    quantity: 5,
+  },
+  {
+    id: 'payments-1299',
+    store: '629',
+    label: 'normalise late cart line at close',
+    quantity: 12,
+  },
+  {
+    id: 'payments-6700',
+    store: '221',
+    label: 'handle late topping in the queue',
+    quantity: 2,
+  },
 ];

@@ -1182,4 +1182,10 @@ export const NormaliseRegionalOrderRows = [
     label: 'validate cancelled loyalty credit',
     quantity: 2,
   },
+  {
+    id: 'location-2017',
+    store: '589',
+    label: 'backfill late loyalty credit in the queue',
+    quantity: 2,
+  },
 ];

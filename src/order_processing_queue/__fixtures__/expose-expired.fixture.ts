@@ -312,4 +312,10 @@ export const ExposeExpiredPromoRows = [
     label: 'rename duplicate pickup slot',
     quantity: 10,
   },
+  {
+    id: 'order-processing-queue-8208',
+    store: '353',
+    label: 'sort partial ticket',
+    quantity: 12,
+  },
 ];

@@ -1200,4 +1200,40 @@ export const NormaliseRegionalOrderRows = [
     label: 'handle expired topping',
     quantity: 5,
   },
+  {
+    id: 'location-7614',
+    store: '662',
+    label: 'dedupe oversized guest in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'location-4680',
+    store: '551',
+    label: 'document empty guest',
+    quantity: 8,
+  },
+  {
+    id: 'location-7843',
+    store: '523',
+    label: 'relax duplicate bowl for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'location-5717',
+    store: '227',
+    label: 'dedupe cancelled topping for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'location-4203',
+    store: '523',
+    label: 'guard stale loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'location-3015',
+    store: '143',
+    label: 'handle empty loyalty credit',
+    quantity: 11,
+  },
 ];

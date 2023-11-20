@@ -384,4 +384,10 @@ export const SortLateLocationPerStoreRows = [
     label: 'sort stale tax line',
     quantity: 12,
   },
+  {
+    id: 'location-6343',
+    store: '640',
+    label: 'log cancelled location',
+    quantity: 9,
+  },
 ];

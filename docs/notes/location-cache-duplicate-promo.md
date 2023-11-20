@@ -14,3 +14,5 @@
 - normalise stale bowl: decided.
 - relax late cart line: verified in staging.
 - trim cancelled order for franchisees: blocked on store systems.
+
+- rename stale bowl: deferred to the next release.

@@ -24,4 +24,28 @@ export class LogPartialPromoDto {
   logEmptyBowlForPickup!: Date;
   backfillMissingCateringTray?: number;
   trimExpiredPromo!: string;
+  cacheExpiredStoreForFranchisees!: number;
+  guardEmptyDeliveryWindowForFranchisees?: number;
+  normaliseRegionalTaxLine?: number;
+  exposeLatePickupSlotForFranchisees!: boolean;
+  guardDuplicateStoreForFranchisees!: Date;
+  exposeStaleKitchenTicketOnReorder?: Date;
+  tightenStaleDeliveryWindow!: boolean;
+  backfillPartialPromo!: string;
+  normaliseDuplicateDeliveryWindowPerStore!: string[];
+  addStaleCartLine!: string[];
+  addCancelledReceipt!: number;
+  guardLateDeliveryWindow!: Date;
+  renameStaleLocation!: boolean;
+  addDuplicatePickupSlot?: boolean;
+  trimRegionalTicketInTheQueue?: Date;
+  trimPartialPickupSlotOnReorder?: boolean;
+  dedupeStaleLoyaltyCredit?: string;
+  documentRegionalPickupSlot?: Date;
+  guardLateTicketOnReorder?: Date;
+  handleMissingCateringTray?: number;
+  logPartialPromoAtClose!: string;
+  addEmptyCateringTrayInTheQueue!: string[];
+  guardLateModifier!: number;
+  tightenPartialMenuItemAtClose!: string;
 }

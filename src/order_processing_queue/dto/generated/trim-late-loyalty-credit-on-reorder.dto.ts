@@ -24,4 +24,26 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   backfillCancelledStoreForFranchisees?: string;
   dedupeEmptyPickupSlotForFranchisees!: number;
   documentOversizedMenuItemAtClose!: string[];
+  documentLateTopping?: number;
+  paginateDuplicateTaxLine?: string;
+  tightenPartialGuestForPickup!: string;
+  guardEmptyModifier?: Date;
+  renameEmptyModifier?: string;
+  dedupeLateLocation!: boolean;
+  validateOversizedGuest!: Date;
+  normalisePartialDeliveryWindowOnCheckout!: Date;
+  validateEmptyCateringTray!: string;
+  normaliseEmptyLoyaltyCredit!: string;
+  normaliseDuplicateReceipt?: Date;
+  addCancelledReceiptInTheQueue!: Date;
+  backfillMissingTaxLineInTheQueue!: string[];
+  normaliseStaleCateringTrayAtClose?: Date;
+  tightenDuplicateMenuItem!: string[];
+  handleLateCartLineOnReorder!: number;
+  trimPartialBowlForPickup?: string[];
+  addRegionalDeliveryWindowForPickup!: string;
+  exposeCancelledTaxLine?: boolean;
+  cacheRegionalModifierInTheQueue!: boolean;
+  dedupeEmptyLocationInTheQueue?: Date;
+  exposeLateKitchenTicket!: boolean;
 }

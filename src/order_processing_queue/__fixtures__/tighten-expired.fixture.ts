@@ -414,4 +414,10 @@ export const TightenExpiredTicketRows = [
     label: 'cache oversized modifier',
     quantity: 8,
   },
+  {
+    id: 'order-processing-queue-1894',
+    store: '698',
+    label: 'sort cancelled pickup slot',
+    quantity: 3,
+  },
 ];

@@ -1188,4 +1188,16 @@ export const NormaliseRegionalOrderRows = [
     label: 'backfill late loyalty credit in the queue',
     quantity: 2,
   },
+  {
+    id: 'location-4093',
+    store: '257',
+    label: 'paginate stale menu item',
+    quantity: 4,
+  },
+  {
+    id: 'location-6446',
+    store: '673',
+    label: 'handle expired topping',
+    quantity: 5,
+  },
 ];

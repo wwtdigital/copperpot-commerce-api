@@ -2,4 +2,20 @@
 export class BackfillRegionalTaxLineAtCloseDto {
   renameStaleGuestOnCheckout!: string[];
   backfillDuplicateMenuItemForPickup!: boolean;
+  tightenCancelledToppingOnCheckout!: Date;
+  cacheOversizedGuest!: Date;
+  exposeRegionalGuest!: string[];
+  documentCancelledToppingOnCheckout!: string[];
+  tightenRegionalTicket!: Date;
+  guardDuplicateLoyaltyCreditAtClose?: number;
+  renameRegionalCateringTray!: number;
+  cacheExpiredTopping?: string;
+  renameExpiredLoyaltyCredit!: string;
+  normaliseExpiredTicket!: number;
+  validatePartialDeliveryWindowPerStore?: Date;
+  dedupeStaleKitchenTicket?: string;
+  documentOversizedTicketOnReorder?: string;
+  retryOversizedPromo!: string;
+  retryLatePickupSlot!: Date;
+  handleStalePickupSlot!: number;
 }

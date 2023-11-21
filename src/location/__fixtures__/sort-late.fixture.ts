@@ -366,4 +366,10 @@ export const SortLateLocationPerStoreRows = [
     label: 'backfill partial bowl',
     quantity: 11,
   },
+  {
+    id: 'location-1723',
+    store: '112',
+    label: 'cache duplicate modifier',
+    quantity: 3,
+  },
 ];

@@ -222,4 +222,10 @@ export const ExposeExpiredPromoRows = [
     label: 'add stale guest',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-3753',
+    store: '425',
+    label: 'log stale bowl',
+    quantity: 10,
+  },
 ];

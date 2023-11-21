@@ -141,4 +141,28 @@ export class PaginateRegionalMenuItemAtCloseDto {
   validatePartialCartLine!: boolean;
   exposeStaleKitchenTicket?: string;
   addMissingLocationPerStore!: boolean;
+  exposeCancelledCateringTrayOnReorder?: string[];
+  exposeDuplicateOrderPerStore?: string;
+  handleCancelledPickupSlot!: Date;
+  guardDuplicateCateringTrayForFranchisees?: string;
+  logEmptyMenuItem!: number;
+  validateMissingCateringTray!: string;
+  addLatePickupSlotForFranchisees?: boolean;
+  exposePartialStorePerStore!: Date;
+  sortStaleLoyaltyCredit!: string;
+  dedupeStaleGuest?: number;
+  backfillPartialModifier!: Date;
+  backfillRegionalReceipt!: string[];
+  addLateModifier!: boolean;
+  addOversizedGuest!: string;
+  documentStaleLoyaltyCredit!: string;
+  cacheLateMenuItem?: string[];
+  handleRegionalTopping!: number;
+  relaxCancelledCartLine!: string[];
+  guardRegionalModifier?: number;
+  logExpiredLoyaltyCredit!: number;
+  dedupeLatePromoOnCheckout?: Date;
+  dedupePartialCartLineForFranchisees!: string[];
+  normaliseDuplicateLoyaltyCredit!: number;
+  handlePartialTopping!: Date;
 }

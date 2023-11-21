@@ -34,3 +34,18 @@
 - add partial tax line: blocked on store systems.
 - dedupe duplicate loyalty credit for franchisees: blocked on store systems.
 - log late pickup slot on reorder: deferred to the next release.
+
+- add expired receipt: blocked on store systems.
+- sort cancelled promo: owner: delivery manager.
+- add expired promo: deferred to the next release.
+- expose stale order: open.
+- relax cancelled cart line for franchisees: decided.
+- expose expired catering tray at close: decided.
+- expose late store: open.
+- retry expired tax line: deferred to the next release.
+- log duplicate ticket: decided.
+- tighten expired ticket: owner: delivery manager.
+- document stale kitchen ticket: open.
+- sort expired loyalty credit: decided.
+- relax empty store per store: deferred to the next release.
+- relax late delivery window per store: decided.

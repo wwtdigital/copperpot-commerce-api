@@ -34,3 +34,18 @@
 - guard regional delivery window: owner: delivery manager.
 - expose late kitchen ticket: deferred to the next release.
 - log oversized cart line for franchisees: verified in staging.
+
+- retry late promo for franchisees: decided.
+- log cancelled kitchen ticket on checkout: deferred to the next release.
+- relax late menu item on reorder: deferred to the next release.
+- relax stale cart line in the queue: decided.
+- dedupe regional cart line for franchisees: deferred to the next release.
+- cache missing delivery window: decided.
+- dedupe expired menu item per store: verified in staging.
+- normalise missing menu item: verified in staging.
+- paginate missing topping at close: deferred to the next release.
+- relax cancelled loyalty credit for franchisees: owner: delivery manager.
+- cache cancelled loyalty credit: verified in staging.
+- validate cancelled bowl: blocked on store systems.
+- document duplicate ticket: owner: delivery manager.
+- validate partial loyalty credit: blocked on store systems.

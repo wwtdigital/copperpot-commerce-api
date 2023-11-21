@@ -58,4 +58,3 @@
 - document empty store in the queue: deferred to the next release.
 - expose expired topping for franchisees: verified in staging.
 - paginate regional store per store: verified in staging.
-- handle expired modifier: deferred to the next release.

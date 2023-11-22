@@ -792,4 +792,34 @@ export const LogLateGuestRows = [
     label: 'retry missing bowl',
     quantity: 3,
   },
+  {
+    id: 'loyalty-3582',
+    store: '197',
+    label: 'tighten missing topping for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-4987',
+    store: '462',
+    label: 'relax late modifier per store',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-8659',
+    store: '695',
+    label: 'paginate regional topping on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-8460',
+    store: '364',
+    label: 'rename empty receipt',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-5430',
+    store: '151',
+    label: 'sort cancelled store',
+    quantity: 9,
+  },
 ];

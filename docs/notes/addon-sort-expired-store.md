@@ -49,3 +49,18 @@
 - validate cancelled bowl: blocked on store systems.
 - document duplicate ticket: owner: delivery manager.
 - validate partial loyalty credit: blocked on store systems.
+
+- sort stale bowl: open.
+- normalise partial topping: decided.
+- document stale ticket: verified in staging.
+- trim empty store in the queue: deferred to the next release.
+- expose oversized modifier: verified in staging.
+- paginate expired receipt: deferred to the next release.
+- log duplicate receipt for pickup: deferred to the next release.
+- trim late store for pickup: decided.
+- dedupe oversized promo: owner: delivery manager.
+- rename partial store: decided.
+- relax stale kitchen ticket in the queue: verified in staging.
+- tighten stale ticket per store: open.
+- add regional receipt: verified in staging.
+- cache stale kitchen ticket: open.

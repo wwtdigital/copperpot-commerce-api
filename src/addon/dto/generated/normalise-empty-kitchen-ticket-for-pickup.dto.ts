@@ -2,4 +2,6 @@
 export class NormaliseEmptyKitchenTicketForPickupDto {
   dedupeCancelledTopping!: string[];
   documentEmptyCartLinePerStore?: number;
+  documentLateLocation!: Date;
+  paginateExpiredDeliveryWindowForFranchisees?: Date;
 }

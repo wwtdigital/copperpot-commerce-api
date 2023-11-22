@@ -49,3 +49,18 @@
 - sort expired loyalty credit: decided.
 - relax empty store per store: deferred to the next release.
 - relax late delivery window per store: decided.
+
+- validate empty order for franchisees: blocked on store systems.
+- add duplicate ticket: owner: delivery manager.
+- retry oversized topping at close: open.
+- handle partial ticket for franchisees: owner: delivery manager.
+- sort regional guest: decided.
+- handle regional promo: owner: delivery manager.
+- expose late kitchen ticket: open.
+- tighten expired delivery window: verified in staging.
+- tighten duplicate delivery window on reorder: open.
+- retry regional promo: deferred to the next release.
+- document empty delivery window: owner: delivery manager.
+- guard missing tax line: owner: delivery manager.
+- add duplicate modifier: decided.
+- rename stale order: blocked on store systems.

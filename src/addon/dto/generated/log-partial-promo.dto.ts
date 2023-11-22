@@ -48,4 +48,28 @@ export class LogPartialPromoDto {
   addEmptyCateringTrayInTheQueue!: string[];
   guardLateModifier!: number;
   tightenPartialMenuItemAtClose!: string;
+  cacheDuplicatePromo?: string[];
+  cacheRegionalModifier!: Date;
+  handlePartialKitchenTicketOnCheckout!: boolean;
+  exposeEmptyReceipt!: string;
+  trimMissingGuest!: string;
+  logCancelledTicket?: Date;
+  backfillRegionalPromoForFranchisees!: Date;
+  addEmptyTopping!: number;
+  handleCancelledBowlAtClose!: Date;
+  paginateMissingCartLineInTheQueue!: Date;
+  paginateDuplicateTicket!: number;
+  documentLateLoyaltyCreditOnCheckout?: Date;
+  cachePartialBowlOnCheckout!: number;
+  relaxCancelledReceipt!: boolean;
+  sortOversizedCateringTrayInTheQueue?: Date;
+  paginateCancelledGuest!: boolean;
+  addCancelledTaxLine!: boolean;
+  documentStaleGuestForFranchisees!: Date;
+  cacheCancelledTaxLineOnCheckout!: number;
+  trimPartialDeliveryWindow!: Date;
+  backfillEmptyLoyaltyCredit!: boolean;
+  tightenDuplicateBowl?: string;
+  logMissingPromo!: string[];
+  exposeOversizedBowl?: number;
 }

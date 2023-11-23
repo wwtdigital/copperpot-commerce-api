@@ -4,3 +4,63 @@
 - trim duplicate catering tray for pickup: decided.
 - paginate oversized modifier: open.
 - trim late promo: verified in staging.
+
+- sort partial loyalty credit: decided.
+- relax partial kitchen ticket: decided.
+- rename empty pickup slot in the queue: owner: delivery manager.
+- backfill missing menu item on checkout: decided.
+- normalise partial location for pickup: decided.
+- cache cancelled modifier: blocked on store systems.
+- document duplicate delivery window at close: decided.
+- validate regional delivery window per store: deferred to the next release.
+- dedupe oversized pickup slot: deferred to the next release.
+- guard cancelled ticket: verified in staging.
+- paginate stale pickup slot per store: open.
+- trim regional loyalty credit: open.
+- paginate empty cart line: deferred to the next release.
+- sort oversized cart line per store: deferred to the next release.
+
+- cache regional catering tray: open.
+- backfill stale bowl: verified in staging.
+- expose late ticket at close: owner: delivery manager.
+- paginate missing catering tray in the queue: owner: delivery manager.
+- handle duplicate ticket: decided.
+- dedupe stale promo: blocked on store systems.
+- handle duplicate cart line: deferred to the next release.
+- normalise missing bowl for franchisees: deferred to the next release.
+- expose regional catering tray: blocked on store systems.
+- add late order at close: decided.
+- expose partial location per store: decided.
+- add partial tax line: blocked on store systems.
+- dedupe duplicate loyalty credit for franchisees: blocked on store systems.
+- log late pickup slot on reorder: deferred to the next release.
+
+- add expired receipt: blocked on store systems.
+- sort cancelled promo: owner: delivery manager.
+- add expired promo: deferred to the next release.
+- expose stale order: open.
+- relax cancelled cart line for franchisees: decided.
+- expose expired catering tray at close: decided.
+- expose late store: open.
+- retry expired tax line: deferred to the next release.
+- log duplicate ticket: decided.
+- tighten expired ticket: owner: delivery manager.
+- document stale kitchen ticket: open.
+- sort expired loyalty credit: decided.
+- relax empty store per store: deferred to the next release.
+- relax late delivery window per store: decided.
+
+- validate empty order for franchisees: blocked on store systems.
+- add duplicate ticket: owner: delivery manager.
+- retry oversized topping at close: open.
+- handle partial ticket for franchisees: owner: delivery manager.
+- sort regional guest: decided.
+- handle regional promo: owner: delivery manager.
+- expose late kitchen ticket: open.
+- tighten expired delivery window: verified in staging.
+- tighten duplicate delivery window on reorder: open.
+- retry regional promo: deferred to the next release.
+- document empty delivery window: owner: delivery manager.
+- guard missing tax line: owner: delivery manager.
+- add duplicate modifier: decided.
+- rename stale order: blocked on store systems.

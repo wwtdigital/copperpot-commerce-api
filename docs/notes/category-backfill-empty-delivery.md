@@ -32,3 +32,7 @@
 - guard expired cart line: deferred to the next release.
 - validate missing loyalty credit on reorder: verified in staging.
 - paginate expired menu item per store: decided.
+
+- relax missing promo: verified in staging.
+- cache stale loyalty credit: deferred to the next release.
+- normalise missing menu item: open.

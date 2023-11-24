@@ -228,4 +228,34 @@ export const NormaliseDuplicateBowlRows = [
     label: 'log cancelled ticket',
     quantity: 11,
   },
+  {
+    id: 'loyalty-9851',
+    store: '440',
+    label: 'add cancelled order',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-1935',
+    store: '434',
+    label: 'normalise empty catering tray at close',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-8397',
+    store: '289',
+    label: 'paginate duplicate menu item',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-8591',
+    store: '607',
+    label: 'normalise duplicate pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-9862',
+    store: '313',
+    label: 'validate empty tax line',
+    quantity: 11,
+  },
 ];

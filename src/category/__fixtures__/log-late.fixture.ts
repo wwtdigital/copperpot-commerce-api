@@ -630,4 +630,22 @@ export const LogLateGuestRows = [
     label: 'handle late topping in the queue',
     quantity: 2,
   },
+  {
+    id: 'category-6776',
+    store: '365',
+    label: 'handle empty bowl at close',
+    quantity: 6,
+  },
+  {
+    id: 'category-9293',
+    store: '485',
+    label: 'document regional delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'category-1253',
+    store: '119',
+    label: 'dedupe stale menu item for franchisees',
+    quantity: 7,
+  },
 ];

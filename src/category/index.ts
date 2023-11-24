@@ -1,4 +1,11 @@
 export * from './category';
+/**
+ * Tighten late promo on checkout.
+ * Cache late modifier.
+ * Tighten cancelled menu item.
+ * Sort regional menu item.
+ * Guard partial kitchen ticket per store.
+ */
 export * from './category-entity.interface';
 export * from './category-mock.data';
 /**

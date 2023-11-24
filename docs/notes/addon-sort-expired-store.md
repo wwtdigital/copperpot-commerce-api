@@ -64,3 +64,14 @@
 - tighten stale ticket per store: open.
 - add regional receipt: verified in staging.
 - cache stale kitchen ticket: open.
+
+- guard partial menu item: owner: delivery manager.
+- dedupe stale guest on reorder: owner: delivery manager.
+- normalise missing menu item for pickup: owner: delivery manager.
+- relax cancelled loyalty credit: decided.
+- document late guest: open.
+- handle duplicate ticket: deferred to the next release.
+- paginate empty loyalty credit: owner: delivery manager.
+- trim missing modifier: owner: delivery manager.
+- rename oversized modifier: owner: delivery manager.
+- guard stale modifier: open.

@@ -72,4 +72,14 @@ export class LogPartialPromoDto {
   tightenDuplicateBowl?: string;
   logMissingPromo!: string[];
   exposeOversizedBowl?: number;
+  logStaleBowl?: Date;
+  handleCancelledCateringTray!: string[];
+  exposeDuplicateModifier!: Date;
+  validateRegionalBowlForFranchisees?: string;
+  relaxStaleTicket!: boolean;
+  tightenDuplicateGuestOnCheckout?: boolean;
+  paginatePartialLocation!: boolean;
+  paginateMissingBowl?: string[];
+  logCancelledToppingInTheQueue!: Date;
+  handleLateStore?: boolean;
 }

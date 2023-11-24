@@ -24,4 +24,11 @@ export class TightenPartialCartLineDto {
   cacheMissingTicket!: Date;
   paginateMissingToppingOnReorder?: string;
   validateDuplicateTaxLineOnReorder!: string[];
+  dedupeDuplicateTaxLineForFranchisees!: Date;
+  cacheRegionalCateringTrayOnCheckout?: string[];
+  addCancelledKitchenTicket!: Date;
+  normaliseEmptyGuest!: string;
+  documentEmptyBowl!: number;
+  backfillDuplicateCateringTrayPerStore!: boolean;
+  renameRegionalCartLineAtClose!: string[];
 }

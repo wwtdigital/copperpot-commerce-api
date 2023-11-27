@@ -318,4 +318,34 @@ export const ExposeExpiredPromoRows = [
     label: 'sort partial ticket',
     quantity: 12,
   },
+  {
+    id: 'loyalty-3129',
+    store: '677',
+    label: 'validate missing modifier',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-3869',
+    store: '167',
+    label: 'trim late topping',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-9393',
+    store: '210',
+    label: 'relax expired catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-9149',
+    store: '472',
+    label: 'backfill missing pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-5362',
+    store: '694',
+    label: 'guard missing ticket',
+    quantity: 5,
+  },
 ];

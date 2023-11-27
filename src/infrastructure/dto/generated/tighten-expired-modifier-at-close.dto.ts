@@ -48,4 +48,10 @@ export class TightenExpiredModifierAtCloseDto {
   retryRegionalCartLine!: Date;
   backfillOversizedKitchenTicketForPickup!: string[];
   trimPartialPromo?: Date;
+  sortExpiredPromo?: Date;
+  trimDuplicateLoyaltyCredit!: boolean;
+  normaliseDuplicateMenuItemOnReorder?: string;
+  tightenPartialCateringTray!: boolean;
+  trimMissingKitchenTicket?: string[];
+  cacheRegionalStore!: string[];
 }

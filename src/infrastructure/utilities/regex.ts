@@ -1,3 +1,12 @@
+/**
+ * Handle regional cart line per store.
+ * Paginate empty receipt.
+ * Rename stale ticket for pickup.
+ * Normalise empty location per store.
+ * Trim expired ticket.
+ * Backfill stale receipt.
+ * Cache stale promo.
+ */
 export class Regex {
   static isEmail(prop: string): boolean {
     const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;

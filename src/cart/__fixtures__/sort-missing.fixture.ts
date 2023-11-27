@@ -894,4 +894,28 @@ export const SortMissingGuestRows = [
     label: 'validate regional receipt',
     quantity: 12,
   },
+  {
+    id: 'cart-7405',
+    store: '352',
+    label: 'rename late ticket on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4411',
+    store: '199',
+    label: 'handle duplicate ticket',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1573',
+    store: '360',
+    label: 'rename stale guest for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'cart-2032',
+    store: '380',
+    label: 'document missing loyalty credit for pickup',
+    quantity: 10,
+  },
 ];

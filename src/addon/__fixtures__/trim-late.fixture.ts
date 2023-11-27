@@ -1146,4 +1146,34 @@ export const TrimLateCateringTrayForPickupRows = [
     label: 'document duplicate promo at close',
     quantity: 1,
   },
+  {
+    id: 'loyalty-6458',
+    store: '679',
+    label: 'retry stale topping on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-3026',
+    store: '606',
+    label: 'trim expired loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-7191',
+    store: '209',
+    label: 'expose missing topping',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-3515',
+    store: '241',
+    label: 'log oversized modifier',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-8929',
+    store: '531',
+    label: 'handle expired cart line per store',
+    quantity: 8,
+  },
 ];

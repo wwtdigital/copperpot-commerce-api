@@ -27,5 +27,3 @@
 - rename stale delivery window: open.
 - retry stale pickup slot: deferred to the next release.
 - handle stale store: deferred to the next release.
-- guard regional order: open.
-- trim empty store: decided.

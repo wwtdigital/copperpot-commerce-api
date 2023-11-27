@@ -86,3 +86,6 @@
 - paginate late loyalty credit: verified in staging.
 - normalise late receipt for pickup: deferred to the next release.
 - relax partial pickup slot: blocked on store systems.
+
+- trim cancelled receipt: decided.
+- dedupe stale store per store: verified in staging.

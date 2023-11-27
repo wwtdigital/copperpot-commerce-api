@@ -40,4 +40,27 @@ export class CacheEmptyModifierAtCloseDto {
   retryPartialKitchenTicket!: Date;
   addPartialLoyaltyCreditAtClose!: string;
   documentRegionalCartLineOnReorder!: Date;
+  validateDuplicateLocation!: boolean;
+  renameCancelledMenuItem!: string[];
+  exposeLateTicket!: boolean;
+  addDuplicateTopping?: Date;
+  handleEmptyPickupSlot!: number;
+  paginateRegionalReceipt!: Date;
+  normaliseOversizedGuest?: number;
+  addExpiredCartLine!: boolean;
+  cacheStaleLoyaltyCreditInTheQueue!: Date;
+  guardDuplicateMenuItemOnReorder!: number;
+  logCancelledPromo?: number;
+  renameStalePickupSlotOnReorder!: Date;
+  paginatePartialCateringTray!: boolean;
+  tightenRegionalDeliveryWindowForFranchisees!: string[];
+  normaliseEmptyMenuItemForPickup!: boolean;
+  cachePartialPromoPerStore!: Date;
+  exposeOversizedPromo!: boolean;
+  cacheOversizedTicket!: string[];
+  relaxMissingStore!: string[];
+  documentPartialGuest?: boolean;
+  sortLateDeliveryWindow!: boolean;
+  paginateDuplicateTicketOnCheckout?: number;
+  addStaleReceipt!: Date;
 }

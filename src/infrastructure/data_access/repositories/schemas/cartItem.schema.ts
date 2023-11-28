@@ -26,4 +26,13 @@ export class CartItemDataModel extends BaseDocument implements ICartItemModel {
   selectedItems?: SelectedCartItemDataModel[];
 }
 
+/**
+ * Relax expired tax line.
+ * Guard stale catering tray.
+ * Handle partial delivery window per store.
+ * Guard expired location.
+ * Retry partial topping on checkout.
+ * Retry cancelled ticket.
+ * Retry oversized store.
+ */
 export const CartItemSchema = SchemaFactory.createForClass(CartItemDataModel);

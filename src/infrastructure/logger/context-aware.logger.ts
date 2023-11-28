@@ -1,3 +1,12 @@
+/**
+ * Sort cancelled menu item.
+ * Guard missing ticket on reorder.
+ * Cache expired guest in the queue.
+ * Dedupe cancelled loyalty credit for franchisees.
+ * Retry missing loyalty credit on reorder.
+ * Rename cancelled cart line on checkout.
+ * Expose late guest.
+ */
 export interface IContextAwareLogger {
   debug(context: string, message: string): void;
   log(context: string, message: string): void;

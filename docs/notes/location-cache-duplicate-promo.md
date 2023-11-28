@@ -91,3 +91,48 @@
 - expose regional cart line: open.
 - backfill duplicate modifier for pickup: deferred to the next release.
 - handle cancelled cart line: blocked on store systems.
+
+- paginate stale location: open.
+- trim stale receipt per store: verified in staging.
+- dedupe late guest in the queue: deferred to the next release.
+- retry stale guest: deferred to the next release.
+- validate partial topping: open.
+- cache expired delivery window for pickup: decided.
+- trim regional modifier: deferred to the next release.
+- paginate cancelled kitchen ticket on reorder: owner: delivery manager.
+- normalise missing delivery window at close: verified in staging.
+- expose cancelled catering tray: deferred to the next release.
+- guard partial promo: owner: delivery manager.
+- dedupe oversized promo: blocked on store systems.
+- normalise partial order: deferred to the next release.
+- paginate empty promo for pickup: verified in staging.
+
+- relax missing store for franchisees: deferred to the next release.
+- trim missing catering tray: blocked on store systems.
+- cache regional order: blocked on store systems.
+- document partial tax line on reorder: owner: delivery manager.
+- tighten regional order: deferred to the next release.
+- retry stale modifier: owner: delivery manager.
+- handle expired guest: open.
+- validate regional cart line at close: decided.
+- retry stale guest: owner: delivery manager.
+- rename duplicate location: verified in staging.
+- add partial loyalty credit: deferred to the next release.
+- document late kitchen ticket: owner: delivery manager.
+- paginate empty loyalty credit per store: owner: delivery manager.
+- tighten late ticket in the queue: blocked on store systems.
+
+- validate empty menu item: verified in staging.
+- paginate regional delivery window: open.
+- retry missing cart line for franchisees: owner: delivery manager.
+- handle empty pickup slot: deferred to the next release.
+- cache expired promo: owner: delivery manager.
+- handle partial receipt: blocked on store systems.
+- normalise cancelled tax line per store: verified in staging.
+- dedupe stale pickup slot: deferred to the next release.
+- cache regional ticket: owner: delivery manager.
+- trim empty receipt: decided.
+- trim missing guest: owner: delivery manager.
+- cache late pickup slot: decided.
+- tighten duplicate pickup slot per store: blocked on store systems.
+- expose duplicate menu item: verified in staging.

@@ -14,3 +14,18 @@
 - expose missing store: decided.
 - cache partial tax line for pickup: blocked on store systems.
 - normalise expired promo in the queue: blocked on store systems.
+
+- add cancelled modifier: decided.
+- dedupe missing ticket at close: verified in staging.
+- validate expired cart line on reorder: open.
+- dedupe oversized modifier: deferred to the next release.
+- normalise oversized bowl for pickup: open.
+- log stale bowl: deferred to the next release.
+- guard stale menu item in the queue: verified in staging.
+- normalise expired ticket: verified in staging.
+- guard late pickup slot: blocked on store systems.
+- rename late location: open.
+- trim cancelled menu item: blocked on store systems.
+- paginate partial promo: verified in staging.
+- dedupe late tax line: verified in staging.
+- relax duplicate ticket: blocked on store systems.

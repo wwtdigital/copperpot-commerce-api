@@ -150,4 +150,16 @@ export const CacheRegionalCateringTrayRows = [
     label: 'paginate cancelled delivery window',
     quantity: 6,
   },
+  {
+    id: 'item-7130',
+    store: '534',
+    label: 'validate oversized order',
+    quantity: 5,
+  },
+  {
+    id: 'item-9297',
+    store: '238',
+    label: 'expose duplicate loyalty credit for pickup',
+    quantity: 12,
+  },
 ];

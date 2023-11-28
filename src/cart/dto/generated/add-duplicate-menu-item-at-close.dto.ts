@@ -45,4 +45,6 @@ export class AddDuplicateMenuItemAtCloseDto {
   dedupeCancelledCateringTray?: number;
   retryPartialCartLine!: Date;
   relaxOversizedReceiptInTheQueue?: Date;
+  tightenExpiredPickupSlot!: string;
+  cachePartialReceiptInTheQueue!: number;
 }

@@ -7,4 +7,13 @@ export class GuardDuplicateTaxLineAtCloseDto {
   retryDuplicatePickupSlot!: boolean;
   exposeOversizedKitchenTicketForPickup!: string[];
   relaxLatePromo!: Date;
+  validateStaleStore?: string;
+  relaxDuplicateModifier!: string;
+  logMissingTicket!: Date;
+  cacheCancelledModifierForFranchisees!: boolean;
+  guardStaleMenuItem?: string;
+  handleEmptyPickupSlot?: number;
+  addRegionalMenuItem!: string;
+  addPartialLoyaltyCreditAtClose?: string;
+  exposeLateCartLine?: number;
 }

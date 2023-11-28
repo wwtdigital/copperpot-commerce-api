@@ -7,7 +7,3 @@
 - cache cancelled menu item per store: deferred to the next release.
 - document expired kitchen ticket: decided.
 - expose cancelled modifier for franchisees: decided.
-- cache oversized loyalty credit: open.
-- retry missing location on checkout: owner: delivery manager.
-- document expired location: deferred to the next release.
-- dedupe regional order: owner: delivery manager.

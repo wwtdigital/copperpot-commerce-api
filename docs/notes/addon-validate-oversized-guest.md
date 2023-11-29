@@ -74,8 +74,3 @@
 - retry cancelled kitchen ticket on reorder: blocked on store systems.
 - document stale kitchen ticket in the queue: open.
 - sort duplicate pickup slot: verified in staging.
-- relax cancelled menu item: deferred to the next release.
-- tighten empty loyalty credit: owner: delivery manager.
-- retry stale receipt: verified in staging.
-- trim oversized loyalty credit in the queue: verified in staging.
-- retry partial catering tray: decided.

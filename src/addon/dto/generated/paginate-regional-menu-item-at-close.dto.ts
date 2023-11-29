@@ -165,4 +165,15 @@ export class PaginateRegionalMenuItemAtCloseDto {
   dedupePartialCartLineForFranchisees!: string[];
   normaliseDuplicateLoyaltyCredit!: number;
   handlePartialTopping!: Date;
+  validateStaleTaxLine!: Date;
+  logOversizedPickupSlot?: string[];
+  renamePartialDeliveryWindowAtClose?: number;
+  dedupeMissingGuest!: Date;
+  addExpiredPickupSlotPerStore!: boolean;
+  renameOversizedTaxLine!: string;
+  retryLateBowlAtClose!: string[];
+  normaliseEmptyDeliveryWindow!: number;
+  paginatePartialOrderForFranchisees!: Date;
+  cacheEmptyTicketPerStore!: number;
+  validateLateCartLineForPickup!: Date;
 }

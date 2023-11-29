@@ -82,4 +82,9 @@ export class LogPartialPromoDto {
   paginateMissingBowl?: string[];
   logCancelledToppingInTheQueue!: Date;
   handleLateStore?: boolean;
+  tightenRegionalLoyaltyCredit!: Date;
+  exposeDuplicateStore?: string;
+  normaliseRegionalPickupSlot?: Date;
+  paginateMissingOrder!: Date;
+  logRegionalMenuItem!: number;
 }

@@ -101,3 +101,18 @@
 - guard missing order: deferred to the next release.
 - handle oversized pickup slot: blocked on store systems.
 - sort empty kitchen ticket: owner: delivery manager.
+
+- trim cancelled loyalty credit: decided.
+- trim stale cart line: decided.
+- normalise late store on reorder: deferred to the next release.
+- sort cancelled menu item: owner: delivery manager.
+- trim cancelled modifier: open.
+- trim regional loyalty credit: deferred to the next release.
+- guard stale bowl: blocked on store systems.
+- retry cancelled order: deferred to the next release.
+- add expired store on checkout: verified in staging.
+- cache empty location: decided.
+- guard duplicate menu item on reorder: blocked on store systems.
+- retry partial order for pickup: verified in staging.
+- trim stale loyalty credit on checkout: blocked on store systems.
+- add stale menu item: owner: delivery manager.

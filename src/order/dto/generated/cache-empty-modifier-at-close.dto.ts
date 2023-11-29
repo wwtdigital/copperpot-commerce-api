@@ -63,4 +63,28 @@ export class CacheEmptyModifierAtCloseDto {
   sortLateDeliveryWindow!: boolean;
   paginateDuplicateTicketOnCheckout?: number;
   addStaleReceipt!: Date;
+  handlePartialModifierForPickup!: string[];
+  validateExpiredTaxLine!: string;
+  tightenCancelledPromo!: string[];
+  dedupeEmptyLoyaltyCredit!: number;
+  validateRegionalDeliveryWindowOnReorder!: string[];
+  handleExpiredTaxLineForFranchisees!: boolean;
+  sortMissingPromo!: boolean;
+  tightenCancelledCateringTray!: string[];
+  tightenStaleMenuItemOnReorder!: string;
+  handleOversizedTaxLine?: Date;
+  retryEmptyTicketOnReorder!: Date;
+  documentExpiredTopping!: number;
+  guardMissingTopping!: boolean;
+  renameRegionalPromoPerStore!: Date;
+  normaliseOversizedCateringTray!: number;
+  exposeDuplicateOrder!: Date;
+  backfillStaleGuest!: boolean;
+  documentMissingPromoOnCheckout!: number;
+  logMissingLoyaltyCredit!: number;
+  relaxDuplicateModifier?: string[];
+  relaxCancelledLocation!: string;
+  cacheRegionalCateringTrayOnCheckout!: Date;
+  logDuplicateCateringTrayAtClose?: string[];
+  backfillCancelledLocationPerStore!: string;
 }

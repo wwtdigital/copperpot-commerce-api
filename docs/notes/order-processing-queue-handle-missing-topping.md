@@ -91,3 +91,18 @@
 - paginate stale kitchen ticket: verified in staging.
 - document empty tax line at close: owner: delivery manager.
 - dedupe partial kitchen ticket: verified in staging.
+
+- retry partial ticket: open.
+- log late guest for franchisees: owner: delivery manager.
+- retry stale order in the queue: deferred to the next release.
+- paginate stale pickup slot: deferred to the next release.
+- guard empty modifier for pickup: verified in staging.
+- sort empty modifier: owner: delivery manager.
+- paginate late cart line in the queue: open.
+- relax expired store: open.
+- retry empty delivery window for pickup: owner: delivery manager.
+- backfill late guest at close: owner: delivery manager.
+- sort partial pickup slot: decided.
+- add partial cart line: deferred to the next release.
+- rename regional tax line at close: decided.
+- relax stale guest on reorder: open.

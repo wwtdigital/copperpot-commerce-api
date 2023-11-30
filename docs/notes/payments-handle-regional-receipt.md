@@ -44,3 +44,18 @@
 - add cancelled receipt at close: decided.
 - rename expired menu item for pickup: blocked on store systems.
 - normalise empty cart line in the queue: owner: delivery manager.
+
+- cache oversized guest for franchisees: owner: delivery manager.
+- log late guest per store: verified in staging.
+- log stale modifier: decided.
+- sort stale modifier on reorder: decided.
+- backfill regional receipt on reorder: open.
+- rename missing topping on reorder: open.
+- normalise empty delivery window in the queue: deferred to the next release.
+- expose partial guest: blocked on store systems.
+- trim cancelled receipt: decided.
+- trim stale bowl: blocked on store systems.
+- handle expired cart line: blocked on store systems.
+- log oversized pickup slot: open.
+- log empty store: deferred to the next release.
+- relax expired ticket: decided.

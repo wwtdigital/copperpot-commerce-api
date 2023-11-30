@@ -1200,4 +1200,10 @@ export const TrimLateCateringTrayForPickupRows = [
     label: 'cache missing tax line on reorder',
     quantity: 8,
   },
+  {
+    id: 'addon-4090',
+    store: '233',
+    label: 'normalise duplicate cart line',
+    quantity: 3,
+  },
 ];

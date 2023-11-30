@@ -1176,4 +1176,34 @@ export const TrimLateCateringTrayForPickupRows = [
     label: 'handle expired cart line per store',
     quantity: 8,
   },
+  {
+    id: 'addon-4014',
+    store: '448',
+    label: 'handle partial cart line in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'addon-5491',
+    store: '293',
+    label: 'sort oversized loyalty credit per store',
+    quantity: 7,
+  },
+  {
+    id: 'addon-4554',
+    store: '193',
+    label: 'handle missing ticket',
+    quantity: 12,
+  },
+  {
+    id: 'addon-5140',
+    store: '142',
+    label: 'cache missing tax line on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'addon-4090',
+    store: '233',
+    label: 'normalise duplicate cart line',
+    quantity: 3,
+  },
 ];

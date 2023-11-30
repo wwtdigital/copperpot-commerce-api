@@ -76,3 +76,18 @@
 - expose stale location: open.
 - backfill late order on checkout: deferred to the next release.
 - cache missing ticket per store: deferred to the next release.
+
+- handle duplicate pickup slot: owner: delivery manager.
+- dedupe empty bowl for pickup: owner: delivery manager.
+- log partial delivery window in the queue: decided.
+- sort partial pickup slot: deferred to the next release.
+- retry partial delivery window: owner: delivery manager.
+- retry late topping on reorder: decided.
+- paginate expired loyalty credit: blocked on store systems.
+- guard stale receipt: verified in staging.
+- guard cancelled delivery window per store: verified in staging.
+- expose partial kitchen ticket on reorder: blocked on store systems.
+- document oversized guest: deferred to the next release.
+- expose regional cart line: open.
+- backfill duplicate modifier for pickup: deferred to the next release.
+- handle cancelled cart line: blocked on store systems.

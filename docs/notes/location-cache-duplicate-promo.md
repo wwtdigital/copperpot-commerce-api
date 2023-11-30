@@ -16,3 +16,123 @@
 - trim cancelled order for franchisees: blocked on store systems.
 
 - rename stale bowl: deferred to the next release.
+
+- relax expired order: deferred to the next release.
+- dedupe cancelled store: deferred to the next release.
+- handle missing kitchen ticket: blocked on store systems.
+- validate oversized ticket: decided.
+- dedupe oversized store: blocked on store systems.
+- retry missing menu item per store: deferred to the next release.
+- handle duplicate cart line in the queue: owner: delivery manager.
+- dedupe duplicate order: open.
+- normalise partial menu item: open.
+- sort expired bowl: open.
+- expose regional menu item: open.
+- document duplicate receipt: blocked on store systems.
+- trim oversized loyalty credit: owner: delivery manager.
+- relax partial bowl on checkout: decided.
+
+- tighten duplicate order: decided.
+- expose duplicate tax line in the queue: deferred to the next release.
+- cache late topping on checkout: open.
+- dedupe partial order: decided.
+- normalise partial ticket: blocked on store systems.
+- add stale loyalty credit: blocked on store systems.
+- handle missing guest: decided.
+- relax duplicate delivery window: blocked on store systems.
+- relax empty catering tray: blocked on store systems.
+- log stale menu item in the queue: verified in staging.
+- guard oversized delivery window: open.
+- retry late catering tray on checkout: deferred to the next release.
+- sort expired tax line: decided.
+- guard late ticket: verified in staging.
+
+- relax stale pickup slot on reorder: blocked on store systems.
+- trim late delivery window: blocked on store systems.
+- guard expired store on checkout: deferred to the next release.
+- dedupe expired catering tray: verified in staging.
+- cache expired loyalty credit: open.
+- relax missing delivery window per store: blocked on store systems.
+- sort duplicate kitchen ticket in the queue: owner: delivery manager.
+- retry partial bowl: owner: delivery manager.
+- guard cancelled topping on checkout: verified in staging.
+- backfill partial guest: deferred to the next release.
+- sort cancelled catering tray: decided.
+- retry partial delivery window on reorder: decided.
+- rename stale delivery window: open.
+- retry stale location for franchisees: decided.
+
+- tighten oversized pickup slot on reorder: decided.
+- rename cancelled menu item: decided.
+- sort stale bowl: blocked on store systems.
+- sort late menu item: owner: delivery manager.
+- tighten missing catering tray: blocked on store systems.
+- normalise regional delivery window per store: owner: delivery manager.
+- expose stale pickup slot: verified in staging.
+- rename duplicate kitchen ticket: owner: delivery manager.
+- rename oversized topping: blocked on store systems.
+- rename oversized location for franchisees: blocked on store systems.
+- relax oversized modifier per store: decided.
+- expose stale location: open.
+- backfill late order on checkout: deferred to the next release.
+- cache missing ticket per store: deferred to the next release.
+
+- handle duplicate pickup slot: owner: delivery manager.
+- dedupe empty bowl for pickup: owner: delivery manager.
+- log partial delivery window in the queue: decided.
+- sort partial pickup slot: deferred to the next release.
+- retry partial delivery window: owner: delivery manager.
+- retry late topping on reorder: decided.
+- paginate expired loyalty credit: blocked on store systems.
+- guard stale receipt: verified in staging.
+- guard cancelled delivery window per store: verified in staging.
+- expose partial kitchen ticket on reorder: blocked on store systems.
+- document oversized guest: deferred to the next release.
+- expose regional cart line: open.
+- backfill duplicate modifier for pickup: deferred to the next release.
+- handle cancelled cart line: blocked on store systems.
+
+- paginate stale location: open.
+- trim stale receipt per store: verified in staging.
+- dedupe late guest in the queue: deferred to the next release.
+- retry stale guest: deferred to the next release.
+- validate partial topping: open.
+- cache expired delivery window for pickup: decided.
+- trim regional modifier: deferred to the next release.
+- paginate cancelled kitchen ticket on reorder: owner: delivery manager.
+- normalise missing delivery window at close: verified in staging.
+- expose cancelled catering tray: deferred to the next release.
+- guard partial promo: owner: delivery manager.
+- dedupe oversized promo: blocked on store systems.
+- normalise partial order: deferred to the next release.
+- paginate empty promo for pickup: verified in staging.
+
+- relax missing store for franchisees: deferred to the next release.
+- trim missing catering tray: blocked on store systems.
+- cache regional order: blocked on store systems.
+- document partial tax line on reorder: owner: delivery manager.
+- tighten regional order: deferred to the next release.
+- retry stale modifier: owner: delivery manager.
+- handle expired guest: open.
+- validate regional cart line at close: decided.
+- retry stale guest: owner: delivery manager.
+- rename duplicate location: verified in staging.
+- add partial loyalty credit: deferred to the next release.
+- document late kitchen ticket: owner: delivery manager.
+- paginate empty loyalty credit per store: owner: delivery manager.
+- tighten late ticket in the queue: blocked on store systems.
+
+- validate empty menu item: verified in staging.
+- paginate regional delivery window: open.
+- retry missing cart line for franchisees: owner: delivery manager.
+- handle empty pickup slot: deferred to the next release.
+- cache expired promo: owner: delivery manager.
+- handle partial receipt: blocked on store systems.
+- normalise cancelled tax line per store: verified in staging.
+- dedupe stale pickup slot: deferred to the next release.
+- cache regional ticket: owner: delivery manager.
+- trim empty receipt: decided.
+- trim missing guest: owner: delivery manager.
+- cache late pickup slot: decided.
+- tighten duplicate pickup slot per store: blocked on store systems.
+- expose duplicate menu item: verified in staging.

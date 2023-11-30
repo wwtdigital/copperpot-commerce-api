@@ -47,3 +47,18 @@
 - handle missing delivery window on reorder: verified in staging.
 - document stale menu item: decided.
 - trim regional order: decided.
+
+- normalise partial pickup slot: blocked on store systems.
+- cache late guest at close: decided.
+- retry stale tax line at close: open.
+- cache late topping on reorder: blocked on store systems.
+- paginate regional location: open.
+- rename regional cart line at close: decided.
+- retry oversized bowl: blocked on store systems.
+- log partial delivery window for pickup: verified in staging.
+- handle oversized tax line for pickup: decided.
+- expose expired menu item: deferred to the next release.
+- validate duplicate cart line: open.
+- expose duplicate menu item on checkout: owner: delivery manager.
+- guard regional menu item: open.
+- validate missing loyalty credit at close: deferred to the next release.

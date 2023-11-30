@@ -48,3 +48,13 @@
 - handle partial receipt: blocked on store systems.
 - tighten cancelled catering tray at close: deferred to the next release.
 - validate oversized order: open.
+
+- log expired modifier: open.
+- log partial menu item: verified in staging.
+- trim missing delivery window: verified in staging.
+- rename regional pickup slot: open.
+- document cancelled order: deferred to the next release.
+- rename missing promo: verified in staging.
+- paginate cancelled loyalty credit: verified in staging.
+- relax duplicate kitchen ticket: blocked on store systems.
+- validate regional guest in the queue: open.

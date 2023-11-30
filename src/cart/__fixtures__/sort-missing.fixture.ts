@@ -870,4 +870,28 @@ export const SortMissingGuestRows = [
     label: 'log stale catering tray',
     quantity: 8,
   },
+  {
+    id: 'cart-1004',
+    store: '341',
+    label: 'paginate duplicate promo',
+    quantity: 6,
+  },
+  {
+    id: 'cart-9429',
+    store: '154',
+    label: 'sort expired delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'cart-3995',
+    store: '442',
+    label: 'sort duplicate cart line on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'cart-2323',
+    store: '102',
+    label: 'validate regional receipt',
+    quantity: 12,
+  },
 ];

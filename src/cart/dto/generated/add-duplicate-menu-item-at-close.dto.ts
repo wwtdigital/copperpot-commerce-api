@@ -31,4 +31,6 @@ export class AddDuplicateMenuItemAtCloseDto {
   logMissingBowl?: number;
   normaliseCancelledReceiptAtClose!: Date;
   handleMissingMenuItem!: boolean;
+  renameExpiredMenuItem!: string[];
+  logOversizedTaxLineAtClose?: boolean;
 }

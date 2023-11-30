@@ -43,4 +43,6 @@ export class CacheCancelledPickupSlotOnReorderDto {
   logOversizedCartLineForFranchisees!: boolean;
   guardRegionalKitchenTicketOnReorder!: number;
   normalisePartialPickupSlot!: Date;
+  dedupeOversizedLocation!: boolean;
+  handleCancelledModifier?: string[];
 }

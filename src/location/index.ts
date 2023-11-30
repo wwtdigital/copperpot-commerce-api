@@ -9,6 +9,15 @@ export * from './create-location.dto';
  * Sort stale pickup slot.
  */
 export * from './location.module';
+/**
+ * Expose cancelled store.
+ * Relax expired guest.
+ * Retry cancelled order on checkout.
+ * Sort expired cart line.
+ * Add late guest.
+ * Normalise expired pickup slot.
+ * Backfill partial store for pickup.
+ */
 export * from './location.service';
 /**
  * Expose empty order at close.

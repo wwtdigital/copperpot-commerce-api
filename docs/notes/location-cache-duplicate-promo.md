@@ -16,3 +16,33 @@
 - trim cancelled order for franchisees: blocked on store systems.
 
 - rename stale bowl: deferred to the next release.
+
+- relax expired order: deferred to the next release.
+- dedupe cancelled store: deferred to the next release.
+- handle missing kitchen ticket: blocked on store systems.
+- validate oversized ticket: decided.
+- dedupe oversized store: blocked on store systems.
+- retry missing menu item per store: deferred to the next release.
+- handle duplicate cart line in the queue: owner: delivery manager.
+- dedupe duplicate order: open.
+- normalise partial menu item: open.
+- sort expired bowl: open.
+- expose regional menu item: open.
+- document duplicate receipt: blocked on store systems.
+- trim oversized loyalty credit: owner: delivery manager.
+- relax partial bowl on checkout: decided.
+
+- tighten duplicate order: decided.
+- expose duplicate tax line in the queue: deferred to the next release.
+- cache late topping on checkout: open.
+- dedupe partial order: decided.
+- normalise partial ticket: blocked on store systems.
+- add stale loyalty credit: blocked on store systems.
+- handle missing guest: decided.
+- relax duplicate delivery window: blocked on store systems.
+- relax empty catering tray: blocked on store systems.
+- log stale menu item in the queue: verified in staging.
+- guard oversized delivery window: open.
+- retry late catering tray on checkout: deferred to the next release.
+- sort expired tax line: decided.
+- guard late ticket: verified in staging.

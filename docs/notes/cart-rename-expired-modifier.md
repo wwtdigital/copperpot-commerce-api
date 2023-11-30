@@ -58,3 +58,18 @@
 - document empty store in the queue: deferred to the next release.
 - expose expired topping for franchisees: verified in staging.
 - paginate regional store per store: verified in staging.
+
+- sort cancelled kitchen ticket: open.
+- handle missing topping: blocked on store systems.
+- expose regional tax line: blocked on store systems.
+- paginate stale menu item: verified in staging.
+- trim regional modifier: decided.
+- guard duplicate delivery window at close: decided.
+- sort oversized catering tray: deferred to the next release.
+- guard duplicate order: verified in staging.
+- trim duplicate kitchen ticket: owner: delivery manager.
+- normalise partial store: owner: delivery manager.
+- guard cancelled pickup slot for pickup: owner: delivery manager.
+- dedupe missing cart line: blocked on store systems.
+- rename expired topping: decided.
+- normalise late loyalty credit: blocked on store systems.

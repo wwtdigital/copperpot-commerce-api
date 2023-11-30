@@ -26,4 +26,9 @@ export class AddDuplicateMenuItemAtCloseDto {
   exposeRegionalLocation!: string[];
   renameCancelledBowlOnReorder?: Date;
   addEmptyDeliveryWindow?: boolean;
+  documentEmptyStore?: Date;
+  backfillMissingBowlForPickup!: boolean;
+  logMissingBowl?: number;
+  normaliseCancelledReceiptAtClose!: Date;
+  handleMissingMenuItem!: boolean;
 }

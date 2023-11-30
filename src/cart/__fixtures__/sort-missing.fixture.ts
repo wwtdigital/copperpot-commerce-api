@@ -870,4 +870,52 @@ export const SortMissingGuestRows = [
     label: 'log stale catering tray',
     quantity: 8,
   },
+  {
+    id: 'cart-1004',
+    store: '341',
+    label: 'paginate duplicate promo',
+    quantity: 6,
+  },
+  {
+    id: 'cart-9429',
+    store: '154',
+    label: 'sort expired delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'cart-3995',
+    store: '442',
+    label: 'sort duplicate cart line on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'cart-2323',
+    store: '102',
+    label: 'validate regional receipt',
+    quantity: 12,
+  },
+  {
+    id: 'cart-7405',
+    store: '352',
+    label: 'rename late ticket on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4411',
+    store: '199',
+    label: 'handle duplicate ticket',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1573',
+    store: '360',
+    label: 'rename stale guest for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'cart-2032',
+    store: '380',
+    label: 'document missing loyalty credit for pickup',
+    quantity: 10,
+  },
 ];

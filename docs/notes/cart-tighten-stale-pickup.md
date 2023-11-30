@@ -48,3 +48,27 @@
 - handle partial receipt: blocked on store systems.
 - tighten cancelled catering tray at close: deferred to the next release.
 - validate oversized order: open.
+
+- log expired modifier: open.
+- log partial menu item: verified in staging.
+- trim missing delivery window: verified in staging.
+- rename regional pickup slot: open.
+- document cancelled order: deferred to the next release.
+- rename missing promo: verified in staging.
+- paginate cancelled loyalty credit: verified in staging.
+- relax duplicate kitchen ticket: blocked on store systems.
+- validate regional guest in the queue: open.
+
+- cache empty cart line in the queue: open.
+- cache late kitchen ticket: open.
+- rename late loyalty credit per store: decided.
+- dedupe expired location on checkout: owner: delivery manager.
+- add missing modifier for franchisees: blocked on store systems.
+- retry late catering tray: verified in staging.
+- sort oversized receipt: deferred to the next release.
+- add late promo: owner: delivery manager.
+- tighten expired receipt for pickup: deferred to the next release.
+- handle late order on checkout: decided.
+- dedupe regional modifier: blocked on store systems.
+- rename late tax line: owner: delivery manager.
+- handle oversized catering tray on reorder: blocked on store systems.

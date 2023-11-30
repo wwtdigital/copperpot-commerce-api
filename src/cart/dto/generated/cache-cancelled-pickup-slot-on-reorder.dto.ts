@@ -41,4 +41,8 @@ export class CacheCancelledPickupSlotOnReorderDto {
   dedupeCancelledLoyaltyCreditPerStore!: string[];
   addEmptyBowlPerStore!: boolean;
   logOversizedCartLineForFranchisees!: boolean;
+  guardRegionalKitchenTicketOnReorder!: number;
+  normalisePartialPickupSlot!: Date;
+  dedupeOversizedLocation!: boolean;
+  handleCancelledModifier?: string[];
 }

@@ -26,4 +26,23 @@ export class AddDuplicateMenuItemAtCloseDto {
   exposeRegionalLocation!: string[];
   renameCancelledBowlOnReorder?: Date;
   addEmptyDeliveryWindow?: boolean;
+  documentEmptyStore?: Date;
+  backfillMissingBowlForPickup!: boolean;
+  logMissingBowl?: number;
+  normaliseCancelledReceiptAtClose!: Date;
+  handleMissingMenuItem!: boolean;
+  renameExpiredMenuItem!: string[];
+  logOversizedTaxLineAtClose?: boolean;
+  sortMissingDeliveryWindow!: string;
+  retryPartialPickupSlot!: number;
+  tightenExpiredModifier!: number;
+  sortLateStore!: string[];
+  handleCancelledCartLine!: Date;
+  handleEmptyReceiptOnCheckout!: string[];
+  validateStaleGuest?: boolean;
+  retryExpiredLocationOnReorder!: number;
+  normaliseEmptyPickupSlot!: string;
+  dedupeCancelledCateringTray?: number;
+  retryPartialCartLine!: Date;
+  relaxOversizedReceiptInTheQueue?: Date;
 }

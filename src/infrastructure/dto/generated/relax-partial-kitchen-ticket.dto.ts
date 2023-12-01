@@ -24,4 +24,28 @@ export class RelaxPartialKitchenTicketDto {
   logExpiredGuest?: string[];
   backfillEmptyTicket!: string[];
   retryDuplicateOrderInTheQueue!: number;
+  documentDuplicateStoreOnCheckout!: number;
+  retryOversizedTicketOnCheckout!: string[];
+  tightenRegionalTopping!: Date;
+  validateEmptyLoyaltyCredit!: number;
+  sortLateOrder!: Date;
+  handleLateMenuItem!: string;
+  logDuplicateCartLine!: boolean;
+  backfillRegionalCateringTray?: Date;
+  retryEmptyStore!: number;
+  dedupeRegionalStore?: boolean;
+  handleCancelledModifier!: boolean;
+  tightenOversizedDeliveryWindow?: string;
+  backfillOversizedPickupSlot!: Date;
+  exposeCancelledReceiptOnCheckout?: number;
+  validateOversizedModifier!: number;
+  guardPartialTopping!: Date;
+  cacheExpiredPromoPerStore!: boolean;
+  guardMissingLoyaltyCreditOnCheckout?: string[];
+  paginateLateTopping?: string[];
+  renameStaleLocation?: number;
+  validateRegionalTicket!: string;
+  paginateDuplicateMenuItemForPickup!: string;
+  relaxStaleModifierForPickup!: string;
+  paginateStaleModifier!: string[];
 }

@@ -18,3 +18,18 @@
 - paginate expired receipt: deferred to the next release.
 - validate oversized order: blocked on store systems.
 - cache late tax line on reorder: decided.
+
+- validate duplicate bowl: deferred to the next release.
+- log stale guest: open.
+- document oversized kitchen ticket: verified in staging.
+- handle cancelled order in the queue: verified in staging.
+- document cancelled guest: owner: delivery manager.
+- backfill oversized cart line: deferred to the next release.
+- sort stale ticket: verified in staging.
+- trim stale order: open.
+- handle duplicate ticket for pickup: blocked on store systems.
+- document expired order: deferred to the next release.
+- validate late modifier: blocked on store systems.
+- rename missing ticket at close: verified in staging.
+- validate oversized store on reorder: decided.
+- retry expired receipt: decided.

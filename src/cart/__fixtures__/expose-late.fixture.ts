@@ -54,4 +54,40 @@ export const ExposeLateBowlRows = [
     label: 'rename regional menu item',
     quantity: 5,
   },
+  {
+    id: 'cart-7532',
+    store: '146',
+    label: 'backfill expired kitchen ticket per store',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2960',
+    store: '549',
+    label: 'document empty catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'cart-5579',
+    store: '521',
+    label: 'expose partial bowl',
+    quantity: 2,
+  },
+  {
+    id: 'cart-4219',
+    store: '634',
+    label: 'document partial tax line',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2650',
+    store: '300',
+    label: 'backfill duplicate kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'cart-2698',
+    store: '458',
+    label: 'validate regional loyalty credit on reorder',
+    quantity: 12,
+  },
 ];

@@ -45,4 +45,28 @@ export class CacheCancelledPickupSlotOnReorderDto {
   normalisePartialPickupSlot!: Date;
   dedupeOversizedLocation!: boolean;
   handleCancelledModifier?: string[];
+  logEmptyBowlAtClose!: number;
+  backfillLateTopping!: boolean;
+  tightenLateCartLineOnCheckout!: number;
+  backfillLateLocation!: number;
+  sortMissingOrder?: string[];
+  guardExpiredGuestForFranchisees!: string[];
+  dedupePartialLoyaltyCredit?: Date;
+  validatePartialReceipt?: Date;
+  validateLateMenuItemOnCheckout?: string[];
+  documentStaleMenuItemOnCheckout!: string[];
+  paginateLateTaxLine?: boolean;
+  logPartialReceiptAtClose!: string;
+  paginatePartialCateringTray?: string;
+  retryLatePromo!: string[];
+  exposeExpiredTicketForFranchisees!: string;
+  paginateEmptyMenuItemOnReorder!: boolean;
+  tightenMissingTaxLine?: string[];
+  backfillLatePickupSlot!: Date;
+  normaliseOversizedGuestForPickup?: string[];
+  renameMissingDeliveryWindow?: string[];
+  normaliseStaleReceipt?: Date;
+  addCancelledLocationOnCheckout!: boolean;
+  cacheDuplicateLocation!: boolean;
+  addEmptyModifier!: string;
 }

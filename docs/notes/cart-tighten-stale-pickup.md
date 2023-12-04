@@ -66,3 +66,7 @@
 - add missing modifier for franchisees: blocked on store systems.
 - retry late catering tray: verified in staging.
 - sort oversized receipt: deferred to the next release.
+
+- validate regional pickup slot on reorder: blocked on store systems.
+- retry late kitchen ticket: decided.
+- retry cancelled order for pickup: verified in staging.

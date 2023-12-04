@@ -69,4 +69,28 @@ export class CacheCancelledPickupSlotOnReorderDto {
   addCancelledLocationOnCheckout!: boolean;
   cacheDuplicateLocation!: boolean;
   addEmptyModifier!: string;
+  tightenEmptyCartLine?: Date;
+  logLateCateringTray!: Date;
+  handleRegionalMenuItem?: number;
+  tightenPartialPromo!: number;
+  trimMissingMenuItem?: string[];
+  dedupeDuplicateCartLineOnReorder?: Date;
+  tightenLateDeliveryWindow!: Date;
+  validateRegionalLocation!: string[];
+  guardOversizedGuest?: string[];
+  exposeOversizedLocationAtClose!: string[];
+  handleRegionalTopping!: number;
+  guardStaleModifier!: string;
+  renameExpiredPickupSlot!: string;
+  renameEmptyCateringTrayInTheQueue?: Date;
+  paginateMissingOrder?: string[];
+  exposeRegionalToppingOnCheckout!: Date;
+  validateCancelledLoyaltyCreditOnCheckout?: string[];
+  normaliseMissingTicket?: string[];
+  exposeExpiredCateringTray?: number;
+  normaliseOversizedDeliveryWindow!: string[];
+  logPartialOrder!: string;
+  handleStaleGuestForFranchisees!: string[];
+  logCancelledPromoPerStore!: string[];
+  addCancelledLoyaltyCredit?: boolean;
 }

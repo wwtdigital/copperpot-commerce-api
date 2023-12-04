@@ -62,3 +62,18 @@
 - expose duplicate menu item on checkout: owner: delivery manager.
 - guard regional menu item: open.
 - validate missing loyalty credit at close: deferred to the next release.
+
+- document stale ticket for franchisees: decided.
+- relax regional pickup slot: decided.
+- cache stale topping at close: open.
+- expose late topping: verified in staging.
+- trim stale delivery window: verified in staging.
+- expose cancelled pickup slot for franchisees: open.
+- log missing cart line: blocked on store systems.
+- handle empty ticket: verified in staging.
+- cache regional cart line on reorder: verified in staging.
+- trim cancelled delivery window on checkout: decided.
+- relax oversized receipt: owner: delivery manager.
+- cache missing promo per store: verified in staging.
+- tighten late loyalty credit at close: open.
+- expose empty topping: blocked on store systems.

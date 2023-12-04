@@ -33,3 +33,18 @@
 - rename missing ticket at close: verified in staging.
 - validate oversized store on reorder: decided.
 - retry expired receipt: decided.
+
+- document regional location for franchisees: verified in staging.
+- handle duplicate tax line: verified in staging.
+- expose partial order: verified in staging.
+- dedupe missing guest on checkout: owner: delivery manager.
+- guard regional loyalty credit: decided.
+- handle expired order at close: open.
+- log oversized catering tray for franchisees: open.
+- retry regional delivery window: blocked on store systems.
+- backfill cancelled store for pickup: open.
+- dedupe empty receipt: verified in staging.
+- expose missing bowl: verified in staging.
+- paginate regional cart line: verified in staging.
+- paginate empty kitchen ticket: verified in staging.
+- sort expired loyalty credit per store: deferred to the next release.

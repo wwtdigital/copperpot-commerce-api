@@ -62,3 +62,61 @@
 - expose duplicate menu item on checkout: owner: delivery manager.
 - guard regional menu item: open.
 - validate missing loyalty credit at close: deferred to the next release.
+
+- document stale ticket for franchisees: decided.
+- relax regional pickup slot: decided.
+- cache stale topping at close: open.
+- expose late topping: verified in staging.
+- trim stale delivery window: verified in staging.
+- expose cancelled pickup slot for franchisees: open.
+- log missing cart line: blocked on store systems.
+- handle empty ticket: verified in staging.
+- cache regional cart line on reorder: verified in staging.
+- trim cancelled delivery window on checkout: decided.
+- relax oversized receipt: owner: delivery manager.
+- cache missing promo per store: verified in staging.
+- tighten late loyalty credit at close: open.
+- expose empty topping: blocked on store systems.
+
+- expose duplicate ticket: blocked on store systems.
+- guard partial location on checkout: deferred to the next release.
+- retry stale modifier at close: deferred to the next release.
+- cache expired topping: owner: delivery manager.
+- add cancelled loyalty credit: deferred to the next release.
+- trim stale store: verified in staging.
+- expose late bowl: blocked on store systems.
+- dedupe duplicate tax line: decided.
+- validate duplicate store for franchisees: open.
+- tighten partial tax line: blocked on store systems.
+- paginate oversized tax line for pickup: owner: delivery manager.
+- relax expired loyalty credit: verified in staging.
+
+- handle cancelled catering tray: deferred to the next release.
+- tighten empty modifier: open.
+- cache cancelled topping: decided.
+- log late location for pickup: owner: delivery manager.
+- add late promo on reorder: open.
+- cache cancelled topping: owner: delivery manager.
+- dedupe expired promo for pickup: deferred to the next release.
+- add empty store on reorder: verified in staging.
+- relax missing loyalty credit on reorder: deferred to the next release.
+- tighten regional topping: verified in staging.
+- guard duplicate modifier: owner: delivery manager.
+- sort partial tax line: deferred to the next release.
+- backfill empty cart line: open.
+- retry cancelled guest: open.
+
+- paginate oversized loyalty credit: blocked on store systems.
+- tighten late receipt: verified in staging.
+- relax empty pickup slot: blocked on store systems.
+- relax late bowl on checkout: decided.
+- add oversized loyalty credit per store: open.
+- validate cancelled promo: deferred to the next release.
+- add cancelled menu item: blocked on store systems.
+- guard expired bowl: owner: delivery manager.
+- normalise stale delivery window: deferred to the next release.
+- expose expired tax line: deferred to the next release.
+- cache regional catering tray in the queue: deferred to the next release.
+- sort stale loyalty credit: verified in staging.
+- validate oversized cart line: blocked on store systems.
+- rename duplicate receipt for pickup: verified in staging.

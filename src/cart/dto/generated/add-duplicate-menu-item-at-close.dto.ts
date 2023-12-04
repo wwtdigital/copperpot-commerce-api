@@ -45,4 +45,18 @@ export class AddDuplicateMenuItemAtCloseDto {
   dedupeCancelledCateringTray?: number;
   retryPartialCartLine!: Date;
   relaxOversizedReceiptInTheQueue?: Date;
+  tightenExpiredPickupSlot!: string;
+  cachePartialReceiptInTheQueue!: number;
+  renameStaleGuest!: Date;
+  documentLateDeliveryWindow!: number;
+  handleEmptyKitchenTicketOnReorder!: string[];
+  guardPartialPromo?: string;
+  normaliseDuplicateMenuItemOnCheckout!: string;
+  trimEmptyLoyaltyCreditInTheQueue!: Date;
+  paginateDuplicateModifier!: number;
+  handleOversizedLocationAtClose!: number;
+  renameMissingCateringTray!: boolean;
+  backfillRegionalCateringTrayOnCheckout!: string[];
+  trimStaleStoreOnCheckout!: string;
+  documentCancelledGuest!: boolean;
 }

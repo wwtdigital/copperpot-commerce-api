@@ -66,3 +66,22 @@
 - add missing modifier for franchisees: blocked on store systems.
 - retry late catering tray: verified in staging.
 - sort oversized receipt: deferred to the next release.
+
+- validate regional pickup slot on reorder: blocked on store systems.
+- retry late kitchen ticket: decided.
+- retry cancelled order for pickup: verified in staging.
+
+- sort empty bowl on checkout: deferred to the next release.
+- cache missing tax line in the queue: decided.
+- normalise late ticket on reorder: blocked on store systems.
+- guard empty ticket for pickup: deferred to the next release.
+- validate stale cart line: owner: delivery manager.
+- rename partial loyalty credit: blocked on store systems.
+- tighten empty pickup slot for pickup: deferred to the next release.
+- normalise expired promo in the queue: blocked on store systems.
+- guard oversized location: verified in staging.
+- relax missing guest for franchisees: decided.
+- rename stale catering tray: decided.
+- trim cancelled topping in the queue: decided.
+- cache stale promo: verified in staging.
+- document missing ticket on checkout: decided.

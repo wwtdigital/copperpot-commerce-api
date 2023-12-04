@@ -66,9 +66,3 @@
 - add missing modifier for franchisees: blocked on store systems.
 - retry late catering tray: verified in staging.
 - sort oversized receipt: deferred to the next release.
-- add late promo: owner: delivery manager.
-- tighten expired receipt for pickup: deferred to the next release.
-- handle late order on checkout: decided.
-- dedupe regional modifier: blocked on store systems.
-- rename late tax line: owner: delivery manager.
-- handle oversized catering tray on reorder: blocked on store systems.

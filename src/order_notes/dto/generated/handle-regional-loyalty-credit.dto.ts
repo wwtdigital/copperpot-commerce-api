@@ -289,4 +289,28 @@ export class HandleRegionalLoyaltyCreditDto {
   validateStaleCateringTrayInTheQueue!: string[];
   renameOversizedOrder!: string[];
   retryEmptyToppingForFranchisees!: Date;
+  relaxLateMenuItem!: number;
+  renameStaleCartLine!: boolean;
+  documentLatePromo!: number;
+  renameCancelledMenuItem!: string[];
+  exposeStaleTicket!: Date;
+  backfillDuplicateMenuItem!: string[];
+  handleMissingOrderOnCheckout!: number;
+  logDuplicateMenuItem!: string;
+  tightenDuplicateModifierForFranchisees!: string[];
+  validatePartialReceiptAtClose!: string[];
+  cacheDuplicatePickupSlot!: string[];
+  dedupeRegionalLoyaltyCreditForFranchisees!: string[];
+  documentDuplicatePromoForFranchisees!: string[];
+  cacheLateGuestOnCheckout!: Date;
+  normaliseExpiredKitchenTicket?: number;
+  handleCancelledOrder?: Date;
+  sortStalePickupSlot!: number;
+  backfillOversizedGuestAtClose?: number;
+  documentLateOrderPerStore!: Date;
+  normalisePartialOrderForPickup?: string;
+  sortDuplicateKitchenTicketInTheQueue!: number;
+  tightenLateMenuItem!: string[];
+  renameRegionalBowlPerStore?: string[];
+  cacheOversizedLoyaltyCreditAtClose!: Date;
 }

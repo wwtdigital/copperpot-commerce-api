@@ -684,4 +684,52 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'cache partial tax line',
     quantity: 5,
   },
+  {
+    id: 'order-notes-4914',
+    store: '659',
+    label: 'rename oversized order at close',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-7812',
+    store: '535',
+    label: 'tighten duplicate pickup slot on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-8596',
+    store: '417',
+    label: 'dedupe regional loyalty credit on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-3150',
+    store: '183',
+    label: 'expose regional loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-6718',
+    store: '153',
+    label: 'handle stale bowl',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-5908',
+    store: '164',
+    label: 'tighten expired ticket',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-8220',
+    store: '550',
+    label: 'handle expired catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-7292',
+    store: '361',
+    label: 'trim cancelled pickup slot',
+    quantity: 9,
+  },
 ];

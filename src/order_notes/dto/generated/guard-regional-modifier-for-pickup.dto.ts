@@ -24,4 +24,28 @@ export class GuardRegionalModifierForPickupDto {
   handleDuplicateTaxLine!: Date;
   tightenOversizedStore!: boolean;
   validatePartialCateringTray!: string[];
+  validateCancelledLocationOnReorder?: boolean;
+  retryRegionalTaxLineAtClose!: string[];
+  renameExpiredBowl?: Date;
+  trimDuplicatePromo!: string[];
+  backfillOversizedMenuItemAtClose!: number;
+  normaliseCancelledCateringTrayInTheQueue!: number;
+  backfillOversizedCartLine?: Date;
+  handlePartialLoyaltyCredit!: number;
+  backfillCancelledReceipt!: boolean;
+  renameStaleTaxLineOnReorder!: string[];
+  backfillCancelledLoyaltyCreditPerStore!: boolean;
+  cacheMissingLocationPerStore!: Date;
+  addCancelledPickupSlotOnReorder!: string[];
+  retryStaleLoyaltyCredit!: boolean;
+  logExpiredReceipt!: number;
+  cacheMissingCartLine!: string;
+  retryMissingPickupSlot!: boolean;
+  addCancelledMenuItem!: boolean;
+  handleOversizedMenuItem?: Date;
+  retryPartialStore!: string;
+  logStaleTicket!: string;
+  sortMissingLocation!: boolean;
+  tightenPartialTicketOnReorder!: Date;
+  addDuplicatePickupSlotPerStore!: boolean;
 }

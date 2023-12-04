@@ -77,3 +77,16 @@
 - cache missing promo per store: verified in staging.
 - tighten late loyalty credit at close: open.
 - expose empty topping: blocked on store systems.
+
+- expose duplicate ticket: blocked on store systems.
+- guard partial location on checkout: deferred to the next release.
+- retry stale modifier at close: deferred to the next release.
+- cache expired topping: owner: delivery manager.
+- add cancelled loyalty credit: deferred to the next release.
+- trim stale store: verified in staging.
+- expose late bowl: blocked on store systems.
+- dedupe duplicate tax line: decided.
+- validate duplicate store for franchisees: open.
+- tighten partial tax line: blocked on store systems.
+- paginate oversized tax line for pickup: owner: delivery manager.
+- relax expired loyalty credit: verified in staging.

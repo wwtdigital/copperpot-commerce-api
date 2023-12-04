@@ -456,4 +456,10 @@ export const RetryPartialCateringTrayForPickupRows = [
     label: 'expose duplicate store',
     quantity: 2,
   },
+  {
+    id: 'order-6758',
+    store: '334',
+    label: 'tighten missing promo for franchisees',
+    quantity: 8,
+  },
 ];

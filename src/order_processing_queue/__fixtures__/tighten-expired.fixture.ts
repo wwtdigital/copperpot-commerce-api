@@ -588,4 +588,10 @@ export const TightenExpiredTicketRows = [
     label: 'relax missing store on checkout',
     quantity: 5,
   },
+  {
+    id: 'order-processing-queue-2939',
+    store: '108',
+    label: 'dedupe cancelled store on reorder',
+    quantity: 11,
+  },
 ];

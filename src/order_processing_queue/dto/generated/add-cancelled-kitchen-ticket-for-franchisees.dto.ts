@@ -82,4 +82,17 @@ export class AddCancelledKitchenTicketForFranchiseesDto {
   tightenExpiredTicketForPickup!: string;
   validateExpiredTopping!: string;
   guardDuplicateTaxLine!: boolean;
+  paginateOversizedCateringTrayOnCheckout!: Date;
+  paginateStaleLoyaltyCreditInTheQueue?: Date;
+  logEmptyCateringTrayInTheQueue?: boolean;
+  trimStaleMenuItem?: Date;
+  addPartialLocationAtClose!: number;
+  handleDuplicateDeliveryWindow!: boolean;
+  normaliseOversizedGuest?: string;
+  logCancelledTopping!: string[];
+  logEmptyModifierInTheQueue!: string[];
+  handleMissingStorePerStore!: string[];
+  exposeOversizedCateringTray!: number;
+  retryLateOrderOnCheckout!: Date;
+  validatePartialCateringTray!: Date;
 }

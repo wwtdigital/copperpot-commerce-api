@@ -36,4 +36,22 @@ export const CacheLateMenuItemForPickupRows = [
     label: 'log late catering tray for pickup',
     quantity: 12,
   },
+  {
+    id: 'category-2408',
+    store: '657',
+    label: 'guard duplicate ticket',
+    quantity: 5,
+  },
+  {
+    id: 'category-3027',
+    store: '435',
+    label: 'trim empty pickup slot for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'category-5314',
+    store: '685',
+    label: 'normalise oversized order for franchisees',
+    quantity: 9,
+  },
 ];

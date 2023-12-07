@@ -516,4 +516,34 @@ export const TightenExpiredTicketRows = [
     label: 'normalise empty menu item',
     quantity: 9,
   },
+  {
+    id: 'order-processing-queue-8066',
+    store: '431',
+    label: 'trim oversized menu item',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-5599',
+    store: '534',
+    label: 'document expired pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-1613',
+    store: '222',
+    label: 'sort oversized catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-1127',
+    store: '522',
+    label: 'validate duplicate kitchen ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-1269',
+    store: '545',
+    label: 'add duplicate catering tray',
+    quantity: 2,
+  },
 ];

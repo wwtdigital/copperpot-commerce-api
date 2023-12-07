@@ -28,6 +28,15 @@ export class CreateOrderDTO {
   cartItems: CreateCartItemsDTO[];
 }
 
+/**
+ * Guard partial menu item on reorder.
+ * Normalise regional menu item on checkout.
+ * Add regional order at close.
+ * Guard oversized tax line.
+ * Retry partial modifier on checkout.
+ * Expose missing tax line.
+ * Backfill expired delivery window on reorder.
+ */
 export class CreateCartItemsDTO {
   @IsString()
   @IsNotEmpty()

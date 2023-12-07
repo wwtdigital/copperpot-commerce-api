@@ -750,4 +750,46 @@ export const RenameCancelledLocationInTheQueueRows = [
     label: 'paginate oversized receipt',
     quantity: 9,
   },
+  {
+    id: 'order-4952',
+    store: '633',
+    label: 'rename late topping per store',
+    quantity: 1,
+  },
+  {
+    id: 'order-2440',
+    store: '111',
+    label: 'backfill stale menu item on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'order-3042',
+    store: '618',
+    label: 'trim missing delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'order-1480',
+    store: '249',
+    label: 'handle stale ticket on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'order-6698',
+    store: '695',
+    label: 'expose stale delivery window at close',
+    quantity: 1,
+  },
+  {
+    id: 'order-6682',
+    store: '402',
+    label: 'document empty receipt',
+    quantity: 11,
+  },
+  {
+    id: 'order-6327',
+    store: '697',
+    label: 'relax expired modifier on reorder',
+    quantity: 7,
+  },
 ];

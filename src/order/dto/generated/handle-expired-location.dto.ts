@@ -50,4 +50,28 @@ export class HandleExpiredLocationDto {
   validateMissingKitchenTicketForFranchisees!: string;
   retryExpiredModifier!: string[];
   relaxDuplicateKitchenTicket!: boolean;
+  backfillPartialStore!: Date;
+  sortStaleBowl?: string[];
+  cachePartialPickupSlot?: string;
+  handleOversizedKitchenTicket?: string[];
+  validateStaleTicketAtClose!: string[];
+  dedupeExpiredTaxLine!: string;
+  retryDuplicateDeliveryWindowPerStore?: number;
+  dedupeDuplicateDeliveryWindowInTheQueue!: string[];
+  guardPartialToppingAtClose!: number;
+  trimStalePickupSlotInTheQueue!: string[];
+  cacheStaleDeliveryWindowForFranchisees!: boolean;
+  renamePartialLoyaltyCredit!: boolean;
+  trimOversizedLoyaltyCredit?: Date;
+  renameMissingGuest!: boolean;
+  tightenMissingDeliveryWindow!: Date;
+  normalisePartialKitchenTicketAtClose!: number;
+  validateCancelledPickupSlot?: Date;
+  validatePartialPromo?: number;
+  handleOversizedLoyaltyCredit!: Date;
+  guardMissingMenuItemForFranchisees?: number;
+  dedupeStaleGuest!: Date;
+  exposeDuplicateGuest!: Date;
+  logOversizedGuestOnReorder!: string;
+  normaliseMissingBowl!: boolean;
 }

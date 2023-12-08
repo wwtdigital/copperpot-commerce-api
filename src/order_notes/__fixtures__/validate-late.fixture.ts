@@ -732,4 +732,58 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'trim cancelled pickup slot',
     quantity: 9,
   },
+  {
+    id: 'order-notes-2579',
+    store: '535',
+    label: 'normalise regional cart line',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-5407',
+    store: '592',
+    label: 'sort partial receipt',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-2477',
+    store: '677',
+    label: 'retry regional promo per store',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-7117',
+    store: '411',
+    label: 'log expired menu item',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-2089',
+    store: '510',
+    label: 'backfill expired receipt for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-7267',
+    store: '130',
+    label: 'tighten stale guest',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-8643',
+    store: '699',
+    label: 'log expired tax line for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-1174',
+    store: '446',
+    label: 'cache oversized cart line on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-2402',
+    store: '269',
+    label: 'dedupe duplicate tax line on checkout',
+    quantity: 12,
+  },
 ];

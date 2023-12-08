@@ -313,4 +313,26 @@ export class HandleRegionalLoyaltyCreditDto {
   tightenLateMenuItem!: string[];
   renameRegionalBowlPerStore?: string[];
   cacheOversizedLoyaltyCreditAtClose!: Date;
+  retryEmptyReceipt!: boolean;
+  addRegionalLocationPerStore!: number;
+  logPartialStoreAtClose?: string;
+  sortLateDeliveryWindowInTheQueue!: string;
+  backfillLateLoyaltyCredit?: boolean;
+  handleMissingPromo!: string;
+  logCancelledDeliveryWindow?: number;
+  tightenRegionalCateringTray!: string;
+  relaxCancelledStoreForPickup!: Date;
+  trimDuplicateStoreInTheQueue?: string[];
+  retryOversizedModifier!: boolean;
+  exposeOversizedKitchenTicketOnReorder?: number;
+  tightenMissingKitchenTicket!: string;
+  guardOversizedTaxLine?: number;
+  validateOversizedReceipt!: string[];
+  trimLatePickupSlot!: boolean;
+  exposePartialDeliveryWindow!: boolean;
+  sortEmptyLoyaltyCredit!: number;
+  trimDuplicatePickupSlotForFranchisees!: number;
+  cacheLateReceipt!: number;
+  handlePartialModifierForFranchisees!: number;
+  validateStaleBowl?: string[];
 }

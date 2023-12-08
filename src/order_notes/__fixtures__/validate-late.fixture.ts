@@ -660,4 +660,28 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'paginate partial receipt per store',
     quantity: 11,
   },
+  {
+    id: 'order-notes-5170',
+    store: '374',
+    label: 'backfill missing catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-5238',
+    store: '306',
+    label: 'add missing tax line for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-3668',
+    store: '174',
+    label: 'validate missing topping',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-3781',
+    store: '653',
+    label: 'cache partial tax line',
+    quantity: 5,
+  },
 ];

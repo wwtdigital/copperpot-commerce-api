@@ -268,4 +268,25 @@ export class HandleRegionalLoyaltyCreditDto {
   renameEmptyKitchenTicketOnReorder!: number;
   exposePartialCartLineInTheQueue?: Date;
   relaxStaleDeliveryWindow!: boolean;
+  backfillExpiredStoreAtClose?: Date;
+  validateExpiredCartLine!: boolean;
+  guardDuplicateCartLine!: Date;
+  renameLateTaxLine!: boolean;
+  handlePartialToppingAtClose!: Date;
+  guardDuplicateReceipt!: string[];
+  logRegionalCateringTrayForPickup!: string;
+  renameStalePromo!: number;
+  handleCancelledDeliveryWindowOnCheckout!: string[];
+  documentRegionalToppingOnReorder!: string;
+  paginateMissingDeliveryWindowOnReorder!: string;
+  trimCancelledReceipt?: string[];
+  cacheRegionalDeliveryWindow!: string[];
+  handleLatePickupSlot?: boolean;
+  addEmptyKitchenTicket!: string[];
+  documentRegionalTaxLine!: string;
+  tightenExpiredPromo!: boolean;
+  tightenDuplicateMenuItem?: string[];
+  validateStaleCateringTrayInTheQueue!: string[];
+  renameOversizedOrder!: string[];
+  retryEmptyToppingForFranchisees!: Date;
 }

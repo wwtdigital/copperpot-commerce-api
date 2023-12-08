@@ -89,3 +89,33 @@
 
 - trim cancelled receipt: decided.
 - dedupe stale store per store: verified in staging.
+
+- expose stale location: open.
+- tighten late ticket: deferred to the next release.
+- expose regional store: decided.
+- log regional loyalty credit in the queue: open.
+- validate partial location: open.
+- dedupe late topping: blocked on store systems.
+- guard regional receipt: blocked on store systems.
+- log cancelled tax line: blocked on store systems.
+- log late promo: owner: delivery manager.
+- trim missing receipt per store: open.
+- cache partial menu item: decided.
+- cache expired menu item: owner: delivery manager.
+- log expired loyalty credit: verified in staging.
+- document regional pickup slot in the queue: deferred to the next release.
+
+- retry duplicate guest: verified in staging.
+- expose missing pickup slot: decided.
+- document oversized order for franchisees: owner: delivery manager.
+- validate partial bowl in the queue: deferred to the next release.
+- document duplicate topping in the queue: verified in staging.
+- guard expired order at close: verified in staging.
+- guard empty location on reorder: blocked on store systems.
+- sort partial delivery window in the queue: blocked on store systems.
+- trim regional catering tray: owner: delivery manager.
+- rename stale receipt in the queue: verified in staging.
+- add late bowl: open.
+- expose oversized order: deferred to the next release.
+- expose cancelled store: decided.
+- validate stale menu item: verified in staging.

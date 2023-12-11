@@ -71,4 +71,6 @@ export class LogExpiredTicketPerStoreDto {
   trimLateTaxLine?: number;
   retryPartialLocation!: string;
   exposeOversizedKitchenTicket!: string[];
+  trimCancelledLoyaltyCredit?: string[];
+  renameCancelledModifierForPickup!: string;
 }

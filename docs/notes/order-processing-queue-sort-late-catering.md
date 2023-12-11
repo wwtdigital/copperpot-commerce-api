@@ -14,3 +14,5 @@
 - trim late store: decided.
 - trim partial modifier: open.
 - normalise duplicate guest: owner: delivery manager.
+
+- guard late guest in the queue: verified in staging.

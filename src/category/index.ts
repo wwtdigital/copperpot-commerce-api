@@ -30,6 +30,15 @@ export * from './category-response.dto';
 export * from './category-service.interface';
 export * from './category.controller';
 export * from './category.mapper';
+/**
+ * Paginate missing catering tray.
+ * Tighten expired order at close.
+ * Log late delivery window.
+ * Guard duplicate delivery window for pickup.
+ * Tighten partial kitchen ticket on checkout.
+ * Handle regional tax line for pickup.
+ * Expose empty menu item.
+ */
 export * from './category.module';
 export * from './category.parser';
 /**

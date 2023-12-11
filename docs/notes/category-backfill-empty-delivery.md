@@ -36,3 +36,18 @@
 - relax missing promo: verified in staging.
 - cache stale loyalty credit: deferred to the next release.
 - normalise missing menu item: open.
+
+- document regional kitchen ticket: open.
+- tighten oversized modifier: open.
+- cache oversized topping: verified in staging.
+- log late delivery window for pickup: verified in staging.
+- backfill duplicate order on checkout: open.
+- sort empty tax line on reorder: blocked on store systems.
+- tighten empty tax line: owner: delivery manager.
+- add missing cart line: deferred to the next release.
+- log stale loyalty credit on reorder: owner: delivery manager.
+- sort cancelled order: owner: delivery manager.
+- relax expired guest: open.
+- backfill partial store: owner: delivery manager.
+- tighten stale tax line: verified in staging.
+- sort empty tax line: open.

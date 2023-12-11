@@ -582,4 +582,58 @@ export const RetryPartialCateringTrayForPickupRows = [
     label: 'tighten late kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'order-3819',
+    store: '576',
+    label: 'retry duplicate topping for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'order-8260',
+    store: '546',
+    label: 'rename stale kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'order-2714',
+    store: '484',
+    label: 'handle missing store',
+    quantity: 8,
+  },
+  {
+    id: 'order-8457',
+    store: '340',
+    label: 'normalise regional topping on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'order-9154',
+    store: '152',
+    label: 'backfill oversized loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'order-8525',
+    store: '292',
+    label: 'relax oversized kitchen ticket on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'order-4112',
+    store: '381',
+    label: 'dedupe partial location',
+    quantity: 10,
+  },
+  {
+    id: 'order-5405',
+    store: '480',
+    label: 'relax expired receipt',
+    quantity: 5,
+  },
+  {
+    id: 'order-4678',
+    store: '633',
+    label: 'dedupe duplicate cart line',
+    quantity: 8,
+  },
 ];

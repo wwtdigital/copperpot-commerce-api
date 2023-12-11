@@ -1,0 +1,123 @@
+/* Fixture rows for order tests: expose duplicate pickup slot on checkout. Generated data, not production data. */
+export const ExposeDuplicatePickupSlotOnCheckoutRows = [
+  {
+    id: 'order-4292',
+    store: '549',
+    label: 'cache missing pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'order-3646',
+    store: '561',
+    label: 'document empty modifier in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'order-4195',
+    store: '314',
+    label: 'retry duplicate pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'order-2123',
+    store: '571',
+    label: 'expose oversized catering tray on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'order-8510',
+    store: '641',
+    label: 'validate late kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'order-2768',
+    store: '271',
+    label: 'dedupe expired tax line',
+    quantity: 10,
+  },
+  {
+    id: 'order-8754',
+    store: '147',
+    label: 'backfill partial menu item per store',
+    quantity: 3,
+  },
+  {
+    id: 'order-3518',
+    store: '565',
+    label: 'paginate stale ticket in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'order-1016',
+    store: '607',
+    label: 'retry regional modifier',
+    quantity: 9,
+  },
+  {
+    id: 'order-8490',
+    store: '689',
+    label: 'add cancelled menu item',
+    quantity: 12,
+  },
+  {
+    id: 'order-3378',
+    store: '647',
+    label: 'rename missing cart line on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'order-7362',
+    store: '381',
+    label: 'log duplicate modifier',
+    quantity: 11,
+  },
+  {
+    id: 'order-7466',
+    store: '174',
+    label: 'add stale menu item for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'order-5167',
+    store: '685',
+    label: 'dedupe duplicate cart line for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'order-2073',
+    store: '656',
+    label: 'dedupe missing order on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'order-9367',
+    store: '394',
+    label: 'add missing tax line',
+    quantity: 7,
+  },
+  {
+    id: 'order-3859',
+    store: '219',
+    label: 'sort empty receipt',
+    quantity: 5,
+  },
+  {
+    id: 'order-9554',
+    store: '459',
+    label: 'sort missing catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'order-5410',
+    store: '598',
+    label: 'trim duplicate cart line',
+    quantity: 7,
+  },
+  {
+    id: 'order-6524',
+    store: '345',
+    label: 'rename empty menu item for franchisees',
+    quantity: 12,
+  },
+];

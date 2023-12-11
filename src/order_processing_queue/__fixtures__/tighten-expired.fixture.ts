@@ -546,4 +546,46 @@ export const TightenExpiredTicketRows = [
     label: 'add duplicate catering tray',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-1123',
+    store: '643',
+    label: 'rename empty tax line in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-4581',
+    store: '626',
+    label: 'dedupe empty store on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-3642',
+    store: '323',
+    label: 'tighten stale ticket',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-4313',
+    store: '158',
+    label: 'document missing receipt',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-5205',
+    store: '145',
+    label: 'normalise oversized loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-2866',
+    store: '509',
+    label: 'retry oversized guest',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-7917',
+    store: '129',
+    label: 'relax missing store on checkout',
+    quantity: 5,
+  },
 ];

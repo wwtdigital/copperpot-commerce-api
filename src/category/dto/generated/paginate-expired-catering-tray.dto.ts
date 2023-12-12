@@ -2,4 +2,28 @@
 export class PaginateExpiredCateringTrayDto {
   validateMissingLocation!: string[];
   tightenEmptyMenuItem!: boolean;
+  backfillPartialKitchenTicketInTheQueue!: boolean;
+  handleLateLoyaltyCredit!: string;
+  handleMissingTaxLine!: Date;
+  guardOversizedTicket!: number;
+  documentLateMenuItem!: Date;
+  guardExpiredTaxLineForFranchisees!: string;
+  retryDuplicatePickupSlot?: string[];
+  sortEmptyTopping?: string;
+  documentCancelledDeliveryWindow?: string[];
+  exposeCancelledLocation?: string[];
+  validateExpiredMenuItem!: string;
+  logDuplicateCateringTray!: string;
+  normaliseMissingOrder?: string;
+  backfillPartialLoyaltyCredit!: number;
+  relaxPartialMenuItem!: Date;
+  normalisePartialStore!: string;
+  exposeExpiredGuest?: number;
+  documentEmptyToppingForPickup!: string;
+  dedupeStaleTaxLine!: string;
+  cachePartialReceiptOnCheckout?: string[];
+  renameCancelledLoyaltyCreditPerStore!: boolean;
+  trimCancelledReceipt!: boolean;
+  addRegionalMenuItem?: string[];
+  handleLateOrderAtClose!: string[];
 }

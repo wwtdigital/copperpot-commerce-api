@@ -95,4 +95,6 @@ export class AddCancelledKitchenTicketForFranchiseesDto {
   exposeOversizedCateringTray!: number;
   retryLateOrderOnCheckout!: Date;
   validatePartialCateringTray!: Date;
+  tightenOversizedTopping!: Date;
+  backfillDuplicateDeliveryWindowOnReorder!: string;
 }

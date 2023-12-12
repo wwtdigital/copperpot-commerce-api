@@ -16,4 +16,3 @@
 - validate missing bowl: owner: delivery manager.
 - retry missing cart line: open.
 - expose missing pickup slot for pickup: owner: delivery manager.
-- sort stale catering tray for franchisees: decided.

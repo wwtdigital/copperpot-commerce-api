@@ -14,3 +14,18 @@
 - retry oversized ticket for franchisees: owner: delivery manager.
 - backfill duplicate store per store: decided.
 - rename empty topping in the queue: blocked on store systems.
+
+- dedupe cancelled loyalty credit: decided.
+- tighten partial cart line on reorder: verified in staging.
+- document oversized ticket: deferred to the next release.
+- trim stale promo: open.
+- document duplicate modifier for franchisees: owner: delivery manager.
+- relax missing store per store: decided.
+- document partial order: decided.
+- expose cancelled menu item: owner: delivery manager.
+- sort duplicate ticket on reorder: open.
+- cache missing receipt: decided.
+- validate missing loyalty credit: blocked on store systems.
+- dedupe oversized cart line at close: deferred to the next release.
+- trim late guest for pickup: decided.
+- guard empty modifier: open.

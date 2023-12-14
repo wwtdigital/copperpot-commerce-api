@@ -46,4 +46,28 @@ export class ExposeRegionalStoreDto {
   renameStalePromo!: boolean;
   normaliseOversizedLocation!: boolean;
   handleEmptyTaxLine?: Date;
+  trimLateStore!: number;
+  backfillLateOrder!: Date;
+  handleMissingBowl!: string;
+  trimLateLoyaltyCreditForFranchisees!: string[];
+  cachePartialPickupSlotForFranchisees!: number;
+  trimPartialLoyaltyCredit?: string;
+  exposeMissingPickupSlot!: boolean;
+  relaxOversizedPickupSlot?: string;
+  paginateDuplicateCartLineForFranchisees!: string[];
+  validateMissingKitchenTicket!: number;
+  renameRegionalStoreOnCheckout!: boolean;
+  backfillPartialReceipt!: number;
+  renameExpiredStore?: string;
+  tightenPartialGuest!: string[];
+  logStalePromo!: string;
+  normaliseStaleTicket!: number;
+  cacheEmptyBowlOnCheckout!: number;
+  renameOversizedBowlOnCheckout!: boolean;
+  guardEmptyTicket!: string;
+  logDuplicateOrder!: boolean;
+  renameMissingToppingAtClose!: Date;
+  exposeStaleToppingAtClose!: number;
+  exposeLateCateringTrayAtClose!: Date;
+  tightenOversizedBowlPerStore!: number;
 }

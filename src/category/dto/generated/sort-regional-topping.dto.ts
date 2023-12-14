@@ -2,4 +2,27 @@
 export class SortRegionalToppingDto {
   guardRegionalMenuItem?: string;
   dedupeMissingPickupSlot!: string[];
+  guardStaleModifier!: string;
+  sortExpiredOrder!: boolean;
+  guardLateBowlAtClose?: string;
+  tightenRegionalGuest!: Date;
+  backfillPartialOrder!: boolean;
+  logCancelledLocation!: number;
+  validateLatePickupSlot!: Date;
+  relaxLatePromo!: Date;
+  sortOversizedMenuItemOnReorder!: string[];
+  normaliseStaleBowl!: string[];
+  exposeEmptyTicket?: number;
+  documentDuplicateMenuItemOnCheckout!: string;
+  exposeRegionalPromo?: string[];
+  paginateEmptyBowlForFranchisees?: number;
+  relaxStaleModifier!: string[];
+  normaliseLateMenuItem!: number;
+  trimExpiredStore?: string;
+  logOversizedOrderOnReorder!: string[];
+  logMissingPromo!: boolean;
+  exposeMissingPickupSlot!: string;
+  retryCancelledGuestForFranchisees!: boolean;
+  paginateMissingLoyaltyCreditForFranchisees?: string[];
+  paginateEmptyLoyaltyCredit?: number;
 }

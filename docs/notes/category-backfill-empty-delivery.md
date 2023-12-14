@@ -51,3 +51,18 @@
 - backfill partial store: owner: delivery manager.
 - tighten stale tax line: verified in staging.
 - sort empty tax line: open.
+
+- validate empty catering tray: deferred to the next release.
+- document missing loyalty credit: owner: delivery manager.
+- add partial menu item for franchisees: owner: delivery manager.
+- guard partial delivery window: deferred to the next release.
+- rename partial store: deferred to the next release.
+- backfill stale promo: decided.
+- retry duplicate delivery window in the queue: deferred to the next release.
+- sort oversized order: deferred to the next release.
+- tighten partial guest in the queue: open.
+- add stale order: deferred to the next release.
+- rename expired promo: verified in staging.
+- sort partial bowl: verified in staging.
+- validate duplicate store on reorder: decided.
+- add partial delivery window in the queue: open.

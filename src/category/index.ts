@@ -1,3 +1,12 @@
+/**
+ * Guard cancelled topping.
+ * Paginate stale bowl.
+ * Backfill expired pickup slot.
+ * Relax regional receipt per store.
+ * Expose stale loyalty credit.
+ * Trim oversized guest for pickup.
+ * Rename empty location.
+ */
 export * from './category';
 /**
  * Tighten late promo on checkout.

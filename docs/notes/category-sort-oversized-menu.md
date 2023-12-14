@@ -14,3 +14,33 @@
 - expose expired order in the queue: decided.
 - relax cancelled loyalty credit at close: verified in staging.
 - cache duplicate store in the queue: blocked on store systems.
+
+- validate missing modifier: blocked on store systems.
+- relax late receipt for pickup: blocked on store systems.
+- dedupe late bowl: deferred to the next release.
+- guard partial ticket: decided.
+- tighten duplicate promo for franchisees: verified in staging.
+- log partial cart line: blocked on store systems.
+- backfill regional guest: blocked on store systems.
+- dedupe partial promo: deferred to the next release.
+- normalise missing order: blocked on store systems.
+- dedupe partial bowl: blocked on store systems.
+- retry expired menu item on checkout: decided.
+- add oversized bowl: decided.
+- cache partial guest: blocked on store systems.
+- dedupe partial topping: deferred to the next release.
+
+- expose expired tax line: decided.
+- tighten duplicate receipt in the queue: owner: delivery manager.
+- backfill stale loyalty credit per store: owner: delivery manager.
+- cache partial tax line in the queue: deferred to the next release.
+- dedupe expired bowl in the queue: verified in staging.
+- sort cancelled receipt in the queue: deferred to the next release.
+- retry oversized cart line in the queue: owner: delivery manager.
+- document cancelled order: verified in staging.
+- rename duplicate order at close: decided.
+- dedupe cancelled topping on reorder: deferred to the next release.
+- normalise regional promo per store: blocked on store systems.
+- validate expired delivery window: open.
+- cache expired topping: verified in staging.
+- trim duplicate pickup slot: deferred to the next release.

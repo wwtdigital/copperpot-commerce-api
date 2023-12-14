@@ -594,4 +594,58 @@ export const TightenExpiredTicketRows = [
     label: 'dedupe cancelled store on reorder',
     quantity: 11,
   },
+  {
+    id: 'order-processing-queue-8282',
+    store: '394',
+    label: 'normalise partial promo per store',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-7397',
+    store: '166',
+    label: 'handle oversized menu item on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-9797',
+    store: '392',
+    label: 'add late order',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-7531',
+    store: '280',
+    label: 'tighten duplicate tax line for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-9813',
+    store: '550',
+    label: 'paginate late bowl for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-5150',
+    store: '246',
+    label: 'tighten empty delivery window on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-7211',
+    store: '192',
+    label: 'document empty menu item',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-5817',
+    store: '240',
+    label: 'tighten expired pickup slot on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-8971',
+    store: '412',
+    label: 'relax expired receipt on reorder',
+    quantity: 1,
+  },
 ];

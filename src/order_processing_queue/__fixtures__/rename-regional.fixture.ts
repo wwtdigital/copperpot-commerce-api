@@ -60,4 +60,10 @@ export const RenameRegionalOrderRows = [
     label: 'normalise partial modifier',
     quantity: 5,
   },
+  {
+    id: 'order-processing-queue-3815',
+    store: '137',
+    label: 'document late delivery window',
+    quantity: 2,
+  },
 ];

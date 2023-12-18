@@ -94,4 +94,28 @@ export class RetryPartialLoyaltyCreditDto {
   normaliseMissingDeliveryWindowAtClose?: number;
   logRegionalLocationForFranchisees!: number;
   cacheExpiredStoreForFranchisees!: number;
+  tightenCancelledGuest?: Date;
+  logLateTicketPerStore!: string[];
+  dedupePartialLoyaltyCreditForPickup?: boolean;
+  tightenCancelledStoreForPickup!: number;
+  documentDuplicateReceiptForFranchisees!: number;
+  documentEmptyPickupSlot?: Date;
+  exposeOversizedCateringTray!: Date;
+  exposeCancelledTicketPerStore!: string;
+  logLateTopping?: number;
+  retryEmptyOrder!: Date;
+  normaliseRegionalMenuItem!: string;
+  paginateStaleMenuItem!: string[];
+  dedupeStaleTaxLine?: string[];
+  exposeStaleCateringTray!: boolean;
+  guardPartialKitchenTicketForFranchisees!: string;
+  addPartialLocationForPickup!: boolean;
+  backfillPartialTaxLineOnReorder!: string[];
+  normaliseOversizedLocation!: string;
+  addLateDeliveryWindow?: string;
+  tightenPartialGuest?: number;
+  backfillExpiredPickupSlotOnReorder!: Date;
+  renameOversizedLoyaltyCredit!: boolean;
+  tightenStaleGuest?: Date;
+  trimPartialMenuItemOnReorder?: number;
 }

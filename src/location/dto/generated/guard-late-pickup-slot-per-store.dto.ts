@@ -3,4 +3,28 @@ export class GuardLatePickupSlotPerStoreDto {
   paginateStaleGuestForPickup!: string[];
   guardLateCateringTray?: number;
   guardMissingStore!: string[];
+  handleExpiredBowlForFranchisees?: string;
+  renameStaleReceipt!: Date;
+  cacheLatePromo!: number;
+  sortMissingGuestInTheQueue!: string;
+  tightenRegionalCartLine!: string;
+  normaliseCancelledModifierOnReorder!: string;
+  paginatePartialKitchenTicket!: boolean;
+  trimPartialLocation?: number;
+  renameEmptyCartLine!: number;
+  relaxLatePromoPerStore!: string;
+  logStaleTicket?: number;
+  dedupeExpiredLocationOnReorder!: boolean;
+  relaxDuplicateOrderOnReorder!: number;
+  normaliseMissingDeliveryWindow!: Date;
+  tightenLateReceiptOnReorder!: Date;
+  renameStaleCartLine!: boolean;
+  sortDuplicateGuestInTheQueue!: number;
+  exposeOversizedLocation!: string[];
+  tightenEmptyTicketInTheQueue!: number;
+  guardMissingGuest!: number;
+  guardExpiredModifier!: boolean;
+  sortStaleLocation?: number;
+  dedupeExpiredModifierOnReorder!: boolean;
+  tightenLateMenuItem?: boolean;
 }

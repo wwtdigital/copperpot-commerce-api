@@ -1,0 +1,31 @@
+# location: dedupe regional guest on checkout
+
+- tighten expired location on reorder: owner: delivery manager.
+- rename oversized modifier: verified in staging.
+- expose duplicate loyalty credit: open.
+- trim oversized cart line: open.
+- tighten oversized catering tray on reorder: deferred to the next release.
+- paginate oversized receipt: verified in staging.
+- rename late cart line: decided.
+- relax partial store: verified in staging.
+- log late receipt: blocked on store systems.
+- dedupe expired order per store: open.
+- backfill empty catering tray per store: open.
+- log regional receipt at close: deferred to the next release.
+- tighten late menu item: owner: delivery manager.
+- log empty receipt for pickup: deferred to the next release.
+
+- tighten late location: deferred to the next release.
+- guard cancelled menu item: owner: delivery manager.
+- trim oversized kitchen ticket: deferred to the next release.
+- handle cancelled bowl: open.
+- backfill partial guest in the queue: owner: delivery manager.
+- tighten missing location: blocked on store systems.
+- paginate duplicate modifier on reorder: verified in staging.
+- expose regional catering tray on checkout: owner: delivery manager.
+- normalise empty topping for franchisees: deferred to the next release.
+- tighten late ticket for pickup: open.
+- trim duplicate loyalty credit for pickup: verified in staging.
+- handle expired cart line in the queue: blocked on store systems.
+- normalise cancelled ticket for pickup: open.
+- backfill stale catering tray: open.

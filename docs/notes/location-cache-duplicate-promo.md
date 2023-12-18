@@ -68,3 +68,63 @@
 - sort late menu item: owner: delivery manager.
 - tighten missing catering tray: blocked on store systems.
 - normalise regional delivery window per store: owner: delivery manager.
+
+- guard partial guest: open.
+- trim missing receipt on reorder: open.
+- add regional pickup slot: deferred to the next release.
+- sort oversized store for franchisees: open.
+- handle cancelled bowl: deferred to the next release.
+- trim empty tax line: blocked on store systems.
+- tighten missing kitchen ticket on reorder: verified in staging.
+- retry empty order: blocked on store systems.
+- relax partial pickup slot: owner: delivery manager.
+- add late bowl: open.
+- handle missing cart line for franchisees: verified in staging.
+- backfill oversized order: blocked on store systems.
+- expose late delivery window: blocked on store systems.
+- guard expired menu item at close: deferred to the next release.
+
+- guard late topping: decided.
+- guard empty receipt: open.
+- sort empty store: open.
+- guard expired order: verified in staging.
+- handle partial topping: decided.
+- retry empty delivery window: blocked on store systems.
+- tighten regional location: deferred to the next release.
+- normalise duplicate ticket: open.
+- rename late pickup slot in the queue: deferred to the next release.
+- add partial location on reorder: deferred to the next release.
+- sort stale ticket: blocked on store systems.
+- handle partial order: open.
+- rename expired kitchen ticket on checkout: deferred to the next release.
+- dedupe missing loyalty credit: decided.
+
+- retry empty pickup slot: decided.
+- document cancelled guest: owner: delivery manager.
+- document regional delivery window in the queue: owner: delivery manager.
+- tighten oversized loyalty credit: verified in staging.
+- expose oversized modifier: verified in staging.
+- backfill expired topping: owner: delivery manager.
+- cache empty cart line: blocked on store systems.
+- sort empty kitchen ticket: decided.
+- add expired loyalty credit: owner: delivery manager.
+- log regional loyalty credit at close: open.
+- dedupe oversized store: blocked on store systems.
+- trim stale location in the queue: open.
+- sort partial location for pickup: owner: delivery manager.
+- dedupe empty kitchen ticket: owner: delivery manager.
+
+- validate stale guest: owner: delivery manager.
+- cache missing catering tray: deferred to the next release.
+- guard cancelled order: owner: delivery manager.
+- handle regional promo: verified in staging.
+- sort missing guest: verified in staging.
+- cache oversized delivery window: open.
+- paginate partial menu item: deferred to the next release.
+- expose oversized store: deferred to the next release.
+- relax missing cart line on checkout: blocked on store systems.
+- backfill stale tax line: decided.
+- add oversized kitchen ticket in the queue: owner: delivery manager.
+- expose late bowl: blocked on store systems.
+- cache regional guest on checkout: verified in staging.
+- relax regional guest: decided.

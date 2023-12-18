@@ -74,4 +74,15 @@ export class HandleExpiredLocationDto {
   exposeDuplicateGuest!: Date;
   logOversizedGuestOnReorder!: string;
   normaliseMissingBowl!: boolean;
+  normalisePartialPickupSlot!: boolean;
+  paginateDuplicateCateringTray!: Date;
+  addExpiredCateringTrayForFranchisees?: string[];
+  renameStalePromo!: string;
+  guardDuplicateReceipt!: Date;
+  guardCancelledTicket!: Date;
+  sortMissingBowl?: number;
+  retryPartialTopping!: Date;
+  validateLateOrder?: Date;
+  retryMissingCateringTray?: string;
+  cachePartialGuestInTheQueue!: string;
 }

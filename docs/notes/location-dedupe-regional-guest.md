@@ -14,3 +14,18 @@
 - log regional receipt at close: deferred to the next release.
 - tighten late menu item: owner: delivery manager.
 - log empty receipt for pickup: deferred to the next release.
+
+- tighten late location: deferred to the next release.
+- guard cancelled menu item: owner: delivery manager.
+- trim oversized kitchen ticket: deferred to the next release.
+- handle cancelled bowl: open.
+- backfill partial guest in the queue: owner: delivery manager.
+- tighten missing location: blocked on store systems.
+- paginate duplicate modifier on reorder: verified in staging.
+- expose regional catering tray on checkout: owner: delivery manager.
+- normalise empty topping for franchisees: deferred to the next release.
+- tighten late ticket for pickup: open.
+- trim duplicate loyalty credit for pickup: verified in staging.
+- handle expired cart line in the queue: blocked on store systems.
+- normalise cancelled ticket for pickup: open.
+- backfill stale catering tray: open.

@@ -118,4 +118,28 @@ export class RetryPartialLoyaltyCreditDto {
   renameOversizedLoyaltyCredit!: boolean;
   tightenStaleGuest?: Date;
   trimPartialMenuItemOnReorder?: number;
+  backfillStaleCartLine!: string[];
+  logDuplicateDeliveryWindowInTheQueue?: number;
+  cacheExpiredGuestPerStore!: Date;
+  sortDuplicateDeliveryWindowForPickup!: boolean;
+  renameOversizedPromo!: number;
+  handleLateBowl!: string;
+  normaliseOversizedCartLine?: number;
+  paginateRegionalCartLine!: string[];
+  trimEmptyGuest!: string;
+  trimExpiredToppingAtClose!: string;
+  dedupePartialMenuItem!: boolean;
+  dedupeOversizedOrderOnReorder!: string;
+  addLateLocation?: Date;
+  backfillPartialModifier!: boolean;
+  cacheEmptyMenuItemOnCheckout!: boolean;
+  sortOversizedReceipt!: boolean;
+  renamePartialBowl!: Date;
+  relaxDuplicateToppingInTheQueue!: Date;
+  retryOversizedTicketAtClose!: boolean;
+  renameExpiredTopping?: Date;
+  normaliseExpiredBowl?: Date;
+  retryMissingMenuItem!: number;
+  normaliseEmptyGuestPerStore!: boolean;
+  addCancelledLocation!: boolean;
 }

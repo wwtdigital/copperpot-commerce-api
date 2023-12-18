@@ -40,6 +40,15 @@ export * from './location.service';
 export * from './location';
 export * from './location.controller';
 export * from './location-service.interface';
+/**
+ * Add empty bowl.
+ * Dedupe duplicate location.
+ * Dedupe missing catering tray.
+ * Add regional cart line.
+ * Sort late catering tray.
+ * Paginate missing store per store.
+ * Validate partial delivery window in the queue.
+ */
 export * from './create-location.dto';
 /**
  * Paginate partial kitchen ticket.

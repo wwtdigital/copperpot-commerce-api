@@ -240,4 +240,40 @@ export const RetryOversizedLoyaltyCreditPerStoreRows = [
     label: 'cache late loyalty credit',
     quantity: 6,
   },
+  {
+    id: 'location-6005',
+    store: '127',
+    label: 'sort empty catering tray in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'location-6107',
+    store: '344',
+    label: 'paginate stale order',
+    quantity: 7,
+  },
+  {
+    id: 'location-2325',
+    store: '298',
+    label: 'backfill duplicate promo',
+    quantity: 12,
+  },
+  {
+    id: 'location-5793',
+    store: '224',
+    label: 'rename late menu item',
+    quantity: 7,
+  },
+  {
+    id: 'location-5516',
+    store: '408',
+    label: 'normalise cancelled store',
+    quantity: 9,
+  },
+  {
+    id: 'location-4203',
+    store: '467',
+    label: 'handle regional store for pickup',
+    quantity: 3,
+  },
 ];

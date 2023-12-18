@@ -68,3 +68,18 @@
 - sort late menu item: owner: delivery manager.
 - tighten missing catering tray: blocked on store systems.
 - normalise regional delivery window per store: owner: delivery manager.
+
+- guard partial guest: open.
+- trim missing receipt on reorder: open.
+- add regional pickup slot: deferred to the next release.
+- sort oversized store for franchisees: open.
+- handle cancelled bowl: deferred to the next release.
+- trim empty tax line: blocked on store systems.
+- tighten missing kitchen ticket on reorder: verified in staging.
+- retry empty order: blocked on store systems.
+- relax partial pickup slot: owner: delivery manager.
+- add late bowl: open.
+- handle missing cart line for franchisees: verified in staging.
+- backfill oversized order: blocked on store systems.
+- expose late delivery window: blocked on store systems.
+- guard expired menu item at close: deferred to the next release.

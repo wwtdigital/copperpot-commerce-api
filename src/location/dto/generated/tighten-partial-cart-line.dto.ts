@@ -31,4 +31,28 @@ export class TightenPartialCartLineDto {
   documentEmptyBowl!: number;
   backfillDuplicateCateringTrayPerStore!: boolean;
   renameRegionalCartLineAtClose!: string[];
+  validateLateTaxLineOnCheckout!: Date;
+  guardLateKitchenTicket!: number;
+  documentExpiredPickupSlot!: boolean;
+  paginateEmptyPromo!: string;
+  dedupePartialReceipt!: boolean;
+  backfillPartialMenuItem?: number;
+  validateEmptyStore!: boolean;
+  normaliseLateModifier!: string;
+  addMissingStore?: boolean;
+  renameOversizedModifierForPickup!: Date;
+  normaliseEmptyModifierInTheQueue!: boolean;
+  sortEmptyPickupSlot?: Date;
+  documentStaleLocation?: string;
+  tightenOversizedCartLinePerStore!: boolean;
+  guardExpiredBowlForPickup?: Date;
+  renameExpiredModifierOnReorder?: boolean;
+  exposePartialCateringTray?: boolean;
+  cacheLateTicket!: Date;
+  paginateCancelledBowlForFranchisees?: boolean;
+  exposeOversizedTicket?: Date;
+  handlePartialPickupSlot!: boolean;
+  exposeCancelledModifierOnCheckout!: boolean;
+  addOversizedToppingPerStore?: string[];
+  guardDuplicateStore?: number;
 }

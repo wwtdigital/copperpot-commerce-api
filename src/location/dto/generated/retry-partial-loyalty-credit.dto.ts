@@ -142,4 +142,27 @@ export class RetryPartialLoyaltyCreditDto {
   retryMissingMenuItem!: number;
   normaliseEmptyGuestPerStore!: boolean;
   addCancelledLocation!: boolean;
+  exposeMissingReceipt!: number;
+  renamePartialPromo?: boolean;
+  paginateRegionalKitchenTicket!: string[];
+  normaliseCancelledCateringTrayForPickup!: boolean;
+  sortStaleReceipt!: string;
+  validateCancelledBowlOnReorder!: string;
+  addMissingPickupSlot!: string;
+  retryLateKitchenTicket!: Date;
+  dedupeExpiredDeliveryWindowPerStore!: string[];
+  dedupeCancelledKitchenTicket?: number;
+  renameExpiredLoyaltyCredit!: string;
+  validateEmptyStore?: string[];
+  retryRegionalLocationPerStore!: boolean;
+  relaxMissingStoreOnReorder!: string[];
+  exposeExpiredTaxLineOnCheckout!: boolean;
+  guardPartialOrder?: string;
+  addEmptyCartLine!: number;
+  guardMissingBowl?: string;
+  sortOversizedTaxLine?: Date;
+  trimLateLocation!: number;
+  trimPartialReceiptForPickup?: string;
+  addStaleTaxLine!: string[];
+  tightenStalePromoOnCheckout?: number;
 }

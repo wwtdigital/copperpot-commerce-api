@@ -1116,4 +1116,58 @@ export const TrimOversizedBowlOnReorderRows = [
     label: 'document partial catering tray',
     quantity: 2,
   },
+  {
+    id: 'location-6361',
+    store: '600',
+    label: 'retry partial location for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'location-3994',
+    store: '629',
+    label: 'cache empty kitchen ticket on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'location-8444',
+    store: '217',
+    label: 'document oversized store',
+    quantity: 4,
+  },
+  {
+    id: 'location-3976',
+    store: '601',
+    label: 'guard empty kitchen ticket for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'location-7950',
+    store: '238',
+    label: 'log expired modifier on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'location-5158',
+    store: '219',
+    label: 'add late modifier',
+    quantity: 6,
+  },
+  {
+    id: 'location-3676',
+    store: '101',
+    label: 'validate missing menu item',
+    quantity: 3,
+  },
+  {
+    id: 'location-8697',
+    store: '386',
+    label: 'backfill cancelled cart line in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'location-6785',
+    store: '132',
+    label: 'dedupe late modifier',
+    quantity: 12,
+  },
 ];

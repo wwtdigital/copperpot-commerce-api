@@ -126,4 +126,22 @@ export const RenameRegionalOrderRows = [
     label: 'paginate missing location',
     quantity: 4,
   },
+  {
+    id: 'loyalty-9140',
+    store: '424',
+    label: 'document missing order',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-3202',
+    store: '556',
+    label: 'rename cancelled guest',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-6401',
+    store: '653',
+    label: 'log empty cart line on reorder',
+    quantity: 10,
+  },
 ];

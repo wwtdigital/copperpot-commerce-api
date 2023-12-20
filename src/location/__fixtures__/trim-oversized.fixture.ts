@@ -1170,4 +1170,52 @@ export const TrimOversizedBowlOnReorderRows = [
     label: 'dedupe late modifier',
     quantity: 12,
   },
+  {
+    id: 'location-1363',
+    store: '661',
+    label: 'sort empty catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'location-8312',
+    store: '428',
+    label: 'log regional delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'location-1098',
+    store: '158',
+    label: 'rename regional catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'location-6281',
+    store: '582',
+    label: 'rename empty guest per store',
+    quantity: 1,
+  },
+  {
+    id: 'location-2707',
+    store: '525',
+    label: 'dedupe stale modifier',
+    quantity: 12,
+  },
+  {
+    id: 'location-8625',
+    store: '424',
+    label: 'relax late promo',
+    quantity: 12,
+  },
+  {
+    id: 'location-4359',
+    store: '373',
+    label: 'paginate late delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'location-5999',
+    store: '530',
+    label: 'sort oversized loyalty credit',
+    quantity: 5,
+  },
 ];

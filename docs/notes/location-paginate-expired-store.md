@@ -14,3 +14,18 @@
 - retry partial location: deferred to the next release.
 - relax cancelled modifier for franchisees: open.
 - log empty loyalty credit: owner: delivery manager.
+
+- add empty cart line for pickup: blocked on store systems.
+- add late modifier on reorder: verified in staging.
+- add duplicate store: decided.
+- retry regional guest: owner: delivery manager.
+- dedupe partial receipt for pickup: decided.
+- add stale bowl in the queue: owner: delivery manager.
+- backfill regional cart line for franchisees: deferred to the next release.
+- handle duplicate order at close: verified in staging.
+- rename partial topping: verified in staging.
+- cache late guest for pickup: decided.
+- add regional store in the queue: open.
+- dedupe empty modifier: deferred to the next release.
+- relax oversized order for franchisees: verified in staging.
+- expose late catering tray per store: deferred to the next release.

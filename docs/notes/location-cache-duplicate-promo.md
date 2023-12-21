@@ -128,3 +128,18 @@
 - expose late bowl: blocked on store systems.
 - cache regional guest on checkout: verified in staging.
 - relax regional guest: decided.
+
+- add empty pickup slot for pickup: deferred to the next release.
+- retry partial guest: verified in staging.
+- tighten cancelled menu item: verified in staging.
+- add regional ticket: owner: delivery manager.
+- handle cancelled ticket: verified in staging.
+- handle duplicate store: blocked on store systems.
+- log stale tax line at close: verified in staging.
+- add cancelled tax line in the queue: open.
+- paginate stale guest: decided.
+- validate stale kitchen ticket: deferred to the next release.
+- relax cancelled topping: owner: delivery manager.
+- validate missing loyalty credit on checkout: decided.
+- dedupe stale store at close: open.
+- paginate stale topping at close: verified in staging.

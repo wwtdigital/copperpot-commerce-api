@@ -29,3 +29,18 @@
 - handle expired cart line in the queue: blocked on store systems.
 - normalise cancelled ticket for pickup: open.
 - backfill stale catering tray: open.
+
+- document oversized loyalty credit: decided.
+- sort stale kitchen ticket: open.
+- dedupe stale bowl: deferred to the next release.
+- add regional kitchen ticket per store: open.
+- tighten empty ticket: verified in staging.
+- sort regional cart line: decided.
+- expose partial receipt: decided.
+- retry partial bowl for franchisees: verified in staging.
+- sort oversized pickup slot: deferred to the next release.
+- add oversized kitchen ticket: decided.
+- sort cancelled promo on checkout: blocked on store systems.
+- sort duplicate delivery window: owner: delivery manager.
+- trim cancelled loyalty credit: owner: delivery manager.
+- dedupe empty bowl: decided.

@@ -786,4 +786,16 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'dedupe duplicate tax line on checkout',
     quantity: 12,
   },
+  {
+    id: 'payments-3033',
+    store: '590',
+    label: 'tighten duplicate catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'payments-8410',
+    store: '638',
+    label: 'handle missing catering tray',
+    quantity: 7,
+  },
 ];

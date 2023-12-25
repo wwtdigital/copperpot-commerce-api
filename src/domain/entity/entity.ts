@@ -1,5 +1,14 @@
 import { Types } from 'mongoose';
 
+/**
+ * Rename cancelled catering tray.
+ * Paginate cancelled loyalty credit.
+ * Validate regional tax line.
+ * Log missing order at close.
+ * Tighten stale loyalty credit for franchisees.
+ * Expose late catering tray per store.
+ * Normalise oversized modifier.
+ */
 export abstract class Entity<T> {
   protected readonly _id: Types.ObjectId;
   constructor(id: Types.ObjectId) {

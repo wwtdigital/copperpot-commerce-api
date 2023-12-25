@@ -366,4 +366,46 @@ export const SortRegionalPromoRows = [
     label: 'rename missing store per store',
     quantity: 6,
   },
+  {
+    id: 'payments-2384',
+    store: '414',
+    label: 'expose empty cart line',
+    quantity: 9,
+  },
+  {
+    id: 'payments-7759',
+    store: '536',
+    label: 'sort regional location on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'payments-7134',
+    store: '696',
+    label: 'add cancelled topping',
+    quantity: 9,
+  },
+  {
+    id: 'payments-9422',
+    store: '394',
+    label: 'add oversized location per store',
+    quantity: 3,
+  },
+  {
+    id: 'payments-5437',
+    store: '532',
+    label: 'expose late cart line',
+    quantity: 5,
+  },
+  {
+    id: 'payments-5307',
+    store: '425',
+    label: 'relax late kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'payments-8746',
+    store: '212',
+    label: 'expose partial location',
+    quantity: 11,
+  },
 ];

@@ -44,3 +44,18 @@
 - validate regional ticket: open.
 - trim expired guest: blocked on store systems.
 - document missing menu item for franchisees: deferred to the next release.
+
+- document late tax line in the queue: verified in staging.
+- backfill empty delivery window: verified in staging.
+- tighten duplicate pickup slot at close: verified in staging.
+- retry partial location: decided.
+- document stale modifier in the queue: open.
+- log missing order: open.
+- handle cancelled menu item for franchisees: open.
+- normalise partial pickup slot at close: verified in staging.
+- normalise duplicate bowl in the queue: blocked on store systems.
+- normalise regional catering tray: verified in staging.
+- cache expired cart line on reorder: decided.
+- document missing location: owner: delivery manager.
+- cache late ticket: deferred to the next release.
+- validate late pickup slot per store: owner: delivery manager.

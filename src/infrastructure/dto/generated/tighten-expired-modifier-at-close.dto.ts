@@ -54,4 +54,11 @@ export class TightenExpiredModifierAtCloseDto {
   tightenPartialCateringTray!: boolean;
   trimMissingKitchenTicket?: string[];
   cacheRegionalStore!: string[];
+  addPartialCateringTray?: number;
+  retryStalePickupSlot?: string[];
+  dedupeMissingPickupSlotInTheQueue!: string;
+  renameRegionalToppingAtClose?: Date;
+  retryPartialCateringTrayForFranchisees!: boolean;
+  validateLateCartLine!: string;
+  renameLateStore?: string[];
 }

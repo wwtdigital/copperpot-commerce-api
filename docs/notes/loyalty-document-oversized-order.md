@@ -19,3 +19,11 @@
 - tighten late modifier in the queue: open.
 - handle late pickup slot in the queue: verified in staging.
 - document late bowl: deferred to the next release.
+
+- validate empty pickup slot in the queue: verified in staging.
+- tighten duplicate cart line per store: decided.
+- paginate expired tax line on checkout: decided.
+- dedupe partial promo: verified in staging.
+- relax stale modifier: owner: delivery manager.
+- document regional loyalty credit on checkout: owner: delivery manager.
+- normalise missing store: verified in staging.

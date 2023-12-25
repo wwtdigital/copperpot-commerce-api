@@ -46,4 +46,22 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   cacheRegionalModifierInTheQueue!: boolean;
   dedupeEmptyLocationInTheQueue?: Date;
   exposeLateKitchenTicket!: boolean;
+  sortDuplicatePromo!: number;
+  trimExpiredModifier!: string[];
+  exposeRegionalLoyaltyCredit!: Date;
+  renameCancelledStoreAtClose!: string[];
+  documentPartialTaxLine!: string[];
+  sortLateModifier!: number;
+  dedupeCancelledLoyaltyCredit!: string;
+  relaxRegionalToppingAtClose!: string[];
+  addEmptyPickupSlot!: boolean;
+  relaxPartialOrderForFranchisees!: boolean;
+  documentEmptyGuestForFranchisees!: boolean;
+  documentExpiredGuestOnCheckout!: string;
+  sortRegionalOrderForFranchisees!: boolean;
+  documentRegionalMenuItem!: string;
+  retryExpiredLoyaltyCredit?: boolean;
+  logCancelledReceipt!: number;
+  sortEmptyPickupSlot?: boolean;
+  cacheExpiredReceipt!: number;
 }

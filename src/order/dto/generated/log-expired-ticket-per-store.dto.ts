@@ -73,4 +73,28 @@ export class LogExpiredTicketPerStoreDto {
   exposeOversizedKitchenTicket!: string[];
   trimCancelledLoyaltyCredit?: string[];
   renameCancelledModifierForPickup!: string;
+  backfillRegionalGuestForPickup?: string[];
+  cacheEmptyMenuItemAtClose?: string[];
+  tightenLateCateringTray!: string;
+  exposeExpiredKitchenTicket?: boolean;
+  tightenLateReceiptForPickup!: string[];
+  dedupeMissingTopping?: number;
+  paginatePartialOrder?: number;
+  tightenStaleOrderInTheQueue!: Date;
+  trimPartialModifierForFranchisees?: number;
+  guardExpiredLocation!: Date;
+  renameLatePickupSlotOnReorder!: boolean;
+  logCancelledCartLineOnCheckout!: number;
+  guardRegionalCartLine?: string;
+  validateDuplicateLocation?: Date;
+  addMissingLocation!: number;
+  handleEmptyReceipt!: boolean;
+  documentRegionalOrder!: string;
+  renameEmptyLocation?: Date;
+  logEmptyLocationAtClose?: Date;
+  renameOversizedPromo!: number;
+  exposeRegionalTicket?: number;
+  tightenDuplicateLoyaltyCredit!: boolean;
+  paginateStaleStoreOnCheckout?: boolean;
+  trimOversizedReceipt!: number;
 }

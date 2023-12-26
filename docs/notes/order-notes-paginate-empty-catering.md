@@ -42,3 +42,18 @@
 - expose expired receipt: decided.
 - relax regional promo on reorder: verified in staging.
 - relax stale loyalty credit: deferred to the next release.
+
+- paginate expired catering tray: deferred to the next release.
+- rename regional guest: deferred to the next release.
+- handle cancelled receipt: open.
+- rename stale receipt for pickup: verified in staging.
+- validate expired topping: open.
+- normalise empty loyalty credit: verified in staging.
+- expose oversized order: blocked on store systems.
+- normalise stale bowl: blocked on store systems.
+- relax duplicate loyalty credit per store: deferred to the next release.
+- tighten partial loyalty credit per store: verified in staging.
+- paginate empty tax line: open.
+- log oversized location: owner: delivery manager.
+- validate missing receipt: blocked on store systems.
+- expose duplicate catering tray for franchisees: owner: delivery manager.

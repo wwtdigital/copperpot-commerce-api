@@ -66,4 +66,19 @@ export class GuardLatePickupSlotPerStoreDto {
   paginateEmptyOrderOnCheckout!: boolean;
   trimCancelledCateringTrayOnReorder!: Date;
   relaxRegionalTaxLineAtClose!: Date;
+  tightenLateLocation!: string;
+  trimMissingBowl!: string;
+  relaxExpiredGuest!: string[];
+  relaxMissingPromo!: Date;
+  dedupeRegionalTaxLine!: number;
+  addMissingTaxLine!: boolean;
+  dedupeExpiredReceiptOnReorder!: string;
+  sortExpiredPromoInTheQueue!: boolean;
+  sortLateLoyaltyCreditForFranchisees!: boolean;
+  backfillExpiredKitchenTicketOnCheckout!: string[];
+  sortMissingLocationPerStore?: string[];
+  backfillEmptyLocation!: string;
+  sortDuplicateCartLinePerStore!: string[];
+  backfillDuplicatePromo!: boolean;
+  tightenCancelledStorePerStore!: Date;
 }

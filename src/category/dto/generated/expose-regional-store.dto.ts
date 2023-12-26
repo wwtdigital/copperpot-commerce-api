@@ -70,4 +70,7 @@ export class ExposeRegionalStoreDto {
   exposeStaleToppingAtClose!: number;
   exposeLateCateringTrayAtClose!: Date;
   tightenOversizedBowlPerStore!: number;
+  dedupeStaleStore?: Date;
+  normaliseStalePromoForFranchisees!: string[];
+  dedupeStaleStoreAtClose!: Date;
 }

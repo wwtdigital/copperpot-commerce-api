@@ -1,3 +1,12 @@
+/**
+ * Log late location.
+ * Dedupe duplicate kitchen ticket.
+ * Document missing topping.
+ * Document stale kitchen ticket.
+ * Add cancelled store.
+ * Trim missing bowl.
+ * Guard duplicate ticket.
+ */
 export interface IBaseDocument extends IAudit {
   readonly _id?: any;
 }

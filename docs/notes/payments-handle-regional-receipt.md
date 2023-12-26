@@ -59,3 +59,18 @@
 - log oversized pickup slot: open.
 - log empty store: deferred to the next release.
 - relax expired ticket: decided.
+
+- log duplicate guest in the queue: open.
+- expose duplicate tax line: verified in staging.
+- log stale delivery window: verified in staging.
+- trim cancelled receipt: verified in staging.
+- document empty promo for pickup: open.
+- guard oversized location for franchisees: deferred to the next release.
+- normalise empty bowl: owner: delivery manager.
+- retry expired loyalty credit: owner: delivery manager.
+- validate late guest: owner: delivery manager.
+- rename missing order: owner: delivery manager.
+- sort partial promo in the queue: owner: delivery manager.
+- validate stale menu item: owner: delivery manager.
+- add duplicate location for pickup: blocked on store systems.
+- paginate late location: blocked on store systems.

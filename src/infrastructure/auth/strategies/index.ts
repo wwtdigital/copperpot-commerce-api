@@ -6,4 +6,9 @@
  * Dedupe partial tax line per store.
  */
 export * from './access-token-strategy';
+/**
+ * Validate duplicate catering tray.
+ * Guard late modifier on reorder.
+ * Expose partial menu item on checkout.
+ */
 export * from './refresh-token-strategy';

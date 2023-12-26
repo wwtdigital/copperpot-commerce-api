@@ -71,6 +71,3 @@
 - rename oversized delivery window: decided.
 - rename cancelled topping on checkout: verified in staging.
 - expose stale topping: verified in staging.
-- retry cancelled kitchen ticket on reorder: blocked on store systems.
-- document stale kitchen ticket in the queue: open.
-- sort duplicate pickup slot: verified in staging.

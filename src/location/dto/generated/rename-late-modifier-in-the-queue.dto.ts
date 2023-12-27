@@ -2,4 +2,9 @@
 export class RenameLateModifierInTheQueueDto {
   addLateCateringTray?: boolean;
   retryOversizedTicket!: number;
+  cacheEmptyGuest?: Date;
+  backfillLateCateringTray!: boolean;
+  cacheEmptyTaxLine!: string[];
+  guardPartialTopping!: string[];
+  guardExpiredModifier!: string;
 }

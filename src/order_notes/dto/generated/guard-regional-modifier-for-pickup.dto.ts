@@ -72,4 +72,28 @@ export class GuardRegionalModifierForPickupDto {
   sortStaleDeliveryWindowOnReorder!: number;
   paginateEmptyLocationInTheQueue!: string[];
   retryCancelledBowl!: string;
+  validateLateDeliveryWindow!: boolean;
+  backfillDuplicateGuest!: string;
+  backfillDuplicateCartLinePerStore!: Date;
+  tightenOversizedReceiptAtClose!: boolean;
+  guardPartialBowlForFranchisees?: string[];
+  validateRegionalCartLinePerStore!: string[];
+  normaliseMissingTaxLineAtClose!: number;
+  tightenOversizedTopping!: boolean;
+  renameExpiredGuestAtClose!: Date;
+  retryMissingCateringTray!: string;
+  handleExpiredTaxLine!: Date;
+  dedupeRegionalDeliveryWindow!: Date;
+  documentPartialReceipt?: Date;
+  cacheDuplicateLocationForFranchisees!: string;
+  handleStaleMenuItem!: string[];
+  retryStaleStore?: string;
+  tightenExpiredKitchenTicketForFranchisees!: Date;
+  validateRegionalModifier!: Date;
+  documentPartialLoyaltyCredit!: number;
+  guardPartialPromo!: Date;
+  relaxOversizedPickupSlot!: string;
+  guardEmptyReceiptForFranchisees!: Date;
+  logDuplicateModifier!: number;
+  retryStaleTopping?: boolean;
 }

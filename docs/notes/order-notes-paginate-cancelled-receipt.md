@@ -119,3 +119,18 @@
 - expose oversized order: deferred to the next release.
 - expose cancelled store: decided.
 - validate stale menu item: verified in staging.
+
+- paginate partial location: verified in staging.
+- cache oversized tax line: decided.
+- handle duplicate store: blocked on store systems.
+- add missing store: deferred to the next release.
+- expose late cart line: open.
+- add oversized order: blocked on store systems.
+- handle cancelled order in the queue: decided.
+- expose regional modifier for pickup: deferred to the next release.
+- rename missing kitchen ticket: owner: delivery manager.
+- validate oversized promo on reorder: deferred to the next release.
+- dedupe late receipt for franchisees: deferred to the next release.
+- log missing catering tray: deferred to the next release.
+- log oversized tax line: owner: delivery manager.
+- handle partial catering tray: decided.

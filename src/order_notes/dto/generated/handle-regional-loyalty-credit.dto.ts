@@ -335,4 +335,27 @@ export class HandleRegionalLoyaltyCreditDto {
   cacheLateReceipt!: number;
   handlePartialModifierForFranchisees!: number;
   validateStaleBowl?: string[];
+  exposeExpiredPickupSlot!: boolean;
+  cacheStaleLoyaltyCreditInTheQueue!: string;
+  handleStaleMenuItem!: boolean;
+  cacheMissingLoyaltyCredit!: boolean;
+  guardMissingKitchenTicket!: string[];
+  retryCancelledModifier!: Date;
+  guardEmptyPickupSlot!: boolean;
+  dedupeRegionalCateringTrayOnReorder!: boolean;
+  guardPartialModifierPerStore!: Date;
+  renameMissingTaxLine!: Date;
+  documentPartialCartLine!: string;
+  paginateRegionalTicketPerStore!: Date;
+  paginateExpiredBowlOnReorder!: number;
+  renameDuplicateMenuItemOnCheckout!: number;
+  documentPartialCateringTray!: string[];
+  logPartialOrderInTheQueue?: number;
+  dedupeStaleToppingForFranchisees!: Date;
+  tightenEmptyTaxLineInTheQueue!: string;
+  trimEmptyLoyaltyCreditForFranchisees?: string;
+  relaxEmptyCateringTrayForPickup!: string[];
+  paginateMissingLocation!: boolean;
+  retryCancelledLoyaltyCredit!: boolean;
+  documentEmptyDeliveryWindowForPickup!: string[];
 }

@@ -27,3 +27,18 @@
 - rename stale delivery window: open.
 - retry stale pickup slot: deferred to the next release.
 - handle stale store: deferred to the next release.
+
+- tighten oversized pickup slot for pickup: decided.
+- backfill partial loyalty credit: verified in staging.
+- normalise cancelled catering tray on checkout: blocked on store systems.
+- paginate late store: decided.
+- dedupe partial topping for pickup: verified in staging.
+- tighten cancelled delivery window: owner: delivery manager.
+- paginate oversized modifier: verified in staging.
+- normalise missing receipt: open.
+- add missing kitchen ticket: deferred to the next release.
+- relax oversized delivery window: deferred to the next release.
+- validate cancelled catering tray on reorder: verified in staging.
+- expose expired receipt: decided.
+- relax regional promo on reorder: verified in staging.
+- relax stale loyalty credit: deferred to the next release.

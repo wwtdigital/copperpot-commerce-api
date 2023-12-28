@@ -367,4 +367,10 @@ export class HandleRegionalLoyaltyCreditDto {
   backfillRegionalPromo!: Date;
   relaxLatePickupSlot!: string;
   tightenOversizedModifier!: string[];
+  handleRegionalKitchenTicket!: Date;
+  trimMissingKitchenTicketForPickup!: string[];
+  guardExpiredPickupSlotOnReorder?: string;
+  addMissingTicket!: string;
+  sortStaleDeliveryWindowForFranchisees?: number;
+  addLateMenuItem!: string[];
 }

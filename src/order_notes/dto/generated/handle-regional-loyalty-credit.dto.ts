@@ -358,4 +358,19 @@ export class HandleRegionalLoyaltyCreditDto {
   paginateMissingLocation!: boolean;
   retryCancelledLoyaltyCredit!: boolean;
   documentEmptyDeliveryWindowForPickup!: string[];
+  normaliseRegionalDeliveryWindowForFranchisees?: number;
+  trimLatePromo?: boolean;
+  sortDuplicateToppingInTheQueue!: boolean;
+  trimPartialKitchenTicket!: boolean;
+  tightenOversizedGuest!: boolean;
+  exposeMissingModifier!: boolean;
+  backfillRegionalPromo!: Date;
+  relaxLatePickupSlot!: string;
+  tightenOversizedModifier!: string[];
+  handleRegionalKitchenTicket!: Date;
+  trimMissingKitchenTicketForPickup!: string[];
+  guardExpiredPickupSlotOnReorder?: string;
+  addMissingTicket!: string;
+  sortStaleDeliveryWindowForFranchisees?: number;
+  addLateMenuItem!: string[];
 }

@@ -64,4 +64,19 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   logCancelledReceipt!: number;
   sortEmptyPickupSlot?: boolean;
   cacheExpiredReceipt!: number;
+  cacheLateCateringTray?: Date;
+  backfillEmptyGuestForPickup!: number;
+  guardCancelledReceiptInTheQueue!: boolean;
+  cachePartialPickupSlot?: number;
+  relaxRegionalPromoOnReorder!: boolean;
+  validatePartialLoyaltyCredit?: number;
+  exposeCancelledTopping?: Date;
+  tightenExpiredCateringTrayPerStore?: boolean;
+  validateOversizedModifierInTheQueue?: boolean;
+  relaxEmptyBowl!: boolean;
+  backfillOversizedOrder!: boolean;
+  sortRegionalTopping!: Date;
+  sortDuplicateTaxLine!: number;
+  paginateRegionalCateringTray?: boolean;
+  sortOversizedOrder?: number;
 }

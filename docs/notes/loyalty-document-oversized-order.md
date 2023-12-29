@@ -27,3 +27,11 @@
 - relax stale modifier: owner: delivery manager.
 - document regional loyalty credit on checkout: owner: delivery manager.
 - normalise missing store: verified in staging.
+
+- guard stale guest in the queue: deferred to the next release.
+- relax late ticket: verified in staging.
+- rename cancelled promo: verified in staging.
+- add cancelled guest: open.
+- paginate stale delivery window on reorder: blocked on store systems.
+- handle expired guest for pickup: blocked on store systems.
+- document expired menu item: decided.

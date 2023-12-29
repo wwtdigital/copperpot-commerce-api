@@ -59,3 +59,13 @@
 - document missing location: owner: delivery manager.
 - cache late ticket: deferred to the next release.
 - validate late pickup slot per store: owner: delivery manager.
+
+- tighten empty bowl: owner: delivery manager.
+- backfill late bowl: owner: delivery manager.
+- log regional modifier: decided.
+- guard duplicate loyalty credit: deferred to the next release.
+- retry missing menu item on checkout: blocked on store systems.
+- add stale bowl: owner: delivery manager.
+- sort regional modifier: owner: delivery manager.
+- document regional location: deferred to the next release.
+- document late cart line: owner: delivery manager.

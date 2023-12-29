@@ -408,4 +408,16 @@ export const SortRegionalPromoRows = [
     label: 'expose partial location',
     quantity: 11,
   },
+  {
+    id: 'loyalty-3667',
+    store: '306',
+    label: 'rename regional location',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-2734',
+    store: '660',
+    label: 'dedupe missing cart line',
+    quantity: 5,
+  },
 ];

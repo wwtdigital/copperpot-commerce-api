@@ -81,4 +81,8 @@ export class GuardLatePickupSlotPerStoreDto {
   sortDuplicateCartLinePerStore!: string[];
   backfillDuplicatePromo!: boolean;
   tightenCancelledStorePerStore!: Date;
+  documentRegionalStoreForFranchisees?: string;
+  exposeDuplicateMenuItem!: string[];
+  retryEmptyGuestForPickup?: boolean;
+  dedupeExpiredTaxLine!: number;
 }

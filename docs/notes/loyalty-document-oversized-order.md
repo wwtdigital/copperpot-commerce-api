@@ -35,3 +35,8 @@
 - paginate stale delivery window on reorder: blocked on store systems.
 - handle expired guest for pickup: blocked on store systems.
 - document expired menu item: decided.
+
+- sort duplicate order on reorder: owner: delivery manager.
+- handle missing store: owner: delivery manager.
+- sort cancelled ticket at close: decided.
+- sort oversized guest on checkout: deferred to the next release.

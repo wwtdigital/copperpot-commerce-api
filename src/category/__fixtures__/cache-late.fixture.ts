@@ -54,4 +54,16 @@ export const CacheLateMenuItemForPickupRows = [
     label: 'normalise oversized order for franchisees',
     quantity: 9,
   },
+  {
+    id: 'loyalty-6169',
+    store: '623',
+    label: 'retry empty catering tray for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-5001',
+    store: '324',
+    label: 'dedupe late bowl on reorder',
+    quantity: 7,
+  },
 ];

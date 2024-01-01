@@ -1194,4 +1194,16 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'rename regional location',
     quantity: 3,
   },
+  {
+    id: 'order-notes-1271',
+    store: '350',
+    label: 'backfill oversized store for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-2849',
+    store: '142',
+    label: 'backfill missing receipt',
+    quantity: 12,
+  },
 ];

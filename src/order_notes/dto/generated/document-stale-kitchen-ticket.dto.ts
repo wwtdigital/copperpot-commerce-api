@@ -256,4 +256,28 @@ export class DocumentStaleKitchenTicketDto {
   exposeCancelledTopping!: string[];
   tightenOversizedTaxLineInTheQueue!: number;
   dedupeExpiredStoreInTheQueue!: string;
+  paginateCancelledReceipt!: Date;
+  exposeCancelledStoreAtClose!: Date;
+  normaliseMissingTaxLineForPickup?: boolean;
+  dedupeMissingDeliveryWindow!: string;
+  documentPartialPromo!: number;
+  cacheEmptyBowl?: string[];
+  dedupeDuplicateTicket?: Date;
+  paginatePartialGuestInTheQueue!: string[];
+  trimCancelledStoreForPickup!: number;
+  paginateCancelledStore?: boolean;
+  retryPartialToppingAtClose?: boolean;
+  backfillStaleCartLineOnCheckout!: string;
+  backfillPartialPickupSlotInTheQueue!: number;
+  logLateCartLineForPickup!: boolean;
+  tightenLateDeliveryWindowPerStore?: number;
+  relaxRegionalPromo?: string;
+  validateOversizedStoreAtClose?: string;
+  renameCancelledMenuItem!: number;
+  handleLateModifier!: number;
+  sortOversizedKitchenTicket!: number;
+  handleCancelledPromo!: number;
+  handleEmptyOrder?: Date;
+  renameLateReceipt?: string[];
+  relaxStaleStoreOnReorder?: string;
 }

@@ -252,4 +252,8 @@ export class DocumentStaleKitchenTicketDto {
   exposeLateTaxLine!: string[];
   validateExpiredBowl!: string[];
   normaliseDuplicatePickupSlotForPickup!: Date;
+  documentEmptyTopping!: boolean;
+  exposeCancelledTopping!: string[];
+  tightenOversizedTaxLineInTheQueue!: number;
+  dedupeExpiredStoreInTheQueue!: string;
 }

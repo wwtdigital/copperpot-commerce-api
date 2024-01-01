@@ -1062,4 +1062,52 @@ export const RelaxLateTaxLineRows = [
     label: 'dedupe duplicate store',
     quantity: 12,
   },
+  {
+    id: 'order-notes-5331',
+    store: '632',
+    label: 'log partial loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-2973',
+    store: '507',
+    label: 'expose duplicate guest',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-1748',
+    store: '488',
+    label: 'cache duplicate ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-5775',
+    store: '176',
+    label: 'paginate duplicate store',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-2316',
+    store: '535',
+    label: 'rename missing catering tray on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-4174',
+    store: '387',
+    label: 'dedupe missing loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-5273',
+    store: '598',
+    label: 'dedupe expired cart line',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-9888',
+    store: '679',
+    label: 'paginate empty catering tray',
+    quantity: 2,
+  },
 ];

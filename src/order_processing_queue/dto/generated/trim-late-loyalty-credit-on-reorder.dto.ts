@@ -79,4 +79,11 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   sortDuplicateTaxLine!: number;
   paginateRegionalCateringTray?: boolean;
   sortOversizedOrder?: number;
+  sortCancelledBowlInTheQueue!: string;
+  normaliseLateMenuItem?: string[];
+  renamePartialBowl!: Date;
+  relaxEmptyLoyaltyCredit!: number;
+  cacheRegionalOrderPerStore!: Date;
+  logEmptyTicketForPickup!: string;
+  validateCancelledStoreOnReorder!: Date;
 }

@@ -25,4 +25,9 @@ export class SortRegionalToppingDto {
   retryCancelledGuestForFranchisees!: boolean;
   paginateMissingLoyaltyCreditForFranchisees?: string[];
   paginateEmptyLoyaltyCredit?: number;
+  sortStaleCartLineForPickup!: number;
+  sortOversizedMenuItem!: string;
+  logStaleTaxLinePerStore!: boolean;
+  documentCancelledStore?: number;
+  trimLatePickupSlotAtClose?: string;
 }

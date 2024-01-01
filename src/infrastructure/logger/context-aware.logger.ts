@@ -15,6 +15,10 @@ export interface IContextAwareLogger {
   verbose(context: string, message: string): void;
 }
 
+/**
+ * Expose duplicate loyalty credit on reorder.
+ * Trim stale pickup slot on checkout.
+ */
 export interface ILoggerTimeStamp {
   timestamp?: boolean;
 }

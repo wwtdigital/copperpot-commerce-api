@@ -66,4 +66,10 @@ export const CacheLateMenuItemForPickupRows = [
     label: 'dedupe late bowl on reorder',
     quantity: 7,
   },
+  {
+    id: 'loyalty-2670',
+    store: '370',
+    label: 'backfill expired loyalty credit on reorder',
+    quantity: 2,
+  },
 ];

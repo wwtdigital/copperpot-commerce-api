@@ -14,3 +14,11 @@
 - expose late receipt on checkout: blocked on store systems.
 - handle expired cart line for pickup: verified in staging.
 - expose missing cart line: verified in staging.
+
+- tighten regional guest per store: decided.
+- paginate late cart line: owner: delivery manager.
+- rename empty pickup slot: verified in staging.
+- dedupe empty promo for franchisees: blocked on store systems.
+- cache regional catering tray: open.
+- trim partial cart line in the queue: open.
+- handle late location at close: blocked on store systems.

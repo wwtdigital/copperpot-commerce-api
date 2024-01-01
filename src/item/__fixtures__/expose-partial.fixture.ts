@@ -84,4 +84,16 @@ export const ExposePartialMenuItemPerStoreRows = [
     label: 'backfill missing bowl',
     quantity: 12,
   },
+  {
+    id: 'loyalty-9296',
+    store: '297',
+    label: 'tighten empty tax line',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-2811',
+    store: '451',
+    label: 'log oversized kitchen ticket',
+    quantity: 10,
+  },
 ];

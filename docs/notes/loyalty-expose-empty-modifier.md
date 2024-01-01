@@ -37,3 +37,9 @@
 - rename missing location: owner: delivery manager.
 - log regional receipt: open.
 - guard missing loyalty credit: verified in staging.
+
+- tighten missing cart line: decided.
+- relax expired bowl at close: deferred to the next release.
+- cache oversized store: deferred to the next release.
+- normalise stale loyalty credit in the queue: decided.
+- expose regional promo: decided.

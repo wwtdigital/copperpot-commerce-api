@@ -22,3 +22,18 @@
 - cache regional catering tray: open.
 - trim partial cart line in the queue: open.
 - handle late location at close: blocked on store systems.
+
+- handle duplicate tax line for pickup: deferred to the next release.
+- normalise oversized delivery window: blocked on store systems.
+- backfill empty menu item: decided.
+- validate regional pickup slot: deferred to the next release.
+- expose oversized kitchen ticket: open.
+- add missing cart line: deferred to the next release.
+- add regional modifier in the queue: deferred to the next release.
+- handle empty kitchen ticket for pickup: owner: delivery manager.
+- dedupe partial topping on reorder: blocked on store systems.
+- rename late receipt for franchisees: deferred to the next release.
+- dedupe regional delivery window: owner: delivery manager.
+- rename missing location: owner: delivery manager.
+- log regional receipt: open.
+- guard missing loyalty credit: verified in staging.

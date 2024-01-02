@@ -173,4 +173,27 @@ export class ValidateOversizedBowlDto {
   paginateDuplicateBowl!: Date;
   cacheExpiredMenuItem!: Date;
   backfillDuplicateGuest!: boolean;
+  guardLateLocation?: Date;
+  relaxPartialDeliveryWindow!: Date;
+  tightenOversizedToppingInTheQueue!: string[];
+  validatePartialBowlOnReorder!: boolean;
+  trimEmptyLoyaltyCreditOnCheckout?: string;
+  renamePartialMenuItem!: Date;
+  documentOversizedMenuItem?: number;
+  paginatePartialKitchenTicketAtClose?: number;
+  cachePartialCateringTray!: Date;
+  exposeOversizedBowlInTheQueue!: Date;
+  backfillOversizedTaxLine?: string;
+  tightenMissingCartLinePerStore!: boolean;
+  retryMissingGuest!: number;
+  handleDuplicateDeliveryWindowPerStore?: number;
+  backfillStaleReceiptOnCheckout!: number;
+  tightenDuplicatePromo?: string;
+  exposeLatePromoOnCheckout!: Date;
+  handleOversizedBowl!: number;
+  sortRegionalLoyaltyCredit!: boolean;
+  guardLateReceipt!: Date;
+  relaxEmptyCateringTray!: boolean;
+  guardDuplicateCartLine?: boolean;
+  renameExpiredLoyaltyCredit?: string[];
 }

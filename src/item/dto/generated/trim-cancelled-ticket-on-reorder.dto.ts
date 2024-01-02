@@ -31,4 +31,28 @@ export class TrimCancelledTicketOnReorderDto {
   normaliseCancelledPromo?: string;
   validateMissingOrderForFranchisees!: Date;
   tightenPartialPickupSlot!: boolean;
+  renameExpiredToppingForFranchisees!: number;
+  validatePartialLocation!: number;
+  cacheEmptyToppingForPickup?: string[];
+  validateCancelledDeliveryWindow!: Date;
+  retryEmptyTaxLineForPickup?: Date;
+  documentPartialCartLineInTheQueue!: string;
+  exposeDuplicateKitchenTicketPerStore!: Date;
+  guardPartialCartLinePerStore!: Date;
+  sortStaleTicket!: string;
+  retryDuplicatePickupSlot!: string[];
+  retryEmptyPromo!: string[];
+  guardPartialCateringTray!: string[];
+  sortMissingOrder?: Date;
+  tightenEmptyPickupSlotForPickup!: Date;
+  retryCancelledStore!: boolean;
+  normaliseLateToppingOnCheckout!: Date;
+  renameStaleTaxLine!: string;
+  normaliseOversizedLocation!: string[];
+  tightenEmptyCateringTray!: boolean;
+  exposeStaleGuest!: Date;
+  handleStaleGuest!: string[];
+  validateEmptyCateringTray!: string;
+  renameMissingPickupSlot!: number;
+  trimOversizedKitchenTicket?: string;
 }

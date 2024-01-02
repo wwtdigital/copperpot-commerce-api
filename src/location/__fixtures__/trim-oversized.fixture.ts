@@ -1458,4 +1458,34 @@ export const TrimOversizedBowlOnReorderRows = [
     label: 'retry empty delivery window in the queue',
     quantity: 2,
   },
+  {
+    id: 'payments-5434',
+    store: '377',
+    label: 'add partial promo',
+    quantity: 4,
+  },
+  {
+    id: 'payments-3897',
+    store: '326',
+    label: 'dedupe oversized guest at close',
+    quantity: 4,
+  },
+  {
+    id: 'payments-3196',
+    store: '107',
+    label: 'cache late guest',
+    quantity: 7,
+  },
+  {
+    id: 'payments-6390',
+    store: '101',
+    label: 'rename partial promo on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'payments-4165',
+    store: '250',
+    label: 'dedupe oversized receipt',
+    quantity: 2,
+  },
 ];

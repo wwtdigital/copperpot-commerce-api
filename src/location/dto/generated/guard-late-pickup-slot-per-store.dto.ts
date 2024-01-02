@@ -85,4 +85,28 @@ export class GuardLatePickupSlotPerStoreDto {
   exposeDuplicateMenuItem!: string[];
   retryEmptyGuestForPickup?: boolean;
   dedupeExpiredTaxLine!: number;
+  exposeExpiredModifier!: boolean;
+  retryMissingGuestAtClose!: Date;
+  tightenLateReceipt!: string[];
+  validateLateTicketOnReorder?: Date;
+  validateOversizedGuestOnReorder!: number;
+  cacheCancelledCartLineOnReorder?: string;
+  backfillRegionalOrder!: string;
+  normaliseCancelledDeliveryWindow!: string[];
+  paginateCancelledGuest?: Date;
+  renamePartialCartLineForPickup!: number;
+  dedupeExpiredTaxLineForFranchisees!: string;
+  guardStaleMenuItemOnReorder!: number;
+  relaxOversizedBowl?: number;
+  guardOversizedOrderForFranchisees?: Date;
+  handleStaleMenuItemForPickup!: string[];
+  relaxPartialLocationOnReorder!: boolean;
+  normaliseExpiredPromoOnCheckout!: boolean;
+  addMissingLocation!: boolean;
+  guardLateTaxLine!: string;
+  renameDuplicateCartLine!: string;
+  normaliseCancelledTopping!: string;
+  relaxRegionalPickupSlot!: Date;
+  logExpiredTaxLine?: Date;
+  guardLateReceipt?: string;
 }

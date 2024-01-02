@@ -373,4 +373,25 @@ export class HandleRegionalLoyaltyCreditDto {
   addMissingTicket!: string;
   sortStaleDeliveryWindowForFranchisees?: number;
   addLateMenuItem!: string[];
+  dedupeEmptyDeliveryWindow?: string;
+  retryExpiredToppingForFranchisees?: string[];
+  addRegionalTaxLine!: boolean;
+  addRegionalReceipt?: Date;
+  paginateCancelledOrder!: boolean;
+  guardCancelledDeliveryWindowAtClose!: boolean;
+  relaxLateReceiptInTheQueue!: string;
+  addOversizedDeliveryWindowOnReorder!: boolean;
+  sortRegionalPromoForPickup!: boolean;
+  handleOversizedLoyaltyCreditForPickup!: string[];
+  logDuplicateCartLineOnCheckout?: Date;
+  relaxPartialTopping!: Date;
+  dedupePartialPromo?: number;
+  cacheExpiredCateringTray!: string;
+  dedupeExpiredLocation!: Date;
+  trimOversizedKitchenTicket?: boolean;
+  relaxExpiredTopping!: Date;
+  validatePartialCartLine!: boolean;
+  trimEmptyModifier!: string;
+  addDuplicateKitchenTicketOnCheckout!: string[];
+  normaliseExpiredTopping?: string[];
 }

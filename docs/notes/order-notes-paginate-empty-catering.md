@@ -72,3 +72,18 @@
 - rename late topping for pickup: owner: delivery manager.
 - normalise duplicate kitchen ticket on checkout: verified in staging.
 - handle partial topping in the queue: blocked on store systems.
+
+- handle stale catering tray: owner: delivery manager.
+- expose empty receipt on reorder: verified in staging.
+- retry oversized cart line at close: verified in staging.
+- cache empty order on checkout: open.
+- add oversized catering tray: decided.
+- guard late pickup slot: verified in staging.
+- paginate cancelled pickup slot on reorder: blocked on store systems.
+- relax stale delivery window: blocked on store systems.
+- log stale menu item: blocked on store systems.
+- backfill late modifier: owner: delivery manager.
+- log empty order for franchisees: deferred to the next release.
+- expose oversized topping: owner: delivery manager.
+- expose regional cart line: deferred to the next release.
+- sort expired kitchen ticket on checkout: owner: delivery manager.

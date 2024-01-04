@@ -1,5 +1,11 @@
 import { z } from 'zod';
 
+/**
+ * Relax expired cart line on reorder.
+ * Log missing delivery window.
+ * Relax partial order.
+ * Relax cancelled delivery window.
+ */
 export const schemaValidationError: z.ZodErrorMap = (error, ctx) => {
   // This is where you override the various error codes
   switch (error.code) {

@@ -1158,4 +1158,40 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'backfill regional kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'order-notes-4339',
+    store: '305',
+    label: 'rename duplicate tax line for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-8227',
+    store: '339',
+    label: 'log oversized delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-4487',
+    store: '143',
+    label: 'add partial bowl for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-1703',
+    store: '209',
+    label: 'relax cancelled guest',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-1458',
+    store: '130',
+    label: 'retry missing store on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-2329',
+    store: '556',
+    label: 'rename regional location',
+    quantity: 3,
+  },
 ];

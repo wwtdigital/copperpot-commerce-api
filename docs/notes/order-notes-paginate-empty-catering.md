@@ -57,3 +57,33 @@
 - log oversized location: owner: delivery manager.
 - validate missing receipt: blocked on store systems.
 - expose duplicate catering tray for franchisees: owner: delivery manager.
+
+- log regional order: blocked on store systems.
+- dedupe late ticket on checkout: deferred to the next release.
+- trim expired kitchen ticket in the queue: owner: delivery manager.
+- retry expired modifier on reorder: open.
+- sort late bowl for pickup: open.
+- tighten missing order at close: blocked on store systems.
+- trim duplicate guest at close: decided.
+- dedupe partial cart line: blocked on store systems.
+- tighten oversized store: decided.
+- normalise oversized promo: owner: delivery manager.
+- paginate oversized order: decided.
+- rename late topping for pickup: owner: delivery manager.
+- normalise duplicate kitchen ticket on checkout: verified in staging.
+- handle partial topping in the queue: blocked on store systems.
+
+- handle stale catering tray: owner: delivery manager.
+- expose empty receipt on reorder: verified in staging.
+- retry oversized cart line at close: verified in staging.
+- cache empty order on checkout: open.
+- add oversized catering tray: decided.
+- guard late pickup slot: verified in staging.
+- paginate cancelled pickup slot on reorder: blocked on store systems.
+- relax stale delivery window: blocked on store systems.
+- log stale menu item: blocked on store systems.
+- backfill late modifier: owner: delivery manager.
+- log empty order for franchisees: deferred to the next release.
+- expose oversized topping: owner: delivery manager.
+- expose regional cart line: deferred to the next release.
+- sort expired kitchen ticket on checkout: owner: delivery manager.

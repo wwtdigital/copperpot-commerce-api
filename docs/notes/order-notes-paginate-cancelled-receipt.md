@@ -134,3 +134,12 @@
 - log missing catering tray: deferred to the next release.
 - log oversized tax line: owner: delivery manager.
 - handle partial catering tray: decided.
+
+- expose late ticket at close: open.
+- validate cancelled modifier for pickup: open.
+- add oversized location for franchisees: decided.
+
+- retry duplicate pickup slot for pickup: open.
+- dedupe oversized guest: verified in staging.
+- paginate duplicate menu item: open.
+- tighten duplicate receipt: deferred to the next release.

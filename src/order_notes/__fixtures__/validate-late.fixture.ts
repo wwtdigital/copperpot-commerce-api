@@ -1206,4 +1206,28 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'backfill missing receipt',
     quantity: 12,
   },
+  {
+    id: 'order-notes-1157',
+    store: '413',
+    label: 'document cancelled tax line in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-9510',
+    store: '249',
+    label: 'rename duplicate cart line',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-8892',
+    store: '170',
+    label: 'paginate regional order',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-5403',
+    store: '635',
+    label: 'backfill empty guest',
+    quantity: 11,
+  },
 ];

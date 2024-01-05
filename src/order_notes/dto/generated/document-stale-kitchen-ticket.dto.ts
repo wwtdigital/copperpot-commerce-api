@@ -280,4 +280,27 @@ export class DocumentStaleKitchenTicketDto {
   handleEmptyOrder?: Date;
   renameLateReceipt?: string[];
   relaxStaleStoreOnReorder?: string;
+  handleStaleLoyaltyCreditForFranchisees?: Date;
+  backfillCancelledLocation?: boolean;
+  paginateCancelledMenuItemPerStore!: Date;
+  renameOversizedGuest!: string[];
+  addExpiredTaxLine!: number;
+  backfillStaleMenuItem?: string[];
+  relaxMissingReceipt!: boolean;
+  exposeCancelledOrderPerStore!: Date;
+  tightenExpiredMenuItem?: string;
+  dedupeCancelledModifier!: Date;
+  validateMissingMenuItem!: string;
+  sortPartialMenuItemForFranchisees?: Date;
+  addOversizedGuest?: boolean;
+  guardStaleCateringTrayAtClose?: Date;
+  validateDuplicateLoyaltyCredit!: Date;
+  tightenMissingKitchenTicket!: string[];
+  logRegionalCateringTray?: string[];
+  trimLateBowl!: Date;
+  renameCancelledBowl!: string[];
+  guardEmptyTaxLineInTheQueue!: number;
+  retryOversizedStore!: string;
+  backfillLateBowl?: string[];
+  tightenMissingLocation!: number;
 }

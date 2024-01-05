@@ -44,3 +44,18 @@
 - document cancelled delivery window for franchisees: open.
 - relax expired catering tray in the queue: verified in staging.
 - trim partial store for franchisees: owner: delivery manager.
+
+- tighten duplicate guest for pickup: decided.
+- guard late cart line in the queue: open.
+- tighten missing loyalty credit: open.
+- tighten partial cart line at close: deferred to the next release.
+- tighten missing delivery window: deferred to the next release.
+- dedupe expired delivery window on reorder: decided.
+- relax partial topping for pickup: blocked on store systems.
+- validate missing kitchen ticket at close: blocked on store systems.
+- expose oversized promo on reorder: decided.
+- trim late bowl: decided.
+- cache partial ticket: verified in staging.
+- trim stale guest: deferred to the next release.
+- normalise stale store: blocked on store systems.
+- expose oversized menu item: verified in staging.

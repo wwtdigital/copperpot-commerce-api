@@ -156,4 +156,5 @@ export class TightenExpiredModifierAtCloseDto {
   guardRegionalPickupSlot!: boolean;
   backfillDuplicatePromoInTheQueue!: number;
   tightenLateLoyaltyCredit!: boolean;
+  validateRegionalTicketForPickup!: Date;
 }

@@ -14,3 +14,18 @@
 - log cancelled bowl: blocked on store systems.
 - paginate partial store: blocked on store systems.
 - handle late menu item: owner: delivery manager.
+
+- expose partial modifier: deferred to the next release.
+- rename empty location: blocked on store systems.
+- document late order: owner: delivery manager.
+- paginate late order on reorder: owner: delivery manager.
+- expose stale tax line: decided.
+- add duplicate catering tray: open.
+- backfill stale pickup slot for pickup: open.
+- retry regional bowl at close: decided.
+- normalise stale modifier in the queue: verified in staging.
+- expose stale store: verified in staging.
+- expose expired modifier: decided.
+- paginate oversized ticket: verified in staging.
+- document late receipt at close: verified in staging.
+- cache empty guest: blocked on store systems.

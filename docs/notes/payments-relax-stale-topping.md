@@ -19,3 +19,18 @@
 - handle regional ticket for pickup: blocked on store systems.
 - expose oversized guest on checkout: blocked on store systems.
 - expose expired pickup slot: open.
+
+- paginate partial cart line: blocked on store systems.
+- relax cancelled pickup slot: open.
+- tighten late promo: owner: delivery manager.
+- trim empty pickup slot: open.
+- handle missing modifier: blocked on store systems.
+- normalise missing menu item: open.
+- validate late kitchen ticket per store: owner: delivery manager.
+- dedupe oversized kitchen ticket: deferred to the next release.
+- tighten regional tax line: owner: delivery manager.
+- guard late pickup slot: blocked on store systems.
+- normalise empty ticket: decided.
+- normalise partial kitchen ticket: verified in staging.
+- relax regional kitchen ticket: decided.
+- document oversized pickup slot at close: owner: delivery manager.

@@ -1230,4 +1230,52 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'backfill empty guest',
     quantity: 11,
   },
+  {
+    id: 'payments-9134',
+    store: '412',
+    label: 'relax empty tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'payments-4018',
+    store: '182',
+    label: 'add stale menu item',
+    quantity: 7,
+  },
+  {
+    id: 'payments-4382',
+    store: '402',
+    label: 'guard cancelled order for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'payments-2395',
+    store: '237',
+    label: 'log duplicate guest at close',
+    quantity: 12,
+  },
+  {
+    id: 'payments-1269',
+    store: '603',
+    label: 'retry expired cart line at close',
+    quantity: 3,
+  },
+  {
+    id: 'payments-7102',
+    store: '372',
+    label: 'rename missing store in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'payments-4197',
+    store: '345',
+    label: 'trim missing location',
+    quantity: 6,
+  },
+  {
+    id: 'payments-5172',
+    store: '563',
+    label: 'expose late location',
+    quantity: 8,
+  },
 ];

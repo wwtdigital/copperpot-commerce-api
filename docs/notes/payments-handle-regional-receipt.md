@@ -74,3 +74,18 @@
 - validate stale menu item: owner: delivery manager.
 - add duplicate location for pickup: blocked on store systems.
 - paginate late location: blocked on store systems.
+
+- add regional order: open.
+- normalise regional ticket on checkout: owner: delivery manager.
+- retry expired loyalty credit on checkout: verified in staging.
+- relax late loyalty credit: open.
+- log late location: owner: delivery manager.
+- cache expired cart line: verified in staging.
+- validate expired pickup slot on reorder: verified in staging.
+- dedupe stale loyalty credit: blocked on store systems.
+- document cancelled kitchen ticket: verified in staging.
+- normalise cancelled guest: owner: delivery manager.
+- expose empty modifier on checkout: owner: delivery manager.
+- cache missing receipt: blocked on store systems.
+- sort oversized receipt: deferred to the next release.
+- paginate late menu item: blocked on store systems.

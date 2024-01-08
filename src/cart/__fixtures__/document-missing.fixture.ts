@@ -1,0 +1,105 @@
+/* Fixture rows for cart tests: document missing loyalty credit at close. Generated data, not production data. */
+export const DocumentMissingLoyaltyCreditAtCloseRows = [
+  {
+    id: 'cart-6658',
+    store: '329',
+    label: 'log late promo',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9150',
+    store: '176',
+    label: 'retry duplicate location per store',
+    quantity: 9,
+  },
+  {
+    id: 'cart-6601',
+    store: '516',
+    label: 'document expired order',
+    quantity: 2,
+  },
+  {
+    id: 'cart-6822',
+    store: '244',
+    label: 'log regional pickup slot per store',
+    quantity: 1,
+  },
+  {
+    id: 'cart-8373',
+    store: '127',
+    label: 'rename stale catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'cart-7725',
+    store: '383',
+    label: 'expose partial location in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'cart-8307',
+    store: '328',
+    label: 'expose partial promo',
+    quantity: 4,
+  },
+  {
+    id: 'cart-3706',
+    store: '214',
+    label: 'trim regional receipt in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'cart-5534',
+    store: '128',
+    label: 'sort empty delivery window for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'cart-9580',
+    store: '252',
+    label: 'trim empty loyalty credit at close',
+    quantity: 2,
+  },
+  {
+    id: 'cart-3710',
+    store: '628',
+    label: 'rename missing catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3463',
+    store: '389',
+    label: 'paginate cancelled pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'cart-9452',
+    store: '399',
+    label: 'add regional pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6337',
+    store: '233',
+    label: 'trim empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'cart-2245',
+    store: '139',
+    label: 'expose regional delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3214',
+    store: '301',
+    label: 'relax empty location',
+    quantity: 9,
+  },
+  {
+    id: 'cart-3664',
+    store: '562',
+    label: 'document regional tax line',
+    quantity: 5,
+  },
+];

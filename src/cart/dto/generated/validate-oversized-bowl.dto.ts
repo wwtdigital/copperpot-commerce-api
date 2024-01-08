@@ -149,4 +149,28 @@ export class ValidateOversizedBowlDto {
   backfillEmptyTopping!: string;
   retryRegionalCateringTrayOnCheckout?: number;
   handleExpiredCateringTrayPerStore!: Date;
+  trimStaleDeliveryWindowInTheQueue!: number;
+  renameMissingPickupSlot?: number;
+  documentExpiredOrderPerStore!: Date;
+  tightenPartialReceipt?: boolean;
+  sortEmptyPromo!: number;
+  logOversizedGuestInTheQueue?: string;
+  backfillEmptyKitchenTicket!: boolean;
+  tightenDuplicateCartLineInTheQueue!: string[];
+  relaxExpiredModifier!: number;
+  tightenDuplicateBowlOnCheckout!: string[];
+  relaxCancelledCateringTray?: boolean;
+  cacheEmptyTicket?: number;
+  retryStalePickupSlot!: boolean;
+  addEmptyCateringTray!: Date;
+  trimExpiredDeliveryWindow!: string[];
+  cacheStaleCartLine?: string[];
+  renameDuplicateTaxLine?: boolean;
+  trimStaleStoreAtClose!: Date;
+  dedupeExpiredTopping?: string[];
+  paginateExpiredGuest?: boolean;
+  cacheMissingPickupSlot!: boolean;
+  paginateDuplicateBowl!: Date;
+  cacheExpiredMenuItem!: Date;
+  backfillDuplicateGuest!: boolean;
 }

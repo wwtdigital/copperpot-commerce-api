@@ -14,6 +14,15 @@ import { ISingleClientResponseDTO, ISingleClientSignedInResponseDTO } from './si
  * Tighten partial guest.
  */
 export type SingleClientApiResponse = ISingleClientResponseDTO | ISingleClientSignedInResponseDTO;
+/**
+ * Backfill missing catering tray.
+ * Handle empty menu item per store.
+ * Guard stale modifier on reorder.
+ * Cache partial receipt for pickup.
+ * Handle stale cart line.
+ * Relax empty cart line.
+ * Sort regional pickup slot for franchisees.
+ */
 export class SingleClientParser {
   static createSingleClientResponse(
     singleclient: SingleClient,

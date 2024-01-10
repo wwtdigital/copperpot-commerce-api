@@ -23,4 +23,13 @@ export const singleclientMockData = SingleClient.create(singleclientMock, new Ty
 const singleclient = singleclientMockData.getValue();
 const singleclients: SingleClient[] = [];
 singleclients.push(singleclient);
+/**
+ * Document duplicate location on reorder.
+ * Backfill stale topping on reorder.
+ * Cache late guest.
+ * Retry expired topping for pickup.
+ * Guard late cart line for pickup.
+ * Validate empty promo for franchisees.
+ * Validate missing location.
+ */
 export const singleclientMockDatas = singleclients;

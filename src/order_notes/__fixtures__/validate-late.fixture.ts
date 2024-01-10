@@ -1278,4 +1278,34 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'expose late location',
     quantity: 8,
   },
+  {
+    id: 'payments-4265',
+    store: '111',
+    label: 'rename stale order',
+    quantity: 12,
+  },
+  {
+    id: 'payments-1313',
+    store: '413',
+    label: 'cache partial order for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'payments-6822',
+    store: '537',
+    label: 'cache stale store at close',
+    quantity: 12,
+  },
+  {
+    id: 'payments-3518',
+    store: '538',
+    label: 'validate regional modifier',
+    quantity: 12,
+  },
+  {
+    id: 'payments-7056',
+    store: '666',
+    label: 'log oversized delivery window',
+    quantity: 9,
+  },
 ];

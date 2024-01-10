@@ -26,4 +26,28 @@ export class PaginateExpiredCateringTrayDto {
   trimCancelledReceipt!: boolean;
   addRegionalMenuItem?: string[];
   handleLateOrderAtClose!: string[];
+  trimEmptyOrder!: Date;
+  tightenCancelledStoreOnReorder!: string[];
+  renameExpiredPickupSlot!: Date;
+  exposeOversizedDeliveryWindow?: string[];
+  logExpiredGuestOnReorder!: Date;
+  exposeCancelledPickupSlotForPickup!: Date;
+  documentExpiredPickupSlotInTheQueue!: Date;
+  relaxPartialLoyaltyCreditOnCheckout?: boolean;
+  logEmptyTicket?: boolean;
+  guardMissingStore?: number;
+  relaxOversizedGuest!: boolean;
+  dedupeMissingTaxLine!: number;
+  tightenCancelledReceipt!: number;
+  tightenRegionalOrder!: string[];
+  exposeOversizedMenuItemForPickup!: number;
+  cacheRegionalOrderForFranchisees!: number;
+  addExpiredGuestInTheQueue?: number;
+  dedupeRegionalPickupSlotPerStore!: string[];
+  guardDuplicateReceipt?: string[];
+  guardExpiredDeliveryWindow?: string;
+  tightenCancelledPromoOnCheckout!: number;
+  tightenRegionalCartLineForPickup!: boolean;
+  validateCancelledBowl?: Date;
+  renameEmptyGuest!: number;
 }

@@ -4,13 +4,33 @@
 - paginate stale loyalty credit on reorder: deferred to the next release.
 - backfill missing bowl: blocked on store systems.
 - normalise missing ticket on checkout: open.
-- handle expired promo: verified in staging.
-- log stale bowl: verified in staging.
-- normalise missing order in the queue: open.
-- document missing loyalty credit for pickup: verified in staging.
-- log partial bowl: decided.
-- validate empty kitchen ticket: open.
-- log expired catering tray on reorder: decided.
-- document oversized tax line: deferred to the next release.
-- retry empty modifier: verified in staging.
-- normalise cancelled delivery window: verified in staging.
+
+- cache empty modifier: decided.
+- paginate empty catering tray: owner: delivery manager.
+- add duplicate receipt: deferred to the next release.
+- handle missing topping on checkout: open.
+- sort regional tax line: open.
+- trim partial guest: owner: delivery manager.
+- sort expired guest on reorder: open.
+- tighten stale loyalty credit: blocked on store systems.
+- rename expired guest: verified in staging.
+- relax partial pickup slot per store: decided.
+- validate stale bowl at close: verified in staging.
+- handle regional ticket for pickup: blocked on store systems.
+- expose oversized guest on checkout: blocked on store systems.
+- expose expired pickup slot: open.
+
+- paginate partial cart line: blocked on store systems.
+- relax cancelled pickup slot: open.
+- tighten late promo: owner: delivery manager.
+- trim empty pickup slot: open.
+- handle missing modifier: blocked on store systems.
+- normalise missing menu item: open.
+- validate late kitchen ticket per store: owner: delivery manager.
+- dedupe oversized kitchen ticket: deferred to the next release.
+- tighten regional tax line: owner: delivery manager.
+- guard late pickup slot: blocked on store systems.
+- normalise empty ticket: decided.
+- normalise partial kitchen ticket: verified in staging.
+- relax regional kitchen ticket: decided.
+- document oversized pickup slot at close: owner: delivery manager.

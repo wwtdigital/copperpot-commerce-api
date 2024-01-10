@@ -133,4 +133,27 @@ export class TightenExpiredModifierAtCloseDto {
   addPartialModifierOnCheckout!: number;
   logRegionalBowl?: string[];
   exposeStaleBowl?: string[];
+  validateOversizedCateringTrayOnReorder!: number;
+  retryMissingPromoForFranchisees!: number;
+  guardDuplicateStore?: boolean;
+  cacheOversizedMenuItem!: boolean;
+  tightenPartialPromo?: boolean;
+  dedupeRegionalStorePerStore!: Date;
+  retryPartialOrderAtClose?: string[];
+  documentCancelledLocationAtClose!: boolean;
+  validatePartialReceipt!: string;
+  validateStaleCateringTrayForPickup?: string[];
+  cacheOversizedBowlOnReorder!: boolean;
+  cacheCancelledDeliveryWindowForFranchisees!: string[];
+  dedupePartialPickupSlotInTheQueue!: string[];
+  validateMissingOrderForPickup!: string[];
+  dedupeExpiredMenuItemForFranchisees!: string;
+  cacheMissingGuest!: string;
+  normaliseMissingCateringTray!: boolean;
+  addEmptyLocationInTheQueue!: boolean;
+  backfillCancelledTaxLine!: Date;
+  paginateDuplicateTaxLine?: string;
+  guardRegionalPickupSlot!: boolean;
+  backfillDuplicatePromoInTheQueue!: number;
+  tightenLateLoyaltyCredit!: boolean;
 }

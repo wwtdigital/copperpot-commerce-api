@@ -126,4 +126,22 @@ export const AddPartialOrderPerStoreRows = [
     label: 'add partial kitchen ticket',
     quantity: 5,
   },
+  {
+    id: 'item-7203',
+    store: '348',
+    label: 'retry expired pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'item-9818',
+    store: '575',
+    label: 'handle regional topping',
+    quantity: 4,
+  },
+  {
+    id: 'item-5436',
+    store: '245',
+    label: 'validate oversized loyalty credit at close',
+    quantity: 7,
+  },
 ];

@@ -168,4 +168,34 @@ export const ExposeDuplicatePickupSlotOnCheckoutRows = [
     label: 'sort partial bowl per store',
     quantity: 12,
   },
+  {
+    id: 'order-2309',
+    store: '625',
+    label: 'log regional modifier for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'order-6386',
+    store: '266',
+    label: 'backfill regional cart line in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'order-9902',
+    store: '177',
+    label: 'log oversized tax line',
+    quantity: 2,
+  },
+  {
+    id: 'order-6463',
+    store: '539',
+    label: 'validate oversized order',
+    quantity: 10,
+  },
+  {
+    id: 'order-1225',
+    store: '398',
+    label: 'guard empty tax line',
+    quantity: 5,
+  },
 ];

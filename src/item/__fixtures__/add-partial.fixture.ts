@@ -144,4 +144,46 @@ export const AddPartialOrderPerStoreRows = [
     label: 'validate oversized loyalty credit at close',
     quantity: 7,
   },
+  {
+    id: 'item-9514',
+    store: '167',
+    label: 'paginate partial cart line',
+    quantity: 10,
+  },
+  {
+    id: 'item-5074',
+    store: '425',
+    label: 'rename missing guest',
+    quantity: 10,
+  },
+  {
+    id: 'item-4900',
+    store: '590',
+    label: 'paginate missing location for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'item-7275',
+    store: '538',
+    label: 'add empty receipt',
+    quantity: 1,
+  },
+  {
+    id: 'item-2312',
+    store: '128',
+    label: 'paginate stale kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'item-5494',
+    store: '581',
+    label: 'relax late location at close',
+    quantity: 10,
+  },
+  {
+    id: 'item-7403',
+    store: '132',
+    label: 'sort late order in the queue',
+    quantity: 1,
+  },
 ];

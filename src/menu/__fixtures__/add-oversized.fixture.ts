@@ -108,4 +108,52 @@ export const AddOversizedReceiptRows = [
     label: 'add cancelled catering tray',
     quantity: 6,
   },
+  {
+    id: 'menu-7712',
+    store: '216',
+    label: 'cache partial delivery window for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'menu-7829',
+    store: '269',
+    label: 'guard empty store',
+    quantity: 12,
+  },
+  {
+    id: 'menu-5426',
+    store: '513',
+    label: 'guard expired delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3658',
+    store: '424',
+    label: 'backfill expired location in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'menu-7193',
+    store: '579',
+    label: 'log cancelled catering tray per store',
+    quantity: 11,
+  },
+  {
+    id: 'menu-8003',
+    store: '668',
+    label: 'add oversized order',
+    quantity: 1,
+  },
+  {
+    id: 'menu-1563',
+    store: '406',
+    label: 'guard regional store for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'menu-4763',
+    store: '431',
+    label: 'validate late guest',
+    quantity: 3,
+  },
 ];

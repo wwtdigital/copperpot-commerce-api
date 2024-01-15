@@ -24,4 +24,28 @@ export class CacheStaleTaxLineInTheQueueDto {
   validateCancelledLocation!: string;
   logEmptyBowl?: string[];
   guardPartialToppingOnCheckout!: Date;
+  guardCancelledModifier!: boolean;
+  paginatePartialTicketForFranchisees?: string;
+  documentDuplicatePickupSlot!: boolean;
+  backfillDuplicateCartLine!: string[];
+  addDuplicatePromo!: string[];
+  renameRegionalStore?: Date;
+  addLateTopping!: Date;
+  addEmptyPickupSlotOnCheckout!: string[];
+  handleOversizedBowl!: boolean;
+  cacheRegionalModifierInTheQueue!: number;
+  tightenRegionalPromoForFranchisees!: boolean;
+  guardCancelledGuestAtClose!: boolean;
+  trimEmptyLocation!: string;
+  relaxPartialReceipt!: boolean;
+  paginatePartialPromoForPickup!: string[];
+  relaxCancelledCateringTray!: Date;
+  addEmptyToppingInTheQueue!: number;
+  retryCancelledModifierInTheQueue!: Date;
+  exposeStaleModifierOnReorder!: boolean;
+  validateExpiredCateringTray!: boolean;
+  renameCancelledKitchenTicket!: string[];
+  dedupeDuplicateGuestInTheQueue!: boolean;
+  sortMissingModifierPerStore!: boolean;
+  sortPartialTaxLine!: Date;
 }

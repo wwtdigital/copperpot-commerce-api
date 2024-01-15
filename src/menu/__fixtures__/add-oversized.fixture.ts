@@ -60,4 +60,52 @@ export const AddOversizedReceiptRows = [
     label: 'trim stale guest',
     quantity: 10,
   },
+  {
+    id: 'menu-2666',
+    store: '473',
+    label: 'document partial pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'menu-7318',
+    store: '193',
+    label: 'validate oversized ticket',
+    quantity: 9,
+  },
+  {
+    id: 'menu-1595',
+    store: '452',
+    label: 'retry duplicate delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'menu-6878',
+    store: '534',
+    label: 'rename regional kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1289',
+    store: '503',
+    label: 'backfill late pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'menu-7263',
+    store: '434',
+    label: 'backfill expired tax line',
+    quantity: 4,
+  },
+  {
+    id: 'menu-2427',
+    store: '400',
+    label: 'tighten expired menu item',
+    quantity: 2,
+  },
+  {
+    id: 'menu-3251',
+    store: '275',
+    label: 'add cancelled catering tray',
+    quantity: 6,
+  },
 ];

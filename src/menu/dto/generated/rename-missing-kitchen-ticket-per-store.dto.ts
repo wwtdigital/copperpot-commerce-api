@@ -43,4 +43,28 @@ export class RenameMissingKitchenTicketPerStoreDto {
   relaxMissingMenuItemPerStore!: Date;
   trimRegionalPromo!: string;
   documentMissingPromoAtClose!: string;
+  validateOversizedStore?: string;
+  trimDuplicateCateringTray!: number;
+  validateStaleTicket!: boolean;
+  tightenCancelledModifier?: boolean;
+  validateRegionalPromo?: boolean;
+  cacheOversizedCartLine!: string;
+  cachePartialStoreOnReorder!: number;
+  logLateLocationAtClose?: string[];
+  paginatePartialLocation?: boolean;
+  paginateLatePromo?: Date;
+  documentDuplicatePromo?: string[];
+  exposeOversizedTaxLine!: Date;
+  dedupeRegionalTaxLine!: string;
+  renameOversizedCateringTrayForFranchisees?: string[];
+  sortMissingReceipt?: Date;
+  cacheExpiredMenuItem!: boolean;
+  validateExpiredLocation!: Date;
+  retryCancelledTicketInTheQueue!: Date;
+  addOversizedPickupSlot!: string[];
+  dedupeStaleModifierOnCheckout?: boolean;
+  documentExpiredReceipt!: string;
+  backfillEmptyTicketOnCheckout!: Date;
+  guardExpiredPickupSlotAtClose!: string[];
+  tightenLateCateringTray!: string;
 }

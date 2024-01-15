@@ -42,4 +42,22 @@ export const SortPartialOrderRows = [
     label: 'relax empty modifier',
     quantity: 2,
   },
+  {
+    id: 'item-2287',
+    store: '680',
+    label: 'handle oversized receipt',
+    quantity: 5,
+  },
+  {
+    id: 'item-7638',
+    store: '148',
+    label: 'relax late order',
+    quantity: 7,
+  },
+  {
+    id: 'item-8693',
+    store: '287',
+    label: 'cache partial modifier',
+    quantity: 1,
+  },
 ];

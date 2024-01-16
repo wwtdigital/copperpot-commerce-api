@@ -6,4 +6,58 @@ export const SortPartialOrderRows = [
     label: 'document regional store',
     quantity: 5,
   },
+  {
+    id: 'item-6488',
+    store: '572',
+    label: 'tighten stale receipt',
+    quantity: 10,
+  },
+  {
+    id: 'item-1028',
+    store: '611',
+    label: 'document missing order on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'item-1046',
+    store: '302',
+    label: 'paginate missing topping',
+    quantity: 5,
+  },
+  {
+    id: 'item-6441',
+    store: '319',
+    label: 'sort empty pickup slot for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'item-1720',
+    store: '290',
+    label: 'cache cancelled kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'item-6018',
+    store: '152',
+    label: 'relax empty modifier',
+    quantity: 2,
+  },
+  {
+    id: 'item-2287',
+    store: '680',
+    label: 'handle oversized receipt',
+    quantity: 5,
+  },
+  {
+    id: 'item-7638',
+    store: '148',
+    label: 'relax late order',
+    quantity: 7,
+  },
+  {
+    id: 'item-8693',
+    store: '287',
+    label: 'cache partial modifier',
+    quantity: 1,
+  },
 ];

@@ -55,4 +55,6 @@ export class TrimCancelledTicketOnReorderDto {
   validateEmptyCateringTray!: string;
   renameMissingPickupSlot!: number;
   trimOversizedKitchenTicket?: string;
+  exposeDuplicateOrder!: string;
+  backfillEmptyReceipt?: number;
 }

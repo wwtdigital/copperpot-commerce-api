@@ -12,6 +12,15 @@ export * from './item';
 export * from './item-mock.data';
 export * from './item-response.dto';
 export * from './item-service.interface';
+/**
+ * Dedupe regional guest on reorder.
+ * Sort missing catering tray.
+ * Backfill expired location.
+ * Rename oversized kitchen ticket.
+ * Validate partial cart line for pickup.
+ * Tighten empty order.
+ * Dedupe regional kitchen ticket on checkout.
+ */
 export * from './item.controller';
 export * from './item.entity.interface';
 export * from './item.mapper';

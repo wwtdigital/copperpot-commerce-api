@@ -198,4 +198,58 @@ export const ExposeDuplicatePickupSlotOnCheckoutRows = [
     label: 'guard empty tax line',
     quantity: 5,
   },
+  {
+    id: 'order-9024',
+    store: '656',
+    label: 'tighten cancelled order',
+    quantity: 12,
+  },
+  {
+    id: 'order-1654',
+    store: '169',
+    label: 'cache cancelled delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'order-8016',
+    store: '330',
+    label: 'rename expired store per store',
+    quantity: 9,
+  },
+  {
+    id: 'order-3521',
+    store: '306',
+    label: 'retry empty modifier',
+    quantity: 8,
+  },
+  {
+    id: 'order-6545',
+    store: '106',
+    label: 'relax partial receipt',
+    quantity: 5,
+  },
+  {
+    id: 'order-8033',
+    store: '199',
+    label: 'backfill oversized order for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'order-1165',
+    store: '535',
+    label: 'relax missing cart line in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'order-5456',
+    store: '137',
+    label: 'cache partial menu item on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'order-8016',
+    store: '665',
+    label: 'sort late store',
+    quantity: 10,
+  },
 ];

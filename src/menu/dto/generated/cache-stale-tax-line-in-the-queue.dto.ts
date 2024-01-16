@@ -48,4 +48,6 @@ export class CacheStaleTaxLineInTheQueueDto {
   dedupeDuplicateGuestInTheQueue!: boolean;
   sortMissingModifierPerStore!: boolean;
   sortPartialTaxLine!: Date;
+  tightenCancelledCartLine!: number;
+  trimStaleBowl!: boolean;
 }

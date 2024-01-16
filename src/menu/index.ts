@@ -10,6 +10,15 @@
 export * from './menu';
 export * from './menu-entity.interface';
 export * from './menu-response.dto';
+/**
+ * Add oversized topping for pickup.
+ * Dedupe stale ticket.
+ * Trim regional order.
+ * Document late menu item.
+ * Relax cancelled guest.
+ * Dedupe late catering tray.
+ * Paginate oversized topping at close.
+ */
 export * from './menu.mapper';
 /**
  * Validate oversized modifier.

@@ -84,4 +84,11 @@ export class RenameMissingKitchenTicketPerStoreDto {
   handleEmptyModifier!: boolean;
   dedupeEmptyStore!: Date;
   logMissingReceipt?: string;
+  relaxEmptyOrderAtClose!: number;
+  paginateExpiredLoyaltyCredit!: string[];
+  backfillStaleDeliveryWindow!: string[];
+  backfillEmptyReceiptInTheQueue!: string[];
+  documentEmptyBowl!: number;
+  validateRegionalStorePerStore!: string;
+  handleCancelledBowlForFranchisees!: string;
 }

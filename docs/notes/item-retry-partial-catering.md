@@ -16,3 +16,18 @@
 - validate missing bowl: owner: delivery manager.
 - retry missing cart line: open.
 - expose missing pickup slot for pickup: owner: delivery manager.
+
+- document regional promo: owner: delivery manager.
+- tighten partial promo: deferred to the next release.
+- cache oversized pickup slot: open.
+- cache expired cart line: owner: delivery manager.
+- paginate cancelled promo: verified in staging.
+- log partial cart line at close: deferred to the next release.
+- trim expired order at close: open.
+- retry stale kitchen ticket: blocked on store systems.
+- expose oversized cart line on checkout: open.
+- tighten partial delivery window: owner: delivery manager.
+- tighten cancelled menu item on reorder: decided.
+- handle oversized loyalty credit: blocked on store systems.
+- handle late ticket: owner: delivery manager.
+- guard cancelled loyalty credit for pickup: owner: delivery manager.

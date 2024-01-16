@@ -192,4 +192,58 @@ export const AddPartialOrderPerStoreRows = [
     label: 'tighten partial modifier for pickup',
     quantity: 5,
   },
+  {
+    id: 'item-4689',
+    store: '571',
+    label: 'log regional cart line',
+    quantity: 12,
+  },
+  {
+    id: 'item-5880',
+    store: '135',
+    label: 'handle missing bowl',
+    quantity: 8,
+  },
+  {
+    id: 'item-6131',
+    store: '243',
+    label: 'dedupe late cart line',
+    quantity: 11,
+  },
+  {
+    id: 'item-1837',
+    store: '363',
+    label: 'retry partial store in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'item-3640',
+    store: '476',
+    label: 'paginate late cart line',
+    quantity: 1,
+  },
+  {
+    id: 'item-5981',
+    store: '425',
+    label: 'handle expired kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'item-5387',
+    store: '479',
+    label: 'sort regional topping',
+    quantity: 12,
+  },
+  {
+    id: 'item-8002',
+    store: '162',
+    label: 'tighten regional modifier',
+    quantity: 2,
+  },
+  {
+    id: 'item-2470',
+    store: '656',
+    label: 'rename late menu item',
+    quantity: 9,
+  },
 ];

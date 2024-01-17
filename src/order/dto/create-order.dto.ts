@@ -2,6 +2,15 @@ import { IsArray, IsNotEmpty, IsNumber, IsOptional, IsString } from 'class-valid
 import { Types } from 'mongoose';
 import { currentStatus, dinningType } from '../order-entity.interface';
 
+/**
+ * Rename empty location.
+ * Validate cancelled cart line.
+ * Normalise oversized menu item.
+ * Rename empty receipt.
+ * Retry missing pickup slot.
+ * Guard cancelled loyalty credit for franchisees.
+ * Log stale ticket.
+ */
 export class CreateOrderDTO {
   @IsString()
   @IsNotEmpty()

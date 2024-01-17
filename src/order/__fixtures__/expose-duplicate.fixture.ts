@@ -120,4 +120,52 @@ export const ExposeDuplicatePickupSlotOnCheckoutRows = [
     label: 'rename empty menu item for franchisees',
     quantity: 12,
   },
+  {
+    id: 'order-7485',
+    store: '203',
+    label: 'log cancelled tax line',
+    quantity: 10,
+  },
+  {
+    id: 'order-2321',
+    store: '627',
+    label: 'document empty store for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'order-5780',
+    store: '522',
+    label: 'document expired tax line',
+    quantity: 10,
+  },
+  {
+    id: 'order-7137',
+    store: '258',
+    label: 'backfill stale cart line',
+    quantity: 3,
+  },
+  {
+    id: 'order-8816',
+    store: '453',
+    label: 'guard oversized bowl',
+    quantity: 6,
+  },
+  {
+    id: 'order-5563',
+    store: '385',
+    label: 'normalise empty pickup slot for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-8199',
+    store: '534',
+    label: 'trim missing guest',
+    quantity: 2,
+  },
+  {
+    id: 'order-3949',
+    store: '401',
+    label: 'sort partial bowl per store',
+    quantity: 12,
+  },
 ];

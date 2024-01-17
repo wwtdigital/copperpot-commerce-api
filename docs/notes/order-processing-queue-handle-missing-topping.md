@@ -19,3 +19,18 @@
 - sort late tax line: deferred to the next release.
 - log expired bowl for franchisees: deferred to the next release.
 - trim regional delivery window for franchisees: owner: delivery manager.
+
+- guard missing topping: deferred to the next release.
+- add empty modifier: deferred to the next release.
+- relax late cart line: owner: delivery manager.
+- backfill cancelled kitchen ticket per store: owner: delivery manager.
+- log missing pickup slot: owner: delivery manager.
+- log stale store: decided.
+- cache expired receipt: decided.
+- rename stale loyalty credit: verified in staging.
+- log cancelled topping: owner: delivery manager.
+- normalise expired pickup slot: open.
+- expose expired pickup slot: deferred to the next release.
+- sort expired catering tray on reorder: blocked on store systems.
+- validate empty promo: deferred to the next release.
+- validate cancelled receipt for pickup: blocked on store systems.

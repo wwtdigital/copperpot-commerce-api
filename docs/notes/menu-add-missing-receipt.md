@@ -116,3 +116,6 @@
 - retry partial order for pickup: verified in staging.
 - trim stale loyalty credit on checkout: blocked on store systems.
 - add stale menu item: owner: delivery manager.
+
+- validate oversized topping for franchisees: blocked on store systems.
+- cache late menu item on checkout: owner: delivery manager.

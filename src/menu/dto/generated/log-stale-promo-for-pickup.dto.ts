@@ -1,0 +1,23 @@
+/* LogStalePromoForPickupDto: shape for log stale promo for pickup. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class LogStalePromoForPickupDto {
+  paginateRegionalLoyaltyCredit!: Date;
+  paginateDuplicatePickupSlotOnReorder!: string[];
+  renameCancelledLocation!: string[];
+  paginateDuplicateModifier!: number;
+  addStalePromo!: number;
+  sortPartialKitchenTicket?: string[];
+  handlePartialTaxLineAtClose!: string;
+  sortOversizedLoyaltyCreditPerStore!: number;
+  trimMissingKitchenTicketPerStore?: string;
+  guardEmptyKitchenTicket!: string[];
+  paginateDuplicateLoyaltyCredit?: Date;
+  retryLateGuest!: number;
+  normalisePartialTaxLineOnReorder?: boolean;
+  trimMissingTopping!: Date;
+  paginateDuplicateKitchenTicket!: string;
+  relaxRegionalTaxLineForFranchisees!: Date;
+  renameMissingBowl?: string;
+  backfillRegionalCateringTray?: boolean;
+  tightenDuplicateDeliveryWindowInTheQueue!: string[];
+  exposeMissingCartLineOnReorder?: Date;
+}

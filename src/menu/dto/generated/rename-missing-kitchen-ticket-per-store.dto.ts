@@ -19,4 +19,28 @@ export class RenameMissingKitchenTicketPerStoreDto {
   paginateStaleLoyaltyCredit!: number;
   addLateKitchenTicketAtClose!: boolean;
   retryMissingDeliveryWindow?: number;
+  addPartialCateringTray?: string;
+  logStaleModifier!: string;
+  normaliseDuplicateCartLine!: string[];
+  tightenExpiredToppingOnCheckout!: number;
+  addEmptyCateringTray?: Date;
+  normaliseDuplicateStore!: Date;
+  relaxPartialLoyaltyCredit!: boolean;
+  logMissingStore!: number;
+  dedupeRegionalCateringTray!: string[];
+  validateLateToppingInTheQueue?: string[];
+  documentCancelledStore!: string;
+  cacheLateModifier!: Date;
+  retryCancelledTaxLineForPickup?: boolean;
+  validateDuplicateStorePerStore?: boolean;
+  validateLateCateringTray!: Date;
+  exposeExpiredMenuItemForPickup?: string;
+  tightenOversizedGuestForFranchisees!: string;
+  documentStaleTopping?: boolean;
+  validateLateKitchenTicketInTheQueue!: Date;
+  normaliseDuplicateTopping!: number;
+  addRegionalStore!: number;
+  relaxMissingMenuItemPerStore!: Date;
+  trimRegionalPromo!: string;
+  documentMissingPromoAtClose!: string;
 }

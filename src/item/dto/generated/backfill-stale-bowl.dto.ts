@@ -22,4 +22,28 @@ export class BackfillStaleBowlDto {
   addStaleKitchenTicket!: number;
   backfillMissingPromoForFranchisees!: Date;
   validateRegionalOrderAtClose!: string;
+  exposeEmptyGuestOnReorder!: boolean;
+  relaxStaleCartLineOnCheckout?: string;
+  retryCancelledLocationAtClose!: string[];
+  exposeEmptyCartLineInTheQueue!: Date;
+  logRegionalCartLinePerStore?: string[];
+  renameStaleCartLine?: Date;
+  cacheDuplicateBowl?: string;
+  paginateExpiredPromo?: string;
+  retryCancelledKitchenTicketPerStore!: boolean;
+  logCancelledLocation!: Date;
+  relaxOversizedBowlOnCheckout!: string[];
+  logExpiredDeliveryWindow!: boolean;
+  backfillRegionalBowl?: string;
+  normaliseDuplicateBowl?: number;
+  sortLateReceipt!: number;
+  documentOversizedBowl?: boolean;
+  exposeOversizedLoyaltyCredit!: string;
+  validateEmptyCateringTrayInTheQueue!: string;
+  logCancelledModifier!: boolean;
+  dedupePartialGuest!: Date;
+  guardRegionalPickupSlot!: number;
+  guardPartialStoreOnReorder!: string;
+  relaxDuplicateToppingAtClose!: string;
+  handleLateStore!: Date;
 }

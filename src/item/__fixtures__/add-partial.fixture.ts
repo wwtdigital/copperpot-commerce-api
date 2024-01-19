@@ -306,4 +306,22 @@ export const AddPartialOrderPerStoreRows = [
     label: 'guard expired kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'item-3845',
+    store: '545',
+    label: 'tighten regional location',
+    quantity: 9,
+  },
+  {
+    id: 'item-2396',
+    store: '168',
+    label: 'trim late ticket',
+    quantity: 10,
+  },
+  {
+    id: 'item-8174',
+    store: '317',
+    label: 'sort cancelled delivery window at close',
+    quantity: 2,
+  },
 ];

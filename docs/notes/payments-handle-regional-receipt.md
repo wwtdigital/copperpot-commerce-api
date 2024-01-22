@@ -104,3 +104,18 @@
 - dedupe regional order per store: deferred to the next release.
 - backfill stale ticket per store: open.
 - normalise expired order: owner: delivery manager.
+
+- backfill oversized loyalty credit: deferred to the next release.
+- handle stale location on checkout: deferred to the next release.
+- guard missing catering tray per store: blocked on store systems.
+- handle duplicate menu item: decided.
+- add expired catering tray in the queue: decided.
+- log partial catering tray: verified in staging.
+- cache cancelled modifier: blocked on store systems.
+- trim regional store: blocked on store systems.
+- cache cancelled store: owner: delivery manager.
+- normalise duplicate menu item: deferred to the next release.
+- guard partial receipt on reorder: deferred to the next release.
+- relax partial store: deferred to the next release.
+- expose regional order: verified in staging.
+- backfill partial guest per store: blocked on store systems.

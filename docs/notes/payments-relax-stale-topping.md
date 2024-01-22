@@ -34,3 +34,18 @@
 - normalise partial kitchen ticket: verified in staging.
 - relax regional kitchen ticket: decided.
 - document oversized pickup slot at close: owner: delivery manager.
+
+- normalise expired delivery window: decided.
+- paginate empty catering tray per store: decided.
+- dedupe cancelled location at close: verified in staging.
+- retry regional menu item at close: owner: delivery manager.
+- trim late menu item: owner: delivery manager.
+- backfill cancelled catering tray in the queue: blocked on store systems.
+- backfill oversized kitchen ticket: owner: delivery manager.
+- dedupe late bowl: owner: delivery manager.
+- trim regional receipt: verified in staging.
+- sort late topping for pickup: open.
+- backfill stale receipt: deferred to the next release.
+- rename cancelled location: owner: delivery manager.
+- tighten missing menu item on reorder: decided.
+- handle missing menu item per store: deferred to the next release.

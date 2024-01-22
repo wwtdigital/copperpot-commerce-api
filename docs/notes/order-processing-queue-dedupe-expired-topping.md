@@ -29,3 +29,18 @@
 - dedupe oversized cart line at close: deferred to the next release.
 - trim late guest for pickup: decided.
 - guard empty modifier: open.
+
+- sort partial guest for pickup: decided.
+- backfill stale cart line: decided.
+- expose missing topping at close: deferred to the next release.
+- paginate cancelled promo: owner: delivery manager.
+- paginate duplicate order: decided.
+- relax empty menu item: decided.
+- document empty tax line per store: blocked on store systems.
+- log stale modifier: owner: delivery manager.
+- normalise oversized promo on reorder: owner: delivery manager.
+- expose duplicate cart line: deferred to the next release.
+- normalise cancelled location: deferred to the next release.
+- normalise duplicate catering tray: blocked on store systems.
+- add stale receipt: deferred to the next release.
+- validate regional guest: verified in staging.

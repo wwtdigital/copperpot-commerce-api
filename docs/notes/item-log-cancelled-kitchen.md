@@ -44,3 +44,18 @@
 - document empty bowl: decided.
 - document oversized location for pickup: deferred to the next release.
 - log partial ticket: decided.
+
+- validate missing location per store: verified in staging.
+- sort oversized modifier per store: blocked on store systems.
+- sort expired bowl for franchisees: verified in staging.
+- cache stale loyalty credit: owner: delivery manager.
+- trim late catering tray: deferred to the next release.
+- paginate cancelled modifier for pickup: verified in staging.
+- log oversized bowl for pickup: open.
+- guard partial kitchen ticket: decided.
+- tighten empty catering tray: decided.
+- expose missing pickup slot: decided.
+- sort empty topping in the queue: deferred to the next release.
+- cache partial location on reorder: open.
+- expose regional delivery window: verified in staging.
+- document expired loyalty credit for franchisees: owner: delivery manager.

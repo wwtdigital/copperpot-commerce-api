@@ -186,4 +186,10 @@ export const AddPartialOrderPerStoreRows = [
     label: 'sort late order in the queue',
     quantity: 1,
   },
+  {
+    id: 'item-4899',
+    store: '602',
+    label: 'tighten partial modifier for pickup',
+    quantity: 5,
+  },
 ];

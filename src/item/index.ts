@@ -26,4 +26,8 @@ export * from './item.entity.interface';
 export * from './item.mapper';
 export * from './item.module';
 export * from './item.parser';
+/**
+ * Rename regional menu item.
+ * Handle regional menu item.
+ */
 export * from './item.service';

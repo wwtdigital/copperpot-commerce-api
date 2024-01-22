@@ -29,3 +29,33 @@
 - paginate partial promo: verified in staging.
 - dedupe late tax line: verified in staging.
 - relax duplicate ticket: blocked on store systems.
+
+- expose oversized ticket: decided.
+- normalise expired modifier: deferred to the next release.
+- guard regional catering tray: deferred to the next release.
+- add expired promo: open.
+- document stale location: owner: delivery manager.
+- cache regional kitchen ticket: deferred to the next release.
+- paginate expired tax line per store: deferred to the next release.
+- relax empty catering tray: verified in staging.
+- expose stale promo: owner: delivery manager.
+- guard expired delivery window: deferred to the next release.
+- validate cancelled cart line on reorder: owner: delivery manager.
+- document empty bowl: decided.
+- document oversized location for pickup: deferred to the next release.
+- log partial ticket: decided.
+
+- validate missing location per store: verified in staging.
+- sort oversized modifier per store: blocked on store systems.
+- sort expired bowl for franchisees: verified in staging.
+- cache stale loyalty credit: owner: delivery manager.
+- trim late catering tray: deferred to the next release.
+- paginate cancelled modifier for pickup: verified in staging.
+- log oversized bowl for pickup: open.
+- guard partial kitchen ticket: decided.
+- tighten empty catering tray: decided.
+- expose missing pickup slot: decided.
+- sort empty topping in the queue: deferred to the next release.
+- cache partial location on reorder: open.
+- expose regional delivery window: verified in staging.
+- document expired loyalty credit for franchisees: owner: delivery manager.

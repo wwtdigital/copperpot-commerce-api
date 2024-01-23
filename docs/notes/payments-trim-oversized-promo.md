@@ -24,8 +24,3 @@
 - backfill stale pickup slot for pickup: open.
 - retry regional bowl at close: decided.
 - normalise stale modifier in the queue: verified in staging.
-- expose stale store: verified in staging.
-- expose expired modifier: decided.
-- paginate oversized ticket: verified in staging.
-- document late receipt at close: verified in staging.
-- cache empty guest: blocked on store systems.

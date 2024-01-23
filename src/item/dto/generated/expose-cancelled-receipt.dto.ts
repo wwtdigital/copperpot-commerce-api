@@ -22,4 +22,28 @@ export class ExposeCancelledReceiptDto {
   logCancelledLoyaltyCredit!: string[];
   addRegionalTicketForFranchisees!: string;
   backfillPartialOrderOnCheckout?: Date;
+  normaliseEmptyKitchenTicketForPickup!: string[];
+  logOversizedStoreForPickup!: boolean;
+  relaxPartialKitchenTicket!: boolean;
+  backfillMissingLocation!: number;
+  addEmptyTicketOnCheckout!: number;
+  renameStaleBowlOnReorder!: string[];
+  logLateTopping!: string;
+  relaxStaleLoyaltyCredit?: Date;
+  exposeDuplicateOrder!: boolean;
+  retryStaleBowlAtClose!: number;
+  renameRegionalLoyaltyCreditForPickup!: Date;
+  retryPartialBowl!: Date;
+  relaxMissingReceiptPerStore?: boolean;
+  trimPartialOrder!: Date;
+  documentRegionalTicket!: boolean;
+  sortEmptyToppingForFranchisees?: Date;
+  retryDuplicateKitchenTicket?: number;
+  tightenExpiredLocationForPickup!: boolean;
+  renameExpiredLocationAtClose!: number;
+  validateStaleBowl!: boolean;
+  retryRegionalStoreForFranchisees?: Date;
+  sortPartialCateringTrayPerStore!: boolean;
+  normaliseStaleGuestPerStore!: string;
+  addPartialCartLine?: boolean;
 }

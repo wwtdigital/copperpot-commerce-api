@@ -73,4 +73,28 @@ export class ExposeRegionalStoreDto {
   dedupeStaleStore?: Date;
   normaliseStalePromoForFranchisees!: string[];
   dedupeStaleStoreAtClose!: Date;
+  paginateDuplicateModifier?: string[];
+  documentOversizedTopping!: Date;
+  handlePartialBowlInTheQueue!: Date;
+  logPartialTaxLineInTheQueue!: Date;
+  logLatePromoInTheQueue?: string;
+  logMissingGuest!: string;
+  backfillEmptyDeliveryWindow?: string;
+  relaxStaleDeliveryWindow!: Date;
+  relaxCancelledGuest!: Date;
+  cacheStaleOrderOnReorder!: string;
+  guardStalePromo?: string;
+  handleDuplicateOrderForPickup?: string;
+  handleRegionalReceipt!: Date;
+  exposeLateBowl?: string;
+  exposeEmptyCartLineOnReorder!: Date;
+  documentRegionalBowl!: number;
+  documentEmptyToppingOnCheckout?: number;
+  retryCancelledTopping!: string[];
+  addCancelledTicket!: string[];
+  retryStaleMenuItem!: string;
+  backfillOversizedDeliveryWindow!: number;
+  retryOversizedKitchenTicketForFranchisees?: boolean;
+  trimExpiredLocationForFranchisees?: string;
+  backfillOversizedMenuItemAtClose!: boolean;
 }

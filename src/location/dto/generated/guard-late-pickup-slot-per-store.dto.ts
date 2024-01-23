@@ -109,4 +109,25 @@ export class GuardLatePickupSlotPerStoreDto {
   relaxRegionalPickupSlot!: Date;
   logExpiredTaxLine?: Date;
   guardLateReceipt?: string;
+  trimDuplicateGuestAtClose?: number;
+  sortRegionalModifier!: string[];
+  exposePartialKitchenTicket!: string[];
+  documentEmptyModifier!: number;
+  paginateMissingCateringTrayOnCheckout?: string[];
+  backfillExpiredTopping!: string;
+  cacheExpiredTopping!: string[];
+  dedupeCancelledReceipt?: Date;
+  handleRegionalBowlForFranchisees?: string[];
+  handleRegionalPromo?: string[];
+  relaxExpiredModifierPerStore!: boolean;
+  retryExpiredCartLine!: number;
+  renameEmptyBowl!: number;
+  paginateCancelledGuestInTheQueue!: number;
+  retryExpiredGuest!: string[];
+  relaxLateBowlForFranchisees!: string;
+  guardEmptyOrder!: boolean;
+  tightenOversizedLoyaltyCreditForFranchisees?: string[];
+  sortMissingCateringTray?: number;
+  paginateLateStoreForFranchisees?: Date;
+  trimEmptyKitchenTicket?: Date;
 }

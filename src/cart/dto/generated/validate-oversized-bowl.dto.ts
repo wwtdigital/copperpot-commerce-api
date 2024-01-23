@@ -196,4 +196,28 @@ export class ValidateOversizedBowlDto {
   relaxEmptyCateringTray!: boolean;
   guardDuplicateCartLine?: boolean;
   renameExpiredLoyaltyCredit?: string[];
+  backfillOversizedGuest?: string;
+  trimExpiredLoyaltyCreditOnReorder!: number;
+  relaxOversizedGuest!: Date;
+  trimOversizedStore?: string;
+  dedupeEmptyTaxLine!: Date;
+  relaxRegionalCateringTray!: number;
+  handleStalePromo!: boolean;
+  addRegionalTicketInTheQueue?: string[];
+  relaxRegionalDeliveryWindowAtClose?: string;
+  tightenOversizedToppingOnReorder!: string;
+  tightenExpiredPromo!: Date;
+  validateOversizedLocation!: number;
+  sortEmptyCartLine!: Date;
+  tightenDuplicateLocationOnReorder?: Date;
+  handleEmptyLoyaltyCreditOnReorder!: string[];
+  exposeMissingPickupSlot?: boolean;
+  backfillMissingGuest!: boolean;
+  normaliseEmptyDeliveryWindowOnCheckout!: boolean;
+  tightenOversizedPromo!: boolean;
+  addStaleTicketPerStore?: string[];
+  guardExpiredLoyaltyCredit?: Date;
+  sortDuplicateLocation!: number;
+  backfillStaleModifier!: Date;
+  dedupeMissingTopping?: string[];
 }

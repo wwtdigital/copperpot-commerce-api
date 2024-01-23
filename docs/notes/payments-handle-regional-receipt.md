@@ -89,3 +89,33 @@
 - cache missing receipt: blocked on store systems.
 - sort oversized receipt: deferred to the next release.
 - paginate late menu item: blocked on store systems.
+
+- sort empty kitchen ticket: verified in staging.
+- cache oversized location for franchisees: owner: delivery manager.
+- expose partial cart line: owner: delivery manager.
+- guard missing loyalty credit: deferred to the next release.
+- dedupe empty tax line: decided.
+- trim oversized receipt: blocked on store systems.
+- validate late modifier: verified in staging.
+- backfill partial ticket for franchisees: deferred to the next release.
+- relax cancelled catering tray: blocked on store systems.
+- dedupe expired receipt: blocked on store systems.
+- relax duplicate location on checkout: blocked on store systems.
+- dedupe regional order per store: deferred to the next release.
+- backfill stale ticket per store: open.
+- normalise expired order: owner: delivery manager.
+
+- backfill oversized loyalty credit: deferred to the next release.
+- handle stale location on checkout: deferred to the next release.
+- guard missing catering tray per store: blocked on store systems.
+- handle duplicate menu item: decided.
+- add expired catering tray in the queue: decided.
+- log partial catering tray: verified in staging.
+- cache cancelled modifier: blocked on store systems.
+- trim regional store: blocked on store systems.
+- cache cancelled store: owner: delivery manager.
+- normalise duplicate menu item: deferred to the next release.
+- guard partial receipt on reorder: deferred to the next release.
+- relax partial store: deferred to the next release.
+- expose regional order: verified in staging.
+- backfill partial guest per store: blocked on store systems.

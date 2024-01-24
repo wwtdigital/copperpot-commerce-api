@@ -1428,4 +1428,22 @@ export const ValidateLateMenuItemAtCloseRows = [
     label: 'normalise missing catering tray at close',
     quantity: 12,
   },
+  {
+    id: 'loyalty-8099',
+    store: '427',
+    label: 'validate empty bowl on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-2183',
+    store: '390',
+    label: 'log expired guest',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-1275',
+    store: '480',
+    label: 'sort expired kitchen ticket in the queue',
+    quantity: 7,
+  },
 ];

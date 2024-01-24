@@ -20,4 +20,12 @@ export class LogStalePromoForPickupDto {
   backfillRegionalCateringTray?: boolean;
   tightenDuplicateDeliveryWindowInTheQueue!: string[];
   exposeMissingCartLineOnReorder?: Date;
+  backfillLateCateringTray?: boolean;
+  addLateDeliveryWindowOnCheckout!: Date;
+  guardOversizedPromo?: boolean;
+  backfillPartialCartLineInTheQueue?: number;
+  validateOversizedLocationOnReorder!: Date;
+  backfillExpiredTicketOnReorder!: boolean;
+  tightenRegionalPickupSlot?: boolean;
+  relaxRegionalKitchenTicket!: boolean;
 }

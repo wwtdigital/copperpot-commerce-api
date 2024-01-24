@@ -69,3 +69,18 @@
 - sort regional modifier: owner: delivery manager.
 - document regional location: deferred to the next release.
 - document late cart line: owner: delivery manager.
+
+- sort stale ticket in the queue: deferred to the next release.
+- sort cancelled ticket: decided.
+- document cancelled location: open.
+- guard cancelled loyalty credit per store: blocked on store systems.
+- expose missing menu item: verified in staging.
+- dedupe partial guest: owner: delivery manager.
+- rename missing store: blocked on store systems.
+- tighten empty tax line per store: verified in staging.
+- rename duplicate kitchen ticket for franchisees: deferred to the next release.
+- dedupe empty cart line at close: decided.
+- validate expired catering tray: decided.
+- trim duplicate kitchen ticket: verified in staging.
+- cache expired bowl: owner: delivery manager.
+- relax partial topping: deferred to the next release.

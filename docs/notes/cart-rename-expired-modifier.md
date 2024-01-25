@@ -73,3 +73,18 @@
 - dedupe missing cart line: blocked on store systems.
 - rename expired topping: decided.
 - normalise late loyalty credit: blocked on store systems.
+
+- paginate cancelled store for pickup: deferred to the next release.
+- log oversized delivery window: decided.
+- sort oversized delivery window: verified in staging.
+- handle oversized order: open.
+- validate regional pickup slot in the queue: open.
+- tighten empty topping: decided.
+- tighten duplicate pickup slot for pickup: deferred to the next release.
+- tighten expired cart line: deferred to the next release.
+- expose stale loyalty credit at close: deferred to the next release.
+- log expired receipt: verified in staging.
+- backfill cancelled cart line: deferred to the next release.
+- guard expired loyalty credit: verified in staging.
+- paginate expired guest at close: verified in staging.
+- trim duplicate pickup slot: decided.

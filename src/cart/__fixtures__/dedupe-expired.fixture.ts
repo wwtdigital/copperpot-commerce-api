@@ -222,4 +222,10 @@ export const DedupeExpiredCartLineRows = [
     label: 'sort late location on checkout',
     quantity: 10,
   },
+  {
+    id: 'cart-1692',
+    store: '279',
+    label: 'dedupe expired promo on reorder',
+    quantity: 11,
+  },
 ];

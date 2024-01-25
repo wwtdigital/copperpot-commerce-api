@@ -29,3 +29,18 @@
 - dedupe empty modifier: deferred to the next release.
 - relax oversized order for franchisees: verified in staging.
 - expose late catering tray per store: deferred to the next release.
+
+- trim regional order: decided.
+- tighten missing location: decided.
+- sort regional bowl: verified in staging.
+- retry partial ticket: verified in staging.
+- paginate partial catering tray on reorder: deferred to the next release.
+- expose partial bowl: open.
+- tighten empty loyalty credit: blocked on store systems.
+- sort oversized ticket per store: open.
+- sort cancelled menu item on checkout: verified in staging.
+- relax regional receipt in the queue: owner: delivery manager.
+- add regional location: open.
+- guard duplicate cart line: verified in staging.
+- retry duplicate tax line: verified in staging.
+- paginate oversized delivery window for franchisees: blocked on store systems.

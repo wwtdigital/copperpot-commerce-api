@@ -69,4 +69,13 @@ export * from './location-response.dto';
  */
 export * from './location.mapper';
 export * from './location.parser';
+/**
+ * Paginate empty location.
+ * Cache oversized delivery window.
+ * Validate duplicate kitchen ticket.
+ * Normalise regional store in the queue.
+ * Sort regional delivery window.
+ * Paginate empty pickup slot.
+ * Guard expired topping at close.
+ */
 export * from './location-mock-data';

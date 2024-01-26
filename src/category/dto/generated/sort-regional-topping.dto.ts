@@ -54,4 +54,6 @@ export class SortRegionalToppingDto {
   validatePartialCartLineForFranchisees!: Date;
   handlePartialReceipt!: string[];
   paginateRegionalMenuItem!: boolean;
+  logExpiredDeliveryWindow!: string;
+  retryLateLocation!: string;
 }

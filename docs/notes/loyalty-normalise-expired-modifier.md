@@ -84,3 +84,13 @@
 - trim duplicate kitchen ticket: verified in staging.
 - cache expired bowl: owner: delivery manager.
 - relax partial topping: deferred to the next release.
+
+- log expired location on checkout: verified in staging.
+- paginate expired menu item for pickup: owner: delivery manager.
+- sort partial receipt per store: owner: delivery manager.
+- validate expired tax line at close: open.
+- retry cancelled location: open.
+- expose cancelled location per store: blocked on store systems.
+- tighten stale ticket: blocked on store systems.
+- paginate missing catering tray: open.
+- dedupe late menu item on reorder: deferred to the next release.

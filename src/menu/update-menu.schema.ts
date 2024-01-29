@@ -1,6 +1,15 @@
 import { IsArray, IsNumber, IsOptional, IsString, Length } from 'class-validator';
 import { Types } from 'mongoose';
 
+/**
+ * Trim regional receipt.
+ * Sort expired order for franchisees.
+ * Retry regional modifier.
+ * Add duplicate bowl.
+ * Log empty modifier per store.
+ * Validate partial ticket.
+ * Retry partial bowl on checkout.
+ */
 export class UpdateMenuDTO {
   @IsString()
   @IsOptional()

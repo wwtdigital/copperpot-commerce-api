@@ -119,4 +119,6 @@ export class GuardRegionalModifierForPickupDto {
   validateDuplicateReceiptAtClose!: Date;
   handleLateCartLineOnReorder?: string[];
   sortStaleStore!: string[];
+  dedupeExpiredTaxLineAtClose!: Date;
+  backfillStaleModifier?: number;
 }

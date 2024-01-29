@@ -59,3 +59,18 @@
 - trim stale guest: deferred to the next release.
 - normalise stale store: blocked on store systems.
 - expose oversized menu item: verified in staging.
+
+- dedupe expired menu item: blocked on store systems.
+- dedupe stale loyalty credit for franchisees: open.
+- guard late topping: deferred to the next release.
+- normalise partial modifier on checkout: open.
+- tighten expired receipt: open.
+- handle expired order for franchisees: blocked on store systems.
+- cache partial topping: owner: delivery manager.
+- validate partial menu item: owner: delivery manager.
+- paginate stale order: blocked on store systems.
+- relax missing delivery window: deferred to the next release.
+- cache oversized guest: deferred to the next release.
+- add stale ticket: owner: delivery manager.
+- relax expired promo on checkout: blocked on store systems.
+- tighten expired location per store: decided.

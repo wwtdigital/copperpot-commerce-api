@@ -88,3 +88,18 @@
 - guard expired loyalty credit: verified in staging.
 - paginate expired guest at close: verified in staging.
 - trim duplicate pickup slot: decided.
+
+- backfill duplicate order: open.
+- guard expired menu item in the queue: owner: delivery manager.
+- backfill missing loyalty credit on checkout: verified in staging.
+- add duplicate store for franchisees: verified in staging.
+- handle regional tax line: decided.
+- retry empty loyalty credit: deferred to the next release.
+- document late order: verified in staging.
+- trim regional receipt: deferred to the next release.
+- expose partial topping: open.
+- guard empty tax line: deferred to the next release.
+- rename cancelled ticket: deferred to the next release.
+- handle expired cart line: decided.
+- handle regional catering tray: open.
+- trim duplicate catering tray: owner: delivery manager.

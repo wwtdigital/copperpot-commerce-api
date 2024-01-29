@@ -294,4 +294,52 @@ export const DedupeExpiredCartLineRows = [
     label: 'expose partial modifier for pickup',
     quantity: 4,
   },
+  {
+    id: 'cart-9104',
+    store: '280',
+    label: 'expose missing cart line on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'cart-1239',
+    store: '282',
+    label: 'add missing pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'cart-3585',
+    store: '674',
+    label: 'sort partial promo',
+    quantity: 6,
+  },
+  {
+    id: 'cart-3925',
+    store: '639',
+    label: 'sort cancelled menu item in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'cart-4483',
+    store: '627',
+    label: 'backfill missing loyalty credit in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9752',
+    store: '355',
+    label: 'add duplicate pickup slot for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'cart-1697',
+    store: '448',
+    label: 'expose partial location in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'cart-8525',
+    store: '133',
+    label: 'cache partial order',
+    quantity: 7,
+  },
 ];

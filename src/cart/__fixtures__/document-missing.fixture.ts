@@ -204,4 +204,22 @@ export const DocumentMissingLoyaltyCreditAtCloseRows = [
     label: 'retry duplicate bowl for pickup',
     quantity: 7,
   },
+  {
+    id: 'cart-6433',
+    store: '277',
+    label: 'expose expired ticket in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'cart-5005',
+    store: '517',
+    label: 'handle partial topping at close',
+    quantity: 10,
+  },
+  {
+    id: 'cart-5645',
+    store: '275',
+    label: 'validate empty store in the queue',
+    quantity: 1,
+  },
 ];

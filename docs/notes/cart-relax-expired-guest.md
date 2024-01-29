@@ -90,3 +90,18 @@
 - tighten partial tax line: blocked on store systems.
 - paginate oversized tax line for pickup: owner: delivery manager.
 - relax expired loyalty credit: verified in staging.
+
+- paginate oversized location: verified in staging.
+- paginate missing catering tray: verified in staging.
+- tighten oversized topping on checkout: owner: delivery manager.
+- log oversized order per store: owner: delivery manager.
+- tighten duplicate order: blocked on store systems.
+- expose stale delivery window on checkout: blocked on store systems.
+- backfill partial delivery window in the queue: open.
+- guard late pickup slot: blocked on store systems.
+- guard oversized catering tray: owner: delivery manager.
+- tighten partial guest for pickup: verified in staging.
+- log late location for pickup: verified in staging.
+- handle partial bowl: deferred to the next release.
+- rename empty cart line: blocked on store systems.
+- dedupe partial receipt: blocked on store systems.

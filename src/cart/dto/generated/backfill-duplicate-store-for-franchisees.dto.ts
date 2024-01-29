@@ -24,4 +24,28 @@ export class BackfillDuplicateStoreForFranchiseesDto {
   sortDuplicateGuestOnCheckout?: string[];
   trimExpiredOrder!: string;
   addRegionalTaxLine?: string;
+  logCancelledGuest!: number;
+  backfillDuplicateTopping!: boolean;
+  backfillCancelledTicket!: boolean;
+  normaliseStaleDeliveryWindowAtClose!: Date;
+  exposePartialModifier!: boolean;
+  relaxExpiredKitchenTicketAtClose!: string[];
+  handleExpiredPromo!: string;
+  addExpiredStore?: Date;
+  documentMissingStore!: number;
+  renameMissingBowl!: number;
+  guardOversizedLoyaltyCreditPerStore!: boolean;
+  validateLateModifier!: string;
+  logStaleMenuItem!: number;
+  normaliseRegionalLocation?: Date;
+  exposeStaleCartLine?: string[];
+  guardOversizedDeliveryWindowForFranchisees!: string;
+  validateStaleModifier!: number;
+  trimPartialMenuItemForPickup!: Date;
+  cachePartialStoreOnReorder!: string;
+  handleExpiredOrderAtClose!: string;
+  retryExpiredTaxLineForFranchisees!: string;
+  paginateExpiredGuestForFranchisees?: boolean;
+  guardExpiredMenuItemForPickup?: Date;
+  logCancelledBowlAtClose?: Date;
 }

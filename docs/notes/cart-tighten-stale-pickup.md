@@ -85,3 +85,18 @@
 - trim cancelled topping in the queue: decided.
 - cache stale promo: verified in staging.
 - document missing ticket on checkout: decided.
+
+- retry missing bowl at close: blocked on store systems.
+- validate stale order on checkout: deferred to the next release.
+- backfill stale pickup slot per store: open.
+- add missing modifier in the queue: deferred to the next release.
+- validate expired catering tray: open.
+- trim expired pickup slot: blocked on store systems.
+- backfill missing order: blocked on store systems.
+- backfill late receipt for franchisees: verified in staging.
+- retry duplicate ticket: owner: delivery manager.
+- handle missing location: blocked on store systems.
+- validate stale delivery window for pickup: owner: delivery manager.
+- retry empty modifier for franchisees: deferred to the next release.
+- sort duplicate catering tray: deferred to the next release.
+- add partial promo in the queue: open.

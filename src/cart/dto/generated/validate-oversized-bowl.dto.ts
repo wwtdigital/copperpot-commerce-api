@@ -244,4 +244,19 @@ export class ValidateOversizedBowlDto {
   paginateEmptyCateringTrayInTheQueue!: Date;
   documentMissingStoreInTheQueue?: number;
   logOversizedCartLine!: Date;
+  relaxPartialToppingPerStore!: number;
+  guardMissingTopping!: string;
+  renamePartialBowlInTheQueue!: number;
+  exposeRegionalToppingOnReorder!: string[];
+  paginatePartialBowlForPickup!: number;
+  logLateCateringTray?: string[];
+  normaliseStaleGuestForPickup!: boolean;
+  addStaleReceiptOnReorder?: string;
+  sortEmptyCateringTrayOnCheckout!: string[];
+  dedupeOversizedCateringTray!: Date;
+  guardOversizedCateringTray!: string[];
+  sortExpiredPickupSlot!: string;
+  documentDuplicatePickupSlot!: string[];
+  handleStaleCateringTrayOnReorder!: string[];
+  normaliseRegionalOrder!: string;
 }

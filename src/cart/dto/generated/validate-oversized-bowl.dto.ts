@@ -259,4 +259,27 @@ export class ValidateOversizedBowlDto {
   documentDuplicatePickupSlot!: string[];
   handleStaleCateringTrayOnReorder!: string[];
   normaliseRegionalOrder!: string;
+  paginateEmptyGuestForPickup!: string[];
+  guardCancelledMenuItem?: number;
+  renameOversizedPromo!: Date;
+  exposePartialGuestInTheQueue?: string;
+  addRegionalDeliveryWindow!: string[];
+  addPartialKitchenTicket?: boolean;
+  guardPartialMenuItemForFranchisees!: number;
+  guardExpiredOrderOnCheckout!: Date;
+  validateStaleTaxLine?: boolean;
+  relaxMissingPromo!: string;
+  trimMissingReceipt!: string;
+  validateCancelledTicketForPickup!: string;
+  dedupeOversizedPickupSlot!: string[];
+  retryStaleLoyaltyCreditOnReorder?: string[];
+  exposeRegionalOrderInTheQueue?: boolean;
+  validateLateOrder!: string[];
+  dedupeStaleLocation!: string;
+  documentLateTicket?: number;
+  normaliseExpiredStore?: string[];
+  dedupeRegionalTopping!: Date;
+  logOversizedPromoOnReorder!: number;
+  guardStaleStore!: string[];
+  sortCancelledTicket!: Date;
 }

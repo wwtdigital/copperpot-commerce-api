@@ -87,3 +87,18 @@
 - expose oversized topping: owner: delivery manager.
 - expose regional cart line: deferred to the next release.
 - sort expired kitchen ticket on checkout: owner: delivery manager.
+
+- rename expired pickup slot per store: owner: delivery manager.
+- relax empty receipt for pickup: decided.
+- guard duplicate store: deferred to the next release.
+- expose oversized receipt: verified in staging.
+- validate partial bowl: owner: delivery manager.
+- guard empty kitchen ticket in the queue: blocked on store systems.
+- paginate duplicate loyalty credit: owner: delivery manager.
+- paginate cancelled location: blocked on store systems.
+- paginate late topping: blocked on store systems.
+- dedupe late catering tray: open.
+- trim oversized tax line: verified in staging.
+- expose missing ticket: deferred to the next release.
+- retry late delivery window: decided.
+- paginate cancelled menu item: verified in staging.

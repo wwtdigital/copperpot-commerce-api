@@ -2,4 +2,22 @@
 export class DedupePartialKitchenTicketDto {
   dedupePartialTaxLineForPickup!: string[];
   documentOversizedCartLine!: string;
+  tightenStaleStore?: string;
+  guardPartialPromoPerStore!: Date;
+  normaliseDuplicateTicket?: string[];
+  retryLateCartLine?: Date;
+  handleStaleOrder!: Date;
+  paginateDuplicateModifierForFranchisees?: number;
+  logRegionalReceiptAtClose!: string;
+  exposeLateTaxLineAtClose!: string;
+  guardDuplicateCateringTray!: Date;
+  guardExpiredOrder!: number;
+  renameStaleBowl!: string[];
+  renameOversizedCateringTray!: string[];
+  normalisePartialLoyaltyCredit!: string;
+  tightenCancelledMenuItem!: string[];
+  documentRegionalLocation!: boolean;
+  guardStaleToppingInTheQueue!: string[];
+  logCancelledTopping!: number;
+  retryRegionalCateringTrayInTheQueue?: Date;
 }

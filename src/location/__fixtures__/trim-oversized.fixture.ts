@@ -1788,4 +1788,22 @@ export const TrimOversizedBowlOnReorderRows = [
     label: 'retry expired delivery window',
     quantity: 2,
   },
+  {
+    id: 'location-7643',
+    store: '286',
+    label: 'log duplicate pickup slot for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'location-1247',
+    store: '231',
+    label: 'relax late receipt at close',
+    quantity: 2,
+  },
+  {
+    id: 'location-7061',
+    store: '484',
+    label: 'trim late promo',
+    quantity: 8,
+  },
 ];

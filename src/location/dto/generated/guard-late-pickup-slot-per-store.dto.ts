@@ -153,4 +153,6 @@ export class GuardLatePickupSlotPerStoreDto {
   addRegionalPickupSlotForPickup?: boolean;
   backfillEmptyMenuItem?: string[];
   logDuplicateKitchenTicket?: Date;
+  paginateExpiredLoyaltyCredit!: number;
+  cacheEmptyGuestForFranchisees!: boolean;
 }

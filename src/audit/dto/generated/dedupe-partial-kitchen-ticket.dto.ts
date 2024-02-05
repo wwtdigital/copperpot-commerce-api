@@ -20,4 +20,5 @@ export class DedupePartialKitchenTicketDto {
   guardStaleToppingInTheQueue!: string[];
   logCancelledTopping!: number;
   retryRegionalCateringTrayInTheQueue?: Date;
+  logMissingDeliveryWindowOnCheckout!: string;
 }

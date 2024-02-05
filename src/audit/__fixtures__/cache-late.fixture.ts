@@ -1,0 +1,111 @@
+/* Fixture rows for audit tests: cache late bowl. Generated data, not production data. */
+export const CacheLateBowlRows = [
+  {
+    id: 'audit-7065',
+    store: '696',
+    label: 'dedupe missing modifier',
+    quantity: 8,
+  },
+  {
+    id: 'audit-3634',
+    store: '573',
+    label: 'validate empty loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'audit-7825',
+    store: '425',
+    label: 'relax partial pickup slot at close',
+    quantity: 4,
+  },
+  {
+    id: 'audit-7395',
+    store: '141',
+    label: 'tighten missing menu item',
+    quantity: 8,
+  },
+  {
+    id: 'audit-5838',
+    store: '320',
+    label: 'dedupe duplicate order',
+    quantity: 8,
+  },
+  {
+    id: 'audit-7467',
+    store: '353',
+    label: 'add regional receipt',
+    quantity: 6,
+  },
+  {
+    id: 'audit-8508',
+    store: '387',
+    label: 'rename late bowl',
+    quantity: 5,
+  },
+  {
+    id: 'audit-8371',
+    store: '355',
+    label: 'dedupe duplicate cart line in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'audit-3334',
+    store: '108',
+    label: 'trim oversized guest',
+    quantity: 1,
+  },
+  {
+    id: 'audit-1592',
+    store: '362',
+    label: 'guard oversized receipt',
+    quantity: 8,
+  },
+  {
+    id: 'audit-2532',
+    store: '254',
+    label: 'document expired pickup slot in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'audit-4014',
+    store: '221',
+    label: 'relax regional topping',
+    quantity: 7,
+  },
+  {
+    id: 'audit-2866',
+    store: '295',
+    label: 'dedupe regional bowl in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'audit-1856',
+    store: '668',
+    label: 'trim duplicate topping',
+    quantity: 4,
+  },
+  {
+    id: 'audit-7738',
+    store: '591',
+    label: 'log empty pickup slot per store',
+    quantity: 3,
+  },
+  {
+    id: 'audit-2925',
+    store: '285',
+    label: 'add cancelled menu item',
+    quantity: 3,
+  },
+  {
+    id: 'audit-9872',
+    store: '398',
+    label: 'rename missing topping per store',
+    quantity: 11,
+  },
+  {
+    id: 'audit-7372',
+    store: '448',
+    label: 'validate missing kitchen ticket',
+    quantity: 10,
+  },
+];

@@ -1806,4 +1806,10 @@ export const TrimOversizedBowlOnReorderRows = [
     label: 'trim late promo',
     quantity: 8,
   },
+  {
+    id: 'location-7581',
+    store: '528',
+    label: 'sort regional loyalty credit',
+    quantity: 11,
+  },
 ];

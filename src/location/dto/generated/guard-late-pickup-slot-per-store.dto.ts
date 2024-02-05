@@ -155,4 +155,6 @@ export class GuardLatePickupSlotPerStoreDto {
   logDuplicateKitchenTicket?: Date;
   paginateExpiredLoyaltyCredit!: number;
   cacheEmptyGuestForFranchisees!: boolean;
+  backfillLateKitchenTicketInTheQueue!: number;
+  paginateMissingGuestOnReorder!: number;
 }

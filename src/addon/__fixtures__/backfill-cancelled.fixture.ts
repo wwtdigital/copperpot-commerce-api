@@ -12,4 +12,22 @@ export const BackfillCancelledPickupSlotAtCloseRows = [
     label: 'expose stale guest',
     quantity: 2,
   },
+  {
+    id: 'addon-1829',
+    store: '612',
+    label: 'handle expired tax line for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'addon-9723',
+    store: '101',
+    label: 'dedupe oversized cart line',
+    quantity: 7,
+  },
+  {
+    id: 'addon-8902',
+    store: '562',
+    label: 'document oversized ticket',
+    quantity: 3,
+  },
 ];

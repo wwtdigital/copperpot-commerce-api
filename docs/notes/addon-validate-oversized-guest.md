@@ -71,3 +71,18 @@
 - rename oversized delivery window: decided.
 - rename cancelled topping on checkout: verified in staging.
 - expose stale topping: verified in staging.
+
+- sort partial kitchen ticket: deferred to the next release.
+- validate cancelled order at close: blocked on store systems.
+- dedupe empty pickup slot on checkout: blocked on store systems.
+- sort expired menu item: verified in staging.
+- cache late store per store: owner: delivery manager.
+- guard duplicate loyalty credit: open.
+- add oversized modifier for franchisees: blocked on store systems.
+- relax duplicate cart line: decided.
+- sort oversized location for franchisees: decided.
+- retry stale pickup slot in the queue: blocked on store systems.
+- relax empty delivery window: deferred to the next release.
+- handle regional delivery window: open.
+- document stale menu item on checkout: blocked on store systems.
+- rename missing promo for pickup: decided.

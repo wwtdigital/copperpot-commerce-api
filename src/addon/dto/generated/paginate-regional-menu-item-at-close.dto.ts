@@ -200,4 +200,19 @@ export class PaginateRegionalMenuItemAtCloseDto {
   logDuplicateCartLine!: string[];
   tightenOversizedLoyaltyCredit!: boolean;
   tightenEmptyPickupSlot!: Date;
+  dedupeMissingPickupSlot!: string;
+  logPartialStore!: Date;
+  guardMissingPickupSlot?: number;
+  relaxStaleCateringTrayInTheQueue!: number;
+  backfillDuplicateCateringTrayAtClose!: string;
+  logMissingBowl!: string[];
+  validateExpiredTopping!: boolean;
+  validateStaleTicketAtClose!: Date;
+  logMissingTicketForFranchisees?: boolean;
+  paginateLateDeliveryWindow?: number;
+  exposeMissingCateringTrayAtClose!: Date;
+  logDuplicateLoyaltyCreditOnReorder!: boolean;
+  sortExpiredReceiptOnReorder!: Date;
+  normaliseOversizedCartLine!: Date;
+  cacheMissingStore!: boolean;
 }

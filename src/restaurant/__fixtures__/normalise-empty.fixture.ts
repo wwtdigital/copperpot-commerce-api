@@ -1,0 +1,105 @@
+/* Fixture rows for restaurant tests: normalise empty location at close. Generated data, not production data. */
+export const NormaliseEmptyLocationAtCloseRows = [
+  {
+    id: 'restaurant-5969',
+    store: '472',
+    label: 'expose duplicate promo',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-8375',
+    store: '405',
+    label: 'sort regional guest',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-6393',
+    store: '420',
+    label: 'backfill regional loyalty credit per store',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-4680',
+    store: '648',
+    label: 'rename empty store',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-5387',
+    store: '183',
+    label: 'backfill stale tax line',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-9468',
+    store: '294',
+    label: 'dedupe regional modifier for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-8623',
+    store: '175',
+    label: 'paginate duplicate delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-3539',
+    store: '101',
+    label: 'paginate stale topping per store',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-9082',
+    store: '351',
+    label: 'log late promo per store',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-4252',
+    store: '134',
+    label: 'retry regional cart line at close',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-5418',
+    store: '420',
+    label: 'normalise duplicate location',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-9696',
+    store: '440',
+    label: 'paginate regional topping',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-1425',
+    store: '396',
+    label: 'document regional loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-3010',
+    store: '319',
+    label: 'rename expired pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-1131',
+    store: '618',
+    label: 'add empty promo at close',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-3038',
+    store: '395',
+    label: 'guard stale loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-2213',
+    store: '102',
+    label: 'normalise cancelled location',
+    quantity: 2,
+  },
+];

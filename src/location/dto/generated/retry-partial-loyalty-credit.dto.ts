@@ -165,4 +165,13 @@ export class RetryPartialLoyaltyCreditDto {
   trimPartialReceiptForPickup?: string;
   addStaleTaxLine!: string[];
   tightenStalePromoOnCheckout?: number;
+  dedupePartialPromoPerStore!: string;
+  trimRegionalCateringTray?: string;
+  dedupePartialKitchenTicket?: string[];
+  guardMissingDeliveryWindowInTheQueue!: boolean;
+  guardExpiredKitchenTicketInTheQueue!: string[];
+  logOversizedLoyaltyCredit!: number;
+  normaliseMissingPickupSlot?: boolean;
+  sortCancelledCartLine!: number;
+  addDuplicatePickupSlotOnCheckout!: boolean;
 }

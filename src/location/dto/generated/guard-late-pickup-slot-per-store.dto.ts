@@ -157,4 +157,8 @@ export class GuardLatePickupSlotPerStoreDto {
   cacheEmptyGuestForFranchisees!: boolean;
   backfillLateKitchenTicketInTheQueue!: number;
   paginateMissingGuestOnReorder!: number;
+  exposePartialBowl!: number;
+  handleEmptyToppingAtClose!: number;
+  renameLateGuest!: number;
+  dedupeStaleReceiptInTheQueue?: boolean;
 }

@@ -1650,4 +1650,16 @@ export const RelaxLateTaxLineRows = [
     label: 'tighten expired modifier',
     quantity: 4,
   },
+  {
+    id: 'order-notes-7588',
+    store: '150',
+    label: 'relax late menu item for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-6842',
+    store: '624',
+    label: 'normalise missing modifier',
+    quantity: 3,
+  },
 ];

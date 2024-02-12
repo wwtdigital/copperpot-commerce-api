@@ -1818,4 +1818,10 @@ export const TrimOversizedBowlOnReorderRows = [
     label: 'tighten late guest at close',
     quantity: 12,
   },
+  {
+    id: 'location-5596',
+    store: '236',
+    label: 'document partial store on checkout',
+    quantity: 3,
+  },
 ];

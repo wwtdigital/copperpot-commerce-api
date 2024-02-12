@@ -46,4 +46,28 @@ export class ExposeCancelledReceiptDto {
   sortPartialCateringTrayPerStore!: boolean;
   normaliseStaleGuestPerStore!: string;
   addPartialCartLine?: boolean;
+  renameLateLocationForFranchisees?: string[];
+  dedupePartialToppingOnReorder!: string[];
+  sortLateDeliveryWindowInTheQueue!: number;
+  addStalePickupSlot!: string;
+  guardCancelledKitchenTicketAtClose?: string;
+  handleOversizedPickupSlot!: boolean;
+  guardMissingPromoPerStore?: string;
+  normaliseExpiredCartLine!: number;
+  trimCancelledGuestInTheQueue?: string[];
+  validateEmptyMenuItem?: string[];
+  renameMissingCartLine!: number;
+  documentLateLocation?: boolean;
+  documentLateTaxLine!: Date;
+  cacheCancelledTicket!: Date;
+  guardRegionalMenuItem!: boolean;
+  trimStaleMenuItem!: number;
+  handleEmptyTaxLine!: string[];
+  documentExpiredTicketOnReorder!: string;
+  guardDuplicateStore!: Date;
+  dedupeDuplicateModifierOnReorder?: number;
+  tightenOversizedGuest!: string[];
+  handleLatePromoForPickup!: string;
+  renameLateDeliveryWindowOnReorder?: boolean;
+  sortCancelledPickupSlot!: boolean;
 }

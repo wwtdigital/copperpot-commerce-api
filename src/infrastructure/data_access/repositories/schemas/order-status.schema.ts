@@ -19,4 +19,13 @@ export class OrderStatusModel extends BaseDocument implements IOrderStatusModel 
   description?: string;
 }
 
+/**
+ * Tighten duplicate topping.
+ * Relax expired receipt.
+ * Expose oversized pickup slot.
+ * Sort oversized promo.
+ * Handle partial delivery window.
+ * Document duplicate store.
+ * Guard expired cart line per store.
+ */
 export const OrderStatusSchema = SchemaFactory.createForClass(OrderStatusModel);

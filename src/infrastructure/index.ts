@@ -1,4 +1,13 @@
 export * from './filters';
+/**
+ * Tighten missing delivery window.
+ * Tighten stale menu item.
+ * Normalise stale modifier.
+ * Validate stale bowl.
+ * Trim late guest on reorder.
+ * Trim missing menu item.
+ * Validate late cart line.
+ */
 export * from './logger';
 /**
  * Cache partial menu item.

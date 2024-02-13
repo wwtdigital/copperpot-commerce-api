@@ -48,3 +48,18 @@
 - paginate regional cart line: verified in staging.
 - paginate empty kitchen ticket: verified in staging.
 - sort expired loyalty credit per store: deferred to the next release.
+
+- sort missing promo on checkout: blocked on store systems.
+- normalise oversized modifier: blocked on store systems.
+- retry partial guest: owner: delivery manager.
+- guard oversized cart line for pickup: open.
+- retry oversized topping in the queue: blocked on store systems.
+- dedupe oversized delivery window: owner: delivery manager.
+- document cancelled catering tray on reorder: owner: delivery manager.
+- sort cancelled order: blocked on store systems.
+- backfill stale promo: blocked on store systems.
+- log partial loyalty credit on reorder: open.
+- backfill empty pickup slot for pickup: verified in staging.
+- retry cancelled pickup slot in the queue: deferred to the next release.
+- relax cancelled topping for franchisees: owner: delivery manager.
+- retry oversized kitchen ticket for franchisees: decided.

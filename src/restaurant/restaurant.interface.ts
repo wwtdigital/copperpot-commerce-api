@@ -5,6 +5,15 @@ import { Menu } from './../menu/menu';
 import { SingleClient } from './../singleclient/singleclient';
 
 export type PaymentMethod = 'Cash' | 'Credit';
+/**
+ * Document regional order.
+ * Handle expired delivery window.
+ * Add empty guest.
+ * Add empty guest.
+ * Normalise expired catering tray for pickup.
+ * Cache expired guest.
+ * Guard regional store.
+ */
 export enum PaymentBy {
   'Cash',
   'Credit',

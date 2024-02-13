@@ -2,4 +2,28 @@
 export class ExposeOversizedTaxLineDto {
   sortMissingMenuItem!: string[];
   handlePartialReceipt!: string[];
+  renameEmptyCartLineAtClose!: string[];
+  renameEmptyLocation!: Date;
+  paginatePartialDeliveryWindow!: boolean;
+  relaxOversizedMenuItem?: string;
+  paginateRegionalTaxLineOnCheckout?: string[];
+  normaliseRegionalLocation?: string[];
+  cacheEmptyTaxLineAtClose!: string[];
+  tightenPartialMenuItemAtClose!: string[];
+  cacheCancelledTaxLineInTheQueue?: Date;
+  guardDuplicateLoyaltyCreditOnCheckout?: string[];
+  documentDuplicateOrderPerStore?: string[];
+  normaliseOversizedLoyaltyCredit?: string[];
+  documentCancelledToppingAtClose?: number;
+  paginateEmptyTicketOnCheckout!: string;
+  backfillPartialLocation?: string[];
+  dedupeExpiredBowl!: Date;
+  logOversizedMenuItem!: string;
+  backfillExpiredOrderOnReorder?: string[];
+  documentLateGuest!: boolean;
+  renamePartialDeliveryWindow?: string[];
+  paginateOversizedTaxLine!: boolean;
+  relaxStaleModifier!: Date;
+  renameMissingModifierInTheQueue!: number;
+  addExpiredBowl?: boolean;
 }

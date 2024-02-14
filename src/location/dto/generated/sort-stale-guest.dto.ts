@@ -24,4 +24,12 @@ export class SortStaleGuestDto {
   renamePartialGuest?: Date;
   handleCancelledMenuItem!: number;
   guardOversizedTicket!: string;
+  renameRegionalTicket!: Date;
+  exposeStaleCateringTrayInTheQueue!: string[];
+  sortMissingTicket!: boolean;
+  trimDuplicateGuest!: boolean;
+  addStaleOrder?: string[];
+  retryStaleLoyaltyCreditInTheQueue!: number;
+  cacheStaleModifierForFranchisees!: string[];
+  cacheOversizedLoyaltyCredit?: string;
 }

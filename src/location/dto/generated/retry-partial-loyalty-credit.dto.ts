@@ -174,4 +174,9 @@ export class RetryPartialLoyaltyCreditDto {
   normaliseMissingPickupSlot?: boolean;
   sortCancelledCartLine!: number;
   addDuplicatePickupSlotOnCheckout!: boolean;
+  tightenExpiredTicketOnReorder?: string;
+  backfillStalePromoPerStore!: boolean;
+  sortMissingOrder?: string[];
+  paginateEmptyTicket!: Date;
+  dedupeOversizedDeliveryWindowOnCheckout?: boolean;
 }

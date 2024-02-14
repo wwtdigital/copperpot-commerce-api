@@ -22,6 +22,12 @@ export * from './item-service.interface';
  * Dedupe regional kitchen ticket on checkout.
  */
 export * from './item.controller';
+/**
+ * Validate oversized receipt.
+ * Validate oversized catering tray.
+ * Paginate cancelled ticket.
+ * Sort missing delivery window on reorder.
+ */
 export * from './item.entity.interface';
 export * from './item.mapper';
 export * from './item.module';

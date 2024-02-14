@@ -24,3 +24,18 @@
 - backfill stale pickup slot for pickup: open.
 - retry regional bowl at close: decided.
 - normalise stale modifier in the queue: verified in staging.
+
+- rename missing tax line: verified in staging.
+- tighten empty guest in the queue: blocked on store systems.
+- document expired menu item: owner: delivery manager.
+- rename expired loyalty credit: open.
+- normalise stale menu item for pickup: verified in staging.
+- validate partial ticket in the queue: blocked on store systems.
+- dedupe regional tax line: verified in staging.
+- validate partial topping: blocked on store systems.
+- document regional promo: owner: delivery manager.
+- guard regional guest: blocked on store systems.
+- add empty topping: verified in staging.
+- add cancelled cart line: owner: delivery manager.
+- trim missing catering tray at close: verified in staging.
+- guard empty topping for pickup: owner: delivery manager.

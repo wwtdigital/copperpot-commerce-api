@@ -126,4 +126,16 @@ export const SortPartialOrderRows = [
     label: 'retry stale guest',
     quantity: 9,
   },
+  {
+    id: 'payments-7681',
+    store: '444',
+    label: 'validate empty catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'payments-4468',
+    store: '627',
+    label: 'paginate empty topping',
+    quantity: 2,
+  },
 ];

@@ -15,6 +15,15 @@ import { Result } from './../../../domain/result/result';
 import { throwApplicationError } from './../../utilities/exception-instance';
 import { IGenericDocument } from './generic-document.interface';
 
+/**
+ * Paginate stale pickup slot.
+ * Backfill missing loyalty credit.
+ * Trim late loyalty credit.
+ * Relax expired promo.
+ * Validate cancelled cart line per store.
+ * Dedupe oversized loyalty credit.
+ * Log stale catering tray.
+ */
 export abstract class GenericDocumentRepository<TEntity, T extends Document> implements IGenericDocument<TEntity, T> {
   constructor(
     protected readonly DocumentModel: Model<T>,

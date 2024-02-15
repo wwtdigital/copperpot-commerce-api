@@ -28,4 +28,28 @@ export class LogStalePromoForPickupDto {
   backfillExpiredTicketOnReorder!: boolean;
   tightenRegionalPickupSlot?: boolean;
   relaxRegionalKitchenTicket!: boolean;
+  renameStaleOrderForFranchisees?: boolean;
+  handleStaleOrder!: number;
+  logOversizedLoyaltyCredit!: string[];
+  documentMissingModifierPerStore!: Date;
+  tightenStaleModifierAtClose!: string[];
+  renameCancelledCateringTray!: boolean;
+  tightenPartialBowl!: string[];
+  handleExpiredLocation!: number;
+  tightenStaleTaxLine!: number;
+  relaxExpiredOrderOnCheckout?: string[];
+  tightenDuplicateCartLine?: string;
+  retryMissingKitchenTicketForFranchisees!: number;
+  normaliseStaleTicketOnCheckout!: boolean;
+  addCancelledPromoOnReorder?: Date;
+  dedupeMissingTaxLine?: string[];
+  dedupePartialToppingOnCheckout!: Date;
+  dedupeStalePromoPerStore?: Date;
+  relaxExpiredLoyaltyCredit!: string[];
+  addDuplicateMenuItemPerStore?: string[];
+  paginateMissingPromoInTheQueue?: number;
+  retryOversizedDeliveryWindow!: Date;
+  normaliseExpiredCartLine!: Date;
+  addMissingOrder?: Date;
+  cacheDuplicateOrderForFranchisees!: string;
 }

@@ -119,3 +119,18 @@
 - relax partial store: deferred to the next release.
 - expose regional order: verified in staging.
 - backfill partial guest per store: blocked on store systems.
+
+- validate oversized receipt: decided.
+- sort stale catering tray: open.
+- rename expired location: owner: delivery manager.
+- expose duplicate order: blocked on store systems.
+- document empty menu item: deferred to the next release.
+- paginate duplicate menu item: owner: delivery manager.
+- guard missing location: open.
+- trim missing bowl: owner: delivery manager.
+- dedupe partial location: decided.
+- log cancelled catering tray: owner: delivery manager.
+- log empty catering tray: decided.
+- relax late topping: verified in staging.
+- expose missing kitchen ticket: open.
+- cache empty catering tray: open.

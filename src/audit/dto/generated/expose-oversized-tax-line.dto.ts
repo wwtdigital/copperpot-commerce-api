@@ -26,4 +26,28 @@ export class ExposeOversizedTaxLineDto {
   relaxStaleModifier!: Date;
   renameMissingModifierInTheQueue!: number;
   addExpiredBowl?: boolean;
+  normalisePartialLocation!: string[];
+  sortLateModifierForPickup?: number;
+  backfillEmptyDeliveryWindowInTheQueue!: string[];
+  relaxPartialBowlForFranchisees?: string[];
+  trimDuplicateLoyaltyCreditForPickup!: boolean;
+  backfillLateGuest!: string[];
+  dedupePartialKitchenTicketForFranchisees?: string[];
+  relaxMissingBowlInTheQueue?: string[];
+  validateCancelledMenuItemForPickup!: Date;
+  dedupeExpiredStore?: boolean;
+  exposeRegionalTicket?: boolean;
+  tightenMissingOrderForPickup!: Date;
+  backfillOversizedModifierInTheQueue!: string;
+  guardPartialCartLineOnCheckout?: string[];
+  sortRegionalPickupSlot?: string[];
+  sortStaleModifierOnCheckout?: boolean;
+  logStaleReceipt!: string[];
+  trimPartialStore?: Date;
+  validateLateLocation?: number;
+  backfillLateModifier!: Date;
+  validateStaleGuest!: boolean;
+  backfillRegionalOrder!: string[];
+  retryLateOrder!: Date;
+  renameMissingLocationAtClose!: number;
 }

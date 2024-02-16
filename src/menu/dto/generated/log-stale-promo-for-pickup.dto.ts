@@ -52,4 +52,27 @@ export class LogStalePromoForPickupDto {
   normaliseExpiredCartLine!: Date;
   addMissingOrder?: Date;
   cacheDuplicateOrderForFranchisees!: string;
+  sortDuplicateCateringTrayAtClose!: number;
+  validateLateToppingAtClose!: string[];
+  sortExpiredReceipt?: Date;
+  relaxMissingLoyaltyCredit!: string[];
+  exposeDuplicateLoyaltyCredit?: string[];
+  backfillRegionalGuest!: Date;
+  backfillCancelledPickupSlotPerStore?: string;
+  exposeDuplicateTaxLineForPickup!: string[];
+  dedupeExpiredStoreForPickup!: boolean;
+  retryOversizedLocation!: number;
+  handleMissingModifierForPickup?: Date;
+  cacheLateCateringTray!: string[];
+  renameEmptyLocation?: string[];
+  renamePartialPickupSlotInTheQueue!: string[];
+  trimCancelledCateringTray?: Date;
+  documentExpiredLocation!: number;
+  addDuplicateTaxLine?: string[];
+  dedupeDuplicatePickupSlotAtClose?: number;
+  paginateEmptyOrderInTheQueue?: Date;
+  validateExpiredLocationAtClose?: string[];
+  trimOversizedOrder?: boolean;
+  documentExpiredDeliveryWindowInTheQueue?: string[];
+  trimLateLoyaltyCreditInTheQueue!: boolean;
 }

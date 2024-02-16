@@ -49,3 +49,18 @@
 - rename cancelled location: owner: delivery manager.
 - tighten missing menu item on reorder: decided.
 - handle missing menu item per store: deferred to the next release.
+
+- sort stale store: verified in staging.
+- normalise missing pickup slot: blocked on store systems.
+- retry missing order: owner: delivery manager.
+- document regional receipt on reorder: verified in staging.
+- add duplicate topping per store: blocked on store systems.
+- backfill stale menu item: blocked on store systems.
+- sort expired order: open.
+- tighten regional catering tray: blocked on store systems.
+- handle stale ticket: deferred to the next release.
+- guard duplicate guest on reorder: deferred to the next release.
+- tighten duplicate delivery window: deferred to the next release.
+- document partial topping: verified in staging.
+- normalise partial promo: deferred to the next release.
+- paginate duplicate kitchen ticket for franchisees: open.

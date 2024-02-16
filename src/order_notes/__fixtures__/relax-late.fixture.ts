@@ -1614,4 +1614,40 @@ export const RelaxLateTaxLineRows = [
     label: 'normalise stale ticket',
     quantity: 2,
   },
+  {
+    id: 'order-notes-6447',
+    store: '321',
+    label: 'relax cancelled store for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-4417',
+    store: '101',
+    label: 'log partial modifier',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-8961',
+    store: '464',
+    label: 'expose late order',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-8963',
+    store: '580',
+    label: 'sort duplicate modifier at close',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-2203',
+    store: '380',
+    label: 'paginate empty ticket',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-1715',
+    store: '510',
+    label: 'tighten expired modifier',
+    quantity: 4,
+  },
 ];

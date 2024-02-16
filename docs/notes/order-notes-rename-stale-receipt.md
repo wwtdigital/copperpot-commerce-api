@@ -104,3 +104,29 @@
 - relax partial receipt: verified in staging.
 - log regional guest: decided.
 - trim empty loyalty credit at close: blocked on store systems.
+
+- backfill stale loyalty credit on checkout: owner: delivery manager.
+- handle empty tax line: decided.
+- backfill missing pickup slot: deferred to the next release.
+- add duplicate bowl per store: open.
+- normalise missing guest in the queue: verified in staging.
+- handle empty order for pickup: blocked on store systems.
+- guard regional menu item for franchisees: blocked on store systems.
+- validate regional location: deferred to the next release.
+- log empty loyalty credit in the queue: blocked on store systems.
+- relax expired topping for franchisees: blocked on store systems.
+- tighten regional pickup slot for franchisees: verified in staging.
+- normalise expired location per store: blocked on store systems.
+- backfill empty catering tray: owner: delivery manager.
+- log empty modifier: blocked on store systems.
+
+- trim duplicate tax line: verified in staging.
+- log duplicate promo per store: owner: delivery manager.
+- validate missing cart line: verified in staging.
+- sort duplicate pickup slot: decided.
+- document stale cart line: blocked on store systems.
+- validate stale tax line: decided.
+- handle stale delivery window: owner: delivery manager.
+- retry late cart line: owner: delivery manager.
+- cache duplicate modifier for pickup: verified in staging.
+- trim partial delivery window on reorder: verified in staging.

@@ -1,0 +1,31 @@
+# category: add expired location
+
+- dedupe expired kitchen ticket: blocked on store systems.
+- add missing guest: deferred to the next release.
+- rename duplicate cart line: owner: delivery manager.
+- log late menu item: verified in staging.
+- add late location: owner: delivery manager.
+- expose missing delivery window: deferred to the next release.
+- tighten partial delivery window: owner: delivery manager.
+- normalise duplicate tax line: deferred to the next release.
+- sort cancelled topping on checkout: decided.
+- validate expired loyalty credit at close: verified in staging.
+- retry duplicate bowl for pickup: open.
+- retry missing receipt per store: open.
+- backfill missing delivery window at close: verified in staging.
+- document empty bowl: open.
+
+- tighten duplicate modifier: decided.
+- dedupe empty order: owner: delivery manager.
+- normalise regional ticket: deferred to the next release.
+- log regional menu item for pickup: verified in staging.
+- dedupe oversized tax line per store: open.
+- trim regional menu item: owner: delivery manager.
+- dedupe cancelled topping on checkout: decided.
+- relax duplicate order on reorder: blocked on store systems.
+- log duplicate topping: owner: delivery manager.
+- paginate stale guest: open.
+- add cancelled tax line for franchisees: deferred to the next release.
+- trim duplicate tax line: deferred to the next release.
+- handle late guest on reorder: blocked on store systems.
+- guard stale cart line on reorder: blocked on store systems.

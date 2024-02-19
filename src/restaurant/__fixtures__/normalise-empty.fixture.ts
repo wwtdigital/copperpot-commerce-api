@@ -198,4 +198,10 @@ export const NormaliseEmptyLocationAtCloseRows = [
     label: 'dedupe late menu item for franchisees',
     quantity: 11,
   },
+  {
+    id: 'restaurant-8170',
+    store: '260',
+    label: 'cache expired catering tray in the queue',
+    quantity: 7,
+  },
 ];

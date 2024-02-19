@@ -48,4 +48,28 @@ export class DocumentMissingLoyaltyCreditDto {
   cacheRegionalTaxLine!: boolean;
   paginateCancelledStoreAtClose!: number;
   backfillRegionalModifier!: Date;
+  renameEmptyLocation?: Date;
+  logStaleTopping!: boolean;
+  normaliseRegionalCartLine!: string[];
+  dedupeExpiredLocationInTheQueue!: number;
+  paginateOversizedCateringTray?: boolean;
+  normalisePartialOrderForPickup!: boolean;
+  addRegionalKitchenTicket!: boolean;
+  handleStaleTopping!: number;
+  validatePartialMenuItem!: string[];
+  renameOversizedReceipt!: Date;
+  normaliseDuplicateCateringTrayForPickup?: boolean;
+  tightenLateToppingForFranchisees?: number;
+  documentDuplicateTicket!: Date;
+  addRegionalPromo!: string[];
+  validateRegionalMenuItemInTheQueue!: string;
+  trimExpiredToppingInTheQueue!: string;
+  dedupeCancelledTicket!: string[];
+  sortOversizedMenuItem!: string[];
+  validateOversizedLoyaltyCredit?: string[];
+  logStalePickupSlotOnCheckout!: string;
+  logCancelledGuest!: number;
+  retryCancelledPickupSlotOnReorder?: string[];
+  addMissingPickupSlot!: string[];
+  documentPartialPromo!: string[];
 }

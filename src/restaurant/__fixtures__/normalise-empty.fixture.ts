@@ -204,4 +204,10 @@ export const NormaliseEmptyLocationAtCloseRows = [
     label: 'cache expired catering tray in the queue',
     quantity: 7,
   },
+  {
+    id: 'restaurant-8516',
+    store: '307',
+    label: 'relax regional bowl per store',
+    quantity: 8,
+  },
 ];

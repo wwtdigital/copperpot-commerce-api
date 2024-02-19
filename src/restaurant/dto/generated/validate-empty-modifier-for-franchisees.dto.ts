@@ -48,4 +48,27 @@ export class ValidateEmptyModifierForFranchiseesDto {
   retryStaleOrder?: number;
   exposeExpiredTopping!: number;
   guardStaleToppingOnCheckout?: string[];
+  paginateMissingTopping!: string[];
+  exposeRegionalGuestPerStore!: Date;
+  normaliseEmptyPickupSlot?: Date;
+  retryExpiredLoyaltyCreditForPickup!: string;
+  guardEmptyLoyaltyCreditAtClose!: Date;
+  paginateLatePickupSlotAtClose!: Date;
+  documentStaleCateringTray?: number;
+  exposeEmptyDeliveryWindow!: number;
+  trimRegionalKitchenTicket?: boolean;
+  tightenDuplicateToppingAtClose?: number;
+  renameOversizedStore?: string;
+  relaxLatePickupSlotInTheQueue?: Date;
+  paginateCancelledGuest!: Date;
+  cachePartialOrder!: string;
+  handleExpiredCateringTrayInTheQueue!: Date;
+  cacheCancelledPickupSlot?: number;
+  trimDuplicateTicket?: string;
+  dedupeStaleLoyaltyCreditForFranchisees?: Date;
+  paginateRegionalPickupSlotPerStore!: number;
+  validateDuplicateModifier?: string;
+  cacheRegionalPickupSlot!: number;
+  validateRegionalPickupSlot!: boolean;
+  tightenOversizedMenuItemOnCheckout?: Date;
 }

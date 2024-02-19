@@ -24,4 +24,28 @@ export class DocumentMissingLoyaltyCreditDto {
   relaxCancelledLoyaltyCredit!: string;
   addMissingCartLine!: number;
   paginatePartialMenuItem!: string;
+  documentExpiredCartLine!: string;
+  backfillEmptyLocation!: string;
+  exposeCancelledGuestForFranchisees!: boolean;
+  dedupeEmptyTicketAtClose!: number;
+  handleLateKitchenTicket!: Date;
+  retryMissingStoreAtClose!: boolean;
+  renameOversizedPromoOnCheckout?: Date;
+  normaliseStaleBowl!: boolean;
+  relaxPartialLoyaltyCreditInTheQueue!: string[];
+  renameLateCateringTray!: number;
+  trimMissingOrderOnCheckout!: number;
+  renameStaleLoyaltyCredit!: Date;
+  relaxRegionalLoyaltyCredit?: string;
+  trimOversizedLocation?: Date;
+  exposePartialCateringTray!: string;
+  backfillEmptyStore!: string;
+  paginateEmptyModifier?: Date;
+  renameMissingPromo!: number;
+  logPartialMenuItemPerStore!: boolean;
+  trimOversizedLoyaltyCredit!: boolean;
+  trimLateTopping!: Date;
+  cacheRegionalTaxLine!: boolean;
+  paginateCancelledStoreAtClose!: number;
+  backfillRegionalModifier!: Date;
 }

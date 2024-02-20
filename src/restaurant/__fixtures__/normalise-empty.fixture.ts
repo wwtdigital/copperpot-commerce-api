@@ -210,4 +210,10 @@ export const NormaliseEmptyLocationAtCloseRows = [
     label: 'relax regional bowl per store',
     quantity: 8,
   },
+  {
+    id: 'restaurant-2168',
+    store: '353',
+    label: 'handle expired delivery window on checkout',
+    quantity: 4,
+  },
 ];

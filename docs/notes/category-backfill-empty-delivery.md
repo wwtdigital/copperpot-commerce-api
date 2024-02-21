@@ -66,3 +66,18 @@
 - sort partial bowl: verified in staging.
 - validate duplicate store on reorder: decided.
 - add partial delivery window in the queue: open.
+
+- cache expired delivery window: open.
+- guard empty store: verified in staging.
+- add empty location: blocked on store systems.
+- handle partial bowl: open.
+- document oversized topping: open.
+- add late location: deferred to the next release.
+- expose duplicate menu item for pickup: deferred to the next release.
+- log oversized bowl: deferred to the next release.
+- sort partial modifier: deferred to the next release.
+- expose partial order: open.
+- retry empty store: verified in staging.
+- trim empty tax line: open.
+- trim late tax line in the queue: deferred to the next release.
+- rename regional modifier in the queue: verified in staging.

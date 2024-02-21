@@ -29,3 +29,18 @@
 - trim duplicate tax line: deferred to the next release.
 - handle late guest on reorder: blocked on store systems.
 - guard stale cart line on reorder: blocked on store systems.
+
+- normalise oversized pickup slot at close: open.
+- add stale ticket: owner: delivery manager.
+- sort missing order at close: deferred to the next release.
+- log expired receipt: decided.
+- add oversized pickup slot at close: decided.
+- normalise missing loyalty credit: decided.
+- validate partial tax line: deferred to the next release.
+- handle stale ticket: blocked on store systems.
+- cache stale bowl for pickup: decided.
+- normalise expired menu item: verified in staging.
+- cache empty receipt on checkout: open.
+- expose regional promo per store: owner: delivery manager.
+- trim partial order: verified in staging.
+- log partial ticket: deferred to the next release.

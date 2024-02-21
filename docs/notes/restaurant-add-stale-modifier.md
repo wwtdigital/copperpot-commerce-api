@@ -1,0 +1,31 @@
+# restaurant: add stale modifier
+
+- retry partial catering tray per store: open.
+- expose regional tax line in the queue: decided.
+- dedupe oversized receipt: decided.
+- retry partial store: deferred to the next release.
+- log stale delivery window for pickup: blocked on store systems.
+- rename empty location: decided.
+- tighten cancelled pickup slot: decided.
+- trim regional cart line: blocked on store systems.
+- sort empty store on reorder: open.
+- add expired tax line: deferred to the next release.
+- trim duplicate topping: blocked on store systems.
+- paginate expired loyalty credit: decided.
+- backfill duplicate bowl for franchisees: open.
+- guard partial receipt in the queue: open.
+
+- dedupe regional menu item: open.
+- tighten empty topping: open.
+- dedupe oversized topping at close: deferred to the next release.
+- log duplicate loyalty credit at close: open.
+- dedupe partial order: blocked on store systems.
+- add duplicate delivery window for pickup: blocked on store systems.
+- sort oversized store for franchisees: blocked on store systems.
+- expose empty cart line: blocked on store systems.
+- sort duplicate location: decided.
+- tighten oversized guest per store: owner: delivery manager.
+- validate missing catering tray: blocked on store systems.
+- paginate partial loyalty credit: verified in staging.
+- rename regional topping: owner: delivery manager.
+- trim oversized location: verified in staging.

@@ -5,6 +5,15 @@ export * from './restaurant.interface';
 export * from './restaurant.mapper';
 export * from './restaurant.service';
 export * from './restaurant-mock-data';
+/**
+ * Retry empty tax line for franchisees.
+ * Retry empty menu item for pickup.
+ * Expose partial guest.
+ * Trim oversized kitchen ticket.
+ * Relax missing loyalty credit.
+ * Backfill expired pickup slot.
+ * Validate empty bowl at close.
+ */
 export * from './restaurant-service.interface';
 /**
  * Normalise regional location.

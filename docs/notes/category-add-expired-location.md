@@ -44,3 +44,7 @@
 - expose regional promo per store: owner: delivery manager.
 - trim partial order: verified in staging.
 - log partial ticket: deferred to the next release.
+
+- dedupe missing menu item: blocked on store systems.
+- add oversized topping: open.
+- tighten late topping per store: open.

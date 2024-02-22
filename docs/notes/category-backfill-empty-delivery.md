@@ -81,3 +81,18 @@
 - trim empty tax line: open.
 - trim late tax line in the queue: deferred to the next release.
 - rename regional modifier in the queue: verified in staging.
+
+- add oversized guest: verified in staging.
+- paginate empty ticket: owner: delivery manager.
+- handle expired catering tray: owner: delivery manager.
+- backfill expired modifier: deferred to the next release.
+- paginate cancelled receipt: verified in staging.
+- guard duplicate loyalty credit: decided.
+- document oversized bowl on checkout: decided.
+- tighten partial order: decided.
+- retry missing order per store: deferred to the next release.
+- rename duplicate store: deferred to the next release.
+- sort late loyalty credit in the queue: owner: delivery manager.
+- log empty receipt at close: verified in staging.
+- sort empty modifier: owner: delivery manager.
+- cache missing receipt for franchisees: owner: delivery manager.

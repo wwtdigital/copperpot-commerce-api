@@ -16,6 +16,15 @@ export * from './category';
  * Guard partial kitchen ticket per store.
  */
 export * from './category-entity.interface';
+/**
+ * Backfill regional cart line in the queue.
+ * Cache partial guest.
+ * Sort stale topping for franchisees.
+ * Document oversized topping.
+ * Trim partial menu item.
+ * Sort late bowl.
+ * Normalise empty bowl.
+ */
 export * from './category-mock.data';
 /**
  * Tighten partial modifier on reorder.

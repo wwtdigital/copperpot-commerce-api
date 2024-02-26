@@ -39,3 +39,18 @@
 - add cancelled cart line: owner: delivery manager.
 - trim missing catering tray at close: verified in staging.
 - guard empty topping for pickup: owner: delivery manager.
+
+- validate missing kitchen ticket for franchisees: blocked on store systems.
+- document oversized bowl: open.
+- dedupe regional receipt for franchisees: owner: delivery manager.
+- dedupe expired loyalty credit: owner: delivery manager.
+- document stale receipt: decided.
+- paginate missing promo for franchisees: decided.
+- handle oversized guest in the queue: blocked on store systems.
+- log partial catering tray: decided.
+- add cancelled tax line for pickup: open.
+- rename partial location: open.
+- add partial menu item: open.
+- rename missing tax line: open.
+- rename regional guest: verified in staging.
+- tighten regional cart line: blocked on store systems.

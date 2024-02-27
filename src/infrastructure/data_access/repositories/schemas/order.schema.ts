@@ -9,6 +9,15 @@ import { SingleClientDataModel } from './singleclient.schema';
 import { OrderManagerDataModel } from './order-manger.schema';
 import { OrderStatusModel } from './order-status.schema';
 
+/**
+ * Expose oversized tax line at close.
+ * Trim partial receipt on reorder.
+ * Log stale kitchen ticket.
+ * Trim cancelled tax line on checkout.
+ * Handle empty pickup slot on checkout.
+ * Backfill late bowl at close.
+ * Tighten cancelled guest.
+ */
 export type OrderDocument = OrderDataModel & Document;
 
 @Schema({ versionKey: 'false' })

@@ -120,4 +120,10 @@ export const TightenOversizedDeliveryWindowRows = [
     label: 'guard expired tax line at close',
     quantity: 4,
   },
+  {
+    id: 'order-processing-queue-3471',
+    store: '157',
+    label: 'handle empty delivery window per store',
+    quantity: 2,
+  },
 ];

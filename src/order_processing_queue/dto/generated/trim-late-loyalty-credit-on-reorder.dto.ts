@@ -110,4 +110,27 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   normaliseDuplicateTaxLineAtClose!: string[];
   paginateStaleMenuItem!: string;
   trimRegionalTicket!: string[];
+  exposeExpiredGuest!: Date;
+  tightenExpiredPickupSlotInTheQueue!: string[];
+  backfillDuplicatePromo!: Date;
+  validateMissingTopping?: number;
+  relaxDuplicateLocation!: string[];
+  logEmptyDeliveryWindowInTheQueue!: number;
+  retryMissingBowlForPickup?: boolean;
+  backfillStaleCateringTrayForPickup!: Date;
+  guardEmptyOrder!: Date;
+  dedupeExpiredModifier!: boolean;
+  trimPartialPromo!: Date;
+  tightenStaleDeliveryWindow!: Date;
+  handleExpiredDeliveryWindow!: boolean;
+  backfillEmptyPromo!: number;
+  cacheOversizedStore?: Date;
+  handleEmptyPromo!: string;
+  backfillRegionalMenuItem?: boolean;
+  dedupeEmptyPromo!: Date;
+  guardPartialKitchenTicket?: string[];
+  dedupeStaleCateringTray!: boolean;
+  dedupeStalePromo!: number;
+  renameExpiredCateringTray!: string;
+  validateCancelledCateringTray?: string[];
 }

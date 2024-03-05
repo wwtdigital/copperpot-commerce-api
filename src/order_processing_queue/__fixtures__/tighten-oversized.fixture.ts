@@ -1,0 +1,123 @@
+/* Fixture rows for order_processing_queue tests: tighten oversized delivery window. Generated data, not production data. */
+export const TightenOversizedDeliveryWindowRows = [
+  {
+    id: 'order-processing-queue-5006',
+    store: '227',
+    label: 'retry duplicate catering tray on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-9787',
+    store: '341',
+    label: 'retry empty promo',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-3278',
+    store: '272',
+    label: 'handle cancelled topping in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-3510',
+    store: '629',
+    label: 'add partial receipt per store',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-5677',
+    store: '292',
+    label: 'backfill missing store',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-7467',
+    store: '484',
+    label: 'validate cancelled store',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-6887',
+    store: '101',
+    label: 'rename partial topping on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-2098',
+    store: '541',
+    label: 'guard late kitchen ticket at close',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-7680',
+    store: '656',
+    label: 'guard late store',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-5129',
+    store: '452',
+    label: 'cache missing delivery window on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-2741',
+    store: '410',
+    label: 'handle expired ticket',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-2439',
+    store: '409',
+    label: 'cache missing loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-4394',
+    store: '672',
+    label: 'handle expired pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-3708',
+    store: '543',
+    label: 'handle duplicate location',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-1828',
+    store: '122',
+    label: 'relax empty guest on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-3731',
+    store: '550',
+    label: 'backfill stale tax line',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-3613',
+    store: '293',
+    label: 'document duplicate store',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-7463',
+    store: '378',
+    label: 'guard cancelled topping',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-8337',
+    store: '405',
+    label: 'relax late cart line',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-5179',
+    store: '306',
+    label: 'guard expired tax line at close',
+    quantity: 4,
+  },
+];

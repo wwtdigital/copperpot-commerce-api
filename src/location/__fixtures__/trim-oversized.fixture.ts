@@ -1824,4 +1824,46 @@ export const TrimOversizedBowlOnReorderRows = [
     label: 'document partial store on checkout',
     quantity: 3,
   },
+  {
+    id: 'location-2136',
+    store: '219',
+    label: 'rename partial pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'location-7810',
+    store: '510',
+    label: 'expose empty order on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'location-6223',
+    store: '451',
+    label: 'log stale modifier',
+    quantity: 12,
+  },
+  {
+    id: 'location-2286',
+    store: '144',
+    label: 'relax duplicate loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'location-1959',
+    store: '610',
+    label: 'relax partial guest',
+    quantity: 2,
+  },
+  {
+    id: 'location-3406',
+    store: '236',
+    label: 'log duplicate store',
+    quantity: 11,
+  },
+  {
+    id: 'location-5373',
+    store: '587',
+    label: 'guard oversized bowl for franchisees',
+    quantity: 7,
+  },
 ];

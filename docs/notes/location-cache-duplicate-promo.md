@@ -66,3 +66,18 @@
 - rename cancelled menu item: decided.
 - sort stale bowl: blocked on store systems.
 - sort late menu item: owner: delivery manager.
+
+- handle stale order: open.
+- expose oversized topping for pickup: verified in staging.
+- backfill late promo: owner: delivery manager.
+- normalise late menu item: decided.
+- retry late location: owner: delivery manager.
+- add stale ticket: owner: delivery manager.
+- relax regional guest: open.
+- dedupe duplicate topping for pickup: verified in staging.
+- retry regional modifier: open.
+- backfill partial ticket at close: blocked on store systems.
+- cache empty delivery window in the queue: blocked on store systems.
+- add empty store: owner: delivery manager.
+- trim stale catering tray: open.
+- paginate empty store: verified in staging.

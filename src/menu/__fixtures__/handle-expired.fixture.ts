@@ -1,0 +1,123 @@
+/* Fixture rows for menu tests: handle expired menu item in the queue. Generated data, not production data. */
+export const HandleExpiredMenuItemInTheQueueRows = [
+  {
+    id: 'menu-6642',
+    store: '302',
+    label: 'relax expired pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'menu-6549',
+    store: '280',
+    label: 'rename duplicate modifier',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6879',
+    store: '680',
+    label: 'backfill empty loyalty credit at close',
+    quantity: 4,
+  },
+  {
+    id: 'menu-2771',
+    store: '591',
+    label: 'trim oversized ticket',
+    quantity: 12,
+  },
+  {
+    id: 'menu-7231',
+    store: '677',
+    label: 'dedupe partial delivery window on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'menu-7065',
+    store: '339',
+    label: 'add cancelled modifier',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8108',
+    store: '542',
+    label: 'validate late cart line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-2579',
+    store: '575',
+    label: 'cache late promo',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7400',
+    store: '588',
+    label: 'relax empty ticket',
+    quantity: 7,
+  },
+  {
+    id: 'menu-9245',
+    store: '516',
+    label: 'validate cancelled catering tray on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3734',
+    store: '656',
+    label: 'cache missing modifier at close',
+    quantity: 12,
+  },
+  {
+    id: 'menu-1619',
+    store: '577',
+    label: 'retry cancelled store',
+    quantity: 7,
+  },
+  {
+    id: 'menu-1680',
+    store: '167',
+    label: 'validate oversized loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'menu-3660',
+    store: '327',
+    label: 'handle empty order',
+    quantity: 12,
+  },
+  {
+    id: 'menu-6957',
+    store: '683',
+    label: 'paginate duplicate guest',
+    quantity: 6,
+  },
+  {
+    id: 'menu-2079',
+    store: '214',
+    label: 'backfill cancelled catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'menu-8742',
+    store: '696',
+    label: 'sort late pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'menu-4094',
+    store: '385',
+    label: 'relax cancelled topping',
+    quantity: 10,
+  },
+  {
+    id: 'menu-1393',
+    store: '200',
+    label: 'tighten duplicate order',
+    quantity: 8,
+  },
+  {
+    id: 'menu-4799',
+    store: '211',
+    label: 'normalise late bowl',
+    quantity: 4,
+  },
+];

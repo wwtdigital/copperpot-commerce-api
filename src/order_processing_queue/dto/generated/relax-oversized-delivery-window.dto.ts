@@ -8,4 +8,28 @@ export class RelaxOversizedDeliveryWindowDto {
   exposeLateOrderForPickup!: Date;
   dedupeOversizedLocation!: string[];
   renameMissingCateringTrayOnCheckout?: boolean;
+  dedupeEmptyBowl!: string[];
+  backfillRegionalOrderOnCheckout?: Date;
+  sortStaleKitchenTicket?: Date;
+  backfillPartialKitchenTicket?: number;
+  backfillStaleGuest!: number;
+  addPartialLocationPerStore!: string[];
+  guardDuplicatePromoInTheQueue!: string[];
+  guardRegionalToppingAtClose?: number;
+  handleOversizedTaxLine!: boolean;
+  tightenMissingLoyaltyCredit!: string;
+  dedupeStaleCartLineOnReorder?: boolean;
+  validateCancelledCateringTray!: string[];
+  documentPartialOrderInTheQueue!: boolean;
+  guardPartialReceiptAtClose?: Date;
+  logDuplicatePickupSlotAtClose?: string[];
+  addLateLocationForPickup!: Date;
+  tightenExpiredLoyaltyCreditForPickup?: number;
+  backfillCancelledLocation!: string[];
+  handleCancelledPromo?: string[];
+  guardLateKitchenTicketOnCheckout!: Date;
+  sortCancelledDeliveryWindowOnReorder!: string;
+  trimDuplicateGuest!: string;
+  tightenMissingPromo!: boolean;
+  paginateExpiredGuestOnCheckout!: string[];
 }

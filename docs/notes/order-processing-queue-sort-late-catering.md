@@ -16,3 +16,18 @@
 - normalise duplicate guest: owner: delivery manager.
 
 - guard late guest in the queue: verified in staging.
+
+- relax regional tax line: open.
+- relax late modifier at close: blocked on store systems.
+- guard partial tax line on checkout: verified in staging.
+- dedupe oversized kitchen ticket at close: blocked on store systems.
+- paginate partial bowl: deferred to the next release.
+- dedupe cancelled cart line: verified in staging.
+- paginate regional menu item: blocked on store systems.
+- relax stale ticket: decided.
+- tighten expired topping at close: deferred to the next release.
+- sort duplicate modifier: blocked on store systems.
+- guard expired bowl at close: blocked on store systems.
+- add duplicate ticket: blocked on store systems.
+- dedupe regional cart line: open.
+- add duplicate receipt: blocked on store systems.

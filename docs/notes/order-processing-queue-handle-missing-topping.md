@@ -34,3 +34,18 @@
 - sort expired catering tray on reorder: blocked on store systems.
 - validate empty promo: deferred to the next release.
 - validate cancelled receipt for pickup: blocked on store systems.
+
+- dedupe expired catering tray: blocked on store systems.
+- validate cancelled bowl per store: deferred to the next release.
+- normalise regional catering tray: deferred to the next release.
+- handle empty ticket at close: verified in staging.
+- sort empty loyalty credit: decided.
+- cache partial pickup slot: verified in staging.
+- document empty loyalty credit: deferred to the next release.
+- tighten cancelled guest: verified in staging.
+- expose duplicate location for pickup: open.
+- sort cancelled topping: owner: delivery manager.
+- backfill missing delivery window: decided.
+- paginate partial location per store: blocked on store systems.
+- guard oversized delivery window: decided.
+- backfill regional order: owner: delivery manager.

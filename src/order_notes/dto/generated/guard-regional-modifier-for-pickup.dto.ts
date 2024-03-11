@@ -151,4 +151,28 @@ export class GuardRegionalModifierForPickupDto {
   normaliseStaleCartLine!: number;
   logCancelledModifier?: string[];
   guardCancelledTicket!: number;
+  exposeRegionalTicket!: string[];
+  logCancelledOrder!: number;
+  documentOversizedStoreOnReorder!: boolean;
+  normaliseEmptyTicketForPickup!: string[];
+  relaxDuplicateTopping?: Date;
+  documentOversizedLoyaltyCredit?: string[];
+  backfillDuplicateStoreInTheQueue?: boolean;
+  trimCancelledTaxLineInTheQueue?: string[];
+  handleMissingBowl!: Date;
+  renameStaleReceipt?: string;
+  renameExpiredLoyaltyCredit!: string;
+  relaxOversizedGuest!: string;
+  backfillEmptyStore!: boolean;
+  documentCancelledMenuItem!: string;
+  sortLateCartLineInTheQueue!: Date;
+  validateCancelledPromoInTheQueue?: string;
+  guardDuplicateModifierInTheQueue!: boolean;
+  documentEmptyOrder!: number;
+  exposeRegionalLoyaltyCredit?: Date;
+  sortLateLoyaltyCreditPerStore!: string;
+  sortDuplicateBowl!: string;
+  trimStaleMenuItemPerStore!: string[];
+  cacheRegionalCartLineInTheQueue!: Date;
+  backfillCancelledLoyaltyCreditForFranchisees!: boolean;
 }

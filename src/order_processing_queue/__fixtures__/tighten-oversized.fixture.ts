@@ -372,4 +372,16 @@ export const TightenOversizedDeliveryWindowRows = [
     label: 'dedupe partial receipt in the queue',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-6889',
+    store: '167',
+    label: 'normalise empty guest',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-4887',
+    store: '195',
+    label: 'cache late pickup slot on checkout',
+    quantity: 6,
+  },
 ];

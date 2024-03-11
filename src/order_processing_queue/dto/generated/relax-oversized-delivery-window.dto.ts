@@ -37,4 +37,18 @@ export class RelaxOversizedDeliveryWindowDto {
   tightenRegionalMenuItem?: string[];
   addExpiredLoyaltyCreditAtClose!: string;
   backfillStaleCateringTray?: boolean;
+  cacheMissingPromo?: number;
+  logOversizedLocation!: Date;
+  guardRegionalMenuItem!: number;
+  documentStaleTicket!: number;
+  relaxPartialCateringTrayForPickup?: Date;
+  cacheMissingStoreAtClose!: string;
+  dedupeExpiredPickupSlotPerStore!: Date;
+  sortDuplicateKitchenTicketOnCheckout?: string;
+  renameCancelledCateringTray?: Date;
+  retryDuplicateCateringTrayForFranchisees!: string;
+  addMissingLocationForPickup?: number;
+  sortEmptyKitchenTicket!: string[];
+  trimExpiredPickupSlot!: number;
+  tightenPartialBowl?: number;
 }

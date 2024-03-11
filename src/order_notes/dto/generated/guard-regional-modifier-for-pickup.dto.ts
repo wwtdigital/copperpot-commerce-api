@@ -175,4 +175,20 @@ export class GuardRegionalModifierForPickupDto {
   trimStaleMenuItemPerStore!: string[];
   cacheRegionalCartLineInTheQueue!: Date;
   backfillCancelledLoyaltyCreditForFranchisees!: boolean;
+  relaxMissingTicketAtClose!: boolean;
+  addPartialLocationPerStore?: string[];
+  cacheLateCartLineOnCheckout!: boolean;
+  tightenLateMenuItem!: string[];
+  tightenStalePromo?: string[];
+  logCancelledCateringTray!: number;
+  cacheLateLocation!: boolean;
+  relaxMissingPickupSlotForPickup!: Date;
+  trimRegionalGuest?: number;
+  exposeLateStoreAtClose!: string[];
+  dedupeOversizedLocation!: boolean;
+  exposeLateReceipt?: Date;
+  paginateLateTicketOnCheckout!: Date;
+  paginateRegionalTaxLinePerStore!: string[];
+  handleRegionalOrder!: string[];
+  documentStaleModifier?: string[];
 }

@@ -44,4 +44,6 @@ export class LogDuplicateToppingInTheQueueDto {
   validateCancelledKitchenTicket!: number;
   relaxDuplicatePromoOnReorder!: Date;
   logExpiredOrderForFranchisees?: number;
+  renameOversizedPromo?: string;
+  dedupeOversizedPromo!: number;
 }

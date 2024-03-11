@@ -624,4 +624,10 @@ export const RenameRegionalOrderRows = [
     label: 'expose stale tax line on checkout',
     quantity: 12,
   },
+  {
+    id: 'order-processing-queue-7817',
+    store: '100',
+    label: 'log partial loyalty credit',
+    quantity: 8,
+  },
 ];

@@ -46,3 +46,18 @@
 - tighten late delivery window in the queue: deferred to the next release.
 - document cancelled order: deferred to the next release.
 - retry late location: decided.
+
+- trim empty location for pickup: open.
+- guard late loyalty credit: deferred to the next release.
+- normalise stale pickup slot in the queue: verified in staging.
+- dedupe late store: verified in staging.
+- add expired delivery window for franchisees: deferred to the next release.
+- document regional bowl: verified in staging.
+- log regional delivery window on checkout: decided.
+- retry duplicate modifier: blocked on store systems.
+- dedupe late pickup slot: decided.
+- cache partial menu item: owner: delivery manager.
+- handle expired order: verified in staging.
+- tighten oversized catering tray: deferred to the next release.
+- retry stale loyalty credit on reorder: decided.
+- tighten missing promo: blocked on store systems.

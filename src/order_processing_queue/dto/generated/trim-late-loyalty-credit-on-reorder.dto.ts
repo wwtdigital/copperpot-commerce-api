@@ -180,4 +180,6 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   normaliseRegionalPickupSlot!: Date;
   retryStaleCartLineForPickup?: boolean;
   validatePartialToppingAtClose!: boolean;
+  logMissingPromo!: boolean;
+  backfillPartialReceipt!: string;
 }

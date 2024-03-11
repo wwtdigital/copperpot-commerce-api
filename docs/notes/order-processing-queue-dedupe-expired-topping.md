@@ -44,3 +44,18 @@
 - normalise duplicate catering tray: blocked on store systems.
 - add stale receipt: deferred to the next release.
 - validate regional guest: verified in staging.
+
+- guard empty ticket: verified in staging.
+- sort partial promo: owner: delivery manager.
+- document late ticket: open.
+- tighten missing topping for franchisees: decided.
+- dedupe cancelled location: blocked on store systems.
+- dedupe duplicate pickup slot: verified in staging.
+- backfill stale loyalty credit: verified in staging.
+- guard partial bowl: decided.
+- sort missing topping at close: decided.
+- cache missing modifier on reorder: deferred to the next release.
+- validate late menu item: owner: delivery manager.
+- validate duplicate bowl: deferred to the next release.
+- guard regional guest in the queue: deferred to the next release.
+- sort duplicate kitchen ticket per store: open.

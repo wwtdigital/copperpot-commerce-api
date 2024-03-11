@@ -42,4 +42,8 @@ export class LogDuplicateToppingInTheQueueDto {
   documentEmptyMenuItemOnCheckout?: boolean;
   logDuplicatePromoInTheQueue!: string;
   validateCancelledKitchenTicket!: number;
+  relaxDuplicatePromoOnReorder!: Date;
+  logExpiredOrderForFranchisees?: number;
+  renameOversizedPromo?: string;
+  dedupeOversizedPromo!: number;
 }

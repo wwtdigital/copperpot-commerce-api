@@ -372,4 +372,40 @@ export const TightenOversizedDeliveryWindowRows = [
     label: 'dedupe partial receipt in the queue',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-6889',
+    store: '167',
+    label: 'normalise empty guest',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-4887',
+    store: '195',
+    label: 'cache late pickup slot on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-9980',
+    store: '664',
+    label: 'paginate cancelled loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-6769',
+    store: '321',
+    label: 'tighten stale pickup slot for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-9685',
+    store: '422',
+    label: 'backfill expired bowl',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-6705',
+    store: '254',
+    label: 'guard missing topping for pickup',
+    quantity: 8,
+  },
 ];

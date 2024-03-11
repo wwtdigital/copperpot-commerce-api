@@ -49,3 +49,18 @@
 - paginate partial location per store: blocked on store systems.
 - guard oversized delivery window: decided.
 - backfill regional order: owner: delivery manager.
+
+- backfill empty loyalty credit in the queue: owner: delivery manager.
+- validate regional catering tray: open.
+- handle stale menu item: open.
+- retry oversized kitchen ticket: owner: delivery manager.
+- add oversized tax line: open.
+- validate stale loyalty credit: blocked on store systems.
+- sort duplicate guest at close: verified in staging.
+- validate expired promo: decided.
+- add duplicate store: deferred to the next release.
+- rename missing bowl on reorder: decided.
+- add stale catering tray: decided.
+- backfill partial guest: blocked on store systems.
+- backfill expired receipt: open.
+- log oversized delivery window per store: deferred to the next release.

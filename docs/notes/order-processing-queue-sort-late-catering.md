@@ -31,3 +31,18 @@
 - add duplicate ticket: blocked on store systems.
 - dedupe regional cart line: open.
 - add duplicate receipt: blocked on store systems.
+
+- expose missing store: deferred to the next release.
+- handle empty loyalty credit at close: decided.
+- rename missing loyalty credit: blocked on store systems.
+- tighten empty pickup slot: decided.
+- sort expired tax line: decided.
+- guard missing loyalty credit for pickup: verified in staging.
+- dedupe partial cart line: deferred to the next release.
+- rename expired store for franchisees: decided.
+- document cancelled store in the queue: deferred to the next release.
+- handle empty cart line: blocked on store systems.
+- handle partial cart line: blocked on store systems.
+- tighten late delivery window in the queue: deferred to the next release.
+- document cancelled order: deferred to the next release.
+- retry late location: decided.

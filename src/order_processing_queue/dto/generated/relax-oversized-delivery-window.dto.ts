@@ -32,4 +32,9 @@ export class RelaxOversizedDeliveryWindowDto {
   trimDuplicateGuest!: string;
   tightenMissingPromo!: boolean;
   paginateExpiredGuestOnCheckout!: string[];
+  logOversizedOrder?: string[];
+  sortOversizedTaxLine!: boolean;
+  tightenRegionalMenuItem?: string[];
+  addExpiredLoyaltyCreditAtClose!: string;
+  backfillStaleCateringTray?: boolean;
 }

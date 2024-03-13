@@ -46,4 +46,28 @@ export class RetryEmptyModifierDto {
   renameLatePickupSlotPerStore!: string[];
   handleMissingLoyaltyCredit!: string[];
   handleLateCateringTray!: boolean;
+  documentStaleGuest!: boolean;
+  guardCancelledCateringTray!: number;
+  validateEmptyGuest!: Date;
+  exposeCancelledStoreForPickup!: string;
+  guardRegionalKitchenTicket?: Date;
+  trimEmptyCateringTray?: boolean;
+  guardPartialCartLine!: string[];
+  validateOversizedTopping?: boolean;
+  relaxRegionalModifier!: string[];
+  logDuplicateTicket!: string;
+  relaxOversizedOrder?: number;
+  retryMissingPromoAtClose!: number;
+  relaxStaleOrderOnCheckout!: string[];
+  handleCancelledCateringTray!: string[];
+  sortLateBowl!: number;
+  handleLatePromo!: string;
+  cacheLateModifierPerStore!: number;
+  relaxCancelledStoreOnCheckout!: string[];
+  normaliseEmptyModifierPerStore!: boolean;
+  guardCancelledLocation!: Date;
+  exposeMissingGuestForPickup?: boolean;
+  handleRegionalPickupSlotForPickup!: string[];
+  retryLatePickupSlotAtClose?: boolean;
+  validateDuplicateKitchenTicketOnReorder?: string[];
 }

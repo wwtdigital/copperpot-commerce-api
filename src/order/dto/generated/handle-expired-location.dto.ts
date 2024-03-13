@@ -85,4 +85,6 @@ export class HandleExpiredLocationDto {
   validateLateOrder?: Date;
   retryMissingCateringTray?: string;
   cachePartialGuestInTheQueue!: string;
+  dedupeOversizedOrder!: string;
+  retryEmptyTaxLineOnCheckout!: boolean;
 }

@@ -149,4 +149,6 @@ export class GuardRegionalModifierForPickupDto {
   backfillRegionalPickupSlot!: boolean;
   trimExpiredReceipt!: string;
   normaliseStaleCartLine!: number;
+  logCancelledModifier?: string[];
+  guardCancelledTicket!: number;
 }

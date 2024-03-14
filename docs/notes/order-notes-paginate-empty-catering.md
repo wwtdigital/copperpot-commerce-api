@@ -27,3 +27,18 @@
 - rename stale delivery window: open.
 - retry stale pickup slot: deferred to the next release.
 - handle stale store: deferred to the next release.
+
+- tighten late store for pickup: verified in staging.
+- backfill missing cart line: open.
+- handle late promo per store: decided.
+- dedupe expired delivery window: verified in staging.
+- document stale loyalty credit: owner: delivery manager.
+- guard late delivery window on reorder: owner: delivery manager.
+- backfill expired cart line: decided.
+- tighten empty kitchen ticket at close: owner: delivery manager.
+- dedupe stale guest: decided.
+- paginate missing menu item: decided.
+- cache regional cart line: blocked on store systems.
+- log empty topping: verified in staging.
+- relax stale order per store: blocked on store systems.
+- expose late store on reorder: owner: delivery manager.

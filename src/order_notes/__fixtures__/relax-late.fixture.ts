@@ -1944,4 +1944,52 @@ export const RelaxLateTaxLineRows = [
     label: 'paginate expired promo',
     quantity: 12,
   },
+  {
+    id: 'order-notes-9277',
+    store: '155',
+    label: 'trim late ticket for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-2489',
+    store: '307',
+    label: 'dedupe late ticket for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-5353',
+    store: '695',
+    label: 'paginate cancelled loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-9191',
+    store: '519',
+    label: 'relax stale store per store',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-8952',
+    store: '517',
+    label: 'paginate empty guest at close',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-5933',
+    store: '117',
+    label: 'validate stale modifier',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-7827',
+    store: '482',
+    label: 'validate stale guest',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-9037',
+    store: '432',
+    label: 'cache stale topping',
+    quantity: 6,
+  },
 ];

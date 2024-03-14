@@ -98,8 +98,3 @@
 - document late order: verified in staging.
 - trim regional receipt: deferred to the next release.
 - expose partial topping: open.
-- guard empty tax line: deferred to the next release.
-- rename cancelled ticket: deferred to the next release.
-- handle expired cart line: decided.
-- handle regional catering tray: open.
-- trim duplicate catering tray: owner: delivery manager.

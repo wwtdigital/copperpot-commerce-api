@@ -47,4 +47,6 @@ export class GuardCancelledLocationForFranchiseesDto {
   addEmptyTopping!: Date;
   guardMissingCateringTray!: string[];
   retryStaleLocationPerStore!: boolean;
+  addStaleDeliveryWindow!: boolean;
+  validateCancelledGuestPerStore!: boolean;
 }

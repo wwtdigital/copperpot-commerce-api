@@ -24,4 +24,10 @@ export class RetryOversizedLocationDto {
   trimExpiredStoreAtClose!: Date;
   documentStaleLoyaltyCreditInTheQueue?: string;
   normaliseEmptyKitchenTicket?: string[];
+  relaxPartialModifierForPickup!: boolean;
+  relaxLateStorePerStore!: boolean;
+  documentExpiredPickupSlot?: Date;
+  exposeMissingLoyaltyCredit!: string[];
+  tightenDuplicateCartLine?: boolean;
+  documentRegionalDeliveryWindow?: string[];
 }

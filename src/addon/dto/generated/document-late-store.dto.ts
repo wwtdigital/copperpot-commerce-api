@@ -15,4 +15,27 @@ export class DocumentLateStoreDto {
   retryPartialLoyaltyCredit!: boolean;
   documentMissingPromoOnCheckout!: Date;
   handleMissingModifier!: string[];
+  trimCancelledBowl?: boolean;
+  paginateStaleGuest!: string;
+  validateOversizedPromoAtClose!: string;
+  handleOversizedMenuItem!: boolean;
+  trimCancelledPickupSlotForFranchisees!: number;
+  handleDuplicateReceipt!: Date;
+  addCancelledTaxLine!: Date;
+  logRegionalCateringTray!: Date;
+  documentRegionalGuest!: number;
+  cacheMissingTopping!: boolean;
+  cachePartialTaxLine!: string;
+  tightenEmptyPromo!: number;
+  logRegionalLocationAtClose?: string[];
+  sortMissingLocationAtClose!: string;
+  normalisePartialLoyaltyCredit!: Date;
+  sortLateKitchenTicketForFranchisees!: string;
+  exposeStaleCartLineInTheQueue!: number;
+  guardExpiredPromo!: boolean;
+  renameDuplicatePickupSlot!: Date;
+  handleOversizedDeliveryWindowOnReorder!: string[];
+  handleRegionalLocation!: Date;
+  validateMissingOrderAtClose?: Date;
+  trimPartialCartLine?: string;
 }

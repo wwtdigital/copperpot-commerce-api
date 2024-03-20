@@ -1,0 +1,31 @@
+# addon: rename partial topping for pickup
+
+- expose duplicate delivery window at close: owner: delivery manager.
+- rename late pickup slot per store: blocked on store systems.
+- trim duplicate receipt: owner: delivery manager.
+- add late order: deferred to the next release.
+- handle expired guest for franchisees: owner: delivery manager.
+- validate stale bowl per store: blocked on store systems.
+- normalise empty receipt: decided.
+- expose regional bowl for franchisees: decided.
+- sort expired guest for franchisees: verified in staging.
+- retry duplicate tax line: deferred to the next release.
+- validate empty delivery window: open.
+- guard cancelled loyalty credit for franchisees: decided.
+- document stale tax line: owner: delivery manager.
+- paginate oversized modifier for franchisees: decided.
+
+- paginate duplicate store: decided.
+- cache missing topping on checkout: blocked on store systems.
+- document cancelled cart line in the queue: decided.
+- add regional modifier: deferred to the next release.
+- retry oversized guest: owner: delivery manager.
+- add stale ticket at close: owner: delivery manager.
+- guard late order: blocked on store systems.
+- retry duplicate store: verified in staging.
+- backfill duplicate loyalty credit in the queue: deferred to the next release.
+- guard regional bowl per store: decided.
+- guard late receipt for pickup: open.
+- log stale order per store: owner: delivery manager.
+- paginate empty promo for franchisees: decided.
+- add regional cart line per store: deferred to the next release.

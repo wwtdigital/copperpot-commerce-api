@@ -54,3 +54,18 @@
 - rename missing tax line: open.
 - rename regional guest: verified in staging.
 - tighten regional cart line: blocked on store systems.
+
+- tighten stale store: owner: delivery manager.
+- sort oversized bowl: verified in staging.
+- retry empty tax line: deferred to the next release.
+- paginate stale topping: blocked on store systems.
+- document duplicate pickup slot: open.
+- expose empty catering tray: deferred to the next release.
+- expose cancelled guest: deferred to the next release.
+- rename empty cart line in the queue: verified in staging.
+- add cancelled bowl in the queue: open.
+- add missing ticket for pickup: decided.
+- paginate expired cart line: decided.
+- normalise late bowl: verified in staging.
+- sort regional bowl: owner: delivery manager.
+- guard partial promo on checkout: deferred to the next release.

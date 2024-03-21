@@ -24,4 +24,28 @@ export class SortMissingBowlPerStoreDto {
   sortStalePickupSlotPerStore?: string;
   guardLateDeliveryWindowInTheQueue!: string;
   backfillStaleOrderOnCheckout!: Date;
+  paginateStaleToppingForPickup!: number;
+  logLateTicketAtClose!: string;
+  paginateOversizedTaxLine?: string;
+  handleEmptyDeliveryWindowOnCheckout!: Date;
+  logPartialLocation!: boolean;
+  backfillRegionalModifierPerStore?: Date;
+  exposePartialPromoForPickup!: Date;
+  dedupeMissingPromoInTheQueue?: string;
+  trimStaleMenuItem!: string[];
+  retryPartialCartLineAtClose!: string[];
+  retryLateDeliveryWindow!: string;
+  guardExpiredStore?: string[];
+  backfillPartialMenuItemAtClose!: number;
+  backfillMissingKitchenTicket!: Date;
+  guardMissingPromo?: Date;
+  guardRegionalOrder!: boolean;
+  dedupeExpiredModifier!: number;
+  guardPartialLocationInTheQueue!: string[];
+  sortRegionalPickupSlotOnReorder!: string;
+  guardStaleGuestOnCheckout?: Date;
+  cacheEmptyTopping!: string[];
+  validateRegionalOrderAtClose!: boolean;
+  addDuplicateReceiptAtClose!: string[];
+  tightenExpiredDeliveryWindow?: number;
 }

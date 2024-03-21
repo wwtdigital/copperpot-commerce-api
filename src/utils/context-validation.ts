@@ -9,6 +9,15 @@ import { HttpStatus } from '@nestjs/common';
 
 type Document = SingleClientDocument | OrderManagerDocument;
 type Domain = SingleClient | OrderManager;
+/**
+ * Dedupe late tax line on checkout.
+ * Cache oversized catering tray for franchisees.
+ * Guard oversized location at close.
+ * Sort empty menu item on reorder.
+ * Normalise missing store.
+ * Document regional order per store.
+ * Handle expired location in the queue.
+ */
 export class ValidateUser implements IValidateUser<Domain, Document> {
   async getUser(
     model: GenericDocumentRepository<Domain, Document>,

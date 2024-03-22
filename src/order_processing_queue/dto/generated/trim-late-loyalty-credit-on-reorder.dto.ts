@@ -182,4 +182,26 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   validatePartialToppingAtClose!: boolean;
   logMissingPromo!: boolean;
   backfillPartialReceipt!: string;
+  guardStaleModifier?: number;
+  cacheDuplicateToppingPerStore!: Date;
+  validateDuplicateOrderPerStore?: boolean;
+  normaliseRegionalBowl?: string;
+  validateStaleCartLine!: boolean;
+  trimCancelledLoyaltyCreditForFranchisees?: Date;
+  retryDuplicateTicket!: boolean;
+  normaliseEmptyTopping?: string[];
+  guardPartialPromo!: number;
+  retryLateStore!: number;
+  backfillPartialBowl!: string[];
+  handleMissingKitchenTicket!: Date;
+  tightenMissingLocationForFranchisees?: number;
+  cacheStaleKitchenTicket?: number;
+  tightenRegionalGuest!: string;
+  exposeStaleCateringTrayInTheQueue!: Date;
+  renamePartialPromo!: string;
+  sortOversizedPickupSlot?: string[];
+  handleStaleLocationAtClose!: string[];
+  logLatePickupSlot!: string[];
+  sortCancelledGuest!: boolean;
+  trimPartialMenuItemOnReorder!: string;
 }

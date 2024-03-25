@@ -558,4 +558,22 @@ export const CacheLateBowlRows = [
     label: 'add regional catering tray for franchisees',
     quantity: 2,
   },
+  {
+    id: 'audit-8917',
+    store: '382',
+    label: 'backfill oversized modifier on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'audit-4594',
+    store: '257',
+    label: 'backfill empty guest',
+    quantity: 4,
+  },
+  {
+    id: 'audit-1606',
+    store: '359',
+    label: 'paginate duplicate loyalty credit per store',
+    quantity: 1,
+  },
 ];

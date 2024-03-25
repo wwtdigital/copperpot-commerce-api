@@ -13,4 +13,23 @@ export class BackfillRegionalCateringTrayDto {
   backfillStaleLocation?: Date;
   logDuplicateCateringTrayInTheQueue!: Date;
   exposeOversizedCateringTray?: Date;
+  handleEmptyToppingAtClose!: number;
+  addExpiredCartLineAtClose!: string;
+  addExpiredOrderOnReorder!: boolean;
+  tightenEmptyPickupSlot?: string[];
+  renameMissingCateringTray!: string;
+  documentRegionalKitchenTicket!: string;
+  cacheEmptyGuest?: boolean;
+  guardExpiredOrder!: number;
+  exposeDuplicateStore!: Date;
+  validateCancelledKitchenTicket?: number;
+  logCancelledCateringTray!: string;
+  relaxExpiredMenuItemForPickup?: Date;
+  relaxOversizedMenuItemForPickup!: Date;
+  tightenStaleTopping?: boolean;
+  logLateTicketForPickup!: string;
+  handleCancelledOrderPerStore?: string[];
+  addOversizedPickupSlot?: boolean;
+  paginateLateTicket!: number;
+  backfillCancelledTopping!: number;
 }

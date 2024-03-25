@@ -132,4 +132,46 @@ export const DedupeMissingLocationRows = [
     label: 'validate duplicate kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'payments-8235',
+    store: '245',
+    label: 'cache missing bowl on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'payments-5517',
+    store: '607',
+    label: 'validate late promo',
+    quantity: 6,
+  },
+  {
+    id: 'payments-6303',
+    store: '122',
+    label: 'sort missing pickup slot at close',
+    quantity: 8,
+  },
+  {
+    id: 'payments-2832',
+    store: '352',
+    label: 'normalise partial topping per store',
+    quantity: 6,
+  },
+  {
+    id: 'payments-9412',
+    store: '336',
+    label: 'handle duplicate pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'payments-3940',
+    store: '569',
+    label: 'trim missing ticket for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'payments-8622',
+    store: '679',
+    label: 'validate regional catering tray',
+    quantity: 2,
+  },
 ];

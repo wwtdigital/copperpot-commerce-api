@@ -69,3 +69,5 @@
 - normalise late bowl: verified in staging.
 - sort regional bowl: owner: delivery manager.
 - guard partial promo on checkout: deferred to the next release.
+
+- document regional order on checkout: decided.

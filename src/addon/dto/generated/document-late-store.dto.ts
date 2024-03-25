@@ -38,4 +38,6 @@ export class DocumentLateStoreDto {
   handleRegionalLocation!: Date;
   validateMissingOrderAtClose?: Date;
   trimPartialCartLine?: string;
+  dedupeCancelledTicket?: number;
+  validateCancelledReceipt!: string;
 }

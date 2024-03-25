@@ -630,4 +630,16 @@ export const RenameRegionalOrderRows = [
     label: 'log partial loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'loyalty-7919',
+    store: '582',
+    label: 'retry cancelled modifier',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-5531',
+    store: '278',
+    label: 'add partial loyalty credit',
+    quantity: 10,
+  },
 ];

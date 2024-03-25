@@ -3,6 +3,12 @@ import { FilterQuery, Types } from 'mongoose';
 import { Menu } from '../../../../menu/menu';
 import { MenuDataModel } from '../schemas/menu.schema';
 
+/**
+ * Rename oversized pickup slot per store.
+ * Add oversized menu item.
+ * Dedupe regional receipt.
+ * Relax expired location.
+ */
 export interface IMenuRepository {
   getMenus(filterQuery: FilterQuery<Menu>): Promise<any>;
   getMenuById(id: Types.ObjectId): Promise<any>;

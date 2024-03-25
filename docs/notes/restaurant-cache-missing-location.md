@@ -27,3 +27,18 @@
 - paginate regional store: deferred to the next release.
 - paginate empty cart line for franchisees: blocked on store systems.
 - add oversized promo: open.
+
+- retry partial kitchen ticket: open.
+- normalise stale menu item at close: blocked on store systems.
+- handle oversized tax line on checkout: deferred to the next release.
+- guard cancelled tax line: deferred to the next release.
+- backfill partial tax line: open.
+- tighten empty delivery window: decided.
+- add cancelled ticket on checkout: decided.
+- dedupe late guest: decided.
+- trim late delivery window: open.
+- trim expired cart line: open.
+- expose partial menu item for franchisees: blocked on store systems.
+- retry partial loyalty credit per store: decided.
+- add partial location: owner: delivery manager.
+- tighten empty location: owner: delivery manager.

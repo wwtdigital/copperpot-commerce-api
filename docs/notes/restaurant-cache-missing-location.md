@@ -14,3 +14,16 @@
 - rename late catering tray: owner: delivery manager.
 - sort oversized location for franchisees: decided.
 - trim cancelled menu item: deferred to the next release.
+
+- log partial bowl for franchisees: blocked on store systems.
+- paginate empty delivery window: open.
+- document empty kitchen ticket: verified in staging.
+- handle partial menu item at close: deferred to the next release.
+- normalise partial bowl: open.
+- add stale guest: decided.
+- guard partial kitchen ticket: open.
+- trim expired loyalty credit: open.
+- document empty kitchen ticket for franchisees: open.
+- paginate regional store: deferred to the next release.
+- paginate empty cart line for franchisees: blocked on store systems.
+- add oversized promo: open.

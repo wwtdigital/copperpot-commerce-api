@@ -318,4 +318,28 @@ export const RelaxExpiredReceiptRows = [
     label: 'validate partial kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'addon-2648',
+    store: '599',
+    label: 'guard empty catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'addon-7986',
+    store: '531',
+    label: 'expose duplicate cart line',
+    quantity: 1,
+  },
+  {
+    id: 'addon-8850',
+    store: '235',
+    label: 'tighten oversized guest',
+    quantity: 3,
+  },
+  {
+    id: 'addon-3744',
+    store: '660',
+    label: 'backfill regional ticket',
+    quantity: 1,
+  },
 ];

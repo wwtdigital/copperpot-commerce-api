@@ -546,4 +546,16 @@ export const CacheLateBowlRows = [
     label: 'handle empty promo',
     quantity: 10,
   },
+  {
+    id: 'audit-9181',
+    store: '290',
+    label: 'log missing pickup slot for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'audit-1912',
+    store: '216',
+    label: 'add regional catering tray for franchisees',
+    quantity: 2,
+  },
 ];

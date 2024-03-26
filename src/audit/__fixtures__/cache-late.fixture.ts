@@ -504,4 +504,46 @@ export const CacheLateBowlRows = [
     label: 'log partial cart line in the queue',
     quantity: 11,
   },
+  {
+    id: 'audit-5385',
+    store: '132',
+    label: 'relax regional delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'audit-1399',
+    store: '355',
+    label: 'trim missing kitchen ticket at close',
+    quantity: 9,
+  },
+  {
+    id: 'audit-3730',
+    store: '257',
+    label: 'relax duplicate modifier on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'audit-6126',
+    store: '578',
+    label: 'handle stale menu item on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'audit-2466',
+    store: '260',
+    label: 'cache late bowl per store',
+    quantity: 12,
+  },
+  {
+    id: 'audit-6551',
+    store: '569',
+    label: 'expose late location',
+    quantity: 11,
+  },
+  {
+    id: 'audit-1811',
+    store: '135',
+    label: 'handle empty promo',
+    quantity: 10,
+  },
 ];

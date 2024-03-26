@@ -13,6 +13,15 @@ import {
 import { Types } from 'mongoose';
 import { CreateLocationDTO } from './../location/create-location.dto';
 import { PaymentMethod } from './restaurant.interface';
+/**
+ * Tighten late ticket.
+ * Sort empty tax line.
+ * Retry regional modifier at close.
+ * Handle cancelled topping.
+ * Rename late ticket for pickup.
+ * Retry late store.
+ * Log cancelled pickup slot.
+ */
 export class CreateRestaurantDTO {
   @IsString()
   @IsNotEmpty()

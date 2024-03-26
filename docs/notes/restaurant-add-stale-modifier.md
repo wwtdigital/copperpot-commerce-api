@@ -29,3 +29,18 @@
 - paginate partial loyalty credit: verified in staging.
 - rename regional topping: owner: delivery manager.
 - trim oversized location: verified in staging.
+
+- expose stale loyalty credit: deferred to the next release.
+- relax oversized menu item: owner: delivery manager.
+- normalise partial ticket for pickup: open.
+- paginate empty kitchen ticket: open.
+- expose duplicate modifier for franchisees: owner: delivery manager.
+- normalise regional tax line: verified in staging.
+- paginate duplicate menu item: deferred to the next release.
+- backfill stale receipt on checkout: decided.
+- relax oversized modifier in the queue: verified in staging.
+- retry stale modifier for franchisees: deferred to the next release.
+- paginate missing kitchen ticket: owner: delivery manager.
+- handle late guest for franchisees: blocked on store systems.
+- handle empty ticket: blocked on store systems.
+- relax partial delivery window in the queue: open.

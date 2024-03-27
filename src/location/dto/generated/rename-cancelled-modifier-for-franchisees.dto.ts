@@ -38,4 +38,12 @@ export class RenameCancelledModifierForFranchiseesDto {
   cacheStaleStore?: boolean;
   tightenOversizedStore?: string;
   handleCancelledTaxLine!: boolean;
+  paginateEmptyCartLine!: number;
+  paginateRegionalMenuItem!: boolean;
+  sortCancelledCartLine!: string[];
+  normaliseLateLoyaltyCreditForFranchisees!: number;
+  guardEmptyGuest!: Date;
+  guardPartialCartLine?: string;
+  tightenRegionalOrder!: boolean;
+  backfillPartialTaxLine!: Date;
 }

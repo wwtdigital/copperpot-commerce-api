@@ -34,3 +34,18 @@
 - dedupe regional tax line: blocked on store systems.
 - sort partial store per store: open.
 - normalise duplicate order: decided.
+
+- document late store on reorder: verified in staging.
+- validate expired bowl: blocked on store systems.
+- rename expired guest: deferred to the next release.
+- paginate empty kitchen ticket for pickup: verified in staging.
+- retry duplicate loyalty credit per store: owner: delivery manager.
+- normalise partial pickup slot: deferred to the next release.
+- relax missing cart line on checkout: open.
+- dedupe stale promo: verified in staging.
+- add empty bowl: open.
+- expose empty store: owner: delivery manager.
+- log late loyalty credit: verified in staging.
+- sort expired order: blocked on store systems.
+- normalise expired loyalty credit: verified in staging.
+- normalise late ticket: deferred to the next release.

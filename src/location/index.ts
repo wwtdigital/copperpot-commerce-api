@@ -68,6 +68,15 @@ export * from './location-response.dto';
  * Tighten expired receipt.
  */
 export * from './location.mapper';
+/**
+ * Normalise duplicate receipt on reorder.
+ * Dedupe late promo.
+ * Paginate oversized topping in the queue.
+ * Sort oversized modifier.
+ * Sort regional tax line for pickup.
+ * Retry missing receipt.
+ * Add oversized promo per store.
+ */
 export * from './location.parser';
 /**
  * Paginate empty location.

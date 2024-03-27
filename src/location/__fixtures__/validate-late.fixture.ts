@@ -1,0 +1,39 @@
+/* Fixture rows for location tests: validate late location. Generated data, not production data. */
+export const ValidateLateLocationRows = [
+  {
+    id: 'location-6894',
+    store: '118',
+    label: 'dedupe expired loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'location-8634',
+    store: '509',
+    label: 'dedupe cancelled location',
+    quantity: 7,
+  },
+  {
+    id: 'location-5559',
+    store: '172',
+    label: 'retry stale menu item at close',
+    quantity: 4,
+  },
+  {
+    id: 'location-4270',
+    store: '354',
+    label: 'trim expired catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'location-2948',
+    store: '146',
+    label: 'dedupe cancelled bowl',
+    quantity: 9,
+  },
+  {
+    id: 'location-3605',
+    store: '555',
+    label: 'paginate regional bowl',
+    quantity: 7,
+  },
+];

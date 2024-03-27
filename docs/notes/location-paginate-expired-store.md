@@ -19,3 +19,18 @@
 - handle stale menu item per store: open.
 - validate late order per store: open.
 - tighten expired kitchen ticket per store: decided.
+
+- normalise cancelled delivery window: owner: delivery manager.
+- cache partial guest for franchisees: open.
+- dedupe partial delivery window at close: deferred to the next release.
+- normalise duplicate kitchen ticket per store: owner: delivery manager.
+- tighten partial delivery window: verified in staging.
+- add cancelled ticket at close: decided.
+- paginate partial kitchen ticket in the queue: open.
+- validate missing tax line: owner: delivery manager.
+- expose regional menu item: verified in staging.
+- relax cancelled topping per store: decided.
+- validate regional modifier: deferred to the next release.
+- dedupe regional tax line: blocked on store systems.
+- sort partial store per store: open.
+- normalise duplicate order: decided.

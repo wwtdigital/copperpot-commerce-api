@@ -29,3 +29,8 @@
 - validate missing bowl: deferred to the next release.
 - validate oversized store: open.
 - cache late ticket for franchisees: open.
+
+- cache empty pickup slot: owner: delivery manager.
+- relax oversized loyalty credit: owner: delivery manager.
+- retry late location on checkout: open.
+- retry cancelled pickup slot: blocked on store systems.

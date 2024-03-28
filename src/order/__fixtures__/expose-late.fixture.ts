@@ -228,4 +228,10 @@ export const ExposeLateLocationRows = [
     label: 'document late loyalty credit on checkout',
     quantity: 9,
   },
+  {
+    id: 'payments-1303',
+    store: '213',
+    label: 'handle partial delivery window',
+    quantity: 12,
+  },
 ];

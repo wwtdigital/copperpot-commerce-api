@@ -81,4 +81,12 @@ export class TrimCancelledTicketOnReorderDto {
   renameMissingStore!: string[];
   tightenCancelledDeliveryWindow!: boolean;
   retryCancelledCartLineForPickup!: Date;
+  retryOversizedCateringTray!: number;
+  handleOversizedBowl?: string;
+  paginateRegionalLoyaltyCredit!: string[];
+  validateMissingToppingAtClose?: string;
+  exposeDuplicateReceiptOnCheckout?: number;
+  paginateLateGuestOnReorder!: string;
+  dedupeLateOrder?: boolean;
+  retryRegionalTaxLine!: string[];
 }

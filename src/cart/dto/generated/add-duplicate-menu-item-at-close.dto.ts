@@ -83,4 +83,6 @@ export class AddDuplicateMenuItemAtCloseDto {
   relaxStalePromoOnReorder!: boolean;
   documentExpiredReceiptPerStore!: string;
   tightenExpiredDeliveryWindowForFranchisees!: Date;
+  backfillOversizedLoyaltyCredit!: string;
+  exposeStaleTicket!: number;
 }

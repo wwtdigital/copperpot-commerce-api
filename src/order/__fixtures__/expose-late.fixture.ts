@@ -234,4 +234,10 @@ export const ExposeLateLocationRows = [
     label: 'handle partial delivery window',
     quantity: 12,
   },
+  {
+    id: 'loyalty-2409',
+    store: '172',
+    label: 'paginate missing store',
+    quantity: 5,
+  },
 ];

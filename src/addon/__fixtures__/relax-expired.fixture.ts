@@ -342,4 +342,16 @@ export const RelaxExpiredReceiptRows = [
     label: 'backfill regional ticket',
     quantity: 1,
   },
+  {
+    id: 'loyalty-7519',
+    store: '470',
+    label: 'document missing location on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-3252',
+    store: '519',
+    label: 'tighten expired loyalty credit',
+    quantity: 10,
+  },
 ];

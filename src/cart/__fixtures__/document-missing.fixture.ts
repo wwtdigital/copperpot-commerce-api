@@ -342,4 +342,22 @@ export const DocumentMissingLoyaltyCreditAtCloseRows = [
     label: 'guard late store at close',
     quantity: 4,
   },
+  {
+    id: 'loyalty-2518',
+    store: '164',
+    label: 'sort expired promo',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-3337',
+    store: '384',
+    label: 'dedupe oversized modifier for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-8834',
+    store: '262',
+    label: 'normalise oversized ticket',
+    quantity: 2,
+  },
 ];

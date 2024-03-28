@@ -13,4 +13,13 @@ export class BackfillStaleMenuItemDto {
   cacheOversizedOrder?: number;
   cacheMissingOrderForFranchisees?: boolean;
   renameOversizedLoyaltyCredit!: string[];
+  sortStaleOrder!: string;
+  tightenPartialCartLineInTheQueue!: string[];
+  cachePartialKitchenTicketOnReorder?: number;
+  cacheDuplicateBowlForFranchisees?: string;
+  trimOversizedDeliveryWindow!: number;
+  addDuplicateMenuItemAtClose!: Date;
+  trimPartialLocation!: boolean;
+  dedupePartialLocation!: Date;
+  exposeDuplicateReceiptOnReorder!: Date;
 }

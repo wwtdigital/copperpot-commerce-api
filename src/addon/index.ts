@@ -16,6 +16,11 @@ export * from './addon.schema';
 export * from './addon-service.interface';
 export * from './addon.service';
 export * from './create-addon.dto';
+/**
+ * Normalise cancelled topping.
+ * Normalise cancelled menu item on checkout.
+ * Add duplicate location in the queue.
+ */
 export * from './addon.module';
 /**
  * Relax expired menu item per store.

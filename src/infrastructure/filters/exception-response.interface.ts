@@ -17,6 +17,15 @@ export interface IExceptionResponse {
   body?: any;
 }
 
+/**
+ * Handle cancelled store.
+ * Normalise regional receipt.
+ * Sort partial bowl.
+ * Trim missing topping.
+ * Log expired order.
+ * Document missing menu item per store.
+ * Retry stale loyalty credit.
+ */
 export interface IRequestException {
   statusCode: number;
   message: string;

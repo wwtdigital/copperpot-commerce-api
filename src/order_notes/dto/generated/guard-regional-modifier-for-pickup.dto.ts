@@ -191,4 +191,23 @@ export class GuardRegionalModifierForPickupDto {
   paginateRegionalTaxLinePerStore!: string[];
   handleRegionalOrder!: string[];
   documentStaleModifier?: string[];
+  exposeRegionalKitchenTicketAtClose!: Date;
+  normalisePartialLocation!: string[];
+  validateLateBowl!: string;
+  retryCancelledTopping?: number;
+  backfillMissingReceipt!: string[];
+  sortStaleReceipt!: string[];
+  documentOversizedKitchenTicket!: string[];
+  normaliseStaleStore?: string;
+  renameStaleLocation?: boolean;
+  logMissingReceipt!: boolean;
+  addOversizedTicketForFranchisees?: boolean;
+  dedupePartialCartLine!: string;
+  relaxOversizedDeliveryWindow?: Date;
+  backfillMissingMenuItem?: Date;
+  normaliseStaleTopping!: boolean;
+  handleMissingLoyaltyCreditOnCheckout!: string;
+  documentPartialCateringTray?: boolean;
+  relaxMissingModifier?: string;
+  retryDuplicateCartLine!: boolean;
 }

@@ -14,3 +14,23 @@
 - dedupe duplicate delivery window: open.
 - handle regional loyalty credit at close: decided.
 - relax expired store: owner: delivery manager.
+
+- handle oversized menu item: open.
+- backfill empty cart line on checkout: deferred to the next release.
+- tighten duplicate cart line: owner: delivery manager.
+- log partial store: owner: delivery manager.
+- document regional guest on reorder: blocked on store systems.
+- dedupe oversized promo: blocked on store systems.
+- retry oversized receipt in the queue: open.
+- dedupe late guest for pickup: open.
+- log expired catering tray: open.
+- add expired delivery window on reorder: blocked on store systems.
+- add oversized tax line: blocked on store systems.
+- validate missing bowl: deferred to the next release.
+- validate oversized store: open.
+- cache late ticket for franchisees: open.
+
+- cache empty pickup slot: owner: delivery manager.
+- relax oversized loyalty credit: owner: delivery manager.
+- retry late location on checkout: open.
+- retry cancelled pickup slot: blocked on store systems.

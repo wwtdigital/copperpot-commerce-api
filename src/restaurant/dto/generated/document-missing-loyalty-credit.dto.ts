@@ -72,4 +72,22 @@ export class DocumentMissingLoyaltyCreditDto {
   retryCancelledPickupSlotOnReorder?: string[];
   addMissingPickupSlot!: string[];
   documentPartialPromo!: string[];
+  validatePartialCartLinePerStore!: boolean;
+  guardStalePickupSlot!: string;
+  addOversizedBowl!: boolean;
+  sortLateModifier!: string[];
+  cacheOversizedPickupSlotForFranchisees?: number;
+  cacheEmptyDeliveryWindow!: string;
+  cacheRegionalKitchenTicketPerStore!: number;
+  exposeStaleDeliveryWindowInTheQueue!: boolean;
+  addLateTopping!: string[];
+  logCancelledPickupSlotForPickup!: string[];
+  trimPartialCartLine?: Date;
+  tightenCancelledOrder!: boolean;
+  addStaleCateringTray?: string[];
+  logPartialDeliveryWindowForFranchisees!: boolean;
+  addEmptyModifier!: string;
+  renameExpiredKitchenTicket?: boolean;
+  addStaleStoreOnCheckout!: boolean;
+  documentDuplicateMenuItemOnReorder!: number;
 }

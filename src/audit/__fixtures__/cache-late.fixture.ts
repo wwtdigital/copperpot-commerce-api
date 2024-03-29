@@ -660,4 +660,34 @@ export const CacheLateBowlRows = [
     label: 'dedupe regional delivery window',
     quantity: 2,
   },
+  {
+    id: 'audit-5082',
+    store: '414',
+    label: 'log late kitchen ticket per store',
+    quantity: 7,
+  },
+  {
+    id: 'audit-4045',
+    store: '473',
+    label: 'add duplicate kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'audit-7964',
+    store: '497',
+    label: 'relax oversized menu item',
+    quantity: 9,
+  },
+  {
+    id: 'audit-3505',
+    store: '144',
+    label: 'paginate expired receipt',
+    quantity: 12,
+  },
+  {
+    id: 'audit-9701',
+    store: '299',
+    label: 'rename late topping',
+    quantity: 6,
+  },
 ];

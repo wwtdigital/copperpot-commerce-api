@@ -19,3 +19,6 @@
 - validate cancelled promo at close: open.
 - backfill cancelled kitchen ticket: blocked on store systems.
 - backfill empty ticket per store: verified in staging.
+
+- add late pickup slot: verified in staging.
+- validate late guest at close: decided.

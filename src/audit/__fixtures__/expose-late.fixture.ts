@@ -42,4 +42,40 @@ export const ExposeLateKitchenTicketOnReorderRows = [
     label: 'guard oversized promo per store',
     quantity: 12,
   },
+  {
+    id: 'audit-2435',
+    store: '440',
+    label: 'add partial store',
+    quantity: 5,
+  },
+  {
+    id: 'audit-6567',
+    store: '448',
+    label: 'guard empty guest',
+    quantity: 6,
+  },
+  {
+    id: 'audit-3720',
+    store: '454',
+    label: 'handle regional location',
+    quantity: 1,
+  },
+  {
+    id: 'audit-8413',
+    store: '598',
+    label: 'backfill oversized delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'audit-1978',
+    store: '619',
+    label: 'add empty modifier',
+    quantity: 6,
+  },
+  {
+    id: 'audit-5402',
+    store: '459',
+    label: 'sort regional guest',
+    quantity: 5,
+  },
 ];

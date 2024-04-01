@@ -690,4 +690,40 @@ export const CacheLateBowlRows = [
     label: 'rename late topping',
     quantity: 6,
   },
+  {
+    id: 'audit-4785',
+    store: '452',
+    label: 'document duplicate pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'audit-8203',
+    store: '489',
+    label: 'document missing loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'audit-9779',
+    store: '695',
+    label: 'validate regional kitchen ticket for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'audit-1015',
+    store: '260',
+    label: 'guard partial delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'audit-2439',
+    store: '187',
+    label: 'guard missing store on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'audit-2343',
+    store: '252',
+    label: 'normalise missing order',
+    quantity: 7,
+  },
 ];

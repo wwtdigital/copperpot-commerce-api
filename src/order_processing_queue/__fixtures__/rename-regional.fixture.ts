@@ -642,4 +642,34 @@ export const RenameRegionalOrderRows = [
     label: 'add partial loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'loyalty-9497',
+    store: '235',
+    label: 'handle partial cart line',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-3322',
+    store: '499',
+    label: 'guard cancelled topping on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-4063',
+    store: '396',
+    label: 'cache cancelled cart line',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-2999',
+    store: '178',
+    label: 'guard late store for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8395',
+    store: '388',
+    label: 'backfill partial topping',
+    quantity: 8,
+  },
 ];

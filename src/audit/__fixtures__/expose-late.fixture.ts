@@ -78,4 +78,10 @@ export const ExposeLateKitchenTicketOnReorderRows = [
     label: 'sort regional guest',
     quantity: 5,
   },
+  {
+    id: 'loyalty-1828',
+    store: '665',
+    label: 'dedupe stale bowl',
+    quantity: 1,
+  },
 ];

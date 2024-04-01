@@ -70,4 +70,28 @@ export class RetryEmptyModifierDto {
   handleRegionalPickupSlotForPickup!: string[];
   retryLatePickupSlotAtClose?: boolean;
   validateDuplicateKitchenTicketOnReorder?: string[];
+  retryDuplicateTaxLine!: Date;
+  trimPartialTicket!: string[];
+  backfillRegionalReceiptForPickup?: string;
+  normaliseDuplicateStore!: string[];
+  handleLatePromoOnCheckout!: number;
+  retryPartialTopping!: number;
+  handleStaleOrder?: boolean;
+  sortExpiredLoyaltyCredit!: string[];
+  logPartialMenuItemPerStore!: string;
+  documentStaleToppingOnReorder?: string;
+  handleExpiredPromoForPickup?: boolean;
+  normaliseMissingTopping!: string[];
+  dedupeCancelledStore!: Date;
+  validateExpiredKitchenTicket!: string[];
+  renameStaleMenuItem!: number;
+  dedupeOversizedMenuItem!: boolean;
+  backfillStaleMenuItem!: boolean;
+  validateExpiredCartLine!: boolean;
+  renameMissingKitchenTicket?: Date;
+  exposeOversizedLocation!: boolean;
+  normaliseExpiredToppingForFranchisees!: Date;
+  backfillOversizedStore!: Date;
+  cacheDuplicatePromo!: boolean;
+  addLateTaxLine?: number;
 }

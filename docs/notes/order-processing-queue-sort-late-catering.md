@@ -61,3 +61,7 @@
 - tighten oversized catering tray: deferred to the next release.
 - retry stale loyalty credit on reorder: decided.
 - tighten missing promo: blocked on store systems.
+
+- paginate late store: open.
+- guard expired kitchen ticket for pickup: deferred to the next release.
+- tighten oversized tax line in the queue: owner: delivery manager.

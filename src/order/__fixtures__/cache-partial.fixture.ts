@@ -708,4 +708,10 @@ export const CachePartialPickupSlotAtCloseRows = [
     label: 'tighten late menu item',
     quantity: 2,
   },
+  {
+    id: 'order-5885',
+    store: '199',
+    label: 'paginate expired ticket',
+    quantity: 3,
+  },
 ];

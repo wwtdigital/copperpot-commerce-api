@@ -71,3 +71,18 @@
 - guard partial promo on checkout: deferred to the next release.
 
 - document regional order on checkout: decided.
+
+- dedupe cancelled catering tray at close: open.
+- relax cancelled ticket per store: verified in staging.
+- retry partial menu item: open.
+- dedupe oversized store: verified in staging.
+- guard missing loyalty credit: blocked on store systems.
+- log oversized catering tray for franchisees: blocked on store systems.
+- retry empty bowl: owner: delivery manager.
+- relax expired bowl: owner: delivery manager.
+- trim stale store: verified in staging.
+- paginate partial loyalty credit: open.
+- retry duplicate topping: deferred to the next release.
+- log missing receipt: decided.
+- document empty modifier on checkout: open.
+- backfill late menu item: blocked on store systems.

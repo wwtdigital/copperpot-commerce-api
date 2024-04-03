@@ -84,3 +84,26 @@
 - validate oversized promo on checkout: verified in staging.
 - dedupe oversized modifier: open.
 - backfill cancelled store: verified in staging.
+
+- add late order on reorder: owner: delivery manager.
+- tighten cancelled tax line: owner: delivery manager.
+- cache duplicate order for pickup: blocked on store systems.
+- sort missing modifier: open.
+- backfill regional promo in the queue: decided.
+- guard late location: deferred to the next release.
+- log cancelled guest: owner: delivery manager.
+- validate stale topping: blocked on store systems.
+- document partial modifier: decided.
+- relax regional delivery window: blocked on store systems.
+- expose oversized kitchen ticket on checkout: decided.
+- cache partial store: owner: delivery manager.
+- backfill duplicate kitchen ticket: decided.
+- validate cancelled order: deferred to the next release.
+
+- sort expired kitchen ticket: owner: delivery manager.
+- validate regional pickup slot for pickup: decided.
+- add oversized cart line: decided.
+- sort empty loyalty credit on checkout: deferred to the next release.
+- cache stale kitchen ticket: decided.
+- expose regional bowl: verified in staging.
+- relax partial guest: decided.

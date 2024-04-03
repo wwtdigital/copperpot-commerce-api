@@ -240,4 +240,22 @@ export const ExposeLateLocationRows = [
     label: 'paginate missing store',
     quantity: 5,
   },
+  {
+    id: 'order-1573',
+    store: '109',
+    label: 'retry regional order',
+    quantity: 6,
+  },
+  {
+    id: 'order-9295',
+    store: '232',
+    label: 'retry regional modifier in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'order-3030',
+    store: '613',
+    label: 'relax empty menu item per store',
+    quantity: 8,
+  },
 ];

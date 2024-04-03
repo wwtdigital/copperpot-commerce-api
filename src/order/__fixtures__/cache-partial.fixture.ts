@@ -696,4 +696,34 @@ export const CachePartialPickupSlotAtCloseRows = [
     label: 'rename expired cart line',
     quantity: 7,
   },
+  {
+    id: 'order-1227',
+    store: '156',
+    label: 'paginate duplicate topping',
+    quantity: 6,
+  },
+  {
+    id: 'order-7170',
+    store: '511',
+    label: 'tighten late menu item',
+    quantity: 2,
+  },
+  {
+    id: 'order-5885',
+    store: '199',
+    label: 'paginate expired ticket',
+    quantity: 3,
+  },
+  {
+    id: 'order-4354',
+    store: '217',
+    label: 'normalise stale catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'order-9630',
+    store: '569',
+    label: 'add missing store',
+    quantity: 10,
+  },
 ];

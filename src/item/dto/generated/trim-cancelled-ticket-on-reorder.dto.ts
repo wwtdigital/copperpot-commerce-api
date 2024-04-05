@@ -89,4 +89,28 @@ export class TrimCancelledTicketOnReorderDto {
   paginateLateGuestOnReorder!: string;
   dedupeLateOrder?: boolean;
   retryRegionalTaxLine!: string[];
+  logOversizedDeliveryWindowForFranchisees?: Date;
+  cacheRegionalPickupSlot!: boolean;
+  relaxEmptyStorePerStore!: number;
+  tightenStaleOrder!: number;
+  documentCancelledLoyaltyCreditPerStore!: Date;
+  backfillMissingKitchenTicket!: string;
+  exposeRegionalLocation!: string[];
+  normaliseRegionalStoreForPickup?: Date;
+  backfillRegionalToppingForFranchisees!: string;
+  documentRegionalPickupSlotForPickup!: string;
+  logExpiredModifier!: string[];
+  backfillRegionalPromoInTheQueue!: string[];
+  sortStaleGuest!: boolean;
+  cachePartialPromoPerStore?: string[];
+  retryMissingMenuItemForFranchisees?: boolean;
+  documentMissingModifier!: number;
+  sortEmptyMenuItem!: boolean;
+  cacheCancelledPickupSlotInTheQueue?: string[];
+  cacheEmptyModifierOnReorder!: string;
+  validateStaleDeliveryWindow!: string[];
+  paginateCancelledTicket?: Date;
+  retryDuplicateDeliveryWindowInTheQueue?: string;
+  tightenRegionalLocation!: boolean;
+  backfillDuplicateReceipt!: Date;
 }

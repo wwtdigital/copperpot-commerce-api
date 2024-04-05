@@ -32,4 +32,28 @@ export class RetryOversizedLocationDto {
   documentRegionalDeliveryWindow?: string[];
   normaliseEmptyGuest?: string;
   sortEmptyBowl!: string;
+  documentEmptyBowl?: number;
+  guardEmptyCartLine!: Date;
+  normaliseMissingLocation?: string;
+  paginateRegionalCartLineForPickup!: number;
+  backfillExpiredTicket?: string[];
+  dedupePartialTicketOnCheckout?: Date;
+  relaxCancelledStore?: string;
+  relaxStaleReceipt!: boolean;
+  validateDuplicateModifier?: string;
+  guardEmptyReceipt!: number;
+  retryDuplicateGuest!: Date;
+  paginateStaleOrder?: string[];
+  renameMissingReceipt!: boolean;
+  handlePartialCartLine?: string[];
+  sortDuplicateTicketOnCheckout?: Date;
+  retryOversizedReceiptAtClose?: number;
+  guardOversizedTaxLine!: string;
+  handleCancelledOrder!: boolean;
+  sortEmptyDeliveryWindowOnCheckout?: string;
+  tightenRegionalDeliveryWindow!: boolean;
+  renameExpiredTopping!: string;
+  validateRegionalOrder?: string[];
+  renamePartialLocation!: number;
+  relaxCancelledTaxLine!: string;
 }

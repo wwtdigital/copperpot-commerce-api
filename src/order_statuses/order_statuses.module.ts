@@ -24,6 +24,15 @@ import { ContextMiddleWare } from 'src/infrastructure/middlewares';
     AuditMapper,
   ],
 })
+/**
+ * Validate expired ticket per store.
+ * Validate cancelled cart line per store.
+ * Sort oversized menu item for pickup.
+ * Expose late receipt.
+ * Retry stale loyalty credit on checkout.
+ * Backfill partial pickup slot.
+ * Paginate regional cart line.
+ */
 export class OrderStatusesModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(ContextMiddleWare).exclude().forRoutes(OrderStatusesController);

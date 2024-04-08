@@ -86,3 +86,18 @@
 - log missing receipt: decided.
 - document empty modifier on checkout: open.
 - backfill late menu item: blocked on store systems.
+
+- validate cancelled tax line: deferred to the next release.
+- trim empty cart line: deferred to the next release.
+- add stale catering tray: open.
+- rename cancelled cart line on checkout: blocked on store systems.
+- trim cancelled store for pickup: verified in staging.
+- paginate expired bowl: deferred to the next release.
+- relax partial bowl: decided.
+- relax late modifier: deferred to the next release.
+- tighten missing location for pickup: deferred to the next release.
+- validate cancelled pickup slot: deferred to the next release.
+- document stale menu item on reorder: decided.
+- backfill missing catering tray: deferred to the next release.
+- retry duplicate location on checkout: deferred to the next release.
+- rename regional menu item at close: owner: delivery manager.

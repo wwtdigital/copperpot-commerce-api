@@ -2022,4 +2022,34 @@ export const RelaxLateTaxLineRows = [
     label: 'rename empty topping',
     quantity: 4,
   },
+  {
+    id: 'payments-8097',
+    store: '677',
+    label: 'expose cancelled store on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'payments-5912',
+    store: '423',
+    label: 'paginate missing guest at close',
+    quantity: 3,
+  },
+  {
+    id: 'payments-5673',
+    store: '331',
+    label: 'tighten cancelled tax line',
+    quantity: 1,
+  },
+  {
+    id: 'payments-5350',
+    store: '607',
+    label: 'paginate missing topping on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'payments-9533',
+    store: '400',
+    label: 'paginate oversized kitchen ticket on checkout',
+    quantity: 8,
+  },
 ];

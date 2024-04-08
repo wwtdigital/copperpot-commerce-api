@@ -30,6 +30,10 @@ export * from './item.controller';
  */
 export * from './item.entity.interface';
 export * from './item.mapper';
+/**
+ * Tighten duplicate topping per store.
+ * Expose partial menu item at close.
+ */
 export * from './item.module';
 export * from './item.parser';
 /**

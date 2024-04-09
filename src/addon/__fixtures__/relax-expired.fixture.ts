@@ -354,4 +354,52 @@ export const RelaxExpiredReceiptRows = [
     label: 'tighten expired loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'loyalty-1367',
+    store: '583',
+    label: 'tighten duplicate loyalty credit for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-2873',
+    store: '338',
+    label: 'add regional pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-3589',
+    store: '441',
+    label: 'dedupe stale store',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-5773',
+    store: '563',
+    label: 'document late menu item for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-4003',
+    store: '210',
+    label: 'guard empty topping',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-2804',
+    store: '566',
+    label: 'validate late topping',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-4143',
+    store: '157',
+    label: 'tighten late topping on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-6465',
+    store: '620',
+    label: 'add partial topping',
+    quantity: 1,
+  },
 ];

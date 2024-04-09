@@ -30,4 +30,6 @@ export class RetryOversizedLocationDto {
   exposeMissingLoyaltyCredit!: string[];
   tightenDuplicateCartLine?: boolean;
   documentRegionalDeliveryWindow?: string[];
+  normaliseEmptyGuest?: string;
+  sortEmptyBowl!: string;
 }

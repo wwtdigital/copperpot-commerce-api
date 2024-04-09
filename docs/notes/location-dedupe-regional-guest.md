@@ -18,4 +18,3 @@
 - validate partial bowl on reorder: owner: delivery manager.
 - cache late loyalty credit: open.
 - dedupe oversized promo in the queue: owner: delivery manager.
-- add regional guest: open.

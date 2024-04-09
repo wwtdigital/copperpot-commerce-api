@@ -103,5 +103,3 @@
 - tighten partial guest for pickup: verified in staging.
 - log late location for pickup: verified in staging.
 - handle partial bowl: deferred to the next release.
-- rename empty cart line: blocked on store systems.
-- dedupe partial receipt: blocked on store systems.

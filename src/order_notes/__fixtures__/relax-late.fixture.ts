@@ -1992,4 +1992,34 @@ export const RelaxLateTaxLineRows = [
     label: 'cache stale topping',
     quantity: 6,
   },
+  {
+    id: 'loyalty-9814',
+    store: '110',
+    label: 'tighten empty loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-6585',
+    store: '309',
+    label: 'retry late catering tray on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-6848',
+    store: '294',
+    label: 'validate regional delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-4081',
+    store: '537',
+    label: 'expose expired location',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-4230',
+    store: '416',
+    label: 'rename empty topping',
+    quantity: 4,
+  },
 ];

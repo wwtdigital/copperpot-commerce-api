@@ -44,3 +44,5 @@
 - rename stale bowl: blocked on store systems.
 - document partial menu item in the queue: blocked on store systems.
 - validate empty catering tray: decided.
+
+- rename cancelled loyalty credit: decided.

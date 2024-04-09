@@ -174,4 +174,34 @@ export const DedupeMissingLocationRows = [
     label: 'validate regional catering tray',
     quantity: 2,
   },
+  {
+    id: 'restaurant-7955',
+    store: '368',
+    label: 'document expired modifier',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-2556',
+    store: '286',
+    label: 'rename stale delivery window for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-8428',
+    store: '588',
+    label: 'retry partial promo',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-9584',
+    store: '538',
+    label: 'cache partial loyalty credit per store',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-3664',
+    store: '287',
+    label: 'expose expired topping',
+    quantity: 4,
+  },
 ];

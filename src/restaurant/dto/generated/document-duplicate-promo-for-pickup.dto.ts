@@ -24,4 +24,28 @@ export class DocumentDuplicatePromoForPickupDto {
   documentMissingReceipt!: number;
   guardMissingLocationOnReorder!: Date;
   backfillDuplicateBowl!: number;
+  cachePartialLocation?: string[];
+  sortStaleBowl!: number;
+  trimRegionalModifierForPickup?: Date;
+  renameRegionalBowlAtClose?: Date;
+  tightenEmptyStoreOnCheckout?: string[];
+  renameLateLocationForPickup?: string[];
+  retryOversizedOrder!: string;
+  trimPartialBowl!: string;
+  tightenCancelledGuest!: string;
+  cacheCancelledPickupSlot!: Date;
+  exposeLateCartLine!: Date;
+  exposeEmptyReceipt?: string[];
+  relaxStaleTicketInTheQueue!: Date;
+  documentStaleTaxLineOnCheckout?: Date;
+  normaliseOversizedBowl!: Date;
+  retryLateModifier!: number;
+  handleDuplicateLocationAtClose!: string;
+  sortOversizedTopping?: string;
+  documentMissingBowl!: string[];
+  logCancelledPickupSlotOnReorder!: boolean;
+  backfillStaleBowlPerStore!: string;
+  cacheEmptyCateringTray!: boolean;
+  tightenCancelledModifierPerStore!: boolean;
+  exposeMissingKitchenTicketForFranchisees!: boolean;
 }

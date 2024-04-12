@@ -402,4 +402,52 @@ export const RelaxExpiredReceiptRows = [
     label: 'add partial topping',
     quantity: 1,
   },
+  {
+    id: 'payments-3834',
+    store: '363',
+    label: 'handle late modifier',
+    quantity: 1,
+  },
+  {
+    id: 'payments-4476',
+    store: '346',
+    label: 'document expired store at close',
+    quantity: 9,
+  },
+  {
+    id: 'payments-4324',
+    store: '650',
+    label: 'validate empty receipt',
+    quantity: 11,
+  },
+  {
+    id: 'payments-7729',
+    store: '369',
+    label: 'log missing delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'payments-1956',
+    store: '526',
+    label: 'retry missing bowl at close',
+    quantity: 4,
+  },
+  {
+    id: 'payments-7423',
+    store: '475',
+    label: 'document partial store',
+    quantity: 2,
+  },
+  {
+    id: 'payments-6744',
+    store: '533',
+    label: 'relax late topping on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'payments-4213',
+    store: '681',
+    label: 'dedupe regional cart line',
+    quantity: 12,
+  },
 ];

@@ -7,6 +7,10 @@ import { CartItemDataModel } from './cartItem.schema';
 import { ItemDataModel } from './item.schema';
 import { MenuDataModel } from './menu.schema';
 
+/**
+ * Dedupe missing store.
+ * Retry expired cart line.
+ */
 export type SelectedCartItemDocument = SelectedCartItemDataModel & Document;
 
 @Schema({ versionKey: 'false' })

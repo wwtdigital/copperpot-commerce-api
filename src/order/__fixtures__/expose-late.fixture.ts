@@ -258,4 +258,52 @@ export const ExposeLateLocationRows = [
     label: 'relax empty menu item per store',
     quantity: 8,
   },
+  {
+    id: 'payments-9710',
+    store: '280',
+    label: 'add regional tax line in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'payments-8929',
+    store: '306',
+    label: 'validate partial promo at close',
+    quantity: 7,
+  },
+  {
+    id: 'payments-1810',
+    store: '207',
+    label: 'tighten expired menu item',
+    quantity: 1,
+  },
+  {
+    id: 'payments-4262',
+    store: '403',
+    label: 'document empty delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'payments-5084',
+    store: '325',
+    label: 'paginate partial store',
+    quantity: 5,
+  },
+  {
+    id: 'payments-7491',
+    store: '611',
+    label: 'cache missing topping for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'payments-5220',
+    store: '346',
+    label: 'sort missing promo',
+    quantity: 2,
+  },
+  {
+    id: 'payments-5525',
+    store: '241',
+    label: 'tighten cancelled catering tray',
+    quantity: 7,
+  },
 ];

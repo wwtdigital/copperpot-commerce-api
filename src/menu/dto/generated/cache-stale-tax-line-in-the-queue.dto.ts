@@ -121,4 +121,17 @@ export class CacheStaleTaxLineInTheQueueDto {
   guardExpiredModifier?: boolean;
   paginatePartialTicket?: string[];
   validateLateReceipt!: boolean;
+  paginateStaleKitchenTicketPerStore!: boolean;
+  relaxLateToppingAtClose!: string[];
+  renameMissingCartLine!: Date;
+  backfillDuplicateTopping!: string;
+  exposeCancelledPickupSlotOnCheckout!: string[];
+  exposeOversizedPromoInTheQueue!: string;
+  guardEmptyToppingForPickup!: boolean;
+  logMissingTopping!: number;
+  validateEmptyModifier!: string;
+  logEmptyCateringTrayForFranchisees?: Date;
+  validateCancelledPromo!: Date;
+  sortStaleStoreForFranchisees?: boolean;
+  relaxRegionalLocationForFranchisees!: string[];
 }

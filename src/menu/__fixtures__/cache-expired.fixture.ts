@@ -360,4 +360,16 @@ export const CacheExpiredCateringTrayRows = [
     label: 'relax duplicate kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'menu-8537',
+    store: '504',
+    label: 'trim oversized tax line on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3800',
+    store: '189',
+    label: 'expose duplicate guest',
+    quantity: 4,
+  },
 ];

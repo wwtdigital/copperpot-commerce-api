@@ -18,3 +18,15 @@
 - validate partial bowl on reorder: owner: delivery manager.
 - cache late loyalty credit: open.
 - dedupe oversized promo in the queue: owner: delivery manager.
+
+- paginate stale kitchen ticket: decided.
+- normalise late location: verified in staging.
+- backfill expired receipt: verified in staging.
+- trim oversized guest: decided.
+- sort oversized receipt: deferred to the next release.
+- rename oversized location for franchisees: owner: delivery manager.
+- validate oversized location on reorder: blocked on store systems.
+- backfill regional delivery window: blocked on store systems.
+- validate oversized promo per store: deferred to the next release.
+- document late topping: open.
+- expose cancelled tax line: decided.

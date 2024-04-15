@@ -732,4 +732,46 @@ export const CacheLateBowlRows = [
     label: 'paginate oversized topping',
     quantity: 9,
   },
+  {
+    id: 'audit-8571',
+    store: '320',
+    label: 'rename late kitchen ticket at close',
+    quantity: 1,
+  },
+  {
+    id: 'audit-1648',
+    store: '345',
+    label: 'rename late kitchen ticket on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'audit-1028',
+    store: '665',
+    label: 'expose late pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'audit-7319',
+    store: '514',
+    label: 'handle cancelled order',
+    quantity: 8,
+  },
+  {
+    id: 'audit-6771',
+    store: '586',
+    label: 'paginate expired receipt',
+    quantity: 12,
+  },
+  {
+    id: 'audit-8229',
+    store: '454',
+    label: 'sort oversized guest',
+    quantity: 4,
+  },
+  {
+    id: 'audit-1844',
+    store: '575',
+    label: 'add stale promo in the queue',
+    quantity: 8,
+  },
 ];

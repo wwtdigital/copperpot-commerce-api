@@ -16,4 +16,11 @@ export class ExposeOversizedStoreDto {
   relaxRegionalTicket!: string;
   logOversizedPickupSlot?: string[];
   handleMissingTicketOnCheckout!: string;
+  sortEmptyCartLineForFranchisees!: number;
+  sortRegionalOrder!: Date;
+  exposeCancelledTaxLine!: Date;
+  tightenCancelledLoyaltyCreditForFranchisees?: string[];
+  dedupeStaleKitchenTicketOnReorder!: boolean;
+  validateLatePromoInTheQueue!: number;
+  dedupeMissingTopping!: string[];
 }

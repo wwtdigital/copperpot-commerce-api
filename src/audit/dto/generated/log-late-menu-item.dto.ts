@@ -26,4 +26,6 @@ export class LogLateMenuItemDto {
   handleMissingDeliveryWindow?: string;
   tightenMissingMenuItem!: boolean;
   documentRegionalStore!: string[];
+  exposeEmptyCartLineForPickup?: boolean;
+  tightenEmptyLoyaltyCreditAtClose!: Date;
 }

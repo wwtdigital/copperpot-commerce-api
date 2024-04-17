@@ -46,3 +46,8 @@
 - validate empty catering tray: decided.
 
 - rename cancelled loyalty credit: decided.
+
+- dedupe cancelled catering tray: owner: delivery manager.
+- validate stale promo: verified in staging.
+- expose late topping: deferred to the next release.
+- paginate missing location: open.

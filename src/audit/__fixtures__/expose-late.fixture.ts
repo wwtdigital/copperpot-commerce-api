@@ -84,4 +84,16 @@ export const ExposeLateKitchenTicketOnReorderRows = [
     label: 'dedupe stale bowl',
     quantity: 1,
   },
+  {
+    id: 'audit-6129',
+    store: '120',
+    label: 'guard partial kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'audit-8523',
+    store: '267',
+    label: 'rename oversized kitchen ticket per store',
+    quantity: 12,
+  },
 ];

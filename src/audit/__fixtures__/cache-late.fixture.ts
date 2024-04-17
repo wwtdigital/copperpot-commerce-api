@@ -726,4 +726,10 @@ export const CacheLateBowlRows = [
     label: 'normalise missing order',
     quantity: 7,
   },
+  {
+    id: 'audit-3824',
+    store: '288',
+    label: 'paginate oversized topping',
+    quantity: 9,
+  },
 ];

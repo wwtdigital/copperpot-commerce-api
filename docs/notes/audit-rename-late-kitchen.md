@@ -22,3 +22,18 @@
 
 - add late pickup slot: verified in staging.
 - validate late guest at close: decided.
+
+- add late receipt at close: blocked on store systems.
+- expose oversized tax line: blocked on store systems.
+- backfill stale order: owner: delivery manager.
+- validate duplicate promo: deferred to the next release.
+- normalise oversized menu item: verified in staging.
+- retry expired order on reorder: deferred to the next release.
+- sort late guest on checkout: decided.
+- log partial kitchen ticket at close: verified in staging.
+- cache duplicate store: owner: delivery manager.
+- retry empty location at close: blocked on store systems.
+- log oversized pickup slot for pickup: owner: delivery manager.
+- log expired modifier: blocked on store systems.
+- rename expired store for pickup: verified in staging.
+- normalise missing store: owner: delivery manager.

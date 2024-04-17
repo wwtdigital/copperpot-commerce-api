@@ -1,0 +1,123 @@
+/* Fixture rows for menu tests: retry cancelled order for franchisees. Generated data, not production data. */
+export const RetryCancelledOrderForFranchiseesRows = [
+  {
+    id: 'menu-5529',
+    store: '487',
+    label: 'backfill duplicate store',
+    quantity: 10,
+  },
+  {
+    id: 'menu-3435',
+    store: '312',
+    label: 'cache regional modifier in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'menu-3215',
+    store: '320',
+    label: 'document expired loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'menu-7178',
+    store: '553',
+    label: 'log cancelled order',
+    quantity: 10,
+  },
+  {
+    id: 'menu-1600',
+    store: '529',
+    label: 'retry missing catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'menu-4585',
+    store: '302',
+    label: 'document missing tax line',
+    quantity: 10,
+  },
+  {
+    id: 'menu-2338',
+    store: '295',
+    label: 'validate expired store',
+    quantity: 9,
+  },
+  {
+    id: 'menu-2692',
+    store: '500',
+    label: 'validate stale bowl',
+    quantity: 8,
+  },
+  {
+    id: 'menu-8705',
+    store: '672',
+    label: 'retry stale kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3862',
+    store: '314',
+    label: 'paginate missing loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'menu-7226',
+    store: '197',
+    label: 'guard regional cart line',
+    quantity: 10,
+  },
+  {
+    id: 'menu-5087',
+    store: '544',
+    label: 'normalise cancelled catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'menu-6359',
+    store: '198',
+    label: 'add partial loyalty credit on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'menu-3586',
+    store: '216',
+    label: 'tighten oversized loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1446',
+    store: '369',
+    label: 'rename regional receipt',
+    quantity: 11,
+  },
+  {
+    id: 'menu-6986',
+    store: '683',
+    label: 'cache duplicate delivery window in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'menu-9145',
+    store: '284',
+    label: 'backfill late bowl in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'menu-1168',
+    store: '133',
+    label: 'add oversized guest',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4035',
+    store: '349',
+    label: 'document expired cart line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-6198',
+    store: '422',
+    label: 'retry oversized modifier per store',
+    quantity: 12,
+  },
+];

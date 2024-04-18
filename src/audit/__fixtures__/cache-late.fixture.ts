@@ -774,4 +774,52 @@ export const CacheLateBowlRows = [
     label: 'add stale promo in the queue',
     quantity: 8,
   },
+  {
+    id: 'audit-5360',
+    store: '385',
+    label: 'normalise duplicate receipt on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'audit-1039',
+    store: '247',
+    label: 'backfill duplicate delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'audit-2154',
+    store: '608',
+    label: 'rename expired ticket per store',
+    quantity: 9,
+  },
+  {
+    id: 'audit-9064',
+    store: '206',
+    label: 'paginate empty location on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'audit-7820',
+    store: '475',
+    label: 'normalise regional location',
+    quantity: 3,
+  },
+  {
+    id: 'audit-8921',
+    store: '168',
+    label: 'log expired loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'audit-9439',
+    store: '335',
+    label: 'normalise late bowl',
+    quantity: 8,
+  },
+  {
+    id: 'audit-3781',
+    store: '567',
+    label: 'cache late guest',
+    quantity: 9,
+  },
 ];

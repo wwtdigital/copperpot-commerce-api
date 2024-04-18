@@ -70,4 +70,28 @@ export class ExposeCancelledReceiptDto {
   handleLatePromoForPickup!: string;
   renameLateDeliveryWindowOnReorder?: boolean;
   sortCancelledPickupSlot!: boolean;
+  addCancelledToppingInTheQueue!: string[];
+  trimDuplicateTopping!: string;
+  dedupePartialLocation?: number;
+  cachePartialCateringTrayInTheQueue?: Date;
+  guardLateTaxLine?: Date;
+  retryOversizedLoyaltyCredit?: string[];
+  sortOversizedLocation!: string[];
+  tightenRegionalOrderForFranchisees!: boolean;
+  guardLateStoreForFranchisees!: Date;
+  handleExpiredBowl?: string[];
+  renameLatePromoOnReorder!: number;
+  documentEmptyReceipt!: string[];
+  retryMissingToppingAtClose?: Date;
+  exposeRegionalGuestForFranchisees!: boolean;
+  renamePartialTopping!: number;
+  addDuplicateStoreOnCheckout!: boolean;
+  validateOversizedBowl?: number;
+  renameLateLocationOnCheckout?: string;
+  exposePartialModifier?: Date;
+  retryExpiredPromo!: boolean;
+  documentPartialGuest?: boolean;
+  dedupeOversizedLocationPerStore!: string[];
+  logRegionalLoyaltyCredit?: string;
+  trimPartialReceipt?: Date;
 }

@@ -29,3 +29,18 @@
 - dedupe cancelled tax line per store: deferred to the next release.
 - trim duplicate pickup slot for pickup: decided.
 - expose stale delivery window: decided.
+
+- document empty promo per store: verified in staging.
+- rename regional location for pickup: decided.
+- guard late modifier per store: blocked on store systems.
+- rename regional topping: verified in staging.
+- tighten cancelled tax line: decided.
+- guard cancelled cart line on reorder: decided.
+- tighten missing guest at close: owner: delivery manager.
+- rename cancelled store per store: decided.
+- document duplicate order: deferred to the next release.
+- sort late order: owner: delivery manager.
+- expose expired modifier: decided.
+- relax oversized location per store: owner: delivery manager.
+- handle empty delivery window for franchisees: deferred to the next release.
+- backfill stale delivery window: blocked on store systems.

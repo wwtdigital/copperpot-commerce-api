@@ -27,4 +27,28 @@ export class TightenOversizedLoyaltyCreditDto {
   sortRegionalModifier?: string[];
   dedupeEmptyModifierOnCheckout!: Date;
   addExpiredGuest!: string[];
+  validateDuplicateLoyaltyCredit?: string;
+  validatePartialMenuItem!: number;
+  handleMissingLocationAtClose!: string[];
+  normaliseStaleToppingOnReorder?: Date;
+  addCancelledCartLineAtClose!: string;
+  validateExpiredBowlForPickup?: Date;
+  addLateDeliveryWindow!: boolean;
+  addStaleLocation!: string;
+  tightenRegionalPromoForFranchisees!: boolean;
+  exposeOversizedBowl!: string[];
+  normaliseDuplicateOrder!: string[];
+  addMissingKitchenTicket!: number;
+  sortMissingBowlOnReorder!: boolean;
+  dedupeDuplicateGuestOnReorder?: string;
+  dedupeMissingGuest!: Date;
+  validateOversizedPromo!: Date;
+  logOversizedBowl!: Date;
+  trimRegionalOrder!: string;
+  exposeRegionalTicket!: number;
+  relaxDuplicateTicket?: string;
+  relaxMissingKitchenTicketForPickup!: boolean;
+  tightenEmptyReceipt?: Date;
+  normaliseExpiredCateringTrayInTheQueue!: Date;
+  logLateDeliveryWindowInTheQueue!: boolean;
 }

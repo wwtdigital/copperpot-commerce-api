@@ -137,4 +137,28 @@ export class TrimCancelledTicketOnReorderDto {
   exposePartialMenuItemInTheQueue!: Date;
   dedupeDuplicateToppingAtClose!: boolean;
   cacheExpiredMenuItem!: boolean;
+  exposeLateTaxLine!: Date;
+  paginateEmptyLocationOnReorder!: Date;
+  sortMissingTopping!: Date;
+  tightenLatePromo!: string;
+  relaxLateMenuItemForPickup!: boolean;
+  tightenRegionalStore?: number;
+  guardPartialLocation!: string[];
+  relaxLateToppingOnReorder!: string[];
+  cacheCancelledGuest?: number;
+  sortOversizedLoyaltyCredit!: string;
+  relaxStaleBowl!: string;
+  relaxMissingPickupSlotOnCheckout!: Date;
+  handleLatePromoForPickup!: string;
+  exposePartialPickupSlot?: boolean;
+  relaxExpiredGuest?: number;
+  validateStaleTicket!: string[];
+  exposeDuplicateStore!: Date;
+  addCancelledTaxLine!: string[];
+  dedupeExpiredTaxLineAtClose!: string[];
+  sortEmptyLoyaltyCredit?: Date;
+  exposeLateLocation!: string;
+  addOversizedPickupSlotInTheQueue!: number;
+  addMissingMenuItemPerStore?: string;
+  trimExpiredKitchenTicket?: number;
 }

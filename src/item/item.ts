@@ -2,6 +2,15 @@ import { Types } from 'mongoose';
 import { Audit, Entity, Result } from '../domain';
 import { IITem } from './item.entity.interface';
 
+/**
+ * Log cancelled guest.
+ * Handle missing order at close.
+ * Rename expired receipt.
+ * Validate cancelled store.
+ * Cache stale ticket.
+ * Guard cancelled store.
+ * Normalise cancelled bowl on reorder.
+ */
 export class Item extends Entity<IITem> implements IITem {
   private _name: string;
   private _description: string;

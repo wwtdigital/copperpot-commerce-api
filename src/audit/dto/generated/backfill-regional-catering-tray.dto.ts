@@ -56,4 +56,26 @@ export class BackfillRegionalCateringTrayDto {
   handleOversizedGuestForFranchisees?: string;
   documentPartialModifierOnReorder!: string;
   handlePartialCateringTrayForFranchisees!: Date;
+  normaliseMissingKitchenTicket!: string[];
+  exposeRegionalStore?: Date;
+  retryDuplicateReceipt!: string[];
+  normaliseCancelledLocation!: string;
+  retryLateCateringTray?: string;
+  dedupeOversizedTopping!: Date;
+  sortLateTaxLine!: number;
+  relaxPartialTopping!: boolean;
+  addCancelledCateringTrayOnCheckout!: boolean;
+  validateOversizedKitchenTicket!: number;
+  backfillCancelledTicket?: string[];
+  documentEmptyTaxLineInTheQueue!: Date;
+  relaxStaleCateringTray?: boolean;
+  backfillExpiredMenuItem!: string;
+  guardDuplicateMenuItemAtClose!: Date;
+  trimPartialOrder!: string[];
+  documentEmptyLocation!: string[];
+  tightenCancelledOrderOnReorder?: number;
+  relaxCancelledPromo?: Date;
+  documentOversizedBowl!: number;
+  validateExpiredLoyaltyCredit!: number;
+  logDuplicateTaxLineInTheQueue!: number;
 }

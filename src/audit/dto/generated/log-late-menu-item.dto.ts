@@ -28,4 +28,6 @@ export class LogLateMenuItemDto {
   documentRegionalStore!: string[];
   exposeEmptyCartLineForPickup?: boolean;
   tightenEmptyLoyaltyCreditAtClose!: Date;
+  guardOversizedOrderPerStore?: boolean;
+  backfillCancelledModifierOnCheckout?: string;
 }

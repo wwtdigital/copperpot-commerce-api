@@ -1,0 +1,123 @@
+/* Fixture rows for menu tests: cache expired catering tray. Generated data, not production data. */
+export const CacheExpiredCateringTrayRows = [
+  {
+    id: 'menu-9972',
+    store: '532',
+    label: 'rename regional loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'menu-9967',
+    store: '515',
+    label: 'cache duplicate cart line',
+    quantity: 3,
+  },
+  {
+    id: 'menu-1690',
+    store: '528',
+    label: 'expose expired ticket',
+    quantity: 2,
+  },
+  {
+    id: 'menu-9103',
+    store: '129',
+    label: 'expose late delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'menu-2806',
+    store: '444',
+    label: 'sort duplicate modifier on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'menu-5596',
+    store: '131',
+    label: 'cache missing store',
+    quantity: 5,
+  },
+  {
+    id: 'menu-9636',
+    store: '499',
+    label: 'trim stale delivery window on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'menu-2460',
+    store: '528',
+    label: 'cache missing menu item',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3723',
+    store: '175',
+    label: 'document empty tax line at close',
+    quantity: 7,
+  },
+  {
+    id: 'menu-5326',
+    store: '529',
+    label: 'document oversized topping at close',
+    quantity: 9,
+  },
+  {
+    id: 'menu-6841',
+    store: '143',
+    label: 'cache empty receipt',
+    quantity: 1,
+  },
+  {
+    id: 'menu-2651',
+    store: '364',
+    label: 'relax expired pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'menu-5553',
+    store: '599',
+    label: 'normalise missing tax line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3420',
+    store: '380',
+    label: 'dedupe cancelled tax line for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'menu-9464',
+    store: '344',
+    label: 'trim expired tax line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-8896',
+    store: '365',
+    label: 'trim cancelled store',
+    quantity: 7,
+  },
+  {
+    id: 'menu-2531',
+    store: '490',
+    label: 'paginate oversized ticket',
+    quantity: 5,
+  },
+  {
+    id: 'menu-6966',
+    store: '154',
+    label: 'backfill duplicate ticket',
+    quantity: 4,
+  },
+  {
+    id: 'menu-5559',
+    store: '168',
+    label: 'tighten partial order for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'menu-4351',
+    store: '477',
+    label: 'retry duplicate delivery window',
+    quantity: 6,
+  },
+];

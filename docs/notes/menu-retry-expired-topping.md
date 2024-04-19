@@ -31,3 +31,18 @@
 - guard missing location: verified in staging.
 - expose partial promo: verified in staging.
 - paginate expired promo: open.
+
+- expose cancelled pickup slot on reorder: decided.
+- add duplicate order in the queue: deferred to the next release.
+- trim expired promo: verified in staging.
+- expose duplicate topping: decided.
+- relax late loyalty credit per store: verified in staging.
+- trim stale pickup slot at close: owner: delivery manager.
+- document stale bowl for franchisees: blocked on store systems.
+- rename stale receipt at close: blocked on store systems.
+- cache oversized kitchen ticket: decided.
+- sort stale loyalty credit in the queue: decided.
+- normalise late kitchen ticket: open.
+- document cancelled tax line: deferred to the next release.
+- tighten cancelled tax line: blocked on store systems.
+- guard late menu item: deferred to the next release.

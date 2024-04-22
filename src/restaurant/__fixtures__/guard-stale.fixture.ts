@@ -30,4 +30,52 @@ export const GuardStalePickupSlotRows = [
     label: 'document duplicate location for pickup',
     quantity: 5,
   },
+  {
+    id: 'restaurant-2615',
+    store: '219',
+    label: 'retry partial bowl',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-6035',
+    store: '582',
+    label: 'expose missing pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-8803',
+    store: '559',
+    label: 'log cancelled catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-1012',
+    store: '366',
+    label: 'sort missing cart line',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-5099',
+    store: '418',
+    label: 'normalise missing tax line at close',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-8567',
+    store: '564',
+    label: 'normalise empty topping for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-4967',
+    store: '662',
+    label: 'cache expired promo',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-9767',
+    store: '681',
+    label: 'relax partial modifier per store',
+    quantity: 10,
+  },
 ];

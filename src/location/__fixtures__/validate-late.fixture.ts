@@ -54,4 +54,16 @@ export const ValidateLateLocationRows = [
     label: 'rename empty tax line on checkout',
     quantity: 6,
   },
+  {
+    id: 'location-2590',
+    store: '314',
+    label: 'relax regional kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'location-3642',
+    store: '325',
+    label: 'document late catering tray for pickup',
+    quantity: 10,
+  },
 ];

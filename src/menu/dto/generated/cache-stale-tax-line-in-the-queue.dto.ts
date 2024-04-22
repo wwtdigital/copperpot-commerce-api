@@ -134,4 +134,19 @@ export class CacheStaleTaxLineInTheQueueDto {
   validateCancelledPromo!: Date;
   sortStaleStoreForFranchisees?: boolean;
   relaxRegionalLocationForFranchisees!: string[];
+  normaliseEmptyStore?: number;
+  cachePartialLoyaltyCredit?: number;
+  backfillExpiredTicket!: Date;
+  cacheLateReceiptInTheQueue!: boolean;
+  cachePartialPickupSlot?: string[];
+  retryExpiredCartLineOnCheckout!: Date;
+  addMissingMenuItem?: Date;
+  renamePartialCartLineOnCheckout!: boolean;
+  trimMissingTopping!: number;
+  logLateReceiptForFranchisees?: Date;
+  tightenExpiredMenuItem!: number;
+  exposePartialGuest!: Date;
+  cacheDuplicatePickupSlot!: number;
+  retryOversizedModifier!: string;
+  backfillPartialCateringTray?: Date;
 }

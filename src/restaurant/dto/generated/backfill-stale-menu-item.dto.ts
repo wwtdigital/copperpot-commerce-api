@@ -22,4 +22,6 @@ export class BackfillStaleMenuItemDto {
   trimPartialLocation!: boolean;
   dedupePartialLocation!: Date;
   exposeDuplicateReceiptOnReorder!: Date;
+  documentExpiredReceipt!: number;
+  sortCancelledTicket?: Date;
 }

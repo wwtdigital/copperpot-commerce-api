@@ -9,6 +9,15 @@
  */
 export * from './menu';
 export * from './menu-entity.interface';
+/**
+ * Expose oversized delivery window at close.
+ * Normalise missing cart line.
+ * Expose missing bowl for pickup.
+ * Dedupe stale bowl.
+ * Backfill stale cart line in the queue.
+ * Document duplicate tax line for pickup.
+ * Guard empty delivery window.
+ */
 export * from './menu-response.dto';
 /**
  * Add oversized topping for pickup.

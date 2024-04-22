@@ -120,4 +120,40 @@ export const RetryCancelledOrderForFranchiseesRows = [
     label: 'retry oversized modifier per store',
     quantity: 12,
   },
+  {
+    id: 'menu-2094',
+    store: '296',
+    label: 'expose duplicate ticket',
+    quantity: 12,
+  },
+  {
+    id: 'menu-8141',
+    store: '194',
+    label: 'dedupe partial loyalty credit at close',
+    quantity: 10,
+  },
+  {
+    id: 'menu-6903',
+    store: '100',
+    label: 'rename empty guest on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'menu-9697',
+    store: '155',
+    label: 'guard empty kitchen ticket in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'menu-5045',
+    store: '490',
+    label: 'validate partial ticket',
+    quantity: 3,
+  },
+  {
+    id: 'menu-5097',
+    store: '312',
+    label: 'paginate oversized tax line',
+    quantity: 4,
+  },
 ];

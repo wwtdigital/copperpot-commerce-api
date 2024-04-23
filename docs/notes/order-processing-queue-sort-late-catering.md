@@ -65,3 +65,16 @@
 - paginate late store: open.
 - guard expired kitchen ticket for pickup: deferred to the next release.
 - tighten oversized tax line in the queue: owner: delivery manager.
+
+- retry empty modifier: decided.
+- document late pickup slot per store: decided.
+- tighten partial modifier per store: blocked on store systems.
+- dedupe late ticket for franchisees: owner: delivery manager.
+- add duplicate store: blocked on store systems.
+- rename duplicate delivery window: deferred to the next release.
+- cache empty order at close: verified in staging.
+- rename empty catering tray for franchisees: decided.
+- tighten late receipt in the queue: decided.
+- cache cancelled order: blocked on store systems.
+- dedupe late pickup slot for franchisees: open.
+- document duplicate menu item: open.

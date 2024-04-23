@@ -36,4 +36,16 @@ export const ValidateLateLocationRows = [
     label: 'paginate regional bowl',
     quantity: 7,
   },
+  {
+    id: 'location-6378',
+    store: '258',
+    label: 'backfill regional order',
+    quantity: 12,
+  },
+  {
+    id: 'location-4576',
+    store: '328',
+    label: 'rename missing menu item',
+    quantity: 1,
+  },
 ];

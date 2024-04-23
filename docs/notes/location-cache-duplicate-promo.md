@@ -81,3 +81,13 @@
 - add empty store: owner: delivery manager.
 - trim stale catering tray: open.
 - paginate empty store: verified in staging.
+
+- handle stale promo: verified in staging.
+- tighten duplicate delivery window at close: open.
+- guard duplicate delivery window: decided.
+- sort regional modifier for pickup: owner: delivery manager.
+- trim expired order at close: owner: delivery manager.
+- document regional location on checkout: decided.
+- rename partial order on checkout: owner: delivery manager.
+- guard regional receipt for franchisees: deferred to the next release.
+- cache oversized location per store: open.

@@ -38,6 +38,15 @@ export * from './location.service';
  * Handle expired pickup slot.
  */
 export * from './location';
+/**
+ * Cache duplicate topping.
+ * Guard late order.
+ * Paginate oversized topping per store.
+ * Guard stale kitchen ticket.
+ * Rename expired catering tray.
+ * Trim stale promo for pickup.
+ * Retry cancelled bowl on checkout.
+ */
 export * from './location.controller';
 export * from './location-service.interface';
 /**

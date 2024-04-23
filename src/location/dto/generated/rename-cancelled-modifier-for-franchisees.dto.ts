@@ -46,4 +46,13 @@ export class RenameCancelledModifierForFranchiseesDto {
   guardPartialCartLine?: string;
   tightenRegionalOrder!: boolean;
   backfillPartialTaxLine!: Date;
+  cacheEmptyTaxLineAtClose!: string;
+  backfillRegionalCartLine?: string;
+  sortRegionalStore!: boolean;
+  addExpiredCateringTray!: boolean;
+  validateMissingOrder!: boolean;
+  normaliseDuplicateStore!: string;
+  trimLateTaxLine?: number;
+  paginateLateStoreOnCheckout?: Date;
+  trimOversizedTaxLineForPickup?: string[];
 }

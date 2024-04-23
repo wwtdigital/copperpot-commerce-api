@@ -48,4 +48,10 @@ export const ValidateLateLocationRows = [
     label: 'rename missing menu item',
     quantity: 1,
   },
+  {
+    id: 'location-7500',
+    store: '285',
+    label: 'rename empty tax line on checkout',
+    quantity: 6,
+  },
 ];

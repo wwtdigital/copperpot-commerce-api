@@ -2,4 +2,14 @@
 export class TightenExpiredOrderAtCloseDto {
   cacheOversizedMenuItem!: boolean;
   handleLateReceiptPerStore!: string;
+  addMissingGuest?: string;
+  handleExpiredKitchenTicketForPickup!: Date;
+  guardCancelledCartLine!: Date;
+  handleDuplicateTaxLine!: string;
+  addDuplicateKitchenTicket?: string;
+  addStaleGuest!: string;
+  retryDuplicatePromoForFranchisees!: boolean;
+  exposeDuplicateTicket?: Date;
+  tightenOversizedReceipt!: Date;
+  documentLateTaxLine?: Date;
 }

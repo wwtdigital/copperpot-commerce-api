@@ -120,4 +120,16 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'validate stale guest on checkout',
     quantity: 6,
   },
+  {
+    id: 'addon-5151',
+    store: '552',
+    label: 'relax late kitchen ticket for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'addon-3918',
+    store: '511',
+    label: 'expose empty guest in the queue',
+    quantity: 8,
+  },
 ];

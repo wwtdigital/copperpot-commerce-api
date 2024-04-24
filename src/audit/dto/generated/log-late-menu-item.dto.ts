@@ -101,4 +101,28 @@ export class LogLateMenuItemDto {
   sortPartialCateringTrayForFranchisees?: string[];
   addDuplicatePromoInTheQueue!: string;
   tightenMissingToppingAtClose?: boolean;
+  normaliseOversizedTaxLine!: number;
+  backfillExpiredPickupSlotInTheQueue!: boolean;
+  retryLateModifierInTheQueue?: string;
+  backfillRegionalKitchenTicketInTheQueue!: number;
+  cacheDuplicateOrderOnReorder!: string[];
+  tightenCancelledCateringTray!: string;
+  tightenStaleTicket?: boolean;
+  trimRegionalDeliveryWindow!: string;
+  sortMissingReceipt!: boolean;
+  guardMissingTicket!: number;
+  logPartialTopping?: number;
+  retryExpiredMenuItem!: Date;
+  paginateRegionalLoyaltyCredit!: number;
+  backfillOversizedModifier!: boolean;
+  documentRegionalPromo!: boolean;
+  exposeMissingReceiptForFranchisees!: string;
+  validateMissingTopping?: string;
+  validateMissingBowlOnReorder!: string;
+  documentCancelledModifierOnReorder?: string;
+  relaxExpiredKitchenTicketAtClose!: string[];
+  exposeMissingCartLineForFranchisees!: number;
+  retryPartialCartLine!: string;
+  handlePartialMenuItemForPickup?: number;
+  logLateOrder?: Date;
 }

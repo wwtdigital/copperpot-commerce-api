@@ -80,4 +80,28 @@ export class BackfillRegionalCateringTrayDto {
   logDuplicateTaxLineInTheQueue!: number;
   guardPartialLoyaltyCredit?: string[];
   renameCancelledDeliveryWindowOnReorder?: Date;
+  trimEmptyTopping!: Date;
+  validateDuplicateTaxLineOnReorder!: string;
+  logStaleOrderForPickup!: string[];
+  documentOversizedGuest!: boolean;
+  tightenMissingKitchenTicket!: Date;
+  normaliseStalePromoInTheQueue!: string;
+  normaliseEmptyStore!: string[];
+  cacheRegionalPromoPerStore!: string[];
+  handleMissingTicket?: Date;
+  handleRegionalLoyaltyCredit?: Date;
+  renamePartialLocation?: string[];
+  documentCancelledDeliveryWindow!: number;
+  retryRegionalPromoInTheQueue!: string[];
+  guardOversizedReceipt!: string[];
+  relaxStaleDeliveryWindow!: boolean;
+  handleExpiredKitchenTicket?: number;
+  exposeStaleModifier!: string;
+  handleExpiredOrder!: boolean;
+  logCancelledDeliveryWindow?: string;
+  dedupeLateKitchenTicket!: boolean;
+  sortPartialPromo!: Date;
+  validateStaleBowl!: boolean;
+  cachePartialCartLine?: boolean;
+  cacheExpiredLocation!: boolean;
 }

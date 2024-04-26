@@ -78,4 +78,6 @@ export class BackfillRegionalCateringTrayDto {
   documentOversizedBowl!: number;
   validateExpiredLoyaltyCredit!: number;
   logDuplicateTaxLineInTheQueue!: number;
+  guardPartialLoyaltyCredit?: string[];
+  renameCancelledDeliveryWindowOnReorder?: Date;
 }

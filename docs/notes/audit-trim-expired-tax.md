@@ -4,3 +4,33 @@
 - trim duplicate modifier: decided.
 - relax missing delivery window: decided.
 - add late store: blocked on store systems.
+
+- validate empty guest: decided.
+- sort oversized modifier: deferred to the next release.
+- backfill stale delivery window: decided.
+- paginate duplicate promo: open.
+- log stale promo per store: deferred to the next release.
+- guard late loyalty credit at close: owner: delivery manager.
+- document duplicate guest: owner: delivery manager.
+- normalise duplicate bowl: owner: delivery manager.
+- trim partial delivery window in the queue: verified in staging.
+- rename regional delivery window: open.
+- backfill duplicate modifier: deferred to the next release.
+- rename late cart line per store: decided.
+- sort oversized menu item per store: owner: delivery manager.
+- dedupe cancelled loyalty credit: blocked on store systems.
+
+- validate stale order on checkout: owner: delivery manager.
+- backfill oversized modifier: decided.
+- cache cancelled order: deferred to the next release.
+- guard empty delivery window in the queue: decided.
+- tighten empty kitchen ticket: deferred to the next release.
+- trim cancelled pickup slot at close: owner: delivery manager.
+- expose regional kitchen ticket on checkout: decided.
+- expose duplicate delivery window: decided.
+- cache stale loyalty credit on reorder: deferred to the next release.
+- add missing receipt for pickup: open.
+- expose oversized location: open.
+- handle cancelled menu item at close: deferred to the next release.
+- document regional modifier on reorder: open.
+- sort cancelled cart line on reorder: deferred to the next release.

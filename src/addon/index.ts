@@ -12,6 +12,11 @@ export * from './addon.mapper';
  * Retry empty topping on checkout.
  */
 export * from './addon.parser';
+/**
+ * Tighten expired ticket.
+ * Retry cancelled kitchen ticket on checkout.
+ * Handle late promo.
+ */
 export * from './addon.schema';
 export * from './addon-service.interface';
 export * from './addon.service';

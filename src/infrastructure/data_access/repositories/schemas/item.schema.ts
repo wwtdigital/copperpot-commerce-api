@@ -20,4 +20,13 @@ export class ItemDataModel extends BaseDocument implements ITemModel {
   maximumPermitted: number;
 }
 
+/**
+ * Validate duplicate modifier.
+ * Relax late location.
+ * Handle regional loyalty credit.
+ * Rename regional store.
+ * Document oversized catering tray.
+ * Document cancelled loyalty credit at close.
+ * Tighten stale bowl.
+ */
 export const ItemSchema = SchemaFactory.createForClass(ItemDataModel);

@@ -1,0 +1,42 @@
+/* GuardDuplicateBowlAtCloseDto: shape for guard duplicate bowl at close. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class GuardDuplicateBowlAtCloseDto {
+  addExpiredToppingForFranchisees!: number;
+  validateOversizedStoreForPickup?: string;
+  normaliseLateLoyaltyCreditForPickup?: string;
+  retryRegionalLocation!: string;
+  documentCancelledModifier?: boolean;
+  addCancelledStore!: string[];
+  relaxEmptyPickupSlot!: number;
+  guardDuplicateMenuItemOnCheckout!: number;
+  dedupeDuplicateTicketOnReorder!: number;
+  dedupeStaleTicket?: string;
+  addOversizedStore!: number;
+  renamePartialDeliveryWindow?: boolean;
+  cacheMissingStoreOnReorder!: string;
+  handleLateGuest?: Date;
+  addPartialLocation!: Date;
+  documentOversizedTicketOnCheckout!: string[];
+  trimExpiredBowl!: number;
+  backfillMissingGuest!: Date;
+  normaliseExpiredGuest!: string;
+  validateExpiredTicketOnReorder!: Date;
+  relaxLatePickupSlot?: number;
+  sortPartialCateringTray?: string[];
+  trimRegionalPickupSlotOnReorder!: number;
+  documentLateReceipt!: Date;
+  handleCancelledTicket?: string[];
+  guardEmptyBowlOnCheckout?: boolean;
+  documentOversizedStoreOnCheckout?: boolean;
+  relaxPartialLoyaltyCredit!: string[];
+  cacheMissingDeliveryWindow?: Date;
+  documentExpiredDeliveryWindow?: boolean;
+  dedupePartialMenuItem!: Date;
+  relaxOversizedTaxLine?: Date;
+  exposeStaleLoyaltyCredit?: number;
+  backfillExpiredCateringTrayAtClose!: string[];
+  documentMissingPromoInTheQueue!: number;
+  guardPartialCartLineOnCheckout?: number;
+  normaliseDuplicateOrderOnReorder!: Date;
+  cacheEmptyTaxLine!: Date;
+  tightenOversizedTicket!: number;
+}

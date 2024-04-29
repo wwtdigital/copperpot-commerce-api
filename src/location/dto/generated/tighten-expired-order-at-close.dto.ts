@@ -12,4 +12,28 @@ export class TightenExpiredOrderAtCloseDto {
   exposeDuplicateTicket?: Date;
   tightenOversizedReceipt!: Date;
   documentLateTaxLine?: Date;
+  exposeMissingMenuItem?: string;
+  documentLateLoyaltyCredit!: boolean;
+  dedupeMissingPickupSlot!: string[];
+  renameOversizedPickupSlot?: string[];
+  normaliseMissingLoyaltyCredit?: string[];
+  relaxDuplicateLoyaltyCredit!: string[];
+  backfillPartialLocation?: string[];
+  logDuplicatePickupSlot!: boolean;
+  cachePartialPromo!: boolean;
+  cacheRegionalStorePerStore?: string[];
+  relaxMissingMenuItem!: number;
+  renameCancelledKitchenTicketInTheQueue?: string[];
+  exposeStaleReceiptForPickup!: number;
+  tightenStaleCartLine?: string;
+  renameRegionalPromoForFranchisees!: boolean;
+  cacheRegionalMenuItemOnCheckout!: Date;
+  logEmptyTicketForFranchisees?: boolean;
+  guardEmptyTicket?: number;
+  documentPartialOrder!: string[];
+  logMissingKitchenTicket!: string;
+  guardLateCateringTray!: string[];
+  renameOversizedOrder!: number;
+  trimCancelledReceipt!: boolean;
+  normaliseStaleModifier!: number;
 }

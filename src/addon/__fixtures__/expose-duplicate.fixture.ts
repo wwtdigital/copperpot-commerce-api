@@ -132,4 +132,16 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'expose empty guest in the queue',
     quantity: 8,
   },
+  {
+    id: 'addon-9423',
+    store: '368',
+    label: 'log oversized receipt',
+    quantity: 9,
+  },
+  {
+    id: 'addon-4352',
+    store: '528',
+    label: 'cache cancelled receipt',
+    quantity: 5,
+  },
 ];

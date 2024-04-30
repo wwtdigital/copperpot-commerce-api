@@ -648,4 +648,10 @@ export const RelaxExpiredReceiptRows = [
     label: 'tighten regional cart line',
     quantity: 1,
   },
+  {
+    id: 'addon-8839',
+    store: '231',
+    label: 'trim oversized loyalty credit on reorder',
+    quantity: 7,
+  },
 ];

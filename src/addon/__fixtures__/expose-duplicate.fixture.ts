@@ -168,4 +168,34 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'expose partial menu item on reorder',
     quantity: 6,
   },
+  {
+    id: 'addon-1861',
+    store: '535',
+    label: 'retry partial topping per store',
+    quantity: 3,
+  },
+  {
+    id: 'addon-1288',
+    store: '185',
+    label: 'tighten late cart line',
+    quantity: 5,
+  },
+  {
+    id: 'addon-8450',
+    store: '449',
+    label: 'tighten duplicate promo',
+    quantity: 1,
+  },
+  {
+    id: 'addon-3957',
+    store: '686',
+    label: 'rename duplicate pickup slot for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'addon-2145',
+    store: '594',
+    label: 'rename empty promo on reorder',
+    quantity: 11,
+  },
 ];

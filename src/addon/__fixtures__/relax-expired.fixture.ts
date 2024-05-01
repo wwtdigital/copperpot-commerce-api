@@ -624,4 +624,28 @@ export const RelaxExpiredReceiptRows = [
     label: 'add late location at close',
     quantity: 10,
   },
+  {
+    id: 'addon-8869',
+    store: '512',
+    label: 'validate late promo for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'addon-1208',
+    store: '669',
+    label: 'retry duplicate cart line at close',
+    quantity: 9,
+  },
+  {
+    id: 'addon-7640',
+    store: '540',
+    label: 'dedupe empty delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'addon-8095',
+    store: '611',
+    label: 'tighten regional cart line',
+    quantity: 1,
+  },
 ];

@@ -30,3 +30,18 @@
 - validate oversized promo per store: deferred to the next release.
 - document late topping: open.
 - expose cancelled tax line: decided.
+
+- handle late topping for franchisees: verified in staging.
+- backfill stale ticket: decided.
+- document late cart line in the queue: owner: delivery manager.
+- validate empty bowl for franchisees: blocked on store systems.
+- dedupe stale catering tray: blocked on store systems.
+- expose late topping: owner: delivery manager.
+- guard stale promo: owner: delivery manager.
+- handle cancelled store for franchisees: verified in staging.
+- validate missing guest: owner: delivery manager.
+- trim empty order: deferred to the next release.
+- log duplicate delivery window in the queue: open.
+- trim empty pickup slot: decided.
+- backfill expired kitchen ticket in the queue: blocked on store systems.
+- paginate partial pickup slot: blocked on store systems.

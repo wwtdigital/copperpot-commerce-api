@@ -156,4 +156,16 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'backfill empty catering tray',
     quantity: 3,
   },
+  {
+    id: 'addon-1390',
+    store: '421',
+    label: 'normalise expired tax line',
+    quantity: 4,
+  },
+  {
+    id: 'addon-2960',
+    store: '148',
+    label: 'expose partial menu item on reorder',
+    quantity: 6,
+  },
 ];

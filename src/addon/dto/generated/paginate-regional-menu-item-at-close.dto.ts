@@ -275,4 +275,19 @@ export class PaginateRegionalMenuItemAtCloseDto {
   validateCancelledModifierAtClose?: string;
   addLateCateringTray?: boolean;
   guardMissingGuestForPickup!: string;
+  documentPartialPromo?: string[];
+  tightenOversizedDeliveryWindow!: boolean;
+  guardMissingLocation?: string;
+  addStaleTicket?: boolean;
+  cacheCancelledKitchenTicket!: boolean;
+  exposeOversizedOrderPerStore!: number;
+  addEmptyBowl?: string;
+  validateExpiredPickupSlot!: string;
+  logEmptyCateringTray?: Date;
+  cacheDuplicateTicket!: string[];
+  retryDuplicatePickupSlot!: boolean;
+  documentLateGuest!: Date;
+  normaliseExpiredLocation!: number;
+  sortStaleBowlOnReorder!: boolean;
+  handlePartialDeliveryWindowPerStore?: string;
 }

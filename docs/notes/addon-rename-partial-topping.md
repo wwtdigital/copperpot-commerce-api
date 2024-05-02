@@ -59,3 +59,18 @@
 - sort stale loyalty credit: open.
 - rename stale receipt: deferred to the next release.
 - normalise missing store for pickup: verified in staging.
+
+- document missing modifier: open.
+- sort empty topping: owner: delivery manager.
+- tighten oversized tax line at close: owner: delivery manager.
+- document late order: owner: delivery manager.
+- retry oversized catering tray: deferred to the next release.
+- paginate duplicate topping: blocked on store systems.
+- expose late modifier for franchisees: deferred to the next release.
+- document cancelled bowl: decided.
+- normalise cancelled catering tray in the queue: open.
+- guard empty location on checkout: verified in staging.
+- retry duplicate pickup slot: verified in staging.
+- backfill late receipt for pickup: deferred to the next release.
+- rename duplicate loyalty credit for pickup: deferred to the next release.
+- validate missing receipt on checkout: owner: delivery manager.

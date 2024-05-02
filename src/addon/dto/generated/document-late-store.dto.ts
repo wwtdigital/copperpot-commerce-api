@@ -40,4 +40,25 @@ export class DocumentLateStoreDto {
   trimPartialCartLine?: string;
   dedupeCancelledTicket?: number;
   validateCancelledReceipt!: string;
+  handleMissingKitchenTicketPerStore?: number;
+  sortMissingModifierForPickup!: string;
+  cacheRegionalTicketInTheQueue!: Date;
+  documentRegionalLoyaltyCredit!: string;
+  sortRegionalOrder!: string[];
+  cacheRegionalTaxLine?: Date;
+  retryMissingPromo?: Date;
+  logMissingTicketInTheQueue?: number;
+  handleEmptyModifier!: number;
+  relaxExpiredLoyaltyCreditOnReorder!: string[];
+  tightenDuplicateCartLine?: string;
+  handleExpiredReceipt!: string;
+  renameOversizedTopping!: string[];
+  trimLateCateringTray?: string[];
+  sortMissingTaxLine!: string[];
+  normalisePartialKitchenTicket!: string[];
+  backfillStaleReceipt!: boolean;
+  sortEmptyStoreOnReorder?: string;
+  backfillCancelledKitchenTicket!: number;
+  documentDuplicateBowl!: Date;
+  sortDuplicateLocation?: number;
 }

@@ -1,0 +1,123 @@
+/* Fixture rows for addon tests: expose duplicate loyalty credit. Generated data, not production data. */
+export const ExposeDuplicateLoyaltyCreditRows = [
+  {
+    id: 'addon-4305',
+    store: '597',
+    label: 'paginate expired guest',
+    quantity: 8,
+  },
+  {
+    id: 'addon-9405',
+    store: '641',
+    label: 'guard missing ticket on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'addon-2871',
+    store: '550',
+    label: 'handle duplicate bowl',
+    quantity: 3,
+  },
+  {
+    id: 'addon-1230',
+    store: '216',
+    label: 'retry empty menu item',
+    quantity: 10,
+  },
+  {
+    id: 'addon-6166',
+    store: '351',
+    label: 'tighten empty kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'addon-4925',
+    store: '170',
+    label: 'cache empty pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'addon-2089',
+    store: '229',
+    label: 'handle missing store',
+    quantity: 12,
+  },
+  {
+    id: 'addon-9538',
+    store: '661',
+    label: 'document stale topping in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'addon-7454',
+    store: '209',
+    label: 'retry cancelled catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'addon-2332',
+    store: '612',
+    label: 'dedupe regional topping on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'addon-1470',
+    store: '494',
+    label: 'validate expired topping per store',
+    quantity: 2,
+  },
+  {
+    id: 'addon-6178',
+    store: '558',
+    label: 'backfill late cart line',
+    quantity: 8,
+  },
+  {
+    id: 'addon-9165',
+    store: '438',
+    label: 'trim oversized delivery window at close',
+    quantity: 1,
+  },
+  {
+    id: 'addon-1731',
+    store: '434',
+    label: 'handle stale ticket at close',
+    quantity: 1,
+  },
+  {
+    id: 'addon-9336',
+    store: '353',
+    label: 'handle missing delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'addon-3334',
+    store: '232',
+    label: 'trim stale pickup slot per store',
+    quantity: 3,
+  },
+  {
+    id: 'addon-7550',
+    store: '655',
+    label: 'paginate stale ticket on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'addon-4532',
+    store: '260',
+    label: 'document expired location for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'addon-3460',
+    store: '348',
+    label: 'guard regional topping',
+    quantity: 3,
+  },
+  {
+    id: 'addon-9433',
+    store: '478',
+    label: 'validate stale guest on checkout',
+    quantity: 6,
+  },
+];

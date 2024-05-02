@@ -91,3 +91,10 @@
 - rename partial order on checkout: owner: delivery manager.
 - guard regional receipt for franchisees: deferred to the next release.
 - cache oversized location per store: open.
+
+- handle empty delivery window: owner: delivery manager.
+- handle duplicate modifier: blocked on store systems.
+- dedupe duplicate promo: verified in staging.
+- handle late delivery window for franchisees: verified in staging.
+- retry partial promo on checkout: deferred to the next release.
+- guard cancelled modifier on checkout: owner: delivery manager.

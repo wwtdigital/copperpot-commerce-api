@@ -22,3 +22,18 @@
 
 - add late pickup slot: verified in staging.
 - validate late guest at close: decided.
+
+- retry empty cart line: verified in staging.
+- tighten expired bowl on reorder: blocked on store systems.
+- trim oversized catering tray: deferred to the next release.
+- paginate partial order on checkout: decided.
+- add stale kitchen ticket on checkout: decided.
+- retry late catering tray in the queue: blocked on store systems.
+- sort late menu item: decided.
+- backfill expired kitchen ticket for franchisees: deferred to the next release.
+- validate oversized topping: blocked on store systems.
+- backfill stale topping at close: deferred to the next release.
+- backfill expired guest: open.
+- dedupe duplicate guest on checkout: open.
+- document empty location: blocked on store systems.
+- rename oversized receipt on checkout: open.

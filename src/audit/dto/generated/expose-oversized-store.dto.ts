@@ -23,4 +23,19 @@ export class ExposeOversizedStoreDto {
   dedupeStaleKitchenTicketOnReorder!: boolean;
   validateLatePromoInTheQueue!: number;
   dedupeMissingTopping!: string[];
+  guardCancelledLoyaltyCredit!: string[];
+  paginateStaleLocation!: string;
+  sortStaleModifierOnReorder?: Date;
+  backfillExpiredCateringTrayInTheQueue!: string[];
+  relaxOversizedCartLine!: boolean;
+  logPartialLocation!: Date;
+  cacheStaleTicketForPickup!: string[];
+  tightenStaleReceiptOnReorder!: number;
+  handleOversizedOrder?: string[];
+  cacheStaleReceipt?: string;
+  tightenStaleReceiptForPickup!: boolean;
+  tightenDuplicateTaxLineForFranchisees!: Date;
+  relaxLateMenuItem!: Date;
+  guardOversizedMenuItem?: string;
+  relaxMissingTicketPerStore?: boolean;
 }

@@ -14,3 +14,10 @@
 - normalise missing kitchen ticket at close: verified in staging.
 - sort empty store on checkout: owner: delivery manager.
 - add oversized catering tray on reorder: open.
+
+- dedupe missing cart line in the queue: verified in staging.
+- add empty modifier on reorder: decided.
+- rename partial promo at close: decided.
+- sort oversized bowl: deferred to the next release.
+- retry oversized tax line: blocked on store systems.
+- rename stale promo in the queue: blocked on store systems.

@@ -774,4 +774,22 @@ export const RelaxExpiredReceiptRows = [
     label: 'trim cancelled ticket on checkout',
     quantity: 5,
   },
+  {
+    id: 'addon-3405',
+    store: '604',
+    label: 'rename oversized loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'addon-7034',
+    store: '683',
+    label: 'rename cancelled loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'addon-2825',
+    store: '621',
+    label: 'expose missing store per store',
+    quantity: 4,
+  },
 ];

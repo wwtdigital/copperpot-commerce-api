@@ -33,6 +33,15 @@ export const restaurantMock: IRestaurant = {
   audit: Audit.create(auditMockData).getValue(),
 };
 
+/**
+ * Trim empty receipt at close.
+ * Backfill empty delivery window.
+ * Log regional topping on checkout.
+ * Tighten late receipt.
+ * Cache partial modifier.
+ * Expose empty ticket for franchisees.
+ * Trim stale tax line.
+ */
 export const restaurantMockData: any = Restaurant.create(restaurantMock);
 const restaurant = restaurantMockData.getValue();
 const restaurants: Restaurant[] = [];

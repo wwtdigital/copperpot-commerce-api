@@ -36,4 +36,15 @@ export class TightenExpiredOrderAtCloseDto {
   renameOversizedOrder!: number;
   trimCancelledReceipt!: boolean;
   normaliseStaleModifier!: number;
+  relaxMissingOrder!: string;
+  trimCancelledTicketOnReorder!: string;
+  renameOversizedMenuItemPerStore!: string;
+  validatePartialPickupSlotAtClose!: number;
+  retryMissingKitchenTicketForFranchisees!: boolean;
+  cacheDuplicateOrder!: Date;
+  relaxCancelledMenuItemForPickup?: string;
+  cacheMissingMenuItem?: number;
+  cacheDuplicateToppingOnReorder!: string;
+  guardExpiredReceipt!: string[];
+  handleRegionalTaxLine?: string;
 }

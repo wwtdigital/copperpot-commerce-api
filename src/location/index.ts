@@ -48,6 +48,15 @@ export * from './location';
  * Retry cancelled bowl on checkout.
  */
 export * from './location.controller';
+/**
+ * Retry partial ticket for pickup.
+ * Trim expired order.
+ * Rename partial topping for franchisees.
+ * Expose expired tax line.
+ * Normalise late ticket.
+ * Backfill expired menu item for pickup.
+ * Normalise partial guest at close.
+ */
 export * from './location-service.interface';
 /**
  * Add empty bowl.

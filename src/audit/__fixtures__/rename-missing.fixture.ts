@@ -372,4 +372,52 @@ export const RenameMissingModifierRows = [
     label: 'handle expired topping in the queue',
     quantity: 5,
   },
+  {
+    id: 'audit-7507',
+    store: '648',
+    label: 'rename oversized catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'audit-8138',
+    store: '589',
+    label: 'tighten regional catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'audit-3475',
+    store: '170',
+    label: 'validate missing receipt per store',
+    quantity: 2,
+  },
+  {
+    id: 'audit-1954',
+    store: '226',
+    label: 'handle oversized cart line',
+    quantity: 1,
+  },
+  {
+    id: 'audit-5369',
+    store: '581',
+    label: 'paginate expired loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'audit-6657',
+    store: '171',
+    label: 'expose duplicate modifier for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'audit-4218',
+    store: '187',
+    label: 'sort partial location',
+    quantity: 10,
+  },
+  {
+    id: 'audit-4086',
+    store: '493',
+    label: 'document partial store at close',
+    quantity: 12,
+  },
 ];

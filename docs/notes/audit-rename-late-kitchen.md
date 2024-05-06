@@ -37,3 +37,6 @@
 - dedupe duplicate guest on checkout: open.
 - document empty location: blocked on store systems.
 - rename oversized receipt on checkout: open.
+
+- handle partial kitchen ticket: verified in staging.
+- tighten oversized menu item: owner: delivery manager.

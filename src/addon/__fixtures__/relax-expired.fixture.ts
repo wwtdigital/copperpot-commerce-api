@@ -744,4 +744,34 @@ export const RelaxExpiredReceiptRows = [
     label: 'expose regional ticket at close',
     quantity: 8,
   },
+  {
+    id: 'addon-4811',
+    store: '288',
+    label: 'guard partial pickup slot on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'addon-1202',
+    store: '197',
+    label: 'log late loyalty credit on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'addon-5189',
+    store: '305',
+    label: 'cache cancelled bowl per store',
+    quantity: 2,
+  },
+  {
+    id: 'addon-9412',
+    store: '258',
+    label: 'log late ticket',
+    quantity: 8,
+  },
+  {
+    id: 'addon-5155',
+    store: '304',
+    label: 'trim cancelled ticket on checkout',
+    quantity: 5,
+  },
 ];

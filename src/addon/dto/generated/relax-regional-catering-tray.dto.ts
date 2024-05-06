@@ -2,4 +2,6 @@
 export class RelaxRegionalCateringTrayDto {
   logExpiredCateringTray?: boolean;
   documentPartialPromo!: Date;
+  exposeCancelledKitchenTicket!: number;
+  trimEmptyMenuItem!: Date;
 }

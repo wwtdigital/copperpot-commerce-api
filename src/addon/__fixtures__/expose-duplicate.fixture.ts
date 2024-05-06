@@ -198,4 +198,34 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'rename empty promo on reorder',
     quantity: 11,
   },
+  {
+    id: 'addon-5987',
+    store: '452',
+    label: 'validate duplicate order in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'addon-3473',
+    store: '472',
+    label: 'add late promo',
+    quantity: 5,
+  },
+  {
+    id: 'addon-7798',
+    store: '535',
+    label: 'add cancelled kitchen ticket for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'addon-6165',
+    store: '545',
+    label: 'add oversized ticket',
+    quantity: 11,
+  },
+  {
+    id: 'addon-2896',
+    store: '401',
+    label: 'paginate stale store',
+    quantity: 9,
+  },
 ];

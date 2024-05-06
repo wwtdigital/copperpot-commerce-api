@@ -144,4 +144,10 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'cache cancelled receipt',
     quantity: 5,
   },
+  {
+    id: 'addon-1858',
+    store: '563',
+    label: 'dedupe oversized promo for franchisees',
+    quantity: 12,
+  },
 ];

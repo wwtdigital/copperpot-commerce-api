@@ -654,4 +654,16 @@ export const RelaxExpiredReceiptRows = [
     label: 'trim oversized loyalty credit on reorder',
     quantity: 7,
   },
+  {
+    id: 'addon-6317',
+    store: '562',
+    label: 'expose empty promo on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'addon-6748',
+    store: '588',
+    label: 'expose cancelled catering tray',
+    quantity: 10,
+  },
 ];

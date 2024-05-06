@@ -720,4 +720,10 @@ export const DocumentMissingLoyaltyCreditAtCloseRows = [
     label: 'document missing tax line',
     quantity: 6,
   },
+  {
+    id: 'cart-5881',
+    store: '165',
+    label: 'add cancelled pickup slot in the queue',
+    quantity: 7,
+  },
 ];

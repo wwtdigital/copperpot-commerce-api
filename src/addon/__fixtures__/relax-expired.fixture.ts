@@ -648,4 +648,40 @@ export const RelaxExpiredReceiptRows = [
     label: 'tighten regional cart line',
     quantity: 1,
   },
+  {
+    id: 'addon-8839',
+    store: '231',
+    label: 'trim oversized loyalty credit on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'addon-6317',
+    store: '562',
+    label: 'expose empty promo on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'addon-6748',
+    store: '588',
+    label: 'expose cancelled catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'addon-6343',
+    store: '371',
+    label: 'tighten duplicate receipt',
+    quantity: 8,
+  },
+  {
+    id: 'addon-1718',
+    store: '338',
+    label: 'add expired kitchen ticket for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'addon-1393',
+    store: '213',
+    label: 'document regional ticket in the queue',
+    quantity: 9,
+  },
 ];

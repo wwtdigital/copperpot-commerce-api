@@ -120,4 +120,34 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'validate stale guest on checkout',
     quantity: 6,
   },
+  {
+    id: 'addon-5151',
+    store: '552',
+    label: 'relax late kitchen ticket for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'addon-3918',
+    store: '511',
+    label: 'expose empty guest in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'addon-9423',
+    store: '368',
+    label: 'log oversized receipt',
+    quantity: 9,
+  },
+  {
+    id: 'addon-4352',
+    store: '528',
+    label: 'cache cancelled receipt',
+    quantity: 5,
+  },
+  {
+    id: 'addon-1858',
+    store: '563',
+    label: 'dedupe oversized promo for franchisees',
+    quantity: 12,
+  },
 ];

@@ -150,4 +150,10 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'dedupe oversized promo for franchisees',
     quantity: 12,
   },
+  {
+    id: 'addon-6037',
+    store: '634',
+    label: 'backfill empty catering tray',
+    quantity: 3,
+  },
 ];

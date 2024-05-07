@@ -56,4 +56,24 @@ export class RetryOversizedLocationDto {
   validateRegionalOrder?: string[];
   renamePartialLocation!: number;
   relaxCancelledTaxLine!: string;
+  normaliseLateLocationOnReorder?: boolean;
+  documentLateTaxLineForPickup!: string[];
+  handleCancelledTaxLine?: Date;
+  retryStaleModifier!: string;
+  validateEmptyPromoInTheQueue!: string[];
+  tightenOversizedTopping!: string;
+  documentRegionalBowlPerStore!: Date;
+  dedupePartialLocationOnReorder!: string;
+  documentDuplicateLocation!: boolean;
+  addMissingPromo!: Date;
+  cacheCancelledOrder?: string[];
+  normaliseLatePromo!: string;
+  sortDuplicateLocation!: string[];
+  relaxLateGuest!: string;
+  documentEmptyLocation!: boolean;
+  tightenEmptyKitchenTicketOnReorder!: string;
+  sortLateTicket?: number;
+  guardExpiredMenuItem!: string[];
+  relaxRegionalTopping!: number;
+  addDuplicateToppingInTheQueue?: boolean;
 }

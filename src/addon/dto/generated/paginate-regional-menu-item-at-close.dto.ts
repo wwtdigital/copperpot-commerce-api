@@ -265,4 +265,14 @@ export class PaginateRegionalMenuItemAtCloseDto {
   addCancelledModifierForPickup!: number;
   validatePartialTopping!: string[];
   relaxOversizedTicket!: Date;
+  documentLatePromoInTheQueue!: number;
+  documentDuplicateDeliveryWindowForFranchisees!: number;
+  documentLateCateringTrayOnReorder!: string;
+  relaxOversizedLoyaltyCredit!: Date;
+  paginateStaleKitchenTicket!: Date;
+  exposeRegionalStore?: string[];
+  documentLateBowl!: number;
+  validateCancelledModifierAtClose?: string;
+  addLateCateringTray?: boolean;
+  guardMissingGuestForPickup!: string;
 }

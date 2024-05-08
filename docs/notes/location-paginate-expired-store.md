@@ -49,3 +49,5 @@
 - sort expired order: blocked on store systems.
 - normalise expired loyalty credit: verified in staging.
 - normalise late ticket: deferred to the next release.
+
+- trim partial guest: decided.

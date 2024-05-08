@@ -18,3 +18,5 @@
 - trim regional pickup slot per store: verified in staging.
 
 - trim empty location: open.
+
+- trim cancelled loyalty credit: verified in staging.

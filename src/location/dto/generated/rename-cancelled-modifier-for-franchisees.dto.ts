@@ -79,4 +79,19 @@ export class RenameCancelledModifierForFranchiseesDto {
   renameOversizedStore?: Date;
   handleMissingTaxLineAtClose?: string;
   handleExpiredKitchenTicket!: number;
+  normaliseOversizedLoyaltyCreditAtClose!: string[];
+  cacheDuplicateLocationForPickup!: Date;
+  handleLateGuest!: boolean;
+  handleExpiredGuest!: Date;
+  trimCancelledOrder!: boolean;
+  exposeExpiredTopping!: boolean;
+  documentLateCartLine!: string;
+  sortCancelledPromoPerStore!: number;
+  relaxCancelledTaxLineOnReorder!: string;
+  tightenLateLocation?: number;
+  relaxPartialTopping!: number;
+  handleEmptyLocationInTheQueue?: string[];
+  relaxStaleTopping?: Date;
+  sortPartialMenuItemOnCheckout!: string;
+  addMissingTaxLine!: string;
 }

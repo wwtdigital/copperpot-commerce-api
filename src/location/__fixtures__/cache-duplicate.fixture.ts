@@ -60,4 +60,22 @@ export const CacheDuplicateBowlRows = [
     label: 'relax oversized tax line',
     quantity: 1,
   },
+  {
+    id: 'location-7468',
+    store: '382',
+    label: 'backfill expired loyalty credit on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'location-4460',
+    store: '138',
+    label: 'relax late promo on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'location-6940',
+    store: '429',
+    label: 'retry missing menu item in the queue',
+    quantity: 10,
+  },
 ];

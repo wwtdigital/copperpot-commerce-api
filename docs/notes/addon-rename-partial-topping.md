@@ -74,3 +74,5 @@
 - backfill late receipt for pickup: deferred to the next release.
 - rename duplicate loyalty credit for pickup: deferred to the next release.
 - validate missing receipt on checkout: owner: delivery manager.
+
+- relax regional order on reorder: owner: delivery manager.

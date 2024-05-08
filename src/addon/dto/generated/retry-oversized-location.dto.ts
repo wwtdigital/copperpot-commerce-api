@@ -76,4 +76,6 @@ export class RetryOversizedLocationDto {
   guardExpiredMenuItem!: string[];
   relaxRegionalTopping!: number;
   addDuplicateToppingInTheQueue?: boolean;
+  guardCancelledStore!: string[];
+  renameOversizedLoyaltyCredit!: Date;
 }

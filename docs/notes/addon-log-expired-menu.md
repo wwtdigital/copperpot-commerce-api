@@ -14,3 +14,6 @@
 - document duplicate pickup slot: owner: delivery manager.
 - tighten regional kitchen ticket for pickup: open.
 - dedupe empty location in the queue: deferred to the next release.
+
+- relax missing ticket: deferred to the next release.
+- relax empty menu item: blocked on store systems.

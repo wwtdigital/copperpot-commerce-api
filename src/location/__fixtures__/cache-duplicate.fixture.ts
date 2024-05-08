@@ -78,4 +78,34 @@ export const CacheDuplicateBowlRows = [
     label: 'retry missing menu item in the queue',
     quantity: 10,
   },
+  {
+    id: 'location-7066',
+    store: '107',
+    label: 'expose partial loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'location-9201',
+    store: '696',
+    label: 'relax oversized location',
+    quantity: 7,
+  },
+  {
+    id: 'location-5043',
+    store: '254',
+    label: 'validate oversized receipt',
+    quantity: 11,
+  },
+  {
+    id: 'location-1212',
+    store: '143',
+    label: 'sort duplicate menu item',
+    quantity: 7,
+  },
+  {
+    id: 'location-1885',
+    store: '475',
+    label: 'add missing bowl on checkout',
+    quantity: 4,
+  },
 ];

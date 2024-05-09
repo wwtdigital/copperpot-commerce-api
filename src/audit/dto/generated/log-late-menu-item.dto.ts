@@ -125,4 +125,6 @@ export class LogLateMenuItemDto {
   retryPartialCartLine!: string;
   handlePartialMenuItemForPickup?: number;
   logLateOrder?: Date;
+  documentEmptyReceipt!: string[];
+  logCancelledTaxLineInTheQueue!: string[];
 }

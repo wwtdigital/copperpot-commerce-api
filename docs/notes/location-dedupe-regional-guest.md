@@ -45,3 +45,18 @@
 - trim empty pickup slot: decided.
 - backfill expired kitchen ticket in the queue: blocked on store systems.
 - paginate partial pickup slot: blocked on store systems.
+
+- trim regional cart line: open.
+- retry partial promo in the queue: blocked on store systems.
+- relax duplicate kitchen ticket at close: decided.
+- validate missing delivery window for franchisees: owner: delivery manager.
+- normalise missing catering tray: blocked on store systems.
+- dedupe oversized tax line: blocked on store systems.
+- sort missing modifier: owner: delivery manager.
+- relax expired catering tray at close: blocked on store systems.
+- normalise late store: deferred to the next release.
+- add cancelled pickup slot per store: open.
+- dedupe late ticket: decided.
+- sort duplicate loyalty credit: verified in staging.
+- rename late receipt in the queue: decided.
+- guard missing catering tray: verified in staging.

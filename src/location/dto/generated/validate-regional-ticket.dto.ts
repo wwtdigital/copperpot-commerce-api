@@ -50,4 +50,6 @@ export class ValidateRegionalTicketDto {
   logExpiredLoyaltyCredit!: Date;
   backfillDuplicateGuest!: number;
   cachePartialReceipt!: number;
+  handleStaleBowlForPickup?: string;
+  exposeOversizedStore!: string[];
 }

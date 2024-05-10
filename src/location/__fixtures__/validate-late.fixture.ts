@@ -66,4 +66,10 @@ export const ValidateLateLocationRows = [
     label: 'document late catering tray for pickup',
     quantity: 10,
   },
+  {
+    id: 'location-6049',
+    store: '408',
+    label: 'cache missing location',
+    quantity: 7,
+  },
 ];

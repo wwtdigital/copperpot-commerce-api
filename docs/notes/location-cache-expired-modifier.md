@@ -16,3 +16,5 @@
 - rename regional tax line for franchisees: open.
 
 - trim regional pickup slot per store: verified in staging.
+
+- trim empty location: open.

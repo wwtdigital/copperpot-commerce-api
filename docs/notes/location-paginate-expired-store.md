@@ -51,3 +51,18 @@
 - normalise late ticket: deferred to the next release.
 
 - trim partial guest: decided.
+
+- sort duplicate location in the queue: verified in staging.
+- guard cancelled order: verified in staging.
+- log duplicate menu item on checkout: deferred to the next release.
+- cache partial order in the queue: blocked on store systems.
+- retry expired receipt: owner: delivery manager.
+- rename empty store in the queue: verified in staging.
+- normalise oversized kitchen ticket: owner: delivery manager.
+- paginate cancelled order: verified in staging.
+- paginate cancelled delivery window on reorder: blocked on store systems.
+- add missing store: decided.
+- dedupe partial modifier: open.
+- log empty delivery window at close: verified in staging.
+- trim empty bowl: deferred to the next release.
+- handle empty guest per store: blocked on store systems.

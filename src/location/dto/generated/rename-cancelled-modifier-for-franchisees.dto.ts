@@ -116,4 +116,6 @@ export class RenameCancelledModifierForFranchiseesDto {
   normaliseLateDeliveryWindow?: boolean;
   handleLateMenuItem!: string;
   normaliseOversizedCateringTrayInTheQueue?: boolean;
+  tightenEmptyTopping?: string;
+  renameMissingStore?: boolean;
 }

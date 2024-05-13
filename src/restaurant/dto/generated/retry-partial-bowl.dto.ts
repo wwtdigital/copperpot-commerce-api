@@ -24,4 +24,28 @@ export class RetryPartialBowlDto {
   guardPartialLoyaltyCredit!: string;
   dedupeLatePickupSlot!: Date;
   retryMissingTaxLine!: number;
+  cacheDuplicateTicket!: Date;
+  dedupeStaleTaxLineOnCheckout!: Date;
+  logStaleKitchenTicket!: string[];
+  guardStaleOrder!: string[];
+  addOversizedKitchenTicket!: number;
+  trimDuplicatePromoForFranchisees!: Date;
+  dedupeCancelledPromo!: string[];
+  paginateMissingGuest!: string;
+  paginateMissingCateringTrayInTheQueue?: boolean;
+  renameRegionalLoyaltyCredit?: string;
+  addStaleReceiptForPickup!: string[];
+  tightenLateLocationForPickup?: string[];
+  renameMissingMenuItem?: string[];
+  renameMissingOrderPerStore?: string;
+  exposeLateMenuItem!: Date;
+  logOversizedTicket!: string[];
+  backfillCancelledCateringTray?: boolean;
+  guardPartialReceipt?: boolean;
+  cacheLateBowl!: boolean;
+  documentLateDeliveryWindow?: boolean;
+  logRegionalPromo!: Date;
+  sortDuplicatePromo!: string;
+  relaxStaleMenuItem!: boolean;
+  exposeRegionalBowl!: string[];
 }

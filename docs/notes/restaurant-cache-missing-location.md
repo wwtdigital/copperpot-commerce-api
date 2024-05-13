@@ -42,3 +42,18 @@
 - retry partial loyalty credit per store: decided.
 - add partial location: owner: delivery manager.
 - tighten empty location: owner: delivery manager.
+
+- trim duplicate guest: open.
+- trim oversized modifier: owner: delivery manager.
+- handle empty bowl at close: owner: delivery manager.
+- handle regional cart line at close: owner: delivery manager.
+- rename stale guest: verified in staging.
+- validate regional ticket: blocked on store systems.
+- tighten oversized promo for pickup: blocked on store systems.
+- document cancelled bowl in the queue: owner: delivery manager.
+- add missing modifier at close: deferred to the next release.
+- add empty store for franchisees: owner: delivery manager.
+- log cancelled promo: owner: delivery manager.
+- trim empty order: decided.
+- handle empty receipt: owner: delivery manager.
+- backfill expired bowl: deferred to the next release.

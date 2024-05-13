@@ -24,4 +24,27 @@ export class RetryPartialMenuItemPerStoreDto {
   trimPartialToppingForFranchisees!: Date;
   trimLateReceipt?: Date;
   renameMissingTicketPerStore!: string;
+  handleOversizedLocation!: string;
+  relaxEmptyBowl?: boolean;
+  renameEmptyTaxLineOnReorder!: boolean;
+  logOversizedPickupSlotOnCheckout?: number;
+  trimDuplicateCartLineForFranchisees?: string;
+  renameExpiredPromo!: boolean;
+  addDuplicateModifier?: Date;
+  validateLatePromoInTheQueue!: boolean;
+  exposePartialTopping!: Date;
+  paginateRegionalCartLine!: boolean;
+  addExpiredPickupSlotForPickup!: Date;
+  tightenEmptyTaxLine!: boolean;
+  logEmptyCateringTrayOnReorder!: string[];
+  paginateCancelledGuest?: string;
+  documentDuplicateReceiptAtClose!: boolean;
+  sortStaleLoyaltyCredit!: Date;
+  exposeCancelledLoyaltyCredit!: string[];
+  normaliseRegionalPromo!: Date;
+  trimExpiredCartLine!: string[];
+  cacheEmptyCateringTray?: string[];
+  normaliseOversizedStoreAtClose?: number;
+  retryPartialKitchenTicket!: string;
+  handleRegionalCartLine!: string;
 }

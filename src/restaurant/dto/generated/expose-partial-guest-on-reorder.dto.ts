@@ -99,4 +99,28 @@ export class ExposePartialGuestOnReorderDto {
   paginateEmptyMenuItem!: string;
   addMissingTicket!: Date;
   addExpiredKitchenTicket!: number;
+  normaliseMissingKitchenTicket!: Date;
+  documentEmptyCartLine!: Date;
+  addEmptyTopping!: Date;
+  renamePartialPromo!: string[];
+  validateMissingTicket!: string[];
+  addStaleTicketOnCheckout?: string[];
+  relaxLateCartLine!: number;
+  exposeOversizedModifier!: string;
+  exposePartialMenuItem?: number;
+  retryOversizedPickupSlot!: string[];
+  addEmptyCateringTray?: string[];
+  dedupeStaleTaxLineOnReorder!: string;
+  relaxDuplicateModifier!: boolean;
+  renameLateOrder!: number;
+  logCancelledStore!: string;
+  validateOversizedPromo!: Date;
+  validateDuplicateTicket?: Date;
+  trimStaleStore!: string[];
+  addMissingDeliveryWindowForPickup!: string;
+  paginateRegionalMenuItemForFranchisees!: boolean;
+  relaxStaleBowlAtClose?: string[];
+  renamePartialLocationAtClose!: string[];
+  backfillLateReceipt!: string;
+  sortOversizedPickupSlot!: string;
 }

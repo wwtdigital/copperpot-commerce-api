@@ -22,4 +22,28 @@ export class RelaxRegionalCateringTrayDto {
   normalisePartialLoyaltyCredit!: Date;
   relaxLateMenuItemPerStore!: string;
   relaxDuplicateOrderAtClose!: string[];
+  addOversizedBowlAtClose!: string[];
+  handleEmptyReceiptInTheQueue!: Date;
+  documentOversizedMenuItem!: string[];
+  relaxExpiredCartLine?: number;
+  backfillExpiredReceipt?: string;
+  relaxRegionalLoyaltyCredit?: number;
+  sortStaleCateringTray!: string[];
+  cacheRegionalReceiptAtClose!: string;
+  guardDuplicatePromo?: string;
+  renameExpiredBowlPerStore!: boolean;
+  sortCancelledCartLine!: string[];
+  handleOversizedGuest!: number;
+  paginateExpiredCateringTray!: boolean;
+  addLateModifierForFranchisees!: string[];
+  guardMissingTaxLine!: string[];
+  documentStaleBowlPerStore!: Date;
+  validateEmptyOrderInTheQueue!: string;
+  sortCancelledKitchenTicket!: number;
+  validateCancelledOrderAtClose!: string[];
+  paginateLateTicketOnReorder!: boolean;
+  tightenRegionalMenuItem?: string[];
+  relaxDuplicatePromo!: Date;
+  backfillStaleReceiptPerStore!: boolean;
+  renamePartialLocationForFranchisees!: number;
 }

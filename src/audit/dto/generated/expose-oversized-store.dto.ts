@@ -38,4 +38,28 @@ export class ExposeOversizedStoreDto {
   relaxLateMenuItem!: Date;
   guardOversizedMenuItem?: string;
   relaxMissingTicketPerStore?: boolean;
+  normaliseMissingOrderForFranchisees?: string;
+  normaliseCancelledTicket!: boolean;
+  documentPartialReceipt!: Date;
+  relaxEmptyDeliveryWindowAtClose?: boolean;
+  cacheRegionalKitchenTicket!: Date;
+  trimDuplicateDeliveryWindowPerStore!: string;
+  paginateLateStore!: boolean;
+  relaxPartialStore!: string[];
+  backfillExpiredMenuItem!: string[];
+  normaliseStaleModifier!: number;
+  renameEmptyTaxLine?: number;
+  retryRegionalBowl!: boolean;
+  logMissingModifier?: Date;
+  tightenOversizedOrderOnReorder?: boolean;
+  guardCancelledTopping?: string;
+  sortEmptyLoyaltyCredit?: boolean;
+  documentMissingToppingInTheQueue!: boolean;
+  cacheLateTopping?: boolean;
+  backfillMissingMenuItem!: boolean;
+  relaxCancelledMenuItem!: number;
+  logCancelledPromoInTheQueue?: Date;
+  dedupeEmptyPickupSlotPerStore!: string;
+  sortStaleStoreOnReorder!: number;
+  validateRegionalStoreAtClose?: string;
 }

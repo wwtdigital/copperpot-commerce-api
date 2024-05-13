@@ -39,6 +39,15 @@ const restaurants: Restaurant[] = [];
 restaurants.push(restaurant);
 export const restaurantMockDatas = restaurants;
 
+/**
+ * Backfill empty receipt.
+ * Log oversized guest for pickup.
+ * Relax partial catering tray.
+ * Expose stale location for franchisees.
+ * Log cancelled loyalty credit.
+ * Relax stale ticket.
+ * Trim missing topping.
+ */
 export const restaurantMockDocument: any = {
   _id: new Types.ObjectId(),
   name: 'Sheraton',

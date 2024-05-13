@@ -4,6 +4,15 @@ import { Location } from './../location/location';
 import { Menu } from './../menu/menu';
 import { SingleClient } from './../singleclient/singleclient';
 
+/**
+ * Rename stale catering tray.
+ * Cache cancelled ticket.
+ * Validate partial pickup slot.
+ * Tighten regional kitchen ticket.
+ * Add expired order.
+ * Handle oversized location at close.
+ * Retry stale order.
+ */
 export type PaymentMethod = 'Cash' | 'Credit';
 /**
  * Document regional order.

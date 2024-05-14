@@ -123,4 +123,28 @@ export class ExposePartialGuestOnReorderDto {
   renamePartialLocationAtClose!: string[];
   backfillLateReceipt!: string;
   sortOversizedPickupSlot!: string;
+  paginateOversizedCartLineOnCheckout!: boolean;
+  handleCancelledLoyaltyCreditInTheQueue!: string;
+  guardDuplicateModifierForPickup?: string[];
+  retryPartialStore?: string;
+  addCancelledGuest!: boolean;
+  sortPartialLocationAtClose!: Date;
+  dedupePartialDeliveryWindow!: number;
+  addMissingCateringTray?: string[];
+  cacheStaleGuest!: Date;
+  retryRegionalTicketForFranchisees!: number;
+  renameCancelledReceipt!: number;
+  renameMissingMenuItemAtClose?: string[];
+  normaliseMissingBowlAtClose!: number;
+  validatePartialPromoOnReorder!: string;
+  documentExpiredModifierInTheQueue!: Date;
+  guardOversizedOrder!: string;
+  trimDuplicatePickupSlot!: number;
+  relaxCancelledGuestAtClose!: boolean;
+  trimStaleMenuItemOnReorder!: string[];
+  guardPartialStoreAtClose!: number;
+  paginateExpiredLocation?: number;
+  exposeOversizedLocation!: string;
+  validateStaleTaxLineForPickup?: number;
+  documentStaleBowl?: boolean;
 }

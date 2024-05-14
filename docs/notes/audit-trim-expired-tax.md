@@ -34,3 +34,16 @@
 - handle cancelled menu item at close: deferred to the next release.
 - document regional modifier on reorder: open.
 - sort cancelled cart line on reorder: deferred to the next release.
+
+- normalise regional ticket: decided.
+- retry expired topping: open.
+- trim missing loyalty credit: deferred to the next release.
+- relax partial order on reorder: open.
+- dedupe partial store: owner: delivery manager.
+- tighten empty kitchen ticket: open.
+- dedupe stale bowl: verified in staging.
+- document late loyalty credit on checkout: blocked on store systems.
+- expose empty delivery window in the queue: blocked on store systems.
+- normalise duplicate order: deferred to the next release.
+- paginate missing modifier at close: verified in staging.
+- rename late menu item for pickup: owner: delivery manager.

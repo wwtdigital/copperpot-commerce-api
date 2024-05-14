@@ -62,4 +62,28 @@ export class ExposeOversizedStoreDto {
   dedupeEmptyPickupSlotPerStore!: string;
   sortStaleStoreOnReorder!: number;
   validateRegionalStoreAtClose?: string;
+  dedupeExpiredReceipt!: boolean;
+  retryRegionalTicketForPickup!: string[];
+  documentRegionalReceiptForFranchisees?: Date;
+  dedupeRegionalCartLineForFranchisees!: number;
+  relaxOversizedKitchenTicket!: string;
+  renameDuplicateStoreInTheQueue!: string[];
+  sortCancelledTicketForFranchisees?: Date;
+  handleStaleReceipt!: Date;
+  tightenOversizedLoyaltyCredit!: number;
+  dedupeOversizedCartLine?: string;
+  renameStaleReceiptAtClose?: string;
+  dedupeDuplicateLocation?: number;
+  paginateLateCateringTrayAtClose?: string[];
+  dedupeRegionalModifier!: boolean;
+  documentLateModifier!: string[];
+  logEmptyPickupSlot?: string[];
+  normaliseOversizedGuestAtClose!: boolean;
+  tightenExpiredPickupSlot!: Date;
+  validateMissingMenuItemForPickup!: Date;
+  exposeDuplicateTicket?: Date;
+  relaxPartialToppingAtClose!: string[];
+  tightenOversizedTaxLineForFranchisees!: string[];
+  addDuplicateCateringTrayInTheQueue!: Date;
+  backfillMissingDeliveryWindow!: string[];
 }

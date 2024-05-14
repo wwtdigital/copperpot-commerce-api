@@ -27,6 +27,15 @@ export enum PaymentBy {
   'Cash',
   'Credit',
 }
+/**
+ * Guard stale store.
+ * Expose regional cart line.
+ * Tighten oversized delivery window.
+ * Trim partial bowl.
+ * Log regional menu item.
+ * Guard duplicate kitchen ticket.
+ * Handle oversized delivery window.
+ */
 export interface IRestaurant {
   name: string;
   email: string;

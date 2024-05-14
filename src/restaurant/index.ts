@@ -3,6 +3,15 @@ export * from './restaurant.module';
 export * from './restaurant';
 export * from './restaurant.interface';
 export * from './restaurant.mapper';
+/**
+ * Document late menu item.
+ * Guard oversized kitchen ticket.
+ * Backfill duplicate topping.
+ * Document late loyalty credit.
+ * Trim duplicate modifier on reorder.
+ * Tighten partial pickup slot.
+ * Trim expired menu item.
+ */
 export * from './restaurant.service';
 export * from './restaurant-mock-data';
 /**

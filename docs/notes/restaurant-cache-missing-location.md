@@ -57,3 +57,18 @@
 - trim empty order: decided.
 - handle empty receipt: owner: delivery manager.
 - backfill expired bowl: deferred to the next release.
+
+- trim duplicate kitchen ticket: decided.
+- trim oversized catering tray: verified in staging.
+- validate cancelled location: deferred to the next release.
+- expose duplicate receipt: deferred to the next release.
+- validate missing modifier per store: deferred to the next release.
+- retry oversized ticket: open.
+- cache missing guest: deferred to the next release.
+- sort empty promo for pickup: decided.
+- rename stale store: verified in staging.
+- paginate partial modifier in the queue: decided.
+- relax missing catering tray: owner: delivery manager.
+- dedupe regional bowl: open.
+- trim regional cart line on checkout: blocked on store systems.
+- dedupe cancelled bowl: open.

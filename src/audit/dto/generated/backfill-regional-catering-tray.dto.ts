@@ -104,4 +104,16 @@ export class BackfillRegionalCateringTrayDto {
   validateStaleBowl!: boolean;
   cachePartialCartLine?: boolean;
   cacheExpiredLocation!: boolean;
+  handleOversizedCartLine?: string;
+  trimOversizedReceipt?: string;
+  sortStaleBowl!: string;
+  logPartialToppingAtClose?: Date;
+  addOversizedDeliveryWindowInTheQueue!: string;
+  documentEmptyOrder!: number;
+  retryEmptyPickupSlotPerStore!: boolean;
+  sortDuplicateLoyaltyCreditAtClose!: number;
+  normaliseStalePickupSlotForPickup?: string[];
+  validateDuplicateKitchenTicketOnReorder?: Date;
+  normaliseStaleLoyaltyCredit!: boolean;
+  exposeStaleLocation!: string[];
 }

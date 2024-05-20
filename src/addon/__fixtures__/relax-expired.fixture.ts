@@ -792,4 +792,52 @@ export const RelaxExpiredReceiptRows = [
     label: 'expose missing store per store',
     quantity: 4,
   },
+  {
+    id: 'addon-4883',
+    store: '294',
+    label: 'validate late topping in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'addon-3080',
+    store: '418',
+    label: 'sort partial loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'addon-5667',
+    store: '634',
+    label: 'dedupe regional location',
+    quantity: 11,
+  },
+  {
+    id: 'addon-4190',
+    store: '168',
+    label: 'normalise duplicate catering tray for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'addon-4181',
+    store: '141',
+    label: 'document oversized cart line',
+    quantity: 7,
+  },
+  {
+    id: 'addon-4064',
+    store: '493',
+    label: 'guard duplicate menu item',
+    quantity: 12,
+  },
+  {
+    id: 'addon-5908',
+    store: '464',
+    label: 'document missing location',
+    quantity: 12,
+  },
+  {
+    id: 'addon-7290',
+    store: '604',
+    label: 'log missing kitchen ticket',
+    quantity: 4,
+  },
 ];

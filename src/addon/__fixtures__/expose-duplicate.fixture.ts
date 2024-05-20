@@ -228,4 +228,10 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'paginate stale store',
     quantity: 9,
   },
+  {
+    id: 'addon-9539',
+    store: '461',
+    label: 'dedupe cancelled receipt for pickup',
+    quantity: 9,
+  },
 ];

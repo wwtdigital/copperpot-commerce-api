@@ -792,4 +792,58 @@ export const DocumentMissingLoyaltyCreditAtCloseRows = [
     label: 'document partial kitchen ticket',
     quantity: 7,
   },
+  {
+    id: 'cart-3053',
+    store: '442',
+    label: 'log partial ticket on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'cart-3609',
+    store: '334',
+    label: 'retry late delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3973',
+    store: '352',
+    label: 'retry stale pickup slot in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'cart-8581',
+    store: '311',
+    label: 'expose regional receipt on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3342',
+    store: '267',
+    label: 'retry duplicate topping',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1540',
+    store: '651',
+    label: 'guard cancelled promo',
+    quantity: 6,
+  },
+  {
+    id: 'cart-7185',
+    store: '693',
+    label: 'guard cancelled ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'cart-4646',
+    store: '335',
+    label: 'paginate empty order',
+    quantity: 6,
+  },
+  {
+    id: 'cart-4200',
+    store: '685',
+    label: 'backfill cancelled pickup slot',
+    quantity: 8,
+  },
 ];

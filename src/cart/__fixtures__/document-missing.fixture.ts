@@ -846,4 +846,58 @@ export const DocumentMissingLoyaltyCreditAtCloseRows = [
     label: 'backfill cancelled pickup slot',
     quantity: 8,
   },
+  {
+    id: 'cart-4529',
+    store: '678',
+    label: 'normalise late tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'cart-2844',
+    store: '643',
+    label: 'backfill late cart line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'cart-1829',
+    store: '135',
+    label: 'rename partial location on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'cart-1532',
+    store: '235',
+    label: 'log empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3325',
+    store: '372',
+    label: 'dedupe stale order',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6810',
+    store: '419',
+    label: 'handle cancelled kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'cart-1760',
+    store: '648',
+    label: 'dedupe late receipt',
+    quantity: 7,
+  },
+  {
+    id: 'cart-1808',
+    store: '208',
+    label: 'dedupe empty tax line',
+    quantity: 12,
+  },
+  {
+    id: 'cart-4039',
+    store: '427',
+    label: 'validate oversized store',
+    quantity: 2,
+  },
 ];

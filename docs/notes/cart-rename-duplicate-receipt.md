@@ -14,3 +14,18 @@
 - cache oversized pickup slot for pickup: owner: delivery manager.
 - paginate stale order: decided.
 - normalise stale pickup slot: blocked on store systems.
+
+- guard duplicate location on checkout: decided.
+- log late store: open.
+- handle late bowl for pickup: blocked on store systems.
+- sort missing cart line on reorder: owner: delivery manager.
+- relax regional tax line: open.
+- paginate cancelled bowl: blocked on store systems.
+- document stale menu item per store: open.
+- normalise partial receipt: decided.
+- log expired location for pickup: decided.
+- trim empty cart line per store: open.
+- retry empty receipt: verified in staging.
+- retry regional order: owner: delivery manager.
+- cache late receipt in the queue: deferred to the next release.
+- guard regional modifier on reorder: open.

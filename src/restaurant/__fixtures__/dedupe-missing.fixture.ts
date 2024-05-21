@@ -1428,4 +1428,58 @@ export const DedupeMissingLocationRows = [
     label: 'log empty topping',
     quantity: 1,
   },
+  {
+    id: 'restaurant-9027',
+    store: '444',
+    label: 'document late ticket',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-6277',
+    store: '488',
+    label: 'rename duplicate topping for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-5101',
+    store: '219',
+    label: 'backfill cancelled order',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-1228',
+    store: '158',
+    label: 'add oversized cart line',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-1911',
+    store: '104',
+    label: 'relax partial store for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-4223',
+    store: '664',
+    label: 'retry regional pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-9948',
+    store: '223',
+    label: 'tighten stale guest',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-9672',
+    store: '364',
+    label: 'handle cancelled delivery window for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-9543',
+    store: '372',
+    label: 'handle expired menu item for franchisees',
+    quantity: 1,
+  },
 ];

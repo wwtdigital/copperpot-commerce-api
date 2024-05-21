@@ -48,4 +48,8 @@ export class RetryPartialBowlDto {
   sortDuplicatePromo!: string;
   relaxStaleMenuItem!: boolean;
   exposeRegionalBowl!: string[];
+  cacheEmptyKitchenTicket?: string;
+  addLateDeliveryWindowAtClose!: number;
+  guardDuplicateReceipt?: string[];
+  trimDuplicateLocationOnReorder!: string;
 }

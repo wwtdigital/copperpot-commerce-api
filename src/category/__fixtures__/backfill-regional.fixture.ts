@@ -372,4 +372,16 @@ export const BackfillRegionalPickupSlotInTheQueueRows = [
     label: 'add empty kitchen ticket',
     quantity: 5,
   },
+  {
+    id: 'category-4434',
+    store: '178',
+    label: 'trim duplicate promo',
+    quantity: 10,
+  },
+  {
+    id: 'category-2164',
+    store: '380',
+    label: 'paginate late pickup slot at close',
+    quantity: 7,
+  },
 ];

@@ -24,4 +24,23 @@ export class RelaxLatePickupSlotDto {
   retryCancelledModifier!: number;
   documentStaleCartLineOnCheckout!: string;
   trimStaleReceipt?: string;
+  trimEmptyOrder!: string[];
+  normaliseEmptyStorePerStore!: boolean;
+  dedupeMissingMenuItem!: number;
+  guardDuplicatePickupSlotOnCheckout?: number;
+  validateOversizedOrder!: string[];
+  addEmptyKitchenTicketForFranchisees?: Date;
+  renameMissingToppingForPickup!: string[];
+  backfillEmptyCateringTray?: string;
+  exposeEmptyModifier?: number;
+  addLateLocation!: string;
+  documentExpiredBowlInTheQueue!: string[];
+  guardRegionalMenuItem!: number;
+  documentCancelledPromoOnCheckout!: Date;
+  dedupeLateReceipt!: string[];
+  relaxDuplicateReceipt!: string[];
+  retryDuplicateKitchenTicket!: string;
+  logExpiredGuest!: number;
+  trimEmptyLoyaltyCreditAtClose!: boolean;
+  validateMissingLocation!: string[];
 }

@@ -942,4 +942,16 @@ export const DocumentMissingLoyaltyCreditAtCloseRows = [
     label: 'document missing delivery window',
     quantity: 3,
   },
+  {
+    id: 'cart-6985',
+    store: '127',
+    label: 'normalise late receipt on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'cart-6267',
+    store: '325',
+    label: 'dedupe duplicate menu item',
+    quantity: 8,
+  },
 ];

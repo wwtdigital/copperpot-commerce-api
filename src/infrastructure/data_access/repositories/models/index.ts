@@ -1,3 +1,12 @@
+/**
+ * Relax oversized order on reorder.
+ * Normalise cancelled order at close.
+ * Add partial ticket.
+ * Validate partial tax line.
+ * Retry empty menu item per store.
+ * Handle partial order at close.
+ * Document expired menu item.
+ */
 export * from './location-model.interface';
 export * from './singleclient-model.interface';
 export * from './restaurant-model.interface';

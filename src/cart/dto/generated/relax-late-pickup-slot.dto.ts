@@ -43,4 +43,28 @@ export class RelaxLatePickupSlotDto {
   logExpiredGuest!: number;
   trimEmptyLoyaltyCreditAtClose!: boolean;
   validateMissingLocation!: string[];
+  dedupeLateGuestPerStore!: Date;
+  logOversizedModifier?: boolean;
+  sortDuplicateTaxLine!: number;
+  tightenDuplicateCartLine?: boolean;
+  paginateRegionalMenuItemPerStore!: string[];
+  cacheMissingTicket!: number;
+  exposeCancelledBowl!: Date;
+  guardLateBowlInTheQueue!: string;
+  addLateModifierForFranchisees!: string;
+  trimRegionalOrderOnReorder!: string;
+  validateMissingReceiptForPickup?: number;
+  relaxExpiredKitchenTicket?: string;
+  cacheDuplicateDeliveryWindow?: Date;
+  validateMissingLoyaltyCredit?: Date;
+  handleDuplicateReceiptAtClose!: number;
+  handleRegionalPromo!: string;
+  validateEmptyMenuItem!: string[];
+  dedupeLateTaxLineInTheQueue?: Date;
+  backfillRegionalGuest!: string[];
+  guardDuplicateTaxLineOnReorder!: string;
+  normaliseEmptyModifier!: string;
+  retryExpiredOrder!: Date;
+  sortRegionalTopping!: string;
+  exposeRegionalLoyaltyCredit!: number;
 }

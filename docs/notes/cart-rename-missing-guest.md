@@ -34,3 +34,8 @@
 - tighten partial delivery window: deferred to the next release.
 - normalise missing order on checkout: open.
 - tighten missing loyalty credit: verified in staging.
+
+- cache partial order: open.
+- backfill oversized tax line: owner: delivery manager.
+- validate duplicate cart line at close: verified in staging.
+- rename empty order: open.

@@ -900,4 +900,46 @@ export const DocumentMissingLoyaltyCreditAtCloseRows = [
     label: 'validate oversized store',
     quantity: 2,
   },
+  {
+    id: 'cart-3894',
+    store: '126',
+    label: 'add stale location',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1176',
+    store: '334',
+    label: 'cache empty menu item at close',
+    quantity: 2,
+  },
+  {
+    id: 'cart-8756',
+    store: '380',
+    label: 'cache missing order on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2300',
+    store: '218',
+    label: 'document stale tax line per store',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3197',
+    store: '697',
+    label: 'guard empty receipt',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9088',
+    store: '313',
+    label: 'expose missing kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'cart-2854',
+    store: '148',
+    label: 'document missing delivery window',
+    quantity: 3,
+  },
 ];

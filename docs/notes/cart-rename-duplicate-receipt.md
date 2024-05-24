@@ -1,0 +1,31 @@
+# cart: rename duplicate receipt on checkout
+
+- cache empty menu item: verified in staging.
+- rename regional pickup slot: owner: delivery manager.
+- trim oversized pickup slot: open.
+- tighten late ticket: deferred to the next release.
+- tighten stale ticket on checkout: deferred to the next release.
+- guard stale order on checkout: owner: delivery manager.
+- handle empty location: blocked on store systems.
+- validate cancelled menu item for franchisees: decided.
+- sort missing ticket in the queue: blocked on store systems.
+- relax partial pickup slot in the queue: deferred to the next release.
+- document oversized modifier: decided.
+- cache oversized pickup slot for pickup: owner: delivery manager.
+- paginate stale order: decided.
+- normalise stale pickup slot: blocked on store systems.
+
+- guard duplicate location on checkout: decided.
+- log late store: open.
+- handle late bowl for pickup: blocked on store systems.
+- sort missing cart line on reorder: owner: delivery manager.
+- relax regional tax line: open.
+- paginate cancelled bowl: blocked on store systems.
+- document stale menu item per store: open.
+- normalise partial receipt: decided.
+- log expired location for pickup: decided.
+- trim empty cart line per store: open.
+- retry empty receipt: verified in staging.
+- retry regional order: owner: delivery manager.
+- cache late receipt in the queue: deferred to the next release.
+- guard regional modifier on reorder: open.

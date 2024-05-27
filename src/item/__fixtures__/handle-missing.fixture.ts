@@ -36,4 +36,10 @@ export const HandleMissingLocationRows = [
     label: 'sort stale kitchen ticket at close',
     quantity: 11,
   },
+  {
+    id: 'item-4558',
+    store: '378',
+    label: 'log cancelled order',
+    quantity: 9,
+  },
 ];

@@ -72,4 +72,22 @@ export const ValidateEmptyModifierRows = [
     label: 'validate regional guest',
     quantity: 4,
   },
+  {
+    id: 'item-4340',
+    store: '392',
+    label: 'rename stale store',
+    quantity: 4,
+  },
+  {
+    id: 'item-3060',
+    store: '310',
+    label: 'sort expired bowl in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'item-9192',
+    store: '677',
+    label: 'rename partial ticket per store',
+    quantity: 1,
+  },
 ];

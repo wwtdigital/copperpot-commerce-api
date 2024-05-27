@@ -24,4 +24,23 @@ export class ExposeStaleToppingAtCloseDto {
   relaxMissingMenuItem!: string;
   normaliseLateTaxLineForPickup?: string;
   addEmptyDeliveryWindow!: Date;
+  normaliseStalePromoOnReorder?: number;
+  dedupeEmptyOrder!: Date;
+  dedupeRegionalCartLineOnReorder!: string[];
+  exposeLateToppingOnCheckout!: boolean;
+  normaliseDuplicateTaxLine!: boolean;
+  addCancelledPickupSlot!: string;
+  trimMissingLocation!: number;
+  addMissingMenuItemOnCheckout!: Date;
+  cacheCancelledStoreAtClose!: Date;
+  relaxPartialBowlInTheQueue!: number;
+  relaxPartialDeliveryWindowForPickup!: string;
+  handleLateReceipt?: boolean;
+  exposeEmptyStore?: string;
+  relaxRegionalLocation!: boolean;
+  normaliseExpiredTopping!: boolean;
+  logCancelledLocationForPickup!: Date;
+  backfillMissingTicket!: string[];
+  addEmptyMenuItem?: boolean;
+  cacheMissingCartLineForPickup?: boolean;
 }

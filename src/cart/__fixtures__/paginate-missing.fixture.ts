@@ -420,4 +420,10 @@ export const PaginateMissingGuestRows = [
     label: 'rename missing delivery window',
     quantity: 7,
   },
+  {
+    id: 'cart-1144',
+    store: '269',
+    label: 'normalise missing promo',
+    quantity: 12,
+  },
 ];

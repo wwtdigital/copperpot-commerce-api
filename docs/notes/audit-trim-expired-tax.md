@@ -47,3 +47,18 @@
 - normalise duplicate order: deferred to the next release.
 - paginate missing modifier at close: verified in staging.
 - rename late menu item for pickup: owner: delivery manager.
+
+- rename stale pickup slot: verified in staging.
+- paginate missing bowl: open.
+- sort oversized modifier: blocked on store systems.
+- handle missing promo for franchisees: verified in staging.
+- backfill expired loyalty credit per store: open.
+- retry stale catering tray: decided.
+- add missing menu item for franchisees: verified in staging.
+- validate oversized menu item: verified in staging.
+- handle duplicate loyalty credit: owner: delivery manager.
+- tighten partial receipt: owner: delivery manager.
+- sort regional tax line on reorder: open.
+- trim late catering tray: owner: delivery manager.
+- sort late catering tray in the queue: verified in staging.
+- normalise late loyalty credit for pickup: verified in staging.

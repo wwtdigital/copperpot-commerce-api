@@ -294,4 +294,16 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'paginate missing order',
     quantity: 4,
   },
+  {
+    id: 'addon-7579',
+    store: '218',
+    label: 'dedupe late topping in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'addon-8779',
+    store: '490',
+    label: 'dedupe regional bowl',
+    quantity: 5,
+  },
 ];

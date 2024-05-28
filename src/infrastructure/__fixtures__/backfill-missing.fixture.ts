@@ -1,0 +1,105 @@
+/* Fixture rows for infrastructure tests: backfill missing loyalty credit. Generated data, not production data. */
+export const BackfillMissingLoyaltyCreditRows = [
+  {
+    id: 'infrastructure-8877',
+    store: '606',
+    label: 'handle cancelled promo in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-1791',
+    store: '354',
+    label: 'normalise regional modifier on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-3186',
+    store: '377',
+    label: 'sort empty receipt',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-7017',
+    store: '617',
+    label: 'sort empty pickup slot on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-9862',
+    store: '480',
+    label: 'expose partial pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-4621',
+    store: '474',
+    label: 'log cancelled tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-2827',
+    store: '513',
+    label: 'backfill stale topping on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-1238',
+    store: '585',
+    label: 'add expired guest at close',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-3101',
+    store: '246',
+    label: 'validate expired kitchen ticket in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-1632',
+    store: '127',
+    label: 'add cancelled ticket on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-3374',
+    store: '273',
+    label: 'sort regional pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-7870',
+    store: '391',
+    label: 'cache empty location on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-5601',
+    store: '203',
+    label: 'backfill stale guest',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-6464',
+    store: '609',
+    label: 'validate empty loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-5422',
+    store: '355',
+    label: 'sort stale location',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-2642',
+    store: '453',
+    label: 'retry cancelled topping',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-3667',
+    store: '154',
+    label: 'handle late bowl',
+    quantity: 12,
+  },
+];

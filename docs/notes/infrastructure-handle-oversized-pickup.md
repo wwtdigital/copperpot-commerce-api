@@ -12,3 +12,18 @@
 - backfill cancelled topping on checkout: blocked on store systems.
 - retry missing guest for franchisees: owner: delivery manager.
 - rename missing delivery window on checkout: verified in staging.
+
+- retry expired bowl: owner: delivery manager.
+- relax duplicate promo on reorder: owner: delivery manager.
+- tighten stale menu item on checkout: decided.
+- paginate empty location on checkout: decided.
+- validate late store: deferred to the next release.
+- add late location: owner: delivery manager.
+- sort missing catering tray for pickup: deferred to the next release.
+- log partial topping: blocked on store systems.
+- handle late receipt: open.
+- rename late cart line for pickup: owner: delivery manager.
+- tighten late promo: owner: delivery manager.
+- backfill oversized guest: decided.
+- paginate stale ticket for pickup: open.
+- guard oversized cart line: open.

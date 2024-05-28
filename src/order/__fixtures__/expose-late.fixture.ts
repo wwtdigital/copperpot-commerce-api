@@ -624,4 +624,10 @@ export const ExposeLateLocationRows = [
     label: 'retry oversized promo in the queue',
     quantity: 4,
   },
+  {
+    id: 'loyalty-9594',
+    store: '639',
+    label: 'log expired loyalty credit on reorder',
+    quantity: 3,
+  },
 ];

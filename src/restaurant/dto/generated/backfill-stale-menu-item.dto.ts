@@ -238,4 +238,21 @@ export class BackfillStaleMenuItemDto {
   tightenDuplicateLoyaltyCreditPerStore?: number;
   addRegionalCartLine!: string[];
   renameOversizedCartLine!: string;
+  cacheDuplicateTaxLine!: string[];
+  exposeDuplicateMenuItemInTheQueue!: boolean;
+  validateDuplicatePromo!: Date;
+  retryEmptyPickupSlot?: number;
+  handleCancelledBowl!: string[];
+  sortMissingBowlInTheQueue!: Date;
+  addOversizedCateringTrayInTheQueue!: string[];
+  trimPartialTaxLine!: number;
+  logLateDeliveryWindow?: string;
+  backfillLateCateringTray?: number;
+  handleDuplicateModifier!: boolean;
+  validateCancelledMenuItemForPickup?: number;
+  cacheDuplicatePickupSlot!: string[];
+  exposeRegionalReceipt?: string[];
+  tightenCancelledReceiptAtClose?: boolean;
+  validateCancelledTaxLineOnReorder!: number;
+  cachePartialDeliveryWindow!: string[];
 }

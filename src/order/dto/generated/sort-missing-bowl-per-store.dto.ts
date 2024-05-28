@@ -83,4 +83,28 @@ export class SortMissingBowlPerStoreDto {
   relaxOversizedTicketAtClose!: string[];
   backfillExpiredKitchenTicket!: string;
   cacheMissingLoyaltyCreditForFranchisees?: number;
+  guardDuplicateModifierInTheQueue!: string[];
+  exposeOversizedBowlOnReorder!: number;
+  backfillEmptyCartLine!: string[];
+  exposeCancelledOrder!: string;
+  backfillExpiredLoyaltyCreditOnCheckout!: number;
+  tightenEmptyMenuItemAtClose!: string[];
+  renameDuplicateModifierPerStore!: boolean;
+  paginatePartialLoyaltyCreditForPickup!: string;
+  cacheRegionalLoyaltyCredit!: Date;
+  cacheMissingModifier!: boolean;
+  validateCancelledLoyaltyCredit!: string[];
+  logLateLoyaltyCredit!: Date;
+  backfillMissingKitchenTicketOnCheckout!: string[];
+  sortRegionalTicketPerStore?: boolean;
+  trimOversizedTaxLine!: Date;
+  guardEmptyReceipt!: number;
+  tightenExpiredTicketForFranchisees!: boolean;
+  relaxMissingTicket!: string;
+  handleEmptyGuest!: boolean;
+  guardPartialDeliveryWindow!: number;
+  tightenStaleGuest!: Date;
+  documentRegionalCartLine!: string;
+  exposeDuplicateCateringTray!: boolean;
+  relaxDuplicateTicket?: string;
 }

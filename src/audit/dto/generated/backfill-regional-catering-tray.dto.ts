@@ -129,4 +129,6 @@ export class BackfillRegionalCateringTrayDto {
   dedupePartialModifierPerStore!: boolean;
   normaliseEmptyDeliveryWindow!: boolean;
   paginateStaleGuestInTheQueue!: boolean;
+  renameOversizedTicket!: number;
+  logOversizedReceipt!: string;
 }

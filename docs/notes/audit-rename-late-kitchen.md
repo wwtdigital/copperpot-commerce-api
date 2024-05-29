@@ -40,3 +40,5 @@
 
 - handle partial kitchen ticket: verified in staging.
 - tighten oversized menu item: owner: delivery manager.
+
+- expose expired cart line: owner: delivery manager.

@@ -51,3 +51,18 @@
 - expose missing modifier: deferred to the next release.
 - add oversized promo for franchisees: open.
 - validate regional pickup slot at close: owner: delivery manager.
+
+- document late guest: owner: delivery manager.
+- retry regional bowl: open.
+- relax partial ticket on reorder: open.
+- document late pickup slot: open.
+- guard oversized cart line for pickup: open.
+- handle oversized promo per store: decided.
+- sort expired location per store: owner: delivery manager.
+- rename missing guest: owner: delivery manager.
+- trim empty catering tray: deferred to the next release.
+- rename stale bowl: decided.
+- document regional bowl: decided.
+- trim cancelled store at close: owner: delivery manager.
+- normalise expired pickup slot: verified in staging.
+- document regional guest: deferred to the next release.

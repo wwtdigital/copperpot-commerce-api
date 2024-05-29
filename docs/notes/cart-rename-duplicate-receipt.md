@@ -59,3 +59,8 @@
 - relax partial store: verified in staging.
 - rename late receipt: verified in staging.
 - cache expired promo: open.
+
+- cache stale receipt in the queue: open.
+- validate stale topping: blocked on store systems.
+- log partial store: open.
+- rename duplicate promo: deferred to the next release.

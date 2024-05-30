@@ -420,4 +420,46 @@ export const RenameMissingModifierRows = [
     label: 'document partial store at close',
     quantity: 12,
   },
+  {
+    id: 'audit-1869',
+    store: '134',
+    label: 'relax expired bowl',
+    quantity: 9,
+  },
+  {
+    id: 'audit-9559',
+    store: '547',
+    label: 'handle empty topping',
+    quantity: 7,
+  },
+  {
+    id: 'audit-1607',
+    store: '222',
+    label: 'cache oversized guest',
+    quantity: 7,
+  },
+  {
+    id: 'audit-7725',
+    store: '559',
+    label: 'document oversized location on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'audit-8895',
+    store: '121',
+    label: 'retry cancelled ticket for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'audit-5321',
+    store: '224',
+    label: 'paginate cancelled modifier',
+    quantity: 1,
+  },
+  {
+    id: 'audit-3832',
+    store: '226',
+    label: 'log duplicate topping',
+    quantity: 3,
+  },
 ];

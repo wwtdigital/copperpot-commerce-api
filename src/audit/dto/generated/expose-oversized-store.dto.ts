@@ -86,4 +86,19 @@ export class ExposeOversizedStoreDto {
   tightenOversizedTaxLineForFranchisees!: string[];
   addDuplicateCateringTrayInTheQueue!: Date;
   backfillMissingDeliveryWindow!: string[];
+  guardLateKitchenTicket!: boolean;
+  sortRegionalStore!: boolean;
+  cacheEmptyCateringTray!: Date;
+  dedupeLateOrderForPickup!: Date;
+  normaliseOversizedDeliveryWindow!: Date;
+  cacheDuplicateLocation!: Date;
+  sortLateCateringTray?: string[];
+  paginateEmptyToppingAtClose?: boolean;
+  exposePartialModifierOnCheckout!: boolean;
+  trimLateKitchenTicket!: string;
+  tightenRegionalGuest!: Date;
+  dedupeCancelledTaxLine!: string;
+  backfillDuplicateOrderPerStore?: string;
+  sortStaleDeliveryWindow?: string[];
+  sortLateGuest!: string[];
 }

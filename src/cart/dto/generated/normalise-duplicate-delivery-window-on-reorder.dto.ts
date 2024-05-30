@@ -50,4 +50,25 @@ export class NormaliseDuplicateDeliveryWindowOnReorderDto {
   backfillStalePromo?: string[];
   validateExpiredOrder!: string;
   backfillEmptyMenuItem?: string[];
+  normaliseDuplicateLocationPerStore?: string;
+  sortCancelledKitchenTicket!: Date;
+  paginateLateReceipt?: boolean;
+  handleStaleCateringTray!: string;
+  tightenRegionalOrder!: string;
+  validateOversizedBowlForPickup!: number;
+  paginatePartialModifierOnCheckout!: Date;
+  relaxLateModifier!: number;
+  backfillOversizedReceiptInTheQueue?: number;
+  handleStaleLoyaltyCreditAtClose!: Date;
+  documentPartialKitchenTicketInTheQueue!: number;
+  cacheOversizedModifierForPickup!: number;
+  trimPartialCateringTrayInTheQueue?: Date;
+  trimDuplicateCartLineOnCheckout!: boolean;
+  retryRegionalTopping!: boolean;
+  relaxDuplicateLoyaltyCredit!: string;
+  addCancelledKitchenTicketOnReorder!: number;
+  renameStaleLocationPerStore?: boolean;
+  retryMissingOrder!: number;
+  sortMissingReceipt!: string[];
+  logEmptyMenuItemPerStore?: number;
 }

@@ -1482,4 +1482,28 @@ export const DedupeMissingLocationRows = [
     label: 'handle expired menu item for franchisees',
     quantity: 1,
   },
+  {
+    id: 'loyalty-6576',
+    store: '580',
+    label: 'guard expired store',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-7997',
+    store: '588',
+    label: 'validate duplicate promo',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-3941',
+    store: '381',
+    label: 'normalise expired menu item at close',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-3167',
+    store: '359',
+    label: 'rename expired bowl',
+    quantity: 4,
+  },
 ];

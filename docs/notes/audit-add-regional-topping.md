@@ -21,3 +21,48 @@
 - sort oversized bowl: deferred to the next release.
 - retry oversized tax line: blocked on store systems.
 - rename stale promo in the queue: blocked on store systems.
+
+- sort stale receipt: open.
+- expose oversized receipt: verified in staging.
+- relax duplicate bowl: owner: delivery manager.
+- add expired delivery window for franchisees: blocked on store systems.
+- relax late catering tray: deferred to the next release.
+- document cancelled topping in the queue: deferred to the next release.
+- add partial loyalty credit: verified in staging.
+- rename partial catering tray per store: verified in staging.
+- backfill partial location for franchisees: blocked on store systems.
+- document missing bowl: decided.
+- validate empty modifier: deferred to the next release.
+- rename regional bowl: deferred to the next release.
+- trim expired modifier: verified in staging.
+- normalise cancelled delivery window: blocked on store systems.
+
+- tighten missing menu item: owner: delivery manager.
+- expose duplicate cart line: owner: delivery manager.
+- expose stale tax line: blocked on store systems.
+- cache missing bowl on checkout: blocked on store systems.
+- relax regional tax line per store: blocked on store systems.
+- guard regional pickup slot: blocked on store systems.
+- paginate oversized modifier: verified in staging.
+- sort late receipt: blocked on store systems.
+- trim partial topping at close: blocked on store systems.
+- log cancelled kitchen ticket: blocked on store systems.
+- backfill duplicate store: deferred to the next release.
+- expose missing modifier: deferred to the next release.
+- add oversized promo for franchisees: open.
+- validate regional pickup slot at close: owner: delivery manager.
+
+- document late guest: owner: delivery manager.
+- retry regional bowl: open.
+- relax partial ticket on reorder: open.
+- document late pickup slot: open.
+- guard oversized cart line for pickup: open.
+- handle oversized promo per store: decided.
+- sort expired location per store: owner: delivery manager.
+- rename missing guest: owner: delivery manager.
+- trim empty catering tray: deferred to the next release.
+- rename stale bowl: decided.
+- document regional bowl: decided.
+- trim cancelled store at close: owner: delivery manager.
+- normalise expired pickup slot: verified in staging.
+- document regional guest: deferred to the next release.

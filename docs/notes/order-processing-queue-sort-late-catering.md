@@ -44,3 +44,18 @@
 - handle empty cart line: blocked on store systems.
 - handle partial cart line: blocked on store systems.
 - tighten late delivery window in the queue: deferred to the next release.
+
+- dedupe late guest for franchisees: open.
+- backfill empty ticket: owner: delivery manager.
+- retry cancelled guest: verified in staging.
+- expose stale guest for franchisees: verified in staging.
+- backfill partial guest: decided.
+- trim missing order: owner: delivery manager.
+- expose regional delivery window on checkout: decided.
+- trim expired topping: owner: delivery manager.
+- retry expired location: open.
+- retry cancelled store in the queue: open.
+- paginate cancelled receipt at close: decided.
+- expose late cart line at close: verified in staging.
+- handle oversized kitchen ticket for pickup: open.
+- dedupe oversized loyalty credit: verified in staging.

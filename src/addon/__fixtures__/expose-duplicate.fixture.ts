@@ -306,4 +306,16 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'dedupe regional bowl',
     quantity: 5,
   },
+  {
+    id: 'addon-6125',
+    store: '628',
+    label: 'sort empty kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'addon-2221',
+    store: '316',
+    label: 'trim late tax line at close',
+    quantity: 2,
+  },
 ];

@@ -840,4 +840,10 @@ export const RelaxExpiredReceiptRows = [
     label: 'log missing kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'addon-7311',
+    store: '629',
+    label: 'add missing store in the queue',
+    quantity: 10,
+  },
 ];

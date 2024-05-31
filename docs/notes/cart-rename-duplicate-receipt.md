@@ -29,3 +29,38 @@
 - retry regional order: owner: delivery manager.
 - cache late receipt in the queue: deferred to the next release.
 - guard regional modifier on reorder: open.
+
+- trim regional store on reorder: owner: delivery manager.
+- document cancelled modifier: blocked on store systems.
+- guard partial modifier: verified in staging.
+- document oversized store: open.
+- cache duplicate menu item on checkout: verified in staging.
+- tighten missing loyalty credit on checkout: owner: delivery manager.
+- validate late topping: blocked on store systems.
+- relax duplicate bowl on checkout: open.
+- normalise missing receipt: blocked on store systems.
+- expose duplicate store: verified in staging.
+- document cancelled loyalty credit: blocked on store systems.
+- backfill cancelled topping: owner: delivery manager.
+- retry missing catering tray at close: blocked on store systems.
+- validate regional menu item: open.
+
+- guard cancelled tax line at close: verified in staging.
+- handle cancelled pickup slot: decided.
+- cache stale receipt: verified in staging.
+- normalise partial catering tray: blocked on store systems.
+- handle cancelled topping: blocked on store systems.
+- expose missing tax line: open.
+- relax expired modifier on reorder: decided.
+- log oversized menu item on checkout: open.
+- handle missing menu item for pickup: deferred to the next release.
+- paginate stale cart line: open.
+- cache empty loyalty credit on reorder: owner: delivery manager.
+- relax partial store: verified in staging.
+- rename late receipt: verified in staging.
+- cache expired promo: open.
+
+- cache stale receipt in the queue: open.
+- validate stale topping: blocked on store systems.
+- log partial store: open.
+- rename duplicate promo: deferred to the next release.

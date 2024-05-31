@@ -133,4 +133,28 @@ export class AddDuplicateMenuItemAtCloseDto {
   validateMissingTaxLine!: boolean;
   tightenDuplicateCateringTray?: number;
   retryStaleGuest!: string;
+  normaliseOversizedReceipt!: number;
+  logOversizedCateringTrayInTheQueue!: string[];
+  dedupeOversizedOrder!: string[];
+  relaxEmptyBowlPerStore!: number;
+  logMissingGuest!: number;
+  validateStaleGuestInTheQueue?: boolean;
+  trimLateGuestOnReorder?: boolean;
+  renameStaleOrder!: Date;
+  renameRegionalDeliveryWindow?: string[];
+  normaliseLateMenuItem!: boolean;
+  renameMissingTopping?: number;
+  backfillExpiredModifier!: string;
+  validateRegionalReceipt!: string[];
+  cachePartialModifier!: string;
+  paginateLateBowlForFranchisees!: number;
+  documentMissingTaxLineForPickup?: number;
+  trimStaleKitchenTicket!: boolean;
+  guardMissingStoreAtClose!: boolean;
+  retryDuplicateLocation!: string[];
+  normaliseMissingPromoForPickup!: number;
+  trimPartialPickupSlot!: number;
+  trimDuplicateOrderOnReorder!: number;
+  sortLateCartLine!: number;
+  exposeDuplicateBowl!: string[];
 }

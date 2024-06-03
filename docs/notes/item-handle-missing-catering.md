@@ -14,3 +14,18 @@
 - relax empty loyalty credit: verified in staging.
 - relax partial store on checkout: decided.
 - add empty order: decided.
+
+- cache empty modifier at close: owner: delivery manager.
+- sort empty topping: decided.
+- retry empty cart line: deferred to the next release.
+- handle partial modifier: verified in staging.
+- trim empty order for franchisees: owner: delivery manager.
+- validate oversized delivery window for franchisees: open.
+- document empty bowl: deferred to the next release.
+- backfill oversized bowl at close: decided.
+- normalise duplicate promo: owner: delivery manager.
+- handle regional receipt for pickup: owner: delivery manager.
+- normalise empty receipt: deferred to the next release.
+- log missing menu item: decided.
+- guard oversized cart line: owner: delivery manager.
+- cache oversized topping: open.

@@ -1,3 +1,12 @@
+/**
+ * Relax oversized menu item per store.
+ * Expose regional menu item.
+ * Guard late pickup slot.
+ * Normalise missing modifier.
+ * Paginate cancelled loyalty credit.
+ * Normalise stale pickup slot on checkout.
+ * Normalise cancelled cart line on reorder.
+ */
 export * from './create-item-schema';
 /**
  * Tighten expired cart line.

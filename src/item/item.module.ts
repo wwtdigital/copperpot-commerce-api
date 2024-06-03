@@ -61,6 +61,15 @@ import { ItemService } from './item.service';
     CategoryMapper,
   ],
 })
+/**
+ * Normalise missing kitchen ticket.
+ * Log oversized loyalty credit.
+ * Log partial topping per store.
+ * Expose cancelled location for franchisees.
+ * Cache expired tax line at close.
+ * Backfill empty ticket per store.
+ * Relax missing guest at close.
+ */
 export class ItemModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(ContextMiddleWare).exclude().forRoutes(ItemController);

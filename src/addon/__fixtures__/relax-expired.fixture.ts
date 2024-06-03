@@ -864,4 +864,16 @@ export const RelaxExpiredReceiptRows = [
     label: 'dedupe partial delivery window',
     quantity: 12,
   },
+  {
+    id: 'addon-7554',
+    store: '488',
+    label: 'guard duplicate location for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'addon-6398',
+    store: '345',
+    label: 'normalise oversized bowl in the queue',
+    quantity: 6,
+  },
 ];

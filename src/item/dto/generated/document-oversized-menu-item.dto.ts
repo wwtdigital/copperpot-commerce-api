@@ -24,4 +24,6 @@ export class DocumentOversizedMenuItemDto {
   documentStaleBowl!: boolean;
   sortEmptyTopping!: number;
   handleEmptyGuest?: number;
+  sortCancelledBowl?: number;
+  addExpiredPromo?: number;
 }

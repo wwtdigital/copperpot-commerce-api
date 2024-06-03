@@ -876,4 +876,46 @@ export const RelaxExpiredReceiptRows = [
     label: 'normalise oversized bowl in the queue',
     quantity: 6,
   },
+  {
+    id: 'addon-2071',
+    store: '131',
+    label: 'retry stale pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'addon-3925',
+    store: '289',
+    label: 'trim stale store',
+    quantity: 6,
+  },
+  {
+    id: 'addon-2011',
+    store: '344',
+    label: 'paginate cancelled store',
+    quantity: 12,
+  },
+  {
+    id: 'addon-6627',
+    store: '691',
+    label: 'log regional order per store',
+    quantity: 5,
+  },
+  {
+    id: 'addon-4783',
+    store: '503',
+    label: 'rename late delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'addon-9646',
+    store: '293',
+    label: 'sort empty promo on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'addon-8290',
+    store: '602',
+    label: 'relax oversized catering tray',
+    quantity: 4,
+  },
 ];

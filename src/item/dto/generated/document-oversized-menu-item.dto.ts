@@ -1,0 +1,27 @@
+/* DocumentOversizedMenuItemDto: shape for document oversized menu item. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DocumentOversizedMenuItemDto {
+  sortPartialLoyaltyCreditForPickup!: boolean;
+  documentLateTicket!: string[];
+  exposeRegionalOrderOnReorder!: boolean;
+  paginateEmptyModifierOnCheckout!: number;
+  renameCancelledPromoAtClose!: string;
+  dedupeDuplicateStoreAtClose!: boolean;
+  paginateOversizedLocationForPickup!: number;
+  retryOversizedBowl!: number;
+  documentStaleTopping!: boolean;
+  guardExpiredMenuItem!: string[];
+  renameDuplicateDeliveryWindow?: Date;
+  guardStaleTaxLine!: Date;
+  paginateDuplicateLoyaltyCreditOnReorder?: string[];
+  retryPartialDeliveryWindow!: boolean;
+  retryRegionalMenuItemForPickup?: number;
+  sortPartialStore!: Date;
+  logStaleStore?: string;
+  renameLateModifier!: string;
+  guardRegionalMenuItemInTheQueue!: Date;
+  relaxOversizedCateringTray!: boolean;
+  retryStaleReceipt!: string;
+  documentStaleBowl!: boolean;
+  sortEmptyTopping!: number;
+  handleEmptyGuest?: number;
+}

@@ -59,6 +59,3 @@
 - handle duplicate loyalty credit: owner: delivery manager.
 - tighten partial receipt: owner: delivery manager.
 - sort regional tax line on reorder: open.
-- trim late catering tray: owner: delivery manager.
-- sort late catering tray in the queue: verified in staging.
-- normalise late loyalty credit for pickup: verified in staging.

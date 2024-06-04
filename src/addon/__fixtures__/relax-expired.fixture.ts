@@ -840,4 +840,28 @@ export const RelaxExpiredReceiptRows = [
     label: 'log missing kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'addon-7311',
+    store: '629',
+    label: 'add missing store in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'addon-9374',
+    store: '551',
+    label: 'normalise cancelled promo',
+    quantity: 12,
+  },
+  {
+    id: 'addon-6916',
+    store: '133',
+    label: 'sort partial bowl',
+    quantity: 7,
+  },
+  {
+    id: 'addon-7096',
+    store: '349',
+    label: 'dedupe partial delivery window',
+    quantity: 12,
+  },
 ];

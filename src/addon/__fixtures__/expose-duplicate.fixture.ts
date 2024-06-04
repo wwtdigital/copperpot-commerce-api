@@ -294,4 +294,28 @@ export const ExposeDuplicateLoyaltyCreditRows = [
     label: 'paginate missing order',
     quantity: 4,
   },
+  {
+    id: 'addon-7579',
+    store: '218',
+    label: 'dedupe late topping in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'addon-8779',
+    store: '490',
+    label: 'dedupe regional bowl',
+    quantity: 5,
+  },
+  {
+    id: 'addon-6125',
+    store: '628',
+    label: 'sort empty kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'addon-2221',
+    store: '316',
+    label: 'trim late tax line at close',
+    quantity: 2,
+  },
 ];

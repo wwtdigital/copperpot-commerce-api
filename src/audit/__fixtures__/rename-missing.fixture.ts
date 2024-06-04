@@ -462,4 +462,10 @@ export const RenameMissingModifierRows = [
     label: 'log duplicate topping',
     quantity: 3,
   },
+  {
+    id: 'audit-1734',
+    store: '157',
+    label: 'paginate late loyalty credit',
+    quantity: 11,
+  },
 ];

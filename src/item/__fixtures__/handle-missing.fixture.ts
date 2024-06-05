@@ -66,4 +66,22 @@ export const HandleMissingLocationRows = [
     label: 'cache missing topping',
     quantity: 12,
   },
+  {
+    id: 'item-2458',
+    store: '473',
+    label: 'validate partial order',
+    quantity: 2,
+  },
+  {
+    id: 'item-1146',
+    store: '361',
+    label: 'retry duplicate store',
+    quantity: 11,
+  },
+  {
+    id: 'item-1270',
+    store: '493',
+    label: 'rename oversized topping on checkout',
+    quantity: 3,
+  },
 ];

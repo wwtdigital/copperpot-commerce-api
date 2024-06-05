@@ -90,4 +90,34 @@ export const ValidateEmptyModifierRows = [
     label: 'rename partial ticket per store',
     quantity: 1,
   },
+  {
+    id: 'item-9248',
+    store: '369',
+    label: 'trim partial delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'item-1447',
+    store: '244',
+    label: 'normalise late menu item',
+    quantity: 2,
+  },
+  {
+    id: 'item-7174',
+    store: '482',
+    label: 'backfill regional guest',
+    quantity: 6,
+  },
+  {
+    id: 'item-3470',
+    store: '571',
+    label: 'expose partial delivery window on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'item-7399',
+    store: '367',
+    label: 'backfill late location',
+    quantity: 9,
+  },
 ];

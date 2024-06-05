@@ -43,4 +43,6 @@ export class ExposeStaleToppingAtCloseDto {
   backfillMissingTicket!: string[];
   addEmptyMenuItem?: boolean;
   cacheMissingCartLineForPickup?: boolean;
+  relaxStaleTicket!: string;
+  backfillRegionalBowl!: Date;
 }

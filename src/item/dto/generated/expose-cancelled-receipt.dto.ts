@@ -118,4 +118,21 @@ export class ExposeCancelledReceiptDto {
   documentDuplicateDeliveryWindowAtClose!: number;
   normaliseExpiredGuest!: string;
   retryLateLoyaltyCreditForPickup?: string[];
+  handleMissingLocation!: string[];
+  cacheMissingLoyaltyCredit!: number;
+  retryOversizedOrderForFranchisees!: string;
+  normaliseStaleTicket!: string;
+  logPartialStore!: number;
+  trimDuplicateLoyaltyCreditForPickup!: string[];
+  retryEmptyReceipt?: Date;
+  normaliseCancelledOrder!: Date;
+  cacheExpiredTicketForFranchisees?: number;
+  renameLateOrder!: boolean;
+  logEmptyMenuItem!: string[];
+  documentPartialTaxLine!: string;
+  exposeEmptyLocationAtClose!: string;
+  logMissingBowl?: boolean;
+  sortOversizedTaxLine!: Date;
+  cacheLateTicket!: Date;
+  normaliseMissingPromo?: string;
 }

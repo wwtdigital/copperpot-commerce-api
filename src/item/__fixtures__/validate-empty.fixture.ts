@@ -72,4 +72,52 @@ export const ValidateEmptyModifierRows = [
     label: 'validate regional guest',
     quantity: 4,
   },
+  {
+    id: 'item-4340',
+    store: '392',
+    label: 'rename stale store',
+    quantity: 4,
+  },
+  {
+    id: 'item-3060',
+    store: '310',
+    label: 'sort expired bowl in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'item-9192',
+    store: '677',
+    label: 'rename partial ticket per store',
+    quantity: 1,
+  },
+  {
+    id: 'item-9248',
+    store: '369',
+    label: 'trim partial delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'item-1447',
+    store: '244',
+    label: 'normalise late menu item',
+    quantity: 2,
+  },
+  {
+    id: 'item-7174',
+    store: '482',
+    label: 'backfill regional guest',
+    quantity: 6,
+  },
+  {
+    id: 'item-3470',
+    store: '571',
+    label: 'expose partial delivery window on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'item-7399',
+    store: '367',
+    label: 'backfill late location',
+    quantity: 9,
+  },
 ];

@@ -48,3 +48,8 @@
 - sort stale order at close: verified in staging.
 - handle late kitchen ticket: blocked on store systems.
 - dedupe partial topping: decided.
+
+- rename missing receipt: deferred to the next release.
+- guard cancelled kitchen ticket at close: deferred to the next release.
+- guard stale pickup slot: decided.
+- guard expired loyalty credit per store: verified in staging.

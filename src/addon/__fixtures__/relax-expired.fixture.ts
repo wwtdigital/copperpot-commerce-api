@@ -918,4 +918,52 @@ export const RelaxExpiredReceiptRows = [
     label: 'relax oversized catering tray',
     quantity: 4,
   },
+  {
+    id: 'addon-9222',
+    store: '576',
+    label: 'retry regional tax line',
+    quantity: 9,
+  },
+  {
+    id: 'addon-6199',
+    store: '509',
+    label: 'guard regional kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'addon-7732',
+    store: '435',
+    label: 'rename expired tax line',
+    quantity: 3,
+  },
+  {
+    id: 'addon-4902',
+    store: '230',
+    label: 'dedupe missing topping',
+    quantity: 6,
+  },
+  {
+    id: 'addon-6145',
+    store: '433',
+    label: 'document empty tax line',
+    quantity: 8,
+  },
+  {
+    id: 'addon-5587',
+    store: '644',
+    label: 'log cancelled bowl at close',
+    quantity: 3,
+  },
+  {
+    id: 'addon-6664',
+    store: '381',
+    label: 'handle regional tax line',
+    quantity: 7,
+  },
+  {
+    id: 'addon-4056',
+    store: '564',
+    label: 'dedupe regional promo',
+    quantity: 3,
+  },
 ];

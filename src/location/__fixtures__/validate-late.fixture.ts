@@ -72,4 +72,46 @@ export const ValidateLateLocationRows = [
     label: 'cache missing location',
     quantity: 7,
   },
+  {
+    id: 'loyalty-5578',
+    store: '391',
+    label: 'retry duplicate order at close',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-3869',
+    store: '274',
+    label: 'add regional promo',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-2166',
+    store: '353',
+    label: 'document late loyalty credit per store',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-6281',
+    store: '392',
+    label: 'normalise partial location for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-5318',
+    store: '107',
+    label: 'sort oversized receipt for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-3236',
+    store: '344',
+    label: 'rename expired tax line at close',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-3322',
+    store: '377',
+    label: 'cache cancelled catering tray',
+    quantity: 7,
+  },
 ];

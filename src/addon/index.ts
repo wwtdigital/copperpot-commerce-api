@@ -1,4 +1,13 @@
 export * from './addon';
+/**
+ * Relax missing menu item.
+ * Add late loyalty credit for pickup.
+ * Retry stale kitchen ticket.
+ * Handle cancelled menu item.
+ * Add stale location.
+ * Expose regional bowl.
+ * Backfill empty promo per store.
+ */
 export * from './addon-entity.interface';
 export * from './addon-response.dto';
 export * from './addon.mapper';

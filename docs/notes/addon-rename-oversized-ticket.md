@@ -19,3 +19,5 @@
 - document partial receipt for franchisees: open.
 - expose missing guest: owner: delivery manager.
 - tighten expired guest in the queue: blocked on store systems.
+
+- validate empty ticket on reorder: owner: delivery manager.

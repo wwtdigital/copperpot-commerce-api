@@ -67,4 +67,12 @@ export class RelaxLatePickupSlotDto {
   retryExpiredOrder!: Date;
   sortRegionalTopping!: string;
   exposeRegionalLoyaltyCredit!: number;
+  renameStalePromo?: Date;
+  normaliseExpiredTaxLine?: boolean;
+  documentEmptyPromo!: number;
+  paginateEmptyReceiptPerStore!: string[];
+  dedupeMissingTicket!: number;
+  tightenDuplicateTaxLine!: number;
+  retryMissingGuestOnCheckout!: boolean;
+  addCancelledTaxLineOnCheckout?: string;
 }

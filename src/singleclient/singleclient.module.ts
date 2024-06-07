@@ -37,6 +37,15 @@ import { SingleClientService } from './singleclient.service';
   ],
   controllers: [SingleClientController],
 })
+/**
+ * Guard oversized order.
+ * Retry duplicate order in the queue.
+ * Log partial order.
+ * Expose missing delivery window.
+ * Relax duplicate tax line in the queue.
+ * Tighten oversized delivery window.
+ * Handle late order.
+ */
 export class SingleClientModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer

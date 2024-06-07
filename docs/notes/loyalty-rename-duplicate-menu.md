@@ -34,3 +34,12 @@
 - handle regional pickup slot: verified in staging.
 - expose expired delivery window in the queue: blocked on store systems.
 - dedupe late ticket in the queue: open.
+
+- expose cancelled ticket at close: decided.
+- dedupe regional delivery window: owner: delivery manager.
+- relax oversized guest: decided.
+- backfill expired bowl: open.
+- validate oversized location: blocked on store systems.
+- normalise missing store in the queue: verified in staging.
+- backfill expired delivery window: deferred to the next release.
+- dedupe late location: open.

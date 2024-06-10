@@ -34,3 +34,18 @@
 - relax oversized loyalty credit: owner: delivery manager.
 - retry late location on checkout: open.
 - retry cancelled pickup slot: blocked on store systems.
+
+- add partial loyalty credit on reorder: blocked on store systems.
+- sort expired bowl: deferred to the next release.
+- guard duplicate loyalty credit: deferred to the next release.
+- normalise expired cart line on checkout: owner: delivery manager.
+- cache duplicate kitchen ticket: open.
+- add regional kitchen ticket: verified in staging.
+- handle partial store in the queue: decided.
+- cache expired store on reorder: blocked on store systems.
+- cache oversized delivery window: owner: delivery manager.
+- handle cancelled store per store: blocked on store systems.
+- guard cancelled topping on checkout: owner: delivery manager.
+- tighten expired cart line: blocked on store systems.
+- cache late topping on checkout: open.
+- paginate stale pickup slot: open.

@@ -648,4 +648,10 @@ export const CacheDuplicateBowlRows = [
     label: 'document expired store in the queue',
     quantity: 7,
   },
+  {
+    id: 'location-8536',
+    store: '440',
+    label: 'paginate oversized order at close',
+    quantity: 4,
+  },
 ];

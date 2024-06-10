@@ -150,4 +150,6 @@ export class RenameCancelledModifierForFranchiseesDto {
   trimMissingStore!: Date;
   documentMissingReceipt!: Date;
   documentMissingPickupSlot!: string[];
+  trimEmptyStoreForFranchisees!: string[];
+  trimMissingLoyaltyCredit?: number;
 }

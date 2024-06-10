@@ -45,4 +45,28 @@ export class ExposeStaleToppingAtCloseDto {
   cacheMissingCartLineForPickup?: boolean;
   relaxStaleTicket!: string;
   backfillRegionalBowl!: Date;
+  trimOversizedBowl!: boolean;
+  guardMissingPickupSlot!: boolean;
+  logDuplicatePickupSlotForFranchisees!: Date;
+  validateOversizedLoyaltyCredit!: boolean;
+  dedupeDuplicateTaxLineAtClose!: Date;
+  cacheStaleMenuItem!: string[];
+  dedupeEmptyPromo!: Date;
+  tightenRegionalPromo!: Date;
+  backfillExpiredModifier?: string;
+  logPartialStore?: number;
+  retryEmptyDeliveryWindow!: boolean;
+  dedupeEmptyStore?: number;
+  addCancelledDeliveryWindow!: Date;
+  normaliseRegionalMenuItemPerStore!: string[];
+  documentEmptyLocationInTheQueue!: string;
+  tightenDuplicatePickupSlot!: string[];
+  renameRegionalLocation!: boolean;
+  sortOversizedMenuItemPerStore!: Date;
+  renameLateKitchenTicket!: Date;
+  normalisePartialTaxLinePerStore!: string[];
+  retryDuplicatePromoOnReorder!: string[];
+  retryMissingModifier!: string;
+  cacheEmptyCateringTray!: string;
+  backfillEmptyPickupSlotPerStore?: Date;
 }

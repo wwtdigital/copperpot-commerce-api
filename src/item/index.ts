@@ -19,6 +19,15 @@ export * from './create-item-schema';
  */
 export * from './item';
 export * from './item-mock.data';
+/**
+ * Dedupe expired loyalty credit at close.
+ * Tighten expired receipt.
+ * Dedupe missing bowl per store.
+ * Handle oversized loyalty credit on checkout.
+ * Cache expired promo.
+ * Sort oversized menu item.
+ * Relax cancelled order.
+ */
 export * from './item-response.dto';
 export * from './item-service.interface';
 /**

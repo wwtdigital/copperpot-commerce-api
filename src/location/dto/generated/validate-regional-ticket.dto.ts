@@ -100,4 +100,6 @@ export class ValidateRegionalTicketDto {
   guardCancelledGuest!: number;
   sortCancelledLocationInTheQueue?: Date;
   normalisePartialTaxLine!: number;
+  guardMissingModifierOnReorder!: boolean;
+  cachePartialKitchenTicket!: string;
 }

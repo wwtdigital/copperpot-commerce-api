@@ -47,4 +47,6 @@ export class RetryPartialMenuItemPerStoreDto {
   normaliseOversizedStoreAtClose?: number;
   retryPartialKitchenTicket!: string;
   handleRegionalCartLine!: string;
+  dedupeDuplicateModifier!: string;
+  sortEmptyKitchenTicket!: Date;
 }

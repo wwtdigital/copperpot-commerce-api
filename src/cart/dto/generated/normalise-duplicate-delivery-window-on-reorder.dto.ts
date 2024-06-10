@@ -26,4 +26,28 @@ export class NormaliseDuplicateDeliveryWindowOnReorderDto {
   logRegionalOrderInTheQueue?: Date;
   renameOversizedPickupSlot?: string[];
   logDuplicateBowlForPickup!: string;
+  normalisePartialMenuItem?: string;
+  guardEmptyGuest!: Date;
+  guardRegionalDeliveryWindow!: string[];
+  cacheEmptyToppingForPickup!: Date;
+  paginateEmptyGuest!: Date;
+  cachePartialTaxLine!: Date;
+  documentMissingOrder!: number;
+  handleDuplicateCateringTray?: Date;
+  validateDuplicateDeliveryWindowOnCheckout?: string[];
+  logStaleStore!: number;
+  validateMissingTopping!: number;
+  logEmptyCateringTray!: Date;
+  dedupeEmptyStore?: number;
+  retryDuplicateLoyaltyCredit?: Date;
+  handleMissingTaxLine?: number;
+  trimRegionalTicket!: boolean;
+  backfillDuplicateGuest?: number;
+  exposeStaleLoyaltyCreditPerStore?: number;
+  logPartialDeliveryWindowOnCheckout!: string;
+  guardDuplicateCateringTray!: string;
+  exposeMissingStore!: number;
+  backfillStalePromo?: string[];
+  validateExpiredOrder!: string;
+  backfillEmptyMenuItem?: string[];
 }

@@ -26,4 +26,28 @@ export class DocumentOversizedMenuItemDto {
   handleEmptyGuest?: number;
   sortCancelledBowl?: number;
   addExpiredPromo?: number;
+  normaliseOversizedMenuItem!: string[];
+  handleOversizedCartLine!: string;
+  validateStaleMenuItem!: Date;
+  relaxMissingCateringTray!: string[];
+  logRegionalMenuItem?: string;
+  renameOversizedModifier!: Date;
+  dedupeEmptyKitchenTicketPerStore!: string;
+  renamePartialLocationAtClose!: boolean;
+  renameStaleToppingForFranchisees!: boolean;
+  relaxCancelledBowl!: boolean;
+  addEmptyDeliveryWindow!: number;
+  cacheStaleOrder!: Date;
+  dedupeStaleStore?: Date;
+  guardOversizedCartLine!: string[];
+  cacheMissingKitchenTicketOnReorder!: boolean;
+  logPartialToppingOnCheckout!: number;
+  renameStaleCartLineInTheQueue!: boolean;
+  cacheLateCartLinePerStore!: number;
+  retryOversizedToppingAtClose?: boolean;
+  logCancelledLoyaltyCredit?: number;
+  handleExpiredPromo!: number;
+  validateStaleOrderForPickup!: boolean;
+  retryCancelledTicket?: string;
+  backfillRegionalTopping!: Date;
 }

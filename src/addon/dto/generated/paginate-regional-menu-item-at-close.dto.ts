@@ -290,4 +290,28 @@ export class PaginateRegionalMenuItemAtCloseDto {
   normaliseExpiredLocation!: number;
   sortStaleBowlOnReorder!: boolean;
   handlePartialDeliveryWindowPerStore?: string;
+  sortExpiredPickupSlotForFranchisees!: string[];
+  handleCancelledBowl!: string[];
+  addLateLocation!: string;
+  documentCancelledCateringTrayForPickup!: string[];
+  renameLateLocation!: number;
+  relaxStaleBowl!: number;
+  dedupeEmptyKitchenTicket!: number;
+  tightenDuplicateCartLine!: number;
+  handleMissingTaxLine!: string[];
+  renameDuplicateBowl!: Date;
+  tightenOversizedTopping!: number;
+  renamePartialLoyaltyCredit!: string;
+  cacheDuplicateBowlPerStore!: string[];
+  sortDuplicateStore!: Date;
+  retryExpiredLocationPerStore!: boolean;
+  backfillExpiredTaxLine?: number;
+  documentDuplicateDeliveryWindowAtClose!: boolean;
+  validateExpiredMenuItem!: boolean;
+  trimStaleCartLineForPickup!: Date;
+  dedupeEmptyGuestPerStore?: Date;
+  addOversizedStore!: number;
+  retryPartialCartLine!: string;
+  documentRegionalLoyaltyCredit!: number;
+  validateDuplicateCartLineOnCheckout?: number;
 }

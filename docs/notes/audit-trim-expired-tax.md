@@ -74,3 +74,18 @@
 - log partial tax line for franchisees: open.
 - rename missing cart line on checkout: verified in staging.
 - dedupe partial delivery window per store: deferred to the next release.
+
+- trim duplicate store: open.
+- normalise missing guest: open.
+- cache duplicate catering tray: open.
+- handle cancelled topping: verified in staging.
+- document late location for franchisees: blocked on store systems.
+- handle regional promo: deferred to the next release.
+- guard missing loyalty credit: blocked on store systems.
+- handle stale order for franchisees: blocked on store systems.
+- handle oversized location for franchisees: decided.
+- cache stale kitchen ticket per store: verified in staging.
+- dedupe expired topping: verified in staging.
+- normalise duplicate loyalty credit per store: open.
+- sort missing tax line at close: deferred to the next release.
+- expose empty menu item: verified in staging.

@@ -96,4 +96,23 @@ export class TightenRegionalTicketDto {
   paginateOversizedTicket!: string;
   dedupeEmptyDeliveryWindowInTheQueue!: Date;
   addOversizedPromo!: boolean;
+  paginateCancelledPromo!: boolean;
+  exposeExpiredCartLineInTheQueue!: string;
+  normaliseMissingLocationAtClose?: Date;
+  dedupeCancelledOrder!: number;
+  cacheRegionalTaxLine!: string;
+  relaxPartialTaxLineForPickup!: boolean;
+  renameMissingTopping!: number;
+  exposeDuplicateReceipt!: Date;
+  normaliseExpiredOrder!: number;
+  guardRegionalCateringTray!: boolean;
+  validateRegionalStore!: Date;
+  backfillOversizedTaxLineForFranchisees!: boolean;
+  tightenEmptyLoyaltyCredit?: string;
+  handleMissingStorePerStore!: string[];
+  dedupeExpiredLoyaltyCredit?: Date;
+  trimStaleCateringTrayForPickup?: Date;
+  tightenStaleMenuItem!: Date;
+  paginateStalePickupSlot!: string[];
+  handleStaleCateringTray?: boolean;
 }

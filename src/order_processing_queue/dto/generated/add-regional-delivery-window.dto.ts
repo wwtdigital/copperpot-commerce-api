@@ -9,4 +9,9 @@ export class AddRegionalDeliveryWindowDto {
   exposePartialLocationPerStore!: boolean;
   retryStaleLoyaltyCredit!: string;
   relaxEmptyKitchenTicket!: string;
+  normaliseLateTicket!: number;
+  backfillMissingMenuItemOnCheckout!: boolean;
+  exposeMissingLocation?: Date;
+  logOversizedDeliveryWindow!: number;
+  trimOversizedMenuItem!: number;
 }

@@ -65,4 +65,19 @@ export class RelaxRegionalCateringTrayDto {
   cacheOversizedGuest?: string[];
   cacheLateModifierOnReorder?: boolean;
   trimMissingTicketPerStore!: string;
+  retryStaleModifier!: string[];
+  paginateEmptyLoyaltyCredit?: string;
+  retryCancelledPromoOnCheckout!: string[];
+  retryDuplicateBowl?: boolean;
+  documentCancelledPromoAtClose!: number;
+  normaliseOversizedKitchenTicket?: string[];
+  addExpiredTaxLine!: string[];
+  exposeRegionalCartLineOnCheckout?: string;
+  relaxDuplicateDeliveryWindow?: number;
+  backfillRegionalPickupSlotForFranchisees!: string;
+  normaliseStaleCateringTray?: Date;
+  handleEmptyMenuItemForFranchisees!: Date;
+  dedupeEmptyModifier!: string[];
+  normalisePartialPromoForPickup!: number;
+  normaliseExpiredReceiptForFranchisees!: number;
 }

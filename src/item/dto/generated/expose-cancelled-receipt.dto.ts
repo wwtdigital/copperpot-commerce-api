@@ -135,4 +135,13 @@ export class ExposeCancelledReceiptDto {
   sortOversizedTaxLine!: Date;
   cacheLateTicket!: Date;
   normaliseMissingPromo?: string;
+  renameCancelledKitchenTicket?: string[];
+  logMissingModifier?: string;
+  dedupeRegionalDeliveryWindowOnCheckout!: string;
+  exposeDuplicateReceipt!: boolean;
+  normaliseLateLocationForFranchisees!: number;
+  guardCancelledMenuItem!: boolean;
+  trimDuplicateMenuItemForPickup!: boolean;
+  renameExpiredMenuItem!: string[];
+  sortExpiredReceiptForPickup?: string[];
 }

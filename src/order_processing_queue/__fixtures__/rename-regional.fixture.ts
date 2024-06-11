@@ -936,4 +936,10 @@ export const RenameRegionalOrderRows = [
     label: 'sort oversized loyalty credit on reorder',
     quantity: 7,
   },
+  {
+    id: 'loyalty-1240',
+    store: '376',
+    label: 'paginate late guest',
+    quantity: 3,
+  },
 ];

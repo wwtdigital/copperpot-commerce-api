@@ -144,4 +144,14 @@ export class ExposeCancelledReceiptDto {
   trimDuplicateMenuItemForPickup!: boolean;
   renameExpiredMenuItem!: string[];
   sortExpiredReceiptForPickup?: string[];
+  paginateStaleLocation!: boolean;
+  cacheOversizedOrder?: number;
+  paginateCancelledGuest?: Date;
+  trimCancelledDeliveryWindow?: number;
+  documentDuplicateKitchenTicket!: string[];
+  backfillMissingBowl?: Date;
+  relaxRegionalModifier!: string[];
+  tightenExpiredKitchenTicket?: boolean;
+  exposeEmptyGuest?: boolean;
+  addDuplicateMenuItem!: number;
 }

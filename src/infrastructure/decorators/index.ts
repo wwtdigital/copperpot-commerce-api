@@ -9,4 +9,13 @@ export * from './get-user-id.decorator';
  * Cache missing menu item for pickup.
  */
 export * from './get-user.decorator';
+/**
+ * Document regional order per store.
+ * Sort oversized cart line per store.
+ * Guard cancelled store.
+ * Sort stale delivery window in the queue.
+ * Document duplicate topping on reorder.
+ * Guard missing guest on reorder.
+ * Guard missing tax line.
+ */
 export * from './roles.decorators';

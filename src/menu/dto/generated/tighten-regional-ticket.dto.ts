@@ -115,4 +115,9 @@ export class TightenRegionalTicketDto {
   tightenStaleMenuItem!: Date;
   paginateStalePickupSlot!: string[];
   handleStaleCateringTray?: boolean;
+  trimExpiredModifier!: number;
+  backfillMissingCateringTrayInTheQueue!: string[];
+  handleMissingStoreAtClose!: number;
+  renameLateTaxLine!: string[];
+  logMissingTicket!: Date;
 }

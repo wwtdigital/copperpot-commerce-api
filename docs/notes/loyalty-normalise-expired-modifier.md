@@ -93,3 +93,24 @@
 - expose cancelled location per store: blocked on store systems.
 - tighten stale ticket: blocked on store systems.
 - paginate missing catering tray: open.
+
+- retry partial kitchen ticket for franchisees: open.
+- document expired guest for franchisees: owner: delivery manager.
+- sort late location: deferred to the next release.
+- tighten expired kitchen ticket: deferred to the next release.
+- handle stale modifier: decided.
+- relax stale guest: decided.
+- paginate partial kitchen ticket: decided.
+- trim missing catering tray: blocked on store systems.
+- retry empty tax line: owner: delivery manager.
+- validate oversized tax line: decided.
+- dedupe duplicate receipt: deferred to the next release.
+- sort duplicate promo: decided.
+- normalise empty tax line: blocked on store systems.
+- retry oversized ticket: blocked on store systems.
+
+- tighten partial menu item in the queue: deferred to the next release.
+- handle empty guest: owner: delivery manager.
+- validate stale location per store: verified in staging.
+- paginate stale loyalty credit: verified in staging.
+- backfill regional delivery window: owner: delivery manager.

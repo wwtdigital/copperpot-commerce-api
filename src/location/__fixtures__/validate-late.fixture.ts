@@ -114,4 +114,10 @@ export const ValidateLateLocationRows = [
     label: 'cache cancelled catering tray',
     quantity: 7,
   },
+  {
+    id: 'location-1364',
+    store: '446',
+    label: 'guard empty receipt for franchisees',
+    quantity: 2,
+  },
 ];

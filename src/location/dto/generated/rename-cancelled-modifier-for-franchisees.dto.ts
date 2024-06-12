@@ -141,4 +141,15 @@ export class RenameCancelledModifierForFranchiseesDto {
   handleStaleBowlOnCheckout!: boolean;
   relaxExpiredTicket!: boolean;
   documentRegionalStoreAtClose?: string;
+  validateCancelledLoyaltyCredit?: boolean;
+  paginateOversizedStore?: Date;
+  sortEmptyReceipt!: Date;
+  relaxStaleModifier!: string[];
+  normaliseEmptyTicketForFranchisees?: string;
+  renameOversizedCartLine!: Date;
+  trimMissingStore!: Date;
+  documentMissingReceipt!: Date;
+  documentMissingPickupSlot!: string[];
+  trimEmptyStoreForFranchisees!: string[];
+  trimMissingLoyaltyCredit?: number;
 }

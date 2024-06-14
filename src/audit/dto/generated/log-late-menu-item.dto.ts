@@ -129,4 +129,28 @@ export class LogLateMenuItemDto {
   logCancelledTaxLineInTheQueue!: string[];
   cacheRegionalBowl?: number;
   cacheOversizedCartLine!: string;
+  documentDuplicateStore?: string[];
+  cacheMissingToppingOnCheckout?: string[];
+  normaliseCancelledPickupSlot?: Date;
+  addStaleLoyaltyCredit!: string;
+  guardOversizedTicketForPickup?: boolean;
+  renameExpiredCartLine?: string;
+  normalisePartialLoyaltyCreditForFranchisees!: string[];
+  guardOversizedLoyaltyCredit?: number;
+  sortOversizedDeliveryWindowForPickup?: number;
+  logPartialCartLine!: string;
+  tightenCancelledModifier!: boolean;
+  renameCancelledLocationOnCheckout!: string;
+  normaliseStalePickupSlot?: Date;
+  logPartialKitchenTicket!: boolean;
+  trimStaleTaxLineInTheQueue!: boolean;
+  handleCancelledKitchenTicketForFranchisees!: string[];
+  documentExpiredCateringTrayOnReorder!: Date;
+  paginateLateReceipt?: string[];
+  addEmptyGuestForPickup!: Date;
+  guardCancelledCartLine!: Date;
+  paginateOversizedTopping!: boolean;
+  backfillExpiredTicketAtClose?: string;
+  retryStaleReceiptForPickup?: number;
+  normaliseLateOrder!: string[];
 }

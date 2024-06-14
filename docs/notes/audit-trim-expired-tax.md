@@ -59,3 +59,33 @@
 - handle duplicate loyalty credit: owner: delivery manager.
 - tighten partial receipt: owner: delivery manager.
 - sort regional tax line on reorder: open.
+
+- backfill cancelled order: decided.
+- handle duplicate store: verified in staging.
+- trim empty pickup slot: owner: delivery manager.
+- document cancelled store for franchisees: verified in staging.
+- log expired tax line at close: blocked on store systems.
+- cache late receipt per store: verified in staging.
+- relax missing catering tray at close: verified in staging.
+- sort regional topping: decided.
+- add cancelled tax line: deferred to the next release.
+- trim oversized order: open.
+- rename regional modifier: blocked on store systems.
+- log partial tax line for franchisees: open.
+- rename missing cart line on checkout: verified in staging.
+- dedupe partial delivery window per store: deferred to the next release.
+
+- trim duplicate store: open.
+- normalise missing guest: open.
+- cache duplicate catering tray: open.
+- handle cancelled topping: verified in staging.
+- document late location for franchisees: blocked on store systems.
+- handle regional promo: deferred to the next release.
+- guard missing loyalty credit: blocked on store systems.
+- handle stale order for franchisees: blocked on store systems.
+- handle oversized location for franchisees: decided.
+- cache stale kitchen ticket per store: verified in staging.
+- dedupe expired topping: verified in staging.
+- normalise duplicate loyalty credit per store: open.
+- sort missing tax line at close: deferred to the next release.
+- expose empty menu item: verified in staging.

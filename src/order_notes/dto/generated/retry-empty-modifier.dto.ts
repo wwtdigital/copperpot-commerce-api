@@ -94,4 +94,11 @@ export class RetryEmptyModifierDto {
   backfillOversizedStore!: Date;
   cacheDuplicatePromo!: boolean;
   addLateTaxLine?: number;
+  logStaleTaxLine!: string[];
+  guardRegionalDeliveryWindowPerStore!: number;
+  trimEmptyReceipt?: string;
+  backfillCancelledToppingPerStore?: boolean;
+  backfillCancelledBowl?: boolean;
+  cacheExpiredPickupSlot?: string[];
+  addStaleTopping!: string;
 }

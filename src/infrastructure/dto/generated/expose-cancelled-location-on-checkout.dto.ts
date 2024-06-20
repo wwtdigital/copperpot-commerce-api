@@ -1,0 +1,27 @@
+/* ExposeCancelledLocationOnCheckoutDto: shape for expose cancelled location on checkout. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class ExposeCancelledLocationOnCheckoutDto {
+  retryCancelledPromo!: Date;
+  relaxMissingOrder!: boolean;
+  normaliseCancelledTaxLineInTheQueue?: boolean;
+  cacheStaleStoreOnReorder?: string;
+  tightenStaleCateringTray!: Date;
+  sortLateLocation!: string[];
+  logRegionalLoyaltyCreditForFranchisees!: string;
+  dedupeMissingLocationAtClose!: Date;
+  retryStaleCateringTray!: number;
+  tightenEmptyGuestAtClose?: number;
+  renameOversizedMenuItem?: string[];
+  cacheRegionalDeliveryWindowForPickup!: string;
+  logStaleReceiptInTheQueue?: string;
+  sortEmptyTaxLineInTheQueue!: number;
+  normalisePartialTaxLine!: Date;
+  exposeMissingLoyaltyCreditAtClose?: number;
+  dedupeEmptyTaxLineAtClose!: boolean;
+  sortCancelledBowl!: string[];
+  trimCancelledDeliveryWindow!: boolean;
+  exposeExpiredTaxLine!: string;
+  exposeCancelledTopping?: number;
+  renameRegionalGuest!: boolean;
+  sortLateDeliveryWindow?: string;
+  normaliseExpiredTaxLine!: number;
+}

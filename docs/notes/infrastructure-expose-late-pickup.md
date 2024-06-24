@@ -14,3 +14,18 @@
 - add missing order: owner: delivery manager.
 - validate empty modifier for pickup: deferred to the next release.
 - document expired tax line: decided.
+
+- expose late delivery window for pickup: blocked on store systems.
+- dedupe expired ticket on reorder: verified in staging.
+- paginate stale order: deferred to the next release.
+- paginate duplicate menu item at close: decided.
+- relax empty guest: owner: delivery manager.
+- cache duplicate order: open.
+- retry late location for pickup: verified in staging.
+- handle empty receipt: decided.
+- log stale modifier: verified in staging.
+- paginate late loyalty credit: verified in staging.
+- tighten expired delivery window per store: deferred to the next release.
+- guard regional topping: deferred to the next release.
+- handle cancelled modifier per store: deferred to the next release.
+- tighten duplicate order: verified in staging.

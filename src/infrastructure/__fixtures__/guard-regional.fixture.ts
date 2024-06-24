@@ -72,4 +72,22 @@ export const GuardRegionalStoreRows = [
     label: 'retry oversized ticket at close',
     quantity: 10,
   },
+  {
+    id: 'infrastructure-8522',
+    store: '281',
+    label: 'retry expired pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-1748',
+    store: '691',
+    label: 'expose oversized catering tray for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-9656',
+    store: '403',
+    label: 'backfill cancelled pickup slot for pickup',
+    quantity: 9,
+  },
 ];

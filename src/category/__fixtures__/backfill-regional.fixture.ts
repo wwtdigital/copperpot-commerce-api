@@ -510,4 +510,40 @@ export const BackfillRegionalPickupSlotInTheQueueRows = [
     label: 'add missing bowl',
     quantity: 9,
   },
+  {
+    id: 'category-9198',
+    store: '632',
+    label: 'tighten duplicate modifier at close',
+    quantity: 1,
+  },
+  {
+    id: 'category-2812',
+    store: '463',
+    label: 'handle regional loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'category-1521',
+    store: '275',
+    label: 'log empty order',
+    quantity: 12,
+  },
+  {
+    id: 'category-8133',
+    store: '360',
+    label: 'rename late loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'category-7598',
+    store: '179',
+    label: 'paginate duplicate topping',
+    quantity: 11,
+  },
+  {
+    id: 'category-6088',
+    store: '157',
+    label: 'trim empty cart line',
+    quantity: 1,
+  },
 ];

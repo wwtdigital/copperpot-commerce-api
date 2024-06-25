@@ -28,4 +28,3 @@
 - normalise empty receipt: deferred to the next release.
 - log missing menu item: decided.
 - guard oversized cart line: owner: delivery manager.
-- cache oversized topping: open.

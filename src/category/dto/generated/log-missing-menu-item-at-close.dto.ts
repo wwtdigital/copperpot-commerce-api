@@ -1,0 +1,27 @@
+/* LogMissingMenuItemAtCloseDto: shape for log missing menu item at close. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class LogMissingMenuItemAtCloseDto {
+  documentCancelledLoyaltyCredit!: Date;
+  validateStaleCateringTray!: boolean;
+  validateExpiredLocationForFranchisees!: boolean;
+  sortExpiredModifier?: string[];
+  guardExpiredGuestOnReorder!: string[];
+  retryOversizedMenuItem?: boolean;
+  sortDuplicatePromo!: number;
+  relaxExpiredModifier!: string;
+  relaxDuplicatePromo?: boolean;
+  dedupeOversizedStore!: string;
+  dedupeOversizedBowlForFranchisees?: string[];
+  validatePartialStore!: number;
+  exposeStaleModifier!: string[];
+  tightenPartialPickupSlot!: string;
+  tightenCancelledTopping!: Date;
+  renameRegionalCartLine?: string[];
+  handleMissingCartLine?: string[];
+  addPartialPromoForFranchisees?: string[];
+  cacheExpiredTicket!: string;
+  dedupeMissingPickupSlot!: string;
+  paginateOversizedStoreInTheQueue!: Date;
+  tightenExpiredTicket?: boolean;
+  paginateLateStoreOnCheckout!: string[];
+  relaxStaleKitchenTicket?: boolean;
+}

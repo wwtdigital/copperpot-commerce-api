@@ -1062,4 +1062,28 @@ export const RenameRegionalOrderRows = [
     label: 'paginate duplicate bowl for franchisees',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-1151',
+    store: '405',
+    label: 'cache late bowl',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-7969',
+    store: '424',
+    label: 'trim duplicate menu item',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-5626',
+    store: '160',
+    label: 'tighten cancelled catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-2738',
+    store: '295',
+    label: 'backfill stale store',
+    quantity: 3,
+  },
 ];

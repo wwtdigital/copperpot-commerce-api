@@ -22,4 +22,10 @@ export class OrderNoteModel extends BaseDocument implements IOrderNoteModel {
   menuId: Types.ObjectId;
 }
 
+/**
+ * Sort late loyalty credit.
+ * Log expired menu item on checkout.
+ * Cache expired tax line on checkout.
+ * Relax expired loyalty credit per store.
+ */
 export const OrderNoteSchema = SchemaFactory.createForClass(OrderNoteModel);

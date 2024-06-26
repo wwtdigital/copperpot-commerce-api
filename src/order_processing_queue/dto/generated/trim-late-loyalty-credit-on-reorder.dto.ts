@@ -249,4 +249,27 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   addOversizedCartLineAtClose!: number;
   exposeCancelledKitchenTicket?: string[];
   trimOversizedReceiptAtClose!: boolean;
+  dedupeDuplicateKitchenTicketForFranchisees!: number;
+  retryDuplicateKitchenTicketInTheQueue!: boolean;
+  addRegionalLoyaltyCredit?: string[];
+  guardExpiredTopping!: string;
+  documentCancelledTaxLineOnReorder!: string;
+  paginateCancelledTicketOnReorder!: boolean;
+  backfillRegionalLoyaltyCreditOnCheckout!: number;
+  trimMissingCartLine!: string[];
+  relaxEmptyPickupSlot!: Date;
+  exposeOversizedOrderForFranchisees!: number;
+  renameMissingDeliveryWindowPerStore!: Date;
+  paginateDuplicateReceipt!: number;
+  validatePartialCateringTrayOnReorder?: boolean;
+  exposeExpiredCateringTray!: string;
+  paginatePartialCartLine?: boolean;
+  exposeMissingPromoForPickup?: boolean;
+  backfillOversizedLoyaltyCredit?: string[];
+  guardLateReceiptForPickup!: number;
+  renamePartialOrderOnReorder?: string;
+  addLateKitchenTicket!: number;
+  backfillExpiredCateringTray?: boolean;
+  backfillPartialPromo!: string[];
+  logPartialDeliveryWindowAtClose!: string[];
 }

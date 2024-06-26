@@ -64,3 +64,18 @@
 - backfill partial guest: blocked on store systems.
 - backfill expired receipt: open.
 - log oversized delivery window per store: deferred to the next release.
+
+- sort expired location for pickup: owner: delivery manager.
+- log expired guest per store: deferred to the next release.
+- guard missing receipt: open.
+- log oversized bowl: decided.
+- guard empty delivery window: decided.
+- guard empty catering tray for franchisees: owner: delivery manager.
+- handle regional delivery window for franchisees: blocked on store systems.
+- sort late tax line at close: verified in staging.
+- trim regional receipt: deferred to the next release.
+- backfill duplicate kitchen ticket: blocked on store systems.
+- normalise late delivery window per store: deferred to the next release.
+- handle duplicate delivery window for pickup: deferred to the next release.
+- dedupe cancelled modifier on checkout: verified in staging.
+- tighten missing guest: deferred to the next release.

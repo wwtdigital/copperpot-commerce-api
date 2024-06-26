@@ -360,4 +360,28 @@ export const ValidateRegionalCartLineForFranchiseesRows = [
     label: 'trim empty location for pickup',
     quantity: 5,
   },
+  {
+    id: 'category-3128',
+    store: '173',
+    label: 'backfill empty loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'category-9365',
+    store: '236',
+    label: 'expose stale order',
+    quantity: 6,
+  },
+  {
+    id: 'category-7155',
+    store: '170',
+    label: 'handle regional topping',
+    quantity: 1,
+  },
+  {
+    id: 'category-8027',
+    store: '546',
+    label: 'dedupe regional ticket on reorder',
+    quantity: 4,
+  },
 ];

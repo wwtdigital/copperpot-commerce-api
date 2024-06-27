@@ -102,4 +102,46 @@ export const GuardRegionalStoreRows = [
     label: 'document late promo',
     quantity: 9,
   },
+  {
+    id: 'infrastructure-8576',
+    store: '390',
+    label: 'validate missing pickup slot per store',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-5710',
+    store: '266',
+    label: 'rename duplicate loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-2721',
+    store: '351',
+    label: 'normalise expired guest per store',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-8899',
+    store: '412',
+    label: 'tighten missing cart line',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-4160',
+    store: '398',
+    label: 'handle duplicate order',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-2148',
+    store: '374',
+    label: 'normalise duplicate menu item',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-9596',
+    store: '222',
+    label: 'document oversized catering tray in the queue',
+    quantity: 7,
+  },
 ];

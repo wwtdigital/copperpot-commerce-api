@@ -30,4 +30,58 @@ export const ExposeExpiredLoyaltyCreditAtCloseRows = [
     label: 'handle regional topping on checkout',
     quantity: 9,
   },
+  {
+    id: 'order-notes-8953',
+    store: '341',
+    label: 'backfill empty promo',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-6248',
+    store: '689',
+    label: 'paginate duplicate ticket',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-3721',
+    store: '262',
+    label: 'trim late promo',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-5941',
+    store: '524',
+    label: 'paginate late ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-4354',
+    store: '470',
+    label: 'validate oversized kitchen ticket on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-5958',
+    store: '314',
+    label: 'sort stale ticket in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-3344',
+    store: '403',
+    label: 'document oversized location in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-1097',
+    store: '249',
+    label: 'log expired kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-6345',
+    store: '312',
+    label: 'relax empty tax line for pickup',
+    quantity: 12,
+  },
 ];

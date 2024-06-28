@@ -90,4 +90,16 @@ export const GuardRegionalStoreRows = [
     label: 'backfill cancelled pickup slot for pickup',
     quantity: 9,
   },
+  {
+    id: 'infrastructure-3977',
+    store: '634',
+    label: 'sort stale topping',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-4716',
+    store: '202',
+    label: 'document late promo',
+    quantity: 9,
+  },
 ];

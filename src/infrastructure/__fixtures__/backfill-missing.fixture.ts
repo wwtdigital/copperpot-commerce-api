@@ -318,4 +318,46 @@ export const BackfillMissingLoyaltyCreditRows = [
     label: 'validate empty order',
     quantity: 4,
   },
+  {
+    id: 'infrastructure-9101',
+    store: '554',
+    label: 'rename late promo',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-9788',
+    store: '593',
+    label: 'paginate stale order',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-4733',
+    store: '564',
+    label: 'sort expired delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-9406',
+    store: '586',
+    label: 'add regional delivery window per store',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-5189',
+    store: '678',
+    label: 'rename partial loyalty credit for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-4814',
+    store: '323',
+    label: 'validate missing location',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-4377',
+    store: '439',
+    label: 'cache regional topping',
+    quantity: 10,
+  },
 ];

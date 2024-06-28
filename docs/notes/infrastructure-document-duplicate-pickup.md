@@ -19,3 +19,18 @@
 - sort missing delivery window: blocked on store systems.
 - guard duplicate store: open.
 - guard empty bowl in the queue: owner: delivery manager.
+
+- add cancelled topping for pickup: open.
+- expose missing store for pickup: owner: delivery manager.
+- validate oversized guest in the queue: verified in staging.
+- backfill oversized menu item: verified in staging.
+- add missing tax line: deferred to the next release.
+- tighten stale menu item in the queue: decided.
+- add duplicate loyalty credit for pickup: verified in staging.
+- normalise regional promo for franchisees: decided.
+- guard late order: decided.
+- handle late menu item: verified in staging.
+- trim empty menu item: decided.
+- backfill expired receipt for franchisees: blocked on store systems.
+- dedupe missing store: decided.
+- document stale menu item: open.

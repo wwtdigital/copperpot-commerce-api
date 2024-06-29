@@ -59,3 +59,5 @@
 - expose late cart line at close: verified in staging.
 - handle oversized kitchen ticket for pickup: open.
 - dedupe oversized loyalty credit: verified in staging.
+
+- validate missing cart line: deferred to the next release.

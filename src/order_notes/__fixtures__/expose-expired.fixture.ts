@@ -84,4 +84,40 @@ export const ExposeExpiredLoyaltyCreditAtCloseRows = [
     label: 'relax empty tax line for pickup',
     quantity: 12,
   },
+  {
+    id: 'order-notes-2534',
+    store: '368',
+    label: 'add expired order on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-8254',
+    store: '489',
+    label: 'rename empty store',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-1540',
+    store: '294',
+    label: 'dedupe late delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-4882',
+    store: '524',
+    label: 'relax late delivery window on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-5287',
+    store: '172',
+    label: 'guard duplicate delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-2842',
+    store: '221',
+    label: 'trim duplicate store',
+    quantity: 8,
+  },
 ];

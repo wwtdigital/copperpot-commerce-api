@@ -1,0 +1,105 @@
+/* Fixture rows for order tests: tighten partial modifier. Generated data, not production data. */
+export const TightenPartialModifierRows = [
+  {
+    id: 'order-2652',
+    store: '694',
+    label: 'sort cancelled catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'order-8940',
+    store: '339',
+    label: 'relax expired location',
+    quantity: 12,
+  },
+  {
+    id: 'order-5099',
+    store: '394',
+    label: 'guard duplicate tax line',
+    quantity: 11,
+  },
+  {
+    id: 'order-9407',
+    store: '276',
+    label: 'normalise empty receipt',
+    quantity: 12,
+  },
+  {
+    id: 'order-7255',
+    store: '439',
+    label: 'cache regional tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'order-2909',
+    store: '166',
+    label: 'retry late order',
+    quantity: 9,
+  },
+  {
+    id: 'order-6315',
+    store: '616',
+    label: 'backfill expired pickup slot for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-3223',
+    store: '169',
+    label: 'trim empty delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'order-5068',
+    store: '100',
+    label: 'normalise oversized catering tray on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'order-7591',
+    store: '146',
+    label: 'tighten missing ticket on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'order-3815',
+    store: '629',
+    label: 'rename empty topping',
+    quantity: 3,
+  },
+  {
+    id: 'order-6048',
+    store: '658',
+    label: 'dedupe regional receipt per store',
+    quantity: 1,
+  },
+  {
+    id: 'order-5629',
+    store: '183',
+    label: 'rename partial loyalty credit on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-1019',
+    store: '268',
+    label: 'cache empty kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'order-3601',
+    store: '571',
+    label: 'paginate cancelled location in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'order-8329',
+    store: '195',
+    label: 'log regional tax line',
+    quantity: 9,
+  },
+  {
+    id: 'order-3344',
+    store: '664',
+    label: 'cache empty guest',
+    quantity: 9,
+  },
+];

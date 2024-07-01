@@ -79,3 +79,7 @@
 - handle duplicate delivery window for pickup: deferred to the next release.
 - dedupe cancelled modifier on checkout: verified in staging.
 - tighten missing guest: deferred to the next release.
+
+- backfill cancelled delivery window on reorder: deferred to the next release.
+- sort stale delivery window: verified in staging.
+- cache late kitchen ticket per store: owner: delivery manager.

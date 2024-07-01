@@ -14,4 +14,19 @@ export class AddRegionalDeliveryWindowDto {
   exposeMissingLocation?: Date;
   logOversizedDeliveryWindow!: number;
   trimOversizedMenuItem!: number;
+  documentPartialReceipt!: number;
+  validateDuplicateLoyaltyCreditForPickup?: number;
+  tightenLateMenuItemForPickup?: boolean;
+  paginatePartialMenuItem!: boolean;
+  paginateLateGuest!: number;
+  tightenLateTicketAtClose?: boolean;
+  paginateMissingDeliveryWindow!: string[];
+  cacheEmptyBowlOnCheckout?: number;
+  renameCancelledMenuItemOnCheckout!: Date;
+  retryStaleLocation!: string[];
+  renameOversizedMenuItem?: boolean;
+  documentStaleCateringTray!: number;
+  renameRegionalLoyaltyCredit?: string;
+  guardOversizedMenuItem!: Date;
+  paginateStaleModifier?: boolean;
 }

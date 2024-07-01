@@ -666,4 +666,16 @@ export const TightenOversizedDeliveryWindowRows = [
     label: 'cache missing store in the queue',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-1191',
+    store: '253',
+    label: 'normalise cancelled kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-5022',
+    store: '211',
+    label: 'log cancelled bowl',
+    quantity: 6,
+  },
 ];

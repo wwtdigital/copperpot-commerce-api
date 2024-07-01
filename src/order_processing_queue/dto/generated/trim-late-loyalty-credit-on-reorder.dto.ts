@@ -272,4 +272,6 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   backfillExpiredCateringTray?: boolean;
   backfillPartialPromo!: string[];
   logPartialDeliveryWindowAtClose!: string[];
+  validateStaleLoyaltyCredit?: boolean;
+  renameStaleCateringTray!: Date;
 }

@@ -1086,4 +1086,34 @@ export const RenameRegionalOrderRows = [
     label: 'backfill stale store',
     quantity: 3,
   },
+  {
+    id: 'order-processing-queue-1022',
+    store: '666',
+    label: 'cache oversized promo for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-1491',
+    store: '418',
+    label: 'cache expired promo',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-3750',
+    store: '431',
+    label: 'rename cancelled cart line',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-4113',
+    store: '278',
+    label: 'guard regional ticket',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-8676',
+    store: '690',
+    label: 'normalise expired loyalty credit',
+    quantity: 1,
+  },
 ];

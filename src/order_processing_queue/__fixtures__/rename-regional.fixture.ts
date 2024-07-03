@@ -1116,4 +1116,22 @@ export const RenameRegionalOrderRows = [
     label: 'normalise expired loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'order-processing-queue-9929',
+    store: '336',
+    label: 'retry stale order at close',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-1240',
+    store: '561',
+    label: 'handle cancelled menu item',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-9131',
+    store: '524',
+    label: 'relax stale kitchen ticket on checkout',
+    quantity: 6,
+  },
 ];

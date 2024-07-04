@@ -14,3 +14,5 @@
 - rename late menu item: deferred to the next release.
 - trim duplicate bowl on checkout: open.
 - tighten duplicate pickup slot on checkout: owner: delivery manager.
+
+- normalise missing kitchen ticket: deferred to the next release.

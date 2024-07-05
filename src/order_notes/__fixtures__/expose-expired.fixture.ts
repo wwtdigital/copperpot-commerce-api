@@ -186,4 +186,16 @@ export const ExposeExpiredLoyaltyCreditAtCloseRows = [
     label: 'log stale tax line',
     quantity: 11,
   },
+  {
+    id: 'order-notes-9934',
+    store: '579',
+    label: 'tighten regional receipt',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-1421',
+    store: '248',
+    label: 'document missing order',
+    quantity: 4,
+  },
 ];

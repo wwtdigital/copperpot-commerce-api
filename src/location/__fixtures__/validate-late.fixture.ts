@@ -120,4 +120,58 @@ export const ValidateLateLocationRows = [
     label: 'guard empty receipt for franchisees',
     quantity: 2,
   },
+  {
+    id: 'location-3982',
+    store: '248',
+    label: 'tighten duplicate guest',
+    quantity: 9,
+  },
+  {
+    id: 'location-8979',
+    store: '369',
+    label: 'guard oversized tax line',
+    quantity: 3,
+  },
+  {
+    id: 'location-1598',
+    store: '546',
+    label: 'expose missing store',
+    quantity: 6,
+  },
+  {
+    id: 'location-7216',
+    store: '168',
+    label: 'add oversized promo',
+    quantity: 2,
+  },
+  {
+    id: 'location-7880',
+    store: '213',
+    label: 'dedupe empty location for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'location-7132',
+    store: '146',
+    label: 'validate stale pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'location-4515',
+    store: '679',
+    label: 'tighten expired cart line',
+    quantity: 12,
+  },
+  {
+    id: 'location-1067',
+    store: '408',
+    label: 'relax late guest',
+    quantity: 3,
+  },
+  {
+    id: 'location-3495',
+    store: '230',
+    label: 'tighten late pickup slot at close',
+    quantity: 4,
+  },
 ];

@@ -666,4 +666,40 @@ export const TightenOversizedDeliveryWindowRows = [
     label: 'cache missing store in the queue',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-1191',
+    store: '253',
+    label: 'normalise cancelled kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-5022',
+    store: '211',
+    label: 'log cancelled bowl',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-1903',
+    store: '316',
+    label: 'cache missing tax line',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-3466',
+    store: '587',
+    label: 'relax expired kitchen ticket on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-6863',
+    store: '363',
+    label: 'guard late modifier',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-1440',
+    store: '585',
+    label: 'handle expired guest',
+    quantity: 9,
+  },
 ];

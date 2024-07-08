@@ -152,4 +152,27 @@ export class RenameCancelledModifierForFranchiseesDto {
   documentMissingPickupSlot!: string[];
   trimEmptyStoreForFranchisees!: string[];
   trimMissingLoyaltyCredit?: number;
+  retryPartialLoyaltyCreditOnReorder!: Date;
+  sortMissingTopping?: number;
+  guardRegionalOrder!: number;
+  addRegionalCartLineForPickup!: number;
+  retryLateReceiptOnCheckout?: string;
+  normaliseOversizedPickupSlotInTheQueue!: number;
+  normaliseDuplicateLocationForPickup!: number;
+  guardExpiredTaxLineOnReorder?: boolean;
+  normaliseLatePromoPerStore!: string;
+  documentMissingMenuItem!: Date;
+  handleEmptyTaxLine!: string;
+  dedupeRegionalCateringTray?: number;
+  paginateEmptyLocationForPickup!: string;
+  addOversizedBowl?: number;
+  documentPartialTaxLinePerStore!: string[];
+  cacheLateGuest?: string[];
+  normaliseCancelledBowlInTheQueue?: string[];
+  guardPartialLoyaltyCredit?: string[];
+  dedupeDuplicateCartLineInTheQueue!: number;
+  tightenExpiredMenuItemForPickup!: Date;
+  handleEmptyLoyaltyCredit!: number;
+  relaxOversizedDeliveryWindow?: boolean;
+  addLateCateringTray!: string;
 }

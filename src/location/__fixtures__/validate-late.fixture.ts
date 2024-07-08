@@ -174,4 +174,40 @@ export const ValidateLateLocationRows = [
     label: 'tighten late pickup slot at close',
     quantity: 4,
   },
+  {
+    id: 'location-7308',
+    store: '116',
+    label: 'cache duplicate loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'location-2658',
+    store: '259',
+    label: 'document expired location',
+    quantity: 9,
+  },
+  {
+    id: 'location-4413',
+    store: '355',
+    label: 'trim expired modifier',
+    quantity: 9,
+  },
+  {
+    id: 'location-4887',
+    store: '529',
+    label: 'document stale menu item',
+    quantity: 7,
+  },
+  {
+    id: 'location-1371',
+    store: '526',
+    label: 'paginate oversized catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'location-6872',
+    store: '258',
+    label: 'tighten missing delivery window',
+    quantity: 4,
+  },
 ];

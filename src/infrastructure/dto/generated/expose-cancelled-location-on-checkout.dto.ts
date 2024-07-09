@@ -39,4 +39,19 @@ export class ExposeCancelledLocationOnCheckoutDto {
   relaxEmptyBowlOnCheckout!: number;
   documentMissingModifier!: string[];
   backfillCancelledTaxLinePerStore?: boolean;
+  tightenEmptyStoreOnCheckout!: number;
+  relaxRegionalModifierPerStore!: string[];
+  tightenLateStore!: number;
+  validateOversizedPromo!: Date;
+  paginateOversizedCartLineForPickup!: string;
+  dedupeEmptyOrder?: number;
+  exposeOversizedLocation!: Date;
+  validateCancelledLocationPerStore!: number;
+  logMissingStore!: string[];
+  renamePartialStore!: boolean;
+  exposeLateCartLineOnReorder!: string;
+  logStaleStorePerStore!: boolean;
+  renameStaleModifier!: Date;
+  normaliseDuplicateTopping!: string[];
+  documentStaleReceiptInTheQueue?: string;
 }

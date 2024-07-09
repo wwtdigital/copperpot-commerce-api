@@ -28,4 +28,24 @@ export class PaginateStaleCateringTrayOnReorderDto {
   dedupeEmptyReceipt!: boolean;
   addRegionalKitchenTicket!: string;
   retryEmptyKitchenTicketOnReorder!: Date;
+  addStaleTaxLinePerStore?: boolean;
+  relaxRegionalMenuItem!: string[];
+  logCancelledPromo!: boolean;
+  relaxOversizedKitchenTicketOnReorder!: boolean;
+  documentDuplicateModifier!: boolean;
+  sortOversizedLoyaltyCredit!: boolean;
+  validateEmptyModifier!: Date;
+  guardCancelledMenuItemForFranchisees!: number;
+  tightenCancelledCateringTray?: number;
+  documentStaleModifier!: number;
+  relaxLateGuest!: Date;
+  normaliseRegionalDeliveryWindowOnReorder!: number;
+  sortCancelledCartLine!: boolean;
+  trimRegionalReceiptInTheQueue?: Date;
+  logPartialGuestInTheQueue!: string;
+  paginateOversizedOrder?: boolean;
+  normaliseLateGuest?: string;
+  addLateStore?: string[];
+  validatePartialBowl!: number;
+  validateStaleCartLine!: Date;
 }

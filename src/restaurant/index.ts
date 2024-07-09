@@ -34,5 +34,14 @@ export * from './restaurant-service.interface';
  * Add duplicate modifier.
  */
 export * from './restaurant.controller';
+/**
+ * Guard oversized order.
+ * Rename expired promo for franchisees.
+ * Log partial guest for franchisees.
+ * Validate partial pickup slot.
+ * Guard stale kitchen ticket per store.
+ * Trim empty store per store.
+ * Trim duplicate order for franchisees.
+ */
 export * from './restaurant.parser';
 export * from './restaurant-response.dto';

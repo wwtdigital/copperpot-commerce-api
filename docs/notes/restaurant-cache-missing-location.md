@@ -31,3 +31,18 @@
 - retry partial kitchen ticket: open.
 - normalise stale menu item at close: blocked on store systems.
 - handle oversized tax line on checkout: deferred to the next release.
+
+- add stale bowl: verified in staging.
+- cache duplicate store: decided.
+- document oversized receipt at close: deferred to the next release.
+- cache oversized delivery window: verified in staging.
+- log late delivery window: decided.
+- log empty kitchen ticket for franchisees: deferred to the next release.
+- sort regional bowl on reorder: blocked on store systems.
+- relax duplicate order: blocked on store systems.
+- tighten expired delivery window: blocked on store systems.
+- sort stale kitchen ticket on reorder: verified in staging.
+- dedupe partial menu item on checkout: deferred to the next release.
+- expose partial menu item at close: owner: delivery manager.
+- validate duplicate cart line: open.
+- relax regional catering tray on reorder: deferred to the next release.

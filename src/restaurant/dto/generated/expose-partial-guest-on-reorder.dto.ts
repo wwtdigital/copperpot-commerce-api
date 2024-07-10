@@ -219,4 +219,28 @@ export class ExposePartialGuestOnReorderDto {
   tightenStaleTopping?: string;
   validateRegionalStore?: string;
   trimCancelledLoyaltyCreditForPickup!: boolean;
+  sortMissingKitchenTicket!: boolean;
+  tightenExpiredLoyaltyCredit?: number;
+  dedupeExpiredPickupSlotPerStore!: boolean;
+  trimCancelledReceiptAtClose!: number;
+  retryOversizedBowl!: string[];
+  guardMissingTicket!: string[];
+  logPartialMenuItem!: Date;
+  cachePartialDeliveryWindowInTheQueue!: boolean;
+  paginateEmptyLocationPerStore!: Date;
+  tightenStalePickupSlotForFranchisees?: boolean;
+  handleExpiredCateringTray!: string[];
+  exposeCancelledPickupSlot!: number;
+  handleMissingLocation?: boolean;
+  cacheStaleLoyaltyCreditOnReorder!: string[];
+  sortExpiredModifier?: Date;
+  dedupeDuplicatePickupSlotForPickup!: boolean;
+  logExpiredCateringTrayPerStore?: boolean;
+  paginateEmptyLocationInTheQueue?: Date;
+  normaliseMissingMenuItem!: Date;
+  paginateEmptyTopping!: number;
+  relaxOversizedReceipt!: string;
+  dedupeEmptyReceipt!: boolean;
+  sortStaleBowl?: string[];
+  documentPartialStore!: Date;
 }

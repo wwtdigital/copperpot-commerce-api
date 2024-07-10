@@ -42,4 +42,16 @@ export const LogMissingPromoRows = [
     label: 'expose late ticket',
     quantity: 9,
   },
+  {
+    id: 'order-notes-2913',
+    store: '431',
+    label: 'backfill late bowl',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-7527',
+    store: '453',
+    label: 'relax regional bowl at close',
+    quantity: 4,
+  },
 ];

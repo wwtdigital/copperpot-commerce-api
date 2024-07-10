@@ -24,4 +24,17 @@ export class NormalisePartialToppingDto {
   logCancelledReceipt!: string[];
   validateMissingStoreOnReorder!: number;
   trimEmptyOrderAtClose!: Date;
+  trimPartialCateringTrayPerStore?: number;
+  dedupeLateTicket!: boolean;
+  exposeRegionalKitchenTicketAtClose!: string;
+  guardEmptyCartLine!: string[];
+  exposeExpiredLocation!: string;
+  handleEmptyStore!: number;
+  relaxPartialModifier?: boolean;
+  validateOversizedBowl!: boolean;
+  paginatePartialStore!: number;
+  normaliseLateMenuItemPerStore?: number;
+  cacheLateLocationOnReorder!: boolean;
+  relaxCancelledBowl!: boolean;
+  handleCancelledOrderOnReorder!: string[];
 }

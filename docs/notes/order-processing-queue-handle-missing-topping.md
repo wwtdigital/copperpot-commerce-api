@@ -83,3 +83,18 @@
 - backfill cancelled delivery window on reorder: deferred to the next release.
 - sort stale delivery window: verified in staging.
 - cache late kitchen ticket per store: owner: delivery manager.
+
+- rename missing order: owner: delivery manager.
+- backfill empty delivery window on reorder: blocked on store systems.
+- paginate missing location: owner: delivery manager.
+- paginate partial order on reorder: open.
+- paginate missing order: open.
+- document missing promo per store: blocked on store systems.
+- rename missing delivery window: verified in staging.
+- guard regional store: deferred to the next release.
+- rename regional ticket per store: deferred to the next release.
+- sort duplicate kitchen ticket on checkout: open.
+- rename regional delivery window in the queue: owner: delivery manager.
+- expose partial cart line: deferred to the next release.
+- normalise expired tax line per store: blocked on store systems.
+- normalise cancelled ticket: deferred to the next release.

@@ -246,4 +246,28 @@ export const HandleMissingLocationRows = [
     label: 'backfill expired location',
     quantity: 10,
   },
+  {
+    id: 'item-9291',
+    store: '650',
+    label: 'sort expired menu item',
+    quantity: 4,
+  },
+  {
+    id: 'item-3010',
+    store: '466',
+    label: 'cache expired pickup slot for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'item-3373',
+    store: '662',
+    label: 'document partial ticket',
+    quantity: 8,
+  },
+  {
+    id: 'item-6880',
+    store: '146',
+    label: 'guard regional menu item',
+    quantity: 9,
+  },
 ];

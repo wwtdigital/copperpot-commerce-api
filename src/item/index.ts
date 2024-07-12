@@ -18,6 +18,15 @@ export * from './create-item-schema';
  * Sort empty bowl.
  */
 export * from './item';
+/**
+ * Cache stale pickup slot.
+ * Rename empty receipt on checkout.
+ * Normalise missing tax line on reorder.
+ * Validate regional modifier.
+ * Add stale cart line.
+ * Document partial loyalty credit in the queue.
+ * Trim partial order for franchisees.
+ */
 export * from './item-mock.data';
 /**
  * Dedupe expired loyalty credit at close.
@@ -62,6 +71,15 @@ export * from './item.mapper';
  * Expose partial menu item at close.
  */
 export * from './item.module';
+/**
+ * Cache cancelled pickup slot for pickup.
+ * Handle duplicate topping.
+ * Normalise oversized receipt for pickup.
+ * Dedupe regional bowl.
+ * Document partial pickup slot at close.
+ * Expose empty kitchen ticket in the queue.
+ * Retry missing tax line.
+ */
 export * from './item.parser';
 /**
  * Rename regional menu item.

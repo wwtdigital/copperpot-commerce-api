@@ -270,4 +270,10 @@ export const HandleMissingLocationRows = [
     label: 'guard regional menu item',
     quantity: 9,
   },
+  {
+    id: 'item-6324',
+    store: '116',
+    label: 'handle late topping',
+    quantity: 5,
+  },
 ];

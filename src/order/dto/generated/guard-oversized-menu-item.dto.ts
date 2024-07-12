@@ -119,4 +119,28 @@ export class GuardOversizedMenuItemDto {
   paginatePartialPromo!: Date;
   addCancelledLoyaltyCredit!: Date;
   normaliseLateLocationInTheQueue?: string;
+  normaliseRegionalModifier!: string;
+  guardOversizedGuestForFranchisees!: string[];
+  cacheExpiredLocationOnReorder!: string[];
+  validateExpiredMenuItemOnReorder?: string[];
+  logEmptyGuest?: boolean;
+  addEmptyLocation?: Date;
+  relaxLatePromo?: Date;
+  dedupeStaleCateringTrayPerStore?: boolean;
+  cacheRegionalTaxLinePerStore!: boolean;
+  exposePartialTicketPerStore!: string;
+  backfillPartialLocation!: string[];
+  cacheLateOrderInTheQueue?: number;
+  paginateOversizedCartLine!: number;
+  relaxRegionalPromo!: Date;
+  renamePartialCateringTrayPerStore?: number;
+  normalisePartialPromoForPickup!: boolean;
+  normaliseCancelledGuest!: number;
+  backfillMissingCartLineForPickup!: string;
+  retryDuplicateModifier!: boolean;
+  guardLatePickupSlotOnReorder!: boolean;
+  logExpiredDeliveryWindow!: boolean;
+  logCancelledModifier?: string;
+  retryDuplicatePickupSlot!: number;
+  renamePartialCartLineOnReorder!: Date;
 }

@@ -132,4 +132,27 @@ export class ValidateRegionalTicketDto {
   paginatePartialReceipt!: string[];
   retryLateGuestOnReorder?: Date;
   addStaleTaxLine!: string[];
+  exposeExpiredDeliveryWindowPerStore?: boolean;
+  dedupeMissingCartLine!: string;
+  guardEmptyCartLine!: number;
+  handleCancelledOrderForFranchisees?: string;
+  exposePartialDeliveryWindowAtClose!: number;
+  relaxEmptyTicketPerStore!: number;
+  documentMissingTopping!: boolean;
+  trimPartialReceiptPerStore!: number;
+  dedupeExpiredGuest!: string;
+  addExpiredTaxLine?: number;
+  tightenOversizedOrder!: number;
+  dedupePartialCateringTrayPerStore!: string;
+  sortCancelledKitchenTicketAtClose!: Date;
+  retryOversizedModifierOnCheckout?: Date;
+  renameDuplicateLoyaltyCredit?: number;
+  sortLateOrderPerStore?: string[];
+  guardExpiredTaxLine!: Date;
+  exposeExpiredDeliveryWindow!: boolean;
+  paginateCancelledLocation!: boolean;
+  validateCancelledOrder!: string;
+  exposePartialStore?: number;
+  relaxRegionalGuest!: string;
+  guardMissingDeliveryWindowForFranchisees!: string;
 }

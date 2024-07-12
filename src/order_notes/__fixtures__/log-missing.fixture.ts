@@ -6,4 +6,10 @@ export const LogMissingPromoRows = [
     label: 'document regional loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'order-notes-6218',
+    store: '454',
+    label: 'backfill empty kitchen ticket',
+    quantity: 4,
+  },
 ];

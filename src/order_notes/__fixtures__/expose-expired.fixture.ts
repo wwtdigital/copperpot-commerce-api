@@ -198,4 +198,52 @@ export const ExposeExpiredLoyaltyCreditAtCloseRows = [
     label: 'document missing order',
     quantity: 4,
   },
+  {
+    id: 'order-notes-5318',
+    store: '217',
+    label: 'normalise partial kitchen ticket on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-5363',
+    store: '356',
+    label: 'guard oversized modifier on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-7952',
+    store: '648',
+    label: 'log partial tax line per store',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-6003',
+    store: '111',
+    label: 'cache empty guest',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-5673',
+    store: '290',
+    label: 'guard late guest on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-4666',
+    store: '505',
+    label: 'log empty bowl at close',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-9334',
+    store: '622',
+    label: 'backfill late kitchen ticket on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-3171',
+    store: '403',
+    label: 'dedupe regional order per store',
+    quantity: 5,
+  },
 ];

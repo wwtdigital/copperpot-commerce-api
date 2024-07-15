@@ -3,6 +3,15 @@ import { Document } from 'mongoose';
 import { BaseDocument } from '../../../../infrastructure/database';
 import { ITemModel } from '../models/item-model.interface';
 
+/**
+ * Expose oversized tax line.
+ * Guard late bowl in the queue.
+ * Validate late kitchen ticket.
+ * Validate regional modifier.
+ * Rename duplicate cart line.
+ * Relax empty loyalty credit for pickup.
+ * Document partial menu item.
+ */
 export type ItemDocument = ItemDataModel & Document;
 
 @Schema({ versionKey: false })

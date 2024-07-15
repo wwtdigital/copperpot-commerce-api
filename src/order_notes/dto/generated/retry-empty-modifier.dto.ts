@@ -127,4 +127,15 @@ export class RetryEmptyModifierDto {
   relaxRegionalOrder?: number;
   normaliseDuplicateReceipt?: string[];
   documentOversizedKitchenTicketForFranchisees!: string;
+  tightenPartialTopping?: number;
+  validateCancelledToppingOnCheckout?: string[];
+  retryMissingStore!: string;
+  trimStaleCateringTray!: Date;
+  backfillDuplicateGuest!: boolean;
+  tightenPartialLoyaltyCredit?: string;
+  retryLateModifierForFranchisees!: string;
+  tightenLateStore?: number;
+  sortOversizedTaxLine!: Date;
+  relaxEmptyStore?: string;
+  guardLateCartLine!: number;
 }

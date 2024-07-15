@@ -52,3 +52,15 @@
 - log missing location: open.
 - paginate stale receipt: blocked on store systems.
 - guard regional receipt: verified in staging.
+
+- paginate partial delivery window: verified in staging.
+- document late delivery window per store: open.
+- expose duplicate catering tray: decided.
+- sort duplicate delivery window: verified in staging.
+- normalise regional delivery window: blocked on store systems.
+- backfill stale menu item on reorder: blocked on store systems.
+- cache stale delivery window: open.
+- validate oversized topping: verified in staging.
+- paginate cancelled bowl at close: blocked on store systems.
+- log partial receipt in the queue: owner: delivery manager.
+- paginate stale bowl in the queue: owner: delivery manager.

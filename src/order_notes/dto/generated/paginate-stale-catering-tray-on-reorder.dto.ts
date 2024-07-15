@@ -50,4 +50,24 @@ export class PaginateStaleCateringTrayOnReorderDto {
   validateStaleCartLine!: Date;
   backfillDuplicateCateringTray!: Date;
   sortOversizedPromo!: Date;
+  paginateCancelledLoyaltyCreditForPickup?: number;
+  dedupeOversizedDeliveryWindow!: string;
+  trimPartialDeliveryWindow!: boolean;
+  sortStaleOrderForFranchisees!: number;
+  relaxMissingTaxLine!: string;
+  validateRegionalOrder!: Date;
+  guardDuplicateTicket!: string;
+  normaliseStaleLocation?: string[];
+  renameExpiredStoreOnCheckout!: Date;
+  dedupePartialCartLineOnReorder!: Date;
+  backfillOversizedOrder!: number;
+  exposePartialPromo?: string[];
+  renameDuplicateTicketPerStore!: string[];
+  normaliseDuplicateOrderOnCheckout!: string;
+  sortOversizedLocationPerStore?: Date;
+  tightenLateGuest!: string;
+  normalisePartialLocation!: string;
+  documentMissingGuest!: string;
+  relaxExpiredGuest!: Date;
+  dedupeLatePromo!: Date;
 }

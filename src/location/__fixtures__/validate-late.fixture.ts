@@ -210,4 +210,34 @@ export const ValidateLateLocationRows = [
     label: 'tighten missing delivery window',
     quantity: 4,
   },
+  {
+    id: 'location-8104',
+    store: '613',
+    label: 'paginate oversized topping at close',
+    quantity: 2,
+  },
+  {
+    id: 'location-6162',
+    store: '581',
+    label: 'add regional location',
+    quantity: 4,
+  },
+  {
+    id: 'location-3958',
+    store: '672',
+    label: 'retry late order per store',
+    quantity: 2,
+  },
+  {
+    id: 'location-9543',
+    store: '613',
+    label: 'guard oversized pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'location-5869',
+    store: '608',
+    label: 'relax expired store on reorder',
+    quantity: 6,
+  },
 ];

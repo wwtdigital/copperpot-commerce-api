@@ -12,4 +12,10 @@ export const ValidateOversizedPromoRows = [
     label: 'handle partial store on reorder',
     quantity: 10,
   },
+  {
+    id: 'location-8792',
+    store: '471',
+    label: 'cache regional kitchen ticket on reorder',
+    quantity: 4,
+  },
 ];

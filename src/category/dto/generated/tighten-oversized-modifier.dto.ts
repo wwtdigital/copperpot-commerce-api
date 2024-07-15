@@ -23,4 +23,28 @@ export class TightenOversizedModifierDto {
   cacheStalePromoForPickup!: string;
   validateLateModifierAtClose!: Date;
   sortRegionalLocationInTheQueue!: Date;
+  cacheStaleCartLinePerStore!: boolean;
+  validateLatePickupSlotInTheQueue!: number;
+  addCancelledOrder!: number;
+  exposeExpiredKitchenTicketPerStore!: string[];
+  documentDuplicateLocation?: Date;
+  addOversizedMenuItemInTheQueue?: Date;
+  paginateCancelledTopping!: string[];
+  documentExpiredKitchenTicketForFranchisees?: boolean;
+  backfillRegionalCartLine!: number;
+  documentCancelledModifierForFranchisees?: string[];
+  trimMissingOrderOnReorder!: Date;
+  dedupeStaleLoyaltyCredit!: Date;
+  sortOversizedPromo!: string;
+  backfillExpiredOrderForPickup!: Date;
+  retryExpiredReceipt!: Date;
+  handlePartialMenuItem!: string[];
+  guardCancelledCartLineForPickup?: Date;
+  logDuplicateOrderInTheQueue!: string;
+  relaxExpiredPromoForPickup!: Date;
+  validateExpiredStore?: boolean;
+  handlePartialBowl!: string;
+  documentEmptyGuestForPickup?: Date;
+  relaxMissingTopping!: Date;
+  exposeMissingStore!: string[];
 }

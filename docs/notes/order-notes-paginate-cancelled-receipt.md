@@ -37,3 +37,18 @@
 - relax duplicate topping for franchisees: decided.
 - cache oversized delivery window: deferred to the next release.
 - trim oversized modifier: blocked on store systems.
+
+- normalise regional delivery window: blocked on store systems.
+- sort duplicate menu item in the queue: open.
+- sort cancelled tax line: decided.
+- dedupe expired guest in the queue: open.
+- backfill oversized guest: deferred to the next release.
+- add missing catering tray: owner: delivery manager.
+- relax late order: decided.
+- guard expired modifier on checkout: decided.
+- guard partial pickup slot for pickup: blocked on store systems.
+- relax duplicate store: blocked on store systems.
+- cache partial menu item in the queue: blocked on store systems.
+- log missing location: open.
+- paginate stale receipt: blocked on store systems.
+- guard regional receipt: verified in staging.

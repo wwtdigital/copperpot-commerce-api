@@ -125,4 +125,6 @@ export class RetryEmptyModifierDto {
   validateOversizedBowlInTheQueue?: Date;
   handlePartialTicket!: string[];
   relaxRegionalOrder?: number;
+  normaliseDuplicateReceipt?: string[];
+  documentOversizedKitchenTicketForFranchisees!: string;
 }

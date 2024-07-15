@@ -48,4 +48,6 @@ export class PaginateStaleCateringTrayOnReorderDto {
   addLateStore?: string[];
   validatePartialBowl!: number;
   validateStaleCartLine!: Date;
+  backfillDuplicateCateringTray!: Date;
+  sortOversizedPromo!: Date;
 }

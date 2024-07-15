@@ -27,3 +27,5 @@
 - rename oversized location for franchisees: owner: delivery manager.
 - validate oversized location on reorder: blocked on store systems.
 - backfill regional delivery window: blocked on store systems.
+
+- sort partial pickup slot for pickup: deferred to the next release.

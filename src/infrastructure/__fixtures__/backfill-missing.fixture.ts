@@ -360,4 +360,28 @@ export const BackfillMissingLoyaltyCreditRows = [
     label: 'cache regional topping',
     quantity: 10,
   },
+  {
+    id: 'infrastructure-1427',
+    store: '361',
+    label: 'guard stale location',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-8981',
+    store: '117',
+    label: 'guard oversized pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-5454',
+    store: '114',
+    label: 'trim regional menu item on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-2351',
+    store: '385',
+    label: 'dedupe empty kitchen ticket on reorder',
+    quantity: 6,
+  },
 ];

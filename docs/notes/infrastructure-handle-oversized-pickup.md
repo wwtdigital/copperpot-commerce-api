@@ -27,3 +27,18 @@
 - backfill oversized guest: decided.
 - paginate stale ticket for pickup: open.
 - guard oversized cart line: open.
+
+- retry stale tax line on reorder: blocked on store systems.
+- trim partial delivery window for franchisees: deferred to the next release.
+- guard oversized kitchen ticket: decided.
+- document missing ticket: blocked on store systems.
+- tighten empty order: open.
+- document regional modifier: deferred to the next release.
+- relax oversized topping per store: deferred to the next release.
+- dedupe partial topping: decided.
+- rename partial receipt: open.
+- backfill regional cart line at close: owner: delivery manager.
+- guard cancelled store: verified in staging.
+- guard empty bowl: blocked on store systems.
+- retry late order: decided.
+- guard regional loyalty credit: decided.

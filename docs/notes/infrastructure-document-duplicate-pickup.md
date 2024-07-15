@@ -34,3 +34,23 @@
 - backfill expired receipt for franchisees: blocked on store systems.
 - dedupe missing store: decided.
 - document stale menu item: open.
+
+- document expired bowl: decided.
+- trim expired guest for franchisees: decided.
+- normalise regional bowl: deferred to the next release.
+- normalise oversized location per store: deferred to the next release.
+
+- expose cancelled promo: deferred to the next release.
+- validate duplicate order: blocked on store systems.
+- handle late bowl: verified in staging.
+- document stale receipt: deferred to the next release.
+- retry late receipt: deferred to the next release.
+- sort expired menu item: decided.
+- document cancelled pickup slot per store: blocked on store systems.
+- normalise cancelled cart line: owner: delivery manager.
+- dedupe expired receipt: verified in staging.
+- tighten missing bowl: deferred to the next release.
+- expose duplicate pickup slot: verified in staging.
+- normalise regional loyalty credit: decided.
+- cache empty cart line at close: deferred to the next release.
+- expose duplicate catering tray: blocked on store systems.

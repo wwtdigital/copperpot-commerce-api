@@ -13,4 +13,21 @@ export class RetryRegionalKitchenTicketInTheQueueDto {
   dedupePartialGuest!: string;
   logLateTicket!: string[];
   relaxEmptyBowl!: string;
+  sortLateCartLine!: boolean;
+  logDuplicateOrderOnReorder!: string;
+  relaxCancelledTaxLine!: boolean;
+  guardCancelledPromo!: number;
+  relaxPartialBowl?: Date;
+  validatePartialStore!: boolean;
+  addPartialReceiptInTheQueue?: number;
+  exposeMissingPickupSlotOnReorder!: boolean;
+  sortOversizedGuest!: string;
+  exposeEmptyDeliveryWindow!: string[];
+  guardPartialGuestForFranchisees!: string[];
+  validateStaleReceipt!: string;
+  sortEmptyTicket!: string[];
+  logLateReceipt!: string;
+  dedupeOversizedCartLineForFranchisees!: string;
+  dedupeEmptyCartLine?: string[];
+  documentDuplicateTopping!: string;
 }

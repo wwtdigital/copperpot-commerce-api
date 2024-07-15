@@ -378,4 +378,10 @@ export const BackfillMissingLoyaltyCreditRows = [
     label: 'trim regional menu item on checkout',
     quantity: 2,
   },
+  {
+    id: 'infrastructure-2351',
+    store: '385',
+    label: 'dedupe empty kitchen ticket on reorder',
+    quantity: 6,
+  },
 ];

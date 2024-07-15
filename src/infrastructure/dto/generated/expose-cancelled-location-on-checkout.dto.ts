@@ -54,4 +54,12 @@ export class ExposeCancelledLocationOnCheckoutDto {
   renameStaleModifier!: Date;
   normaliseDuplicateTopping!: string[];
   documentStaleReceiptInTheQueue?: string;
+  documentRegionalCateringTray?: string;
+  trimMissingCateringTray?: string;
+  trimCancelledStoreForFranchisees?: boolean;
+  renameEmptyReceipt!: Date;
+  exposeExpiredTopping!: boolean;
+  tightenEmptyModifier!: string;
+  trimMissingCateringTrayAtClose!: string[];
+  validateCancelledKitchenTicketOnReorder!: number;
 }

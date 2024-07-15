@@ -24,4 +24,19 @@ export class ExposeCancelledLocationOnCheckoutDto {
   renameRegionalGuest!: boolean;
   sortLateDeliveryWindow?: string;
   normaliseExpiredTaxLine!: number;
+  handleOversizedLocationAtClose?: string;
+  handleStaleBowl!: number;
+  sortLateCateringTrayAtClose!: number;
+  logStalePickupSlotOnReorder!: boolean;
+  relaxMissingStore!: Date;
+  dedupePartialModifier!: string[];
+  retryExpiredStore!: boolean;
+  tightenDuplicateReceiptForPickup?: number;
+  cacheEmptyTicketInTheQueue!: boolean;
+  paginateLateTaxLine?: number;
+  relaxMissingLocationOnCheckout!: number;
+  paginateStaleOrder!: string;
+  relaxEmptyBowlOnCheckout!: number;
+  documentMissingModifier!: string[];
+  backfillCancelledTaxLinePerStore?: boolean;
 }

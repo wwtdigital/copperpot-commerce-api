@@ -34,3 +34,8 @@
 - backfill expired receipt for franchisees: blocked on store systems.
 - dedupe missing store: decided.
 - document stale menu item: open.
+
+- document expired bowl: decided.
+- trim expired guest for franchisees: decided.
+- normalise regional bowl: deferred to the next release.
+- normalise oversized location per store: deferred to the next release.

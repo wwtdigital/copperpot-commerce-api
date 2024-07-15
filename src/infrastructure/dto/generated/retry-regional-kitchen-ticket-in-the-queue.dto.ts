@@ -2,4 +2,15 @@
 export class RetryRegionalKitchenTicketInTheQueueDto {
   relaxExpiredKitchenTicketForFranchisees?: string[];
   addLateTopping!: string;
+  sortDuplicateMenuItem?: Date;
+  documentCancelledReceiptInTheQueue!: number;
+  guardRegionalPromo?: Date;
+  cacheCancelledMenuItem!: Date;
+  exposeStalePromoInTheQueue!: number;
+  guardDuplicateModifier!: number;
+  backfillPartialMenuItem?: Date;
+  relaxEmptyReceipt!: Date;
+  dedupePartialGuest!: string;
+  logLateTicket!: string[];
+  relaxEmptyBowl!: string;
 }

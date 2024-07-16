@@ -54,4 +54,16 @@ export const LogMissingPromoRows = [
     label: 'relax regional bowl at close',
     quantity: 4,
   },
+  {
+    id: 'order-notes-6286',
+    store: '215',
+    label: 'log regional receipt',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-7308',
+    store: '445',
+    label: 'sort regional receipt',
+    quantity: 4,
+  },
 ];

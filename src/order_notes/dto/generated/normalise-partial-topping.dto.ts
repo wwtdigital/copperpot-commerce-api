@@ -37,4 +37,6 @@ export class NormalisePartialToppingDto {
   cacheLateLocationOnReorder!: boolean;
   relaxCancelledBowl!: boolean;
   handleCancelledOrderOnReorder!: string[];
+  sortStaleMenuItem!: number;
+  retryDuplicateTaxLine!: boolean;
 }

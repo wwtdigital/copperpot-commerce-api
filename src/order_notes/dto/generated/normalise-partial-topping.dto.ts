@@ -39,4 +39,17 @@ export class NormalisePartialToppingDto {
   handleCancelledOrderOnReorder!: string[];
   sortStaleMenuItem!: number;
   retryDuplicateTaxLine!: boolean;
+  paginateLateModifierInTheQueue!: Date;
+  tightenPartialReceipt!: string[];
+  trimOversizedMenuItem!: string;
+  exposeExpiredPromo!: number;
+  guardDuplicateModifierOnCheckout!: boolean;
+  sortDuplicateKitchenTicket?: string[];
+  renameMissingPromoForFranchisees!: boolean;
+  normaliseEmptyPromo!: boolean;
+  cacheStaleGuest!: boolean;
+  addPartialPromo!: number;
+  trimDuplicateKitchenTicket?: boolean;
+  tightenLateGuestAtClose!: boolean;
+  logOversizedCartLineForPickup!: string;
 }

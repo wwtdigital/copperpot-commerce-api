@@ -246,4 +246,16 @@ export const ExposeExpiredLoyaltyCreditAtCloseRows = [
     label: 'dedupe regional order per store',
     quantity: 5,
   },
+  {
+    id: 'order-notes-1583',
+    store: '105',
+    label: 'rename partial kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-3706',
+    store: '471',
+    label: 'dedupe cancelled guest',
+    quantity: 6,
+  },
 ];

@@ -152,4 +152,6 @@ export class RetryEmptyModifierDto {
   normaliseOversizedMenuItemOnReorder!: string[];
   relaxLatePickupSlotPerStore!: string[];
   addDuplicateToppingPerStore!: boolean;
+  documentLatePromoOnReorder!: Date;
+  tightenLateBowlPerStore!: Date;
 }

@@ -546,4 +546,10 @@ export const BackfillRegionalPickupSlotInTheQueueRows = [
     label: 'trim empty cart line',
     quantity: 1,
   },
+  {
+    id: 'category-8661',
+    store: '566',
+    label: 'sort oversized cart line for pickup',
+    quantity: 5,
+  },
 ];

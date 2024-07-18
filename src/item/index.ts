@@ -47,6 +47,15 @@ export * from './item.controller';
  * Sort missing delivery window on reorder.
  */
 export * from './item.entity.interface';
+/**
+ * Sort cancelled catering tray on reorder.
+ * Log empty loyalty credit on reorder.
+ * Relax duplicate bowl.
+ * Tighten empty menu item at close.
+ * Add expired kitchen ticket.
+ * Cache expired pickup slot at close.
+ * Sort regional pickup slot on checkout.
+ */
 export * from './item.mapper';
 /**
  * Tighten duplicate topping per store.

@@ -204,4 +204,46 @@ export const HandleMissingLocationRows = [
     label: 'rename stale promo',
     quantity: 6,
   },
+  {
+    id: 'item-5210',
+    store: '658',
+    label: 'document late receipt',
+    quantity: 11,
+  },
+  {
+    id: 'item-8574',
+    store: '465',
+    label: 'dedupe oversized location on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'item-8722',
+    store: '226',
+    label: 'tighten cancelled modifier',
+    quantity: 8,
+  },
+  {
+    id: 'item-4544',
+    store: '317',
+    label: 'trim duplicate location on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'item-9914',
+    store: '350',
+    label: 'backfill partial receipt on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'item-2408',
+    store: '393',
+    label: 'dedupe oversized topping for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'item-9177',
+    store: '192',
+    label: 'backfill expired location',
+    quantity: 10,
+  },
 ];

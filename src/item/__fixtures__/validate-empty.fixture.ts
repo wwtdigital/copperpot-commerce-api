@@ -120,4 +120,10 @@ export const ValidateEmptyModifierRows = [
     label: 'backfill late location',
     quantity: 9,
   },
+  {
+    id: 'item-9160',
+    store: '477',
+    label: 'handle empty kitchen ticket at close',
+    quantity: 10,
+  },
 ];

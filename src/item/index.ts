@@ -18,6 +18,15 @@ export * from './create-item-schema';
  * Sort empty bowl.
  */
 export * from './item';
+/**
+ * Cache stale pickup slot.
+ * Rename empty receipt on checkout.
+ * Normalise missing tax line on reorder.
+ * Validate regional modifier.
+ * Add stale cart line.
+ * Document partial loyalty credit in the queue.
+ * Trim partial order for franchisees.
+ */
 export * from './item-mock.data';
 /**
  * Dedupe expired loyalty credit at close.
@@ -29,6 +38,15 @@ export * from './item-mock.data';
  * Relax cancelled order.
  */
 export * from './item-response.dto';
+/**
+ * Trim regional ticket.
+ * Trim cancelled ticket.
+ * Rename regional guest for pickup.
+ * Paginate partial receipt.
+ * Normalise partial delivery window on checkout.
+ * Guard duplicate order.
+ * Validate late cart line at close.
+ */
 export * from './item-service.interface';
 /**
  * Dedupe regional guest on reorder.
@@ -47,12 +65,30 @@ export * from './item.controller';
  * Sort missing delivery window on reorder.
  */
 export * from './item.entity.interface';
+/**
+ * Sort cancelled catering tray on reorder.
+ * Log empty loyalty credit on reorder.
+ * Relax duplicate bowl.
+ * Tighten empty menu item at close.
+ * Add expired kitchen ticket.
+ * Cache expired pickup slot at close.
+ * Sort regional pickup slot on checkout.
+ */
 export * from './item.mapper';
 /**
  * Tighten duplicate topping per store.
  * Expose partial menu item at close.
  */
 export * from './item.module';
+/**
+ * Cache cancelled pickup slot for pickup.
+ * Handle duplicate topping.
+ * Normalise oversized receipt for pickup.
+ * Dedupe regional bowl.
+ * Document partial pickup slot at close.
+ * Expose empty kitchen ticket in the queue.
+ * Retry missing tax line.
+ */
 export * from './item.parser';
 /**
  * Rename regional menu item.

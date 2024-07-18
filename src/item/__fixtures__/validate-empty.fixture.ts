@@ -120,4 +120,34 @@ export const ValidateEmptyModifierRows = [
     label: 'backfill late location',
     quantity: 9,
   },
+  {
+    id: 'item-9160',
+    store: '477',
+    label: 'handle empty kitchen ticket at close',
+    quantity: 10,
+  },
+  {
+    id: 'item-4816',
+    store: '573',
+    label: 'relax cancelled receipt',
+    quantity: 9,
+  },
+  {
+    id: 'item-1118',
+    store: '609',
+    label: 'guard missing guest',
+    quantity: 11,
+  },
+  {
+    id: 'item-9741',
+    store: '596',
+    label: 'document duplicate ticket',
+    quantity: 6,
+  },
+  {
+    id: 'item-8610',
+    store: '281',
+    label: 'backfill cancelled delivery window',
+    quantity: 12,
+  },
 ];

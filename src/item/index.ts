@@ -38,6 +38,15 @@ export * from './item-mock.data';
  * Relax cancelled order.
  */
 export * from './item-response.dto';
+/**
+ * Trim regional ticket.
+ * Trim cancelled ticket.
+ * Rename regional guest for pickup.
+ * Paginate partial receipt.
+ * Normalise partial delivery window on checkout.
+ * Guard duplicate order.
+ * Validate late cart line at close.
+ */
 export * from './item-service.interface';
 /**
  * Dedupe regional guest on reorder.

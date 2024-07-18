@@ -74,4 +74,25 @@ export class DocumentOversizedMenuItemDto {
   logOversizedDeliveryWindowForFranchisees!: boolean;
   exposeMissingOrder?: string;
   backfillPartialToppingOnCheckout!: boolean;
+  documentCancelledBowl!: string;
+  retryMissingTopping!: number;
+  validatePartialPromoOnCheckout!: string;
+  documentPartialKitchenTicket!: number;
+  dedupeEmptyLocation?: number;
+  exposePartialModifier!: Date;
+  cacheMissingBowl!: string;
+  relaxEmptyTopping?: boolean;
+  trimRegionalMenuItem!: string;
+  trimExpiredStore!: number;
+  paginateRegionalTopping!: number;
+  guardExpiredPromoForFranchisees?: Date;
+  renamePartialOrderAtClose!: Date;
+  relaxDuplicatePromoOnReorder!: boolean;
+  backfillEmptyTicketOnReorder!: boolean;
+  trimDuplicateReceipt?: string[];
+  trimDuplicateKitchenTicket!: Date;
+  handleDuplicateCartLine!: Date;
+  documentCancelledCateringTrayForPickup?: number;
+  backfillOversizedLoyaltyCreditPerStore!: string[];
+  sortRegionalPromo!: string[];
 }

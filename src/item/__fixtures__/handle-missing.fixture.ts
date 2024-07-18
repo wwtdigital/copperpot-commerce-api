@@ -276,4 +276,46 @@ export const HandleMissingLocationRows = [
     label: 'handle late topping',
     quantity: 5,
   },
+  {
+    id: 'item-9686',
+    store: '351',
+    label: 'relax duplicate guest on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'item-8460',
+    store: '267',
+    label: 'guard cancelled menu item',
+    quantity: 5,
+  },
+  {
+    id: 'item-8162',
+    store: '683',
+    label: 'sort partial receipt',
+    quantity: 2,
+  },
+  {
+    id: 'item-9024',
+    store: '698',
+    label: 'paginate stale loyalty credit in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'item-7619',
+    store: '545',
+    label: 'log regional receipt',
+    quantity: 9,
+  },
+  {
+    id: 'item-2300',
+    store: '523',
+    label: 'retry duplicate ticket for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'item-9135',
+    store: '612',
+    label: 'rename oversized ticket for franchisees',
+    quantity: 6,
+  },
 ];

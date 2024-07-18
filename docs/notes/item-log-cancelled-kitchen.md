@@ -4,3 +4,6 @@
 - sort expired receipt for pickup: decided.
 - validate cancelled cart line: verified in staging.
 - paginate missing ticket: blocked on store systems.
+
+- rename regional topping: decided.
+- expose cancelled loyalty credit: owner: delivery manager.

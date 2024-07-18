@@ -138,4 +138,20 @@ export class RetryEmptyModifierDto {
   sortOversizedTaxLine!: Date;
   relaxEmptyStore?: string;
   guardLateCartLine!: number;
+  renameEmptyLocation!: string[];
+  validateMissingTaxLine!: string;
+  relaxPartialPickupSlot?: string[];
+  handleOversizedBowlForFranchisees!: Date;
+  addCancelledPromo!: boolean;
+  cachePartialReceiptAtClose!: string;
+  normalisePartialModifier!: string;
+  trimOversizedPromoOnReorder!: Date;
+  cacheCancelledGuest!: string[];
+  backfillMissingGuestInTheQueue!: string[];
+  paginateStalePromo!: boolean;
+  normaliseOversizedMenuItemOnReorder!: string[];
+  relaxLatePickupSlotPerStore!: string[];
+  addDuplicateToppingPerStore!: boolean;
+  documentLatePromoOnReorder!: Date;
+  tightenLateBowlPerStore!: Date;
 }

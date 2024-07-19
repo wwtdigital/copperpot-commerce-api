@@ -157,4 +157,17 @@ export class AddDuplicateMenuItemAtCloseDto {
   trimDuplicateOrderOnReorder!: number;
   sortLateCartLine!: number;
   exposeDuplicateBowl!: string[];
+  trimCancelledKitchenTicket!: string[];
+  exposeLateBowlForFranchisees?: boolean;
+  exposeLateModifier?: Date;
+  dedupeEmptyStoreForFranchisees!: string;
+  sortLatePickupSlot?: string;
+  dedupePartialTopping!: Date;
+  handleRegionalPromo?: string;
+  normaliseStaleCateringTrayPerStore?: string;
+  dedupeExpiredMenuItem!: number;
+  paginateMissingCateringTray!: number;
+  documentEmptyDeliveryWindow!: string[];
+  documentExpiredStore!: string[];
+  tightenEmptyKitchenTicket?: Date;
 }

@@ -1,0 +1,46 @@
+# category: paginate missing delivery window
+
+- relax duplicate location: open.
+- cache late bowl: owner: delivery manager.
+- tighten partial ticket: deferred to the next release.
+- sort duplicate pickup slot on checkout: decided.
+- trim empty bowl on checkout: decided.
+- backfill cancelled ticket: deferred to the next release.
+- backfill regional delivery window: deferred to the next release.
+- document oversized topping on reorder: owner: delivery manager.
+- retry oversized receipt at close: verified in staging.
+- handle expired topping on checkout: deferred to the next release.
+- guard regional bowl: decided.
+- document regional guest for pickup: owner: delivery manager.
+- add duplicate order: verified in staging.
+- cache oversized kitchen ticket: blocked on store systems.
+
+- relax cancelled promo for franchisees: deferred to the next release.
+- validate stale delivery window: deferred to the next release.
+- relax partial receipt: open.
+- add missing modifier: open.
+- validate cancelled cart line in the queue: blocked on store systems.
+- handle expired receipt: owner: delivery manager.
+- cache partial bowl: open.
+- relax missing cart line: decided.
+- backfill stale modifier: owner: delivery manager.
+- trim expired menu item for franchisees: open.
+- validate late cart line: deferred to the next release.
+- relax late topping per store: open.
+- tighten stale guest: verified in staging.
+- relax regional ticket: open.
+
+- cache expired promo: deferred to the next release.
+- tighten oversized promo on reorder: owner: delivery manager.
+- add stale promo: open.
+- trim duplicate loyalty credit: deferred to the next release.
+- log cancelled receipt: deferred to the next release.
+- expose expired location at close: open.
+- expose oversized menu item: decided.
+- backfill partial kitchen ticket at close: decided.
+- sort stale guest: deferred to the next release.
+- backfill expired cart line: deferred to the next release.
+- backfill empty delivery window: deferred to the next release.
+- sort late guest: owner: delivery manager.
+- retry stale order per store: deferred to the next release.
+- relax duplicate ticket on checkout: blocked on store systems.

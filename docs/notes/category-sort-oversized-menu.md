@@ -34,3 +34,18 @@
 - expose missing cart line at close: verified in staging.
 - tighten empty topping at close: verified in staging.
 - guard empty cart line: decided.
+
+- dedupe oversized kitchen ticket: decided.
+- retry empty catering tray on reorder: owner: delivery manager.
+- handle expired modifier at close: blocked on store systems.
+- cache duplicate modifier: decided.
+- paginate missing guest: blocked on store systems.
+- trim partial guest at close: decided.
+- validate regional tax line for franchisees: owner: delivery manager.
+- sort stale guest: deferred to the next release.
+- validate stale order: verified in staging.
+- validate missing modifier: blocked on store systems.
+- sort duplicate tax line for pickup: deferred to the next release.
+- cache duplicate menu item on checkout: deferred to the next release.
+- paginate oversized bowl: deferred to the next release.
+- validate stale bowl: blocked on store systems.

@@ -24,4 +24,18 @@ export class LogMissingMenuItemAtCloseDto {
   tightenExpiredTicket?: boolean;
   paginateLateStoreOnCheckout!: string[];
   relaxStaleKitchenTicket?: boolean;
+  trimMissingOrderInTheQueue!: string;
+  addExpiredOrder!: Date;
+  relaxExpiredReceiptForFranchisees!: string[];
+  retryMissingReceiptForPickup!: number;
+  retryRegionalToppingPerStore?: number;
+  tightenPartialLoyaltyCreditForFranchisees?: string[];
+  sortLateStore?: string[];
+  renameOversizedTicketPerStore!: Date;
+  documentOversizedPromo?: boolean;
+  sortOversizedCartLineAtClose?: boolean;
+  normaliseStaleOrderPerStore!: number;
+  trimMissingTicketInTheQueue?: Date;
+  validatePartialReceipt!: Date;
+  trimPartialTopping?: Date;
 }

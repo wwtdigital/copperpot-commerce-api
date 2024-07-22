@@ -19,3 +19,18 @@
 - dedupe duplicate cart line at close: open.
 - sort duplicate delivery window on reorder: blocked on store systems.
 - cache oversized topping: open.
+
+- tighten empty menu item in the queue: verified in staging.
+- retry empty receipt: deferred to the next release.
+- backfill late topping for pickup: owner: delivery manager.
+- relax regional menu item: open.
+- document stale pickup slot: decided.
+- rename partial menu item at close: decided.
+- expose partial catering tray: owner: delivery manager.
+- normalise regional receipt: verified in staging.
+- sort duplicate menu item: owner: delivery manager.
+- expose empty pickup slot: open.
+- document late menu item: deferred to the next release.
+- paginate partial store: deferred to the next release.
+- handle stale delivery window: blocked on store systems.
+- trim missing order: deferred to the next release.

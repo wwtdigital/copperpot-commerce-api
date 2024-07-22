@@ -274,4 +274,28 @@ export class TrimLateLoyaltyCreditOnReorderDto {
   logPartialDeliveryWindowAtClose!: string[];
   validateStaleLoyaltyCredit?: boolean;
   renameStaleCateringTray!: Date;
+  exposeOversizedCateringTray!: number;
+  normaliseOversizedTicket!: Date;
+  documentPartialBowl!: Date;
+  validateExpiredBowl?: string;
+  guardRegionalTaxLine!: Date;
+  paginateOversizedReceipt!: number;
+  exposeDuplicateStore!: number;
+  cacheOversizedTaxLineOnReorder?: boolean;
+  normaliseRegionalReceipt!: Date;
+  tightenPartialTaxLineInTheQueue!: boolean;
+  exposeRegionalStore?: Date;
+  documentEmptyCateringTray!: string[];
+  guardPartialPickupSlotOnReorder?: number;
+  addLateKitchenTicketAtClose!: Date;
+  exposeEmptyMenuItem?: number;
+  retryOversizedLoyaltyCreditOnReorder!: Date;
+  tightenOversizedTicketPerStore!: boolean;
+  renameStaleModifierOnCheckout!: string[];
+  cachePartialModifierAtClose!: number;
+  handleEmptyTicketOnReorder!: number;
+  backfillRegionalGuest?: number;
+  tightenExpiredPickupSlotForPickup?: Date;
+  handleMissingBowl!: boolean;
+  logMissingTopping!: string;
 }

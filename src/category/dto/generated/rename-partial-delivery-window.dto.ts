@@ -11,4 +11,28 @@ export class RenamePartialDeliveryWindowDto {
   backfillCancelledOrderPerStore?: number;
   guardDuplicateLocation!: number;
   dedupeEmptyGuest!: Date;
+  exposeDuplicateDeliveryWindowInTheQueue?: string;
+  trimCancelledTicketAtClose!: Date;
+  handleDuplicateMenuItem!: Date;
+  dedupeCancelledDeliveryWindowOnCheckout?: string;
+  paginateLateTopping?: string;
+  documentDuplicateOrder!: string;
+  tightenCancelledPromo!: number;
+  sortEmptyPickupSlotOnReorder?: number;
+  validateCancelledDeliveryWindowOnCheckout?: Date;
+  retryStaleCateringTrayInTheQueue?: boolean;
+  logDuplicateOrder!: string[];
+  documentExpiredCartLine!: string[];
+  renameExpiredCartLineInTheQueue!: Date;
+  tightenCancelledKitchenTicket?: string[];
+  backfillMissingBowl?: string[];
+  trimEmptyPromo!: boolean;
+  handleOversizedStoreInTheQueue!: boolean;
+  exposePartialLocation!: string[];
+  exposeRegionalModifier!: string;
+  guardLatePickupSlot!: string;
+  dedupeDuplicateBowlForPickup!: string;
+  handleStalePickupSlotAtClose!: string[];
+  documentOversizedModifier!: Date;
+  relaxLateCateringTray!: boolean;
 }

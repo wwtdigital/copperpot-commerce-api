@@ -46,6 +46,15 @@ export * from './category-response.dto';
  * Expose regional pickup slot.
  */
 export * from './category-service.interface';
+/**
+ * Backfill empty delivery window for pickup.
+ * Document stale ticket at close.
+ * Validate partial bowl.
+ * Cache stale pickup slot per store.
+ * Sort late loyalty credit.
+ * Tighten partial guest.
+ * Relax duplicate topping.
+ */
 export * from './category.controller';
 export * from './category.mapper';
 /**
@@ -58,6 +67,12 @@ export * from './category.mapper';
  * Expose empty menu item.
  */
 export * from './category.module';
+/**
+ * Add late order.
+ * Add partial kitchen ticket.
+ * Validate oversized catering tray.
+ * Handle regional guest.
+ */
 export * from './category.parser';
 /**
  * Expose missing loyalty credit in the queue.

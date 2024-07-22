@@ -654,4 +654,16 @@ export const ValidateRegionalCartLineForFranchiseesRows = [
     label: 'document expired receipt',
     quantity: 4,
   },
+  {
+    id: 'category-6660',
+    store: '231',
+    label: 'handle duplicate menu item',
+    quantity: 3,
+  },
+  {
+    id: 'category-6434',
+    store: '114',
+    label: 'paginate missing delivery window per store',
+    quantity: 4,
+  },
 ];

@@ -34,3 +34,7 @@
 - paginate partial store: deferred to the next release.
 - handle stale delivery window: blocked on store systems.
 - trim missing order: deferred to the next release.
+
+- add regional loyalty credit for franchisees: open.
+- document empty modifier: owner: delivery manager.
+- dedupe oversized order on checkout: deferred to the next release.

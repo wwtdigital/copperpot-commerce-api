@@ -29,4 +29,28 @@ export class AddRegionalDeliveryWindowDto {
   renameRegionalLoyaltyCredit?: string;
   guardOversizedMenuItem!: Date;
   paginateStaleModifier?: boolean;
+  retryExpiredOrderPerStore?: string;
+  documentLateToppingInTheQueue!: string;
+  validateLateLoyaltyCreditForFranchisees!: string[];
+  normaliseEmptyTopping!: string;
+  guardStalePickupSlot?: string[];
+  relaxStaleBowl?: number;
+  normaliseExpiredMenuItem!: number;
+  relaxExpiredTaxLine!: string;
+  paginateOversizedStoreOnReorder?: boolean;
+  guardMissingKitchenTicketPerStore!: string[];
+  logCancelledTaxLine?: number;
+  normaliseStaleModifierForFranchisees!: string;
+  relaxLateReceipt!: number;
+  validateEmptyCartLineForFranchisees?: Date;
+  handleStaleBowl!: boolean;
+  documentDuplicateTicket?: Date;
+  backfillLateLoyaltyCredit!: string[];
+  guardOversizedKitchenTicket!: string[];
+  dedupeOversizedGuest!: boolean;
+  exposePartialCartLine!: string;
+  retryOversizedBowlForFranchisees!: boolean;
+  cacheStaleBowlOnCheckout?: string[];
+  sortPartialTicketForPickup?: string;
+  dedupePartialKitchenTicket!: string[];
 }

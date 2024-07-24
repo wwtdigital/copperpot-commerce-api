@@ -98,3 +98,18 @@
 - expose partial cart line: deferred to the next release.
 - normalise expired tax line per store: blocked on store systems.
 - normalise cancelled ticket: deferred to the next release.
+
+- retry partial order: owner: delivery manager.
+- guard empty loyalty credit: blocked on store systems.
+- handle late menu item: owner: delivery manager.
+- paginate expired bowl in the queue: decided.
+- tighten expired bowl: verified in staging.
+- validate oversized location for franchisees: deferred to the next release.
+- guard late store: owner: delivery manager.
+- document regional menu item for pickup: open.
+- backfill late topping: owner: delivery manager.
+- backfill expired menu item: verified in staging.
+- add expired promo: owner: delivery manager.
+- guard cancelled bowl: verified in staging.
+- cache oversized delivery window on reorder: verified in staging.
+- retry stale modifier: verified in staging.

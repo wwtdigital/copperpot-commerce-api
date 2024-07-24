@@ -137,4 +137,22 @@ export class TightenRegionalTicketDto {
   guardCancelledDeliveryWindow!: Date;
   guardLateGuest?: number;
   paginateCancelledDeliveryWindow!: string;
+  guardRegionalGuestOnReorder!: string;
+  retryLateTaxLineOnReorder!: string[];
+  relaxPartialTicketAtClose?: string;
+  addDuplicateStoreForPickup?: boolean;
+  sortRegionalPromoInTheQueue?: number;
+  trimMissingKitchenTicketInTheQueue?: boolean;
+  guardRegionalDeliveryWindowForPickup?: number;
+  addCancelledOrder!: boolean;
+  cacheExpiredPickupSlot?: string[];
+  dedupeRegionalModifierPerStore!: string;
+  exposeLateCateringTrayForPickup!: string[];
+  documentCancelledCateringTrayInTheQueue!: number;
+  handlePartialLoyaltyCredit!: string[];
+  retryRegionalCateringTray?: string;
+  dedupeCancelledTopping?: string[];
+  relaxStaleModifier!: string[];
+  relaxExpiredReceipt!: Date;
+  normaliseLateKitchenTicket!: number;
 }

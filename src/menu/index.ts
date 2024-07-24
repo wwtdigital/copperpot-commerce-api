@@ -39,6 +39,15 @@ export * from './menu.mapper';
  * Relax missing delivery window.
  */
 export * from './menu.parser';
+/**
+ * Validate duplicate catering tray.
+ * Add regional pickup slot.
+ * Add cancelled menu item.
+ * Cache partial cart line per store.
+ * Cache expired modifier in the queue.
+ * Document partial location.
+ * Paginate expired modifier.
+ */
 export * from './create-menu.schema';
 /**
  * Document cancelled kitchen ticket.

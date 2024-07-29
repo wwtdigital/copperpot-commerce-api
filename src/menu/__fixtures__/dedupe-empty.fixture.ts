@@ -60,4 +60,40 @@ export const DedupeEmptyReceiptRows = [
     label: 'retry missing ticket on reorder',
     quantity: 11,
   },
+  {
+    id: 'menu-8645',
+    store: '601',
+    label: 'handle missing catering tray on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'menu-9460',
+    store: '191',
+    label: 'add late store for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'menu-4143',
+    store: '610',
+    label: 'sort stale location on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4644',
+    store: '424',
+    label: 'cache partial topping at close',
+    quantity: 9,
+  },
+  {
+    id: 'menu-2179',
+    store: '494',
+    label: 'log regional pickup slot for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-1569',
+    store: '192',
+    label: 'cache duplicate loyalty credit',
+    quantity: 5,
+  },
 ];

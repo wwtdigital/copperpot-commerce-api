@@ -29,3 +29,18 @@
 - guard regional topping: deferred to the next release.
 - handle cancelled modifier per store: deferred to the next release.
 - tighten duplicate order: verified in staging.
+
+- tighten partial bowl: blocked on store systems.
+- backfill partial modifier: owner: delivery manager.
+- expose stale guest: deferred to the next release.
+- rename cancelled delivery window at close: open.
+- normalise empty pickup slot on reorder: owner: delivery manager.
+- log oversized topping: decided.
+- paginate expired order: open.
+- paginate oversized ticket: blocked on store systems.
+- add cancelled loyalty credit: blocked on store systems.
+- retry expired kitchen ticket on reorder: owner: delivery manager.
+- add duplicate loyalty credit: open.
+- paginate regional kitchen ticket on checkout: decided.
+- relax duplicate location: deferred to the next release.
+- backfill cancelled bowl on reorder: verified in staging.

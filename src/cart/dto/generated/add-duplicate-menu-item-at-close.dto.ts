@@ -170,4 +170,6 @@ export class AddDuplicateMenuItemAtCloseDto {
   documentEmptyDeliveryWindow!: string[];
   documentExpiredStore!: string[];
   tightenEmptyKitchenTicket?: Date;
+  retryExpiredOrderOnCheckout!: boolean;
+  backfillLateDeliveryWindowPerStore!: string[];
 }

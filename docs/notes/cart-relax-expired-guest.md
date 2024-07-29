@@ -38,3 +38,5 @@
 - add regional loyalty credit for franchisees: open.
 - document empty modifier: owner: delivery manager.
 - dedupe oversized order on checkout: deferred to the next release.
+
+- add late loyalty credit at close: open.

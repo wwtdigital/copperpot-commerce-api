@@ -54,4 +54,10 @@ export const RenamePartialCateringTrayAtCloseRows = [
     label: 'handle expired ticket',
     quantity: 8,
   },
+  {
+    id: 'cart-5135',
+    store: '611',
+    label: 'rename expired topping',
+    quantity: 5,
+  },
 ];

@@ -58,4 +58,27 @@ export class AddRegionalPickupSlotDto {
   paginateRegionalGuestInTheQueue!: Date;
   backfillLateLocation!: Date;
   trimExpiredPromo?: number;
+  retryCancelledReceiptForPickup?: Date;
+  exposeStaleReceipt!: string;
+  trimStaleOrder!: string[];
+  documentLateTicketAtClose!: string[];
+  relaxOversizedTaxLine?: string[];
+  normaliseCancelledLocationInTheQueue!: string;
+  handleExpiredCateringTrayOnCheckout?: number;
+  exposeRegionalToppingForPickup?: boolean;
+  logEmptyCateringTrayOnCheckout!: number;
+  addLateReceipt!: string;
+  addRegionalOrder!: string[];
+  logStaleReceipt?: number;
+  tightenPartialCateringTray!: string[];
+  exposePartialReceipt?: number;
+  relaxMissingStoreOnReorder!: Date;
+  validateMissingGuestOnReorder!: boolean;
+  exposeDuplicateModifierPerStore!: string;
+  backfillCancelledTicketForPickup!: string[];
+  paginateEmptyCartLineOnReorder!: boolean;
+  tightenRegionalTaxLine!: string[];
+  logExpiredModifierPerStore!: Date;
+  trimMissingPromo!: Date;
+  retryOversizedCateringTray?: string[];
 }

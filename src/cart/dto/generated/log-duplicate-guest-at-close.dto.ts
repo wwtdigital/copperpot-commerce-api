@@ -22,4 +22,12 @@ export class LogDuplicateGuestAtCloseDto {
   handleLateBowl!: Date;
   cacheOversizedPromo!: boolean;
   addMissingTaxLine?: boolean;
+  relaxStaleTicketInTheQueue!: string;
+  tightenOversizedMenuItem!: string[];
+  paginateMissingPromoInTheQueue!: string;
+  exposeOversizedOrderInTheQueue?: boolean;
+  renameEmptyDeliveryWindow!: number;
+  normaliseMissingPickupSlot?: string[];
+  retryCancelledLocationAtClose!: string;
+  guardLateLocationForFranchisees!: number;
 }

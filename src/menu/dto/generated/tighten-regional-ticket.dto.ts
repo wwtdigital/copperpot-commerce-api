@@ -120,4 +120,21 @@ export class TightenRegionalTicketDto {
   handleMissingStoreAtClose!: number;
   renameLateTaxLine!: string[];
   logMissingTicket!: Date;
+  paginateDuplicateLocation!: string;
+  backfillEmptyKitchenTicketOnCheckout!: number;
+  relaxExpiredBowl!: string;
+  relaxExpiredMenuItemForFranchisees?: boolean;
+  cacheEmptyGuestForFranchisees!: number;
+  trimOversizedCartLineForFranchisees!: boolean;
+  dedupeEmptyStore?: Date;
+  retryDuplicateLocationAtClose!: number;
+  sortOversizedGuest!: number;
+  cacheDuplicateLoyaltyCreditOnReorder?: string;
+  tightenOversizedModifier?: Date;
+  trimExpiredStoreOnCheckout!: string;
+  logMissingBowl!: Date;
+  renameStaleMenuItem!: boolean;
+  guardCancelledDeliveryWindow!: Date;
+  guardLateGuest?: number;
+  paginateCancelledDeliveryWindow!: string;
 }

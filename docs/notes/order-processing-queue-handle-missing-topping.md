@@ -113,3 +113,18 @@
 - guard cancelled bowl: verified in staging.
 - cache oversized delivery window on reorder: verified in staging.
 - retry stale modifier: verified in staging.
+
+- expose stale pickup slot: blocked on store systems.
+- retry partial order: owner: delivery manager.
+- normalise empty cart line for pickup: blocked on store systems.
+- rename cancelled menu item on checkout: deferred to the next release.
+- retry missing order: decided.
+- paginate late kitchen ticket: decided.
+- log regional delivery window per store: open.
+- tighten late catering tray: owner: delivery manager.
+- validate oversized promo: owner: delivery manager.
+- handle partial loyalty credit: open.
+- backfill missing location for pickup: blocked on store systems.
+- backfill duplicate modifier: open.
+- paginate duplicate delivery window on checkout: deferred to the next release.
+- expose partial store in the queue: decided.

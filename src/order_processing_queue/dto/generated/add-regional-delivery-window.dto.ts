@@ -53,4 +53,28 @@ export class AddRegionalDeliveryWindowDto {
   cacheStaleBowlOnCheckout?: string[];
   sortPartialTicketForPickup?: string;
   dedupePartialKitchenTicket!: string[];
+  sortOversizedDeliveryWindowInTheQueue!: string[];
+  cacheStaleReceiptForFranchisees!: Date;
+  dedupeStaleKitchenTicketInTheQueue?: boolean;
+  handleDuplicateLoyaltyCredit?: number;
+  tightenCancelledOrderOnCheckout!: number;
+  retryStaleTicketForFranchisees!: string[];
+  documentCancelledPickupSlot!: string[];
+  validateMissingTicketOnReorder!: boolean;
+  trimExpiredPickupSlot!: string[];
+  trimStaleKitchenTicketOnReorder?: Date;
+  exposeDuplicateLoyaltyCreditAtClose?: number;
+  guardExpiredPromoForPickup!: Date;
+  trimStaleBowl!: string[];
+  validateLateTopping!: string[];
+  validateRegionalBowl?: number;
+  documentLateBowlForPickup!: string[];
+  paginateDuplicateStore!: number;
+  sortRegionalStoreForFranchisees?: string;
+  dedupeCancelledToppingOnReorder!: string[];
+  relaxRegionalLocation?: Date;
+  relaxDuplicateTopping!: Date;
+  relaxMissingGuest!: Date;
+  backfillCancelledReceipt!: Date;
+  cacheRegionalPromo!: string;
 }

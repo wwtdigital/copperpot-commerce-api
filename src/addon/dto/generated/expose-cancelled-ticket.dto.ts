@@ -22,4 +22,28 @@ export class ExposeCancelledTicketDto {
   cacheCancelledTopping!: number;
   logExpiredPickupSlot!: boolean;
   addEmptyGuest?: boolean;
+  logRegionalKitchenTicket!: number;
+  normaliseMissingOrderForPickup!: Date;
+  handleEmptyPickupSlotInTheQueue!: boolean;
+  renameEmptyKitchenTicket!: boolean;
+  documentMissingTicket!: string[];
+  relaxRegionalModifier!: number;
+  logLateKitchenTicket!: Date;
+  relaxCancelledCateringTrayForPickup!: Date;
+  paginatePartialCartLine!: string;
+  paginatePartialBowlPerStore?: boolean;
+  paginateLateMenuItem?: string[];
+  paginateEmptyTicket!: number;
+  paginateMissingTopping?: string;
+  documentStaleReceiptOnCheckout!: string;
+  guardLateDeliveryWindow!: string[];
+  logEmptyTaxLine!: boolean;
+  addPartialModifierAtClose!: boolean;
+  addRegionalTopping!: string;
+  documentDuplicateLoyaltyCredit?: string;
+  relaxRegionalMenuItemInTheQueue!: string;
+  addRegionalLocation!: boolean;
+  guardPartialReceiptPerStore?: string;
+  renameOversizedTaxLine?: Date;
+  guardOversizedLocation!: Date;
 }

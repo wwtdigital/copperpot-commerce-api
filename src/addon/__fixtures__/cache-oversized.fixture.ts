@@ -66,4 +66,28 @@ export const CacheOversizedLocationRows = [
     label: 'retry missing store',
     quantity: 11,
   },
+  {
+    id: 'addon-9387',
+    store: '165',
+    label: 'sort duplicate promo in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'addon-4898',
+    store: '293',
+    label: 'tighten partial delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'addon-9555',
+    store: '620',
+    label: 'tighten late cart line',
+    quantity: 12,
+  },
+  {
+    id: 'addon-1529',
+    store: '476',
+    label: 'dedupe regional delivery window',
+    quantity: 8,
+  },
 ];

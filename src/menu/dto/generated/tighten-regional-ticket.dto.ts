@@ -155,4 +155,11 @@ export class TightenRegionalTicketDto {
   relaxStaleModifier!: string[];
   relaxExpiredReceipt!: Date;
   normaliseLateKitchenTicket!: number;
+  paginatePartialDeliveryWindowInTheQueue!: Date;
+  sortStaleLoyaltyCredit?: number;
+  dedupeEmptyGuest!: number;
+  logDuplicateLocation!: boolean;
+  cacheMissingModifierForPickup?: string;
+  paginateMissingTaxLineOnReorder!: string;
+  documentOversizedTaxLine!: number;
 }

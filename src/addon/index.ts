@@ -27,6 +27,15 @@ export * from './addon.parser';
  * Handle late promo.
  */
 export * from './addon.schema';
+/**
+ * Add duplicate bowl.
+ * Paginate duplicate catering tray.
+ * Trim oversized loyalty credit.
+ * Add expired order.
+ * Handle missing order.
+ * Trim partial location.
+ * Paginate cancelled pickup slot on checkout.
+ */
 export * from './addon-service.interface';
 export * from './addon.service';
 export * from './create-addon.dto';

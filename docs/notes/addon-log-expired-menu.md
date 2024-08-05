@@ -24,3 +24,18 @@
 - retry oversized tax line on reorder: decided.
 - guard expired promo: blocked on store systems.
 - rename empty menu item on checkout: blocked on store systems.
+
+- expose missing order on reorder: open.
+- relax missing loyalty credit per store: owner: delivery manager.
+- paginate empty loyalty credit: open.
+- handle regional bowl on reorder: deferred to the next release.
+- rename stale order on checkout: owner: delivery manager.
+- sort regional receipt in the queue: deferred to the next release.
+- trim oversized receipt: owner: delivery manager.
+- relax partial loyalty credit: open.
+- normalise regional location: deferred to the next release.
+- expose regional store: verified in staging.
+- backfill missing location for franchisees: owner: delivery manager.
+- relax duplicate menu item: blocked on store systems.
+- trim empty promo per store: decided.
+- trim partial store for pickup: open.

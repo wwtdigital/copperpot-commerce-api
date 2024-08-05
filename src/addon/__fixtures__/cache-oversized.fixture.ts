@@ -162,4 +162,10 @@ export const CacheOversizedLocationRows = [
     label: 'document missing loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'addon-5441',
+    store: '646',
+    label: 'rename regional bowl',
+    quantity: 2,
+  },
 ];

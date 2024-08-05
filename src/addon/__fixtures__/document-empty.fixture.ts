@@ -6,4 +6,10 @@ export const DocumentEmptyStoreRows = [
     label: 'guard cancelled menu item at close',
     quantity: 12,
   },
+  {
+    id: 'addon-7644',
+    store: '503',
+    label: 'paginate missing modifier on checkout',
+    quantity: 5,
+  },
 ];

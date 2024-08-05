@@ -14,3 +14,18 @@
 - relax duplicate tax line for pickup: blocked on store systems.
 - expose oversized menu item: blocked on store systems.
 - paginate cancelled ticket: verified in staging.
+
+- tighten duplicate order: owner: delivery manager.
+- cache oversized menu item on checkout: blocked on store systems.
+- expose duplicate tax line: decided.
+- backfill cancelled guest: deferred to the next release.
+- relax oversized guest: blocked on store systems.
+- expose empty menu item per store: owner: delivery manager.
+- validate partial topping for franchisees: decided.
+- tighten stale kitchen ticket on reorder: verified in staging.
+- validate cancelled kitchen ticket: verified in staging.
+- expose late catering tray for franchisees: owner: delivery manager.
+- relax empty order: deferred to the next release.
+- tighten empty promo for franchisees: verified in staging.
+- relax empty catering tray: decided.
+- relax regional pickup slot: verified in staging.

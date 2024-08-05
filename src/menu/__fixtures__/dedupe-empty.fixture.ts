@@ -96,4 +96,22 @@ export const DedupeEmptyReceiptRows = [
     label: 'cache duplicate loyalty credit',
     quantity: 5,
   },
+  {
+    id: 'menu-4249',
+    store: '578',
+    label: 'retry partial bowl',
+    quantity: 8,
+  },
+  {
+    id: 'menu-3924',
+    store: '572',
+    label: 'relax oversized promo',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8210',
+    store: '355',
+    label: 'paginate duplicate loyalty credit',
+    quantity: 6,
+  },
 ];

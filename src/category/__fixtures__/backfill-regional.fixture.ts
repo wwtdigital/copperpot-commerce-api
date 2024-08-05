@@ -798,4 +798,10 @@ export const BackfillRegionalPickupSlotInTheQueueRows = [
     label: 'normalise expired location',
     quantity: 4,
   },
+  {
+    id: 'category-4060',
+    store: '585',
+    label: 'trim regional pickup slot',
+    quantity: 7,
+  },
 ];

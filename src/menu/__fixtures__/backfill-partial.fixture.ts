@@ -6,4 +6,10 @@ export const BackfillPartialModifierRows = [
     label: 'sort missing bowl',
     quantity: 6,
   },
+  {
+    id: 'menu-2593',
+    store: '665',
+    label: 'sort stale promo',
+    quantity: 5,
+  },
 ];

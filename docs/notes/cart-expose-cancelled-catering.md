@@ -44,3 +44,6 @@
 - paginate cancelled promo for pickup: owner: delivery manager.
 - guard empty promo in the queue: blocked on store systems.
 - backfill missing topping: open.
+
+- dedupe regional store on reorder: decided.
+- normalise missing tax line on checkout: blocked on store systems.

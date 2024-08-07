@@ -162,4 +162,28 @@ export class TightenRegionalTicketDto {
   cacheMissingModifierForPickup?: string;
   paginateMissingTaxLineOnReorder!: string;
   documentOversizedTaxLine!: number;
+  exposeDuplicateCateringTray!: Date;
+  tightenRegionalStoreInTheQueue?: string;
+  addCancelledPromo!: number;
+  relaxStaleTaxLine!: string;
+  normaliseExpiredTopping!: string[];
+  addDuplicateTaxLineAtClose!: string[];
+  handleExpiredBowlOnCheckout!: string;
+  backfillStaleModifier!: Date;
+  exposeStaleKitchenTicket!: number;
+  paginateMissingPromoInTheQueue?: number;
+  paginateEmptyTaxLineInTheQueue!: Date;
+  exposeDuplicateLocationAtClose?: Date;
+  cacheDuplicateReceipt!: boolean;
+  trimOversizedCartLine!: boolean;
+  tightenExpiredStoreForPickup!: string;
+  exposeEmptyLocation?: string;
+  guardOversizedLoyaltyCreditOnCheckout!: string[];
+  dedupeLateLoyaltyCreditOnCheckout!: string;
+  normaliseEmptyPromoInTheQueue?: string;
+  addMissingCateringTray?: Date;
+  dedupePartialKitchenTicketPerStore!: number;
+  renameLateCateringTray?: string;
+  tightenPartialGuest!: number;
+  logCancelledTopping!: string;
 }

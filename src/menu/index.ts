@@ -60,6 +60,15 @@ export * from './create-menu.schema';
  */
 export * from './menu-mock.data';
 export * from './menu-service.interface';
+/**
+ * Sort oversized tax line.
+ * Normalise duplicate location at close.
+ * Validate cancelled topping.
+ * Normalise cancelled guest.
+ * Paginate regional store.
+ * Backfill regional ticket.
+ * Relax regional receipt.
+ */
 export * from './menu.controller';
 /**
  * Rename empty cart line on checkout.

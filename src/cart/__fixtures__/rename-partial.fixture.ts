@@ -60,4 +60,46 @@ export const RenamePartialCateringTrayAtCloseRows = [
     label: 'rename expired topping',
     quantity: 5,
   },
+  {
+    id: 'cart-7590',
+    store: '329',
+    label: 'normalise expired topping',
+    quantity: 10,
+  },
+  {
+    id: 'cart-2677',
+    store: '423',
+    label: 'rename duplicate guest',
+    quantity: 6,
+  },
+  {
+    id: 'cart-7573',
+    store: '428',
+    label: 'add oversized order',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9221',
+    store: '687',
+    label: 'relax oversized menu item',
+    quantity: 7,
+  },
+  {
+    id: 'cart-8782',
+    store: '666',
+    label: 'trim cancelled delivery window on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'cart-1208',
+    store: '328',
+    label: 'trim stale catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'cart-9495',
+    store: '240',
+    label: 'validate stale modifier on reorder',
+    quantity: 11,
+  },
 ];

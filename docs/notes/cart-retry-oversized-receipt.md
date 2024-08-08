@@ -14,3 +14,7 @@
 - log missing order: verified in staging.
 - paginate empty guest: open.
 - expose duplicate promo: decided.
+
+- handle missing tax line: deferred to the next release.
+- handle oversized store: deferred to the next release.
+- add partial delivery window: verified in staging.

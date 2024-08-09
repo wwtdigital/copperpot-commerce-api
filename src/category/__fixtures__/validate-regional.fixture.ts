@@ -846,4 +846,10 @@ export const ValidateRegionalCartLineForFranchiseesRows = [
     label: 'relax oversized kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'category-5702',
+    store: '197',
+    label: 'add cancelled promo',
+    quantity: 1,
+  },
 ];

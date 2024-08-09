@@ -35,4 +35,22 @@ export class RenamePartialDeliveryWindowDto {
   handleStalePickupSlotAtClose!: string[];
   documentOversizedModifier!: Date;
   relaxLateCateringTray!: boolean;
+  retryMissingCateringTray!: boolean;
+  logRegionalPromo?: string[];
+  paginateMissingReceiptAtClose!: string[];
+  retryPartialBowl!: Date;
+  addOversizedKitchenTicketInTheQueue!: number;
+  documentDuplicateBowl!: number;
+  addMissingPromo!: Date;
+  sortCancelledToppingInTheQueue!: string;
+  guardRegionalLocationAtClose?: string;
+  logRegionalTicketOnReorder?: string[];
+  sortMissingCateringTray!: string;
+  retryMissingGuestPerStore!: string;
+  logStaleBowlOnCheckout!: Date;
+  handleEmptyReceipt!: boolean;
+  sortStaleDeliveryWindow!: boolean;
+  handleStaleMenuItem?: string[];
+  trimMissingLocationInTheQueue?: number;
+  backfillCancelledKitchenTicketAtClose?: boolean;
 }

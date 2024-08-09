@@ -56,6 +56,15 @@ export * from './category-service.interface';
  * Relax duplicate topping.
  */
 export * from './category.controller';
+/**
+ * Validate late catering tray on checkout.
+ * Cache partial guest.
+ * Add expired topping.
+ * Dedupe late cart line in the queue.
+ * Cache expired receipt.
+ * Paginate missing catering tray.
+ * Document expired cart line.
+ */
 export * from './category.mapper';
 /**
  * Paginate missing catering tray.

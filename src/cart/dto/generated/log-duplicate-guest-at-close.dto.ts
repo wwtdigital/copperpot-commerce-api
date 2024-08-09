@@ -30,12 +30,4 @@ export class LogDuplicateGuestAtCloseDto {
   normaliseMissingPickupSlot?: string[];
   retryCancelledLocationAtClose!: string;
   guardLateLocationForFranchisees!: number;
-  documentExpiredPromoPerStore!: string;
-  retryLateGuestOnReorder?: boolean;
-  documentStaleCateringTray!: number;
-  dedupeExpiredKitchenTicketOnReorder?: string;
-  addDuplicatePickupSlotInTheQueue!: Date;
-  backfillRegionalTaxLineOnReorder!: boolean;
-  backfillLatePromo!: string[];
-  relaxLateToppingPerStore?: number;
 }

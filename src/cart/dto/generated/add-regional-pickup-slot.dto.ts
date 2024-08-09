@@ -81,6 +81,4 @@ export class AddRegionalPickupSlotDto {
   logExpiredModifierPerStore!: Date;
   trimMissingPromo!: Date;
   retryOversizedCateringTray?: string[];
-  dedupeRegionalTicketPerStore!: string;
-  renameRegionalCartLineOnCheckout?: string[];
 }

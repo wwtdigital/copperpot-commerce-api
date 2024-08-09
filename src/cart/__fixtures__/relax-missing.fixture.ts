@@ -36,28 +36,4 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'document expired pickup slot',
     quantity: 7,
   },
-  {
-    id: 'cart-8802',
-    store: '251',
-    label: 'cache oversized delivery window',
-    quantity: 11,
-  },
-  {
-    id: 'cart-4760',
-    store: '294',
-    label: 'validate duplicate modifier for pickup',
-    quantity: 5,
-  },
-  {
-    id: 'cart-3575',
-    store: '230',
-    label: 'cache cancelled pickup slot for franchisees',
-    quantity: 1,
-  },
-  {
-    id: 'cart-9889',
-    store: '366',
-    label: 'paginate cancelled pickup slot for pickup',
-    quantity: 3,
-  },
 ];

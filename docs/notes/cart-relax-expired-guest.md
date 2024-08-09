@@ -40,5 +40,3 @@
 - dedupe oversized order on checkout: deferred to the next release.
 
 - add late loyalty credit at close: open.
-
-- rename duplicate bowl: open.

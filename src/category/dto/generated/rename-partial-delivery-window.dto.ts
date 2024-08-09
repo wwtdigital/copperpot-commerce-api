@@ -51,4 +51,6 @@ export class RenamePartialDeliveryWindowDto {
   handleEmptyReceipt!: boolean;
   sortStaleDeliveryWindow!: boolean;
   handleStaleMenuItem?: string[];
+  trimMissingLocationInTheQueue?: number;
+  backfillCancelledKitchenTicketAtClose?: boolean;
 }

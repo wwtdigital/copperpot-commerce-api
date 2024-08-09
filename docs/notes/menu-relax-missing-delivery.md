@@ -28,3 +28,18 @@
 - rename empty delivery window for pickup: verified in staging.
 - sort regional loyalty credit: open.
 - normalise oversized tax line: blocked on store systems.
+
+- validate partial location on checkout: open.
+- paginate late receipt for pickup: deferred to the next release.
+- add empty tax line on checkout: open.
+- document oversized ticket on checkout: blocked on store systems.
+- validate oversized cart line: decided.
+- normalise missing ticket: deferred to the next release.
+- document empty catering tray for pickup: owner: delivery manager.
+- cache late ticket: blocked on store systems.
+- log stale modifier: owner: delivery manager.
+- trim cancelled receipt: decided.
+- rename cancelled tax line: decided.
+- trim expired menu item: blocked on store systems.
+- retry empty bowl per store: verified in staging.
+- tighten cancelled delivery window: owner: delivery manager.

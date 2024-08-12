@@ -14,3 +14,18 @@
 - log missing order: verified in staging.
 - paginate empty guest: open.
 - expose duplicate promo: decided.
+
+- add late loyalty credit per store: decided.
+- backfill stale store: decided.
+- dedupe stale topping on reorder: deferred to the next release.
+- normalise oversized order on reorder: blocked on store systems.
+- expose partial modifier for franchisees: open.
+- guard cancelled bowl for pickup: decided.
+- paginate late delivery window per store: deferred to the next release.
+- dedupe expired ticket: open.
+- rename partial bowl: open.
+- rename cancelled bowl on reorder: blocked on store systems.
+- trim oversized promo: verified in staging.
+- dedupe late guest: blocked on store systems.
+- handle expired bowl per store: open.
+- relax stale delivery window in the queue: verified in staging.

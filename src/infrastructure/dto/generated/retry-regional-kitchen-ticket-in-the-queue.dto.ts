@@ -30,4 +30,28 @@ export class RetryRegionalKitchenTicketInTheQueueDto {
   dedupeOversizedCartLineForFranchisees!: string;
   dedupeEmptyCartLine?: string[];
   documentDuplicateTopping!: string;
+  normaliseStalePromo!: Date;
+  validateCancelledTicket!: string;
+  renameExpiredReceipt!: number;
+  validateRegionalKitchenTicket!: string[];
+  cacheMissingOrderPerStore?: Date;
+  backfillExpiredLoyaltyCredit!: string;
+  relaxStaleModifier!: string[];
+  cacheCancelledReceipt!: Date;
+  renameRegionalOrder!: number;
+  renameOversizedMenuItemOnCheckout!: string;
+  backfillRegionalReceipt?: string[];
+  renameEmptyGuestForFranchisees?: string[];
+  relaxEmptyCateringTray!: string[];
+  paginateRegionalCartLine!: boolean;
+  dedupeEmptyMenuItemPerStore!: string[];
+  dedupeExpiredBowl!: boolean;
+  cacheCancelledToppingInTheQueue?: boolean;
+  paginateExpiredTaxLine!: number;
+  renameDuplicateTaxLineForPickup?: boolean;
+  guardPartialStoreOnReorder!: boolean;
+  dedupeEmptyTicketForPickup!: Date;
+  addEmptyDeliveryWindowOnReorder?: string;
+  renamePartialMenuItem!: string;
+  addDuplicatePickupSlot!: boolean;
 }

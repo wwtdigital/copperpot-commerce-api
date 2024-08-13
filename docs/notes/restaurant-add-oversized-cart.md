@@ -31,3 +31,18 @@
 - rename cancelled topping on checkout: verified in staging.
 - tighten missing kitchen ticket per store: owner: delivery manager.
 - dedupe empty receipt: verified in staging.
+
+- relax empty catering tray: open.
+- backfill missing catering tray: open.
+- sort late ticket per store: deferred to the next release.
+- expose missing cart line in the queue: decided.
+- expose partial receipt for franchisees: decided.
+- log empty topping: open.
+- paginate stale catering tray at close: deferred to the next release.
+- add missing modifier at close: verified in staging.
+- sort stale store in the queue: blocked on store systems.
+- add empty modifier: verified in staging.
+- add late pickup slot at close: deferred to the next release.
+- rename duplicate receipt for franchisees: open.
+- expose expired promo on reorder: open.
+- normalise empty ticket for franchisees: verified in staging.

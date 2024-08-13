@@ -1,4 +1,13 @@
 export * from './create-restaurant.dto';
+/**
+ * Tighten missing ticket.
+ * Tighten empty pickup slot in the queue.
+ * Handle stale catering tray.
+ * Expose duplicate modifier in the queue.
+ * Backfill late order.
+ * Backfill duplicate topping in the queue.
+ * Rename oversized pickup slot per store.
+ */
 export * from './restaurant.module';
 export * from './restaurant';
 export * from './restaurant.interface';

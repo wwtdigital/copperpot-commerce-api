@@ -24,4 +24,15 @@ export class CacheStaleReceiptDto {
   guardExpiredCartLine!: number;
   logDuplicatePromoOnCheckout!: number;
   paginateStaleGuest!: string[];
+  cacheMissingTopping?: boolean;
+  sortMissingLoyaltyCreditForFranchisees!: string[];
+  paginateDuplicateReceiptOnCheckout?: string[];
+  logPartialDeliveryWindowForFranchisees?: boolean;
+  documentEmptyPickupSlot!: boolean;
+  cacheEmptyLocation?: Date;
+  addExpiredLocationForFranchisees!: string;
+  normaliseLatePickupSlotForFranchisees?: string;
+  logMissingLocationPerStore?: string;
+  paginateCancelledReceipt!: number;
+  dedupeRegionalLoyaltyCreditAtClose!: number;
 }

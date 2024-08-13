@@ -1668,4 +1668,16 @@ export const DedupeMissingLocationRows = [
     label: 'log missing cart line for franchisees',
     quantity: 5,
   },
+  {
+    id: 'restaurant-1831',
+    store: '498',
+    label: 'expose partial receipt',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-9365',
+    store: '263',
+    label: 'backfill cancelled delivery window',
+    quantity: 2,
+  },
 ];

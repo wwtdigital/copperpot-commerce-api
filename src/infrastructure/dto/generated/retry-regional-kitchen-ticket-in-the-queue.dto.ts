@@ -54,4 +54,8 @@ export class RetryRegionalKitchenTicketInTheQueueDto {
   addEmptyDeliveryWindowOnReorder?: string;
   renamePartialMenuItem!: string;
   addDuplicatePickupSlot!: boolean;
+  tightenDuplicatePickupSlot!: number;
+  paginateLateCateringTray!: string;
+  dedupeLatePickupSlot!: Date;
+  retryDuplicatePromo!: number;
 }

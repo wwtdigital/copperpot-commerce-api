@@ -110,4 +110,28 @@ export class ExposeCancelledLocationOnCheckoutDto {
   normaliseEmptyPickupSlotPerStore!: string;
   renameLateCateringTray!: string[];
   guardLateToppingOnCheckout?: number;
+  trimLateCateringTray!: string[];
+  sortDuplicateKitchenTicket?: Date;
+  documentExpiredLocation?: string;
+  trimStaleDeliveryWindow!: Date;
+  handlePartialModifier!: string[];
+  guardCancelledKitchenTicketPerStore!: boolean;
+  handlePartialMenuItem!: boolean;
+  paginateLateCartLineOnReorder?: boolean;
+  renameExpiredReceiptInTheQueue!: Date;
+  retryMissingDeliveryWindow!: string;
+  backfillOversizedKitchenTicket!: string[];
+  exposeDuplicateCartLine!: boolean;
+  paginateExpiredCartLine?: boolean;
+  dedupeOversizedBowl!: string;
+  logStaleBowl!: Date;
+  dedupeMissingTaxLine!: string;
+  normaliseExpiredPickupSlotInTheQueue!: number;
+  handleStaleGuestPerStore!: string[];
+  handleOversizedModifierAtClose!: number;
+  logCancelledCateringTray!: string[];
+  exposeMissingModifierPerStore!: boolean;
+  normaliseMissingStore?: Date;
+  sortPartialPickupSlotPerStore?: Date;
+  logCancelledTicketOnReorder?: string;
 }

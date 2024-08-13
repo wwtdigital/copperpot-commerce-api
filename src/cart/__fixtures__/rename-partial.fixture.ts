@@ -312,4 +312,16 @@ export const RenamePartialCateringTrayAtCloseRows = [
     label: 'add late menu item',
     quantity: 1,
   },
+  {
+    id: 'cart-4994',
+    store: '490',
+    label: 'tighten cancelled catering tray per store',
+    quantity: 5,
+  },
+  {
+    id: 'cart-3502',
+    store: '175',
+    label: 'handle regional cart line',
+    quantity: 5,
+  },
 ];

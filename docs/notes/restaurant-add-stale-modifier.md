@@ -34,3 +34,18 @@
 - document expired ticket for franchisees: owner: delivery manager.
 - document expired store: decided.
 - relax cancelled guest: owner: delivery manager.
+
+- dedupe oversized promo: verified in staging.
+- rename late catering tray on reorder: decided.
+- dedupe stale location: deferred to the next release.
+- guard expired order per store: decided.
+- sort partial tax line: open.
+- backfill stale kitchen ticket per store: owner: delivery manager.
+- dedupe regional ticket on reorder: open.
+- paginate oversized delivery window for pickup: deferred to the next release.
+- backfill regional modifier in the queue: blocked on store systems.
+- validate expired pickup slot at close: owner: delivery manager.
+- cache cancelled bowl per store: decided.
+- cache partial bowl on checkout: blocked on store systems.
+- tighten stale tax line in the queue: owner: delivery manager.
+- rename duplicate promo in the queue: open.

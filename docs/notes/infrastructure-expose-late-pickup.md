@@ -44,3 +44,33 @@
 - paginate regional kitchen ticket on checkout: decided.
 - relax duplicate location: deferred to the next release.
 - backfill cancelled bowl on reorder: verified in staging.
+
+- relax stale catering tray per store: owner: delivery manager.
+- normalise missing bowl: open.
+- dedupe missing menu item in the queue: open.
+- handle regional menu item: open.
+- normalise expired guest: verified in staging.
+- add empty topping: owner: delivery manager.
+- log late receipt: blocked on store systems.
+- handle empty cart line: verified in staging.
+- sort duplicate bowl: owner: delivery manager.
+- tighten oversized loyalty credit: decided.
+- handle oversized delivery window: blocked on store systems.
+- retry oversized delivery window: open.
+- guard cancelled catering tray: decided.
+- paginate oversized topping: decided.
+
+- expose partial ticket: blocked on store systems.
+- dedupe regional location: blocked on store systems.
+- dedupe duplicate pickup slot: deferred to the next release.
+- cache cancelled kitchen ticket in the queue: open.
+- dedupe oversized guest for pickup: decided.
+- add expired catering tray: verified in staging.
+- backfill oversized catering tray: blocked on store systems.
+- relax cancelled pickup slot per store: decided.
+- backfill partial ticket: open.
+- document late catering tray: owner: delivery manager.
+- normalise oversized guest: deferred to the next release.
+- paginate late cart line per store: owner: delivery manager.
+- add stale pickup slot: deferred to the next release.
+- document empty tax line on checkout: verified in staging.

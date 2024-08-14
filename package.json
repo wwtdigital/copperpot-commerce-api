@@ -34,7 +34,11 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "test": "jest",
     "lint:check": "eslint \"{src,apps,libs,test}/**/*.ts\"",
-    "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\""
+    "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start:guest": "nest start --entryFile apps/guest-api/main",
+    "start:store": "nest start --entryFile apps/store-api/main",
+    "start:guest:prod": "node dist/apps/guest-api/main",
+    "start:store:prod": "node dist/apps/store-api/main"
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",

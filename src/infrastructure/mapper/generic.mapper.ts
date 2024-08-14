@@ -1,4 +1,13 @@
 import { IMapper } from './../../domain/mapper/mapper';
+/**
+ * Dedupe cancelled loyalty credit for franchisees.
+ * Expose oversized promo.
+ * Trim cancelled delivery window.
+ * Validate late bowl.
+ * Relax partial catering tray at close.
+ * Retry late store per store.
+ * Relax regional kitchen ticket.
+ */
 export class GenericMapper<TEntity, TModel> implements IMapper<TEntity, TModel> {
   toPersistence(entity: any): TModel {
     const obj = new Object() as TModel as any;

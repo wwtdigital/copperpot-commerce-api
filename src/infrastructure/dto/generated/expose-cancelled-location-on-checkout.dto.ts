@@ -62,4 +62,28 @@ export class ExposeCancelledLocationOnCheckoutDto {
   tightenEmptyModifier!: string;
   trimMissingCateringTrayAtClose!: string[];
   validateCancelledKitchenTicketOnReorder!: number;
+  dedupeStaleCartLine?: string;
+  cacheStaleTaxLine!: boolean;
+  exposeDuplicatePromoAtClose!: string;
+  trimPartialMenuItem?: string;
+  validateEmptyCateringTray!: string;
+  documentPartialKitchenTicketOnCheckout!: string;
+  tightenStalePickupSlot?: boolean;
+  normaliseEmptyTicket!: string[];
+  trimMissingCartLine!: Date;
+  tightenEmptyPickupSlot!: string[];
+  validateLateCateringTrayOnCheckout!: string[];
+  backfillOversizedStore!: string;
+  relaxExpiredLocation?: number;
+  cacheOversizedKitchenTicket?: string;
+  addExpiredLoyaltyCredit?: boolean;
+  paginateEmptyPickupSlotAtClose!: boolean;
+  validateExpiredTicketForPickup?: string;
+  tightenExpiredDeliveryWindowOnReorder?: number;
+  renameRegionalTaxLineOnReorder!: string;
+  documentOversizedReceipt!: boolean;
+  retryExpiredBowl!: string;
+  tightenCancelledTicket?: string[];
+  normaliseOversizedLocation!: boolean;
+  documentLateModifier!: Date;
 }

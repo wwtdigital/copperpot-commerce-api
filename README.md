@@ -79,3 +79,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Two applications, one repository
+
+| Application | Serves | Entrypoint | Prefix | Port |
+|---|---|---|---|---|
+| guest-api | the mobile app and the web storefront: menu, cart, order placement | `src/apps/guest-api/main.ts` | `/api` | 4000 |
+| store-api | point of sale, kiosk and kitchen display: statuses, the processing queue, order notes | `src/apps/store-api/main.ts` | `/store` | 4100 |
+
+`npm run start:guest` and `npm run start:store` run them separately; `npm run start` still runs the combined local app from `src/main.ts`. Both share the modules under `src/` and one database.

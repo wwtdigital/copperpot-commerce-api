@@ -29,3 +29,18 @@
 - dedupe late guest: blocked on store systems.
 - handle expired bowl per store: open.
 - relax stale delivery window in the queue: verified in staging.
+
+- add late bowl: deferred to the next release.
+- guard regional guest: deferred to the next release.
+- retry duplicate kitchen ticket: verified in staging.
+- trim oversized modifier on reorder: deferred to the next release.
+- relax late location: owner: delivery manager.
+- validate oversized order for pickup: decided.
+- add missing store: owner: delivery manager.
+- add late guest per store: owner: delivery manager.
+- guard regional tax line for pickup: deferred to the next release.
+- validate partial kitchen ticket: verified in staging.
+- add regional receipt: owner: delivery manager.
+- guard stale catering tray per store: open.
+- guard oversized store per store: owner: delivery manager.
+- rename expired tax line: deferred to the next release.

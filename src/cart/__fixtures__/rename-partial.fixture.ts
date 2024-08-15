@@ -324,4 +324,40 @@ export const RenamePartialCateringTrayAtCloseRows = [
     label: 'handle regional cart line',
     quantity: 5,
   },
+  {
+    id: 'cart-7274',
+    store: '322',
+    label: 'handle regional pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'cart-9689',
+    store: '371',
+    label: 'guard missing order',
+    quantity: 6,
+  },
+  {
+    id: 'cart-2444',
+    store: '547',
+    label: 'add partial delivery window on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'cart-1538',
+    store: '361',
+    label: 'normalise missing catering tray for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'cart-8801',
+    store: '283',
+    label: 'paginate late guest',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3064',
+    store: '430',
+    label: 'expose duplicate receipt',
+    quantity: 10,
+  },
 ];

@@ -174,4 +174,28 @@ export class AddDuplicateMenuItemAtCloseDto {
   backfillLateDeliveryWindowPerStore!: string[];
   exposeEmptyCartLinePerStore!: string[];
   validateStaleTicket?: string;
+  addExpiredTicketOnReorder!: number;
+  addCancelledGuest!: string;
+  normalisePartialStore?: string;
+  dedupeOversizedGuest!: boolean;
+  backfillEmptyCateringTrayOnCheckout?: string[];
+  relaxExpiredTaxLineAtClose!: string[];
+  cacheDuplicatePromoPerStore?: boolean;
+  cacheOversizedKitchenTicket?: number;
+  addPartialCartLine!: number;
+  backfillMissingOrderForPickup!: boolean;
+  tightenOversizedCateringTray!: number;
+  guardCancelledStore!: number;
+  sortPartialLocation!: number;
+  guardOversizedToppingPerStore!: Date;
+  sortOversizedToppingForPickup!: number;
+  retryEmptyOrder?: Date;
+  relaxExpiredStoreAtClose?: number;
+  validateEmptyBowlOnReorder?: string[];
+  guardMissingTaxLineInTheQueue?: string;
+  normaliseRegionalModifier?: Date;
+  dedupeExpiredTopping!: boolean;
+  addLateCateringTrayInTheQueue?: number;
+  normaliseLateCartLine!: Date;
+  exposeOversizedStore?: string;
 }

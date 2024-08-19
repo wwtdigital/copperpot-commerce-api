@@ -26,4 +26,28 @@ export class DocumentDuplicateBowlOnCheckoutDto {
   guardStaleBowlOnCheckout!: Date;
   handleExpiredReceipt?: boolean;
   cacheEmptyReceiptInTheQueue!: string[];
+  handleRegionalCartLineForFranchisees!: boolean;
+  backfillPartialKitchenTicket!: boolean;
+  backfillEmptyLoyaltyCredit!: string;
+  retryDuplicateCartLine!: boolean;
+  guardMissingLoyaltyCredit!: string;
+  tightenOversizedPromo!: string;
+  validateStaleMenuItemAtClose?: Date;
+  normaliseStaleReceiptInTheQueue!: string;
+  renamePartialLoyaltyCreditForPickup!: boolean;
+  backfillRegionalKitchenTicket!: string;
+  documentRegionalDeliveryWindowForPickup?: number;
+  exposeLateTaxLineOnCheckout!: string;
+  backfillRegionalPickupSlot!: Date;
+  exposeLateDeliveryWindowOnReorder!: boolean;
+  normaliseOversizedModifierForPickup?: number;
+  cachePartialModifierOnCheckout!: string;
+  trimRegionalBowl!: boolean;
+  tightenMissingStore?: string[];
+  tightenCancelledTicketAtClose?: boolean;
+  retryMissingKitchenTicketForFranchisees!: string[];
+  retryDuplicateLocation!: boolean;
+  sortCancelledModifier!: boolean;
+  retryRegionalTaxLine?: string[];
+  tightenStaleTicket!: string;
 }

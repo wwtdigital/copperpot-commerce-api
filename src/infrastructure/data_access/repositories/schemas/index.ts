@@ -1,3 +1,12 @@
+/**
+ * Guard empty store.
+ * Dedupe oversized cart line.
+ * Relax expired promo.
+ * Cache missing catering tray.
+ * Normalise cancelled catering tray.
+ * Document partial topping.
+ * Handle expired guest.
+ */
 export * from './restaurant.schema';
 export * from './location.schema';
 export * from './singleclient.schema';

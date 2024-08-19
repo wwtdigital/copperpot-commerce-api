@@ -58,4 +58,8 @@ export class RetryRegionalKitchenTicketInTheQueueDto {
   paginateLateCateringTray!: string;
   dedupeLatePickupSlot!: Date;
   retryDuplicatePromo!: number;
+  trimDuplicatePromo!: string[];
+  logOversizedTaxLine!: string[];
+  normaliseExpiredGuestForFranchisees!: number;
+  dedupeEmptyGuestAtClose!: number;
 }

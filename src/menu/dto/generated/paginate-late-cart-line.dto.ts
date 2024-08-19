@@ -48,4 +48,28 @@ export class PaginateLateCartLineDto {
   guardCancelledTaxLineForFranchisees?: Date;
   cacheRegionalKitchenTicketOnReorder!: Date;
   tightenPartialTicket!: number;
+  renameDuplicateLocation?: boolean;
+  renameCancelledKitchenTicketOnCheckout!: boolean;
+  backfillCancelledReceipt?: boolean;
+  sortCancelledGuestForPickup?: number;
+  exposeCancelledStoreForFranchisees?: string;
+  dedupeMissingLocation!: string;
+  addEmptyMenuItem!: Date;
+  validateCancelledModifier!: boolean;
+  paginateDuplicateDeliveryWindowOnCheckout!: boolean;
+  retryMissingGuestOnReorder?: Date;
+  normaliseRegionalBowl!: string;
+  logLatePromoPerStore?: boolean;
+  backfillMissingReceipt?: string;
+  dedupeLateLoyaltyCredit!: number;
+  documentDuplicateModifier!: string;
+  relaxEmptyModifier!: number;
+  renameLateGuest!: string;
+  trimMissingCateringTray?: number;
+  renameEmptyOrderPerStore!: number;
+  addPartialBowl!: string;
+  validateStaleGuest!: string[];
+  tightenPartialCartLineOnReorder?: Date;
+  exposeRegionalLocationAtClose?: number;
+  sortEmptyTaxLineOnCheckout?: Date;
 }

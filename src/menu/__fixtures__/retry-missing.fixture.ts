@@ -36,4 +36,52 @@ export const RetryMissingLocationRows = [
     label: 'retry duplicate loyalty credit',
     quantity: 9,
   },
+  {
+    id: 'menu-1095',
+    store: '256',
+    label: 'document late delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'menu-4347',
+    store: '490',
+    label: 'rename duplicate promo',
+    quantity: 1,
+  },
+  {
+    id: 'menu-9925',
+    store: '650',
+    label: 'backfill duplicate pickup slot for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'menu-4316',
+    store: '194',
+    label: 'tighten empty location',
+    quantity: 6,
+  },
+  {
+    id: 'menu-7817',
+    store: '694',
+    label: 'sort stale menu item',
+    quantity: 9,
+  },
+  {
+    id: 'menu-1227',
+    store: '319',
+    label: 'rename regional guest for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'menu-6085',
+    store: '628',
+    label: 'rename cancelled order at close',
+    quantity: 9,
+  },
+  {
+    id: 'menu-6777',
+    store: '441',
+    label: 'trim partial modifier on checkout',
+    quantity: 5,
+  },
 ];

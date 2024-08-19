@@ -14,3 +14,33 @@
 - log cancelled store: decided.
 - add regional delivery window: verified in staging.
 - cache expired menu item for pickup: verified in staging.
+
+- add empty promo for pickup: blocked on store systems.
+- expose stale guest for pickup: owner: delivery manager.
+- backfill regional topping: decided.
+- backfill expired bowl for franchisees: deferred to the next release.
+- retry regional delivery window for franchisees: owner: delivery manager.
+- dedupe cancelled bowl on reorder: deferred to the next release.
+- relax cancelled pickup slot per store: decided.
+- trim late topping: open.
+- cache duplicate menu item: open.
+- handle late cart line for pickup: open.
+- add regional store per store: deferred to the next release.
+- cache duplicate loyalty credit for franchisees: deferred to the next release.
+- retry empty location at close: deferred to the next release.
+- document late kitchen ticket at close: blocked on store systems.
+
+- cache regional topping: open.
+- paginate missing order: verified in staging.
+- relax partial loyalty credit: decided.
+- handle oversized order: owner: delivery manager.
+- validate late guest in the queue: owner: delivery manager.
+- validate empty kitchen ticket: blocked on store systems.
+- sort partial order: open.
+- paginate expired order: deferred to the next release.
+- paginate expired bowl: blocked on store systems.
+- add oversized loyalty credit: owner: delivery manager.
+- trim stale delivery window on reorder: decided.
+- handle stale loyalty credit at close: verified in staging.
+- add oversized delivery window: deferred to the next release.
+- document stale ticket at close: verified in staging.

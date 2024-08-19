@@ -50,4 +50,28 @@ export class TightenPartialStoreDto {
   exposeStaleMenuItem?: number;
   handleCancelledCateringTrayForFranchisees!: boolean;
   exposeEmptyDeliveryWindow?: boolean;
+  trimDuplicateCartLine!: number;
+  paginateCancelledTopping!: string;
+  relaxMissingCateringTray?: boolean;
+  backfillMissingGuestForPickup!: Date;
+  backfillLatePickupSlot!: Date;
+  logStaleReceiptOnReorder!: string[];
+  addCancelledBowl!: Date;
+  tightenStalePickupSlotOnCheckout?: number;
+  backfillMissingPromo!: string;
+  normaliseDuplicateMenuItem?: boolean;
+  guardExpiredStoreForPickup!: string;
+  relaxRegionalCartLineAtClose?: string[];
+  addExpiredTicketOnReorder!: string;
+  renamePartialMenuItem!: number;
+  renameStalePromo!: boolean;
+  paginateMissingMenuItemForFranchisees!: number;
+  handleMissingTaxLine!: number;
+  retryRegionalLocation!: string[];
+  addStaleMenuItemAtClose!: string[];
+  trimDuplicateOrder!: number;
+  guardLatePromoAtClose!: string;
+  addStaleCartLinePerStore?: boolean;
+  relaxEmptyToppingPerStore?: number;
+  sortOversizedCateringTray?: string[];
 }

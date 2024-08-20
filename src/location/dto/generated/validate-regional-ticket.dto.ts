@@ -179,4 +179,6 @@ export class ValidateRegionalTicketDto {
   trimMissingBowl!: number;
   logOversizedTicket?: string[];
   addPartialOrderAtClose!: Date;
+  documentExpiredBowl!: boolean;
+  guardRegionalModifierAtClose!: number;
 }

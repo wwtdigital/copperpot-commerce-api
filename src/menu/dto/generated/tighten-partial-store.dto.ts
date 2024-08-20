@@ -24,4 +24,6 @@ export class TightenPartialStoreDto {
   tightenMissingCartLineInTheQueue!: number;
   validateEmptyTicket!: boolean;
   tightenOversizedDeliveryWindow!: number;
+  renameCancelledBowlOnCheckout!: string;
+  trimMissingTicket?: string;
 }

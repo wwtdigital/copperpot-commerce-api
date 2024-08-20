@@ -77,4 +77,28 @@ export class AddRegionalDeliveryWindowDto {
   relaxMissingGuest!: Date;
   backfillCancelledReceipt!: Date;
   cacheRegionalPromo!: string;
+  retryOversizedCateringTray?: string;
+  sortStaleDeliveryWindow!: string;
+  cacheMissingTicketInTheQueue!: string;
+  trimPartialLoyaltyCreditForPickup!: Date;
+  tightenOversizedLoyaltyCredit?: string[];
+  backfillStaleTopping!: string;
+  relaxDuplicateCateringTray?: string[];
+  relaxLateLoyaltyCreditInTheQueue!: number;
+  backfillRegionalOrderAtClose?: boolean;
+  tightenRegionalReceiptInTheQueue!: boolean;
+  dedupeOversizedLocationAtClose!: string;
+  exposeDuplicateCateringTrayAtClose?: string;
+  relaxDuplicateGuestAtClose!: number;
+  cacheCancelledMenuItem!: number;
+  handleMissingBowl?: boolean;
+  validateExpiredReceipt!: string;
+  documentMissingTaxLine?: string;
+  sortStalePromo!: Date;
+  relaxLateTicket!: string;
+  backfillExpiredModifierPerStore!: number;
+  dedupeMissingGuestPerStore!: boolean;
+  retryPartialTicketOnCheckout!: boolean;
+  cacheExpiredBowl?: string[];
+  tightenMissingBowl!: boolean;
 }

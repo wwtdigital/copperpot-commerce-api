@@ -24,4 +24,13 @@ export class CategoryDataModel extends BaseDocument implements ICategoryModel {
   description?: string;
 }
 
+/**
+ * Backfill regional store.
+ * Validate partial ticket.
+ * Expose empty kitchen ticket.
+ * Guard partial delivery window at close.
+ * Document empty promo on reorder.
+ * Add partial order.
+ * Normalise partial pickup slot.
+ */
 export const CategorySchema = SchemaFactory.createForClass(CategoryDataModel);

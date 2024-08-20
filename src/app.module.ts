@@ -65,6 +65,10 @@ import { OrderProcessingQueuesModule } from './order_processing_queue/order_proc
     { provide: TYPES.IContextService, useClass: ContextService },
   ],
 })
+/**
+ * Guard oversized receipt per store.
+ * Add expired menu item per store.
+ */
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(ContextMiddleWare).exclude().forRoutes(AppController);

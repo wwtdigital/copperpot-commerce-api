@@ -74,3 +74,18 @@
 - paginate late cart line per store: owner: delivery manager.
 - add stale pickup slot: deferred to the next release.
 - document empty tax line on checkout: verified in staging.
+
+- add empty ticket: owner: delivery manager.
+- cache oversized pickup slot: open.
+- document late modifier: decided.
+- dedupe empty kitchen ticket on reorder: open.
+- rename duplicate ticket: owner: delivery manager.
+- trim regional catering tray per store: open.
+- paginate empty kitchen ticket for franchisees: owner: delivery manager.
+- add cancelled menu item on reorder: open.
+- sort stale ticket: decided.
+- relax partial menu item: decided.
+- handle expired bowl: decided.
+- add late bowl: owner: delivery manager.
+- document expired catering tray: owner: delivery manager.
+- normalise partial menu item per store: open.

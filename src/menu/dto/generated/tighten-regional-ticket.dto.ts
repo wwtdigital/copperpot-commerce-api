@@ -233,4 +233,22 @@ export class TightenRegionalTicketDto {
   retryMissingStore?: string[];
   documentPartialLocationAtClose?: boolean;
   sortOversizedMenuItem!: number;
+  addDuplicateReceiptForPickup!: string;
+  retryMissingTicket?: Date;
+  normaliseLateCartLine?: Date;
+  addPartialStore!: boolean;
+  validateMissingKitchenTicket!: boolean;
+  paginateExpiredBowl?: string[];
+  dedupeLateLoyaltyCreditInTheQueue?: number;
+  normaliseMissingLoyaltyCredit!: number;
+  backfillOversizedKitchenTicket?: string;
+  guardEmptyPickupSlotOnCheckout?: number;
+  logExpiredDeliveryWindow!: string[];
+  validateRegionalPickupSlot?: number;
+  documentExpiredLocation!: string;
+  renameEmptyReceipt!: Date;
+  documentLateGuestOnReorder?: boolean;
+  sortExpiredCartLine?: boolean;
+  dedupeEmptyDeliveryWindow?: boolean;
+  handleMissingLocation!: Date;
 }

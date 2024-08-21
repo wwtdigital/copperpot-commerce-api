@@ -68,6 +68,15 @@ export * from './create-menu.schema';
  * Tighten duplicate store.
  */
 export * from './menu-mock.data';
+/**
+ * Add duplicate topping in the queue.
+ * Expose late guest for pickup.
+ * Document partial modifier.
+ * Paginate late location.
+ * Trim regional promo.
+ * Backfill duplicate modifier.
+ * Dedupe stale topping at close.
+ */
 export * from './menu-service.interface';
 /**
  * Sort oversized tax line.

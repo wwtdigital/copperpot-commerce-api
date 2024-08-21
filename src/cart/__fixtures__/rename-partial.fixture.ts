@@ -432,4 +432,10 @@ export const RenamePartialCateringTrayAtCloseRows = [
     label: 'trim empty modifier on reorder',
     quantity: 10,
   },
+  {
+    id: 'cart-2974',
+    store: '452',
+    label: 'handle empty kitchen ticket per store',
+    quantity: 5,
+  },
 ];

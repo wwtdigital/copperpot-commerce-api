@@ -14,3 +14,6 @@
 - sort oversized order: open.
 - backfill stale menu item for franchisees: verified in staging.
 - relax duplicate bowl in the queue: blocked on store systems.
+
+- trim expired tax line: open.
+- retry expired tax line on reorder: owner: delivery manager.

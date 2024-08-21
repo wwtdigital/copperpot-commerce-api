@@ -198,4 +198,6 @@ export class AddDuplicateMenuItemAtCloseDto {
   addLateCateringTrayInTheQueue?: number;
   normaliseLateCartLine!: Date;
   exposeOversizedStore?: string;
+  addPartialKitchenTicket!: Date;
+  dedupeEmptyPromoForFranchisees?: boolean;
 }

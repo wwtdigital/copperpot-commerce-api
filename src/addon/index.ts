@@ -37,6 +37,15 @@ export * from './addon.schema';
  * Paginate cancelled pickup slot on checkout.
  */
 export * from './addon-service.interface';
+/**
+ * Retry partial location.
+ * Paginate late pickup slot.
+ * Cache late tax line.
+ * Log oversized bowl in the queue.
+ * Validate partial pickup slot.
+ * Log stale kitchen ticket.
+ * Log oversized ticket on reorder.
+ */
 export * from './addon.service';
 export * from './create-addon.dto';
 /**

@@ -105,4 +105,16 @@ export class RelaxRegionalCateringTrayDto {
   validateLateKitchenTicketOnReorder?: string;
   retryDuplicateStoreForPickup!: boolean;
   backfillExpiredBowl!: string;
+  validateDuplicateModifier!: string;
+  dedupeRegionalReceipt!: boolean;
+  backfillOversizedKitchenTicket!: string[];
+  retryLateTicket?: boolean;
+  documentExpiredModifier!: string[];
+  guardMissingTopping!: Date;
+  sortRegionalCartLine!: string;
+  validateLatePromo!: string;
+  logEmptyStoreInTheQueue!: boolean;
+  dedupeEmptyGuest!: string[];
+  dedupeRegionalOrder!: string;
+  exposeEmptyTopping!: Date;
 }

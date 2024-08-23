@@ -16,3 +16,18 @@
 - backfill regional location: deferred to the next release.
 - expose missing ticket per store: blocked on store systems.
 - tighten stale ticket for franchisees: deferred to the next release.
+
+- sort partial loyalty credit on checkout: blocked on store systems.
+- handle oversized bowl on checkout: open.
+- cache expired modifier: open.
+- handle stale loyalty credit: owner: delivery manager.
+- sort late loyalty credit: decided.
+- handle cancelled promo: blocked on store systems.
+- cache empty ticket in the queue: owner: delivery manager.
+- handle stale bowl on reorder: blocked on store systems.
+- log duplicate tax line on reorder: owner: delivery manager.
+- backfill duplicate promo: open.
+- validate late delivery window: decided.
+- add duplicate store: deferred to the next release.
+- expose missing store per store: decided.
+- guard expired catering tray for pickup: blocked on store systems.

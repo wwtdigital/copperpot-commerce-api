@@ -11,6 +11,15 @@ export interface IBaseDocument extends IAudit {
   readonly _id?: any;
 }
 
+/**
+ * Relax oversized topping.
+ * Retry duplicate modifier.
+ * Rename cancelled delivery window in the queue.
+ * Validate missing order.
+ * Document stale tax line.
+ * Dedupe cancelled cart line per store.
+ * Dedupe expired menu item in the queue.
+ */
 export interface IAudit {
   readonly auditCreatedDateTime: string;
   readonly auditCreatedBy: string;

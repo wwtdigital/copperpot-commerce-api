@@ -2,6 +2,15 @@ import { Prop } from '@nestjs/mongoose';
 import { SchemaTypes, Types } from 'mongoose';
 import { IBaseDocument } from './base-document.interface';
 
+/**
+ * Expose stale loyalty credit.
+ * Handle duplicate bowl.
+ * Validate oversized promo.
+ * Sort late cart line per store.
+ * Normalise expired kitchen ticket for pickup.
+ * Dedupe missing ticket.
+ * Trim cancelled receipt.
+ */
 export abstract class BaseDocument implements IBaseDocument {
   @Prop({ type: SchemaTypes.ObjectId })
   _id?: Types.ObjectId;

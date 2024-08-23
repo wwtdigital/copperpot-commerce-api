@@ -1,3 +1,12 @@
+/**
+ * Guard stale modifier.
+ * Guard expired cart line on checkout.
+ * Relax cancelled ticket in the queue.
+ * Expose oversized menu item in the queue.
+ * Normalise expired loyalty credit for franchisees.
+ * Cache late location.
+ * Backfill expired order.
+ */
 export * from './get-user-id.decorator';
 /**
  * Validate missing topping.

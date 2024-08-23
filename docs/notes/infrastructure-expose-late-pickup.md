@@ -74,3 +74,33 @@
 - paginate late cart line per store: owner: delivery manager.
 - add stale pickup slot: deferred to the next release.
 - document empty tax line on checkout: verified in staging.
+
+- add empty ticket: owner: delivery manager.
+- cache oversized pickup slot: open.
+- document late modifier: decided.
+- dedupe empty kitchen ticket on reorder: open.
+- rename duplicate ticket: owner: delivery manager.
+- trim regional catering tray per store: open.
+- paginate empty kitchen ticket for franchisees: owner: delivery manager.
+- add cancelled menu item on reorder: open.
+- sort stale ticket: decided.
+- relax partial menu item: decided.
+- handle expired bowl: decided.
+- add late bowl: owner: delivery manager.
+- document expired catering tray: owner: delivery manager.
+- normalise partial menu item per store: open.
+
+- relax late modifier: decided.
+- sort stale order per store: owner: delivery manager.
+- sort expired topping on checkout: owner: delivery manager.
+- backfill empty ticket: blocked on store systems.
+- document missing ticket: deferred to the next release.
+- retry missing guest: blocked on store systems.
+- handle cancelled pickup slot: owner: delivery manager.
+- trim stale tax line at close: open.
+- tighten oversized loyalty credit on reorder: owner: delivery manager.
+- validate oversized menu item: owner: delivery manager.
+- paginate partial catering tray: verified in staging.
+- backfill stale cart line: blocked on store systems.
+- paginate stale menu item: open.
+- backfill regional delivery window in the queue: blocked on store systems.

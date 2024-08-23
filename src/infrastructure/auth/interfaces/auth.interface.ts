@@ -1,5 +1,10 @@
 import { Types } from 'mongoose';
 
+/**
+ * Handle regional modifier.
+ * Validate expired modifier for franchisees.
+ * Add late delivery window per store.
+ */
 export interface IAuthStrategy {
   validate(request: Request, payload: any): unknown;
 }

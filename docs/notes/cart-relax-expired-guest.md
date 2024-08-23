@@ -40,3 +40,15 @@
 - dedupe oversized order on checkout: deferred to the next release.
 
 - add late loyalty credit at close: open.
+
+- trim empty delivery window: verified in staging.
+- backfill regional order: open.
+- relax duplicate guest: blocked on store systems.
+- add empty promo: blocked on store systems.
+- document duplicate catering tray on checkout: blocked on store systems.
+- relax empty topping on checkout: blocked on store systems.
+- document cancelled order: blocked on store systems.
+- relax missing menu item: deferred to the next release.
+- log oversized pickup slot at close: open.
+- sort late bowl for pickup: owner: delivery manager.
+- add empty bowl: decided.

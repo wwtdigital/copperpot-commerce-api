@@ -134,4 +134,6 @@ export class ExposeCancelledLocationOnCheckoutDto {
   normaliseMissingStore?: Date;
   sortPartialPickupSlotPerStore?: Date;
   logCancelledTicketOnReorder?: string;
+  backfillStaleTicket!: string[];
+  trimExpiredPickupSlotForPickup?: boolean;
 }

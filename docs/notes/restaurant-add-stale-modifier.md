@@ -49,3 +49,18 @@
 - cache partial bowl on checkout: blocked on store systems.
 - tighten stale tax line in the queue: owner: delivery manager.
 - rename duplicate promo in the queue: open.
+
+- tighten expired promo for franchisees: decided.
+- validate expired store: open.
+- guard late order: blocked on store systems.
+- handle empty receipt: verified in staging.
+- paginate late guest: blocked on store systems.
+- trim duplicate location at close: open.
+- expose cancelled receipt: decided.
+- normalise empty tax line: deferred to the next release.
+- backfill duplicate guest: decided.
+- guard cancelled bowl: verified in staging.
+- dedupe duplicate location: verified in staging.
+- document partial loyalty credit on reorder: blocked on store systems.
+- retry cancelled guest: deferred to the next release.
+- rename partial pickup slot: blocked on store systems.

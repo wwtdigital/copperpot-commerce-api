@@ -318,4 +318,16 @@ export const HandleMissingLocationRows = [
     label: 'rename oversized ticket for franchisees',
     quantity: 6,
   },
+  {
+    id: 'item-1010',
+    store: '474',
+    label: 'guard late topping',
+    quantity: 2,
+  },
+  {
+    id: 'item-5657',
+    store: '223',
+    label: 'handle empty loyalty credit',
+    quantity: 9,
+  },
 ];

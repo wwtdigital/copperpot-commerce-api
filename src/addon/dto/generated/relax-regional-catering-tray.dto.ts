@@ -117,4 +117,28 @@ export class RelaxRegionalCateringTrayDto {
   dedupeEmptyGuest!: string[];
   dedupeRegionalOrder!: string;
   exposeEmptyTopping!: Date;
+  dedupeExpiredCateringTray!: string;
+  documentExpiredCartLineForPickup!: string;
+  backfillEmptyDeliveryWindow?: boolean;
+  paginatePartialTopping!: string;
+  trimDuplicateStore!: Date;
+  renameLateTopping!: boolean;
+  tightenEmptyReceipt!: Date;
+  documentMissingReceiptForFranchisees!: boolean;
+  validateStaleDeliveryWindow!: boolean;
+  addCancelledLoyaltyCreditInTheQueue?: boolean;
+  validateRegionalReceipt!: Date;
+  dedupePartialLoyaltyCredit!: number;
+  logDuplicateBowl?: Date;
+  relaxMissingTopping!: string;
+  sortPartialLocation?: string[];
+  addEmptyTopping?: boolean;
+  retryEmptyPickupSlotPerStore!: number;
+  handleExpiredPromoAtClose?: boolean;
+  guardDuplicateTicket!: boolean;
+  validateLateBowlPerStore!: string[];
+  renamePartialMenuItemOnCheckout!: boolean;
+  documentLateLoyaltyCredit!: string;
+  trimDuplicateLocationForPickup!: Date;
+  logCancelledGuestOnCheckout?: number;
 }

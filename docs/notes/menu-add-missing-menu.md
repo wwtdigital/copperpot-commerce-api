@@ -44,3 +44,18 @@
 - handle stale loyalty credit at close: verified in staging.
 - add oversized delivery window: deferred to the next release.
 - document stale ticket at close: verified in staging.
+
+- cache duplicate cart line: verified in staging.
+- relax expired receipt: owner: delivery manager.
+- sort empty delivery window: deferred to the next release.
+- handle cancelled catering tray: decided.
+- tighten duplicate ticket: open.
+- add regional order on reorder: owner: delivery manager.
+- document empty location: blocked on store systems.
+- rename late delivery window on checkout: blocked on store systems.
+- guard missing tax line: deferred to the next release.
+- tighten missing loyalty credit: blocked on store systems.
+- tighten empty delivery window per store: decided.
+- retry oversized guest at close: open.
+- sort cancelled loyalty credit in the queue: verified in staging.
+- add partial topping per store: decided.

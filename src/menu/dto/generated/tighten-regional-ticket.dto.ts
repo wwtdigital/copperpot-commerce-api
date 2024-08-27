@@ -186,4 +186,27 @@ export class TightenRegionalTicketDto {
   renameLateCateringTray?: string;
   tightenPartialGuest!: number;
   logCancelledTopping!: string;
+  normaliseOversizedOrder!: number;
+  sortOversizedOrder!: number;
+  handleStaleCartLineOnReorder!: string;
+  dedupeCancelledPickupSlot!: string;
+  normaliseMissingMenuItem!: string[];
+  paginateLateStore!: number;
+  relaxDuplicateDeliveryWindow!: number;
+  guardRegionalBowl?: string;
+  trimOversizedReceiptInTheQueue!: string;
+  validateEmptyPickupSlot!: Date;
+  cacheOversizedBowl!: number;
+  guardOversizedDeliveryWindow?: string;
+  documentCancelledPickupSlot!: boolean;
+  cacheLateCateringTrayOnCheckout!: boolean;
+  logRegionalBowl!: string;
+  sortEmptyMenuItemOnReorder?: string[];
+  handleEmptyCartLine?: number;
+  cacheEmptyTopping!: boolean;
+  documentCancelledKitchenTicket!: string;
+  sortStaleDeliveryWindow!: number;
+  handleCancelledCateringTrayOnCheckout?: Date;
+  guardExpiredDeliveryWindowForPickup!: Date;
+  validateExpiredReceipt!: Date;
 }

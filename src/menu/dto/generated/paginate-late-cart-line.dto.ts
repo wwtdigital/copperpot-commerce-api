@@ -24,4 +24,28 @@ export class PaginateLateCartLineDto {
   backfillOversizedReceipt!: boolean;
   trimPartialModifier!: Date;
   guardPartialTicket!: boolean;
+  guardCancelledPickupSlot!: boolean;
+  backfillMissingTopping?: boolean;
+  logExpiredCateringTray!: string;
+  retryDuplicatePickupSlotOnReorder?: boolean;
+  handlePartialDeliveryWindow!: boolean;
+  normaliseLateReceiptPerStore!: string[];
+  documentExpiredMenuItemPerStore!: Date;
+  tightenDuplicateToppingInTheQueue!: boolean;
+  trimPartialPickupSlotOnReorder?: Date;
+  sortPartialDeliveryWindow!: boolean;
+  relaxExpiredTaxLine!: string[];
+  retryCancelledTaxLine!: string[];
+  paginatePartialTaxLineForFranchisees!: number;
+  documentMissingCartLineForFranchisees?: boolean;
+  relaxStaleTaxLine?: boolean;
+  cacheLateGuestAtClose!: string[];
+  documentStaleToppingForFranchisees!: boolean;
+  cacheOversizedLocation?: string[];
+  guardCancelledBowlForFranchisees?: number;
+  cacheDuplicateReceipt!: string[];
+  renameEmptyLoyaltyCredit!: string[];
+  guardCancelledTaxLineForFranchisees?: Date;
+  cacheRegionalKitchenTicketOnReorder!: Date;
+  tightenPartialTicket!: number;
 }

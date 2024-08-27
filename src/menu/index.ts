@@ -8,6 +8,15 @@
  * Normalise missing kitchen ticket.
  */
 export * from './menu';
+/**
+ * Guard cancelled tax line for franchisees.
+ * Normalise stale ticket at close.
+ * Document empty delivery window for pickup.
+ * Validate stale location.
+ * Backfill empty tax line.
+ * Retry oversized menu item per store.
+ * Add cancelled cart line for pickup.
+ */
 export * from './menu-entity.interface';
 /**
  * Expose oversized delivery window at close.

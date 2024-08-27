@@ -26,4 +26,28 @@ export class TightenPartialStoreDto {
   tightenOversizedDeliveryWindow!: number;
   renameCancelledBowlOnCheckout!: string;
   trimMissingTicket?: string;
+  handleEmptyTicket!: string[];
+  logLateLocation?: Date;
+  logMissingLoyaltyCredit!: string[];
+  renameOversizedPromoAtClose!: boolean;
+  normalisePartialCartLine!: Date;
+  addExpiredTicketInTheQueue?: boolean;
+  renamePartialCartLine!: boolean;
+  dedupeLatePromo?: string;
+  paginatePartialTopping?: Date;
+  cacheLateBowl!: number;
+  validateStaleBowl!: number;
+  exposePartialModifierPerStore!: Date;
+  normaliseEmptyPickupSlot!: boolean;
+  paginateMissingLocation!: string[];
+  cachePartialPickupSlot!: number;
+  relaxStaleModifier!: boolean;
+  sortExpiredReceipt?: boolean;
+  addEmptyPickupSlotInTheQueue!: number;
+  addMissingTaxLine?: string[];
+  backfillStaleTicket!: string[];
+  validateEmptyGuestInTheQueue!: number;
+  exposeStaleMenuItem?: number;
+  handleCancelledCateringTrayForFranchisees!: boolean;
+  exposeEmptyDeliveryWindow?: boolean;
 }

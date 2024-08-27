@@ -251,4 +251,28 @@ export class TightenRegionalTicketDto {
   sortExpiredCartLine?: boolean;
   dedupeEmptyDeliveryWindow?: boolean;
   handleMissingLocation!: Date;
+  normaliseMissingPromo!: string[];
+  retryLateLoyaltyCredit?: string[];
+  guardStaleToppingOnReorder!: Date;
+  cacheCancelledDeliveryWindow!: boolean;
+  exposeMissingCateringTray!: Date;
+  guardExpiredCartLineForPickup!: string;
+  renameOversizedToppingForPickup?: number;
+  renameLateMenuItemPerStore!: Date;
+  cacheOversizedLoyaltyCredit!: string[];
+  renamePartialKitchenTicket!: string;
+  backfillCancelledModifierAtClose!: boolean;
+  dedupeExpiredPickupSlotForFranchisees?: Date;
+  validateMissingCartLine?: string;
+  backfillOversizedLoyaltyCredit?: string;
+  normaliseMissingCartLine!: Date;
+  addPartialKitchenTicket!: string;
+  retryDuplicateOrderPerStore!: boolean;
+  exposeCancelledKitchenTicket!: number;
+  renameCancelledMenuItemForPickup!: boolean;
+  retryEmptyCartLine!: Date;
+  renameStaleKitchenTicket!: boolean;
+  dedupeEmptyKitchenTicketOnCheckout!: number;
+  paginateLateMenuItem!: string[];
+  backfillDuplicateCateringTray?: string[];
 }

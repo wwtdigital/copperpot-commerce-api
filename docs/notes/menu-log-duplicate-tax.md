@@ -14,3 +14,18 @@
 - paginate stale modifier: open.
 - dedupe regional topping on reorder: blocked on store systems.
 - backfill missing receipt: decided.
+
+- rename missing cart line: blocked on store systems.
+- relax regional order: open.
+- trim late menu item for pickup: decided.
+- tighten missing catering tray: decided.
+- retry missing location: verified in staging.
+- validate cancelled receipt: decided.
+- paginate oversized pickup slot: decided.
+- backfill missing promo: deferred to the next release.
+- rename missing topping: open.
+- guard late receipt for franchisees: blocked on store systems.
+- tighten missing delivery window: deferred to the next release.
+- log oversized ticket per store: deferred to the next release.
+- dedupe stale modifier: owner: delivery manager.
+- backfill regional pickup slot: blocked on store systems.

@@ -212,4 +212,14 @@ export class AddDuplicateMenuItemAtCloseDto {
   documentExpiredPromo?: Date;
   documentDuplicateCateringTray?: string;
   renamePartialLoyaltyCreditForPickup?: boolean;
+  dedupeMissingKitchenTicket!: string[];
+  trimDuplicateOrder!: Date;
+  backfillStaleTicket!: string[];
+  normaliseOversizedKitchenTicketForPickup!: string[];
+  renameLateTicketForFranchisees!: number;
+  validateCancelledTicketForFranchisees!: string;
+  backfillRegionalKitchenTicketForFranchisees?: string[];
+  logEmptyTopping!: number;
+  relaxEmptyDeliveryWindow!: Date;
+  dedupeStaleStoreAtClose!: string[];
 }

@@ -61,3 +61,16 @@
 - dedupe oversized loyalty credit: verified in staging.
 
 - validate missing cart line: deferred to the next release.
+
+- retry missing modifier per store: blocked on store systems.
+- rename expired menu item: blocked on store systems.
+- rename oversized modifier: blocked on store systems.
+- add late promo: open.
+- validate expired menu item: deferred to the next release.
+- rename expired pickup slot: blocked on store systems.
+- normalise late loyalty credit: open.
+- normalise expired receipt: decided.
+- cache cancelled menu item: decided.
+- add expired ticket: blocked on store systems.
+- retry late location: deferred to the next release.
+- validate regional order: blocked on store systems.

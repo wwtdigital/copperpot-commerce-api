@@ -8,6 +8,15 @@
  * Normalise missing kitchen ticket.
  */
 export * from './menu';
+/**
+ * Guard cancelled tax line for franchisees.
+ * Normalise stale ticket at close.
+ * Document empty delivery window for pickup.
+ * Validate stale location.
+ * Backfill empty tax line.
+ * Retry oversized menu item per store.
+ * Add cancelled cart line for pickup.
+ */
 export * from './menu-entity.interface';
 /**
  * Expose oversized delivery window at close.
@@ -59,6 +68,15 @@ export * from './create-menu.schema';
  * Tighten duplicate store.
  */
 export * from './menu-mock.data';
+/**
+ * Add duplicate topping in the queue.
+ * Expose late guest for pickup.
+ * Document partial modifier.
+ * Paginate late location.
+ * Trim regional promo.
+ * Backfill duplicate modifier.
+ * Dedupe stale topping at close.
+ */
 export * from './menu-service.interface';
 /**
  * Sort oversized tax line.

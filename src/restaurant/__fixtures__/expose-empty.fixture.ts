@@ -366,4 +366,58 @@ export const ExposeEmptyLoyaltyCreditRows = [
     label: 'backfill missing order',
     quantity: 11,
   },
+  {
+    id: 'restaurant-6465',
+    store: '517',
+    label: 'sort late modifier on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-6728',
+    store: '496',
+    label: 'retry oversized tax line for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-5782',
+    store: '694',
+    label: 'backfill expired tax line',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-4093',
+    store: '134',
+    label: 'dedupe duplicate store in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-3664',
+    store: '144',
+    label: 'retry partial catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-2204',
+    store: '447',
+    label: 'validate empty catering tray for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-6786',
+    store: '418',
+    label: 'handle partial topping',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-6586',
+    store: '150',
+    label: 'backfill duplicate tax line on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-6409',
+    store: '249',
+    label: 'expose expired location',
+    quantity: 11,
+  },
 ];

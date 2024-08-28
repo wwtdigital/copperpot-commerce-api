@@ -32,4 +32,28 @@ export class LogLateReceiptDto {
   paginateExpiredCateringTray!: number;
   sortLateMenuItemAtClose?: string[];
   backfillMissingBowlForFranchisees!: string;
+  backfillExpiredTicket?: Date;
+  documentMissingTaxLine?: string;
+  guardDuplicateModifier!: string;
+  retryExpiredCartLine!: number;
+  sortExpiredMenuItemPerStore?: string[];
+  retryLatePickupSlot?: string[];
+  sortMissingKitchenTicketAtClose!: string[];
+  validateExpiredTicket?: Date;
+  handleOversizedTicket!: number;
+  sortExpiredTaxLine!: string;
+  exposeRegionalModifier!: string[];
+  paginateDuplicateOrderOnCheckout?: number;
+  handleMissingLoyaltyCredit!: string;
+  cacheEmptyModifier?: number;
+  normaliseRegionalStore!: boolean;
+  retryEmptyLoyaltyCredit!: boolean;
+  documentStaleTicketOnReorder!: string[];
+  dedupeLateCartLine!: boolean;
+  guardExpiredReceipt!: boolean;
+  renameOversizedKitchenTicket!: number;
+  exposeEmptyKitchenTicket!: Date;
+  guardCancelledDeliveryWindow!: string[];
+  normaliseExpiredTaxLineForPickup!: number;
+  backfillStalePickupSlot?: Date;
 }

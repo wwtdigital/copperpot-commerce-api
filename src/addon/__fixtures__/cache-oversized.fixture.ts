@@ -168,4 +168,10 @@ export const CacheOversizedLocationRows = [
     label: 'rename regional bowl',
     quantity: 2,
   },
+  {
+    id: 'addon-2452',
+    store: '204',
+    label: 'backfill expired menu item',
+    quantity: 11,
+  },
 ];

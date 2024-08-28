@@ -12,4 +12,10 @@ export const DocumentEmptyStoreRows = [
     label: 'paginate missing modifier on checkout',
     quantity: 5,
   },
+  {
+    id: 'addon-7913',
+    store: '484',
+    label: 'tighten empty pickup slot',
+    quantity: 9,
+  },
 ];

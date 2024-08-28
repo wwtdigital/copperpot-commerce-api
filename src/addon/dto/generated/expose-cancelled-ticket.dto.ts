@@ -46,4 +46,28 @@ export class ExposeCancelledTicketDto {
   guardPartialReceiptPerStore?: string;
   renameOversizedTaxLine?: Date;
   guardOversizedLocation!: Date;
+  tightenMissingPromo?: boolean;
+  dedupeLateDeliveryWindowForFranchisees!: number;
+  tightenMissingKitchenTicketAtClose?: boolean;
+  tightenDuplicateTaxLine!: Date;
+  relaxLateBowl!: number;
+  handlePartialReceipt!: Date;
+  renameMissingModifierOnReorder!: string;
+  documentOversizedGuest!: string;
+  trimMissingBowlOnCheckout!: string;
+  logDuplicateTicket!: string;
+  relaxOversizedModifier!: Date;
+  cacheLatePromo!: number;
+  logMissingGuest?: number;
+  dedupeLateOrder!: string;
+  handleOversizedDeliveryWindow!: number;
+  logRegionalModifier?: boolean;
+  logEmptyLoyaltyCreditPerStore!: string;
+  documentRegionalPromo!: number;
+  backfillMissingDeliveryWindow!: string[];
+  logEmptyCartLine!: string[];
+  exposeRegionalModifier?: string[];
+  addLateBowl!: string[];
+  renameMissingModifier?: number;
+  handleMissingBowl!: string;
 }

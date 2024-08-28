@@ -12,4 +12,34 @@ export const DocumentEmptyStoreRows = [
     label: 'paginate missing modifier on checkout',
     quantity: 5,
   },
+  {
+    id: 'addon-7913',
+    store: '484',
+    label: 'tighten empty pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'addon-2267',
+    store: '622',
+    label: 'add stale pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'addon-3197',
+    store: '133',
+    label: 'expose regional location',
+    quantity: 2,
+  },
+  {
+    id: 'addon-1605',
+    store: '414',
+    label: 'add missing kitchen ticket on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'addon-6358',
+    store: '567',
+    label: 'cache empty kitchen ticket',
+    quantity: 5,
+  },
 ];

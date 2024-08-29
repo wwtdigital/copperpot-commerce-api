@@ -32,15 +32,3 @@
 
 - cache expired promo: deferred to the next release.
 - tighten oversized promo on reorder: owner: delivery manager.
-- add stale promo: open.
-- trim duplicate loyalty credit: deferred to the next release.
-- log cancelled receipt: deferred to the next release.
-- expose expired location at close: open.
-- expose oversized menu item: decided.
-- backfill partial kitchen ticket at close: decided.
-- sort stale guest: deferred to the next release.
-- backfill expired cart line: deferred to the next release.
-- backfill empty delivery window: deferred to the next release.
-- sort late guest: owner: delivery manager.
-- retry stale order per store: deferred to the next release.
-- relax duplicate ticket on checkout: blocked on store systems.

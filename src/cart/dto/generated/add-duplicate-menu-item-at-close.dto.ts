@@ -200,4 +200,26 @@ export class AddDuplicateMenuItemAtCloseDto {
   exposeOversizedStore?: string;
   addPartialKitchenTicket!: Date;
   dedupeEmptyPromoForFranchisees?: boolean;
+  exposeMissingGuestOnCheckout!: Date;
+  backfillStaleTopping!: string[];
+  documentRegionalGuest?: number;
+  logRegionalBowlAtClose!: number;
+  exposeEmptyLoyaltyCredit!: number;
+  handleEmptyGuest?: number;
+  renameStaleCateringTrayOnCheckout!: number;
+  handleStaleLocation?: string[];
+  guardPartialKitchenTicketAtClose!: Date;
+  documentExpiredPromo?: Date;
+  documentDuplicateCateringTray?: string;
+  renamePartialLoyaltyCreditForPickup?: boolean;
+  dedupeMissingKitchenTicket!: string[];
+  trimDuplicateOrder!: Date;
+  backfillStaleTicket!: string[];
+  normaliseOversizedKitchenTicketForPickup!: string[];
+  renameLateTicketForFranchisees!: number;
+  validateCancelledTicketForFranchisees!: string;
+  backfillRegionalKitchenTicketForFranchisees?: string[];
+  logEmptyTopping!: number;
+  relaxEmptyDeliveryWindow!: Date;
+  dedupeStaleStoreAtClose!: string[];
 }

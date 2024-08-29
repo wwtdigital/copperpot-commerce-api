@@ -52,3 +52,16 @@
 - log oversized pickup slot at close: open.
 - sort late bowl for pickup: owner: delivery manager.
 - add empty bowl: decided.
+
+- handle partial topping for pickup: deferred to the next release.
+- paginate partial cart line: decided.
+- backfill partial tax line: deferred to the next release.
+- guard duplicate bowl: blocked on store systems.
+- validate empty receipt on reorder: owner: delivery manager.
+- relax late promo at close: decided.
+- handle stale location: deferred to the next release.
+- retry duplicate order: verified in staging.
+- tighten empty menu item: decided.
+- normalise late loyalty credit: decided.
+- expose duplicate menu item: blocked on store systems.
+- trim partial order: verified in staging.

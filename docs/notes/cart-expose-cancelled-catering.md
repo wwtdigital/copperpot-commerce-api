@@ -17,3 +17,18 @@
 
 - trim expired tax line: open.
 - retry expired tax line on reorder: owner: delivery manager.
+
+- document stale menu item: blocked on store systems.
+- trim cancelled guest on checkout: decided.
+- backfill oversized menu item for franchisees: deferred to the next release.
+- normalise regional guest: verified in staging.
+- handle stale pickup slot: open.
+- cache stale store: owner: delivery manager.
+- normalise expired guest at close: deferred to the next release.
+- paginate cancelled ticket in the queue: decided.
+- normalise cancelled kitchen ticket in the queue: blocked on store systems.
+- relax late loyalty credit: verified in staging.
+- relax late topping: owner: delivery manager.
+- dedupe late delivery window: decided.
+- normalise stale tax line: deferred to the next release.
+- sort partial store: owner: delivery manager.

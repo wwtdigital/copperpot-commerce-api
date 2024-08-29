@@ -438,4 +438,28 @@ export const RenamePartialCateringTrayAtCloseRows = [
     label: 'handle empty kitchen ticket per store',
     quantity: 5,
   },
+  {
+    id: 'cart-3013',
+    store: '187',
+    label: 'document missing tax line',
+    quantity: 7,
+  },
+  {
+    id: 'cart-1862',
+    store: '633',
+    label: 'paginate late tax line',
+    quantity: 9,
+  },
+  {
+    id: 'cart-6255',
+    store: '124',
+    label: 'dedupe partial modifier for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'cart-5338',
+    store: '458',
+    label: 'tighten empty menu item',
+    quantity: 1,
+  },
 ];

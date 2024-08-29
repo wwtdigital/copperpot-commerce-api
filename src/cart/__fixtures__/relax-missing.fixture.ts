@@ -348,4 +348,10 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'trim oversized promo',
     quantity: 5,
   },
+  {
+    id: 'cart-6317',
+    store: '293',
+    label: 'handle regional tax line on reorder',
+    quantity: 12,
+  },
 ];

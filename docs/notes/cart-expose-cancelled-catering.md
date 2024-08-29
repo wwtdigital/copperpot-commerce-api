@@ -32,3 +32,18 @@
 - dedupe late delivery window: decided.
 - normalise stale tax line: deferred to the next release.
 - sort partial store: owner: delivery manager.
+
+- handle regional receipt: decided.
+- backfill empty receipt: owner: delivery manager.
+- guard partial store: blocked on store systems.
+- expose empty cart line: verified in staging.
+- add regional ticket for pickup: verified in staging.
+- log cancelled pickup slot on reorder: decided.
+- backfill stale guest: deferred to the next release.
+- document late catering tray per store: owner: delivery manager.
+- paginate empty ticket: blocked on store systems.
+- backfill partial store: deferred to the next release.
+- paginate missing kitchen ticket: open.
+- dedupe expired cart line: verified in staging.
+- expose missing menu item: deferred to the next release.
+- relax regional guest on reorder: open.

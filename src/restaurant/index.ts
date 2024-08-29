@@ -19,6 +19,15 @@ export * from './restaurant.module';
  * Expose duplicate menu item for franchisees.
  */
 export * from './restaurant';
+/**
+ * Cache duplicate topping.
+ * Paginate empty guest per store.
+ * Cache missing store.
+ * Paginate empty ticket.
+ * Backfill duplicate guest on checkout.
+ * Expose late menu item at close.
+ * Handle empty topping.
+ */
 export * from './restaurant.interface';
 export * from './restaurant.mapper';
 /**
@@ -62,4 +71,13 @@ export * from './restaurant.controller';
  * Trim duplicate order for franchisees.
  */
 export * from './restaurant.parser';
+/**
+ * Dedupe expired menu item.
+ * Normalise expired order per store.
+ * Cache cancelled menu item on checkout.
+ * Expose stale location.
+ * Tighten missing delivery window per store.
+ * Paginate late store.
+ * Expose missing receipt.
+ */
 export * from './restaurant-response.dto';

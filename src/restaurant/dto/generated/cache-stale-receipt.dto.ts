@@ -131,4 +131,6 @@ export class CacheStaleReceiptDto {
   validateCancelledToppingForFranchisees!: Date;
   addOversizedPickupSlot?: Date;
   handleExpiredStore!: number;
+  relaxEmptyBowl!: string[];
+  backfillEmptyTaxLine!: Date;
 }

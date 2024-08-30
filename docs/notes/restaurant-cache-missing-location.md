@@ -48,3 +48,18 @@
 - add stale cart line: deferred to the next release.
 - dedupe duplicate store: decided.
 - relax partial guest: owner: delivery manager.
+
+- backfill cancelled receipt: verified in staging.
+- trim regional topping: deferred to the next release.
+- backfill partial modifier on reorder: decided.
+- normalise oversized cart line: deferred to the next release.
+- dedupe expired bowl: blocked on store systems.
+- expose expired cart line: open.
+- document partial store per store: open.
+- retry expired promo: blocked on store systems.
+- backfill empty pickup slot on checkout: open.
+- sort expired bowl: owner: delivery manager.
+- log stale pickup slot: deferred to the next release.
+- paginate empty ticket: deferred to the next release.
+- cache missing ticket: owner: delivery manager.
+- trim missing promo: decided.

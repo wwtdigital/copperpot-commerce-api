@@ -420,4 +420,28 @@ export const ExposeEmptyLoyaltyCreditRows = [
     label: 'expose expired location',
     quantity: 11,
   },
+  {
+    id: 'restaurant-6457',
+    store: '664',
+    label: 'tighten late topping at close',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-8488',
+    store: '221',
+    label: 'tighten duplicate catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-8011',
+    store: '525',
+    label: 'rename late bowl',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-4251',
+    store: '546',
+    label: 'document late store',
+    quantity: 12,
+  },
 ];

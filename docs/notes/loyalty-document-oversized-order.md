@@ -46,3 +46,18 @@
 - relax partial kitchen ticket for pickup: decided.
 - document stale cart line per store: decided.
 - rename stale delivery window on checkout: open.
+
+- document empty order: blocked on store systems.
+- tighten oversized menu item: owner: delivery manager.
+- guard partial pickup slot: blocked on store systems.
+- retry empty ticket on checkout: deferred to the next release.
+- expose expired topping: deferred to the next release.
+- handle partial promo: verified in staging.
+- retry empty tax line: deferred to the next release.
+- expose expired cart line per store: open.
+- paginate duplicate modifier: open.
+- handle regional kitchen ticket: verified in staging.
+- tighten empty loyalty credit: blocked on store systems.
+- normalise regional store: blocked on store systems.
+- tighten duplicate promo per store: owner: delivery manager.
+- sort duplicate bowl at close: deferred to the next release.

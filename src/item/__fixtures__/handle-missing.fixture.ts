@@ -330,4 +330,22 @@ export const HandleMissingLocationRows = [
     label: 'handle empty loyalty credit',
     quantity: 9,
   },
+  {
+    id: 'item-7277',
+    store: '291',
+    label: 'handle oversized guest',
+    quantity: 5,
+  },
+  {
+    id: 'item-8033',
+    store: '595',
+    label: 'add oversized location for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'item-9993',
+    store: '465',
+    label: 'dedupe partial loyalty credit',
+    quantity: 10,
+  },
 ];

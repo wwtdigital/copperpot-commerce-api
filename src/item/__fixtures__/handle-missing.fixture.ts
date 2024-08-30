@@ -348,4 +348,22 @@ export const HandleMissingLocationRows = [
     label: 'dedupe partial loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'item-7159',
+    store: '435',
+    label: 'rename stale loyalty credit per store',
+    quantity: 3,
+  },
+  {
+    id: 'item-8692',
+    store: '108',
+    label: 'backfill expired guest',
+    quantity: 11,
+  },
+  {
+    id: 'item-9295',
+    store: '662',
+    label: 'handle stale bowl for franchisees',
+    quantity: 6,
+  },
 ];

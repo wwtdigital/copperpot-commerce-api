@@ -318,4 +318,52 @@ export const HandleMissingLocationRows = [
     label: 'rename oversized ticket for franchisees',
     quantity: 6,
   },
+  {
+    id: 'item-1010',
+    store: '474',
+    label: 'guard late topping',
+    quantity: 2,
+  },
+  {
+    id: 'item-5657',
+    store: '223',
+    label: 'handle empty loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'item-7277',
+    store: '291',
+    label: 'handle oversized guest',
+    quantity: 5,
+  },
+  {
+    id: 'item-8033',
+    store: '595',
+    label: 'add oversized location for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'item-9993',
+    store: '465',
+    label: 'dedupe partial loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'item-7159',
+    store: '435',
+    label: 'rename stale loyalty credit per store',
+    quantity: 3,
+  },
+  {
+    id: 'item-8692',
+    store: '108',
+    label: 'backfill expired guest',
+    quantity: 11,
+  },
+  {
+    id: 'item-9295',
+    store: '662',
+    label: 'handle stale bowl for franchisees',
+    quantity: 6,
+  },
 ];

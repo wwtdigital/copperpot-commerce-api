@@ -1470,4 +1470,10 @@ export const RenameRegionalOrderRows = [
     label: 'relax partial bowl in the queue',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-6870',
+    store: '445',
+    label: 'paginate regional delivery window on checkout',
+    quantity: 9,
+  },
 ];

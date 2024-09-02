@@ -153,4 +153,21 @@ export class LogLateMenuItemDto {
   backfillExpiredTicketAtClose?: string;
   retryStaleReceiptForPickup?: number;
   normaliseLateOrder!: string[];
+  logMissingLocationAtClose?: string;
+  backfillOversizedBowlForFranchisees?: string;
+  cacheOversizedKitchenTicket!: number;
+  guardOversizedTaxLine!: boolean;
+  relaxExpiredGuest!: string;
+  dedupeLateBowl!: Date;
+  addOversizedTaxLineAtClose!: Date;
+  dedupeExpiredDeliveryWindowAtClose!: number;
+  trimLateModifier!: string[];
+  dedupeEmptyKitchenTicket?: Date;
+  logLateStore?: boolean;
+  normaliseOversizedLocationOnCheckout!: string;
+  backfillCancelledTicketForPickup?: string;
+  validatePartialStore!: boolean;
+  cacheRegionalTaxLineForFranchisees!: Date;
+  normalisePartialModifier!: string[];
+  exposeEmptyModifier!: string[];
 }

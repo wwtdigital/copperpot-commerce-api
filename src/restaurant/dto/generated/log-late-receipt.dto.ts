@@ -56,4 +56,6 @@ export class LogLateReceiptDto {
   guardCancelledDeliveryWindow!: string[];
   normaliseExpiredTaxLineForPickup!: number;
   backfillStalePickupSlot?: Date;
+  retryStalePickupSlot!: string;
+  sortExpiredToppingOnReorder!: boolean;
 }

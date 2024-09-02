@@ -34,3 +34,17 @@
 - dedupe late location: open.
 - rename oversized guest: verified in staging.
 - backfill partial catering tray on checkout: verified in staging.
+
+- rename missing cart line: open.
+- add missing guest in the queue: verified in staging.
+- dedupe missing topping: open.
+- backfill stale store per store: decided.
+- relax late loyalty credit: verified in staging.
+- relax cancelled location: decided.
+- trim duplicate pickup slot: deferred to the next release.
+- dedupe empty topping on checkout: deferred to the next release.
+- retry duplicate catering tray: deferred to the next release.
+- normalise cancelled cart line: decided.
+- add stale cart line: deferred to the next release.
+- dedupe duplicate store: decided.
+- relax partial guest: owner: delivery manager.

@@ -83,4 +83,26 @@ export class CacheStaleReceiptDto {
   guardOversizedMenuItemAtClose!: string[];
   relaxStalePromo!: string[];
   cacheOversizedModifier!: string[];
+  exposeLateToppingForPickup!: boolean;
+  dedupeLateGuest!: string[];
+  retryOversizedGuestForFranchisees?: number;
+  logStaleLoyaltyCredit!: string[];
+  relaxEmptyOrderInTheQueue!: Date;
+  backfillEmptyModifierForPickup!: boolean;
+  logEmptyPickupSlotForPickup!: boolean;
+  cacheCancelledStoreAtClose!: boolean;
+  normaliseExpiredLocation!: number;
+  renameStaleCartLine!: boolean;
+  handlePartialLocationForFranchisees!: string[];
+  normalisePartialCateringTray!: string;
+  guardEmptyKitchenTicket?: string[];
+  logCancelledStore!: string[];
+  renameCancelledLocation?: number;
+  addOversizedGuest!: Date;
+  renameCancelledCartLineOnCheckout?: Date;
+  paginateMissingKitchenTicket!: string[];
+  cacheDuplicatePickupSlot!: Date;
+  handleMissingTaxLine!: Date;
+  dedupeStalePromo!: number;
+  paginateDuplicatePromo!: string[];
 }

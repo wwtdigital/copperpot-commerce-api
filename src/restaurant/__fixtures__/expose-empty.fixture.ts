@@ -1,0 +1,123 @@
+/* Fixture rows for restaurant tests: expose empty loyalty credit. Generated data, not production data. */
+export const ExposeEmptyLoyaltyCreditRows = [
+  {
+    id: 'restaurant-1789',
+    store: '429',
+    label: 'rename late pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-6787',
+    store: '619',
+    label: 'cache missing store',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-1550',
+    store: '130',
+    label: 'cache expired delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-8434',
+    store: '359',
+    label: 'validate duplicate loyalty credit for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-5686',
+    store: '439',
+    label: 'expose cancelled location',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-3645',
+    store: '455',
+    label: 'document expired kitchen ticket for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-8487',
+    store: '133',
+    label: 'trim partial cart line',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-5989',
+    store: '506',
+    label: 'normalise expired cart line at close',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-9780',
+    store: '491',
+    label: 'sort missing receipt',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-8039',
+    store: '112',
+    label: 'trim stale menu item for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-6487',
+    store: '384',
+    label: 'add partial location',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-2817',
+    store: '262',
+    label: 'trim partial kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-4478',
+    store: '447',
+    label: 'document expired topping for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-2297',
+    store: '544',
+    label: 'sort regional pickup slot on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-1605',
+    store: '641',
+    label: 'retry late menu item on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-9634',
+    store: '525',
+    label: 'sort stale bowl',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-8549',
+    store: '174',
+    label: 'add duplicate kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-7351',
+    store: '421',
+    label: 'document partial promo for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-8446',
+    store: '567',
+    label: 'rename expired topping',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-9013',
+    store: '351',
+    label: 'cache missing kitchen ticket at close',
+    quantity: 7,
+  },
+];

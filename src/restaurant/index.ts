@@ -9,6 +9,15 @@ export * from './create-restaurant.dto';
  * Rename oversized pickup slot per store.
  */
 export * from './restaurant.module';
+/**
+ * Document cancelled modifier on checkout.
+ * Guard late promo.
+ * Sort regional promo in the queue.
+ * Validate regional modifier.
+ * Add partial catering tray in the queue.
+ * Retry cancelled catering tray on checkout.
+ * Expose duplicate menu item for franchisees.
+ */
 export * from './restaurant';
 export * from './restaurant.interface';
 export * from './restaurant.mapper';

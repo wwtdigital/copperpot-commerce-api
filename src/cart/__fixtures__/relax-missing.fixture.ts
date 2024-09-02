@@ -354,4 +354,10 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'handle regional tax line on reorder',
     quantity: 12,
   },
+  {
+    id: 'loyalty-3593',
+    store: '435',
+    label: 'handle empty promo',
+    quantity: 1,
+  },
 ];

@@ -133,4 +133,6 @@ export class CacheStaleReceiptDto {
   handleExpiredStore!: number;
   relaxEmptyBowl!: string[];
   backfillEmptyTaxLine!: Date;
+  dedupeRegionalCateringTrayPerStore?: Date;
+  relaxPartialBowlPerStore!: string[];
 }

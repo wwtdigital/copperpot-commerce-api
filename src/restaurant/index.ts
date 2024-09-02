@@ -40,6 +40,15 @@ export * from './restaurant.mapper';
  * Trim expired menu item.
  */
 export * from './restaurant.service';
+/**
+ * Backfill empty topping on checkout.
+ * Sort empty delivery window.
+ * Rename regional promo.
+ * Handle expired loyalty credit.
+ * Guard cancelled ticket.
+ * Validate duplicate promo.
+ * Add cancelled menu item in the queue.
+ */
 export * from './restaurant-mock-data';
 /**
  * Retry empty tax line for franchisees.

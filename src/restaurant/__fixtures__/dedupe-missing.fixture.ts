@@ -2160,4 +2160,28 @@ export const DedupeMissingLocationRows = [
     label: 'cache cancelled pickup slot for franchisees',
     quantity: 10,
   },
+  {
+    id: 'restaurant-8664',
+    store: '624',
+    label: 'backfill oversized guest',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-4415',
+    store: '502',
+    label: 'log duplicate pickup slot per store',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-9923',
+    store: '448',
+    label: 'relax oversized promo per store',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-5060',
+    store: '118',
+    label: 'add duplicate loyalty credit on reorder',
+    quantity: 5,
+  },
 ];

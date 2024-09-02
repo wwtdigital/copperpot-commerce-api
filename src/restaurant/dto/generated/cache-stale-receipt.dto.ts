@@ -105,4 +105,6 @@ export class CacheStaleReceiptDto {
   handleMissingTaxLine!: Date;
   dedupeStalePromo!: number;
   paginateDuplicatePromo!: string[];
+  validateEmptyMenuItemForFranchisees!: string[];
+  trimOversizedReceipt!: number;
 }

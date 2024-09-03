@@ -63,3 +63,18 @@
 - paginate empty ticket: deferred to the next release.
 - cache missing ticket: owner: delivery manager.
 - trim missing promo: decided.
+
+- relax duplicate cart line on reorder: open.
+- paginate late promo at close: blocked on store systems.
+- paginate missing guest: verified in staging.
+- backfill cancelled bowl for pickup: blocked on store systems.
+- paginate stale tax line for franchisees: open.
+- validate partial bowl for franchisees: owner: delivery manager.
+- cache duplicate pickup slot in the queue: owner: delivery manager.
+- guard stale menu item: deferred to the next release.
+- paginate empty kitchen ticket: deferred to the next release.
+- rename expired guest on checkout: verified in staging.
+- log late kitchen ticket: decided.
+- paginate expired location on checkout: decided.
+- trim stale promo: owner: delivery manager.
+- backfill stale cart line: blocked on store systems.

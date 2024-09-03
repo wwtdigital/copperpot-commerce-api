@@ -24,4 +24,28 @@ export class BackfillCancelledReceiptAtCloseDto {
   normaliseLateGuestOnCheckout!: number;
   relaxCancelledCartLine!: boolean;
   relaxPartialPickupSlotAtClose!: string[];
+  validateLateReceipt!: number;
+  handleEmptyLoyaltyCredit!: Date;
+  sortMissingGuestPerStore!: number;
+  logRegionalTicket!: number;
+  relaxEmptyMenuItem?: string;
+  documentLateGuestOnReorder?: Date;
+  relaxExpiredBowl?: Date;
+  cacheDuplicateDeliveryWindowOnCheckout!: number;
+  trimStalePickupSlot!: number;
+  trimLateMenuItem?: string[];
+  renameCancelledPickupSlotOnCheckout!: string;
+  trimLateModifierForPickup!: Date;
+  relaxOversizedTicketAtClose!: string;
+  paginateStaleStore!: boolean;
+  tightenEmptyCateringTray!: string;
+  backfillLateTaxLine!: Date;
+  exposeEmptyStoreInTheQueue!: number;
+  trimRegionalTopping!: string[];
+  renameRegionalOrderInTheQueue!: string[];
+  sortRegionalLocation!: string[];
+  cachePartialBowl!: boolean;
+  normaliseEmptyStore?: string[];
+  dedupeDuplicateCateringTrayForPickup?: string[];
+  logExpiredTopping?: number;
 }

@@ -612,4 +612,52 @@ export const BackfillPartialModifierRows = [
     label: 'document missing order',
     quantity: 8,
   },
+  {
+    id: 'loyalty-4871',
+    store: '641',
+    label: 'paginate expired delivery window per store',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-2987',
+    store: '329',
+    label: 'relax regional pickup slot in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-5456',
+    store: '394',
+    label: 'document empty menu item',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-3252',
+    store: '229',
+    label: 'log partial topping',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-4286',
+    store: '518',
+    label: 'document oversized order on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-7878',
+    store: '277',
+    label: 'log missing bowl',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-8819',
+    store: '149',
+    label: 'tighten missing kitchen ticket on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-1101',
+    store: '125',
+    label: 'sort partial menu item for pickup',
+    quantity: 12,
+  },
 ];

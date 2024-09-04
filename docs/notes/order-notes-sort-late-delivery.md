@@ -1,0 +1,31 @@
+# order_notes: sort late delivery window
+
+- expose expired cart line per store: deferred to the next release.
+- guard late guest for pickup: open.
+- tighten expired store: open.
+- expose late promo: blocked on store systems.
+- validate expired tax line at close: decided.
+- retry empty cart line: blocked on store systems.
+- dedupe expired promo: deferred to the next release.
+- validate missing delivery window for franchisees: decided.
+- sort expired catering tray: blocked on store systems.
+- document cancelled ticket on checkout: decided.
+- trim regional order: verified in staging.
+- document stale guest: decided.
+- add late kitchen ticket: blocked on store systems.
+- retry oversized promo: open.
+
+- add late order: owner: delivery manager.
+- normalise partial bowl per store: blocked on store systems.
+- cache late catering tray: open.
+- backfill empty bowl: open.
+- paginate partial topping for franchisees: blocked on store systems.
+- backfill empty ticket in the queue: deferred to the next release.
+- normalise cancelled kitchen ticket: open.
+- retry stale receipt at close: verified in staging.
+- relax oversized order: blocked on store systems.
+- relax late order on reorder: owner: delivery manager.
+- guard cancelled topping for pickup: owner: delivery manager.
+- retry oversized cart line: owner: delivery manager.
+- retry oversized order at close: verified in staging.
+- validate empty location: owner: delivery manager.

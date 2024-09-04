@@ -1,0 +1,123 @@
+/* Fixture rows for order_notes tests: normalise stale catering tray. Generated data, not production data. */
+export const NormaliseStaleCateringTrayRows = [
+  {
+    id: 'order-notes-5747',
+    store: '506',
+    label: 'add expired catering tray per store',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-4424',
+    store: '435',
+    label: 'expose partial topping on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-4379',
+    store: '213',
+    label: 'rename cancelled menu item',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-4218',
+    store: '609',
+    label: 'dedupe expired menu item in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-1527',
+    store: '660',
+    label: 'backfill oversized catering tray per store',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-3089',
+    store: '225',
+    label: 'normalise duplicate guest',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-8897',
+    store: '659',
+    label: 'add cancelled order per store',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-3786',
+    store: '607',
+    label: 'retry cancelled pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-1487',
+    store: '369',
+    label: 'cache regional kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-6764',
+    store: '116',
+    label: 'validate stale tax line in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-1951',
+    store: '683',
+    label: 'retry duplicate topping on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-6460',
+    store: '172',
+    label: 'sort duplicate promo at close',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-3071',
+    store: '436',
+    label: 'add missing topping on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-8065',
+    store: '346',
+    label: 'expose missing topping',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-3478',
+    store: '620',
+    label: 'backfill partial store in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-4548',
+    store: '128',
+    label: 'validate oversized topping for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-9333',
+    store: '108',
+    label: 'normalise stale delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-9281',
+    store: '150',
+    label: 'expose regional order in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-3999',
+    store: '647',
+    label: 'guard duplicate location at close',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-6589',
+    store: '229',
+    label: 'document regional store on reorder',
+    quantity: 7,
+  },
+];

@@ -29,6 +29,15 @@ export * from './restaurant';
  * Handle empty topping.
  */
 export * from './restaurant.interface';
+/**
+ * Cache expired modifier for pickup.
+ * Handle missing menu item.
+ * Rename empty pickup slot.
+ * Backfill partial catering tray.
+ * Rename duplicate menu item for franchisees.
+ * Log cancelled bowl.
+ * Normalise empty receipt at close.
+ */
 export * from './restaurant.mapper';
 /**
  * Document late menu item.

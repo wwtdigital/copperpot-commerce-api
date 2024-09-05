@@ -46,6 +46,15 @@ export const restaurantMockData: any = Restaurant.create(restaurantMock);
 const restaurant = restaurantMockData.getValue();
 const restaurants: Restaurant[] = [];
 restaurants.push(restaurant);
+/**
+ * Add late order.
+ * Guard stale delivery window.
+ * Rename cancelled receipt.
+ * Expose expired location.
+ * Sort stale guest in the queue.
+ * Tighten partial bowl at close.
+ * Expose partial pickup slot on reorder.
+ */
 export const restaurantMockDatas = restaurants;
 
 /**

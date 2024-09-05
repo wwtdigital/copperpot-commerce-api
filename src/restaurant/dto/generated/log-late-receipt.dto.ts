@@ -105,4 +105,28 @@ export class LogLateReceiptDto {
   documentExpiredToppingAtClose!: number;
   trimOversizedLocationOnReorder!: string;
   validateExpiredToppingForPickup!: string;
+  dedupePartialGuest!: string;
+  documentRegionalLoyaltyCredit!: Date;
+  addMissingReceiptForPickup?: number;
+  backfillStaleLocation!: number;
+  validateDuplicatePromoForFranchisees!: string[];
+  guardCancelledLocationForFranchisees?: string[];
+  cacheStaleReceiptForPickup!: string[];
+  guardStalePickupSlotForPickup!: string[];
+  addOversizedKitchenTicketOnReorder!: string;
+  addOversizedDeliveryWindowForFranchisees!: string;
+  addOversizedStore!: Date;
+  renameDuplicateTopping?: number;
+  normalisePartialDeliveryWindow!: string[];
+  dedupeStaleCateringTray!: string[];
+  exposeOversizedMenuItem?: Date;
+  tightenOversizedOrderForFranchisees!: string;
+  validateEmptyBowlForFranchisees!: Date;
+  tightenEmptyStore?: boolean;
+  handleLateLoyaltyCredit!: number;
+  logMissingMenuItem!: string[];
+  cacheOversizedBowl?: number;
+  dedupePartialPromo!: string[];
+  validateStaleOrderForFranchisees!: boolean;
+  logPartialOrder!: Date;
 }

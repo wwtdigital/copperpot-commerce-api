@@ -354,4 +354,52 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'handle regional tax line on reorder',
     quantity: 12,
   },
+  {
+    id: 'loyalty-3593',
+    store: '435',
+    label: 'handle empty promo',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-2034',
+    store: '391',
+    label: 'paginate late menu item',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-2083',
+    store: '268',
+    label: 'dedupe late menu item per store',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-9869',
+    store: '439',
+    label: 'guard oversized cart line in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-5657',
+    store: '120',
+    label: 'retry empty guest',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-7735',
+    store: '277',
+    label: 'rename missing ticket on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-7292',
+    store: '488',
+    label: 'handle cancelled order on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1482',
+    store: '679',
+    label: 'relax expired catering tray',
+    quantity: 2,
+  },
 ];

@@ -31,3 +31,33 @@
 - validate partial bowl on reorder: decided.
 - trim duplicate pickup slot: deferred to the next release.
 - document stale guest: decided.
+
+- expose partial receipt: deferred to the next release.
+- relax regional receipt: open.
+- sort duplicate promo: blocked on store systems.
+- normalise oversized receipt: blocked on store systems.
+- log missing menu item: owner: delivery manager.
+- trim empty receipt: deferred to the next release.
+- sort empty location on checkout: deferred to the next release.
+- guard late receipt for franchisees: decided.
+- sort late ticket on checkout: open.
+- tighten empty bowl: deferred to the next release.
+- guard empty catering tray for franchisees: open.
+- relax partial kitchen ticket for pickup: decided.
+- document stale cart line per store: decided.
+- rename stale delivery window on checkout: open.
+
+- document empty order: blocked on store systems.
+- tighten oversized menu item: owner: delivery manager.
+- guard partial pickup slot: blocked on store systems.
+- retry empty ticket on checkout: deferred to the next release.
+- expose expired topping: deferred to the next release.
+- handle partial promo: verified in staging.
+- retry empty tax line: deferred to the next release.
+- expose expired cart line per store: open.
+- paginate duplicate modifier: open.
+- handle regional kitchen ticket: verified in staging.
+- tighten empty loyalty credit: blocked on store systems.
+- normalise regional store: blocked on store systems.
+- tighten duplicate promo per store: owner: delivery manager.
+- sort duplicate bowl at close: deferred to the next release.

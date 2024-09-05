@@ -72,4 +72,6 @@ export class PaginateLateCartLineDto {
   tightenPartialCartLineOnReorder?: Date;
   exposeRegionalLocationAtClose?: number;
   sortEmptyTaxLineOnCheckout?: Date;
+  guardCancelledGuest!: Date;
+  logPartialStore?: boolean;
 }

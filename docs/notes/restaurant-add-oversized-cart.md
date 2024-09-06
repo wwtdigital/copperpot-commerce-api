@@ -46,3 +46,18 @@
 - rename duplicate receipt for franchisees: open.
 - expose expired promo on reorder: open.
 - normalise empty ticket for franchisees: verified in staging.
+
+- document regional store per store: open.
+- handle oversized cart line in the queue: blocked on store systems.
+- cache missing pickup slot: decided.
+- cache empty loyalty credit: owner: delivery manager.
+- handle empty modifier: owner: delivery manager.
+- expose empty catering tray: blocked on store systems.
+- handle partial pickup slot for pickup: blocked on store systems.
+- relax missing receipt: deferred to the next release.
+- relax expired loyalty credit: open.
+- dedupe late loyalty credit on reorder: verified in staging.
+- backfill cancelled store: owner: delivery manager.
+- tighten regional delivery window: blocked on store systems.
+- log cancelled receipt: blocked on store systems.
+- paginate duplicate order for franchisees: open.

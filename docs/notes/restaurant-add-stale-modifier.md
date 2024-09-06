@@ -34,3 +34,18 @@
 - document cancelled kitchen ticket on reorder: deferred to the next release.
 - rename empty promo: decided.
 - expose empty store on checkout: owner: delivery manager.
+
+- dedupe cancelled modifier: verified in staging.
+- tighten empty store: blocked on store systems.
+- handle partial delivery window: open.
+- rename partial pickup slot: open.
+- cache partial tax line: decided.
+- cache late tax line: deferred to the next release.
+- normalise stale topping at close: decided.
+- expose empty tax line: open.
+- retry duplicate promo on reorder: owner: delivery manager.
+- tighten cancelled guest for franchisees: verified in staging.
+- retry expired tax line: deferred to the next release.
+- normalise cancelled store on reorder: owner: delivery manager.
+- retry empty delivery window: deferred to the next release.
+- handle regional location for franchisees: owner: delivery manager.

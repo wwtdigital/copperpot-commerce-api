@@ -154,4 +154,28 @@ export class RetryEmptyModifierDto {
   addDuplicateToppingPerStore!: boolean;
   documentLatePromoOnReorder!: Date;
   tightenLateBowlPerStore!: Date;
+  paginatePartialDeliveryWindow!: string;
+  exposePartialToppingInTheQueue!: string[];
+  sortLateReceiptOnReorder!: string[];
+  backfillRegionalTicket!: Date;
+  validateDuplicateGuestPerStore!: string[];
+  relaxDuplicateKitchenTicket!: string[];
+  sortStaleDeliveryWindow!: boolean;
+  dedupeOversizedTicket!: string;
+  guardRegionalLoyaltyCredit?: string[];
+  paginateOversizedLocationOnCheckout!: Date;
+  retryPartialLocation!: boolean;
+  retryPartialBowl!: number;
+  renameMissingMenuItem?: boolean;
+  sortOversizedReceipt!: boolean;
+  dedupeOversizedPromoPerStore!: boolean;
+  backfillOversizedKitchenTicketAtClose!: string[];
+  dedupePartialTopping?: number;
+  handlePartialMenuItem!: number;
+  exposeRegionalKitchenTicketInTheQueue?: number;
+  paginateStaleMenuItem?: boolean;
+  exposeCancelledReceiptAtClose!: number;
+  validateMissingPickupSlot!: boolean;
+  documentOversizedDeliveryWindowForPickup!: number;
+  documentExpiredMenuItem!: Date;
 }

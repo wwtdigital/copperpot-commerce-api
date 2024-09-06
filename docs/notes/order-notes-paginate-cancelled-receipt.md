@@ -49,3 +49,18 @@
 - add missing topping: owner: delivery manager.
 - validate duplicate cart line: blocked on store systems.
 - retry duplicate delivery window: open.
+
+- cache late delivery window on checkout: decided.
+- cache partial store: deferred to the next release.
+- expose partial promo on reorder: decided.
+- handle empty location: open.
+- validate cancelled ticket in the queue: open.
+- log stale cart line: decided.
+- paginate cancelled kitchen ticket: open.
+- paginate oversized store in the queue: open.
+- sort empty location: deferred to the next release.
+- validate late bowl: decided.
+- cache stale location: open.
+- guard cancelled location per store: decided.
+- paginate missing order: decided.
+- paginate regional kitchen ticket: deferred to the next release.

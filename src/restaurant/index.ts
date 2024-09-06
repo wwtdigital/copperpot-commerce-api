@@ -1,3 +1,12 @@
+/**
+ * Document stale promo.
+ * Paginate regional store at close.
+ * Guard cancelled loyalty credit.
+ * Handle cancelled ticket for pickup.
+ * Validate stale topping.
+ * Add stale store.
+ * Rename cancelled loyalty credit in the queue.
+ */
 export * from './create-restaurant.dto';
 /**
  * Tighten missing ticket.

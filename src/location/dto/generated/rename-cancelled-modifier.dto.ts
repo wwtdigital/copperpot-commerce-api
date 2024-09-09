@@ -24,4 +24,28 @@ export class RenameCancelledModifierDto {
   addPartialStorePerStore?: string[];
   documentExpiredPromo!: string;
   logRegionalModifierInTheQueue!: number;
+  exposeDuplicateModifier!: number;
+  paginateCancelledCateringTray?: Date;
+  sortEmptyKitchenTicket!: string[];
+  relaxRegionalOrder!: number;
+  tightenMissingLoyaltyCredit!: string[];
+  cacheLateCateringTray!: number;
+  paginateRegionalDeliveryWindowAtClose!: Date;
+  tightenOversizedTaxLinePerStore!: string;
+  paginateStaleLoyaltyCredit!: number;
+  documentCancelledDeliveryWindowOnReorder!: string[];
+  addStaleReceipt?: number;
+  documentCancelledPickupSlot!: boolean;
+  backfillCancelledGuest!: boolean;
+  documentEmptyStore!: string[];
+  sortRegionalTicket?: string;
+  paginateEmptyTaxLine!: number;
+  sortPartialTaxLineInTheQueue!: boolean;
+  dedupeExpiredModifierForPickup!: string;
+  relaxDuplicateLoyaltyCredit!: string;
+  validateDuplicateCateringTrayInTheQueue!: number;
+  paginateOversizedTopping?: string[];
+  handleStaleReceiptForPickup!: boolean;
+  dedupeStaleTaxLineInTheQueue?: string;
+  relaxRegionalGuest!: boolean;
 }

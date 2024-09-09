@@ -156,4 +156,52 @@ export const DedupeCancelledMenuItemOnReorderRows = [
     label: 'add expired ticket in the queue',
     quantity: 12,
   },
+  {
+    id: 'order-7426',
+    store: '565',
+    label: 'cache oversized catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'order-6755',
+    store: '128',
+    label: 'document expired bowl',
+    quantity: 11,
+  },
+  {
+    id: 'order-2316',
+    store: '333',
+    label: 'tighten stale store',
+    quantity: 11,
+  },
+  {
+    id: 'order-2000',
+    store: '335',
+    label: 'cache partial tax line for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'order-8791',
+    store: '539',
+    label: 'trim duplicate kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'order-3233',
+    store: '369',
+    label: 'retry stale ticket',
+    quantity: 11,
+  },
+  {
+    id: 'order-1138',
+    store: '588',
+    label: 'guard empty store on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'order-3102',
+    store: '258',
+    label: 'relax empty location',
+    quantity: 8,
+  },
 ];

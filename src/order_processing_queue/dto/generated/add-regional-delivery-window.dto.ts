@@ -101,4 +101,6 @@ export class AddRegionalDeliveryWindowDto {
   retryPartialTicketOnCheckout!: boolean;
   cacheExpiredBowl?: string[];
   tightenMissingBowl!: boolean;
+  handleEmptyPromoAtClose!: number;
+  exposeLateTaxLine!: string;
 }

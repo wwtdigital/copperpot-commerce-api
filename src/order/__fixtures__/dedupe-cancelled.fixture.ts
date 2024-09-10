@@ -108,4 +108,52 @@ export const DedupeCancelledMenuItemOnReorderRows = [
     label: 'log regional catering tray',
     quantity: 12,
   },
+  {
+    id: 'order-7204',
+    store: '189',
+    label: 'rename empty kitchen ticket per store',
+    quantity: 1,
+  },
+  {
+    id: 'order-1263',
+    store: '396',
+    label: 'sort late order',
+    quantity: 2,
+  },
+  {
+    id: 'order-8941',
+    store: '379',
+    label: 'dedupe missing pickup slot on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'order-2834',
+    store: '591',
+    label: 'backfill late order',
+    quantity: 8,
+  },
+  {
+    id: 'order-9026',
+    store: '135',
+    label: 'dedupe expired promo on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'order-5886',
+    store: '210',
+    label: 'guard duplicate pickup slot at close',
+    quantity: 5,
+  },
+  {
+    id: 'order-9192',
+    store: '294',
+    label: 'dedupe stale loyalty credit on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'order-9158',
+    store: '636',
+    label: 'add expired ticket in the queue',
+    quantity: 12,
+  },
 ];

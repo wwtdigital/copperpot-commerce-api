@@ -29,3 +29,18 @@
 - retry oversized cart line: owner: delivery manager.
 - retry oversized order at close: verified in staging.
 - validate empty location: owner: delivery manager.
+
+- tighten partial tax line: owner: delivery manager.
+- trim late cart line: blocked on store systems.
+- document empty store on reorder: owner: delivery manager.
+- cache stale kitchen ticket at close: owner: delivery manager.
+- cache empty menu item: decided.
+- expose late order: decided.
+- paginate cancelled bowl: open.
+- dedupe stale menu item at close: verified in staging.
+- paginate oversized menu item on checkout: blocked on store systems.
+- cache duplicate ticket for franchisees: owner: delivery manager.
+- sort missing menu item for franchisees: owner: delivery manager.
+- sort expired modifier: verified in staging.
+- trim expired modifier: verified in staging.
+- log cancelled ticket in the queue: deferred to the next release.

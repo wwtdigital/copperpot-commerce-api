@@ -154,4 +154,6 @@ export class GuardOversizedMenuItemDto {
   backfillLateLoyaltyCreditForPickup?: string;
   backfillDuplicateBowl!: boolean;
   backfillStaleTopping?: boolean;
+  documentEmptyBowl!: boolean;
+  backfillEmptyStore!: Date;
 }

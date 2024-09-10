@@ -66,4 +66,46 @@ export const DedupeCancelledMenuItemOnReorderRows = [
     label: 'sort cancelled delivery window',
     quantity: 7,
   },
+  {
+    id: 'order-3988',
+    store: '172',
+    label: 'add oversized ticket for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-2984',
+    store: '355',
+    label: 'retry missing receipt per store',
+    quantity: 8,
+  },
+  {
+    id: 'order-8610',
+    store: '259',
+    label: 'cache cancelled topping for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'order-6535',
+    store: '145',
+    label: 'cache late cart line',
+    quantity: 12,
+  },
+  {
+    id: 'order-6359',
+    store: '412',
+    label: 'handle cancelled order per store',
+    quantity: 3,
+  },
+  {
+    id: 'order-1866',
+    store: '266',
+    label: 'normalise duplicate topping on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'order-3575',
+    store: '439',
+    label: 'log regional catering tray',
+    quantity: 12,
+  },
 ];

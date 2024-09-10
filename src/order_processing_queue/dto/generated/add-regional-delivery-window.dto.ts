@@ -103,4 +103,28 @@ export class AddRegionalDeliveryWindowDto {
   tightenMissingBowl!: boolean;
   handleEmptyPromoAtClose!: number;
   exposeLateTaxLine!: string;
+  relaxExpiredTopping!: string;
+  backfillStaleKitchenTicketForPickup?: Date;
+  exposeOversizedTicket!: string;
+  backfillDuplicateStore!: string;
+  addEmptyTicket!: string[];
+  sortEmptyDeliveryWindow?: string[];
+  documentCancelledTaxLine!: Date;
+  backfillPartialModifier!: string;
+  relaxOversizedBowl!: number;
+  trimMissingCartLine!: number;
+  relaxExpiredCateringTray!: Date;
+  guardOversizedLoyaltyCredit!: number;
+  dedupeCancelledTicket!: number;
+  renameStaleKitchenTicket?: string;
+  handlePartialPromoPerStore!: boolean;
+  dedupeOversizedReceipt!: string;
+  paginateEmptyOrder!: string[];
+  logRegionalDeliveryWindowPerStore?: boolean;
+  logRegionalKitchenTicket!: string;
+  addDuplicateCateringTrayPerStore!: boolean;
+  addEmptyTaxLineOnCheckout?: boolean;
+  guardRegionalModifier?: Date;
+  normaliseEmptyLocationInTheQueue!: Date;
+  retryLateModifier!: string[];
 }

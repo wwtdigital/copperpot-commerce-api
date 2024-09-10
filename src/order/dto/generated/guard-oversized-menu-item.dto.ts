@@ -143,4 +143,17 @@ export class GuardOversizedMenuItemDto {
   logCancelledModifier?: string;
   retryDuplicatePickupSlot!: number;
   renamePartialCartLineOnReorder!: Date;
+  documentLateKitchenTicketOnCheckout?: boolean;
+  tightenRegionalPromoOnCheckout!: string;
+  trimMissingTaxLine!: boolean;
+  retryRegionalReceiptOnReorder!: string;
+  paginateMissingPickupSlotOnCheckout!: boolean;
+  guardExpiredDeliveryWindow!: boolean;
+  tightenLateMenuItemPerStore!: boolean;
+  sortStaleKitchenTicketAtClose?: string;
+  backfillLateLoyaltyCreditForPickup?: string;
+  backfillDuplicateBowl!: boolean;
+  backfillStaleTopping?: boolean;
+  documentEmptyBowl!: boolean;
+  backfillEmptyStore!: Date;
 }

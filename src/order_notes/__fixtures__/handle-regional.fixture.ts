@@ -1,0 +1,123 @@
+/* Fixture rows for order_notes tests: handle regional cart line. Generated data, not production data. */
+export const HandleRegionalCartLineRows = [
+  {
+    id: 'order-notes-3028',
+    store: '631',
+    label: 'validate empty location on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-5298',
+    store: '201',
+    label: 'tighten oversized menu item',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-9146',
+    store: '405',
+    label: 'sort oversized cart line',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-7398',
+    store: '115',
+    label: 'normalise oversized location',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-8599',
+    store: '519',
+    label: 'trim oversized receipt',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-1954',
+    store: '382',
+    label: 'tighten missing pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-3127',
+    store: '613',
+    label: 'tighten late kitchen ticket at close',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-1079',
+    store: '268',
+    label: 'dedupe stale bowl',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-5633',
+    store: '693',
+    label: 'sort oversized pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-3919',
+    store: '456',
+    label: 'retry late tax line',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-3921',
+    store: '688',
+    label: 'sort empty location',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-6933',
+    store: '696',
+    label: 'expose partial order',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-7471',
+    store: '262',
+    label: 'trim partial order for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-2396',
+    store: '224',
+    label: 'tighten regional loyalty credit in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-6294',
+    store: '344',
+    label: 'backfill regional catering tray at close',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-1544',
+    store: '320',
+    label: 'cache partial kitchen ticket in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-8700',
+    store: '549',
+    label: 'backfill duplicate ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-6726',
+    store: '538',
+    label: 'expose regional cart line for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-8474',
+    store: '552',
+    label: 'sort oversized delivery window for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-8743',
+    store: '138',
+    label: 'log oversized ticket',
+    quantity: 2,
+  },
+];

@@ -19,3 +19,48 @@
 - guard partial bowl: verified in staging.
 - add regional modifier for franchisees: open.
 - guard stale delivery window for pickup: blocked on store systems.
+
+- normalise oversized modifier: owner: delivery manager.
+- dedupe duplicate ticket on checkout: owner: delivery manager.
+- guard regional modifier: verified in staging.
+- log expired ticket: blocked on store systems.
+- add cancelled tax line: blocked on store systems.
+- paginate missing ticket: decided.
+- normalise regional topping: verified in staging.
+- dedupe duplicate tax line: blocked on store systems.
+- trim late tax line for pickup: deferred to the next release.
+- cache partial tax line: owner: delivery manager.
+- log partial kitchen ticket: deferred to the next release.
+- add empty order: owner: delivery manager.
+- trim oversized pickup slot: decided.
+- normalise oversized receipt: owner: delivery manager.
+
+- dedupe late ticket: verified in staging.
+- normalise oversized catering tray: blocked on store systems.
+- paginate expired topping: open.
+- trim partial catering tray: blocked on store systems.
+- rename late kitchen ticket on checkout: verified in staging.
+- rename duplicate kitchen ticket: decided.
+- retry expired loyalty credit at close: blocked on store systems.
+- expose missing order: blocked on store systems.
+- document duplicate store: open.
+- relax expired ticket: open.
+- add late cart line: decided.
+- add missing topping: owner: delivery manager.
+- validate duplicate cart line: blocked on store systems.
+- retry duplicate delivery window: open.
+
+- cache late delivery window on checkout: decided.
+- cache partial store: deferred to the next release.
+- expose partial promo on reorder: decided.
+- handle empty location: open.
+- validate cancelled ticket in the queue: open.
+- log stale cart line: decided.
+- paginate cancelled kitchen ticket: open.
+- paginate oversized store in the queue: open.
+- sort empty location: deferred to the next release.
+- validate late bowl: decided.
+- cache stale location: open.
+- guard cancelled location per store: decided.
+- paginate missing order: decided.
+- paginate regional kitchen ticket: deferred to the next release.

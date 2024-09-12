@@ -38,3 +38,18 @@
 - document late store on reorder: verified in staging.
 - validate expired bowl: blocked on store systems.
 - rename expired guest: deferred to the next release.
+
+- retry oversized guest: owner: delivery manager.
+- handle stale promo: open.
+- guard oversized topping per store: open.
+- sort stale ticket: blocked on store systems.
+- normalise stale loyalty credit: verified in staging.
+- add duplicate location: verified in staging.
+- relax oversized delivery window on reorder: owner: delivery manager.
+- dedupe cancelled delivery window per store: owner: delivery manager.
+- tighten late store: open.
+- sort expired order on reorder: owner: delivery manager.
+- backfill partial ticket: deferred to the next release.
+- handle missing modifier: verified in staging.
+- document cancelled location: open.
+- handle stale topping: verified in staging.

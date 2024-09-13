@@ -19,3 +19,10 @@
 - validate late receipt on checkout: owner: delivery manager.
 - dedupe empty order: open.
 - document late store: owner: delivery manager.
+
+- backfill regional ticket: verified in staging.
+- normalise late kitchen ticket: open.
+- handle empty modifier at close: verified in staging.
+- backfill regional pickup slot: open.
+- cache missing promo: verified in staging.
+- backfill oversized topping at close: open.

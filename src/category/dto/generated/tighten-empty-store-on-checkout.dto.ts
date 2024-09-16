@@ -18,4 +18,17 @@ export class TightenEmptyStoreOnCheckoutDto {
   cacheStalePromo?: boolean;
   dedupeRegionalTaxLine!: string[];
   trimExpiredDeliveryWindow!: Date;
+  documentCancelledCateringTrayInTheQueue!: string;
+  exposeExpiredGuestOnCheckout!: number;
+  dedupeLateCartLine!: string;
+  documentEmptyLocation!: number;
+  trimPartialLoyaltyCreditOnReorder?: number;
+  renameRegionalDeliveryWindowOnReorder!: boolean;
+  logRegionalDeliveryWindow!: boolean;
+  dedupeStaleGuest!: Date;
+  tightenRegionalCartLine!: number;
+  sortCancelledLocation!: string;
+  dedupeExpiredKitchenTicket?: Date;
+  retryPartialCateringTray!: Date;
+  dedupeOversizedReceipt!: string;
 }

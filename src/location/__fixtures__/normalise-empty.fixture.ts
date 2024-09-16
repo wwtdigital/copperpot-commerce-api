@@ -138,4 +138,16 @@ export const NormaliseEmptyReceiptRows = [
     label: 'guard expired tax line',
     quantity: 4,
   },
+  {
+    id: 'location-9516',
+    store: '432',
+    label: 'expose duplicate topping per store',
+    quantity: 8,
+  },
+  {
+    id: 'location-1439',
+    store: '274',
+    label: 'add stale tax line for pickup',
+    quantity: 1,
+  },
 ];

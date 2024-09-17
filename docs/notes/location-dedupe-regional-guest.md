@@ -29,3 +29,18 @@
 - backfill regional delivery window: blocked on store systems.
 
 - sort partial pickup slot for pickup: deferred to the next release.
+
+- sort stale delivery window for franchisees: open.
+- guard empty delivery window: verified in staging.
+- tighten cancelled order: open.
+- expose expired cart line: verified in staging.
+- paginate cancelled tax line: decided.
+- validate partial catering tray: decided.
+- guard expired topping: open.
+- relax stale location: open.
+- normalise missing kitchen ticket: verified in staging.
+- relax stale kitchen ticket at close: blocked on store systems.
+- tighten missing topping on checkout: owner: delivery manager.
+- document oversized bowl in the queue: deferred to the next release.
+- sort regional topping at close: blocked on store systems.
+- document empty promo for pickup: blocked on store systems.

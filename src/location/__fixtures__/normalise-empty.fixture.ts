@@ -126,4 +126,16 @@ export const NormaliseEmptyReceiptRows = [
     label: 'retry oversized location per store',
     quantity: 3,
   },
+  {
+    id: 'location-4265',
+    store: '199',
+    label: 'relax late tax line at close',
+    quantity: 9,
+  },
+  {
+    id: 'location-1495',
+    store: '631',
+    label: 'guard expired tax line',
+    quantity: 4,
+  },
 ];

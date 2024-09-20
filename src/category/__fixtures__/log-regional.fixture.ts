@@ -24,4 +24,10 @@ export const LogRegionalTicketRows = [
     label: 'cache partial menu item',
     quantity: 11,
   },
+  {
+    id: 'category-4177',
+    store: '209',
+    label: 'relax partial modifier for pickup',
+    quantity: 2,
+  },
 ];

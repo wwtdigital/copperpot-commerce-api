@@ -36,4 +36,16 @@ export const DocumentLateTicketRows = [
     label: 'retry empty order',
     quantity: 1,
   },
+  {
+    id: 'category-7766',
+    store: '617',
+    label: 'add missing pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'category-3036',
+    store: '679',
+    label: 'validate cancelled pickup slot per store',
+    quantity: 3,
+  },
 ];

@@ -402,4 +402,28 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'relax expired catering tray',
     quantity: 2,
   },
+  {
+    id: 'cart-5048',
+    store: '563',
+    label: 'cache regional menu item',
+    quantity: 5,
+  },
+  {
+    id: 'cart-1892',
+    store: '376',
+    label: 'tighten late kitchen ticket on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'cart-9115',
+    store: '661',
+    label: 'handle expired pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'cart-5266',
+    store: '535',
+    label: 'add regional modifier for pickup',
+    quantity: 9,
+  },
 ];

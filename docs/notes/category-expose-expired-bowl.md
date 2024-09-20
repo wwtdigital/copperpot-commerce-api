@@ -29,3 +29,5 @@
 - tighten empty promo for franchisees: verified in staging.
 - relax empty catering tray: decided.
 - relax regional pickup slot: verified in staging.
+
+- backfill late store on checkout: verified in staging.

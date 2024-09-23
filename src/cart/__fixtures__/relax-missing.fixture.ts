@@ -432,4 +432,28 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'tighten empty topping for pickup',
     quantity: 8,
   },
+  {
+    id: 'cart-2890',
+    store: '422',
+    label: 'handle empty location',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5536',
+    store: '185',
+    label: 'validate expired tax line per store',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5451',
+    store: '647',
+    label: 'retry duplicate topping',
+    quantity: 9,
+  },
+  {
+    id: 'cart-6608',
+    store: '462',
+    label: 'retry cancelled menu item',
+    quantity: 9,
+  },
 ];

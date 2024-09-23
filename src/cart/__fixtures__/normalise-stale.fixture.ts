@@ -6,4 +6,10 @@ export const NormaliseStaleCartLineRows = [
     label: 'document oversized receipt',
     quantity: 11,
   },
+  {
+    id: 'cart-3313',
+    store: '652',
+    label: 'handle stale catering tray',
+    quantity: 12,
+  },
 ];

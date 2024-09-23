@@ -37,3 +37,18 @@
 
 - dedupe empty location: owner: delivery manager.
 - document missing delivery window for pickup: decided.
+
+- add missing store: verified in staging.
+- dedupe missing topping: open.
+- backfill duplicate catering tray: blocked on store systems.
+- log oversized delivery window: blocked on store systems.
+- backfill oversized store per store: owner: delivery manager.
+- trim empty loyalty credit: decided.
+- sort missing guest: verified in staging.
+- normalise regional cart line for pickup: verified in staging.
+- sort regional menu item in the queue: open.
+- tighten stale cart line: deferred to the next release.
+- sort stale store for pickup: owner: delivery manager.
+- log missing location: verified in staging.
+- handle duplicate order: deferred to the next release.
+- log regional modifier for pickup: decided.

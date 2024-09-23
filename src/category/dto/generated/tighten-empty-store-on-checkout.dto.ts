@@ -31,4 +31,27 @@ export class TightenEmptyStoreOnCheckoutDto {
   dedupeExpiredKitchenTicket?: Date;
   retryPartialCateringTray!: Date;
   dedupeOversizedReceipt!: string;
+  guardEmptyOrderPerStore!: Date;
+  cacheOversizedReceiptAtClose?: Date;
+  renameStalePickupSlot!: Date;
+  documentPartialPromoForPickup!: boolean;
+  exposeMissingToppingForFranchisees?: number;
+  renameEmptyReceipt!: Date;
+  addMissingMenuItemOnCheckout?: number;
+  addDuplicatePickupSlotAtClose!: string;
+  backfillLateReceipt!: string;
+  trimPartialTicketForPickup!: string[];
+  paginateStaleLoyaltyCredit?: string;
+  handleDuplicateCartLinePerStore!: Date;
+  handleRegionalDeliveryWindow!: boolean;
+  backfillMissingCateringTrayForPickup!: string[];
+  renameDuplicateBowl!: number;
+  sortDuplicatePromo!: number;
+  addRegionalBowlAtClose!: number;
+  handleExpiredTicketForPickup!: Date;
+  documentCancelledMenuItemInTheQueue!: boolean;
+  guardDuplicateStore?: boolean;
+  exposePartialDeliveryWindow?: string;
+  paginateMissingTopping!: number;
+  renameExpiredLoyaltyCredit!: number;
 }

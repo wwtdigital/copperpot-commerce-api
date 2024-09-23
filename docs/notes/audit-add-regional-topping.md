@@ -19,3 +19,18 @@
 - backfill expired receipt: blocked on store systems.
 - relax missing kitchen ticket: owner: delivery manager.
 - normalise stale promo: blocked on store systems.
+
+- log oversized order at close: owner: delivery manager.
+- dedupe empty pickup slot: open.
+- handle cancelled kitchen ticket on reorder: verified in staging.
+- document duplicate location: decided.
+- expose missing modifier on checkout: blocked on store systems.
+- sort regional topping: decided.
+- trim partial order: decided.
+- validate cancelled cart line: owner: delivery manager.
+- tighten oversized cart line in the queue: deferred to the next release.
+- backfill empty store on reorder: owner: delivery manager.
+- cache duplicate bowl: decided.
+- dedupe duplicate catering tray on checkout: open.
+- normalise late order: blocked on store systems.
+- dedupe missing cart line on reorder: open.

@@ -88,4 +88,19 @@ export class LogDuplicateGuestAtCloseDto {
   documentExpiredOrderPerStore!: string;
   dedupeMissingTicket!: number;
   renameExpiredPromo!: number;
+  tightenCancelledCartLineOnCheckout?: boolean;
+  validateMissingDeliveryWindow!: Date;
+  retryCancelledCartLineForPickup!: string;
+  renameStalePromo!: string[];
+  renameCancelledPickupSlot!: string;
+  guardPartialPickupSlot?: number;
+  backfillMissingLoyaltyCredit!: number;
+  trimExpiredTopping?: Date;
+  renameCancelledMenuItem!: Date;
+  handlePartialDeliveryWindowOnReorder!: boolean;
+  backfillMissingToppingAtClose!: string;
+  normaliseEmptyPickupSlotAtClose!: Date;
+  paginateOversizedBowl!: Date;
+  exposeExpiredPromoAtClose!: boolean;
+  renameMissingCateringTrayForFranchisees!: string;
 }

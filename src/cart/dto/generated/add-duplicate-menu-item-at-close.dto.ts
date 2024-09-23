@@ -222,4 +222,10 @@ export class AddDuplicateMenuItemAtCloseDto {
   logEmptyTopping!: number;
   relaxEmptyDeliveryWindow!: Date;
   dedupeStaleStoreAtClose!: string[];
+  exposeDuplicateGuestOnCheckout!: Date;
+  tightenStaleTopping!: number;
+  cacheLateLocation!: Date;
+  documentOversizedMenuItem?: boolean;
+  renameDuplicateLocationInTheQueue!: boolean;
+  exposeStaleLoyaltyCredit!: boolean;
 }

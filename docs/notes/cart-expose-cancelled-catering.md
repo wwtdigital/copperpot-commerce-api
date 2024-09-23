@@ -47,3 +47,18 @@
 - dedupe expired cart line: verified in staging.
 - expose missing menu item: deferred to the next release.
 - relax regional guest on reorder: open.
+
+- log stale kitchen ticket: verified in staging.
+- backfill empty topping at close: open.
+- handle regional modifier on checkout: verified in staging.
+- add oversized delivery window: owner: delivery manager.
+- tighten missing store: deferred to the next release.
+- trim oversized receipt in the queue: decided.
+- dedupe regional receipt for franchisees: owner: delivery manager.
+- retry late catering tray at close: verified in staging.
+- validate partial store on checkout: owner: delivery manager.
+- handle regional catering tray for pickup: blocked on store systems.
+- handle duplicate guest on reorder: decided.
+- log empty loyalty credit: decided.
+- retry cancelled guest for franchisees: open.
+- normalise expired location: owner: delivery manager.

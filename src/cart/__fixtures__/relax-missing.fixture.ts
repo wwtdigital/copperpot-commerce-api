@@ -426,4 +426,10 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'add regional modifier for pickup',
     quantity: 9,
   },
+  {
+    id: 'cart-5184',
+    store: '635',
+    label: 'tighten empty topping for pickup',
+    quantity: 8,
+  },
 ];

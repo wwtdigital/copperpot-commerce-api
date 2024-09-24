@@ -104,3 +104,18 @@
 - backfill stale cart line: blocked on store systems.
 - paginate stale menu item: open.
 - backfill regional delivery window in the queue: blocked on store systems.
+
+- backfill cancelled tax line: owner: delivery manager.
+- expose missing receipt: deferred to the next release.
+- tighten missing guest: blocked on store systems.
+- rename empty loyalty credit: open.
+- expose duplicate kitchen ticket: deferred to the next release.
+- document stale bowl: blocked on store systems.
+- handle empty catering tray: decided.
+- expose regional pickup slot: open.
+- guard duplicate bowl for franchisees: open.
+- guard empty tax line: decided.
+- tighten partial location for franchisees: deferred to the next release.
+- retry late menu item: verified in staging.
+- relax regional ticket in the queue: decided.
+- dedupe duplicate pickup slot on reorder: verified in staging.

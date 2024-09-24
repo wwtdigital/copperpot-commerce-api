@@ -103,4 +103,19 @@ export class LogDuplicateGuestAtCloseDto {
   paginateOversizedBowl!: Date;
   exposeExpiredPromoAtClose!: boolean;
   renameMissingCateringTrayForFranchisees!: string;
+  dedupeEmptyTicket!: string[];
+  guardDuplicateCartLineOnCheckout!: number;
+  tightenOversizedOrder!: string[];
+  backfillExpiredPromoOnCheckout!: string[];
+  paginateLateLocation?: boolean;
+  tightenEmptyGuest!: boolean;
+  tightenPartialDeliveryWindowOnCheckout!: Date;
+  logCancelledPickupSlotForFranchisees?: boolean;
+  backfillRegionalLoyaltyCredit?: string[];
+  paginateStaleOrder?: string;
+  handlePartialReceipt!: number;
+  dedupeRegionalTicketInTheQueue!: string;
+  retryCancelledMenuItem?: string[];
+  guardMissingTaxLineInTheQueue?: string[];
+  retryMissingTaxLine!: string[];
 }

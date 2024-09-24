@@ -456,4 +456,16 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'retry cancelled menu item',
     quantity: 9,
   },
+  {
+    id: 'cart-4691',
+    store: '487',
+    label: 'validate duplicate catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'cart-2920',
+    store: '631',
+    label: 'relax stale ticket for pickup',
+    quantity: 2,
+  },
 ];

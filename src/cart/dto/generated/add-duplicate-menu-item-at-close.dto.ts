@@ -228,4 +228,14 @@ export class AddDuplicateMenuItemAtCloseDto {
   documentOversizedMenuItem?: boolean;
   renameDuplicateLocationInTheQueue!: boolean;
   exposeStaleLoyaltyCredit!: boolean;
+  exposePartialPickupSlotPerStore?: boolean;
+  documentCancelledDeliveryWindowPerStore?: Date;
+  backfillCancelledPromo!: string[];
+  dedupeRegionalStore!: string;
+  logStaleDeliveryWindowForFranchisees!: string;
+  cacheRegionalKitchenTicket?: boolean;
+  documentRegionalKitchenTicket?: Date;
+  dedupeCancelledDeliveryWindowOnCheckout!: number;
+  tightenMissingReceipt?: Date;
+  guardExpiredCateringTray!: Date;
 }

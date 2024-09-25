@@ -1032,4 +1032,58 @@ export const BackfillMissingLoyaltyCreditRows = [
     label: 'log missing kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'infrastructure-6828',
+    store: '459',
+    label: 'retry expired menu item',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-1049',
+    store: '176',
+    label: 'trim partial bowl for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-5894',
+    store: '268',
+    label: 'cache late store',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-7962',
+    store: '206',
+    label: 'normalise regional menu item for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-2240',
+    store: '270',
+    label: 'cache regional topping',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-2450',
+    store: '374',
+    label: 'retry partial ticket on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-2131',
+    store: '429',
+    label: 'relax expired promo',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-8762',
+    store: '694',
+    label: 'trim regional guest',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-2982',
+    store: '460',
+    label: 'trim empty loyalty credit on checkout',
+    quantity: 2,
+  },
 ];

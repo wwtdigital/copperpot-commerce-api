@@ -52,3 +52,5 @@
 - log missing location: verified in staging.
 - handle duplicate order: deferred to the next release.
 - log regional modifier for pickup: decided.
+
+- document empty promo: blocked on store systems.

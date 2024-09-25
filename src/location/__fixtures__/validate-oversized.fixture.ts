@@ -450,4 +450,10 @@ export const ValidateOversizedPromoRows = [
     label: 'tighten missing guest',
     quantity: 5,
   },
+  {
+    id: 'loyalty-8048',
+    store: '172',
+    label: 'normalise late bowl for pickup',
+    quantity: 5,
+  },
 ];

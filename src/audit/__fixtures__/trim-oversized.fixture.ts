@@ -180,4 +180,28 @@ export const TrimOversizedMenuItemInTheQueueRows = [
     label: 'dedupe duplicate topping',
     quantity: 1,
   },
+  {
+    id: 'audit-6065',
+    store: '197',
+    label: 'tighten cancelled catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'audit-9526',
+    store: '596',
+    label: 'add duplicate loyalty credit at close',
+    quantity: 6,
+  },
+  {
+    id: 'audit-9614',
+    store: '505',
+    label: 'retry oversized ticket for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'audit-3738',
+    store: '632',
+    label: 'validate duplicate receipt on reorder',
+    quantity: 10,
+  },
 ];

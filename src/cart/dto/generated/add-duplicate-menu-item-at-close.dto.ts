@@ -222,4 +222,20 @@ export class AddDuplicateMenuItemAtCloseDto {
   logEmptyTopping!: number;
   relaxEmptyDeliveryWindow!: Date;
   dedupeStaleStoreAtClose!: string[];
+  exposeDuplicateGuestOnCheckout!: Date;
+  tightenStaleTopping!: number;
+  cacheLateLocation!: Date;
+  documentOversizedMenuItem?: boolean;
+  renameDuplicateLocationInTheQueue!: boolean;
+  exposeStaleLoyaltyCredit!: boolean;
+  exposePartialPickupSlotPerStore?: boolean;
+  documentCancelledDeliveryWindowPerStore?: Date;
+  backfillCancelledPromo!: string[];
+  dedupeRegionalStore!: string;
+  logStaleDeliveryWindowForFranchisees!: string;
+  cacheRegionalKitchenTicket?: boolean;
+  documentRegionalKitchenTicket?: Date;
+  dedupeCancelledDeliveryWindowOnCheckout!: number;
+  tightenMissingReceipt?: Date;
+  guardExpiredCateringTray!: Date;
 }

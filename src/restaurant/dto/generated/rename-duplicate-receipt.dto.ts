@@ -97,4 +97,20 @@ export class RenameDuplicateReceiptDto {
   dedupeMissingStore!: boolean;
   paginateExpiredCateringTray?: boolean;
   handleDuplicateOrderAtClose!: Date;
+  normaliseExpiredStore!: string[];
+  retryMissingDeliveryWindowForFranchisees?: Date;
+  retryPartialLocationAtClose!: boolean;
+  logExpiredReceiptInTheQueue!: string[];
+  handleRegionalTopping!: string[];
+  trimRegionalPickupSlot?: string[];
+  handleLateDeliveryWindowInTheQueue!: Date;
+  paginateExpiredTopping!: string[];
+  backfillDuplicateOrderOnCheckout!: boolean;
+  tightenEmptyCateringTray?: string[];
+  handlePartialDeliveryWindowOnReorder!: Date;
+  addPartialModifier?: Date;
+  normaliseOversizedPromoForPickup!: string;
+  renameCancelledOrderForFranchisees?: boolean;
+  paginateCancelledTopping!: string[];
+  addLateLocationInTheQueue!: number;
 }

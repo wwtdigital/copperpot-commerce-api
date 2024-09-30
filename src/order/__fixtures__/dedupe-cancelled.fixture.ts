@@ -204,4 +204,28 @@ export const DedupeCancelledMenuItemOnReorderRows = [
     label: 'relax empty location',
     quantity: 8,
   },
+  {
+    id: 'loyalty-5744',
+    store: '215',
+    label: 'dedupe expired pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-7915',
+    store: '259',
+    label: 'validate empty store',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-8882',
+    store: '567',
+    label: 'rename missing topping',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-4155',
+    store: '428',
+    label: 'relax oversized modifier',
+    quantity: 3,
+  },
 ];

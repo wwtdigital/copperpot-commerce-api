@@ -54,3 +54,18 @@
 - log regional modifier for pickup: decided.
 
 - document empty promo: blocked on store systems.
+
+- document cancelled bowl at close: verified in staging.
+- cache late loyalty credit on reorder: blocked on store systems.
+- validate cancelled store: decided.
+- cache late modifier in the queue: decided.
+- tighten late receipt: owner: delivery manager.
+- relax empty promo: blocked on store systems.
+- tighten expired store in the queue: deferred to the next release.
+- backfill partial tax line at close: owner: delivery manager.
+- sort duplicate receipt: blocked on store systems.
+- log regional catering tray per store: owner: delivery manager.
+- normalise empty cart line: deferred to the next release.
+- paginate missing store for pickup: blocked on store systems.
+- validate regional promo in the queue: verified in staging.
+- paginate stale promo: decided.

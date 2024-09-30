@@ -234,4 +234,10 @@ export const LogRegionalTicketRows = [
     label: 'cache expired pickup slot',
     quantity: 1,
   },
+  {
+    id: 'category-5255',
+    store: '486',
+    label: 'handle missing store per store',
+    quantity: 6,
+  },
 ];

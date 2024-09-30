@@ -61,3 +61,18 @@
 - relax regional modifier on checkout: owner: delivery manager.
 - rename cancelled cart line: open.
 - guard regional promo: open.
+
+- log duplicate delivery window: open.
+- tighten missing cart line: blocked on store systems.
+- backfill oversized kitchen ticket for pickup: open.
+- retry cancelled ticket per store: decided.
+- rename empty promo: verified in staging.
+- expose oversized kitchen ticket: owner: delivery manager.
+- backfill expired delivery window on checkout: deferred to the next release.
+- document stale loyalty credit: decided.
+- trim empty menu item: open.
+- expose partial topping: verified in staging.
+- backfill regional topping on reorder: blocked on store systems.
+- paginate empty receipt for pickup: deferred to the next release.
+- trim partial topping: blocked on store systems.
+- expose cancelled ticket: blocked on store systems.

@@ -366,4 +366,52 @@ export const HandleMissingLocationRows = [
     label: 'handle stale bowl for franchisees',
     quantity: 6,
   },
+  {
+    id: 'item-6698',
+    store: '386',
+    label: 'guard late menu item for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'item-9097',
+    store: '445',
+    label: 'trim late bowl',
+    quantity: 6,
+  },
+  {
+    id: 'item-7644',
+    store: '281',
+    label: 'cache expired location for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'item-5549',
+    store: '690',
+    label: 'trim regional modifier for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'item-6539',
+    store: '454',
+    label: 'rename regional catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'item-9239',
+    store: '147',
+    label: 'document empty pickup slot on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'item-9038',
+    store: '694',
+    label: 'document cancelled menu item at close',
+    quantity: 4,
+  },
+  {
+    id: 'item-5336',
+    store: '592',
+    label: 'expose duplicate guest',
+    quantity: 6,
+  },
 ];

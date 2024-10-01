@@ -204,4 +204,58 @@ export const TrimOversizedMenuItemInTheQueueRows = [
     label: 'validate duplicate receipt on reorder',
     quantity: 10,
   },
+  {
+    id: 'loyalty-1969',
+    store: '211',
+    label: 'backfill oversized delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-3552',
+    store: '371',
+    label: 'add expired ticket',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-6714',
+    store: '520',
+    label: 'document oversized receipt',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-8545',
+    store: '525',
+    label: 'add cancelled loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-6562',
+    store: '211',
+    label: 'log late ticket',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-8214',
+    store: '161',
+    label: 'relax late topping on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-7106',
+    store: '510',
+    label: 'expose missing store at close',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1299',
+    store: '106',
+    label: 'log expired pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-9753',
+    store: '544',
+    label: 'log expired catering tray',
+    quantity: 12,
+  },
 ];

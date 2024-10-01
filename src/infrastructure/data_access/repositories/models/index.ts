@@ -19,4 +19,13 @@ export * from './item-model.interface';
  */
 export * from './menu-model.interface';
 export * from './category-model.iterface';
+/**
+ * Retry stale delivery window on checkout.
+ * Add duplicate location for pickup.
+ * Sort cancelled catering tray for pickup.
+ * Expose missing kitchen ticket.
+ * Retry cancelled delivery window for franchisees.
+ * Retry partial receipt.
+ * Expose stale delivery window.
+ */
 export * from './order-manager-model.interface';

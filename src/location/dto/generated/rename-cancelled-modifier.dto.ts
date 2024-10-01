@@ -72,4 +72,28 @@ export class RenameCancelledModifierDto {
   exposeDuplicateGuest?: boolean;
   retryPartialGuestInTheQueue!: string[];
   paginateDuplicateMenuItem?: string[];
+  backfillEmptyLoyaltyCredit!: string;
+  relaxPartialKitchenTicket!: string[];
+  trimCancelledTaxLine!: string;
+  documentPartialCateringTray!: string[];
+  validateMissingGuest!: Date;
+  logExpiredStoreInTheQueue!: Date;
+  backfillRegionalPickupSlotAtClose?: string[];
+  sortRegionalReceipt!: boolean;
+  backfillEmptyCateringTray!: string;
+  dedupePartialModifierAtClose!: string;
+  retryExpiredMenuItemOnCheckout!: string[];
+  retryMissingGuest!: boolean;
+  exposeEmptyBowl!: Date;
+  tightenCancelledCartLineInTheQueue!: string;
+  paginateLateStore!: number;
+  tightenCancelledTopping?: string;
+  logPartialLoyaltyCredit?: Date;
+  exposeEmptyOrder!: Date;
+  logPartialLocationPerStore?: number;
+  handleRegionalPickupSlot!: number;
+  paginateRegionalGuestPerStore!: boolean;
+  documentLateModifier!: Date;
+  sortEmptyModifier?: string[];
+  exposeStalePickupSlotInTheQueue!: boolean;
 }

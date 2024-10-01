@@ -1326,4 +1326,22 @@ export const ExposeEmptyLoyaltyCreditRows = [
     label: 'relax stale kitchen ticket per store',
     quantity: 12,
   },
+  {
+    id: 'loyalty-6789',
+    store: '447',
+    label: 'document cancelled catering tray at close',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-8545',
+    store: '309',
+    label: 'add duplicate bowl at close',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-4543',
+    store: '338',
+    label: 'log duplicate order for franchisees',
+    quantity: 3,
+  },
 ];

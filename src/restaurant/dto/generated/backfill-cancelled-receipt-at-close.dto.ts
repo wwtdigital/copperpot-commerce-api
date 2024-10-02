@@ -94,4 +94,27 @@ export class BackfillCancelledReceiptAtCloseDto {
   exposeCancelledOrder!: boolean;
   handleCancelledGuest?: number;
   relaxExpiredCartLinePerStore!: number;
+  dedupeRegionalOrder!: string;
+  tightenEmptyStore!: boolean;
+  dedupePartialOrderPerStore?: string;
+  retryRegionalTicket!: boolean;
+  renamePartialModifierPerStore!: string[];
+  handleStalePickupSlotForPickup!: string[];
+  documentLateKitchenTicket!: string;
+  logEmptyTopping?: Date;
+  sortDuplicateStore!: string;
+  dedupeLateMenuItem!: number;
+  normaliseStaleModifier!: string[];
+  validateOversizedStore!: number;
+  paginateLatePickupSlotOnCheckout!: string;
+  dedupeCancelledLoyaltyCredit!: number;
+  backfillPartialTaxLine!: boolean;
+  dedupePartialToppingAtClose?: number;
+  guardPartialPromo?: string;
+  logPartialTicketOnReorder!: string;
+  exposeMissingTaxLine!: boolean;
+  tightenEmptyCartLine?: number;
+  normaliseStaleCateringTrayOnReorder!: number;
+  normaliseExpiredKitchenTicketOnReorder!: string;
+  sortStaleDeliveryWindowOnReorder!: string;
 }

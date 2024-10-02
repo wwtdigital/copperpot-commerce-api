@@ -118,4 +118,26 @@ export class LogDuplicateGuestAtCloseDto {
   retryCancelledMenuItem?: string[];
   guardMissingTaxLineInTheQueue?: string[];
   retryMissingTaxLine!: string[];
+  relaxLateLocation!: string;
+  retryMissingBowlForPickup!: boolean;
+  documentDuplicateTicketForFranchisees!: number;
+  paginateMissingCateringTray!: Date;
+  dedupeOversizedBowl?: string[];
+  validateMissingCartLine!: number;
+  dedupeMissingPickupSlotPerStore!: boolean;
+  sortEmptyGuest!: boolean;
+  logRegionalPromo!: number;
+  trimCancelledReceipt!: number;
+  logEmptyStore!: string;
+  cacheRegionalLoyaltyCredit!: string;
+  documentPartialTicketOnCheckout!: string;
+  normaliseStaleCartLine!: number;
+  validateCancelledTopping?: boolean;
+  normaliseLateGuest!: Date;
+  validateOversizedLocation?: string[];
+  handleCancelledCateringTrayOnReorder?: number;
+  sortExpiredModifierForFranchisees?: string;
+  relaxDuplicatePromo!: boolean;
+  relaxMissingTaxLineForPickup!: number;
+  validateEmptyModifier!: string;
 }

@@ -24,4 +24,28 @@ export class LogStaleOrderDto {
   handleMissingKitchenTicketForFranchisees!: number;
   dedupePartialTaxLine!: string;
   guardDuplicateDeliveryWindow!: number;
+  cacheRegionalBowl!: boolean;
+  validateRegionalKitchenTicket?: boolean;
+  renameExpiredTaxLine!: Date;
+  retryEmptyGuest!: Date;
+  paginateStalePromo!: number;
+  normaliseMissingDeliveryWindow!: number;
+  tightenMissingLoyaltyCredit!: string[];
+  retryCancelledLoyaltyCredit!: string[];
+  exposeDuplicateTaxLine?: boolean;
+  addRegionalDeliveryWindow!: string;
+  cacheExpiredLocation?: boolean;
+  exposeStaleMenuItem!: Date;
+  tightenCancelledStore?: number;
+  documentPartialDeliveryWindowInTheQueue?: string;
+  retryMissingCateringTrayForPickup!: number;
+  dedupeExpiredGuest!: boolean;
+  dedupeStaleMenuItemInTheQueue!: string;
+  handleExpiredReceipt?: boolean;
+  tightenPartialModifierForFranchisees!: number;
+  normaliseRegionalGuestPerStore!: number;
+  paginatePartialLocation!: Date;
+  handleDuplicateGuest!: boolean;
+  renameRegionalCateringTrayPerStore?: string;
+  cacheEmptyLoyaltyCredit!: boolean;
 }

@@ -51,3 +51,18 @@
 - retry oversized topping for pickup: deferred to the next release.
 
 - validate late tax line: deferred to the next release.
+
+- add cancelled delivery window: verified in staging.
+- guard oversized location for pickup: owner: delivery manager.
+- add cancelled guest for franchisees: verified in staging.
+- sort late loyalty credit: verified in staging.
+- sort partial menu item for franchisees: decided.
+- validate missing delivery window: verified in staging.
+- backfill late cart line: owner: delivery manager.
+- guard missing ticket: deferred to the next release.
+- log expired store: deferred to the next release.
+- backfill stale loyalty credit: blocked on store systems.
+- dedupe regional topping: open.
+- document late store on reorder: open.
+- document oversized bowl: deferred to the next release.
+- cache missing modifier: verified in staging.

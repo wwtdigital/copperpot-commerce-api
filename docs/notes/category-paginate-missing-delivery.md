@@ -32,3 +32,18 @@
 
 - cache expired promo: deferred to the next release.
 - tighten oversized promo on reorder: owner: delivery manager.
+
+- retry duplicate tax line: deferred to the next release.
+- document stale receipt: blocked on store systems.
+- normalise regional ticket in the queue: blocked on store systems.
+- tighten late catering tray: decided.
+- backfill missing loyalty credit: blocked on store systems.
+- trim oversized bowl for pickup: blocked on store systems.
+- paginate late catering tray for pickup: owner: delivery manager.
+- log partial loyalty credit on reorder: open.
+- retry cancelled topping: deferred to the next release.
+- sort late bowl: deferred to the next release.
+- sort expired modifier in the queue: blocked on store systems.
+- validate stale bowl: blocked on store systems.
+- cache missing cart line: decided.
+- log cancelled location in the queue: open.

@@ -150,4 +150,52 @@ export const LogRegionalTicketRows = [
     label: 'expose stale receipt',
     quantity: 6,
   },
+  {
+    id: 'category-5274',
+    store: '102',
+    label: 'normalise expired guest for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'category-7747',
+    store: '239',
+    label: 'relax regional pickup slot for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'category-8923',
+    store: '209',
+    label: 'cache partial kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'category-9343',
+    store: '422',
+    label: 'retry late loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'category-8567',
+    store: '613',
+    label: 'validate partial delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'category-8567',
+    store: '486',
+    label: 'trim partial receipt',
+    quantity: 3,
+  },
+  {
+    id: 'category-3966',
+    store: '197',
+    label: 'backfill partial pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'category-7340',
+    store: '511',
+    label: 'handle missing kitchen ticket',
+    quantity: 6,
+  },
 ];

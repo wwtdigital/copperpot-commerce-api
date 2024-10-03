@@ -31,3 +31,48 @@
 - relax regional pickup slot: verified in staging.
 
 - backfill late store on checkout: verified in staging.
+
+- retry cancelled menu item for pickup: decided.
+- backfill stale bowl at close: decided.
+- normalise expired bowl: blocked on store systems.
+- paginate expired bowl: owner: delivery manager.
+- add late order at close: decided.
+- log regional kitchen ticket: deferred to the next release.
+- add regional loyalty credit in the queue: open.
+- validate expired topping for franchisees: blocked on store systems.
+- expose missing cart line: verified in staging.
+- backfill duplicate order on checkout: owner: delivery manager.
+- log partial delivery window: owner: delivery manager.
+- backfill oversized pickup slot in the queue: deferred to the next release.
+- normalise stale modifier: owner: delivery manager.
+- add missing ticket: decided.
+
+- document duplicate guest: deferred to the next release.
+- trim missing tax line per store: verified in staging.
+- dedupe duplicate receipt: blocked on store systems.
+- sort duplicate store on reorder: verified in staging.
+- log missing store: verified in staging.
+- add duplicate order in the queue: blocked on store systems.
+- retry cancelled store: open.
+- validate oversized loyalty credit: blocked on store systems.
+- log oversized pickup slot: verified in staging.
+- handle empty topping on reorder: open.
+- cache missing menu item in the queue: deferred to the next release.
+- relax regional modifier on checkout: owner: delivery manager.
+- rename cancelled cart line: open.
+- guard regional promo: open.
+
+- log duplicate delivery window: open.
+- tighten missing cart line: blocked on store systems.
+- backfill oversized kitchen ticket for pickup: open.
+- retry cancelled ticket per store: decided.
+- rename empty promo: verified in staging.
+- expose oversized kitchen ticket: owner: delivery manager.
+- backfill expired delivery window on checkout: deferred to the next release.
+- document stale loyalty credit: decided.
+- trim empty menu item: open.
+- expose partial topping: verified in staging.
+- backfill regional topping on reorder: blocked on store systems.
+- paginate empty receipt for pickup: deferred to the next release.
+- trim partial topping: blocked on store systems.
+- expose cancelled ticket: blocked on store systems.

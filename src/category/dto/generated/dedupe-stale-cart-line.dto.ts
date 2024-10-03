@@ -15,4 +15,28 @@ export class DedupeStaleCartLineDto {
   retryDuplicateStore!: boolean;
   relaxMissingGuest?: string;
   trimLateModifier!: Date;
+  dedupeDuplicateKitchenTicket!: boolean;
+  addOversizedPromoInTheQueue!: Date;
+  normaliseStaleLocation!: boolean;
+  guardMissingCateringTray!: number;
+  backfillMissingCartLine?: string;
+  sortOversizedGuestOnCheckout?: string;
+  retryMissingLocationForFranchisees!: number;
+  handleCancelledCateringTray?: number;
+  trimDuplicateLocationAtClose!: number;
+  sortStaleLoyaltyCredit!: Date;
+  relaxOversizedKitchenTicket!: boolean;
+  tightenPartialPromo!: boolean;
+  retryPartialPickupSlot!: boolean;
+  backfillCancelledTicket?: number;
+  validateLateCateringTrayOnReorder!: string;
+  renameRegionalPromo?: string[];
+  paginateStalePromo?: string[];
+  addMissingModifier!: boolean;
+  dedupeCancelledMenuItemForPickup!: Date;
+  guardExpiredGuestOnReorder!: string;
+  addDuplicateCartLine!: string[];
+  relaxOversizedOrderForPickup!: Date;
+  dedupeOversizedMenuItem!: string[];
+  tightenExpiredTicket!: string;
 }

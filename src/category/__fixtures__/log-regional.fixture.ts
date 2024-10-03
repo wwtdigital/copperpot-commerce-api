@@ -198,4 +198,40 @@ export const LogRegionalTicketRows = [
     label: 'handle missing kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'category-1100',
+    store: '362',
+    label: 'log stale menu item per store',
+    quantity: 9,
+  },
+  {
+    id: 'category-5702',
+    store: '553',
+    label: 'cache empty order on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'category-9710',
+    store: '178',
+    label: 'paginate missing promo',
+    quantity: 9,
+  },
+  {
+    id: 'category-7454',
+    store: '631',
+    label: 'backfill regional modifier in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'category-9864',
+    store: '385',
+    label: 'cache empty receipt for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'category-7581',
+    store: '407',
+    label: 'cache expired pickup slot',
+    quantity: 1,
+  },
 ];

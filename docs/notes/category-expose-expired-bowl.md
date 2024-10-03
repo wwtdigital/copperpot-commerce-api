@@ -46,3 +46,18 @@
 - backfill oversized pickup slot in the queue: deferred to the next release.
 - normalise stale modifier: owner: delivery manager.
 - add missing ticket: decided.
+
+- document duplicate guest: deferred to the next release.
+- trim missing tax line per store: verified in staging.
+- dedupe duplicate receipt: blocked on store systems.
+- sort duplicate store on reorder: verified in staging.
+- log missing store: verified in staging.
+- add duplicate order in the queue: blocked on store systems.
+- retry cancelled store: open.
+- validate oversized loyalty credit: blocked on store systems.
+- log oversized pickup slot: verified in staging.
+- handle empty topping on reorder: open.
+- cache missing menu item in the queue: deferred to the next release.
+- relax regional modifier on checkout: owner: delivery manager.
+- rename cancelled cart line: open.
+- guard regional promo: open.

@@ -19,3 +19,18 @@
 - log duplicate topping for pickup: verified in staging.
 - tighten oversized loyalty credit: blocked on store systems.
 - trim cancelled delivery window: open.
+
+- dedupe expired promo: open.
+- document expired delivery window: blocked on store systems.
+- add late bowl: verified in staging.
+- add oversized order in the queue: blocked on store systems.
+- normalise regional location in the queue: blocked on store systems.
+- sort expired kitchen ticket on checkout: deferred to the next release.
+- validate cancelled catering tray: open.
+- tighten partial menu item: open.
+- log duplicate catering tray: owner: delivery manager.
+- expose cancelled catering tray: verified in staging.
+- relax expired loyalty credit for franchisees: owner: delivery manager.
+- log missing modifier on reorder: blocked on store systems.
+- trim empty ticket: deferred to the next release.
+- add expired kitchen ticket: open.

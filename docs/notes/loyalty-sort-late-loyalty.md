@@ -14,3 +14,7 @@
 - backfill oversized order at close: owner: delivery manager.
 - dedupe regional order on checkout: owner: delivery manager.
 - tighten regional catering tray: owner: delivery manager.
+
+- dedupe cancelled menu item: verified in staging.
+- add missing topping: owner: delivery manager.
+- document empty guest: decided.

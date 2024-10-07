@@ -150,4 +150,58 @@ export const NormaliseEmptyReceiptRows = [
     label: 'add stale tax line for pickup',
     quantity: 1,
   },
+  {
+    id: 'loyalty-8607',
+    store: '156',
+    label: 'backfill partial tax line',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-3950',
+    store: '148',
+    label: 'guard oversized store',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-9235',
+    store: '589',
+    label: 'guard missing menu item',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-2285',
+    store: '685',
+    label: 'log partial loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-3863',
+    store: '238',
+    label: 'rename cancelled catering tray for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-9798',
+    store: '354',
+    label: 'tighten missing pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-5705',
+    store: '550',
+    label: 'tighten late cart line per store',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-1231',
+    store: '680',
+    label: 'normalise missing promo',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-1391',
+    store: '310',
+    label: 'sort partial modifier at close',
+    quantity: 6,
+  },
 ];

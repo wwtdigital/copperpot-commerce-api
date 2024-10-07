@@ -24,4 +24,24 @@ export class BackfillDuplicatePromoDto {
   addDuplicateOrder!: Date;
   cacheCancelledDeliveryWindowForFranchisees!: boolean;
   retryLateKitchenTicket!: Date;
+  relaxDuplicatePickupSlot?: number;
+  relaxRegionalBowl!: string;
+  cacheStaleReceipt!: Date;
+  paginateDuplicateMenuItemOnReorder!: string[];
+  documentLateCartLine!: Date;
+  validateCancelledTaxLineAtClose!: string;
+  exposeRegionalTaxLine?: number;
+  cacheStaleTaxLine!: string;
+  trimDuplicateDeliveryWindowAtClose!: boolean;
+  logMissingLoyaltyCredit?: string[];
+  documentPartialPickupSlot!: number;
+  documentCancelledCateringTrayPerStore!: boolean;
+  trimLateCateringTray?: string;
+  paginateEmptyModifierOnCheckout!: boolean;
+  cacheOversizedLocationForFranchisees!: boolean;
+  normaliseRegionalOrderAtClose!: string[];
+  guardLateBowlForPickup!: number;
+  sortPartialKitchenTicketInTheQueue!: Date;
+  dedupeDuplicateCateringTrayInTheQueue!: boolean;
+  dedupeLatePromo!: string;
 }

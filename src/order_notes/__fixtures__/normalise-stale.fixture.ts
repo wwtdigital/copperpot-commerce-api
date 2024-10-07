@@ -240,4 +240,10 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'document oversized loyalty credit',
     quantity: 6,
   },
+  {
+    id: 'order-notes-5278',
+    store: '340',
+    label: 'sort empty order',
+    quantity: 8,
+  },
 ];

@@ -120,4 +120,22 @@ export const HandleRegionalCartLineRows = [
     label: 'log oversized ticket',
     quantity: 2,
   },
+  {
+    id: 'order-notes-9774',
+    store: '292',
+    label: 'paginate expired modifier',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-5087',
+    store: '622',
+    label: 'trim stale tax line',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-9148',
+    store: '321',
+    label: 'cache duplicate topping',
+    quantity: 2,
+  },
 ];

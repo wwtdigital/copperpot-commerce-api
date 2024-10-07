@@ -2304,4 +2304,22 @@ export const DedupeMissingLocationRows = [
     label: 'document late guest for franchisees',
     quantity: 8,
   },
+  {
+    id: 'loyalty-5842',
+    store: '355',
+    label: 'expose oversized cart line for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-7603',
+    store: '581',
+    label: 'add expired kitchen ticket at close',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8672',
+    store: '659',
+    label: 'paginate stale ticket',
+    quantity: 6,
+  },
 ];

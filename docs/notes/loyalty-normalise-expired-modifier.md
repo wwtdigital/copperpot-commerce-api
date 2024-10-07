@@ -66,6 +66,3 @@
 - sort duplicate receipt: blocked on store systems.
 - log regional catering tray per store: owner: delivery manager.
 - normalise empty cart line: deferred to the next release.
-- paginate missing store for pickup: blocked on store systems.
-- validate regional promo in the queue: verified in staging.
-- paginate stale promo: decided.

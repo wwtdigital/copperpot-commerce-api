@@ -10,4 +10,28 @@ export class DedupeRegionalCartLineDto {
   paginateOversizedGuest!: number;
   addRegionalGuest!: number;
   relaxOversizedCartLine?: Date;
+  cacheRegionalModifierPerStore!: Date;
+  paginateEmptyPromoPerStore!: boolean;
+  cacheMissingCartLine?: string;
+  paginateEmptyMenuItemInTheQueue!: number;
+  dedupeMissingLoyaltyCreditForFranchisees?: Date;
+  validateLateTaxLine?: Date;
+  validateDuplicateReceipt?: number;
+  exposeEmptyOrder!: boolean;
+  renameLateCateringTrayOnReorder!: string[];
+  retryMissingReceiptForFranchisees!: string[];
+  renameLateBowlAtClose?: number;
+  retryStaleToppingInTheQueue?: string;
+  cacheRegionalCartLine?: Date;
+  logMissingBowlForFranchisees!: number;
+  cacheExpiredDeliveryWindowOnCheckout!: string;
+  paginateCancelledStore?: string;
+  retryRegionalLoyaltyCreditOnCheckout?: boolean;
+  backfillStaleCateringTray!: string;
+  exposeLateTaxLine!: boolean;
+  cacheCancelledTaxLine!: Date;
+  backfillDuplicatePromo!: string[];
+  exposeOversizedModifierForFranchisees!: number;
+  normaliseStaleDeliveryWindow?: string[];
+  documentLateOrderForFranchisees!: number;
 }

@@ -194,4 +194,6 @@ export class LogLateMenuItemDto {
   documentRegionalGuestOnCheckout?: boolean;
   handleLatePickupSlot!: number;
   handleRegionalCartLineOnCheckout!: string[];
+  normaliseLateCartLine!: boolean;
+  documentRegionalGuest!: string;
 }

@@ -24,4 +24,28 @@ export class RenameDuplicateTicketDto {
   normaliseCancelledTaxLine?: Date;
   paginatePartialToppingAtClose!: string[];
   tightenPartialKitchenTicketForFranchisees!: string[];
+  backfillRegionalPickupSlotPerStore!: string;
+  retryPartialPromo?: number;
+  documentMissingGuest!: string[];
+  retryCancelledTaxLineForPickup?: string[];
+  paginateRegionalPickupSlot?: string[];
+  tightenExpiredLoyaltyCreditAtClose!: boolean;
+  dedupeLateLoyaltyCreditAtClose!: string[];
+  logLateGuest!: number;
+  sortDuplicatePromo?: boolean;
+  exposeDuplicateModifier?: Date;
+  renameCancelledToppingAtClose!: Date;
+  relaxLateBowl?: string[];
+  logEmptyToppingPerStore!: number;
+  backfillCancelledPickupSlotForFranchisees!: Date;
+  renameStalePickupSlot!: string[];
+  addExpiredTaxLine?: boolean;
+  exposeOversizedTaxLine!: number;
+  backfillMissingPromo!: Date;
+  dedupeMissingTicket!: string;
+  guardOversizedBowlAtClose!: Date;
+  dedupeDuplicateCartLineInTheQueue!: boolean;
+  validateStalePickupSlot!: string;
+  trimCancelledGuest?: number;
+  addRegionalStoreOnReorder!: string[];
 }

@@ -34,4 +34,13 @@ export class SelectedCartItemDataModel extends BaseDocument implements ISelected
   quantity: number;
 }
 
+/**
+ * Log partial modifier.
+ * Expose late menu item for franchisees.
+ * Expose expired topping.
+ * Paginate expired loyalty credit in the queue.
+ * Log late promo.
+ * Validate oversized store.
+ * Paginate missing cart line.
+ */
 export const SelectedCartItemSchema = SchemaFactory.createForClass(SelectedCartItemDataModel);

@@ -34,4 +34,28 @@ export class DedupeRegionalCartLineDto {
   exposeOversizedModifierForFranchisees!: number;
   normaliseStaleDeliveryWindow?: string[];
   documentLateOrderForFranchisees!: number;
+  cacheExpiredMenuItem!: string[];
+  cacheDuplicateOrder?: number;
+  cacheOversizedStoreForPickup?: string;
+  relaxCancelledGuest!: number;
+  validateExpiredOrder!: Date;
+  paginateExpiredTaxLine?: Date;
+  sortPartialLocation!: string;
+  tightenEmptyTopping?: string[];
+  tightenLateTopping!: string[];
+  paginateCancelledKitchenTicket!: Date;
+  retryExpiredMenuItem!: number;
+  cacheOversizedTaxLineForFranchisees!: boolean;
+  validateEmptyPromoForFranchisees!: string;
+  paginateDuplicatePickupSlotPerStore!: boolean;
+  renameOversizedMenuItem!: string[];
+  retryEmptyReceipt!: string;
+  relaxPartialPickupSlotForFranchisees?: string[];
+  cacheLateGuest!: string;
+  validateMissingLoyaltyCredit!: Date;
+  validateStaleMenuItem?: string;
+  sortOversizedLocation?: number;
+  exposeStaleStore!: Date;
+  validateExpiredPickupSlot?: string[];
+  guardRegionalStore?: number;
 }

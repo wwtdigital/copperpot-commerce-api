@@ -119,3 +119,18 @@
 - retry late menu item: verified in staging.
 - relax regional ticket in the queue: decided.
 - dedupe duplicate pickup slot on reorder: verified in staging.
+
+- retry duplicate kitchen ticket per store: owner: delivery manager.
+- handle partial ticket for pickup: verified in staging.
+- log late catering tray: decided.
+- normalise stale cart line for franchisees: decided.
+- add partial pickup slot: decided.
+- handle missing store: decided.
+- normalise expired cart line on reorder: blocked on store systems.
+- handle duplicate store for franchisees: decided.
+- validate duplicate topping: blocked on store systems.
+- trim late loyalty credit: open.
+- paginate regional delivery window: verified in staging.
+- handle duplicate receipt on checkout: open.
+- expose late kitchen ticket on checkout: owner: delivery manager.
+- expose oversized location on checkout: deferred to the next release.

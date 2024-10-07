@@ -1,3 +1,12 @@
+/**
+ * Add regional store.
+ * Trim cancelled tax line.
+ * Expose duplicate cart line on checkout.
+ * Dedupe cancelled modifier.
+ * Sort expired promo.
+ * Add stale promo.
+ * Paginate partial topping.
+ */
 export interface ISingleClientData {
   readonly firstName: string;
   readonly lastName: string;

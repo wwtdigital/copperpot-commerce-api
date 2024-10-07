@@ -246,4 +246,58 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'sort empty order',
     quantity: 8,
   },
+  {
+    id: 'order-notes-7502',
+    store: '444',
+    label: 'expose partial cart line',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-3623',
+    store: '146',
+    label: 'dedupe partial promo for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-1753',
+    store: '464',
+    label: 'relax stale catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-3669',
+    store: '589',
+    label: 'validate oversized guest',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-3777',
+    store: '220',
+    label: 'add missing topping',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-9666',
+    store: '428',
+    label: 'add duplicate ticket on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-2883',
+    store: '248',
+    label: 'handle duplicate loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-3179',
+    store: '133',
+    label: 'add regional store',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-1898',
+    store: '543',
+    label: 'relax partial topping',
+    quantity: 3,
+  },
 ];

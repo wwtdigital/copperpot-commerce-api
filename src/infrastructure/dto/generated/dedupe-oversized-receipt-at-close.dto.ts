@@ -258,4 +258,27 @@ export class DedupeOversizedReceiptAtCloseDto {
   backfillDuplicateStorePerStore?: Date;
   backfillDuplicatePromo!: boolean;
   addExpiredTicket!: number;
+  addOversizedDeliveryWindow?: string[];
+  relaxRegionalGuest!: boolean;
+  paginateExpiredModifier!: boolean;
+  handleExpiredPromoForFranchisees!: string[];
+  normaliseRegionalPickupSlot?: Date;
+  exposeDuplicateLocationPerStore!: number;
+  relaxExpiredCateringTrayForFranchisees!: boolean;
+  tightenRegionalMenuItemPerStore!: string[];
+  sortRegionalKitchenTicket?: string[];
+  logExpiredBowl!: string[];
+  normaliseEmptyStoreOnReorder!: boolean;
+  handleOversizedPromoPerStore!: string;
+  retryDuplicateModifier!: string;
+  tightenCancelledLoyaltyCredit?: number;
+  renameOversizedMenuItemAtClose?: string[];
+  renameEmptyCateringTray!: string[];
+  exposeDuplicatePromo!: boolean;
+  paginateStaleTaxLine!: number;
+  backfillExpiredCateringTray!: Date;
+  sortDuplicateToppingInTheQueue?: number;
+  trimLateTicket!: boolean;
+  documentExpiredReceipt?: string;
+  tightenLateOrderForFranchisees?: number;
 }

@@ -72,4 +72,28 @@ export class AddMissingModifierForPickupDto {
   normaliseRegionalLocationForPickup!: number;
   validateLateMenuItem!: string;
   sortCancelledTicket?: boolean;
+  paginatePartialGuestInTheQueue!: number;
+  tightenExpiredReceipt!: Date;
+  exposeOversizedMenuItemOnCheckout?: string[];
+  handleDuplicatePickupSlotInTheQueue!: string;
+  relaxMissingBowl!: string;
+  tightenStaleMenuItemAtClose?: number;
+  tightenCancelledModifierForFranchisees?: number;
+  trimLateGuestForPickup!: number;
+  renameExpiredModifier!: string[];
+  trimCancelledReceipt!: boolean;
+  guardExpiredDeliveryWindow!: string;
+  retryPartialTicket!: boolean;
+  normaliseMissingLoyaltyCredit!: boolean;
+  handleRegionalCartLinePerStore!: string[];
+  tightenStaleGuest?: number;
+  addMissingOrder!: string;
+  logDuplicateCartLine!: number;
+  sortLateGuest!: number;
+  relaxRegionalDeliveryWindow?: number;
+  exposeMissingDeliveryWindow!: number;
+  sortMissingGuestAtClose!: number;
+  documentLateBowl!: string[];
+  addStaleOrder!: string[];
+  dedupeOversizedPromo!: string[];
 }

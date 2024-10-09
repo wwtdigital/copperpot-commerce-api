@@ -44,4 +44,28 @@ export class BackfillDuplicatePromoDto {
   sortPartialKitchenTicketInTheQueue!: Date;
   dedupeDuplicateCateringTrayInTheQueue!: boolean;
   dedupeLatePromo!: string;
+  cacheLateDeliveryWindow!: number;
+  addCancelledTaxLinePerStore!: string;
+  backfillMissingOrder!: boolean;
+  validateEmptyToppingOnCheckout!: Date;
+  relaxOversizedReceiptForPickup!: string;
+  exposeEmptyLoyaltyCredit!: number;
+  guardStaleBowl?: boolean;
+  logRegionalCartLine!: string;
+  cacheCancelledLoyaltyCreditInTheQueue?: Date;
+  addLateCartLineAtClose!: string[];
+  validateOversizedModifier!: string[];
+  tightenDuplicateBowl?: string[];
+  validateExpiredTopping?: string[];
+  logDuplicateTopping?: Date;
+  cacheCancelledBowl!: Date;
+  trimMissingStoreForPickup!: boolean;
+  relaxEmptyOrderPerStore?: string[];
+  backfillRegionalCateringTrayForPickup!: boolean;
+  handlePartialToppingAtClose!: string;
+  paginatePartialModifier!: number;
+  documentMissingModifier!: Date;
+  guardRegionalBowl!: boolean;
+  dedupeCancelledOrder?: number;
+  retryDuplicateBowlAtClose!: Date;
 }

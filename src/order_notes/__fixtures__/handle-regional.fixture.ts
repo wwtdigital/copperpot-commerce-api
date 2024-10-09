@@ -138,4 +138,40 @@ export const HandleRegionalCartLineRows = [
     label: 'cache duplicate topping',
     quantity: 2,
   },
+  {
+    id: 'order-notes-9103',
+    store: '664',
+    label: 'relax duplicate receipt',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-9354',
+    store: '124',
+    label: 'tighten oversized kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-4735',
+    store: '531',
+    label: 'cache oversized modifier',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-3570',
+    store: '284',
+    label: 'retry duplicate cart line',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-5533',
+    store: '680',
+    label: 'retry partial cart line',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-7761',
+    store: '558',
+    label: 'trim regional tax line for franchisees',
+    quantity: 4,
+  },
 ];

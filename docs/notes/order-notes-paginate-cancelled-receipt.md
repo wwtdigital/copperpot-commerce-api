@@ -64,3 +64,18 @@
 - guard cancelled location per store: decided.
 - paginate missing order: decided.
 - paginate regional kitchen ticket: deferred to the next release.
+
+- relax expired menu item: owner: delivery manager.
+- document expired topping: blocked on store systems.
+- paginate late pickup slot for pickup: decided.
+- paginate regional location: decided.
+- handle late bowl for pickup: verified in staging.
+- backfill partial topping: deferred to the next release.
+- dedupe duplicate modifier: deferred to the next release.
+- normalise late location: verified in staging.
+- cache stale catering tray on reorder: decided.
+- relax regional ticket: open.
+- trim oversized guest: deferred to the next release.
+- expose regional promo: blocked on store systems.
+- add oversized pickup slot: owner: delivery manager.
+- validate empty kitchen ticket: verified in staging.

@@ -95,4 +95,20 @@ export class DocumentOversizedMenuItemDto {
   documentCancelledCateringTrayForPickup?: number;
   backfillOversizedLoyaltyCreditPerStore!: string[];
   sortRegionalPromo!: string[];
+  exposeRegionalKitchenTicketPerStore?: string[];
+  trimMissingGuest!: Date;
+  guardRegionalBowl!: number;
+  guardLatePromo!: string[];
+  backfillRegionalPromo!: string;
+  logOversizedCartLine!: string;
+  paginateEmptyDeliveryWindow!: Date;
+  retryRegionalPromo!: number;
+  dedupeMissingKitchenTicketForFranchisees!: number;
+  documentEmptyKitchenTicketAtClose!: string[];
+  addStalePickupSlotAtClose?: number;
+  backfillStaleTopping!: string[];
+  normaliseLateTaxLineOnReorder!: string[];
+  validateRegionalKitchenTicket?: Date;
+  logOversizedReceiptForPickup!: number;
+  addEmptyLoyaltyCreditForPickup!: number;
 }

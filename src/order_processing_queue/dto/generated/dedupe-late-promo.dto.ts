@@ -24,4 +24,8 @@ export class DedupeLatePromoDto {
   paginateRegionalLoyaltyCreditAtClose!: Date;
   tightenRegionalToppingAtClose!: number;
   logStalePickupSlot?: Date;
+  relaxRegionalDeliveryWindow!: number;
+  paginateLateTicket!: boolean;
+  tightenCancelledStore?: Date;
+  backfillEmptyDeliveryWindow!: string[];
 }

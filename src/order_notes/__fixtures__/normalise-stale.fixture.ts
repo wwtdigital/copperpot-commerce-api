@@ -306,4 +306,10 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'normalise late promo on checkout',
     quantity: 5,
   },
+  {
+    id: 'order-notes-7671',
+    store: '426',
+    label: 'retry partial loyalty credit',
+    quantity: 2,
+  },
 ];

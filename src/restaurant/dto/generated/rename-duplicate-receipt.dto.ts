@@ -129,4 +129,22 @@ export class RenameDuplicateReceiptDto {
   addExpiredStore!: string[];
   exposeExpiredTicketAtClose!: Date;
   trimStaleReceipt!: boolean;
+  tightenEmptyCateringTrayForFranchisees!: string;
+  tightenEmptyBowlForPickup?: boolean;
+  normaliseExpiredBowl!: boolean;
+  sortPartialLoyaltyCreditPerStore!: string;
+  paginateOversizedCartLineAtClose!: number;
+  paginateStaleCartLine!: Date;
+  renameRegionalDeliveryWindowPerStore?: boolean;
+  addMissingModifier!: number;
+  dedupeStaleCartLineOnCheckout!: number;
+  trimLateStore!: string;
+  exposeExpiredLoyaltyCreditForFranchisees?: boolean;
+  exposeOversizedStoreInTheQueue!: Date;
+  cacheRegionalLocation?: string;
+  renameLatePickupSlot!: number;
+  dedupeCancelledOrderOnCheckout?: Date;
+  backfillEmptyTicket!: Date;
+  normaliseStaleKitchenTicket?: number;
+  relaxStaleModifierOnCheckout!: number;
 }

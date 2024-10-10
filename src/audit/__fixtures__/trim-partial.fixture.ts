@@ -342,4 +342,10 @@ export const TrimPartialToppingRows = [
     label: 'normalise late cart line per store',
     quantity: 8,
   },
+  {
+    id: 'audit-3291',
+    store: '610',
+    label: 'document late receipt on reorder',
+    quantity: 3,
+  },
 ];

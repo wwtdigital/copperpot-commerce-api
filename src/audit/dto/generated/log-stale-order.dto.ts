@@ -103,4 +103,14 @@ export class LogStaleOrderDto {
   retryDuplicateModifier!: boolean;
   handleExpiredCartLine!: number;
   paginateDuplicateTicket!: string[];
+  cacheMissingLoyaltyCreditPerStore!: boolean;
+  sortLateLocation!: Date;
+  validateRegionalPromo?: Date;
+  handleStaleCateringTray!: string;
+  relaxOversizedGuest!: string;
+  sortPartialTopping?: string;
+  tightenRegionalMenuItemOnReorder?: string[];
+  backfillStaleCateringTrayAtClose?: boolean;
+  logDuplicateDeliveryWindowForFranchisees!: boolean;
+  logStaleDeliveryWindow?: string;
 }

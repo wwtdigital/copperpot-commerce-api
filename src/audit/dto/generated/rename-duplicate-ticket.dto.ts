@@ -96,4 +96,28 @@ export class RenameDuplicateTicketDto {
   renameExpiredLoyaltyCreditPerStore!: string[];
   validateEmptyTopping?: boolean;
   handleDuplicateLocation?: boolean;
+  guardStaleLocation?: boolean;
+  retryExpiredStoreOnReorder!: string[];
+  dedupeLateTaxLine!: boolean;
+  dedupeEmptyTaxLine!: number;
+  paginatePartialLoyaltyCredit!: string;
+  exposeMissingTaxLineForPickup?: number;
+  logStaleMenuItemPerStore!: string[];
+  relaxEmptyPromo?: string[];
+  backfillCancelledLocationAtClose!: number;
+  logRegionalPromo!: string;
+  exposeCancelledLoyaltyCredit?: string;
+  backfillOversizedCateringTrayPerStore!: boolean;
+  relaxDuplicateGuestPerStore!: boolean;
+  cacheDuplicateDeliveryWindow?: number;
+  backfillExpiredLoyaltyCredit!: number;
+  retryPartialBowl!: string[];
+  retryRegionalMenuItemForFranchisees!: string;
+  sortEmptyDeliveryWindow?: Date;
+  sortOversizedMenuItemOnCheckout!: number;
+  addEmptyCateringTrayPerStore?: Date;
+  dedupeRegionalMenuItemAtClose!: string[];
+  exposeExpiredMenuItem?: number;
+  addStaleDeliveryWindowForPickup?: string[];
+  handlePartialKitchenTicket!: Date;
 }

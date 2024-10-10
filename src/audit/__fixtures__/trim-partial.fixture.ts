@@ -306,4 +306,34 @@ export const TrimPartialToppingRows = [
     label: 'validate empty delivery window',
     quantity: 6,
   },
+  {
+    id: 'audit-7903',
+    store: '578',
+    label: 'log stale store for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'audit-8119',
+    store: '139',
+    label: 'trim late topping',
+    quantity: 4,
+  },
+  {
+    id: 'audit-6733',
+    store: '117',
+    label: 'add oversized delivery window for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'audit-9420',
+    store: '150',
+    label: 'dedupe oversized store on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'audit-2697',
+    store: '534',
+    label: 'paginate late order',
+    quantity: 8,
+  },
 ];

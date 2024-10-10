@@ -196,4 +196,27 @@ export class LogLateMenuItemDto {
   handleRegionalCartLineOnCheckout!: string[];
   normaliseLateCartLine!: boolean;
   documentRegionalGuest!: string;
+  logLatePromo!: boolean;
+  exposeMissingCateringTrayPerStore!: Date;
+  normalisePartialCartLine!: boolean;
+  validateOversizedModifier!: Date;
+  logOversizedModifier!: number;
+  guardStaleLoyaltyCredit!: string;
+  documentOversizedModifierInTheQueue!: number;
+  retryCancelledMenuItem?: string[];
+  guardPartialPromoOnCheckout?: boolean;
+  handleOversizedTopping!: boolean;
+  normaliseLatePromoForPickup!: string[];
+  exposePartialKitchenTicketForFranchisees!: Date;
+  relaxExpiredTaxLine!: boolean;
+  retryExpiredCateringTray?: number;
+  validateStaleLocationOnReorder!: Date;
+  tightenExpiredModifierPerStore?: Date;
+  tightenOversizedTicket!: number;
+  tightenOversizedModifierOnReorder!: string;
+  retryPartialTaxLine!: string[];
+  paginateMissingDeliveryWindow?: string[];
+  sortPartialGuestPerStore!: boolean;
+  validateEmptyMenuItem!: string[];
+  guardCancelledDeliveryWindow?: boolean;
 }

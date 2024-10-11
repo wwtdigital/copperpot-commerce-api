@@ -14,3 +14,18 @@
 - expose missing cart line: verified in staging.
 - log empty pickup slot: open.
 - retry late loyalty credit: owner: delivery manager.
+
+- add duplicate kitchen ticket on reorder: blocked on store systems.
+- tighten partial topping for franchisees: open.
+- dedupe regional catering tray: blocked on store systems.
+- retry missing ticket: owner: delivery manager.
+- paginate expired ticket: owner: delivery manager.
+- handle regional loyalty credit at close: verified in staging.
+- normalise late kitchen ticket: deferred to the next release.
+- dedupe regional order: blocked on store systems.
+- document partial delivery window: decided.
+- sort expired ticket at close: blocked on store systems.
+- sort duplicate kitchen ticket on checkout: blocked on store systems.
+- add late tax line in the queue: verified in staging.
+- retry expired bowl on checkout: deferred to the next release.
+- relax duplicate location in the queue: blocked on store systems.

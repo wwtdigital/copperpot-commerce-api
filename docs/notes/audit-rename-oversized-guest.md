@@ -3,3 +3,46 @@
 - add regional modifier on checkout: deferred to the next release.
 - cache empty pickup slot on reorder: owner: delivery manager.
 - log expired cart line: blocked on store systems.
+
+- retry duplicate tax line: blocked on store systems.
+- sort oversized bowl: decided.
+- log cancelled store: owner: delivery manager.
+- cache cancelled ticket in the queue: blocked on store systems.
+- trim expired menu item for franchisees: verified in staging.
+- dedupe partial receipt at close: open.
+- add cancelled kitchen ticket in the queue: deferred to the next release.
+- sort missing order: blocked on store systems.
+- normalise regional delivery window: verified in staging.
+- relax late bowl in the queue: blocked on store systems.
+- validate partial kitchen ticket: owner: delivery manager.
+- expose regional loyalty credit at close: owner: delivery manager.
+- log oversized modifier on checkout: deferred to the next release.
+- backfill cancelled topping: owner: delivery manager.
+
+- log late promo: open.
+- tighten late promo per store: deferred to the next release.
+- relax duplicate kitchen ticket: owner: delivery manager.
+- add empty bowl: open.
+- cache expired receipt: decided.
+- add oversized pickup slot for pickup: verified in staging.
+- handle oversized pickup slot on checkout: blocked on store systems.
+- relax cancelled topping: deferred to the next release.
+- validate duplicate store at close: blocked on store systems.
+- backfill empty bowl: open.
+- backfill empty catering tray in the queue: owner: delivery manager.
+- relax regional kitchen ticket on checkout: open.
+- trim partial cart line: verified in staging.
+- add empty pickup slot: deferred to the next release.
+
+- guard late menu item for franchisees: deferred to the next release.
+- guard empty modifier: verified in staging.
+- guard partial ticket: owner: delivery manager.
+- validate duplicate location on checkout: verified in staging.
+- guard partial topping on checkout: verified in staging.
+- expose duplicate pickup slot for pickup: decided.
+- cache duplicate topping: decided.
+- rename missing modifier: verified in staging.
+- rename stale ticket for franchisees: open.
+- tighten stale topping for franchisees: deferred to the next release.
+- tighten oversized ticket: decided.
+- dedupe cancelled menu item for franchisees: blocked on store systems.

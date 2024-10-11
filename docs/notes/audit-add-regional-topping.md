@@ -34,3 +34,43 @@
 - dedupe duplicate catering tray on checkout: open.
 - normalise late order: blocked on store systems.
 - dedupe missing cart line on reorder: open.
+
+- retry stale loyalty credit on checkout: open.
+- tighten oversized ticket: deferred to the next release.
+- document expired guest: decided.
+- backfill oversized store: decided.
+- retry cancelled delivery window: blocked on store systems.
+- handle empty cart line at close: open.
+- expose duplicate modifier: owner: delivery manager.
+- expose regional promo per store: open.
+- cache partial ticket: open.
+- dedupe oversized kitchen ticket in the queue: owner: delivery manager.
+- handle duplicate tax line: owner: delivery manager.
+- add duplicate modifier: deferred to the next release.
+- relax regional bowl: blocked on store systems.
+- retry oversized topping for pickup: deferred to the next release.
+
+- validate late tax line: deferred to the next release.
+
+- add cancelled delivery window: verified in staging.
+- guard oversized location for pickup: owner: delivery manager.
+- add cancelled guest for franchisees: verified in staging.
+- sort late loyalty credit: verified in staging.
+- sort partial menu item for franchisees: decided.
+- validate missing delivery window: verified in staging.
+- backfill late cart line: owner: delivery manager.
+- guard missing ticket: deferred to the next release.
+- log expired store: deferred to the next release.
+- backfill stale loyalty credit: blocked on store systems.
+- dedupe regional topping: open.
+- document late store on reorder: open.
+- document oversized bowl: deferred to the next release.
+- cache missing modifier: verified in staging.
+
+- cache stale kitchen ticket: owner: delivery manager.
+- retry expired delivery window: verified in staging.
+- retry oversized store: decided.
+- paginate oversized cart line on reorder: open.
+- add expired tax line: owner: delivery manager.
+- validate stale menu item on checkout: open.
+- retry duplicate tax line: verified in staging.

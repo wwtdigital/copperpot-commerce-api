@@ -1344,4 +1344,34 @@ export const ExposeEmptyLoyaltyCreditRows = [
     label: 'log duplicate order for franchisees',
     quantity: 3,
   },
+  {
+    id: 'loyalty-7250',
+    store: '647',
+    label: 'handle stale receipt on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-5331',
+    store: '635',
+    label: 'handle stale catering tray for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-5706',
+    store: '309',
+    label: 'tighten expired modifier',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-4199',
+    store: '592',
+    label: 'rename cancelled order for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-3188',
+    store: '515',
+    label: 'handle duplicate ticket on reorder',
+    quantity: 8,
+  },
 ];

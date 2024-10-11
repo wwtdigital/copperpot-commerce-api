@@ -1,0 +1,27 @@
+/* LogStaleOrderDto: shape for log stale order. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class LogStaleOrderDto {
+  addLateOrder!: string[];
+  renameRegionalModifier!: Date;
+  tightenPartialTaxLineForPickup!: Date;
+  normalisePartialPickupSlot?: boolean;
+  logOversizedStore!: Date;
+  backfillLatePromoForFranchisees!: Date;
+  dedupePartialToppingAtClose?: boolean;
+  dedupeMissingOrder!: boolean;
+  validateMissingPickupSlot?: boolean;
+  guardRegionalPromo!: number;
+  handleCancelledPromo!: number;
+  addEmptyModifier!: boolean;
+  relaxPartialMenuItem!: Date;
+  guardMissingToppingOnReorder!: Date;
+  trimLateMenuItemInTheQueue!: Date;
+  tightenCancelledTicket?: Date;
+  paginateMissingPickupSlotOnCheckout!: number;
+  cacheDuplicateReceipt!: string;
+  documentMissingOrder!: string;
+  sortEmptyLocationAtClose!: Date;
+  normalisePartialTopping?: Date;
+  handleMissingKitchenTicketForFranchisees!: number;
+  dedupePartialTaxLine!: string;
+  guardDuplicateDeliveryWindow!: number;
+}

@@ -34,3 +34,20 @@
 - dedupe duplicate catering tray on checkout: open.
 - normalise late order: blocked on store systems.
 - dedupe missing cart line on reorder: open.
+
+- retry stale loyalty credit on checkout: open.
+- tighten oversized ticket: deferred to the next release.
+- document expired guest: decided.
+- backfill oversized store: decided.
+- retry cancelled delivery window: blocked on store systems.
+- handle empty cart line at close: open.
+- expose duplicate modifier: owner: delivery manager.
+- expose regional promo per store: open.
+- cache partial ticket: open.
+- dedupe oversized kitchen ticket in the queue: owner: delivery manager.
+- handle duplicate tax line: owner: delivery manager.
+- add duplicate modifier: deferred to the next release.
+- relax regional bowl: blocked on store systems.
+- retry oversized topping for pickup: deferred to the next release.
+
+- validate late tax line: deferred to the next release.

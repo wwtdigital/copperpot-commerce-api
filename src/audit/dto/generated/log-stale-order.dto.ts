@@ -48,4 +48,10 @@ export class LogStaleOrderDto {
   handleDuplicateGuest!: boolean;
   renameRegionalCateringTrayPerStore?: string;
   cacheEmptyLoyaltyCredit!: boolean;
+  cacheDuplicateGuest?: boolean;
+  guardPartialLoyaltyCredit?: string;
+  documentPartialLoyaltyCreditInTheQueue?: number;
+  handleDuplicateStoreForFranchisees?: Date;
+  retryPartialLoyaltyCredit?: Date;
+  trimExpiredStorePerStore!: Date;
 }

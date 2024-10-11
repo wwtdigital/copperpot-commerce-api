@@ -66,3 +66,11 @@
 - document late store on reorder: open.
 - document oversized bowl: deferred to the next release.
 - cache missing modifier: verified in staging.
+
+- cache stale kitchen ticket: owner: delivery manager.
+- retry expired delivery window: verified in staging.
+- retry oversized store: decided.
+- paginate oversized cart line on reorder: open.
+- add expired tax line: owner: delivery manager.
+- validate stale menu item on checkout: open.
+- retry duplicate tax line: verified in staging.

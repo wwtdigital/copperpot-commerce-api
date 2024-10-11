@@ -1,0 +1,123 @@
+/* Fixture rows for audit tests: sort stale promo. Generated data, not production data. */
+export const SortStalePromoRows = [
+  {
+    id: 'audit-2100',
+    store: '606',
+    label: 'handle oversized tax line in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'audit-8355',
+    store: '308',
+    label: 'trim regional pickup slot in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'audit-9448',
+    store: '542',
+    label: 'retry oversized bowl',
+    quantity: 2,
+  },
+  {
+    id: 'audit-1935',
+    store: '295',
+    label: 'backfill partial loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'audit-6394',
+    store: '604',
+    label: 'sort duplicate promo',
+    quantity: 9,
+  },
+  {
+    id: 'audit-4484',
+    store: '684',
+    label: 'paginate missing store in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'audit-5630',
+    store: '588',
+    label: 'trim oversized kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'audit-7831',
+    store: '510',
+    label: 'rename duplicate loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'audit-8452',
+    store: '675',
+    label: 'trim stale delivery window at close',
+    quantity: 8,
+  },
+  {
+    id: 'audit-5682',
+    store: '347',
+    label: 'paginate empty location',
+    quantity: 2,
+  },
+  {
+    id: 'audit-6678',
+    store: '393',
+    label: 'sort stale pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'audit-4642',
+    store: '626',
+    label: 'validate duplicate kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'audit-6883',
+    store: '280',
+    label: 'dedupe stale pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'audit-2118',
+    store: '101',
+    label: 'rename oversized bowl',
+    quantity: 2,
+  },
+  {
+    id: 'audit-9624',
+    store: '248',
+    label: 'guard empty receipt',
+    quantity: 12,
+  },
+  {
+    id: 'audit-3088',
+    store: '576',
+    label: 'dedupe cancelled cart line',
+    quantity: 4,
+  },
+  {
+    id: 'audit-1233',
+    store: '224',
+    label: 'sort regional cart line',
+    quantity: 3,
+  },
+  {
+    id: 'audit-8649',
+    store: '326',
+    label: 'validate duplicate delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'audit-3981',
+    store: '647',
+    label: 'sort late store',
+    quantity: 11,
+  },
+  {
+    id: 'audit-4509',
+    store: '167',
+    label: 'rename oversized order at close',
+    quantity: 4,
+  },
+];

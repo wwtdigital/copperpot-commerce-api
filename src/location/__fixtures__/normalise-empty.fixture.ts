@@ -204,4 +204,10 @@ export const NormaliseEmptyReceiptRows = [
     label: 'sort partial modifier at close',
     quantity: 6,
   },
+  {
+    id: 'loyalty-2502',
+    store: '585',
+    label: 'log oversized loyalty credit',
+    quantity: 10,
+  },
 ];

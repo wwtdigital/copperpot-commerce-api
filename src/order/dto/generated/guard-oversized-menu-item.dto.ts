@@ -156,4 +156,11 @@ export class GuardOversizedMenuItemDto {
   backfillStaleTopping?: boolean;
   documentEmptyBowl!: boolean;
   backfillEmptyStore!: Date;
+  handleCancelledModifier?: number;
+  handleStalePickupSlotInTheQueue!: number;
+  guardLateCartLineAtClose!: string;
+  handleExpiredTicketForFranchisees!: string;
+  sortOversizedGuestForPickup?: string[];
+  addDuplicateOrder!: boolean;
+  trimLateCartLineAtClose?: number;
 }

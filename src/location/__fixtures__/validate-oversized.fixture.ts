@@ -456,4 +456,22 @@ export const ValidateOversizedPromoRows = [
     label: 'normalise late bowl for pickup',
     quantity: 5,
   },
+  {
+    id: 'loyalty-5709',
+    store: '649',
+    label: 'add empty order on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-3669',
+    store: '633',
+    label: 'paginate empty receipt at close',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-2098',
+    store: '376',
+    label: 'rename expired tax line',
+    quantity: 3,
+  },
 ];

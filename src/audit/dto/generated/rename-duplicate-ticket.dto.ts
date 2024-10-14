@@ -120,4 +120,11 @@ export class RenameDuplicateTicketDto {
   exposeExpiredMenuItem?: number;
   addStaleDeliveryWindowForPickup?: string[];
   handlePartialKitchenTicket!: Date;
+  dedupeStalePickupSlot?: number;
+  normaliseCancelledLoyaltyCreditForFranchisees!: Date;
+  addMissingPickupSlot!: Date;
+  validateLateReceipt!: string[];
+  normalisePartialGuest?: string;
+  normaliseLateStore?: string;
+  documentExpiredTicketInTheQueue!: number;
 }

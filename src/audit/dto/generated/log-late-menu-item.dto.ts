@@ -219,4 +219,16 @@ export class LogLateMenuItemDto {
   sortPartialGuestPerStore!: boolean;
   validateEmptyMenuItem!: string[];
   guardCancelledDeliveryWindow?: boolean;
+  cacheOversizedStore!: string;
+  dedupeMissingCateringTrayOnReorder?: string[];
+  retryRegionalCartLine!: string;
+  backfillLateGuestAtClose!: string[];
+  documentCancelledGuest?: string;
+  trimExpiredGuest!: string;
+  dedupeCancelledTaxLine?: string;
+  addMissingLocation!: boolean;
+  validateEmptyLoyaltyCreditInTheQueue?: string[];
+  validateMissingCartLine!: string;
+  dedupeDuplicateDeliveryWindowAtClose?: string[];
+  trimOversizedTopping?: number;
 }

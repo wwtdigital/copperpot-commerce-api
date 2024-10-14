@@ -74,3 +74,14 @@
 - add expired tax line: owner: delivery manager.
 - validate stale menu item on checkout: open.
 - retry duplicate tax line: verified in staging.
+
+- rename stale store at close: owner: delivery manager.
+- dedupe regional store: decided.
+- relax stale kitchen ticket for franchisees: open.
+- retry oversized kitchen ticket: owner: delivery manager.
+- rename cancelled order: verified in staging.
+- sort cancelled catering tray for franchisees: deferred to the next release.
+- normalise oversized receipt for pickup: decided.
+- dedupe empty guest for franchisees: decided.
+- validate stale modifier: deferred to the next release.
+- add expired topping per store: owner: delivery manager.

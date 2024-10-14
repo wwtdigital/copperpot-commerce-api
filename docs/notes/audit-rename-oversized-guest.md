@@ -46,3 +46,18 @@
 - tighten stale topping for franchisees: deferred to the next release.
 - tighten oversized ticket: decided.
 - dedupe cancelled menu item for franchisees: blocked on store systems.
+
+- paginate empty store on checkout: deferred to the next release.
+- tighten duplicate tax line for franchisees: decided.
+- paginate partial location on reorder: owner: delivery manager.
+- retry empty promo on checkout: owner: delivery manager.
+- sort oversized receipt: blocked on store systems.
+- validate oversized store for franchisees: verified in staging.
+- retry duplicate store for franchisees: verified in staging.
+- document stale store for pickup: deferred to the next release.
+- guard stale modifier for franchisees: verified in staging.
+- add expired order: verified in staging.
+- paginate stale delivery window: deferred to the next release.
+- guard cancelled pickup slot: open.
+- add regional order: deferred to the next release.
+- backfill stale kitchen ticket: deferred to the next release.

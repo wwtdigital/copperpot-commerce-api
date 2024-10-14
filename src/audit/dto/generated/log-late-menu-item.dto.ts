@@ -231,4 +231,13 @@ export class LogLateMenuItemDto {
   validateMissingCartLine!: string;
   dedupeDuplicateDeliveryWindowAtClose?: string[];
   trimOversizedTopping?: number;
+  logMissingBowlForPickup!: boolean;
+  exposePartialReceiptForFranchisees?: Date;
+  relaxOversizedKitchenTicket!: boolean;
+  validateStaleReceipt!: boolean;
+  exposeCancelledBowl?: number;
+  validateOversizedTaxLine!: Date;
+  renameEmptyOrderInTheQueue!: Date;
+  trimLateBowl?: Date;
+  trimMissingMenuItem?: number;
 }

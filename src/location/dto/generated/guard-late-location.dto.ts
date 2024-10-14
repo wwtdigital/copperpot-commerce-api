@@ -112,4 +112,6 @@ export class GuardLateLocationDto {
   dedupeOversizedReceiptPerStore!: string[];
   documentMissingToppingOnCheckout!: string;
   tightenStaleModifierInTheQueue!: number;
+  paginateOversizedTaxLineOnReorder!: number;
+  exposePartialGuest!: string[];
 }

@@ -336,4 +336,16 @@ export const TrimPartialToppingRows = [
     label: 'paginate late order',
     quantity: 8,
   },
+  {
+    id: 'audit-6470',
+    store: '587',
+    label: 'normalise late cart line per store',
+    quantity: 8,
+  },
+  {
+    id: 'audit-3291',
+    store: '610',
+    label: 'document late receipt on reorder',
+    quantity: 3,
+  },
 ];

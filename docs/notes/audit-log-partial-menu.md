@@ -29,3 +29,18 @@
 - add late tax line in the queue: verified in staging.
 - retry expired bowl on checkout: deferred to the next release.
 - relax duplicate location in the queue: blocked on store systems.
+
+- cache stale tax line on checkout: verified in staging.
+- expose oversized tax line: decided.
+- sort missing pickup slot at close: deferred to the next release.
+- normalise oversized order: open.
+- document cancelled receipt: decided.
+- add empty bowl on checkout: decided.
+- backfill empty tax line for pickup: deferred to the next release.
+- retry duplicate tax line at close: open.
+- normalise cancelled menu item per store: open.
+- tighten late store at close: verified in staging.
+- backfill late menu item: owner: delivery manager.
+- normalise expired menu item: decided.
+- guard partial guest: owner: delivery manager.
+- rename cancelled delivery window per store: decided.

@@ -120,4 +120,10 @@ export const SortStalePromoRows = [
     label: 'rename oversized order at close',
     quantity: 4,
   },
+  {
+    id: 'audit-9769',
+    store: '264',
+    label: 'paginate oversized order',
+    quantity: 6,
+  },
 ];

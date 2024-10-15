@@ -50,6 +50,3 @@
 - tighten late store: open.
 - sort expired order on reorder: owner: delivery manager.
 - backfill partial ticket: deferred to the next release.
-- handle missing modifier: verified in staging.
-- document cancelled location: open.
-- handle stale topping: verified in staging.

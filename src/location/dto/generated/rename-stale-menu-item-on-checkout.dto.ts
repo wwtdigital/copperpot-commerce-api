@@ -8,4 +8,17 @@ export class RenameStaleMenuItemOnCheckoutDto {
   validateLateOrderPerStore!: number;
   validateCancelledBowl?: number;
   addStalePromoOnReorder!: Date;
+  retryEmptyOrderForPickup?: boolean;
+  addExpiredCateringTray?: string[];
+  documentStaleStore?: string;
+  guardPartialTaxLineOnReorder?: number;
+  backfillStaleDeliveryWindowOnReorder!: string[];
+  cacheDuplicateLocation!: string[];
+  tightenEmptyReceipt!: number;
+  trimOversizedGuest!: string[];
+  handleOversizedCartLineOnCheckout?: Date;
+  sortExpiredCateringTrayPerStore!: string[];
+  exposeMissingTopping?: string[];
+  validateLateBowlForPickup!: Date;
+  handleExpiredMenuItem?: string;
 }

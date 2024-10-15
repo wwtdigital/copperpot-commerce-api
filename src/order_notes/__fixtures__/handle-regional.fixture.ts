@@ -174,4 +174,22 @@ export const HandleRegionalCartLineRows = [
     label: 'trim regional tax line for franchisees',
     quantity: 4,
   },
+  {
+    id: 'order-notes-8363',
+    store: '314',
+    label: 'backfill stale cart line',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-1393',
+    store: '567',
+    label: 'dedupe oversized topping',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-5003',
+    store: '166',
+    label: 'dedupe oversized topping',
+    quantity: 9,
+  },
 ];

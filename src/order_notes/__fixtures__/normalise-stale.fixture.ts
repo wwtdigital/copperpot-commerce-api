@@ -300,4 +300,10 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'relax partial topping',
     quantity: 3,
   },
+  {
+    id: 'order-notes-4676',
+    store: '699',
+    label: 'normalise late promo on checkout',
+    quantity: 5,
+  },
 ];

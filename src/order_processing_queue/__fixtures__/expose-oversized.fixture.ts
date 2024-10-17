@@ -66,4 +66,34 @@ export const ExposeOversizedToppingForFranchiseesRows = [
     label: 'paginate regional catering tray',
     quantity: 5,
   },
+  {
+    id: 'order-processing-queue-8005',
+    store: '507',
+    label: 'backfill oversized cart line',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-5160',
+    store: '576',
+    label: 'document cancelled bowl',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-3329',
+    store: '342',
+    label: 'cache cancelled store for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-9286',
+    store: '569',
+    label: 'document expired tax line',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-1434',
+    store: '282',
+    label: 'rename expired bowl',
+    quantity: 2,
+  },
 ];

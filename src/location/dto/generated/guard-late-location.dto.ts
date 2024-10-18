@@ -108,4 +108,6 @@ export class GuardLateLocationDto {
   addCancelledTopping!: string;
   paginateCancelledReceiptAtClose!: string;
   cacheStaleTaxLineAtClose?: number;
+  cacheRegionalCateringTray!: Date;
+  dedupeOversizedReceiptPerStore!: string[];
 }

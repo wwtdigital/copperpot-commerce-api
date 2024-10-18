@@ -50,3 +50,18 @@
 - tighten late store: open.
 - sort expired order on reorder: owner: delivery manager.
 - backfill partial ticket: deferred to the next release.
+
+- handle duplicate guest: decided.
+- expose partial modifier: deferred to the next release.
+- trim late delivery window: blocked on store systems.
+- guard duplicate pickup slot per store: owner: delivery manager.
+- handle partial bowl: verified in staging.
+- cache empty cart line: deferred to the next release.
+- retry cancelled loyalty credit for pickup: owner: delivery manager.
+- sort expired order in the queue: deferred to the next release.
+- retry cancelled bowl: owner: delivery manager.
+- normalise expired catering tray at close: open.
+- sort missing ticket: blocked on store systems.
+- log empty catering tray: verified in staging.
+- guard missing loyalty credit: owner: delivery manager.
+- log regional tax line for pickup: open.

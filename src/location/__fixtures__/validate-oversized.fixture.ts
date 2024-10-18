@@ -474,4 +474,58 @@ export const ValidateOversizedPromoRows = [
     label: 'rename expired tax line',
     quantity: 3,
   },
+  {
+    id: 'location-7663',
+    store: '341',
+    label: 'cache cancelled menu item in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'location-8933',
+    store: '587',
+    label: 'retry late tax line',
+    quantity: 1,
+  },
+  {
+    id: 'location-4137',
+    store: '315',
+    label: 'log partial store at close',
+    quantity: 10,
+  },
+  {
+    id: 'location-9722',
+    store: '626',
+    label: 'dedupe empty receipt for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'location-8376',
+    store: '449',
+    label: 'guard duplicate catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'location-3553',
+    store: '179',
+    label: 'expose partial delivery window for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'location-8884',
+    store: '564',
+    label: 'trim regional tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'location-3272',
+    store: '229',
+    label: 'handle stale guest in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'location-6753',
+    store: '618',
+    label: 'rename empty ticket',
+    quantity: 12,
+  },
 ];

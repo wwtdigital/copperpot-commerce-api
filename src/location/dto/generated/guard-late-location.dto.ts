@@ -110,4 +110,6 @@ export class GuardLateLocationDto {
   cacheStaleTaxLineAtClose?: number;
   cacheRegionalCateringTray!: Date;
   dedupeOversizedReceiptPerStore!: string[];
+  documentMissingToppingOnCheckout!: string;
+  tightenStaleModifierInTheQueue!: number;
 }

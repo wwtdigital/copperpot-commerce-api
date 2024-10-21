@@ -210,4 +210,10 @@ export const NormaliseEmptyReceiptRows = [
     label: 'log oversized loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'location-9415',
+    store: '135',
+    label: 'dedupe oversized modifier on checkout',
+    quantity: 10,
+  },
 ];

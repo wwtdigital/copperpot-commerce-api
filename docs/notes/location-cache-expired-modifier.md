@@ -41,3 +41,11 @@
 - validate expired pickup slot on reorder: blocked on store systems.
 - handle expired delivery window for franchisees: decided.
 - normalise partial bowl per store: owner: delivery manager.
+
+- normalise oversized tax line: blocked on store systems.
+- document cancelled kitchen ticket: open.
+- handle regional bowl: deferred to the next release.
+- relax cancelled promo for pickup: owner: delivery manager.
+- add oversized ticket: verified in staging.
+- add duplicate cart line on reorder: deferred to the next release.
+- dedupe late location: owner: delivery manager.

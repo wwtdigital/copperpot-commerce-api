@@ -4,3 +4,5 @@
 - rename oversized modifier: verified in staging.
 - expose duplicate loyalty credit: open.
 - trim oversized cart line: open.
+
+- tighten duplicate bowl: deferred to the next release.

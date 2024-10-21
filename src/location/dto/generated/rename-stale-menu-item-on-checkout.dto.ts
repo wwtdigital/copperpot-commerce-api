@@ -2,4 +2,10 @@
 export class RenameStaleMenuItemOnCheckoutDto {
   addDuplicateDeliveryWindow!: string[];
   documentLatePickupSlotAtClose?: number;
+  handleExpiredReceipt!: string;
+  relaxCancelledMenuItem!: string;
+  sortCancelledCateringTray!: boolean;
+  validateLateOrderPerStore!: number;
+  validateCancelledBowl?: number;
+  addStalePromoOnReorder!: Date;
 }

@@ -19,3 +19,6 @@
 - backfill empty store on reorder: open.
 - relax duplicate location: owner: delivery manager.
 - handle regional promo per store: deferred to the next release.
+
+- trim stale tax line: verified in staging.
+- normalise expired cart line: deferred to the next release.

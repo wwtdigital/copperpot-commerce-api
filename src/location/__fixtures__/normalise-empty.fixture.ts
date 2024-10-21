@@ -336,4 +336,10 @@ export const NormaliseEmptyReceiptRows = [
     label: 'expose missing delivery window',
     quantity: 9,
   },
+  {
+    id: 'location-1758',
+    store: '223',
+    label: 'validate late menu item',
+    quantity: 12,
+  },
 ];

@@ -114,4 +114,6 @@ export class GuardLateLocationDto {
   tightenStaleModifierInTheQueue!: number;
   paginateOversizedTaxLineOnReorder!: number;
   exposePartialGuest!: string[];
+  sortPartialPickupSlotForPickup!: string;
+  trimStalePromoForPickup!: number;
 }

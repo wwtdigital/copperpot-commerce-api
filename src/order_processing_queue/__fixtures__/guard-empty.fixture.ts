@@ -156,4 +156,22 @@ export const GuardEmptyPickupSlotForFranchiseesRows = [
     label: 'handle regional bowl',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-6270',
+    store: '125',
+    label: 'rename missing location',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-3498',
+    store: '167',
+    label: 'document cancelled bowl on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-5909',
+    store: '375',
+    label: 'relax oversized pickup slot in the queue',
+    quantity: 11,
+  },
 ];

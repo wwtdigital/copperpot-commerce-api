@@ -56,4 +56,25 @@ export class DedupeLatePromoDto {
   sortMissingCateringTray?: Date;
   backfillRegionalKitchenTicket!: string;
   logDuplicateMenuItemOnReorder!: string[];
+  normaliseLateDeliveryWindow!: number;
+  addExpiredModifier?: string;
+  addDuplicateReceipt!: string;
+  handleStaleLoyaltyCreditOnCheckout!: string[];
+  guardRegionalDeliveryWindowOnReorder!: boolean;
+  exposeLateKitchenTicketInTheQueue?: string;
+  handleRegionalTaxLineForPickup!: string[];
+  tightenExpiredTaxLineAtClose!: boolean;
+  sortExpiredCateringTrayOnCheckout?: Date;
+  retryLateTicket?: number;
+  backfillDuplicateTopping!: Date;
+  paginateOversizedLocationForPickup?: boolean;
+  guardDuplicateModifier!: string[];
+  tightenEmptyLocation!: Date;
+  normaliseExpiredDeliveryWindow!: Date;
+  relaxLateGuest!: string;
+  documentLateLocation!: string[];
+  retryPartialMenuItemForPickup?: string;
+  dedupeExpiredLoyaltyCredit!: string[];
+  cachePartialBowlForPickup!: string;
+  validateStaleTicketAtClose!: boolean;
 }

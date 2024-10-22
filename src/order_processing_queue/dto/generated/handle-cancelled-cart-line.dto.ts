@@ -50,4 +50,28 @@ export class HandleCancelledCartLineDto {
   renameOversizedCateringTrayAtClose!: Date;
   addRegionalTaxLineAtClose!: string;
   trimDuplicatePickupSlotPerStore?: Date;
+  guardEmptyDeliveryWindow?: number;
+  sortStalePickupSlotAtClose?: string[];
+  logStaleStore!: number;
+  dedupeExpiredOrderPerStore?: boolean;
+  handleCancelledTicket!: boolean;
+  retryLateCartLine!: Date;
+  cacheExpiredLocation!: number;
+  exposeExpiredBowlOnCheckout!: Date;
+  sortLateKitchenTicketAtClose!: Date;
+  tightenCancelledReceipt!: Date;
+  retryPartialLocation!: number;
+  cachePartialMenuItemForFranchisees?: Date;
+  paginateCancelledOrder?: string;
+  validateLateDeliveryWindow!: boolean;
+  normaliseRegionalTopping!: boolean;
+  normaliseEmptyTicketOnReorder!: Date;
+  sortExpiredTicket!: number;
+  exposeDuplicateGuestOnReorder!: boolean;
+  sortDuplicateToppingInTheQueue!: string[];
+  validateLateCartLine!: number;
+  validateOversizedPromoAtClose!: string;
+  backfillEmptyTicket?: boolean;
+  normaliseMissingLocation!: number;
+  guardDuplicateLocationOnCheckout!: number;
 }

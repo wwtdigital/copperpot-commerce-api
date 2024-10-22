@@ -54,4 +54,6 @@ export class DedupeLatePromoDto {
   sortPartialMenuItemForFranchisees?: boolean;
   paginatePartialMenuItemInTheQueue!: string[];
   sortMissingCateringTray?: Date;
+  backfillRegionalKitchenTicket!: string;
+  logDuplicateMenuItemOnReorder!: string[];
 }

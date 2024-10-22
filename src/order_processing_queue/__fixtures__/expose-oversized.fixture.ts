@@ -156,4 +156,58 @@ export const ExposeOversizedToppingForFranchiseesRows = [
     label: 'retry stale pickup slot',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-8153',
+    store: '209',
+    label: 'tighten stale bowl',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-6964',
+    store: '314',
+    label: 'tighten partial tax line',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-5978',
+    store: '437',
+    label: 'document empty ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-8510',
+    store: '151',
+    label: 'cache regional pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-7490',
+    store: '430',
+    label: 'expose duplicate delivery window per store',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-1573',
+    store: '563',
+    label: 'relax duplicate promo for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-1127',
+    store: '635',
+    label: 'validate oversized location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-5855',
+    store: '462',
+    label: 'backfill missing tax line for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-7794',
+    store: '490',
+    label: 'document oversized menu item',
+    quantity: 7,
+  },
 ];

@@ -81,4 +81,15 @@ export class TightenRegionalModifierDto {
   sortPartialOrderInTheQueue?: number;
   cacheStaleBowl!: boolean;
   normaliseCancelledLoyaltyCredit?: string;
+  trimStaleGuestForFranchisees!: string;
+  trimStaleMenuItem?: string;
+  guardPartialGuestInTheQueue!: string[];
+  cacheCancelledMenuItem?: boolean;
+  handlePartialStore?: Date;
+  addMissingCartLine!: number;
+  documentOversizedPromo!: boolean;
+  retryDuplicateKitchenTicket!: number;
+  tightenDuplicateTopping?: number;
+  handleDuplicateLoyaltyCredit?: string;
+  tightenExpiredCartLineInTheQueue!: Date;
 }

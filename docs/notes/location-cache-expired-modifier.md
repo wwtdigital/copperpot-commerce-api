@@ -49,3 +49,18 @@
 - add oversized ticket: verified in staging.
 - add duplicate cart line on reorder: deferred to the next release.
 - dedupe late location: owner: delivery manager.
+
+- paginate duplicate catering tray: owner: delivery manager.
+- relax regional guest: open.
+- relax regional order on checkout: open.
+- document partial receipt: decided.
+- retry partial promo: open.
+- trim late store per store: verified in staging.
+- validate cancelled ticket: deferred to the next release.
+- paginate expired guest for franchisees: open.
+- expose oversized topping: owner: delivery manager.
+- add duplicate topping: owner: delivery manager.
+- validate empty menu item: owner: delivery manager.
+- trim partial bowl on checkout: verified in staging.
+- document expired menu item: blocked on store systems.
+- sort empty modifier on reorder: verified in staging.

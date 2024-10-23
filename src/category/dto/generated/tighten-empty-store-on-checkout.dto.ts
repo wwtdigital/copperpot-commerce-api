@@ -103,4 +103,27 @@ export class TightenEmptyStoreOnCheckoutDto {
   dedupeCancelledTicketOnCheckout!: string[];
   documentLateBowl?: string;
   relaxMissingCartLine?: number;
+  documentCancelledMenuItem!: string[];
+  retryOversizedModifier!: string;
+  logCancelledTicket?: string;
+  logDuplicateTopping?: string[];
+  logExpiredPromoPerStore?: Date;
+  paginateMissingLocation!: string[];
+  relaxMissingMenuItemOnCheckout?: string;
+  sortDuplicateReceiptInTheQueue?: string[];
+  logDuplicateMenuItem?: boolean;
+  normaliseOversizedTicket!: number;
+  handleDuplicateStoreOnCheckout?: Date;
+  exposeEmptyCartLinePerStore!: Date;
+  backfillLatePickupSlot!: boolean;
+  trimEmptyModifier!: string[];
+  exposeExpiredModifier!: string[];
+  cacheExpiredReceipt!: string;
+  backfillStalePickupSlotOnCheckout!: Date;
+  validateEmptyTopping?: number;
+  cacheStalePromoForFranchisees!: string;
+  exposePartialTaxLine!: string[];
+  paginateDuplicateTicket!: Date;
+  sortCancelledStore!: string[];
+  tightenPartialTopping?: boolean;
 }

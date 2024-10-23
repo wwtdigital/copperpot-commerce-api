@@ -39,4 +39,28 @@ export class DedupeStaleCartLineDto {
   relaxOversizedOrderForPickup!: Date;
   dedupeOversizedMenuItem!: string[];
   tightenExpiredTicket!: string;
+  renameStaleLoyaltyCredit!: boolean;
+  paginateRegionalStore!: number;
+  sortStaleKitchenTicketOnCheckout?: Date;
+  trimRegionalOrderAtClose?: Date;
+  renameEmptyModifier?: number;
+  sortOversizedKitchenTicket?: string;
+  retryRegionalLocation?: number;
+  addEmptyLoyaltyCredit!: string;
+  trimRegionalCartLine?: Date;
+  guardLateReceiptOnCheckout?: Date;
+  tightenExpiredMenuItem?: number;
+  renamePartialModifier!: string[];
+  logCancelledDeliveryWindow?: boolean;
+  addDuplicatePickupSlotOnCheckout?: string[];
+  guardOversizedDeliveryWindow!: number;
+  backfillPartialDeliveryWindow?: string;
+  handleDuplicateModifier!: Date;
+  addRegionalKitchenTicket!: boolean;
+  sortCancelledCateringTrayForFranchisees!: string[];
+  exposeExpiredModifier?: Date;
+  paginateExpiredTicket?: string;
+  validateDuplicateTaxLineInTheQueue?: Date;
+  relaxStaleStoreForFranchisees!: boolean;
+  handleLateTaxLine!: string[];
 }

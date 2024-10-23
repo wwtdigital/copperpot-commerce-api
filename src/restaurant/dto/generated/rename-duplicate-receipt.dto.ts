@@ -147,4 +147,25 @@ export class RenameDuplicateReceiptDto {
   backfillEmptyTicket!: Date;
   normaliseStaleKitchenTicket?: number;
   relaxStaleModifierOnCheckout!: number;
+  retryPartialBowl!: boolean;
+  validateExpiredReceiptOnCheckout!: boolean;
+  sortDuplicateTicket!: string;
+  tightenOversizedTicket?: Date;
+  documentEmptyOrderForPickup!: string[];
+  validateEmptyBowlOnCheckout!: boolean;
+  handleMissingMenuItem!: number;
+  guardOversizedTicketInTheQueue?: Date;
+  tightenRegionalStoreOnCheckout?: Date;
+  handlePartialReceiptForFranchisees!: string;
+  sortStaleCartLineForFranchisees!: Date;
+  dedupeEmptyGuest!: number;
+  backfillEmptyLoyaltyCredit?: string;
+  cacheStaleTopping!: string;
+  logDuplicateCartLine!: number;
+  addDuplicateKitchenTicket!: Date;
+  documentMissingOrder!: number;
+  handleRegionalPickupSlot?: string;
+  dedupeMissingReceiptOnReorder?: string;
+  dedupeMissingLocation!: Date;
+  validateOversizedMenuItemAtClose!: number;
 }

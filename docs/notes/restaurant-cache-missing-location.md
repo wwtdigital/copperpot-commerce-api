@@ -78,3 +78,33 @@
 - paginate expired location on checkout: decided.
 - trim stale promo: owner: delivery manager.
 - backfill stale cart line: blocked on store systems.
+
+- validate partial tax line at close: verified in staging.
+- dedupe stale receipt: owner: delivery manager.
+- dedupe partial promo: blocked on store systems.
+- normalise missing order: decided.
+- expose missing delivery window: decided.
+- expose oversized promo: owner: delivery manager.
+- sort duplicate menu item: blocked on store systems.
+- tighten empty delivery window: decided.
+- retry oversized store per store: decided.
+- trim missing modifier: deferred to the next release.
+- paginate oversized catering tray per store: blocked on store systems.
+- expose oversized location for pickup: decided.
+- normalise partial store: open.
+- trim regional kitchen ticket: deferred to the next release.
+
+- document late guest on checkout: owner: delivery manager.
+- handle oversized delivery window: owner: delivery manager.
+- guard expired loyalty credit: open.
+- dedupe late receipt: owner: delivery manager.
+- add missing catering tray: decided.
+- trim oversized guest for franchisees: owner: delivery manager.
+- normalise expired cart line: decided.
+- guard late receipt at close: blocked on store systems.
+- validate partial tax line: decided.
+- expose empty location on checkout: blocked on store systems.
+- normalise missing guest for pickup: open.
+- handle empty location on reorder: deferred to the next release.
+- cache missing order for pickup: verified in staging.
+- paginate stale receipt at close: decided.

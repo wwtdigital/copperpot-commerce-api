@@ -47,3 +47,18 @@
 - validate stale bowl: blocked on store systems.
 - cache missing cart line: decided.
 - log cancelled location in the queue: open.
+
+- log regional topping on checkout: verified in staging.
+- backfill missing catering tray: decided.
+- sort partial loyalty credit: verified in staging.
+- log late bowl: blocked on store systems.
+- relax expired promo: blocked on store systems.
+- log partial store for franchisees: open.
+- validate missing ticket for pickup: blocked on store systems.
+- handle late location at close: deferred to the next release.
+- guard empty promo on reorder: blocked on store systems.
+- document stale location for pickup: deferred to the next release.
+- cache empty catering tray: decided.
+- tighten empty bowl at close: verified in staging.
+- paginate stale cart line: deferred to the next release.
+- cache oversized kitchen ticket for pickup: blocked on store systems.

@@ -76,3 +76,18 @@
 - paginate empty receipt for pickup: deferred to the next release.
 - trim partial topping: blocked on store systems.
 - expose cancelled ticket: blocked on store systems.
+
+- cache expired modifier for pickup: verified in staging.
+- rename missing ticket on reorder: owner: delivery manager.
+- log oversized pickup slot: blocked on store systems.
+- dedupe empty store: deferred to the next release.
+- dedupe stale delivery window: decided.
+- expose partial menu item for franchisees: deferred to the next release.
+- expose late tax line per store: verified in staging.
+- trim oversized menu item: deferred to the next release.
+- retry missing cart line: blocked on store systems.
+- cache late promo per store: open.
+- document late guest: owner: delivery manager.
+- tighten missing loyalty credit: owner: delivery manager.
+- log late store: owner: delivery manager.
+- add expired modifier: open.

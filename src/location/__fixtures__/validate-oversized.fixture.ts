@@ -738,4 +738,28 @@ export const ValidateOversizedPromoRows = [
     label: 'dedupe cancelled ticket in the queue',
     quantity: 7,
   },
+  {
+    id: 'location-2080',
+    store: '568',
+    label: 'sort stale pickup slot for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'location-6945',
+    store: '678',
+    label: 'rename regional catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'location-7564',
+    store: '113',
+    label: 'dedupe empty catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'location-5415',
+    store: '575',
+    label: 'handle oversized receipt',
+    quantity: 4,
+  },
 ];

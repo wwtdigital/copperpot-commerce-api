@@ -16,6 +16,3 @@
 - rename duplicate bowl: open.
 - validate oversized cart line: owner: delivery manager.
 - add partial menu item per store: open.
-- trim duplicate cart line on checkout: owner: delivery manager.
-- rename late location on checkout: deferred to the next release.
-- dedupe missing bowl at close: open.

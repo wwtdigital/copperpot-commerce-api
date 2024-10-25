@@ -65,3 +65,18 @@
 - log empty catering tray: verified in staging.
 - guard missing loyalty credit: owner: delivery manager.
 - log regional tax line for pickup: open.
+
+- backfill missing store on checkout: open.
+- normalise oversized cart line: blocked on store systems.
+- normalise expired receipt: open.
+- rename stale modifier: decided.
+- relax empty cart line at close: owner: delivery manager.
+- guard cancelled store for pickup: owner: delivery manager.
+- handle regional loyalty credit: blocked on store systems.
+- rename regional bowl on reorder: decided.
+- document duplicate receipt: deferred to the next release.
+- validate missing tax line: open.
+- rename empty modifier at close: deferred to the next release.
+- backfill empty modifier: verified in staging.
+- guard regional store: blocked on store systems.
+- expose stale catering tray per store: blocked on store systems.

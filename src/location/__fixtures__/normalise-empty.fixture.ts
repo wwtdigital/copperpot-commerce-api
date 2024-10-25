@@ -336,4 +336,40 @@ export const NormaliseEmptyReceiptRows = [
     label: 'expose missing delivery window',
     quantity: 9,
   },
+  {
+    id: 'location-1758',
+    store: '223',
+    label: 'validate late menu item',
+    quantity: 12,
+  },
+  {
+    id: 'location-7212',
+    store: '588',
+    label: 'handle partial guest on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'location-9884',
+    store: '635',
+    label: 'add duplicate menu item',
+    quantity: 5,
+  },
+  {
+    id: 'location-1285',
+    store: '670',
+    label: 'trim expired delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'location-4309',
+    store: '123',
+    label: 'relax expired cart line',
+    quantity: 10,
+  },
+  {
+    id: 'location-9120',
+    store: '157',
+    label: 'normalise empty modifier',
+    quantity: 12,
+  },
 ];

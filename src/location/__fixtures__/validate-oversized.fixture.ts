@@ -762,4 +762,40 @@ export const ValidateOversizedPromoRows = [
     label: 'handle oversized receipt',
     quantity: 4,
   },
+  {
+    id: 'location-9230',
+    store: '163',
+    label: 'cache late tax line per store',
+    quantity: 3,
+  },
+  {
+    id: 'location-5461',
+    store: '343',
+    label: 'cache empty location for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'location-9648',
+    store: '441',
+    label: 'handle stale delivery window on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'location-7598',
+    store: '451',
+    label: 'retry expired order on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'location-2412',
+    store: '328',
+    label: 'validate oversized location for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'location-9700',
+    store: '239',
+    label: 'cache empty loyalty credit',
+    quantity: 7,
+  },
 ];

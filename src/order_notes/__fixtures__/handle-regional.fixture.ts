@@ -504,4 +504,16 @@ export const HandleRegionalCartLineRows = [
     label: 'sort expired ticket',
     quantity: 4,
   },
+  {
+    id: 'order-notes-5898',
+    store: '483',
+    label: 'retry late ticket for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-5892',
+    store: '137',
+    label: 'validate stale store per store',
+    quantity: 4,
+  },
 ];

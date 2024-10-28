@@ -62,3 +62,18 @@
 - tighten empty bowl at close: verified in staging.
 - paginate stale cart line: deferred to the next release.
 - cache oversized kitchen ticket for pickup: blocked on store systems.
+
+- retry expired kitchen ticket on checkout: verified in staging.
+- add partial bowl for pickup: blocked on store systems.
+- trim oversized receipt for pickup: verified in staging.
+- expose oversized delivery window for franchisees: decided.
+- document expired loyalty credit: deferred to the next release.
+- sort expired location per store: open.
+- paginate partial delivery window for franchisees: blocked on store systems.
+- dedupe regional modifier on reorder: decided.
+- guard duplicate delivery window: decided.
+- normalise cancelled kitchen ticket: deferred to the next release.
+- add regional store: deferred to the next release.
+- tighten stale guest: deferred to the next release.
+- rename missing kitchen ticket: owner: delivery manager.
+- validate late delivery window per store: open.

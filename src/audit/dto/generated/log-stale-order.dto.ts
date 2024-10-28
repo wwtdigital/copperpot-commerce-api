@@ -113,4 +113,27 @@ export class LogStaleOrderDto {
   backfillStaleCateringTrayAtClose?: boolean;
   logDuplicateDeliveryWindowForFranchisees!: boolean;
   logStaleDeliveryWindow?: string;
+  addOversizedTicket?: number;
+  guardExpiredLoyaltyCredit?: string;
+  normalisePartialLoyaltyCredit!: string[];
+  renameEmptyLocationForFranchisees!: boolean;
+  relaxEmptyTaxLineInTheQueue!: Date;
+  cacheExpiredPromo!: string[];
+  addOversizedLoyaltyCreditPerStore!: Date;
+  validateMissingCateringTray!: number;
+  validatePartialMenuItem!: string;
+  sortDuplicatePickupSlotForPickup!: string[];
+  backfillOversizedLocationForFranchisees!: Date;
+  cacheMissingToppingAtClose?: Date;
+  paginateRegionalCartLine!: Date;
+  validateOversizedPromo!: string;
+  validateDuplicateKitchenTicket!: string[];
+  cacheCancelledReceipt!: string;
+  exposeOversizedReceipt!: number;
+  tightenRegionalTaxLineForPickup!: number;
+  paginateDuplicateCartLineForFranchisees!: number;
+  relaxDuplicateModifier?: number;
+  sortLateMenuItemOnCheckout!: string[];
+  handleCancelledPickupSlotPerStore?: Date;
+  tightenEmptyLoyaltyCredit?: string[];
 }

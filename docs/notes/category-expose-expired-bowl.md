@@ -91,3 +91,18 @@
 - tighten missing loyalty credit: owner: delivery manager.
 - log late store: owner: delivery manager.
 - add expired modifier: open.
+
+- sort cancelled delivery window at close: owner: delivery manager.
+- handle missing delivery window for pickup: verified in staging.
+- backfill duplicate promo on checkout: deferred to the next release.
+- retry empty location: blocked on store systems.
+- add expired cart line: deferred to the next release.
+- relax empty kitchen ticket: blocked on store systems.
+- trim missing ticket: verified in staging.
+- add duplicate topping for pickup: open.
+- validate empty kitchen ticket: deferred to the next release.
+- rename missing order: owner: delivery manager.
+- cache late guest: deferred to the next release.
+- log regional ticket: owner: delivery manager.
+- dedupe cancelled modifier per store: decided.
+- rename missing ticket: owner: delivery manager.

@@ -50,4 +50,28 @@ export class BackfillCancelledBowlDto {
   logStaleCartLine?: Date;
   retryDuplicatePromoOnReorder!: Date;
   documentOversizedToppingForFranchisees?: string;
+  retryEmptyDeliveryWindow?: Date;
+  dedupeDuplicateCateringTray?: string[];
+  documentOversizedBowl?: string[];
+  backfillCancelledCartLineOnReorder?: number;
+  validateStaleStore!: boolean;
+  logExpiredStore!: boolean;
+  normaliseEmptyMenuItemAtClose?: Date;
+  addExpiredBowl!: string[];
+  handlePartialReceiptOnReorder?: string[];
+  guardDuplicatePickupSlot!: number;
+  handleEmptyMenuItem!: Date;
+  handlePartialDeliveryWindowOnCheckout?: Date;
+  relaxPartialReceipt!: boolean;
+  normaliseOversizedMenuItem!: string[];
+  cacheExpiredStore?: string[];
+  validateCancelledReceipt!: number;
+  paginateExpiredDeliveryWindow!: boolean;
+  dedupeDuplicateTicketPerStore?: string[];
+  paginateStalePromo!: Date;
+  retryLateTaxLine!: string[];
+  renameCancelledTaxLinePerStore?: string[];
+  logStaleGuest!: boolean;
+  addLateKitchenTicket!: number;
+  documentDuplicateToppingForPickup?: boolean;
 }

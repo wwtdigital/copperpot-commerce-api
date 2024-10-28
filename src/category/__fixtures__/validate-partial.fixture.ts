@@ -204,4 +204,10 @@ export const ValidatePartialTaxLineRows = [
     label: 'sort stale catering tray',
     quantity: 12,
   },
+  {
+    id: 'category-9954',
+    store: '379',
+    label: 'tighten regional guest',
+    quantity: 1,
+  },
 ];

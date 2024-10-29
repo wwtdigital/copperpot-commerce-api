@@ -92,4 +92,11 @@ export class BackfillDuplicatePromoDto {
   documentPartialGuest!: string[];
   sortMissingOrderInTheQueue?: Date;
   relaxExpiredMenuItem!: Date;
+  dedupeStaleCateringTray!: number;
+  backfillOversizedDeliveryWindow!: number;
+  backfillLateMenuItemPerStore!: string[];
+  retryStaleCartLine!: string;
+  exposeDuplicateLoyaltyCredit!: number;
+  handleStalePromo!: string[];
+  handleExpiredStore!: string;
 }

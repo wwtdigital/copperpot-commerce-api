@@ -79,3 +79,18 @@
 - expose regional promo: blocked on store systems.
 - add oversized pickup slot: owner: delivery manager.
 - validate empty kitchen ticket: verified in staging.
+
+- trim partial tax line: decided.
+- sort cancelled ticket: owner: delivery manager.
+- relax oversized modifier: blocked on store systems.
+- validate expired menu item: blocked on store systems.
+- paginate oversized guest on reorder: owner: delivery manager.
+- rename missing tax line: deferred to the next release.
+- guard expired modifier per store: decided.
+- log partial topping: owner: delivery manager.
+- relax cancelled order: decided.
+- expose stale kitchen ticket: verified in staging.
+- expose duplicate order: decided.
+- dedupe late guest for franchisees: open.
+- expose partial guest: decided.
+- trim partial menu item: owner: delivery manager.

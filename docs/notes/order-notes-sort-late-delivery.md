@@ -44,3 +44,5 @@
 - sort expired modifier: verified in staging.
 - trim expired modifier: verified in staging.
 - log cancelled ticket in the queue: deferred to the next release.
+
+- guard duplicate pickup slot: blocked on store systems.

@@ -14,3 +14,18 @@
 - backfill stale promo: verified in staging.
 - handle regional loyalty credit on reorder: owner: delivery manager.
 - backfill oversized pickup slot: decided.
+
+- document stale topping on reorder: decided.
+- add cancelled catering tray: decided.
+- cache cancelled menu item: blocked on store systems.
+- backfill stale kitchen ticket per store: open.
+- log expired menu item: owner: delivery manager.
+- sort expired kitchen ticket on reorder: verified in staging.
+- dedupe oversized kitchen ticket per store: open.
+- expose duplicate receipt: blocked on store systems.
+- retry regional topping: decided.
+- validate cancelled receipt: open.
+- sort regional store: decided.
+- tighten expired loyalty credit on checkout: decided.
+- handle regional promo: verified in staging.
+- cache regional modifier: verified in staging.

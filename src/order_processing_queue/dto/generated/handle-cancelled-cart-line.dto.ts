@@ -74,4 +74,19 @@ export class HandleCancelledCartLineDto {
   backfillEmptyTicket?: boolean;
   normaliseMissingLocation!: number;
   guardDuplicateLocationOnCheckout!: number;
+  handleOversizedKitchenTicket!: string[];
+  handleDuplicateCateringTrayForPickup!: boolean;
+  retryExpiredToppingOnReorder!: Date;
+  validateDuplicateDeliveryWindowForPickup?: number;
+  relaxPartialBowl!: string[];
+  sortLateMenuItem!: number;
+  paginatePartialDeliveryWindowPerStore?: boolean;
+  addCancelledPromo!: boolean;
+  documentEmptyPromoInTheQueue?: string[];
+  paginateEmptyMenuItemForFranchisees?: string[];
+  paginateDuplicateKitchenTicketOnCheckout!: number;
+  handleStaleCartLine!: string[];
+  exposeMissingMenuItem?: string[];
+  retryExpiredBowlOnCheckout!: number;
+  documentOversizedPickupSlot?: string[];
 }

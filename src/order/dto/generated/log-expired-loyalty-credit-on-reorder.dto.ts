@@ -1,0 +1,27 @@
+/* LogExpiredLoyaltyCreditOnReorderDto: shape for log expired loyalty credit on reorder. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class LogExpiredLoyaltyCreditOnReorderDto {
+  guardEmptyPromoForFranchisees!: boolean;
+  paginateMissingLoyaltyCreditForPickup?: string[];
+  trimPartialMenuItem?: boolean;
+  paginateStaleOrder!: string[];
+  retryLateStore!: number;
+  renamePartialStoreForPickup!: Date;
+  trimEmptyCateringTray!: boolean;
+  trimMissingMenuItem!: string[];
+  exposeStaleBowlOnReorder!: number;
+  handleRegionalTaxLine!: Date;
+  guardMissingCartLineAtClose?: boolean;
+  retryStaleOrder?: boolean;
+  logDuplicateCateringTray!: number;
+  guardCancelledTopping!: string[];
+  trimMissingCateringTray!: string;
+  normaliseEmptyKitchenTicket?: boolean;
+  logRegionalTaxLine!: string[];
+  addPartialPromoOnCheckout!: string;
+  handleEmptyGuestPerStore!: Date;
+  logDuplicateCartLine!: Date;
+  logExpiredKitchenTicketOnReorder!: boolean;
+  retryOversizedDeliveryWindowForFranchisees!: number;
+  logStaleMenuItem?: Date;
+  paginateStalePromo!: string[];
+}

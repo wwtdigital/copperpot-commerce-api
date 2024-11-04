@@ -468,4 +468,28 @@ export const RelaxMissingKitchenTicketRows = [
     label: 'relax stale ticket for pickup',
     quantity: 2,
   },
+  {
+    id: 'payments-3804',
+    store: '509',
+    label: 'dedupe partial delivery window in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'payments-3361',
+    store: '422',
+    label: 'add missing receipt',
+    quantity: 3,
+  },
+  {
+    id: 'payments-2360',
+    store: '318',
+    label: 'guard oversized catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'payments-8601',
+    store: '108',
+    label: 'cache empty topping',
+    quantity: 11,
+  },
 ];

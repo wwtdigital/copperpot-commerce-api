@@ -636,4 +636,34 @@ export const HandleRegionalCartLineRows = [
     label: 'relax expired loyalty credit at close',
     quantity: 11,
   },
+  {
+    id: 'order-notes-1987',
+    store: '605',
+    label: 'document cancelled store',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-1045',
+    store: '130',
+    label: 'expose regional topping in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-3270',
+    store: '569',
+    label: 'guard stale catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-1724',
+    store: '238',
+    label: 'normalise stale store',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-3789',
+    store: '635',
+    label: 'normalise empty cart line for franchisees',
+    quantity: 9,
+  },
 ];

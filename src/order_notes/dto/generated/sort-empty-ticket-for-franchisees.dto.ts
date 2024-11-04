@@ -96,4 +96,28 @@ export class SortEmptyTicketForFranchiseesDto {
   guardOversizedTaxLineForPickup?: Date;
   cacheLatePickupSlot!: string[];
   relaxOversizedTaxLineForFranchisees?: Date;
+  logEmptyLoyaltyCreditForPickup!: number;
+  backfillCancelledLocationForFranchisees!: string[];
+  sortLatePickupSlotOnCheckout!: string;
+  trimStaleCartLine?: boolean;
+  renameStaleTaxLineForFranchisees!: boolean;
+  sortDuplicateStoreAtClose!: boolean;
+  handleLatePromo!: boolean;
+  retryCancelledLoyaltyCreditOnReorder!: string[];
+  dedupeRegionalModifierForPickup?: string[];
+  sortMissingTopping!: string;
+  exposeCancelledModifierForPickup!: string[];
+  cachePartialGuestOnReorder?: string[];
+  trimLateStoreOnReorder?: string;
+  cacheCancelledOrder!: boolean;
+  tightenPartialLocationForPickup!: string;
+  tightenEmptyTopping!: Date;
+  sortOversizedMenuItem!: Date;
+  renameEmptyModifierInTheQueue!: boolean;
+  logOversizedPickupSlotForFranchisees!: number;
+  backfillMissingTaxLine!: string[];
+  addEmptyTicketInTheQueue!: string;
+  paginateStaleMenuItem!: string;
+  addOversizedPickupSlot!: string;
+  retryRegionalModifierForPickup!: string[];
 }

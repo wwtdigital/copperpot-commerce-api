@@ -54,4 +54,6 @@ export class AddOversizedReceiptForFranchiseesDto {
   addCancelledOrder?: string[];
   handleEmptyBowl!: string[];
   tightenDuplicateToppingOnCheckout!: number;
+  validateStaleStoreAtClose!: string[];
+  normalisePartialCartLine!: number;
 }

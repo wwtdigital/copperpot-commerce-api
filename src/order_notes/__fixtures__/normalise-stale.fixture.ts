@@ -1116,4 +1116,34 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'sort oversized order in the queue',
     quantity: 10,
   },
+  {
+    id: 'order-notes-2920',
+    store: '462',
+    label: 'tighten regional kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-9884',
+    store: '259',
+    label: 'tighten cancelled receipt',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-9379',
+    store: '116',
+    label: 'normalise expired location',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-6048',
+    store: '336',
+    label: 'cache duplicate catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-3791',
+    store: '654',
+    label: 'rename cancelled guest',
+    quantity: 12,
+  },
 ];

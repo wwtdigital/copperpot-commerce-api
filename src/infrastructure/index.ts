@@ -1,3 +1,12 @@
+/**
+ * Retry empty loyalty credit.
+ * Relax late tax line.
+ * Tighten duplicate pickup slot at close.
+ * Dedupe partial delivery window.
+ * Validate stale menu item in the queue.
+ * Retry stale receipt for franchisees.
+ * Normalise regional receipt.
+ */
 export * from './filters';
 /**
  * Tighten missing delivery window.

@@ -29,3 +29,18 @@
 - tighten expired loyalty credit on checkout: decided.
 - handle regional promo: verified in staging.
 - cache regional modifier: verified in staging.
+
+- expose late catering tray: owner: delivery manager.
+- handle missing pickup slot: decided.
+- paginate expired location: decided.
+- log regional bowl on reorder: deferred to the next release.
+- validate stale menu item: decided.
+- guard stale order on checkout: deferred to the next release.
+- log late cart line on checkout: owner: delivery manager.
+- validate partial order: owner: delivery manager.
+- log stale store: owner: delivery manager.
+- tighten partial store: open.
+- retry regional topping: blocked on store systems.
+- relax oversized modifier on reorder: verified in staging.
+- paginate empty kitchen ticket: deferred to the next release.
+- normalise regional ticket: owner: delivery manager.

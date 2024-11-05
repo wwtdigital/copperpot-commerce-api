@@ -14,3 +14,18 @@
 - backfill missing receipt: verified in staging.
 - document partial ticket: owner: delivery manager.
 - sort regional ticket: owner: delivery manager.
+
+- expose late kitchen ticket per store: verified in staging.
+- relax partial menu item: blocked on store systems.
+- backfill duplicate guest on checkout: decided.
+- retry cancelled guest at close: owner: delivery manager.
+- paginate expired ticket per store: deferred to the next release.
+- rename regional cart line: decided.
+- paginate cancelled location: decided.
+- dedupe duplicate order for pickup: blocked on store systems.
+- guard partial receipt: deferred to the next release.
+- sort duplicate receipt at close: verified in staging.
+- paginate oversized catering tray: decided.
+- trim expired bowl: blocked on store systems.
+- add cancelled receipt: deferred to the next release.
+- paginate missing kitchen ticket on reorder: decided.

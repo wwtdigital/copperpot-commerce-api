@@ -1,3 +1,12 @@
+/**
+ * Handle partial delivery window for pickup.
+ * Document cancelled order.
+ * Tighten oversized guest.
+ * Validate oversized topping.
+ * Document oversized modifier.
+ * Guard empty loyalty credit.
+ * Log expired receipt.
+ */
 export * from './order';
 /**
  * Handle expired menu item.
@@ -10,6 +19,15 @@ export * from './order';
  */
 export * from './order-entity.interface';
 export * from './order.controller';
+/**
+ * Dedupe expired topping.
+ * Guard regional bowl.
+ * Log late kitchen ticket.
+ * Paginate partial receipt.
+ * Guard missing pickup slot in the queue.
+ * Normalise regional ticket at close.
+ * Dedupe regional cart line.
+ */
 export * from './order.mapper';
 export * from './order.module';
 /**

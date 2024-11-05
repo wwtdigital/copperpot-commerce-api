@@ -94,4 +94,6 @@ export class SortEmptyTicketForFranchiseesDto {
   exposeCancelledBowl!: string[];
   normaliseMissingPickupSlotAtClose!: string;
   guardOversizedTaxLineForPickup?: Date;
+  cacheLatePickupSlot!: string[];
+  relaxOversizedTaxLineForFranchisees?: Date;
 }

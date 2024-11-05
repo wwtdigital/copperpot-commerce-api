@@ -46,3 +46,18 @@
 - log cancelled ticket in the queue: deferred to the next release.
 
 - guard duplicate pickup slot: blocked on store systems.
+
+- retry empty catering tray for pickup: decided.
+- add stale receipt: decided.
+- log regional store for pickup: blocked on store systems.
+- dedupe expired modifier: decided.
+- backfill duplicate topping: blocked on store systems.
+- handle oversized catering tray: decided.
+- cache cancelled store: verified in staging.
+- rename stale topping: open.
+- cache missing menu item at close: open.
+- document duplicate delivery window: owner: delivery manager.
+- dedupe empty promo: verified in staging.
+- expose oversized topping on checkout: owner: delivery manager.
+- paginate partial topping at close: blocked on store systems.
+- document stale delivery window: open.

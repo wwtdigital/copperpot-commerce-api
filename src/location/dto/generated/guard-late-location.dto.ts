@@ -116,4 +116,28 @@ export class GuardLateLocationDto {
   exposePartialGuest!: string[];
   sortPartialPickupSlotForPickup!: string;
   trimStalePromoForPickup!: number;
+  sortOversizedLoyaltyCredit!: Date;
+  renamePartialCateringTrayOnCheckout!: string[];
+  handleStaleGuest!: string[];
+  trimCancelledOrder?: number;
+  relaxMissingCartLine!: number;
+  relaxDuplicatePromo!: string;
+  logRegionalReceipt!: boolean;
+  guardCancelledStoreInTheQueue?: number;
+  addOversizedReceipt?: Date;
+  guardPartialLoyaltyCreditOnCheckout!: string;
+  trimRegionalPickupSlotAtClose!: Date;
+  paginateRegionalReceipt!: string[];
+  validateExpiredReceipt?: string[];
+  sortRegionalKitchenTicket!: number;
+  guardLatePromo!: string;
+  trimEmptyPromo?: Date;
+  exposeLateToppingInTheQueue!: Date;
+  validatePartialDeliveryWindow!: number;
+  retryStaleTaxLine?: string[];
+  normaliseMissingBowl?: Date;
+  paginateMissingToppingForFranchisees?: boolean;
+  addPartialKitchenTicketAtClose!: string;
+  normaliseEmptyModifier!: number;
+  logPartialLocation!: string[];
 }

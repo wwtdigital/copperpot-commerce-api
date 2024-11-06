@@ -56,4 +56,28 @@ export class AddOversizedReceiptForFranchiseesDto {
   tightenDuplicateToppingOnCheckout!: number;
   validateStaleStoreAtClose!: string[];
   normalisePartialCartLine!: number;
+  trimEmptyBowlForPickup?: Date;
+  relaxStaleBowl!: Date;
+  validateOversizedStoreForPickup!: boolean;
+  guardPartialLoyaltyCredit!: boolean;
+  tightenExpiredOrderPerStore!: boolean;
+  relaxDuplicateLocation!: number;
+  cacheEmptyPickupSlot?: string[];
+  normaliseDuplicateTaxLine?: string[];
+  renameMissingMenuItemInTheQueue!: number;
+  dedupeDuplicateTaxLineInTheQueue!: boolean;
+  trimCancelledDeliveryWindow?: Date;
+  cacheDuplicateOrder!: boolean;
+  backfillPartialModifier!: string[];
+  validatePartialKitchenTicketAtClose!: Date;
+  guardRegionalTopping!: string;
+  addRegionalLoyaltyCredit?: string;
+  validateEmptyOrderOnCheckout!: boolean;
+  retryPartialCateringTrayPerStore!: number;
+  backfillCancelledDeliveryWindowOnReorder!: string[];
+  backfillOversizedDeliveryWindow!: number;
+  relaxMissingDeliveryWindowOnCheckout?: number;
+  logLateStore!: string[];
+  relaxRegionalGuest!: string;
+  validateMissingMenuItem?: string[];
 }

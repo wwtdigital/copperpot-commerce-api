@@ -127,4 +127,27 @@ export class RenameDuplicateTicketDto {
   normalisePartialGuest?: string;
   normaliseLateStore?: string;
   documentExpiredTicketInTheQueue!: number;
+  exposeRegionalReceiptForFranchisees!: boolean;
+  addRegionalTicketPerStore!: number;
+  logStaleBowl?: boolean;
+  documentDuplicateTaxLine!: boolean;
+  guardPartialBowl?: boolean;
+  relaxExpiredKitchenTicketInTheQueue?: boolean;
+  backfillStaleCateringTray!: string[];
+  paginateMissingTicket!: boolean;
+  handleMissingTaxLine!: number;
+  renameExpiredBowl!: Date;
+  trimStaleBowlPerStore!: Date;
+  validateCancelledStoreOnCheckout!: string[];
+  renameCancelledPromo?: number;
+  normaliseOversizedCartLine!: number;
+  renameRegionalGuest!: string;
+  trimCancelledBowlForFranchisees?: boolean;
+  guardExpiredOrderAtClose?: number;
+  cacheEmptyKitchenTicket?: string[];
+  guardExpiredCateringTray!: Date;
+  retryLateMenuItemOnCheckout?: number;
+  backfillOversizedReceipt?: number;
+  logPartialCartLineOnReorder!: number;
+  guardExpiredKitchenTicket!: boolean;
 }

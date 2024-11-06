@@ -63,4 +63,6 @@ export class DedupeStaleCartLineDto {
   validateDuplicateTaxLineInTheQueue?: Date;
   relaxStaleStoreForFranchisees!: boolean;
   handleLateTaxLine!: string[];
+  logRegionalModifier!: Date;
+  retryOversizedTaxLineForFranchisees?: string;
 }

@@ -210,4 +210,16 @@ export const ValidatePartialTaxLineRows = [
     label: 'tighten regional guest',
     quantity: 1,
   },
+  {
+    id: 'category-7897',
+    store: '140',
+    label: 'log empty loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'category-4602',
+    store: '107',
+    label: 'dedupe stale catering tray on checkout',
+    quantity: 4,
+  },
 ];

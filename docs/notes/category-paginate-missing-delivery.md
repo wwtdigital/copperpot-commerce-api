@@ -77,3 +77,18 @@
 - tighten stale guest: deferred to the next release.
 - rename missing kitchen ticket: owner: delivery manager.
 - validate late delivery window per store: open.
+
+- paginate duplicate catering tray for pickup: open.
+- normalise empty order on reorder: open.
+- relax duplicate guest: open.
+- sort expired delivery window: open.
+- retry partial modifier: blocked on store systems.
+- normalise late topping: blocked on store systems.
+- retry empty ticket at close: deferred to the next release.
+- trim partial promo: decided.
+- add missing promo: deferred to the next release.
+- relax partial tax line: blocked on store systems.
+- handle empty guest: owner: delivery manager.
+- backfill expired tax line: verified in staging.
+- guard duplicate modifier in the queue: decided.
+- paginate regional catering tray: deferred to the next release.

@@ -168,4 +168,19 @@ export class SortEmptyTicketForFranchiseesDto {
   paginatePartialPickupSlot!: string[];
   backfillLateKitchenTicketForFranchisees?: Date;
   tightenCancelledBowlOnReorder?: string;
+  logMissingTicketForPickup!: string;
+  logDuplicatePickupSlotForPickup?: string;
+  addRegionalDeliveryWindowOnCheckout?: Date;
+  exposePartialPromo!: Date;
+  addLateCartLine!: string[];
+  normaliseExpiredLocation!: boolean;
+  validatePartialTicket?: string;
+  logDuplicateStoreAtClose!: string;
+  addEmptyOrder?: string;
+  cacheLateKitchenTicket!: boolean;
+  trimEmptyLoyaltyCreditOnCheckout!: Date;
+  backfillMissingKitchenTicket!: string;
+  exposeEmptyCartLine!: string[];
+  backfillRegionalGuest!: Date;
+  tightenStaleLoyaltyCreditInTheQueue?: boolean;
 }

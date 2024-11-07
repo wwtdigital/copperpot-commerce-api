@@ -59,3 +59,18 @@
 - expose partial receipt: deferred to the next release.
 - sort cancelled tax line: blocked on store systems.
 - dedupe late kitchen ticket per store: verified in staging.
+
+- paginate missing topping at close: verified in staging.
+- relax partial promo: decided.
+- relax empty store: blocked on store systems.
+- cache stale ticket: decided.
+- document oversized pickup slot: owner: delivery manager.
+- document duplicate guest: blocked on store systems.
+- cache missing location: verified in staging.
+- guard expired ticket on reorder: blocked on store systems.
+- cache missing ticket: deferred to the next release.
+- paginate cancelled modifier: verified in staging.
+- validate stale tax line on checkout: blocked on store systems.
+- log expired kitchen ticket: decided.
+- backfill expired location: blocked on store systems.
+- sort partial modifier: decided.

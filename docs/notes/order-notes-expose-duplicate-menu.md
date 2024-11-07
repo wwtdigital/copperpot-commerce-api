@@ -14,3 +14,33 @@
 - backfill late promo: decided.
 - cache missing pickup slot: open.
 - expose cancelled order for pickup: owner: delivery manager.
+
+- backfill late pickup slot at close: deferred to the next release.
+- tighten regional order: open.
+- cache cancelled promo: open.
+- add duplicate store for franchisees: blocked on store systems.
+- backfill missing pickup slot per store: open.
+- trim duplicate modifier: deferred to the next release.
+- add cancelled location: blocked on store systems.
+- sort partial cart line: owner: delivery manager.
+- add duplicate delivery window: deferred to the next release.
+- backfill oversized order on reorder: owner: delivery manager.
+- trim expired catering tray: deferred to the next release.
+- guard missing receipt: open.
+- tighten missing promo at close: owner: delivery manager.
+- paginate stale tax line: decided.
+
+- validate partial guest for franchisees: blocked on store systems.
+- relax partial delivery window on checkout: open.
+- backfill oversized guest in the queue: decided.
+- document stale ticket on checkout: verified in staging.
+- relax oversized receipt on checkout: blocked on store systems.
+- backfill empty pickup slot per store: owner: delivery manager.
+- trim duplicate ticket on checkout: verified in staging.
+- document expired promo: open.
+- guard missing cart line: verified in staging.
+- dedupe oversized store: deferred to the next release.
+- paginate partial loyalty credit: decided.
+- retry stale pickup slot: decided.
+- dedupe empty loyalty credit per store: verified in staging.
+- log partial pickup slot: blocked on store systems.

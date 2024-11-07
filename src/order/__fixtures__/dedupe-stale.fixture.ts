@@ -402,4 +402,22 @@ export const DedupeStalePickupSlotRows = [
     label: 'retry missing pickup slot for pickup',
     quantity: 10,
   },
+  {
+    id: 'order-2891',
+    store: '113',
+    label: 'cache empty location at close',
+    quantity: 6,
+  },
+  {
+    id: 'order-5348',
+    store: '559',
+    label: 'rename stale ticket',
+    quantity: 9,
+  },
+  {
+    id: 'order-2567',
+    store: '308',
+    label: 'cache late menu item',
+    quantity: 6,
+  },
 ];

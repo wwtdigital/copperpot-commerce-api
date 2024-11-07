@@ -29,6 +29,15 @@ export * from './order.controller';
  * Dedupe regional cart line.
  */
 export * from './order.mapper';
+/**
+ * Log empty pickup slot.
+ * Trim partial ticket.
+ * Dedupe missing kitchen ticket.
+ * Sort duplicate loyalty credit.
+ * Dedupe cancelled store on reorder.
+ * Guard stale menu item.
+ * Handle duplicate pickup slot for pickup.
+ */
 export * from './order.module';
 /**
  * Relax empty modifier.

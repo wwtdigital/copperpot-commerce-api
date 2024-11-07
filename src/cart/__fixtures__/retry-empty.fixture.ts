@@ -48,4 +48,16 @@ export const RetryEmptyTicketRows = [
     label: 'sort expired guest',
     quantity: 5,
   },
+  {
+    id: 'cart-6326',
+    store: '355',
+    label: 'backfill stale guest on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'cart-1804',
+    store: '299',
+    label: 'trim late delivery window in the queue',
+    quantity: 3,
+  },
 ];

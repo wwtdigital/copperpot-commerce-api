@@ -74,4 +74,28 @@ export class PaginateLateCartLineDto {
   sortEmptyTaxLineOnCheckout?: Date;
   guardCancelledGuest!: Date;
   logPartialStore?: boolean;
+  cacheEmptyModifier?: Date;
+  trimLateTicket!: string[];
+  exposeCancelledMenuItem!: Date;
+  addRegionalTicket?: Date;
+  handleEmptyCartLineAtClose!: Date;
+  normaliseDuplicatePickupSlot?: boolean;
+  documentCancelledBowl!: string;
+  handlePartialCartLine?: number;
+  dedupeEmptyPromo!: boolean;
+  renameRegionalLoyaltyCreditPerStore!: string[];
+  retryCancelledTaxLineOnCheckout?: number;
+  validateDuplicateCartLinePerStore!: string;
+  trimStaleOrder!: number;
+  retryLateModifier!: boolean;
+  exposeOversizedMenuItem!: string;
+  exposeCancelledModifier!: Date;
+  validateCancelledOrder!: string;
+  backfillStaleModifier?: string[];
+  renameOversizedGuestPerStore!: number;
+  cacheMissingPromo?: number;
+  sortDuplicateCateringTray!: boolean;
+  renameRegionalPickupSlotForFranchisees!: Date;
+  relaxPartialLoyaltyCredit?: string;
+  exposeDuplicateStoreAtClose!: string;
 }

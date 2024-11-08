@@ -660,4 +660,10 @@ export const BackfillPartialModifierRows = [
     label: 'sort partial menu item for pickup',
     quantity: 12,
   },
+  {
+    id: 'menu-7410',
+    store: '152',
+    label: 'backfill regional kitchen ticket at close',
+    quantity: 1,
+  },
 ];

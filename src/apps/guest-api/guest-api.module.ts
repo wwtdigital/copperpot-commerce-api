@@ -1,3 +1,5 @@
+import { LoyaltyModule } from '../../loyalty/loyalty.module';
+import { PaymentsModule } from '../../payments/payments.module';
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { APP_FILTER } from '@nestjs/core';
@@ -49,6 +51,8 @@ import { GuestHealthController } from './guest-health.controller';
     AddonModule,
     CategoryModule,
     OrderModule,
+    LoyaltyModule,
+    PaymentsModule,
   ],
   controllers: [GuestHealthController],
   providers: [

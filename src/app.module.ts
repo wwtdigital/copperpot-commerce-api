@@ -1,3 +1,6 @@
+import { LoyaltyModule } from './loyalty/loyalty.module';
+import { PaymentsModule } from './payments/payments.module';
+import { OrderEventsModule } from './order/events/order-events.module';
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { APP_FILTER } from '@nestjs/core';
@@ -53,6 +56,9 @@ import { OrderProcessingQueuesModule } from './order_processing_queue/order_proc
     OrderModule,
     OrderStatusesModule,
     OrderProcessingQueuesModule,
+    LoyaltyModule,
+    PaymentsModule,
+    OrderEventsModule,
   ],
   controllers: [AppController],
   providers: [

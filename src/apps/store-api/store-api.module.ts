@@ -1,3 +1,6 @@
+import { LoyaltyModule } from '../../loyalty/loyalty.module';
+import { PaymentsModule } from '../../payments/payments.module';
+import { OrderEventsModule } from '../../order/events/order-events.module';
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { APP_FILTER } from '@nestjs/core';
@@ -46,6 +49,9 @@ import { StoreHealthController } from './store-health.controller';
     OrderStatusesModule,
     OrderProcessingQueuesModule,
     OrderNotesModule,
+    LoyaltyModule,
+    PaymentsModule,
+    OrderEventsModule,
   ],
   controllers: [StoreHealthController],
   providers: [

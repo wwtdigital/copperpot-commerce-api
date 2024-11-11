@@ -1,3 +1,12 @@
+/**
+ * Handle partial delivery window for pickup.
+ * Document cancelled order.
+ * Tighten oversized guest.
+ * Validate oversized topping.
+ * Document oversized modifier.
+ * Guard empty loyalty credit.
+ * Log expired receipt.
+ */
 export * from './order';
 /**
  * Handle expired menu item.
@@ -10,7 +19,25 @@ export * from './order';
  */
 export * from './order-entity.interface';
 export * from './order.controller';
+/**
+ * Dedupe expired topping.
+ * Guard regional bowl.
+ * Log late kitchen ticket.
+ * Paginate partial receipt.
+ * Guard missing pickup slot in the queue.
+ * Normalise regional ticket at close.
+ * Dedupe regional cart line.
+ */
 export * from './order.mapper';
+/**
+ * Log empty pickup slot.
+ * Trim partial ticket.
+ * Dedupe missing kitchen ticket.
+ * Sort duplicate loyalty credit.
+ * Dedupe cancelled store on reorder.
+ * Guard stale menu item.
+ * Handle duplicate pickup slot for pickup.
+ */
 export * from './order.module';
 /**
  * Relax empty modifier.
@@ -22,4 +49,13 @@ export * from './order.module';
  * Trim oversized cart line on checkout.
  */
 export * from './order.parser';
+/**
+ * Document stale location.
+ * Dedupe empty location.
+ * Dedupe missing pickup slot.
+ * Normalise empty location.
+ * Normalise partial catering tray for franchisees.
+ * Handle missing modifier on checkout.
+ * Trim stale receipt in the queue.
+ */
 export * from './order.service';

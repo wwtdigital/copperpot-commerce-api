@@ -1614,4 +1614,10 @@ export const ExposeEmptyLoyaltyCreditRows = [
     label: 'backfill regional location',
     quantity: 1,
   },
+  {
+    id: 'restaurant-9876',
+    store: '699',
+    label: 'log stale catering tray for pickup',
+    quantity: 3,
+  },
 ];

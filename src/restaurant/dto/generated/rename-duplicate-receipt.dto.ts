@@ -168,4 +168,6 @@ export class RenameDuplicateReceiptDto {
   dedupeMissingReceiptOnReorder?: string;
   dedupeMissingLocation!: Date;
   validateOversizedMenuItemAtClose!: number;
+  paginateDuplicateTicket?: string[];
+  backfillPartialLoyaltyCredit!: boolean;
 }

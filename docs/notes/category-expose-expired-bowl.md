@@ -106,3 +106,8 @@
 - log regional ticket: owner: delivery manager.
 - dedupe cancelled modifier per store: decided.
 - rename missing ticket: owner: delivery manager.
+
+- sort stale loyalty credit: verified in staging.
+- sort stale promo for pickup: open.
+- dedupe partial topping on checkout: decided.
+- document duplicate modifier: deferred to the next release.

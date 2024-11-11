@@ -14,4 +14,28 @@ export class GuardExpiredKitchenTicketDto {
   addRegionalCateringTrayPerStore!: string;
   renameCancelledPickupSlotInTheQueue!: string;
   renameExpiredCartLine?: number;
+  guardRegionalModifierOnReorder?: number;
+  validateDuplicateTaxLine!: string[];
+  cacheLateReceipt!: number;
+  addStaleDeliveryWindowOnCheckout!: number;
+  guardExpiredLoyaltyCredit!: Date;
+  retryPartialPromo?: boolean;
+  retryPartialCateringTray!: string;
+  addLateGuestAtClose?: string[];
+  guardStaleReceipt?: string[];
+  relaxEmptyReceipt!: boolean;
+  backfillRegionalLocationOnCheckout!: Date;
+  relaxRegionalCartLineInTheQueue!: string[];
+  relaxExpiredDeliveryWindow!: boolean;
+  normaliseOversizedCateringTrayInTheQueue!: string;
+  retryExpiredCateringTrayAtClose?: string[];
+  guardExpiredTopping!: string;
+  sortDuplicateDeliveryWindow?: number;
+  retryEmptyMenuItem?: number;
+  backfillOversizedLocation?: number;
+  documentMissingGuest!: Date;
+  sortLatePromo!: string;
+  logOversizedReceiptPerStore!: boolean;
+  dedupeDuplicateTaxLine?: string[];
+  documentOversizedDeliveryWindow!: number;
 }

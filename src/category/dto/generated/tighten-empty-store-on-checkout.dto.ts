@@ -219,4 +219,28 @@ export class TightenEmptyStoreOnCheckoutDto {
   addOversizedCateringTray!: Date;
   normaliseOversizedTopping!: string;
   exposeRegionalBowlOnCheckout!: boolean;
+  backfillOversizedOrder!: Date;
+  guardCancelledTaxLineInTheQueue?: boolean;
+  guardMissingTopping!: boolean;
+  handleRegionalMenuItem!: Date;
+  validateMissingKitchenTicket?: number;
+  handleExpiredOrder?: number;
+  guardLateStore!: string[];
+  sortRegionalCartLineAtClose!: string[];
+  handleRegionalPickupSlotAtClose?: string[];
+  sortEmptyMenuItemOnReorder?: Date;
+  cacheEmptyDeliveryWindow?: number;
+  relaxRegionalTicketPerStore!: string[];
+  cacheEmptyTaxLineOnReorder!: boolean;
+  dedupePartialModifier!: Date;
+  retryStaleGuest!: boolean;
+  handleExpiredCartLineOnReorder?: number;
+  tightenStaleBowl!: string[];
+  renameRegionalDeliveryWindowInTheQueue!: string;
+  sortPartialCartLine?: number;
+  tightenDuplicateGuest!: boolean;
+  validateRegionalOrder!: number;
+  renameLateLocationForFranchisees!: Date;
+  sortExpiredMenuItemForPickup?: string[];
+  tightenEmptyDeliveryWindow?: boolean;
 }

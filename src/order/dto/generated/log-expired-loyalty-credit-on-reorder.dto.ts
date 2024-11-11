@@ -71,4 +71,19 @@ export class LogExpiredLoyaltyCreditOnReorderDto {
   relaxRegionalBowl!: string[];
   tightenCancelledCartLineOnReorder!: Date;
   exposeRegionalLoyaltyCreditForFranchisees!: boolean;
+  addLateReceiptInTheQueue!: string;
+  cachePartialStoreOnCheckout!: number;
+  exposeCancelledMenuItem!: Date;
+  logStaleLocationAtClose!: boolean;
+  relaxLateKitchenTicket!: Date;
+  retryOversizedModifier!: boolean;
+  renameMissingMenuItem!: Date;
+  backfillStaleTaxLineForPickup!: Date;
+  exposeCancelledReceipt?: boolean;
+  backfillLateLoyaltyCredit?: Date;
+  normaliseCancelledTicketOnCheckout!: boolean;
+  documentPartialStore!: boolean;
+  validateLateStore!: string[];
+  cacheStaleOrder!: Date;
+  retryRegionalModifier!: number;
 }

@@ -24,4 +24,28 @@ export class TrimPartialReceiptForPickupDto {
   addOversizedPromo!: string;
   trimCancelledKitchenTicket!: number;
   renameExpiredOrder!: number;
+  tightenCancelledPickupSlotOnCheckout?: number;
+  validateOversizedCateringTray!: string[];
+  normaliseEmptyTaxLineOnReorder!: boolean;
+  documentMissingOrderOnCheckout!: string;
+  validateMissingLoyaltyCreditInTheQueue!: string[];
+  sortEmptyTaxLineAtClose!: number;
+  paginateOversizedTaxLine!: string;
+  renameOversizedTicketOnReorder!: Date;
+  guardEmptyLoyaltyCredit!: number;
+  tightenCancelledOrderAtClose!: Date;
+  handleMissingGuestOnCheckout!: string[];
+  logLateBowlAtClose!: number;
+  backfillCancelledDeliveryWindowOnReorder?: string;
+  validateCancelledKitchenTicket!: string;
+  renameExpiredStoreForFranchisees!: Date;
+  normaliseCancelledTopping!: number;
+  retryLateCartLineOnReorder!: string[];
+  retryOversizedMenuItemPerStore!: string[];
+  trimRegionalTaxLine?: Date;
+  paginateDuplicateLocationForPickup!: boolean;
+  retryExpiredModifier?: number;
+  tightenEmptyCateringTray!: string[];
+  dedupePartialKitchenTicket!: number;
+  renameRegionalLocationForPickup?: number;
 }

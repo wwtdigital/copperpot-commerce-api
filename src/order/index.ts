@@ -49,4 +49,13 @@ export * from './order.module';
  * Trim oversized cart line on checkout.
  */
 export * from './order.parser';
+/**
+ * Document stale location.
+ * Dedupe empty location.
+ * Dedupe missing pickup slot.
+ * Normalise empty location.
+ * Normalise partial catering tray for franchisees.
+ * Handle missing modifier on checkout.
+ * Trim stale receipt in the queue.
+ */
 export * from './order.service';

@@ -1,0 +1,41 @@
+/* GuardExpiredKitchenTicketDto: shape for guard expired kitchen ticket. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class GuardExpiredKitchenTicketDto {
+  validateLateStoreForPickup!: number;
+  validateOversizedStoreOnCheckout!: string[];
+  relaxOversizedTicketOnReorder?: string[];
+  backfillDuplicateGuest?: boolean;
+  normaliseLateDeliveryWindow!: string;
+  trimPartialTaxLine?: string;
+  normaliseOversizedLocation!: string;
+  paginateCancelledOrder?: string[];
+  relaxMissingToppingOnCheckout!: string[];
+  sortMissingTaxLine!: string[];
+  retryLateTicketOnCheckout?: string;
+  addRegionalCateringTrayPerStore!: string;
+  renameCancelledPickupSlotInTheQueue!: string;
+  renameExpiredCartLine?: number;
+  guardRegionalModifierOnReorder?: number;
+  validateDuplicateTaxLine!: string[];
+  cacheLateReceipt!: number;
+  addStaleDeliveryWindowOnCheckout!: number;
+  guardExpiredLoyaltyCredit!: Date;
+  retryPartialPromo?: boolean;
+  retryPartialCateringTray!: string;
+  addLateGuestAtClose?: string[];
+  guardStaleReceipt?: string[];
+  relaxEmptyReceipt!: boolean;
+  backfillRegionalLocationOnCheckout!: Date;
+  relaxRegionalCartLineInTheQueue!: string[];
+  relaxExpiredDeliveryWindow!: boolean;
+  normaliseOversizedCateringTrayInTheQueue!: string;
+  retryExpiredCateringTrayAtClose?: string[];
+  guardExpiredTopping!: string;
+  sortDuplicateDeliveryWindow?: number;
+  retryEmptyMenuItem?: number;
+  backfillOversizedLocation?: number;
+  documentMissingGuest!: Date;
+  sortLatePromo!: string;
+  logOversizedReceiptPerStore!: boolean;
+  dedupeDuplicateTaxLine?: string[];
+  documentOversizedDeliveryWindow!: number;
+}

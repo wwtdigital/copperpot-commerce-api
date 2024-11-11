@@ -906,4 +906,22 @@ export const HandleRegionalCartLineRows = [
     label: 'guard expired menu item',
     quantity: 4,
   },
+  {
+    id: 'order-notes-4485',
+    store: '148',
+    label: 'cache duplicate delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-7069',
+    store: '218',
+    label: 'paginate cancelled kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-9717',
+    store: '534',
+    label: 'dedupe expired menu item',
+    quantity: 5,
+  },
 ];

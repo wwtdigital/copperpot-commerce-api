@@ -146,4 +146,6 @@ export class SortEmptyTicketForFranchiseesDto {
   documentCancelledLoyaltyCreditAtClose?: number;
   dedupeDuplicateTaxLine!: Date;
   validateEmptyGuestAtClose?: string[];
+  normaliseStaleTaxLineAtClose!: string[];
+  renameMissingStorePerStore!: string;
 }

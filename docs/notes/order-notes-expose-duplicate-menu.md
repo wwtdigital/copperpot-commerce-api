@@ -44,3 +44,18 @@
 - retry stale pickup slot: decided.
 - dedupe empty loyalty credit per store: verified in staging.
 - log partial pickup slot: blocked on store systems.
+
+- add empty loyalty credit: deferred to the next release.
+- guard duplicate menu item per store: blocked on store systems.
+- backfill late kitchen ticket: decided.
+- expose late pickup slot: verified in staging.
+- expose stale ticket in the queue: open.
+- trim regional receipt for pickup: deferred to the next release.
+- dedupe expired order: blocked on store systems.
+- handle duplicate store: blocked on store systems.
+- paginate regional cart line: decided.
+- log oversized topping: decided.
+- backfill stale receipt on checkout: deferred to the next release.
+- expose partial receipt: deferred to the next release.
+- sort cancelled tax line: blocked on store systems.
+- dedupe late kitchen ticket per store: verified in staging.

@@ -168,4 +168,58 @@ export const TightenPartialGuestRows = [
     label: 'normalise oversized menu item for franchisees',
     quantity: 4,
   },
+  {
+    id: 'category-7192',
+    store: '205',
+    label: 'rename missing guest',
+    quantity: 6,
+  },
+  {
+    id: 'category-3704',
+    store: '465',
+    label: 'paginate oversized cart line',
+    quantity: 9,
+  },
+  {
+    id: 'category-6784',
+    store: '400',
+    label: 'backfill stale catering tray for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'category-7939',
+    store: '293',
+    label: 'cache regional tax line at close',
+    quantity: 8,
+  },
+  {
+    id: 'category-7442',
+    store: '190',
+    label: 'log stale ticket per store',
+    quantity: 9,
+  },
+  {
+    id: 'category-3045',
+    store: '554',
+    label: 'retry partial menu item',
+    quantity: 2,
+  },
+  {
+    id: 'category-4549',
+    store: '154',
+    label: 'retry regional receipt',
+    quantity: 12,
+  },
+  {
+    id: 'category-3507',
+    store: '555',
+    label: 'tighten regional delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'category-9670',
+    store: '593',
+    label: 'relax regional modifier',
+    quantity: 4,
+  },
 ];

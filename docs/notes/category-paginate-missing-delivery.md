@@ -92,3 +92,18 @@
 - backfill expired tax line: verified in staging.
 - guard duplicate modifier in the queue: decided.
 - paginate regional catering tray: deferred to the next release.
+
+- dedupe oversized promo: verified in staging.
+- cache partial store: verified in staging.
+- retry empty pickup slot: decided.
+- rename empty kitchen ticket: deferred to the next release.
+- backfill empty store: open.
+- rename oversized pickup slot on reorder: blocked on store systems.
+- validate partial loyalty credit for franchisees: verified in staging.
+- relax late ticket at close: owner: delivery manager.
+- relax partial order on checkout: decided.
+- backfill expired promo: owner: delivery manager.
+- handle regional cart line on checkout: verified in staging.
+- dedupe missing ticket on reorder: blocked on store systems.
+- validate stale store: decided.
+- sort late bowl: blocked on store systems.

@@ -89,4 +89,28 @@ export class DedupeStaleCartLineDto {
   addStaleToppingOnReorder!: Date;
   dedupeExpiredTicketOnReorder!: boolean;
   validateEmptyStore!: string;
+  exposeLateLocation!: boolean;
+  addPartialModifier!: string[];
+  dedupeRegionalLoyaltyCredit!: string;
+  normaliseExpiredKitchenTicketOnCheckout!: string;
+  validateExpiredDeliveryWindowForFranchisees?: Date;
+  documentDuplicateCateringTray?: string[];
+  exposeExpiredTicket!: string[];
+  normaliseStaleLoyaltyCredit!: string;
+  sortRegionalMenuItemOnReorder!: string[];
+  validateExpiredReceipt?: string[];
+  normaliseOversizedLoyaltyCredit?: string;
+  relaxLateTaxLineInTheQueue!: string;
+  documentOversizedTaxLine!: string[];
+  guardStaleToppingForPickup?: boolean;
+  sortExpiredKitchenTicketInTheQueue!: string;
+  documentStaleDeliveryWindowOnReorder!: number;
+  tightenPartialReceipt!: string;
+  relaxDuplicateBowlOnReorder!: number;
+  documentExpiredOrderAtClose!: string;
+  retryStaleTaxLineForFranchisees!: string;
+  trimDuplicateKitchenTicket!: string[];
+  backfillLateDeliveryWindow!: Date;
+  exposeRegionalBowlForPickup?: string;
+  exposeOversizedCartLinePerStore!: Date;
 }

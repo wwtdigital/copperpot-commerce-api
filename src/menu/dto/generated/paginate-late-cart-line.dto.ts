@@ -98,4 +98,8 @@ export class PaginateLateCartLineDto {
   renameRegionalPickupSlotForFranchisees!: Date;
   relaxPartialLoyaltyCredit?: string;
   exposeDuplicateStoreAtClose!: string;
+  documentDuplicateTicket!: string[];
+  dedupeCancelledLocationAtClose!: string;
+  guardOversizedPickupSlotOnCheckout?: Date;
+  retryStaleTopping!: string;
 }

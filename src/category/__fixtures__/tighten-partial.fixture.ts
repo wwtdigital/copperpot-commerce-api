@@ -1,0 +1,111 @@
+/* Fixture rows for category tests: tighten partial guest. Generated data, not production data. */
+export const TightenPartialGuestRows = [
+  {
+    id: 'category-8900',
+    store: '553',
+    label: 'relax regional ticket on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'category-7336',
+    store: '531',
+    label: 'backfill late topping at close',
+    quantity: 9,
+  },
+  {
+    id: 'category-6974',
+    store: '265',
+    label: 'cache expired delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'category-9818',
+    store: '221',
+    label: 'tighten cancelled ticket',
+    quantity: 4,
+  },
+  {
+    id: 'category-9930',
+    store: '673',
+    label: 'sort missing cart line',
+    quantity: 5,
+  },
+  {
+    id: 'category-4252',
+    store: '315',
+    label: 'log cancelled pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'category-6028',
+    store: '180',
+    label: 'paginate duplicate topping for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'category-1309',
+    store: '623',
+    label: 'cache partial store',
+    quantity: 5,
+  },
+  {
+    id: 'category-9743',
+    store: '442',
+    label: 'trim late modifier',
+    quantity: 4,
+  },
+  {
+    id: 'category-4506',
+    store: '625',
+    label: 'rename oversized location for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'category-8064',
+    store: '437',
+    label: 'sort late menu item',
+    quantity: 5,
+  },
+  {
+    id: 'category-4161',
+    store: '247',
+    label: 'handle duplicate catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'category-9007',
+    store: '153',
+    label: 'cache duplicate delivery window for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'category-5550',
+    store: '675',
+    label: 'guard cancelled promo',
+    quantity: 1,
+  },
+  {
+    id: 'category-3301',
+    store: '199',
+    label: 'dedupe duplicate tax line',
+    quantity: 6,
+  },
+  {
+    id: 'category-8121',
+    store: '621',
+    label: 'retry empty modifier',
+    quantity: 4,
+  },
+  {
+    id: 'category-8291',
+    store: '274',
+    label: 'dedupe regional guest',
+    quantity: 9,
+  },
+  {
+    id: 'category-6044',
+    store: '396',
+    label: 'handle regional kitchen ticket',
+    quantity: 4,
+  },
+];

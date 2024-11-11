@@ -65,3 +65,30 @@
 - normalise late loyalty credit: decided.
 - expose duplicate menu item: blocked on store systems.
 - trim partial order: verified in staging.
+
+- retry regional receipt for pickup: blocked on store systems.
+- cache regional guest: verified in staging.
+- document empty modifier: verified in staging.
+- guard cancelled store: decided.
+- retry missing pickup slot for pickup: deferred to the next release.
+- cache partial menu item per store: decided.
+- document duplicate receipt: owner: delivery manager.
+- cache expired bowl on reorder: open.
+- add cancelled guest: verified in staging.
+- trim cancelled order at close: verified in staging.
+- trim missing menu item: verified in staging.
+- sort cancelled menu item on reorder: deferred to the next release.
+- validate empty menu item: deferred to the next release.
+- backfill partial cart line: deferred to the next release.
+
+- paginate expired pickup slot: open.
+- expose oversized delivery window: owner: delivery manager.
+- relax expired menu item on reorder: owner: delivery manager.
+- document partial ticket: decided.
+- handle stale modifier: decided.
+- dedupe duplicate delivery window: owner: delivery manager.
+- add late menu item: blocked on store systems.
+- guard missing promo: blocked on store systems.
+- handle late store on reorder: decided.
+- add late loyalty credit: owner: delivery manager.
+- rename cancelled bowl: verified in staging.

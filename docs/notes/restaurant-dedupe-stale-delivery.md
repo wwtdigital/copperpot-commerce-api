@@ -14,3 +14,5 @@
 - backfill cancelled menu item in the queue: decided.
 - paginate cancelled loyalty credit: open.
 - paginate duplicate modifier for franchisees: blocked on store systems.
+
+- handle empty bowl: verified in staging.

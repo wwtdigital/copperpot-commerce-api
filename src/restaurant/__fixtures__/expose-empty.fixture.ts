@@ -1620,4 +1620,16 @@ export const ExposeEmptyLoyaltyCreditRows = [
     label: 'log stale catering tray for pickup',
     quantity: 3,
   },
+  {
+    id: 'restaurant-7039',
+    store: '459',
+    label: 'backfill expired promo',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-2730',
+    store: '292',
+    label: 'paginate partial promo in the queue',
+    quantity: 12,
+  },
 ];

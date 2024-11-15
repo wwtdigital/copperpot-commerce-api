@@ -47,3 +47,6 @@
 
 - sort late receipt for franchisees: blocked on store systems.
 - trim partial promo at close: blocked on store systems.
+
+- handle partial tax line in the queue: deferred to the next release.
+- trim expired receipt per store: decided.

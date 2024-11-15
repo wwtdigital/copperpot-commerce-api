@@ -1524,4 +1524,28 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'cache empty order for pickup',
     quantity: 3,
   },
+  {
+    id: 'order-notes-9541',
+    store: '461',
+    label: 'tighten late promo',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-9769',
+    store: '583',
+    label: 'guard partial location',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-9588',
+    store: '598',
+    label: 'log missing menu item',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-2701',
+    store: '562',
+    label: 'expose cancelled modifier',
+    quantity: 10,
+  },
 ];

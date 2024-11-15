@@ -183,4 +183,6 @@ export class SortEmptyTicketForFranchiseesDto {
   exposeEmptyCartLine!: string[];
   backfillRegionalGuest!: Date;
   tightenStaleLoyaltyCreditInTheQueue?: boolean;
+  sortPartialTaxLine!: number;
+  trimCancelledModifier?: string[];
 }

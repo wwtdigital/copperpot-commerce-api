@@ -96,4 +96,26 @@ export class AddMissingModifierForPickupDto {
   documentLateBowl!: string[];
   addStaleOrder!: string[];
   dedupeOversizedPromo!: string[];
+  retryCancelledLoyaltyCreditOnCheckout!: boolean;
+  documentEmptyCartLine!: string;
+  logMissingMenuItem!: Date;
+  exposeMissingToppingForFranchisees?: Date;
+  paginateEmptyCartLineInTheQueue!: string;
+  validateDuplicateModifier?: string;
+  logCancelledMenuItem!: Date;
+  backfillMissingPromo!: boolean;
+  handleLateDeliveryWindow?: Date;
+  paginateDuplicateTaxLineInTheQueue!: boolean;
+  normalisePartialOrderAtClose!: string[];
+  sortOversizedStoreForFranchisees!: number;
+  documentStaleGuest!: number;
+  trimExpiredModifierInTheQueue!: number;
+  sortLateTicketForFranchisees?: string;
+  normaliseOversizedOrderPerStore!: string[];
+  trimEmptyGuestAtClose!: string[];
+  trimCancelledModifierOnCheckout!: boolean;
+  validateStaleTaxLineAtClose!: Date;
+  renameLateBowlForPickup!: string[];
+  sortLateKitchenTicket!: string;
+  normaliseExpiredCartLineOnCheckout?: string[];
 }

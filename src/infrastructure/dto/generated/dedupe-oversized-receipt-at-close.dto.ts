@@ -305,4 +305,6 @@ export class DedupeOversizedReceiptAtCloseDto {
   relaxExpiredCateringTrayPerStore!: number;
   validateStaleTopping!: boolean;
   paginatePartialTaxLineOnReorder!: number;
+  guardLateKitchenTicketInTheQueue?: boolean;
+  sortCancelledLoyaltyCreditPerStore!: string[];
 }

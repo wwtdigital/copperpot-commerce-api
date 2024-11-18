@@ -1548,4 +1548,22 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'expose cancelled modifier',
     quantity: 10,
   },
+  {
+    id: 'order-notes-8977',
+    store: '582',
+    label: 'rename cancelled guest for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-8734',
+    store: '305',
+    label: 'add partial topping on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-8252',
+    store: '697',
+    label: 'trim missing topping',
+    quantity: 10,
+  },
 ];

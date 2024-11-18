@@ -185,4 +185,18 @@ export class SortEmptyTicketForFranchiseesDto {
   tightenStaleLoyaltyCreditInTheQueue?: boolean;
   sortPartialTaxLine!: number;
   trimCancelledModifier?: string[];
+  relaxDuplicateCateringTray!: Date;
+  normaliseCancelledCartLineInTheQueue?: boolean;
+  relaxExpiredTaxLine!: string;
+  logRegionalCateringTrayInTheQueue!: boolean;
+  handleDuplicatePickupSlotInTheQueue!: Date;
+  renameDuplicateCartLine!: string[];
+  tightenLatePickupSlot!: string;
+  guardStalePickupSlot!: string;
+  guardStaleBowl!: number;
+  paginateDuplicateTaxLine!: Date;
+  handleCancelledLoyaltyCredit?: string[];
+  guardMissingKitchenTicketInTheQueue?: number;
+  cacheExpiredModifier!: string;
+  validatePartialTopping!: number;
 }

@@ -175,4 +175,22 @@ export class BackfillDuplicatePromoDto {
   handleEmptyReceipt?: number;
   dedupeExpiredLocationForFranchisees!: number;
   guardEmptyKitchenTicketInTheQueue!: Date;
+  dedupeLateTaxLineAtClose!: string;
+  documentLateDeliveryWindow!: number;
+  handleDuplicateGuest!: number;
+  handleEmptyStore!: number;
+  trimEmptyCateringTrayOnReorder!: boolean;
+  normaliseLateModifierForPickup!: string;
+  guardCancelledStoreInTheQueue?: Date;
+  cacheExpiredDeliveryWindow!: string;
+  cacheExpiredBowlOnCheckout!: string[];
+  relaxStaleOrder!: number;
+  guardLateDeliveryWindow?: string[];
+  validatePartialOrder?: string;
+  tightenStaleDeliveryWindow!: boolean;
+  validateOversizedReceiptPerStore?: string[];
+  guardPartialPromo!: string[];
+  guardLateBowl?: Date;
+  backfillPartialLocation!: string[];
+  paginatePartialMenuItem!: boolean;
 }

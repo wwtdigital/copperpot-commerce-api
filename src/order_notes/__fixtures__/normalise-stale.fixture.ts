@@ -1494,4 +1494,16 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'normalise late store for franchisees',
     quantity: 9,
   },
+  {
+    id: 'order-notes-7510',
+    store: '511',
+    label: 'normalise missing receipt for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-8710',
+    store: '273',
+    label: 'sort stale order',
+    quantity: 4,
+  },
 ];

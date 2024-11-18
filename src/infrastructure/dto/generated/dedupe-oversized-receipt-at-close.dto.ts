@@ -307,4 +307,28 @@ export class DedupeOversizedReceiptAtCloseDto {
   paginatePartialTaxLineOnReorder!: number;
   guardLateKitchenTicketInTheQueue?: boolean;
   sortCancelledLoyaltyCreditPerStore!: string[];
+  trimExpiredTopping!: string[];
+  logStaleCartLine?: string;
+  retryPartialLoyaltyCredit!: boolean;
+  backfillDuplicateToppingInTheQueue!: boolean;
+  paginateDuplicateStore?: Date;
+  logStaleModifier!: string[];
+  exposeStaleCartLine?: Date;
+  addStaleStore!: boolean;
+  backfillOversizedStore!: Date;
+  guardStaleKitchenTicket!: number;
+  normaliseDuplicatePickupSlot!: number;
+  dedupeMissingMenuItem!: string;
+  dedupeEmptyKitchenTicket!: number;
+  tightenPartialTopping?: string[];
+  logRegionalReceipt?: string[];
+  addMissingReceipt!: string;
+  guardCancelledTopping!: string[];
+  dedupeEmptyLoyaltyCredit?: string[];
+  sortMissingPickupSlot?: boolean;
+  documentOversizedLocationAtClose?: boolean;
+  logEmptyOrderForPickup!: string[];
+  trimStaleTaxLine?: number;
+  paginateDuplicateCartLineForPickup?: string[];
+  trimEmptyGuestForFranchisees?: string;
 }

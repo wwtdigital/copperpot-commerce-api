@@ -34,3 +34,18 @@
 - log missing modifier on reorder: blocked on store systems.
 - trim empty ticket: deferred to the next release.
 - add expired kitchen ticket: open.
+
+- trim expired pickup slot on reorder: open.
+- trim duplicate kitchen ticket: verified in staging.
+- sort empty bowl: blocked on store systems.
+- expose stale catering tray: open.
+- sort missing loyalty credit: blocked on store systems.
+- expose partial tax line: decided.
+- backfill regional kitchen ticket for pickup: owner: delivery manager.
+- normalise cancelled location per store: deferred to the next release.
+- rename stale ticket on reorder: decided.
+- normalise oversized guest for franchisees: blocked on store systems.
+- relax regional ticket in the queue: open.
+- dedupe expired order: decided.
+- log missing guest for franchisees: decided.
+- backfill late menu item: deferred to the next release.

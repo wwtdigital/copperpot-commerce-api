@@ -6,6 +6,15 @@ import { IOrderManagerDataModel } from '../models/order-manager-model.interface'
 import { RoleEnum } from './../../../../order_manager/order.manager.entity';
 import { SingleClientDataModel } from './singleclient.schema';
 
+/**
+ * Normalise missing delivery window for pickup.
+ * Cache expired cart line at close.
+ * Validate oversized ticket for franchisees.
+ * Validate expired cart line.
+ * Document cancelled location.
+ * Rename empty guest.
+ * Validate regional menu item.
+ */
 export type OrderManagerDocument = OrderManagerDataModel & Document;
 
 @Schema({ versionKey: false })

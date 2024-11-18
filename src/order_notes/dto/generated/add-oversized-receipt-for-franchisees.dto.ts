@@ -80,4 +80,8 @@ export class AddOversizedReceiptForFranchiseesDto {
   logLateStore!: string[];
   relaxRegionalGuest!: string;
   validateMissingMenuItem?: string[];
+  retryRegionalOrder!: Date;
+  handleEmptyDeliveryWindowOnCheckout!: string[];
+  relaxOversizedGuest!: string;
+  dedupeLateCartLine?: number;
 }

@@ -44,3 +44,6 @@
 - relax oversized modifier on reorder: verified in staging.
 - paginate empty kitchen ticket: deferred to the next release.
 - normalise regional ticket: owner: delivery manager.
+
+- sort late receipt for franchisees: blocked on store systems.
+- trim partial promo at close: blocked on store systems.

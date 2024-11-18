@@ -146,4 +146,26 @@ export class SortEmptyTicketForFranchiseesDto {
   documentCancelledLoyaltyCreditAtClose?: number;
   dedupeDuplicateTaxLine!: Date;
   validateEmptyGuestAtClose?: string[];
+  normaliseStaleTaxLineAtClose!: string[];
+  renameMissingStorePerStore!: string;
+  guardLateCartLine!: number;
+  backfillRegionalBowlForPickup!: string;
+  paginateCancelledTaxLine?: number;
+  tightenRegionalGuest!: number;
+  dedupeCancelledStore?: number;
+  logExpiredTopping!: Date;
+  addOversizedKitchenTicket!: string;
+  paginateRegionalBowlOnCheckout!: number;
+  dedupeExpiredLocation!: string;
+  documentCancelledTopping!: string[];
+  exposePartialKitchenTicketAtClose!: number;
+  documentStaleToppingForPickup?: boolean;
+  logOversizedPromoAtClose!: Date;
+  normalisePartialOrderOnReorder!: string[];
+  documentOversizedMenuItem!: boolean;
+  validateStaleTaxLine?: string[];
+  sortExpiredModifierForPickup!: string[];
+  paginatePartialPickupSlot!: string[];
+  backfillLateKitchenTicketForFranchisees?: Date;
+  tightenCancelledBowlOnReorder?: string;
 }

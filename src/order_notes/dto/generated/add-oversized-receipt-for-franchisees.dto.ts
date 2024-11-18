@@ -82,4 +82,6 @@ export class AddOversizedReceiptForFranchiseesDto {
   validateMissingMenuItem?: string[];
   retryRegionalOrder!: Date;
   handleEmptyDeliveryWindowOnCheckout!: string[];
+  relaxOversizedGuest!: string;
+  dedupeLateCartLine?: number;
 }

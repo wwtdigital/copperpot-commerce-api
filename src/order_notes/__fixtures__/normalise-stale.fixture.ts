@@ -1506,4 +1506,22 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'sort stale order',
     quantity: 4,
   },
+  {
+    id: 'order-notes-3821',
+    store: '604',
+    label: 'add late tax line per store',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-8776',
+    store: '658',
+    label: 'rename missing loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-4134',
+    store: '330',
+    label: 'cache empty order for pickup',
+    quantity: 3,
+  },
 ];

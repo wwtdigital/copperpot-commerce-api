@@ -74,3 +74,18 @@
 - log expired kitchen ticket: decided.
 - backfill expired location: blocked on store systems.
 - sort partial modifier: decided.
+
+- guard expired catering tray: decided.
+- retry missing tax line: verified in staging.
+- log cancelled bowl: owner: delivery manager.
+- dedupe cancelled cart line for franchisees: decided.
+- document stale receipt for franchisees: verified in staging.
+- expose stale loyalty credit: blocked on store systems.
+- add expired delivery window: deferred to the next release.
+- tighten oversized loyalty credit: deferred to the next release.
+- sort expired modifier for pickup: blocked on store systems.
+- trim missing modifier: decided.
+- document partial receipt: open.
+- expose expired loyalty credit: decided.
+- normalise regional bowl: blocked on store systems.
+- dedupe duplicate cart line at close: owner: delivery manager.

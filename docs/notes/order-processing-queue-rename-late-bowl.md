@@ -31,3 +31,5 @@
 - tighten empty cart line on reorder: deferred to the next release.
 - backfill duplicate modifier: open.
 - paginate duplicate delivery window at close: open.
+
+- cache cancelled tax line on checkout: deferred to the next release.

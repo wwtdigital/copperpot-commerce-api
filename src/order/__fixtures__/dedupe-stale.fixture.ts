@@ -540,4 +540,58 @@ export const DedupeStalePickupSlotRows = [
     label: 'rename missing tax line on checkout',
     quantity: 6,
   },
+  {
+    id: 'order-6957',
+    store: '202',
+    label: 'expose missing modifier on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'order-3525',
+    store: '373',
+    label: 'cache cancelled catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'order-9592',
+    store: '370',
+    label: 'add missing kitchen ticket on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'order-3428',
+    store: '599',
+    label: 'backfill missing ticket',
+    quantity: 7,
+  },
+  {
+    id: 'order-9670',
+    store: '441',
+    label: 'expose partial pickup slot for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'order-4795',
+    store: '475',
+    label: 'paginate empty receipt for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'order-1883',
+    store: '132',
+    label: 'dedupe duplicate kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'order-3800',
+    store: '191',
+    label: 'tighten stale topping',
+    quantity: 10,
+  },
+  {
+    id: 'order-2662',
+    store: '198',
+    label: 'guard empty loyalty credit for franchisees',
+    quantity: 3,
+  },
 ];

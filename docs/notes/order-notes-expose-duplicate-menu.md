@@ -89,3 +89,18 @@
 - expose expired loyalty credit: decided.
 - normalise regional bowl: blocked on store systems.
 - dedupe duplicate cart line at close: owner: delivery manager.
+
+- handle missing receipt: deferred to the next release.
+- retry duplicate receipt for franchisees: open.
+- sort empty menu item: decided.
+- rename empty catering tray for pickup: deferred to the next release.
+- add late kitchen ticket: verified in staging.
+- sort expired kitchen ticket for franchisees: blocked on store systems.
+- cache stale tax line on checkout: owner: delivery manager.
+- trim expired store: decided.
+- log expired kitchen ticket: decided.
+- handle late topping on reorder: verified in staging.
+- validate empty topping: owner: delivery manager.
+- add partial delivery window on checkout: open.
+- validate duplicate kitchen ticket: owner: delivery manager.
+- paginate empty store: verified in staging.

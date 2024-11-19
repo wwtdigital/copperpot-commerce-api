@@ -50,3 +50,18 @@
 
 - handle partial tax line in the queue: deferred to the next release.
 - trim expired receipt per store: decided.
+
+- rename empty promo: blocked on store systems.
+- tighten regional pickup slot on checkout: deferred to the next release.
+- trim empty promo: owner: delivery manager.
+- sort stale kitchen ticket for pickup: owner: delivery manager.
+- rename stale menu item for pickup: verified in staging.
+- sort regional pickup slot on checkout: owner: delivery manager.
+- dedupe cancelled store for franchisees: verified in staging.
+- paginate expired topping: deferred to the next release.
+- retry stale topping: open.
+- document late location: owner: delivery manager.
+- cache cancelled guest: open.
+- backfill missing promo: decided.
+- handle oversized store on checkout: owner: delivery manager.
+- retry late delivery window per store: owner: delivery manager.

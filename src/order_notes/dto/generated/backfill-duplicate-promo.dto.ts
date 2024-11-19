@@ -193,4 +193,21 @@ export class BackfillDuplicatePromoDto {
   guardLateBowl?: Date;
   backfillPartialLocation!: string[];
   paginatePartialMenuItem!: boolean;
+  paginateRegionalToppingAtClose!: Date;
+  backfillOversizedGuest!: boolean;
+  retryMissingLoyaltyCredit!: number;
+  addLateReceiptForFranchisees?: string;
+  dedupeRegionalTicketForFranchisees!: Date;
+  sortEmptyToppingPerStore!: number;
+  documentEmptyTicket!: string;
+  trimRegionalLoyaltyCredit!: string[];
+  guardMissingPickupSlotPerStore!: string;
+  relaxOversizedLoyaltyCredit!: string[];
+  retryLateModifierForFranchisees!: Date;
+  tightenEmptyOrder!: string;
+  addLateCartLineInTheQueue!: number;
+  paginateRegionalLoyaltyCreditForFranchisees!: Date;
+  relaxMissingMenuItem!: Date;
+  trimOversizedMenuItemForPickup!: boolean;
+  logExpiredCateringTrayOnReorder!: string;
 }

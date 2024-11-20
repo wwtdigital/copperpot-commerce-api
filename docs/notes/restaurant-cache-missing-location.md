@@ -108,3 +108,18 @@
 - handle empty location on reorder: deferred to the next release.
 - cache missing order for pickup: verified in staging.
 - paginate stale receipt at close: decided.
+
+- backfill oversized receipt: blocked on store systems.
+- sort missing promo per store: blocked on store systems.
+- sort duplicate loyalty credit for pickup: owner: delivery manager.
+- handle duplicate bowl: open.
+- retry regional pickup slot: owner: delivery manager.
+- add missing modifier: open.
+- cache stale tax line at close: owner: delivery manager.
+- paginate expired receipt: owner: delivery manager.
+- retry stale catering tray: owner: delivery manager.
+- expose empty tax line: verified in staging.
+- relax partial menu item at close: blocked on store systems.
+- guard oversized delivery window: deferred to the next release.
+- backfill oversized kitchen ticket: owner: delivery manager.
+- log regional cart line in the queue: owner: delivery manager.

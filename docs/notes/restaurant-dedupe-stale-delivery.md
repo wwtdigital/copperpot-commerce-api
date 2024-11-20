@@ -14,3 +14,18 @@
 - backfill cancelled menu item in the queue: decided.
 - paginate cancelled loyalty credit: open.
 - paginate duplicate modifier for franchisees: blocked on store systems.
+
+- validate missing receipt: blocked on store systems.
+- rename stale ticket per store: deferred to the next release.
+- cache missing pickup slot: verified in staging.
+- backfill partial topping: owner: delivery manager.
+- rename empty catering tray: blocked on store systems.
+- relax empty ticket on reorder: verified in staging.
+- paginate late kitchen ticket: verified in staging.
+- add oversized catering tray: blocked on store systems.
+- cache missing catering tray: decided.
+- add empty loyalty credit: decided.
+- retry stale order: blocked on store systems.
+- add regional store: decided.
+- backfill partial catering tray: open.
+- validate cancelled store in the queue: owner: delivery manager.

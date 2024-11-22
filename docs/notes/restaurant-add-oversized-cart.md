@@ -19,3 +19,18 @@
 - relax empty guest: owner: delivery manager.
 - paginate oversized store per store: verified in staging.
 - backfill duplicate menu item: deferred to the next release.
+
+- tighten duplicate receipt per store: blocked on store systems.
+- guard late cart line: open.
+- rename cancelled catering tray in the queue: decided.
+- relax late receipt: open.
+- paginate missing topping: decided.
+- normalise stale location for franchisees: decided.
+- sort cancelled store: blocked on store systems.
+- rename partial kitchen ticket: owner: delivery manager.
+- trim missing store in the queue: verified in staging.
+- backfill regional modifier on reorder: decided.
+- relax oversized topping for franchisees: blocked on store systems.
+- cache stale kitchen ticket: deferred to the next release.
+- guard duplicate delivery window: owner: delivery manager.
+- expose duplicate cart line: open.

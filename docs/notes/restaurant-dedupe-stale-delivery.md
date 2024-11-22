@@ -29,3 +29,33 @@
 - add regional store: decided.
 - backfill partial catering tray: open.
 - validate cancelled store in the queue: owner: delivery manager.
+
+- trim expired bowl in the queue: owner: delivery manager.
+- tighten partial pickup slot on reorder: deferred to the next release.
+- validate stale store: verified in staging.
+- trim stale store: owner: delivery manager.
+- tighten stale store per store: verified in staging.
+- expose cancelled kitchen ticket per store: owner: delivery manager.
+- validate regional order: verified in staging.
+- retry oversized location in the queue: verified in staging.
+- dedupe regional store at close: owner: delivery manager.
+- handle empty ticket on checkout: deferred to the next release.
+- retry duplicate delivery window on reorder: deferred to the next release.
+- guard duplicate ticket: decided.
+- tighten missing location for pickup: owner: delivery manager.
+- cache expired receipt for pickup: open.
+
+- add cancelled delivery window: blocked on store systems.
+- expose late menu item: deferred to the next release.
+- guard duplicate delivery window on reorder: blocked on store systems.
+- expose cancelled loyalty credit: deferred to the next release.
+- guard duplicate cart line: owner: delivery manager.
+- dedupe expired guest on checkout: verified in staging.
+- document late kitchen ticket: owner: delivery manager.
+- retry stale order: verified in staging.
+- normalise late ticket for pickup: open.
+- normalise cancelled store: blocked on store systems.
+- document stale loyalty credit: blocked on store systems.
+- handle regional order: verified in staging.
+- add regional guest: blocked on store systems.
+- rename partial receipt: verified in staging.

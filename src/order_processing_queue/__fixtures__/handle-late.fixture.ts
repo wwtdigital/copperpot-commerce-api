@@ -12,4 +12,52 @@ export const HandleLateBowlOnCheckoutRows = [
     label: 'tighten missing bowl for pickup',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-1895',
+    store: '662',
+    label: 'expose partial topping',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-3302',
+    store: '258',
+    label: 'dedupe duplicate guest',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-3566',
+    store: '266',
+    label: 'relax late cart line',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-8563',
+    store: '479',
+    label: 'handle partial pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-2729',
+    store: '424',
+    label: 'log oversized store',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-5128',
+    store: '331',
+    label: 'handle missing tax line for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-2754',
+    store: '467',
+    label: 'expose regional pickup slot per store',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-9749',
+    store: '142',
+    label: 'backfill oversized location at close',
+    quantity: 4,
+  },
 ];

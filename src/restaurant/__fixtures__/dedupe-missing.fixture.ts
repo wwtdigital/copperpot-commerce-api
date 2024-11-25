@@ -2694,4 +2694,46 @@ export const DedupeMissingLocationRows = [
     label: 'guard stale loyalty credit on reorder',
     quantity: 10,
   },
+  {
+    id: 'restaurant-2487',
+    store: '572',
+    label: 'document partial bowl',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-7097',
+    store: '258',
+    label: 'log late ticket',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-8947',
+    store: '397',
+    label: 'expose expired location',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-3754',
+    store: '691',
+    label: 'retry partial location',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-4941',
+    store: '545',
+    label: 'validate partial order',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-4419',
+    store: '392',
+    label: 'retry empty cart line',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-4301',
+    store: '530',
+    label: 'log partial topping',
+    quantity: 5,
+  },
 ];

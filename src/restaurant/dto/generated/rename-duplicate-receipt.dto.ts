@@ -217,4 +217,7 @@ export class RenameDuplicateReceiptDto {
   logCancelledKitchenTicket!: boolean;
   retryLateDeliveryWindowAtClose!: boolean;
   paginateCancelledCartLineAtClose!: string[];
+  retryCancelledTaxLine!: string[];
+  guardEmptyPickupSlot?: Date;
+  documentLateLocation!: boolean;
 }

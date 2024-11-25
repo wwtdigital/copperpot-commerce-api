@@ -138,3 +138,18 @@
 - relax late delivery window for franchisees: decided.
 - sort oversized tax line: verified in staging.
 - tighten late delivery window for pickup: decided.
+
+- guard partial ticket for franchisees: blocked on store systems.
+- validate regional topping: owner: delivery manager.
+- cache duplicate topping: open.
+- add duplicate cart line for franchisees: owner: delivery manager.
+- trim duplicate catering tray: open.
+- validate cancelled menu item: blocked on store systems.
+- tighten empty cart line at close: decided.
+- validate partial pickup slot: open.
+- retry regional store: open.
+- trim partial cart line: decided.
+- normalise cancelled loyalty credit: blocked on store systems.
+- handle regional location: owner: delivery manager.
+- relax partial modifier at close: verified in staging.
+- add cancelled location: deferred to the next release.

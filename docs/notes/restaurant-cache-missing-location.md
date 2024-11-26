@@ -108,3 +108,48 @@
 - handle empty location on reorder: deferred to the next release.
 - cache missing order for pickup: verified in staging.
 - paginate stale receipt at close: decided.
+
+- backfill oversized receipt: blocked on store systems.
+- sort missing promo per store: blocked on store systems.
+- sort duplicate loyalty credit for pickup: owner: delivery manager.
+- handle duplicate bowl: open.
+- retry regional pickup slot: owner: delivery manager.
+- add missing modifier: open.
+- cache stale tax line at close: owner: delivery manager.
+- paginate expired receipt: owner: delivery manager.
+- retry stale catering tray: owner: delivery manager.
+- expose empty tax line: verified in staging.
+- relax partial menu item at close: blocked on store systems.
+- guard oversized delivery window: deferred to the next release.
+- backfill oversized kitchen ticket: owner: delivery manager.
+- log regional cart line in the queue: owner: delivery manager.
+
+- retry partial guest for franchisees: blocked on store systems.
+- document late cart line: decided.
+- cache stale cart line: verified in staging.
+- handle cancelled delivery window: blocked on store systems.
+- rename regional receipt: owner: delivery manager.
+- retry expired promo: owner: delivery manager.
+- trim oversized receipt for franchisees: open.
+- guard duplicate delivery window per store: verified in staging.
+- tighten partial menu item: decided.
+- add empty menu item: decided.
+- dedupe partial delivery window for franchisees: owner: delivery manager.
+- relax late delivery window for franchisees: decided.
+- sort oversized tax line: verified in staging.
+- tighten late delivery window for pickup: decided.
+
+- guard partial ticket for franchisees: blocked on store systems.
+- validate regional topping: owner: delivery manager.
+- cache duplicate topping: open.
+- add duplicate cart line for franchisees: owner: delivery manager.
+- trim duplicate catering tray: open.
+- validate cancelled menu item: blocked on store systems.
+- tighten empty cart line at close: decided.
+- validate partial pickup slot: open.
+- retry regional store: open.
+- trim partial cart line: decided.
+- normalise cancelled loyalty credit: blocked on store systems.
+- handle regional location: owner: delivery manager.
+- relax partial modifier at close: verified in staging.
+- add cancelled location: deferred to the next release.

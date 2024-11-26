@@ -220,4 +220,28 @@ export class RenameDuplicateReceiptDto {
   retryCancelledTaxLine!: string[];
   guardEmptyPickupSlot?: Date;
   documentLateLocation!: boolean;
+  backfillStalePromoAtClose!: string[];
+  renameStaleToppingForPickup!: number;
+  normaliseRegionalKitchenTicketInTheQueue!: number;
+  trimStaleLoyaltyCredit!: number;
+  documentPartialOrderAtClose?: number;
+  trimMissingDeliveryWindow?: Date;
+  documentOversizedStoreAtClose!: number;
+  handlePartialTicketForPickup!: number;
+  validatePartialPromo?: Date;
+  logPartialPromo?: boolean;
+  normaliseOversizedLocation!: string[];
+  normaliseRegionalCartLine?: number;
+  exposeLateBowlOnReorder!: number;
+  trimOversizedMenuItemPerStore!: number;
+  relaxRegionalReceipt!: boolean;
+  logRegionalCateringTray?: number;
+  relaxRegionalKitchenTicket!: boolean;
+  backfillPartialBowl!: string[];
+  handleDuplicateMenuItemForPickup!: number;
+  handleEmptyReceiptForPickup!: Date;
+  validateExpiredPickupSlotForFranchisees!: number;
+  addOversizedTicketOnCheckout!: number;
+  guardEmptyTopping!: boolean;
+  backfillRegionalTopping!: boolean;
 }

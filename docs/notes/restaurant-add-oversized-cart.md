@@ -34,3 +34,23 @@
 - cache stale kitchen ticket: deferred to the next release.
 - guard duplicate delivery window: owner: delivery manager.
 - expose duplicate cart line: open.
+
+- paginate empty delivery window on checkout: verified in staging.
+- normalise oversized store: open.
+- relax stale promo on reorder: verified in staging.
+- normalise duplicate pickup slot: blocked on store systems.
+- document late catering tray: verified in staging.
+- paginate oversized delivery window at close: deferred to the next release.
+- normalise duplicate bowl on checkout: owner: delivery manager.
+- normalise stale modifier: verified in staging.
+- sort partial cart line: verified in staging.
+- tighten partial pickup slot on checkout: blocked on store systems.
+- rename empty tax line at close: decided.
+- relax late ticket: deferred to the next release.
+- paginate expired location per store: open.
+- paginate oversized guest at close: owner: delivery manager.
+
+- guard missing menu item on checkout: owner: delivery manager.
+- handle oversized receipt: verified in staging.
+- normalise late store: verified in staging.
+- relax late delivery window per store: decided.

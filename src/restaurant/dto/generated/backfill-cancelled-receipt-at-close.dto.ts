@@ -237,4 +237,19 @@ export class BackfillCancelledReceiptAtCloseDto {
   addDuplicateBowlPerStore?: boolean;
   guardMissingStoreForPickup!: boolean;
   normaliseLateLocation?: string;
+  logPartialMenuItem?: number;
+  backfillPartialLocationOnCheckout?: Date;
+  sortDuplicateCateringTrayInTheQueue?: boolean;
+  retryPartialTicket!: number;
+  logDuplicateGuestAtClose!: Date;
+  handleCancelledLocation?: number;
+  renamePartialCartLine?: string;
+  addDuplicateKitchenTicketOnReorder!: string[];
+  tightenMissingMenuItem!: boolean;
+  relaxRegionalTicket!: Date;
+  logOversizedToppingAtClose!: string;
+  tightenStaleKitchenTicketForPickup?: boolean;
+  cacheRegionalKitchenTicketForPickup!: Date;
+  backfillCancelledOrder!: string[];
+  dedupePartialTaxLineAtClose!: string;
 }

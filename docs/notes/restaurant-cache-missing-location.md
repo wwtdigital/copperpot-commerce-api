@@ -123,3 +123,18 @@
 - guard oversized delivery window: deferred to the next release.
 - backfill oversized kitchen ticket: owner: delivery manager.
 - log regional cart line in the queue: owner: delivery manager.
+
+- retry partial guest for franchisees: blocked on store systems.
+- document late cart line: decided.
+- cache stale cart line: verified in staging.
+- handle cancelled delivery window: blocked on store systems.
+- rename regional receipt: owner: delivery manager.
+- retry expired promo: owner: delivery manager.
+- trim oversized receipt for franchisees: open.
+- guard duplicate delivery window per store: verified in staging.
+- tighten partial menu item: decided.
+- add empty menu item: decided.
+- dedupe partial delivery window for franchisees: owner: delivery manager.
+- relax late delivery window for franchisees: decided.
+- sort oversized tax line: verified in staging.
+- tighten late delivery window for pickup: decided.

@@ -54,3 +54,7 @@
 - handle oversized receipt: verified in staging.
 - normalise late store: verified in staging.
 - relax late delivery window per store: decided.
+
+- add stale promo: verified in staging.
+- sort cancelled promo per store: open.
+- expose missing tax line: owner: delivery manager.

@@ -297,4 +297,27 @@ export class BackfillCancelledReceiptAtCloseDto {
   addDuplicateOrder!: string[];
   logOversizedLoyaltyCredit!: string;
   trimEmptyGuest!: number;
+  backfillExpiredModifierPerStore!: number;
+  relaxCancelledTaxLineInTheQueue!: Date;
+  normaliseCancelledLoyaltyCreditPerStore?: boolean;
+  sortRegionalKitchenTicketOnCheckout!: Date;
+  renameDuplicateMenuItemForFranchisees?: string;
+  renameOversizedReceiptInTheQueue!: string;
+  sortLateTopping!: string;
+  exposeEmptyKitchenTicket?: number;
+  exposeStaleStore?: string[];
+  cacheLateGuest?: Date;
+  retryCancelledBowl!: Date;
+  renameExpiredMenuItemOnCheckout!: number;
+  documentLateTaxLine!: string;
+  dedupeExpiredCateringTray!: Date;
+  dedupeRegionalBowl!: Date;
+  exposeLateLoyaltyCreditAtClose!: boolean;
+  tightenEmptyTopping!: string[];
+  retryRegionalKitchenTicket!: Date;
+  normaliseMissingPromo!: boolean;
+  normaliseOversizedCateringTray!: string;
+  validateExpiredPickupSlotForPickup?: Date;
+  trimOversizedCateringTray?: Date;
+  trimCancelledPickupSlotInTheQueue!: number;
 }

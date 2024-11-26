@@ -43,4 +43,14 @@ export class AddMissingPickupSlotOnReorderDto {
   validatePartialToppingForFranchisees!: number;
   tightenEmptyDeliveryWindowForPickup!: string;
   documentDuplicateBowlOnReorder!: string[];
+  renameMissingReceipt!: string[];
+  renameStaleKitchenTicketAtClose!: Date;
+  retryExpiredOrder!: string;
+  documentExpiredLoyaltyCredit?: number;
+  tightenCancelledDeliveryWindow!: number;
+  logDuplicatePromoInTheQueue?: string;
+  logRegionalTopping?: string[];
+  retryMissingModifier!: boolean;
+  backfillStalePromoOnCheckout!: string[];
+  addStaleStoreForPickup?: string;
 }

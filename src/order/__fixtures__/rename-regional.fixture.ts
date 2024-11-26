@@ -12,4 +12,10 @@ export const RenameRegionalPickupSlotInTheQueueRows = [
     label: 'document regional pickup slot for pickup',
     quantity: 8,
   },
+  {
+    id: 'order-2766',
+    store: '543',
+    label: 'handle regional receipt for franchisees',
+    quantity: 9,
+  },
 ];

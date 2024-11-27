@@ -594,4 +594,22 @@ export const DedupeStalePickupSlotRows = [
     label: 'guard empty loyalty credit for franchisees',
     quantity: 3,
   },
+  {
+    id: 'order-3298',
+    store: '528',
+    label: 'paginate missing topping',
+    quantity: 3,
+  },
+  {
+    id: 'order-1059',
+    store: '118',
+    label: 'trim empty modifier',
+    quantity: 3,
+  },
+  {
+    id: 'order-9179',
+    store: '661',
+    label: 'validate stale menu item',
+    quantity: 4,
+  },
 ];

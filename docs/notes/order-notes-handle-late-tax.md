@@ -79,3 +79,7 @@
 - paginate oversized pickup slot for pickup: owner: delivery manager.
 - trim regional cart line: owner: delivery manager.
 - dedupe empty receipt: decided.
+
+- validate late ticket: decided.
+- add late receipt: deferred to the next release.
+- trim regional modifier: decided.

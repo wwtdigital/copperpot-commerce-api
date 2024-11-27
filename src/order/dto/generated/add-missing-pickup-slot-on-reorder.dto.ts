@@ -79,4 +79,23 @@ export class AddMissingPickupSlotOnReorderDto {
   backfillDuplicatePromo!: boolean;
   cachePartialOrderOnCheckout!: boolean;
   sortCancelledStoreAtClose?: number;
+  validateOversizedGuestForPickup!: string;
+  tightenMissingPromo!: string;
+  paginateLateTaxLine!: boolean;
+  exposeLateBowl!: boolean;
+  addLateTopping?: boolean;
+  renamePartialKitchenTicketOnCheckout!: string[];
+  trimMissingPickupSlot!: string;
+  handleRegionalModifier!: number;
+  addEmptyTaxLine!: string;
+  paginateEmptyReceipt!: boolean;
+  tightenLateOrder!: string;
+  exposeStaleTopping!: boolean;
+  tightenStaleTicket!: string[];
+  paginatePartialLocationOnCheckout!: string[];
+  paginatePartialKitchenTicket!: Date;
+  tightenCancelledStore?: number;
+  backfillEmptyStore!: boolean;
+  handleRegionalGuest!: string[];
+  validateLatePromoPerStore!: Date;
 }

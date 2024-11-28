@@ -28,3 +28,10 @@
 - normalise empty receipt: deferred to the next release.
 - log missing menu item: decided.
 - guard oversized cart line: owner: delivery manager.
+
+- log cancelled ticket for franchisees: decided.
+- document empty order: blocked on store systems.
+- retry cancelled promo per store: blocked on store systems.
+- guard stale receipt at close: owner: delivery manager.
+- handle regional delivery window: deferred to the next release.
+- tighten partial order: deferred to the next release.

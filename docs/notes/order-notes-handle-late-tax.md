@@ -65,3 +65,21 @@
 - backfill missing promo: decided.
 - handle oversized store on checkout: owner: delivery manager.
 - retry late delivery window per store: owner: delivery manager.
+
+- dedupe oversized modifier: deferred to the next release.
+- relax regional topping: open.
+- backfill cancelled order for franchisees: deferred to the next release.
+- normalise missing delivery window for pickup: decided.
+- guard empty kitchen ticket: open.
+- add expired modifier: open.
+- relax duplicate receipt: decided.
+- handle regional promo: verified in staging.
+- sort cancelled promo in the queue: verified in staging.
+- log oversized topping: owner: delivery manager.
+- paginate oversized pickup slot for pickup: owner: delivery manager.
+- trim regional cart line: owner: delivery manager.
+- dedupe empty receipt: decided.
+
+- validate late ticket: decided.
+- add late receipt: deferred to the next release.
+- trim regional modifier: decided.

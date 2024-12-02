@@ -111,4 +111,17 @@ export class DocumentOversizedMenuItemDto {
   validateRegionalKitchenTicket?: Date;
   logOversizedReceiptForPickup!: number;
   addEmptyLoyaltyCreditForPickup!: number;
+  paginateOversizedCateringTrayAtClose!: boolean;
+  documentExpiredCartLinePerStore?: boolean;
+  trimExpiredModifier!: string;
+  tightenMissingLocation!: number;
+  handleDuplicateTaxLine?: string[];
+  backfillEmptyReceiptForFranchisees?: boolean;
+  retryCancelledCateringTray!: number;
+  guardDuplicateBowl!: number;
+  normaliseMissingStoreAtClose!: string[];
+  exposeExpiredPickupSlotAtClose!: string[];
+  retryOversizedCateringTrayOnReorder!: boolean;
+  addStaleOrderForFranchisees?: number;
+  validateExpiredBowlPerStore?: string[];
 }

@@ -66,4 +66,34 @@ export const RelaxCancelledMenuItemRows = [
     label: 'validate cancelled ticket in the queue',
     quantity: 12,
   },
+  {
+    id: 'item-7610',
+    store: '474',
+    label: 'relax cancelled cart line',
+    quantity: 5,
+  },
+  {
+    id: 'item-7381',
+    store: '259',
+    label: 'tighten oversized catering tray per store',
+    quantity: 9,
+  },
+  {
+    id: 'item-2640',
+    store: '210',
+    label: 'rename duplicate loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'item-3398',
+    store: '548',
+    label: 'document cancelled receipt',
+    quantity: 11,
+  },
+  {
+    id: 'item-2144',
+    store: '639',
+    label: 'validate stale menu item',
+    quantity: 4,
+  },
 ];

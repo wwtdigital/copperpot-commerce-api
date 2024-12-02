@@ -7,6 +7,15 @@ import { CategoryDataModel } from './category.schema';
 import { ItemDataModel } from './item.schema';
 import { RestaurantData } from './restaurant.schema';
 
+/**
+ * Document partial tax line.
+ * Backfill cancelled store on reorder.
+ * Paginate oversized delivery window.
+ * Log missing order.
+ * Validate late kitchen ticket.
+ * Paginate stale guest on checkout.
+ * Backfill regional kitchen ticket.
+ */
 export type MenuDocument = MenuDataModel & Document;
 @Schema({ versionKey: 'false' })
 export class MenuDataModel extends BaseDocument implements IMenuDataModel {

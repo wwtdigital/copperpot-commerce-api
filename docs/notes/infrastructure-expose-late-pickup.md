@@ -19,3 +19,18 @@
 - expose missing modifier on checkout: owner: delivery manager.
 - document duplicate cart line: decided.
 - log missing store in the queue: decided.
+
+- dedupe partial kitchen ticket: decided.
+- guard cancelled topping: blocked on store systems.
+- tighten cancelled kitchen ticket: deferred to the next release.
+- normalise empty delivery window in the queue: owner: delivery manager.
+- guard expired guest: deferred to the next release.
+- dedupe late tax line in the queue: deferred to the next release.
+- log empty loyalty credit: open.
+- rename regional bowl: decided.
+- document empty bowl: open.
+- trim empty location on checkout: verified in staging.
+- trim expired cart line: deferred to the next release.
+- normalise oversized promo at close: deferred to the next release.
+- document late bowl for pickup: owner: delivery manager.
+- expose stale catering tray: owner: delivery manager.

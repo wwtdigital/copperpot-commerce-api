@@ -59,3 +59,18 @@
 - handle regional order: verified in staging.
 - add regional guest: blocked on store systems.
 - rename partial receipt: verified in staging.
+
+- paginate partial location: verified in staging.
+- log expired ticket: open.
+- sort missing promo: decided.
+- relax duplicate bowl in the queue: blocked on store systems.
+- add oversized topping on reorder: deferred to the next release.
+- backfill missing receipt: blocked on store systems.
+- cache missing topping: owner: delivery manager.
+- cache missing pickup slot: verified in staging.
+- tighten oversized promo for pickup: verified in staging.
+- paginate stale kitchen ticket per store: blocked on store systems.
+- log partial loyalty credit per store: open.
+- log partial bowl: deferred to the next release.
+- backfill expired pickup slot per store: blocked on store systems.
+- cache late menu item per store: decided.

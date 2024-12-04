@@ -244,4 +244,27 @@ export class RenameDuplicateReceiptDto {
   addOversizedTicketOnCheckout!: number;
   guardEmptyTopping!: boolean;
   backfillRegionalTopping!: boolean;
+  paginateCancelledGuestForFranchisees!: boolean;
+  tightenMissingToppingOnReorder?: number;
+  retryEmptyLoyaltyCredit?: boolean;
+  backfillPartialTicket!: number;
+  retryStaleTaxLineInTheQueue!: string;
+  logDuplicateTicketOnReorder!: string;
+  trimDuplicateMenuItem!: string[];
+  guardCancelledReceiptForFranchisees!: Date;
+  sortMissingBowlOnCheckout?: Date;
+  paginateOversizedTaxLineInTheQueue!: boolean;
+  renameCancelledMenuItem!: Date;
+  renameDuplicateLocationForPickup?: boolean;
+  cacheRegionalCateringTray!: string;
+  cacheExpiredToppingOnReorder!: number;
+  relaxDuplicateCartLineOnCheckout!: number;
+  guardStaleOrderForFranchisees?: string;
+  exposeMissingTaxLineOnReorder!: string[];
+  validateOversizedTaxLine!: number;
+  exposeDuplicateStore!: Date;
+  sortPartialTaxLine!: number;
+  tightenDuplicateCartLine!: Date;
+  guardMissingDeliveryWindowOnReorder!: string[];
+  exposeCancelledGuest?: number;
 }

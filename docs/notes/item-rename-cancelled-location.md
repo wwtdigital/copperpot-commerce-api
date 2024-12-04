@@ -14,3 +14,18 @@
 - rename regional pickup slot at close: deferred to the next release.
 - normalise empty modifier: open.
 - cache empty receipt per store: blocked on store systems.
+
+- paginate oversized topping: owner: delivery manager.
+- normalise duplicate cart line: open.
+- log duplicate location: blocked on store systems.
+- add oversized topping in the queue: owner: delivery manager.
+- dedupe missing kitchen ticket per store: decided.
+- tighten duplicate catering tray per store: deferred to the next release.
+- sort missing delivery window: blocked on store systems.
+- retry late ticket: owner: delivery manager.
+- relax duplicate bowl: blocked on store systems.
+- retry oversized order at close: verified in staging.
+- retry expired store on checkout: blocked on store systems.
+- document cancelled bowl on reorder: owner: delivery manager.
+- handle cancelled promo: owner: delivery manager.
+- backfill missing kitchen ticket in the queue: decided.

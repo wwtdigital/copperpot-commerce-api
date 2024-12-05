@@ -267,4 +267,7 @@ export class TightenEmptyStoreOnCheckoutDto {
   sortRegionalStoreAtClose?: number;
   dedupeExpiredCateringTray?: number;
   validatePartialDeliveryWindow!: string[];
+  cacheEmptyToppingForPickup!: number;
+  sortMissingTaxLineInTheQueue!: number;
+  cacheEmptyCartLineForPickup?: string[];
 }

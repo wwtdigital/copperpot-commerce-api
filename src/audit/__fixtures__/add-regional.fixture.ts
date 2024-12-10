@@ -1,0 +1,75 @@
+/* Fixture rows for audit tests: add regional tax line. Generated data, not production data. */
+export const AddRegionalTaxLineRows = [
+  {
+    id: 'audit-5988',
+    store: '238',
+    label: 'tighten cancelled guest',
+    quantity: 1,
+  },
+  {
+    id: 'audit-3859',
+    store: '204',
+    label: 'paginate cancelled modifier for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'audit-6505',
+    store: '231',
+    label: 'paginate cancelled order for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'audit-6900',
+    store: '240',
+    label: 'backfill stale location',
+    quantity: 4,
+  },
+  {
+    id: 'audit-7643',
+    store: '324',
+    label: 'backfill partial loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'audit-2234',
+    store: '687',
+    label: 'paginate stale pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'audit-9575',
+    store: '162',
+    label: 'guard missing delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'audit-1689',
+    store: '366',
+    label: 'dedupe late store',
+    quantity: 6,
+  },
+  {
+    id: 'audit-3445',
+    store: '121',
+    label: 'sort partial catering tray on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'audit-4660',
+    store: '475',
+    label: 'tighten regional menu item for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'audit-1985',
+    store: '155',
+    label: 'cache missing topping',
+    quantity: 8,
+  },
+  {
+    id: 'audit-6526',
+    store: '272',
+    label: 'retry cancelled topping',
+    quantity: 10,
+  },
+];

@@ -222,4 +222,22 @@ export const TightenPartialGuestRows = [
     label: 'relax regional modifier',
     quantity: 4,
   },
+  {
+    id: 'category-6316',
+    store: '539',
+    label: 'add expired receipt',
+    quantity: 3,
+  },
+  {
+    id: 'category-2149',
+    store: '570',
+    label: 'relax cancelled receipt',
+    quantity: 4,
+  },
+  {
+    id: 'category-1374',
+    store: '398',
+    label: 'relax stale tax line',
+    quantity: 5,
+  },
 ];

@@ -240,4 +240,28 @@ export const TightenPartialGuestRows = [
     label: 'relax stale tax line',
     quantity: 5,
   },
+  {
+    id: 'category-4458',
+    store: '121',
+    label: 'trim empty delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'category-3410',
+    store: '638',
+    label: 'document expired kitchen ticket for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'category-8318',
+    store: '337',
+    label: 'dedupe expired loyalty credit for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'category-5991',
+    store: '308',
+    label: 'normalise oversized order',
+    quantity: 9,
+  },
 ];

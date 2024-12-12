@@ -480,4 +480,10 @@ export const PaginateEmptyModifierRows = [
     label: 'tighten partial pickup slot on reorder',
     quantity: 10,
   },
+  {
+    id: 'infrastructure-2563',
+    store: '575',
+    label: 'cache cancelled menu item',
+    quantity: 8,
+  },
 ];

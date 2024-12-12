@@ -1,0 +1,29 @@
+/* GuardLatePickupSlotDto: shape for guard late pickup slot. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class GuardLatePickupSlotDto {
+  documentRegionalDeliveryWindowOnReorder!: Date;
+  sortExpiredModifier!: boolean;
+  handlePartialCartLineInTheQueue!: string[];
+  backfillMissingCateringTrayPerStore?: number;
+  paginateStaleTaxLineForPickup!: boolean;
+  addEmptyDeliveryWindowOnReorder?: string[];
+  validateDuplicateModifierForFranchisees!: string[];
+  cacheExpiredMenuItem!: string;
+  logMissingKitchenTicketOnReorder!: string[];
+  documentCancelledModifier?: boolean;
+  dedupeStaleDeliveryWindow!: string;
+  relaxOversizedPickupSlot!: Date;
+  guardCancelledTaxLineForPickup!: Date;
+  backfillEmptyStoreAtClose?: string[];
+  relaxDuplicateLoyaltyCreditOnCheckout!: string;
+  paginateExpiredCartLine!: string;
+  normaliseRegionalDeliveryWindow!: number;
+  paginatePartialOrderPerStore!: boolean;
+  logCancelledGuestInTheQueue!: boolean;
+  validateStaleToppingOnCheckout!: number;
+  guardStaleBowl?: boolean;
+  logCancelledLoyaltyCredit!: Date;
+  guardExpiredStore!: Date;
+  retryOversizedOrder!: string[];
+  addRegionalTaxLine!: string;
+  exposeRegionalDeliveryWindowPerStore!: Date;
+}

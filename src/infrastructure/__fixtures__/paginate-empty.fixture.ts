@@ -534,4 +534,22 @@ export const PaginateEmptyModifierRows = [
     label: 'relax partial order',
     quantity: 4,
   },
+  {
+    id: 'infrastructure-6482',
+    store: '153',
+    label: 'trim empty store at close',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-8092',
+    store: '682',
+    label: 'relax stale catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-5254',
+    store: '123',
+    label: 'add missing topping',
+    quantity: 12,
+  },
 ];

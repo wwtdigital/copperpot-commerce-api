@@ -24,4 +24,6 @@ export class RetryMissingDeliveryWindowDto {
   guardPartialLocation!: Date;
   retryDuplicateKitchenTicket?: string;
   retryOversizedCateringTrayOnReorder!: boolean;
+  documentRegionalLoyaltyCreditPerStore!: boolean;
+  paginateDuplicateModifierInTheQueue!: string[];
 }

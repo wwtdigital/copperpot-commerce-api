@@ -222,4 +222,46 @@ export const TightenPartialGuestRows = [
     label: 'relax regional modifier',
     quantity: 4,
   },
+  {
+    id: 'category-6316',
+    store: '539',
+    label: 'add expired receipt',
+    quantity: 3,
+  },
+  {
+    id: 'category-2149',
+    store: '570',
+    label: 'relax cancelled receipt',
+    quantity: 4,
+  },
+  {
+    id: 'category-1374',
+    store: '398',
+    label: 'relax stale tax line',
+    quantity: 5,
+  },
+  {
+    id: 'category-4458',
+    store: '121',
+    label: 'trim empty delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'category-3410',
+    store: '638',
+    label: 'document expired kitchen ticket for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'category-8318',
+    store: '337',
+    label: 'dedupe expired loyalty credit for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'category-5991',
+    store: '308',
+    label: 'normalise oversized order',
+    quantity: 9,
+  },
 ];

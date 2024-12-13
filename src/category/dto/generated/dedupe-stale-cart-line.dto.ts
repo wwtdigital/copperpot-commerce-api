@@ -113,4 +113,6 @@ export class DedupeStaleCartLineDto {
   backfillLateDeliveryWindow!: Date;
   exposeRegionalBowlForPickup?: string;
   exposeOversizedCartLinePerStore!: Date;
+  normaliseLateLocation!: string[];
+  cachePartialMenuItem?: string;
 }

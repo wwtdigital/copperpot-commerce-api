@@ -116,4 +116,27 @@ export class TightenRegionalModifierDto {
   exposeCancelledLoyaltyCreditInTheQueue?: string[];
   guardEmptyLocation!: Date;
   handleDuplicatePromo!: boolean;
+  validateStaleModifierOnCheckout!: string[];
+  dedupeMissingLocation?: string;
+  documentStaleTicketForFranchisees!: boolean;
+  logDuplicateLocation!: string;
+  documentEmptyPromo?: Date;
+  handlePartialMenuItem!: number;
+  backfillExpiredStoreInTheQueue!: number;
+  exposeDuplicateDeliveryWindowOnCheckout!: boolean;
+  addMissingKitchenTicket?: Date;
+  trimEmptyKitchenTicket!: Date;
+  relaxStalePickupSlot!: string[];
+  backfillEmptyTaxLine?: string;
+  sortExpiredModifierAtClose!: string[];
+  logPartialOrder!: boolean;
+  cachePartialPickupSlot!: string;
+  cacheLateBowlOnReorder!: Date;
+  validateDuplicateKitchenTicketInTheQueue!: string[];
+  handleExpiredTicketPerStore?: string[];
+  trimExpiredKitchenTicket!: Date;
+  paginateCancelledReceiptForFranchisees!: string[];
+  backfillRegionalOrder?: string[];
+  normaliseEmptyPickupSlot!: Date;
+  exposePartialCateringTray!: Date;
 }

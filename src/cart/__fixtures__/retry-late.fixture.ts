@@ -24,4 +24,34 @@ export const RetryLateOrderRows = [
     label: 'add stale menu item',
     quantity: 8,
   },
+  {
+    id: 'cart-1319',
+    store: '500',
+    label: 'handle stale receipt on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'cart-7583',
+    store: '115',
+    label: 'trim expired loyalty credit at close',
+    quantity: 5,
+  },
+  {
+    id: 'cart-7655',
+    store: '576',
+    label: 'expose stale receipt',
+    quantity: 4,
+  },
+  {
+    id: 'cart-1223',
+    store: '225',
+    label: 'sort missing promo in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'cart-7722',
+    store: '389',
+    label: 'paginate expired menu item on reorder',
+    quantity: 7,
+  },
 ];

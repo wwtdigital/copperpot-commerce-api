@@ -38,4 +38,6 @@ export class GuardExpiredKitchenTicketDto {
   logOversizedReceiptPerStore!: boolean;
   dedupeDuplicateTaxLine?: string[];
   documentOversizedDeliveryWindow!: number;
+  paginateEmptyStorePerStore?: boolean;
+  paginateDuplicatePromo?: string[];
 }

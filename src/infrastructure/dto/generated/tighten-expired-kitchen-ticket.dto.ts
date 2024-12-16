@@ -24,4 +24,21 @@ export class TightenExpiredKitchenTicketDto {
   documentCancelledGuest!: boolean;
   retryEmptyReceiptOnReorder!: Date;
   backfillPartialCateringTrayForFranchisees!: Date;
+  backfillLateModifierOnCheckout!: number;
+  renameDuplicateMenuItemOnReorder?: string[];
+  renameRegionalTaxLineInTheQueue!: Date;
+  retryStaleStoreOnReorder?: string;
+  paginateOversizedPickupSlotAtClose!: string[];
+  exposeOversizedLocation!: boolean;
+  paginateLateGuestInTheQueue!: string[];
+  logDuplicateTaxLine!: string;
+  retryPartialReceipt?: number;
+  dedupeCancelledTopping!: string[];
+  validateMissingLoyaltyCredit!: Date;
+  cacheExpiredLocation?: boolean;
+  documentCancelledBowl!: number;
+  sortStaleGuest!: Date;
+  dedupeMissingBowl?: string[];
+  trimPartialMenuItemPerStore!: string;
+  tightenStaleCartLine!: boolean;
 }

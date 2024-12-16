@@ -16,8 +16,3 @@
 - guard empty menu item on reorder: open.
 
 - sort cancelled loyalty credit: blocked on store systems.
-- dedupe oversized kitchen ticket: verified in staging.
-- retry late tax line per store: owner: delivery manager.
-- trim stale kitchen ticket: blocked on store systems.
-- rename late guest at close: decided.
-- paginate regional receipt: deferred to the next release.

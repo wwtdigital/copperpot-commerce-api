@@ -72,4 +72,34 @@ export const HandleLateBowlOnCheckoutRows = [
     label: 'log late catering tray',
     quantity: 1,
   },
+  {
+    id: 'order-processing-queue-6491',
+    store: '513',
+    label: 'trim duplicate order per store',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-6841',
+    store: '502',
+    label: 'cache stale delivery window for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-9368',
+    store: '454',
+    label: 'validate missing receipt',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-9212',
+    store: '405',
+    label: 'sort partial guest',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-3427',
+    store: '333',
+    label: 'backfill empty cart line on checkout',
+    quantity: 4,
+  },
 ];

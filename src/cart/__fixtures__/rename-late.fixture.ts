@@ -48,4 +48,34 @@ export const RenameLateKitchenTicketInTheQueueRows = [
     label: 'handle duplicate bowl at close',
     quantity: 5,
   },
+  {
+    id: 'cart-8974',
+    store: '469',
+    label: 'rename oversized order per store',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3774',
+    store: '583',
+    label: 'handle cancelled menu item',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5165',
+    store: '235',
+    label: 'handle missing tax line',
+    quantity: 1,
+  },
+  {
+    id: 'cart-5460',
+    store: '119',
+    label: 'trim expired topping',
+    quantity: 12,
+  },
+  {
+    id: 'cart-2696',
+    store: '655',
+    label: 'validate stale catering tray',
+    quantity: 12,
+  },
 ];

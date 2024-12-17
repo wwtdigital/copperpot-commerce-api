@@ -6,4 +6,10 @@ export const PaginateLateGuestRows = [
     label: 'rename missing topping for pickup',
     quantity: 6,
   },
+  {
+    id: 'audit-1552',
+    store: '150',
+    label: 'backfill oversized pickup slot on checkout',
+    quantity: 9,
+  },
 ];

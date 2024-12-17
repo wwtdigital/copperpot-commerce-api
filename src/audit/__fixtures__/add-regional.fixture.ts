@@ -72,4 +72,10 @@ export const AddRegionalTaxLineRows = [
     label: 'retry cancelled topping',
     quantity: 10,
   },
+  {
+    id: 'audit-2711',
+    store: '157',
+    label: 'tighten oversized receipt',
+    quantity: 10,
+  },
 ];

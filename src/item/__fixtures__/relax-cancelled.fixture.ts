@@ -156,4 +156,58 @@ export const RelaxCancelledMenuItemRows = [
     label: 'expose late guest',
     quantity: 2,
   },
+  {
+    id: 'item-1099',
+    store: '187',
+    label: 'normalise partial promo for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'item-4052',
+    store: '473',
+    label: 'validate late kitchen ticket for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'item-5091',
+    store: '205',
+    label: 'relax empty ticket on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'item-3089',
+    store: '112',
+    label: 'relax cancelled receipt on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'item-9418',
+    store: '426',
+    label: 'backfill late menu item on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'item-9951',
+    store: '627',
+    label: 'backfill stale menu item',
+    quantity: 1,
+  },
+  {
+    id: 'item-6639',
+    store: '409',
+    label: 'retry regional menu item per store',
+    quantity: 2,
+  },
+  {
+    id: 'item-3717',
+    store: '259',
+    label: 'dedupe expired pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'item-6650',
+    store: '547',
+    label: 'guard expired location',
+    quantity: 1,
+  },
 ];

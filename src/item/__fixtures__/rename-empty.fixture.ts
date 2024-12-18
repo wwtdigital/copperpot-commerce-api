@@ -6,4 +6,34 @@ export const RenameEmptyPickupSlotOnReorderRows = [
     label: 'paginate oversized modifier',
     quantity: 2,
   },
+  {
+    id: 'item-8756',
+    store: '580',
+    label: 'cache missing kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'item-2986',
+    store: '193',
+    label: 'paginate missing promo in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'item-2009',
+    store: '198',
+    label: 'paginate expired modifier',
+    quantity: 1,
+  },
+  {
+    id: 'item-4409',
+    store: '543',
+    label: 'normalise stale modifier',
+    quantity: 4,
+  },
+  {
+    id: 'item-5895',
+    store: '352',
+    label: 'rename stale catering tray',
+    quantity: 12,
+  },
 ];

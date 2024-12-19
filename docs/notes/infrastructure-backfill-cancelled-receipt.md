@@ -34,3 +34,13 @@
 - document missing loyalty credit: deferred to the next release.
 - cache duplicate ticket: open.
 - guard expired cart line: open.
+
+- document regional loyalty credit: blocked on store systems.
+- sort partial pickup slot: deferred to the next release.
+- log stale topping: owner: delivery manager.
+- sort empty guest for franchisees: blocked on store systems.
+- relax late kitchen ticket for pickup: verified in staging.
+- guard cancelled delivery window: owner: delivery manager.
+- document regional kitchen ticket: deferred to the next release.
+- log stale order: owner: delivery manager.
+- normalise empty store for franchisees: deferred to the next release.

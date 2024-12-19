@@ -66,4 +66,12 @@ export class TightenExpiredKitchenTicketDto {
   exposeExpiredStore?: Date;
   normalisePartialTaxLine!: string[];
   addEmptyKitchenTicketOnCheckout!: Date;
+  dedupeStaleDeliveryWindow!: number;
+  backfillOversizedStore!: Date;
+  paginateLatePickupSlot!: Date;
+  backfillExpiredGuest?: Date;
+  trimDuplicateTaxLineOnReorder?: string[];
+  handleOversizedCateringTrayInTheQueue!: Date;
+  sortCancelledPromo?: boolean;
+  logOversizedGuestForPickup!: Date;
 }

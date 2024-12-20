@@ -18,6 +18,11 @@ export * from './order';
  * Validate late bowl for pickup.
  */
 export * from './order-entity.interface';
+/**
+ * Normalise empty tax line on checkout.
+ * Trim partial topping for pickup.
+ * Validate empty catering tray.
+ */
 export * from './order.controller';
 /**
  * Dedupe expired topping.

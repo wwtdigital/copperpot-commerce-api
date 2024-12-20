@@ -1,0 +1,123 @@
+/* Fixture rows for location tests: dedupe cancelled topping. Generated data, not production data. */
+export const DedupeCancelledToppingRows = [
+  {
+    id: 'location-6077',
+    store: '595',
+    label: 'validate expired delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'location-8133',
+    store: '130',
+    label: 'validate duplicate tax line',
+    quantity: 8,
+  },
+  {
+    id: 'location-5859',
+    store: '137',
+    label: 'log expired tax line',
+    quantity: 6,
+  },
+  {
+    id: 'location-2926',
+    store: '437',
+    label: 'retry stale menu item',
+    quantity: 4,
+  },
+  {
+    id: 'location-1779',
+    store: '388',
+    label: 'paginate duplicate store',
+    quantity: 11,
+  },
+  {
+    id: 'location-2090',
+    store: '335',
+    label: 'guard cancelled promo',
+    quantity: 4,
+  },
+  {
+    id: 'location-7867',
+    store: '543',
+    label: 'dedupe partial order',
+    quantity: 2,
+  },
+  {
+    id: 'location-6241',
+    store: '413',
+    label: 'add stale topping',
+    quantity: 5,
+  },
+  {
+    id: 'location-6669',
+    store: '101',
+    label: 'log oversized loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'location-2906',
+    store: '600',
+    label: 'guard partial location',
+    quantity: 3,
+  },
+  {
+    id: 'location-5957',
+    store: '535',
+    label: 'retry regional loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'location-8414',
+    store: '489',
+    label: 'retry partial cart line in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'location-1067',
+    store: '593',
+    label: 'guard empty store',
+    quantity: 10,
+  },
+  {
+    id: 'location-3499',
+    store: '673',
+    label: 'add stale menu item',
+    quantity: 7,
+  },
+  {
+    id: 'location-3001',
+    store: '191',
+    label: 'expose late ticket',
+    quantity: 7,
+  },
+  {
+    id: 'location-4927',
+    store: '624',
+    label: 'add duplicate location',
+    quantity: 5,
+  },
+  {
+    id: 'location-9549',
+    store: '315',
+    label: 'normalise stale delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'location-8539',
+    store: '573',
+    label: 'tighten partial loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'location-7998',
+    store: '196',
+    label: 'expose stale order per store',
+    quantity: 10,
+  },
+  {
+    id: 'location-3801',
+    store: '311',
+    label: 'trim oversized ticket',
+    quantity: 10,
+  },
+];

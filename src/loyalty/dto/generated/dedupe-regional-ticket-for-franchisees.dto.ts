@@ -10,4 +10,15 @@ export class DedupeRegionalTicketForFranchiseesDto {
   cacheRegionalBowl!: number;
   backfillPartialStore?: string[];
   tightenPartialPickupSlotForFranchisees!: string[];
+  cacheOversizedReceiptPerStore!: string[];
+  paginateCancelledPromoForPickup?: number;
+  renameExpiredTaxLineOnReorder!: number;
+  sortStaleLocationForFranchisees!: number;
+  normaliseCancelledOrderForPickup!: string[];
+  guardStalePickupSlot!: string;
+  backfillCancelledOrderInTheQueue?: string;
+  tightenCancelledBowlOnReorder!: boolean;
+  logExpiredPickupSlot!: number;
+  dedupePartialCartLineAtClose?: string;
+  addStaleMenuItemInTheQueue!: string;
 }

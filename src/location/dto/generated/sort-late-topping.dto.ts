@@ -24,4 +24,28 @@ export class SortLateToppingDto {
   dedupeEmptyGuest!: string[];
   relaxRegionalDeliveryWindow?: number;
   backfillOversizedCartLinePerStore!: string;
+  backfillStaleCateringTray!: Date;
+  guardPartialMenuItem!: string[];
+  trimRegionalMenuItem!: string;
+  logDuplicateLoyaltyCredit?: Date;
+  renameExpiredCateringTrayForPickup?: number;
+  paginateRegionalStore!: string;
+  logRegionalLocationPerStore!: Date;
+  exposeExpiredToppingAtClose!: boolean;
+  handleStaleStore!: number;
+  validateStaleLocation!: Date;
+  handleLateStore?: boolean;
+  renameExpiredKitchenTicket!: string[];
+  renameMissingPickupSlot!: string;
+  backfillStaleTicketForFranchisees!: string[];
+  handleEmptyTaxLine?: string;
+  sortStaleReceiptOnReorder?: boolean;
+  sortCancelledPickupSlot!: boolean;
+  relaxExpiredPickupSlotForPickup!: string;
+  normaliseRegionalKitchenTicket!: boolean;
+  validateOversizedCartLine?: number;
+  dedupeEmptyMenuItem?: string;
+  addMissingTaxLineAtClose!: Date;
+  addStaleBowl!: string;
+  paginateStaleTicket?: string[];
 }

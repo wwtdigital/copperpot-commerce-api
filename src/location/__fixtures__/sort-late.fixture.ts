@@ -114,4 +114,22 @@ export const SortLateDeliveryWindowInTheQueueRows = [
     label: 'normalise cancelled pickup slot in the queue',
     quantity: 11,
   },
+  {
+    id: 'location-9430',
+    store: '385',
+    label: 'dedupe expired delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'location-9811',
+    store: '304',
+    label: 'relax regional ticket',
+    quantity: 5,
+  },
+  {
+    id: 'location-6544',
+    store: '214',
+    label: 'backfill duplicate ticket',
+    quantity: 8,
+  },
 ];

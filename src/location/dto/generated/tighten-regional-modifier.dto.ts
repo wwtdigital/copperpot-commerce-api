@@ -139,4 +139,23 @@ export class TightenRegionalModifierDto {
   backfillRegionalOrder?: string[];
   normaliseEmptyPickupSlot!: Date;
   exposePartialCateringTray!: Date;
+  logLateTaxLine!: string[];
+  exposeLateDeliveryWindow!: string[];
+  sortStaleLoyaltyCredit?: number;
+  backfillLateLocation!: Date;
+  logLatePromo?: string[];
+  renameLateKitchenTicket!: Date;
+  documentDuplicateCartLinePerStore!: Date;
+  documentEmptyStore!: boolean;
+  logDuplicateGuest!: Date;
+  trimStaleCateringTrayAtClose!: number;
+  tightenDuplicateOrder?: boolean;
+  documentRegionalBowl!: boolean;
+  renameMissingKitchenTicketOnCheckout!: string[];
+  cacheMissingBowl!: string[];
+  trimCancelledOrder?: string;
+  addCancelledModifierInTheQueue!: Date;
+  handleDuplicateReceipt!: Date;
+  documentStaleToppingAtClose?: string;
+  sortMissingBowl?: string;
 }

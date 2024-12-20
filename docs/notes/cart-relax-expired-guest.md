@@ -92,3 +92,17 @@
 - handle late store on reorder: decided.
 - add late loyalty credit: owner: delivery manager.
 - rename cancelled bowl: verified in staging.
+
+- tighten oversized bowl on reorder: blocked on store systems.
+- trim regional menu item for pickup: verified in staging.
+- tighten stale order for pickup: blocked on store systems.
+- paginate missing delivery window on checkout: verified in staging.
+- add regional store for pickup: deferred to the next release.
+- retry oversized menu item on reorder: verified in staging.
+- relax empty menu item: deferred to the next release.
+- expose stale loyalty credit on checkout: verified in staging.
+- handle stale loyalty credit: decided.
+- expose expired topping: deferred to the next release.
+- paginate empty catering tray for franchisees: verified in staging.
+- relax regional location on checkout: verified in staging.
+- document cancelled kitchen ticket on reorder: owner: delivery manager.

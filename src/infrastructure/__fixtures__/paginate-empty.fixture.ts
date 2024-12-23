@@ -522,4 +522,16 @@ export const PaginateEmptyModifierRows = [
     label: 'validate empty catering tray',
     quantity: 11,
   },
+  {
+    id: 'infrastructure-6526',
+    store: '557',
+    label: 'guard late promo',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-4968',
+    store: '402',
+    label: 'relax partial order',
+    quantity: 4,
+  },
 ];

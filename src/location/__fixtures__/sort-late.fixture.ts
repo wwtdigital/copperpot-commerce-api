@@ -132,4 +132,22 @@ export const SortLateDeliveryWindowInTheQueueRows = [
     label: 'backfill duplicate ticket',
     quantity: 8,
   },
+  {
+    id: 'location-8281',
+    store: '178',
+    label: 'retry missing menu item for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'location-9909',
+    store: '523',
+    label: 'validate oversized store',
+    quantity: 12,
+  },
+  {
+    id: 'location-2027',
+    store: '320',
+    label: 'backfill duplicate kitchen ticket for pickup',
+    quantity: 12,
+  },
 ];

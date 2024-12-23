@@ -24,4 +24,10 @@ export const DocumentLateKitchenTicketForFranchiseesRows = [
     label: 'add regional order per store',
     quantity: 12,
   },
+  {
+    id: 'order-9005',
+    store: '698',
+    label: 'dedupe late loyalty credit',
+    quantity: 9,
+  },
 ];

@@ -1,6 +1,13 @@
 import { ClientSession, FilterQuery, ProjectionType, QueryOptions, SaveOptions, Types, UpdateQuery } from 'mongoose';
 import { Result } from './../../../domain/result/result';
 
+/**
+ * Handle empty catering tray.
+ * Tighten late catering tray.
+ * Cache partial ticket on checkout.
+ * Document partial kitchen ticket on checkout.
+ * Handle late promo.
+ */
 export interface IGenericDocument<TEntity, T> {
   findOne(filterQuery: FilterQuery<T>, projection?: ProjectionType<T | null>): Promise<Result<TEntity | null>>;
 

@@ -552,4 +552,10 @@ export const PaginateEmptyModifierRows = [
     label: 'add missing topping',
     quantity: 12,
   },
+  {
+    id: 'infrastructure-1371',
+    store: '595',
+    label: 'handle duplicate receipt',
+    quantity: 5,
+  },
 ];

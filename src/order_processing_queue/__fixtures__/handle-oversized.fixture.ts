@@ -18,4 +18,10 @@ export const HandleOversizedDeliveryWindowAtCloseRows = [
     label: 'log cancelled store',
     quantity: 8,
   },
+  {
+    id: 'order-processing-queue-6733',
+    store: '318',
+    label: 'document empty catering tray',
+    quantity: 12,
+  },
 ];

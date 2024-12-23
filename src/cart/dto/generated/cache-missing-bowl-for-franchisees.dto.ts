@@ -26,4 +26,22 @@ export class CacheMissingBowlForFranchiseesDto {
   addCancelledOrder?: string;
   logOversizedLoyaltyCreditForFranchisees!: boolean;
   exposeStaleOrderOnReorder!: Date;
+  cacheStaleMenuItem!: boolean;
+  documentOversizedDeliveryWindow!: string[];
+  sortLateReceiptForPickup?: boolean;
+  renameRegionalReceiptAtClose!: string;
+  tightenMissingStore!: string[];
+  dedupePartialBowlForFranchisees?: string[];
+  exposeEmptyOrder!: boolean;
+  sortDuplicateGuest?: Date;
+  dedupeEmptyTopping!: string[];
+  guardDuplicateBowl!: number;
+  handleStaleCateringTray?: number;
+  exposeRegionalBowl?: boolean;
+  sortStaleToppingForFranchisees!: Date;
+  renameEmptyLoyaltyCredit!: string;
+  handleCancelledLocation!: string;
+  tightenRegionalTicket!: string;
+  relaxCancelledCateringTray?: boolean;
+  retryRegionalCartLine!: boolean;
 }

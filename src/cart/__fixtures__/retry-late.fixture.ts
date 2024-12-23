@@ -54,4 +54,16 @@ export const RetryLateOrderRows = [
     label: 'paginate expired menu item on reorder',
     quantity: 7,
   },
+  {
+    id: 'cart-5008',
+    store: '461',
+    label: 'dedupe cancelled order',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5336',
+    store: '287',
+    label: 'expose cancelled tax line',
+    quantity: 12,
+  },
 ];

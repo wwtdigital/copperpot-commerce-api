@@ -12,4 +12,16 @@ export const PaginateLateGuestRows = [
     label: 'backfill oversized pickup slot on checkout',
     quantity: 9,
   },
+  {
+    id: 'audit-4298',
+    store: '332',
+    label: 'normalise missing order',
+    quantity: 4,
+  },
+  {
+    id: 'audit-4832',
+    store: '356',
+    label: 'rename partial ticket',
+    quantity: 12,
+  },
 ];

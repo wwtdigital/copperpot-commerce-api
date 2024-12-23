@@ -11,4 +11,14 @@ export class RetryCancelledBowlOnReorderDto {
   documentOversizedCateringTray?: Date;
   cacheOversizedKitchenTicket!: string;
   addDuplicatePickupSlotAtClose?: Date;
+  paginateRegionalTopping!: boolean;
+  normaliseMissingMenuItem!: string;
+  relaxDuplicateKitchenTicketInTheQueue!: string;
+  normaliseDuplicateBowl?: string;
+  paginateRegionalTaxLineOnCheckout!: string[];
+  logPartialLoyaltyCredit!: Date;
+  renameStaleToppingPerStore!: boolean;
+  sortDuplicateOrder!: number;
+  paginateDuplicatePickupSlot!: number;
+  dedupeStaleCateringTrayOnReorder!: boolean;
 }

@@ -26,4 +26,17 @@ export class DocumentLateLocationDto {
   tightenStaleBowlAtClose!: string[];
   relaxDuplicateTopping!: Date;
   addDuplicateMenuItemForFranchisees!: number;
+  relaxRegionalLocationInTheQueue?: Date;
+  addExpiredGuestOnReorder!: Date;
+  tightenRegionalTicket?: string;
+  addCancelledMenuItem!: string;
+  exposeRegionalCartLine!: string[];
+  retryCancelledPromo!: boolean;
+  relaxLateToppingInTheQueue?: Date;
+  exposeMissingGuestInTheQueue!: boolean;
+  cacheStaleDeliveryWindowForFranchisees!: string;
+  cacheCancelledMenuItem!: boolean;
+  paginateCancelledBowl!: boolean;
+  renameDuplicateKitchenTicketOnReorder!: string[];
+  sortRegionalTaxLine?: string[];
 }

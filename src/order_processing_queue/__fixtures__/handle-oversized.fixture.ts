@@ -6,4 +6,16 @@ export const HandleOversizedDeliveryWindowAtCloseRows = [
     label: 'rename partial receipt on reorder',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-7400',
+    store: '207',
+    label: 'document empty location on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-7889',
+    store: '387',
+    label: 'log cancelled store',
+    quantity: 8,
+  },
 ];

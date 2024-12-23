@@ -29,3 +29,5 @@
 - paginate partial catering tray: open.
 - cache empty tax line: decided.
 - log late guest for pickup: decided.
+
+- backfill partial loyalty credit: verified in staging.

@@ -72,3 +72,18 @@
 - document late tax line: blocked on store systems.
 - relax empty order: owner: delivery manager.
 - backfill expired store: deferred to the next release.
+
+- validate duplicate cart line: open.
+- log oversized cart line in the queue: owner: delivery manager.
+- rename missing ticket in the queue: verified in staging.
+- expose empty cart line: deferred to the next release.
+- expose late tax line for pickup: blocked on store systems.
+- relax late guest on checkout: verified in staging.
+- retry missing ticket for pickup: deferred to the next release.
+- normalise oversized topping: deferred to the next release.
+- backfill stale kitchen ticket at close: blocked on store systems.
+- validate partial cart line: deferred to the next release.
+- tighten expired ticket: deferred to the next release.
+- paginate cancelled modifier: deferred to the next release.
+- handle cancelled delivery window on reorder: decided.
+- normalise empty delivery window: decided.

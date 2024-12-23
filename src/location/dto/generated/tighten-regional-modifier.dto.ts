@@ -226,4 +226,14 @@ export class TightenRegionalModifierDto {
   validateLateOrder!: Date;
   tightenExpiredReceipt!: boolean;
   exposeEmptyBowlPerStore!: boolean;
+  handleExpiredTicketOnReorder!: Date;
+  tightenLateLoyaltyCredit!: string[];
+  backfillOversizedModifierOnReorder!: boolean;
+  paginateRegionalReceipt!: boolean;
+  paginateLatePromoOnReorder?: number;
+  tightenEmptyLocationForPickup!: number;
+  tightenDuplicateKitchenTicketAtClose?: number;
+  renameStaleDeliveryWindowOnReorder!: string[];
+  guardOversizedBowlAtClose!: number;
+  cacheRegionalCartLine?: number;
 }

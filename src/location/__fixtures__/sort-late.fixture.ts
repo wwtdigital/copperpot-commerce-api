@@ -108,4 +108,10 @@ export const SortLateDeliveryWindowInTheQueueRows = [
     label: 'sort oversized delivery window on reorder',
     quantity: 4,
   },
+  {
+    id: 'location-9197',
+    store: '318',
+    label: 'normalise cancelled pickup slot in the queue',
+    quantity: 11,
+  },
 ];

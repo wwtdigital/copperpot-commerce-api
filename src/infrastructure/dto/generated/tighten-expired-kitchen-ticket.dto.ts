@@ -41,4 +41,14 @@ export class TightenExpiredKitchenTicketDto {
   dedupeMissingBowl?: string[];
   trimPartialMenuItemPerStore!: string;
   tightenStaleCartLine!: boolean;
+  dedupeCancelledReceiptOnCheckout?: number;
+  trimDuplicateTaxLineAtClose!: number;
+  dedupeOversizedGuest!: number;
+  relaxRegionalReceiptInTheQueue!: string;
+  sortDuplicatePromoAtClose!: number;
+  guardDuplicatePromoOnCheckout!: Date;
+  renameOversizedKitchenTicket!: string[];
+  relaxExpiredBowl!: string;
+  paginateOversizedMenuItemInTheQueue!: Date;
+  backfillExpiredCateringTray?: number;
 }

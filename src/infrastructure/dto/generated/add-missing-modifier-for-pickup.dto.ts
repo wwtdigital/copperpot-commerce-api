@@ -157,4 +157,11 @@ export class AddMissingModifierForPickupDto {
   relaxCancelledStorePerStore!: Date;
   guardLateReceipt?: number;
   addPartialKitchenTicketPerStore!: string;
+  cacheOversizedTaxLine?: number;
+  handleCancelledCateringTray!: boolean;
+  backfillOversizedMenuItem!: Date;
+  sortDuplicateToppingInTheQueue!: string[];
+  backfillLateLocation!: number;
+  backfillEmptyPromoAtClose?: boolean;
+  validateDuplicateToppingForFranchisees?: Date;
 }

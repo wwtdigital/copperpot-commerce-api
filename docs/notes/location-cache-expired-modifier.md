@@ -64,3 +64,11 @@
 - trim partial bowl on checkout: verified in staging.
 - document expired menu item: blocked on store systems.
 - sort empty modifier on reorder: verified in staging.
+
+- guard cancelled menu item per store: blocked on store systems.
+- log regional loyalty credit: deferred to the next release.
+- rename expired guest on reorder: open.
+- normalise expired store: owner: delivery manager.
+- document late tax line: blocked on store systems.
+- relax empty order: owner: delivery manager.
+- backfill expired store: deferred to the next release.

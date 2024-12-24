@@ -48,4 +48,9 @@ export class SortLateToppingDto {
   addMissingTaxLineAtClose!: Date;
   addStaleBowl!: string;
   paginateStaleTicket?: string[];
+  exposeMissingBowlAtClose!: boolean;
+  retryExpiredReceipt!: string[];
+  addDuplicateStoreAtClose!: string[];
+  renameOversizedDeliveryWindow!: string[];
+  validateEmptyToppingForPickup?: boolean;
 }

@@ -162,4 +162,16 @@ export class GuardLateLocationDto {
   dedupeEmptyPickupSlotInTheQueue!: Date;
   backfillOversizedModifier?: string;
   documentMissingPromoOnReorder!: Date;
+  logCancelledBowl!: boolean;
+  exposeCancelledReceipt!: number;
+  trimDuplicateLocationForPickup?: boolean;
+  dedupeCancelledBowl!: number;
+  logPartialKitchenTicketPerStore!: string;
+  sortRegionalLoyaltyCreditAtClose!: string[];
+  paginateOversizedCateringTray!: string;
+  guardPartialTaxLineOnReorder!: number;
+  validateExpiredBowl!: Date;
+  guardLateReceiptAtClose!: boolean;
+  backfillRegionalTaxLine?: boolean;
+  guardStaleDeliveryWindowOnCheckout!: string;
 }

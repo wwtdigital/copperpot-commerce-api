@@ -114,4 +114,15 @@ export class HandleCancelledCartLineDto {
   sortStaleLocation!: number;
   backfillRegionalStore!: string;
   normaliseMissingDeliveryWindow!: string;
+  renameStalePickupSlotInTheQueue!: string;
+  validateMissingTicketOnReorder?: boolean;
+  dedupeDuplicatePickupSlot!: Date;
+  backfillStaleOrder!: string[];
+  validateOversizedKitchenTicketAtClose!: boolean;
+  trimMissingStore!: string[];
+  documentLatePromoAtClose?: boolean;
+  relaxDuplicateLocationPerStore!: Date;
+  documentDuplicatePickupSlotOnReorder?: Date;
+  renameStaleLocation!: string;
+  relaxMissingReceipt!: number;
 }

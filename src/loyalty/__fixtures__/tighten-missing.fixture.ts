@@ -138,4 +138,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'normalise regional kitchen ticket on reorder',
     quantity: 11,
   },
+  {
+    id: 'loyalty-6298',
+    store: '411',
+    label: 'tighten empty receipt',
+    quantity: 6,
+  },
 ];

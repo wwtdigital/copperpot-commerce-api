@@ -66,3 +66,18 @@
 - sort duplicate receipt: blocked on store systems.
 - log regional catering tray per store: owner: delivery manager.
 - normalise empty cart line: deferred to the next release.
+
+- rename partial order for pickup: owner: delivery manager.
+- backfill oversized tax line for pickup: decided.
+- normalise late receipt: open.
+- cache missing loyalty credit on checkout: owner: delivery manager.
+- validate late loyalty credit: verified in staging.
+- guard cancelled location for pickup: verified in staging.
+- handle duplicate kitchen ticket: deferred to the next release.
+- normalise cancelled tax line: blocked on store systems.
+- log expired delivery window: open.
+- sort regional store: verified in staging.
+- tighten cancelled receipt: owner: delivery manager.
+- tighten missing cart line per store: verified in staging.
+- retry regional ticket: decided.
+- paginate regional kitchen ticket: deferred to the next release.

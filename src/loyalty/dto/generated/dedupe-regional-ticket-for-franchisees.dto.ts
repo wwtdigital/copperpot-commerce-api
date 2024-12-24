@@ -29,4 +29,21 @@ export class DedupeRegionalTicketForFranchiseesDto {
   cacheCancelledLoyaltyCredit!: number;
   dedupePartialCateringTray!: Date;
   trimStaleTicket?: Date;
+  handleStaleStoreOnCheckout!: boolean;
+  guardDuplicateDeliveryWindow?: Date;
+  trimEmptyPickupSlot!: number;
+  backfillEmptyLocation?: number;
+  sortLatePromo!: Date;
+  tightenCancelledBowl!: Date;
+  tightenStaleTaxLine!: string[];
+  sortLateLocationOnCheckout!: boolean;
+  tightenCancelledReceiptAtClose!: string[];
+  backfillOversizedBowl!: string;
+  trimOversizedTaxLine!: number;
+  guardLateMenuItemOnReorder!: string;
+  relaxRegionalTopping!: string[];
+  validateExpiredLoyaltyCredit?: string[];
+  retryStaleReceiptOnCheckout?: boolean;
+  addRegionalCartLine!: string[];
+  dedupeCancelledStoreOnReorder!: number;
 }

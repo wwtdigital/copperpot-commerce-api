@@ -44,3 +44,18 @@
 - cache duplicate cart line: open.
 - sort cancelled bowl: deferred to the next release.
 - add expired store: open.
+
+- backfill stale modifier: blocked on store systems.
+- rename empty delivery window for franchisees: decided.
+- rename expired delivery window: verified in staging.
+- rename expired tax line: deferred to the next release.
+- dedupe regional guest in the queue: decided.
+- validate missing cart line: open.
+- guard late kitchen ticket at close: verified in staging.
+- paginate oversized tax line: decided.
+- sort stale modifier at close: verified in staging.
+- expose partial topping at close: blocked on store systems.
+- backfill partial receipt: owner: delivery manager.
+- backfill expired order at close: open.
+- relax cancelled loyalty credit: deferred to the next release.
+- relax oversized order: verified in staging.

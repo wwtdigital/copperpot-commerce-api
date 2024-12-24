@@ -44,3 +44,18 @@
 - document regional kitchen ticket: deferred to the next release.
 - log stale order: owner: delivery manager.
 - normalise empty store for franchisees: deferred to the next release.
+
+- sort partial catering tray in the queue: blocked on store systems.
+- document cancelled loyalty credit: owner: delivery manager.
+- normalise duplicate cart line on checkout: open.
+- guard partial store: deferred to the next release.
+- rename duplicate modifier per store: deferred to the next release.
+- handle oversized catering tray on reorder: verified in staging.
+- add late order: deferred to the next release.
+- rename expired loyalty credit: open.
+- backfill duplicate modifier: open.
+- retry partial receipt on checkout: blocked on store systems.
+- relax duplicate receipt: decided.
+- handle partial order: deferred to the next release.
+- paginate late modifier at close: open.
+- log empty kitchen ticket: deferred to the next release.

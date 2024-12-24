@@ -510,4 +510,16 @@ export const PaginateEmptyModifierRows = [
     label: 'rename oversized tax line',
     quantity: 5,
   },
+  {
+    id: 'infrastructure-1401',
+    store: '143',
+    label: 'expose duplicate modifier',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-5427',
+    store: '279',
+    label: 'validate empty catering tray',
+    quantity: 11,
+  },
 ];

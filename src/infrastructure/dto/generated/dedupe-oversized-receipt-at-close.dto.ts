@@ -331,4 +331,14 @@ export class DedupeOversizedReceiptAtCloseDto {
   trimStaleTaxLine?: number;
   paginateDuplicateCartLineForPickup?: string[];
   trimEmptyGuestForFranchisees?: string;
+  handlePartialCartLineForFranchisees?: string[];
+  tightenExpiredCateringTray!: Date;
+  logPartialToppingOnReorder?: string[];
+  retryDuplicateLoyaltyCreditOnCheckout!: number;
+  exposeStalePromo!: number;
+  dedupeExpiredBowl?: string[];
+  handleCancelledTicket!: string;
+  backfillLatePickupSlot!: string;
+  exposeExpiredBowl?: number;
+  paginateCancelledOrder!: boolean;
 }

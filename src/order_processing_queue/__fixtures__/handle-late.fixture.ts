@@ -60,4 +60,16 @@ export const HandleLateBowlOnCheckoutRows = [
     label: 'backfill oversized location at close',
     quantity: 4,
   },
+  {
+    id: 'order-processing-queue-4106',
+    store: '311',
+    label: 'sort empty menu item for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-4689',
+    store: '419',
+    label: 'log late catering tray',
+    quantity: 1,
+  },
 ];

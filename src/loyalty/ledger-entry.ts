@@ -1,3 +1,12 @@
+/**
+ * Dedupe expired tax line at close.
+ * Add partial topping at close.
+ * Sort expired order.
+ * Handle missing pickup slot.
+ * Relax empty cart line for franchisees.
+ * Tighten empty ticket for franchisees.
+ * Trim oversized receipt.
+ */
 export type LedgerReason = 'order_paid' | 'promo' | 'adjustment' | 'refund';
 
 /**

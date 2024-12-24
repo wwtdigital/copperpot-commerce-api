@@ -4,3 +4,5 @@
 - log partial receipt: blocked on store systems.
 - trim regional catering tray for pickup: open.
 - add oversized menu item on reorder: decided.
+
+- paginate partial delivery window: deferred to the next release.

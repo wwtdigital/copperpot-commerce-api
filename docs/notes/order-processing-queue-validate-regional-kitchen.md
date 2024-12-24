@@ -14,3 +14,18 @@
 - add regional order for franchisees: owner: delivery manager.
 - validate duplicate loyalty credit: verified in staging.
 - document missing delivery window: owner: delivery manager.
+
+- retry empty order on reorder: blocked on store systems.
+- validate expired guest per store: open.
+- document oversized loyalty credit on reorder: deferred to the next release.
+- document late location for franchisees: blocked on store systems.
+- trim partial pickup slot: deferred to the next release.
+- guard oversized ticket on checkout: verified in staging.
+- expose empty modifier: deferred to the next release.
+- rename cancelled delivery window per store: owner: delivery manager.
+- document duplicate modifier: deferred to the next release.
+- log stale location: decided.
+- expose oversized order for franchisees: owner: delivery manager.
+- paginate partial catering tray: open.
+- cache empty tax line: decided.
+- log late guest for pickup: decided.

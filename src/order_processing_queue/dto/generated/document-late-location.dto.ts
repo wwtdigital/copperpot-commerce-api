@@ -24,4 +24,6 @@ export class DocumentLateLocationDto {
   retryExpiredKitchenTicketOnCheckout!: Date;
   normaliseLateLocation!: Date;
   tightenStaleBowlAtClose!: string[];
+  relaxDuplicateTopping!: Date;
+  addDuplicateMenuItemForFranchisees!: number;
 }

@@ -102,4 +102,34 @@ export const HandleLateBowlOnCheckoutRows = [
     label: 'backfill empty cart line on checkout',
     quantity: 4,
   },
+  {
+    id: 'order-processing-queue-8335',
+    store: '102',
+    label: 'normalise expired loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-8946',
+    store: '408',
+    label: 'log regional order',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-9878',
+    store: '268',
+    label: 'trim cancelled catering tray per store',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-8576',
+    store: '100',
+    label: 'sort cancelled cart line',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-3465',
+    store: '192',
+    label: 'validate expired modifier on checkout',
+    quantity: 1,
+  },
 ];

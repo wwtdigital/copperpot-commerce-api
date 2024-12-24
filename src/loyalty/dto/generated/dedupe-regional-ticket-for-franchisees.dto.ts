@@ -21,4 +21,12 @@ export class DedupeRegionalTicketForFranchiseesDto {
   logExpiredPickupSlot!: number;
   dedupePartialCartLineAtClose?: string;
   addStaleMenuItemInTheQueue!: string;
+  renameExpiredTopping!: string;
+  guardPartialLocationForFranchisees!: Date;
+  paginateRegionalLoyaltyCredit!: number;
+  retryOversizedPickupSlot!: boolean;
+  documentExpiredModifierAtClose!: string;
+  cacheCancelledLoyaltyCredit!: number;
+  dedupePartialCateringTray!: Date;
+  trimStaleTicket?: Date;
 }

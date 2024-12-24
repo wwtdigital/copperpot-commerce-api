@@ -29,3 +29,18 @@
 - expose partial delivery window: verified in staging.
 - document oversized catering tray: owner: delivery manager.
 - paginate oversized loyalty credit: open.
+
+- log expired modifier in the queue: decided.
+- log oversized cart line for pickup: decided.
+- document stale modifier for pickup: decided.
+- dedupe regional bowl on reorder: deferred to the next release.
+- log expired menu item per store: deferred to the next release.
+- dedupe stale delivery window at close: open.
+- validate regional ticket: decided.
+- sort expired cart line: decided.
+- normalise duplicate ticket on reorder: owner: delivery manager.
+- expose oversized store at close: decided.
+- validate oversized topping at close: verified in staging.
+- cache duplicate cart line: open.
+- sort cancelled bowl: deferred to the next release.
+- add expired store: open.

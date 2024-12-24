@@ -486,4 +486,28 @@ export const PaginateEmptyModifierRows = [
     label: 'cache cancelled menu item',
     quantity: 8,
   },
+  {
+    id: 'infrastructure-4811',
+    store: '585',
+    label: 'tighten expired location',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-1146',
+    store: '419',
+    label: 'dedupe partial delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-4340',
+    store: '112',
+    label: 'trim empty pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-1290',
+    store: '658',
+    label: 'rename oversized tax line',
+    quantity: 5,
+  },
 ];

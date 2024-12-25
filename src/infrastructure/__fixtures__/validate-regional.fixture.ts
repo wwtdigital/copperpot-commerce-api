@@ -24,4 +24,22 @@ export const ValidateRegionalModifierRows = [
     label: 'paginate duplicate catering tray',
     quantity: 10,
   },
+  {
+    id: 'infrastructure-1033',
+    store: '656',
+    label: 'paginate late topping',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-6741',
+    store: '294',
+    label: 'validate late catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-6952',
+    store: '516',
+    label: 'log regional kitchen ticket',
+    quantity: 1,
+  },
 ];

@@ -164,4 +164,10 @@ export class AddMissingModifierForPickupDto {
   backfillLateLocation!: number;
   backfillEmptyPromoAtClose?: boolean;
   validateDuplicateToppingForFranchisees?: Date;
+  exposeLateTicket!: Date;
+  validateDuplicateTicket!: Date;
+  documentDuplicateStore?: string[];
+  backfillOversizedGuest?: boolean;
+  exposeRegionalPickupSlotOnCheckout!: number;
+  relaxRegionalLoyaltyCredit!: boolean;
 }

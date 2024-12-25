@@ -64,4 +64,24 @@ export class TightenExpiredKitchenTicketDto {
   backfillStaleLoyaltyCreditAtClose!: string;
   retryMissingLoyaltyCreditOnReorder?: string[];
   exposeExpiredStore?: Date;
+  normalisePartialTaxLine!: string[];
+  addEmptyKitchenTicketOnCheckout!: Date;
+  dedupeStaleDeliveryWindow!: number;
+  backfillOversizedStore!: Date;
+  paginateLatePickupSlot!: Date;
+  backfillExpiredGuest?: Date;
+  trimDuplicateTaxLineOnReorder?: string[];
+  handleOversizedCateringTrayInTheQueue!: Date;
+  sortCancelledPromo?: boolean;
+  logOversizedGuestForPickup!: Date;
+  trimStaleTaxLine?: string[];
+  handleExpiredBowl!: Date;
+  cacheMissingMenuItem?: boolean;
+  guardOversizedCateringTrayForFranchisees!: boolean;
+  dedupeCancelledCartLineAtClose!: boolean;
+  handleExpiredDeliveryWindowForPickup?: string;
+  logOversizedStore!: string;
+  handleEmptyLocation?: boolean;
+  guardMissingTaxLineAtClose!: string[];
+  relaxExpiredTicketAtClose?: string[];
 }

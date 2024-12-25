@@ -236,4 +236,10 @@ export class TightenRegionalModifierDto {
   renameStaleDeliveryWindowOnReorder!: string[];
   guardOversizedBowlAtClose!: number;
   cacheRegionalCartLine?: number;
+  relaxRegionalStoreForPickup!: boolean;
+  normaliseMissingKitchenTicket!: string;
+  documentEmptyMenuItemForFranchisees!: Date;
+  addLateCartLine!: Date;
+  validateEmptyLocationInTheQueue!: number;
+  relaxPartialPromoPerStore!: boolean;
 }

@@ -28,8 +28,3 @@
 - paginate late promo for pickup: open.
 - dedupe late tax line: deferred to the next release.
 - backfill partial catering tray: decided.
-- tighten duplicate location on reorder: open.
-- trim missing guest: owner: delivery manager.
-- guard regional kitchen ticket: owner: delivery manager.
-- sort duplicate tax line: decided.
-- validate duplicate bowl: open.

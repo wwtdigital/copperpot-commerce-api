@@ -78,4 +78,16 @@ export const AddRegionalTaxLineRows = [
     label: 'tighten oversized receipt',
     quantity: 10,
   },
+  {
+    id: 'audit-1143',
+    store: '261',
+    label: 'log empty menu item',
+    quantity: 6,
+  },
+  {
+    id: 'audit-4164',
+    store: '129',
+    label: 'handle duplicate ticket',
+    quantity: 2,
+  },
 ];

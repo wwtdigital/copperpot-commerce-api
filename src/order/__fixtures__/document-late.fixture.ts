@@ -30,4 +30,34 @@ export const DocumentLateKitchenTicketForFranchiseesRows = [
     label: 'dedupe late loyalty credit',
     quantity: 9,
   },
+  {
+    id: 'order-3686',
+    store: '143',
+    label: 'relax partial loyalty credit for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'order-7039',
+    store: '262',
+    label: 'log late ticket on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'order-9475',
+    store: '203',
+    label: 'guard expired order',
+    quantity: 4,
+  },
+  {
+    id: 'order-8399',
+    store: '120',
+    label: 'retry oversized catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'order-8963',
+    store: '157',
+    label: 'expose oversized loyalty credit on checkout',
+    quantity: 6,
+  },
 ];

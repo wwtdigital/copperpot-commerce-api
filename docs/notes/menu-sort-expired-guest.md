@@ -1,0 +1,31 @@
+# menu: sort expired guest per store
+
+- guard stale modifier: decided.
+- trim expired delivery window in the queue: deferred to the next release.
+- cache partial loyalty credit for pickup: blocked on store systems.
+- normalise cancelled kitchen ticket: open.
+- normalise missing menu item: decided.
+- rename late tax line: owner: delivery manager.
+- document duplicate location: open.
+- document empty pickup slot on reorder: blocked on store systems.
+- trim duplicate delivery window: deferred to the next release.
+- add regional guest: open.
+- guard partial topping: blocked on store systems.
+- expose duplicate catering tray: blocked on store systems.
+- retry regional catering tray: verified in staging.
+- sort expired receipt: blocked on store systems.
+
+- add late location per store: blocked on store systems.
+- sort missing guest: blocked on store systems.
+- expose regional pickup slot: owner: delivery manager.
+- guard oversized modifier: owner: delivery manager.
+- tighten empty bowl on reorder: verified in staging.
+- rename partial ticket: open.
+- handle stale store: blocked on store systems.
+- log missing loyalty credit per store: open.
+- relax expired order on reorder: verified in staging.
+- handle expired catering tray: deferred to the next release.
+- paginate missing modifier: owner: delivery manager.
+- normalise expired store on checkout: blocked on store systems.
+- document cancelled order: verified in staging.
+- cache oversized store for franchisees: blocked on store systems.

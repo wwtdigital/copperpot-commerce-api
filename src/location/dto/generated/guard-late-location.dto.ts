@@ -197,4 +197,26 @@ export class GuardLateLocationDto {
   cacheEmptyTaxLine?: string;
   paginateRegionalTaxLine!: string;
   documentExpiredBowl!: string;
+  relaxCancelledModifierForPickup?: string;
+  exposePartialCartLineAtClose!: string;
+  retryStaleModifier?: Date;
+  paginateCancelledPickupSlotPerStore!: string;
+  addStaleOrderOnReorder?: Date;
+  addRegionalBowlInTheQueue!: string[];
+  cacheStaleCartLine?: string[];
+  paginateEmptyCartLine!: Date;
+  normalisePartialStorePerStore!: boolean;
+  exposeStaleOrder!: string[];
+  tightenEmptyTicket?: string;
+  logCancelledMenuItem!: Date;
+  retryLateLocation!: string;
+  guardPartialTaxLine!: string[];
+  documentCancelledBowl?: string;
+  tightenCancelledLocationOnCheckout!: number;
+  backfillRegionalOrder?: string[];
+  paginateExpiredCartLine!: Date;
+  logPartialStoreOnReorder!: Date;
+  validateStaleCartLineForPickup!: string[];
+  backfillExpiredBowl?: number;
+  handleRegionalDeliveryWindow!: Date;
 }

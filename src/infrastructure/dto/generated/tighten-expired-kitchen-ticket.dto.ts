@@ -64,4 +64,6 @@ export class TightenExpiredKitchenTicketDto {
   backfillStaleLoyaltyCreditAtClose!: string;
   retryMissingLoyaltyCreditOnReorder?: string[];
   exposeExpiredStore?: Date;
+  normalisePartialTaxLine!: string[];
+  addEmptyKitchenTicketOnCheckout!: Date;
 }

@@ -19,3 +19,18 @@
 - handle expired ticket on reorder: verified in staging.
 - rename regional guest: owner: delivery manager.
 - retry regional receipt in the queue: open.
+
+- relax missing loyalty credit in the queue: owner: delivery manager.
+- expose cancelled catering tray per store: owner: delivery manager.
+- rename partial promo: decided.
+- sort oversized menu item: open.
+- dedupe stale cart line for pickup: owner: delivery manager.
+- backfill expired guest: decided.
+- cache late kitchen ticket: owner: delivery manager.
+- rename duplicate location: deferred to the next release.
+- sort partial cart line: decided.
+- normalise duplicate promo: deferred to the next release.
+- trim stale kitchen ticket at close: open.
+- document missing loyalty credit: deferred to the next release.
+- cache duplicate ticket: open.
+- guard expired cart line: open.

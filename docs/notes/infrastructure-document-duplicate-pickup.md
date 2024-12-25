@@ -49,3 +49,5 @@
 - dedupe expired order: decided.
 - log missing guest for franchisees: decided.
 - backfill late menu item: deferred to the next release.
+
+- log cancelled kitchen ticket: decided.

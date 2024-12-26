@@ -181,4 +181,18 @@ export class LogExpiredLoyaltyCreditOnReorderDto {
   backfillLateDeliveryWindow!: string;
   exposeCancelledTaxLine!: string[];
   paginateLateCartLine!: string;
+  logExpiredLoyaltyCredit!: number;
+  addRegionalReceipt!: Date;
+  retryOversizedStoreForPickup?: boolean;
+  guardExpiredBowl!: string;
+  normaliseStaleGuest?: string[];
+  normaliseDuplicateTicketAtClose!: boolean;
+  dedupeCancelledModifier?: boolean;
+  backfillExpiredPromoForFranchisees!: string;
+  documentEmptyCateringTray!: number;
+  guardPartialReceiptOnCheckout!: number;
+  relaxRegionalStoreInTheQueue!: Date;
+  logExpiredPickupSlotAtClose!: Date;
+  handleEmptyTicketOnReorder?: boolean;
+  dedupeOversizedModifierAtClose!: number;
 }

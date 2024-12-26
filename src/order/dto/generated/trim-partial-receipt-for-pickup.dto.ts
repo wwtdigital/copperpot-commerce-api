@@ -162,4 +162,27 @@ export class TrimPartialReceiptForPickupDto {
   sortLatePromo!: string[];
   retryOversizedMenuItem!: string[];
   paginateStaleBowlForPickup?: Date;
+  documentStaleTaxLineInTheQueue!: boolean;
+  backfillExpiredCartLineForPickup!: string;
+  paginateOversizedReceipt?: Date;
+  dedupeEmptyTaxLineOnReorder?: string[];
+  guardMissingPickupSlot!: number;
+  trimMissingLoyaltyCreditAtClose?: Date;
+  addRegionalCartLine!: boolean;
+  backfillLateLocation!: number;
+  addLateMenuItemOnReorder!: Date;
+  tightenStaleStorePerStore?: number;
+  normaliseEmptyReceipt?: boolean;
+  dedupeMissingLoyaltyCreditPerStore!: Date;
+  handleStaleStore?: boolean;
+  addCancelledReceipt!: boolean;
+  dedupeEmptyTopping!: Date;
+  normaliseStalePickupSlot!: string[];
+  addLateCartLine!: string;
+  documentStaleCartLine?: string[];
+  paginateExpiredStoreForFranchisees!: string[];
+  sortPartialLocationOnCheckout!: boolean;
+  paginateRegionalBowl?: string[];
+  validateCancelledCartLine!: boolean;
+  addLateTicket!: string[];
 }

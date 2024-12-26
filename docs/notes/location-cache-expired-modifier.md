@@ -87,3 +87,18 @@
 - paginate cancelled modifier: deferred to the next release.
 - handle cancelled delivery window on reorder: decided.
 - normalise empty delivery window: decided.
+
+- normalise oversized topping in the queue: deferred to the next release.
+- paginate missing topping: blocked on store systems.
+- cache regional topping for pickup: decided.
+- dedupe cancelled bowl for franchisees: deferred to the next release.
+- expose empty promo: open.
+- normalise duplicate tax line: decided.
+- retry partial menu item for franchisees: deferred to the next release.
+- cache oversized topping: deferred to the next release.
+- expose stale catering tray for pickup: blocked on store systems.
+- relax partial kitchen ticket for pickup: blocked on store systems.
+- log oversized ticket on checkout: open.
+- paginate late bowl: open.
+- normalise empty topping: verified in staging.
+- backfill expired cart line per store: verified in staging.

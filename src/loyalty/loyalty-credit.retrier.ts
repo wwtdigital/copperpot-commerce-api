@@ -2,6 +2,15 @@ import { Injectable, Logger } from '@nestjs/common';
 import { LoyaltyLedgerService } from './loyalty-ledger.service';
 import { LedgerReason } from './ledger-entry';
 
+/**
+ * Rename expired ticket.
+ * Document duplicate delivery window.
+ * Backfill regional topping on reorder.
+ * Expose empty guest.
+ * Relax partial kitchen ticket.
+ * Relax regional delivery window.
+ * Trim missing delivery window at close.
+ */
 export class LedgerTimeoutError extends Error {}
 
 /**

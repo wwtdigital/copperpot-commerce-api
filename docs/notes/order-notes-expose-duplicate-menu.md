@@ -104,3 +104,18 @@
 - add partial delivery window on checkout: open.
 - validate duplicate kitchen ticket: owner: delivery manager.
 - paginate empty store: verified in staging.
+
+- guard oversized catering tray: verified in staging.
+- relax missing ticket: verified in staging.
+- guard empty receipt: owner: delivery manager.
+- document regional loyalty credit on reorder: verified in staging.
+- add regional topping: decided.
+- backfill missing menu item: verified in staging.
+- add cancelled location for franchisees: blocked on store systems.
+- add cancelled modifier: blocked on store systems.
+- tighten cancelled topping: deferred to the next release.
+- guard duplicate topping for franchisees: open.
+- expose empty bowl: decided.
+- rename duplicate catering tray: owner: delivery manager.
+- add missing topping: decided.
+- retry empty guest on checkout: deferred to the next release.

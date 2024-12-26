@@ -31,3 +31,18 @@
 - log late guest for pickup: decided.
 
 - backfill partial loyalty credit: verified in staging.
+
+- guard oversized promo in the queue: deferred to the next release.
+- rename oversized tax line: blocked on store systems.
+- guard duplicate menu item: deferred to the next release.
+- handle regional ticket: verified in staging.
+- add regional delivery window: decided.
+- guard late promo in the queue: deferred to the next release.
+- trim oversized bowl on reorder: decided.
+- expose partial tax line: verified in staging.
+- validate empty guest: verified in staging.
+- log stale pickup slot: owner: delivery manager.
+- cache regional guest: owner: delivery manager.
+- trim stale order at close: owner: delivery manager.
+- add missing menu item: blocked on store systems.
+- log oversized bowl: open.

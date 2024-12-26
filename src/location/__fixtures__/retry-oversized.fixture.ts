@@ -480,4 +480,28 @@ export const RetryOversizedStoreRows = [
     label: 'retry partial bowl',
     quantity: 1,
   },
+  {
+    id: 'location-8482',
+    store: '526',
+    label: 'add late cart line on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'location-2245',
+    store: '190',
+    label: 'trim oversized receipt per store',
+    quantity: 12,
+  },
+  {
+    id: 'location-7257',
+    store: '244',
+    label: 'handle missing ticket',
+    quantity: 4,
+  },
+  {
+    id: 'location-9981',
+    store: '665',
+    label: 'guard cancelled cart line in the queue',
+    quantity: 2,
+  },
 ];

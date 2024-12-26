@@ -102,4 +102,52 @@ export const SortLateDeliveryWindowInTheQueueRows = [
     label: 'handle stale kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'location-4454',
+    store: '575',
+    label: 'sort oversized delivery window on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'location-9197',
+    store: '318',
+    label: 'normalise cancelled pickup slot in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'location-9430',
+    store: '385',
+    label: 'dedupe expired delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'location-9811',
+    store: '304',
+    label: 'relax regional ticket',
+    quantity: 5,
+  },
+  {
+    id: 'location-6544',
+    store: '214',
+    label: 'backfill duplicate ticket',
+    quantity: 8,
+  },
+  {
+    id: 'location-8281',
+    store: '178',
+    label: 'retry missing menu item for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'location-9909',
+    store: '523',
+    label: 'validate oversized store',
+    quantity: 12,
+  },
+  {
+    id: 'location-2027',
+    store: '320',
+    label: 'backfill duplicate kitchen ticket for pickup',
+    quantity: 12,
+  },
 ];

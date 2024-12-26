@@ -60,4 +60,22 @@ export const DocumentLateKitchenTicketForFranchiseesRows = [
     label: 'expose oversized loyalty credit on checkout',
     quantity: 6,
   },
+  {
+    id: 'order-5884',
+    store: '685',
+    label: 'handle oversized bowl on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'order-5066',
+    store: '307',
+    label: 'normalise partial promo',
+    quantity: 6,
+  },
+  {
+    id: 'order-4891',
+    store: '595',
+    label: 'normalise oversized kitchen ticket',
+    quantity: 6,
+  },
 ];

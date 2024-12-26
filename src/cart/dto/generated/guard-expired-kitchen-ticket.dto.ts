@@ -40,4 +40,9 @@ export class GuardExpiredKitchenTicketDto {
   documentOversizedDeliveryWindow!: number;
   paginateEmptyStorePerStore?: boolean;
   paginateDuplicatePromo?: string[];
+  dedupeRegionalPromoOnCheckout!: boolean;
+  tightenPartialTaxLine!: boolean;
+  validateLateOrderOnCheckout?: boolean;
+  trimExpiredPromo?: string;
+  renameCancelledCateringTray!: boolean;
 }

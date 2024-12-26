@@ -106,3 +106,5 @@
 - paginate empty catering tray for franchisees: verified in staging.
 - relax regional location on checkout: verified in staging.
 - document cancelled kitchen ticket on reorder: owner: delivery manager.
+
+- backfill late topping on reorder: owner: delivery manager.

@@ -24,4 +24,6 @@ export class CacheMissingBowlForFranchiseesDto {
   trimCancelledStore!: Date;
   normaliseExpiredLoyaltyCredit!: string;
   addCancelledOrder?: string;
+  logOversizedLoyaltyCreditForFranchisees!: boolean;
+  exposeStaleOrderOnReorder!: Date;
 }

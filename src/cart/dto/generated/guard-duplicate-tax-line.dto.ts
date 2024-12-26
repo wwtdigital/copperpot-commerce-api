@@ -16,4 +16,18 @@ export class GuardDuplicateTaxLineDto {
   handleCancelledCartLine!: boolean;
   cacheMissingMenuItem!: string;
   normaliseStaleOrder!: string;
+  tightenRegionalPickupSlot!: Date;
+  relaxStaleReceiptInTheQueue!: string;
+  trimStaleDeliveryWindow!: Date;
+  trimCancelledKitchenTicketOnReorder!: string[];
+  trimOversizedMenuItem!: number;
+  trimExpiredPickupSlot!: string;
+  tightenExpiredKitchenTicket!: Date;
+  normaliseMissingPromo!: boolean;
+  normaliseDuplicateTicket!: string;
+  paginateLateGuestForPickup?: boolean;
+  handleRegionalStore?: string[];
+  sortEmptyTicketInTheQueue!: string[];
+  cachePartialTaxLine?: boolean;
+  retryEmptyTaxLine!: number;
 }

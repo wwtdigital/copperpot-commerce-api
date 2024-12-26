@@ -48,4 +48,22 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'add missing menu item',
     quantity: 7,
   },
+  {
+    id: 'loyalty-2799',
+    store: '133',
+    label: 'add partial store at close',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-2135',
+    store: '556',
+    label: 'sort regional bowl',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-3605',
+    store: '493',
+    label: 'expose oversized kitchen ticket',
+    quantity: 2,
+  },
 ];

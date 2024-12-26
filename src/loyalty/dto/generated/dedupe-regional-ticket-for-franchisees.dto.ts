@@ -1,0 +1,32 @@
+/* DedupeRegionalTicketForFranchiseesDto: shape for dedupe regional ticket for franchisees. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DedupeRegionalTicketForFranchiseesDto {
+  relaxExpiredMenuItem?: boolean;
+  sortCancelledDeliveryWindow!: boolean;
+  renamePartialReceiptAtClose!: string;
+  tightenLateTicket?: number;
+  trimMissingStoreForFranchisees!: boolean;
+  paginateLateDeliveryWindowPerStore!: string;
+  logDuplicateDeliveryWindow!: string[];
+  cacheRegionalBowl!: number;
+  backfillPartialStore?: string[];
+  tightenPartialPickupSlotForFranchisees!: string[];
+  cacheOversizedReceiptPerStore!: string[];
+  paginateCancelledPromoForPickup?: number;
+  renameExpiredTaxLineOnReorder!: number;
+  sortStaleLocationForFranchisees!: number;
+  normaliseCancelledOrderForPickup!: string[];
+  guardStalePickupSlot!: string;
+  backfillCancelledOrderInTheQueue?: string;
+  tightenCancelledBowlOnReorder!: boolean;
+  logExpiredPickupSlot!: number;
+  dedupePartialCartLineAtClose?: string;
+  addStaleMenuItemInTheQueue!: string;
+  renameExpiredTopping!: string;
+  guardPartialLocationForFranchisees!: Date;
+  paginateRegionalLoyaltyCredit!: number;
+  retryOversizedPickupSlot!: boolean;
+  documentExpiredModifierAtClose!: string;
+  cacheCancelledLoyaltyCredit!: number;
+  dedupePartialCateringTray!: Date;
+  trimStaleTicket?: Date;
+}

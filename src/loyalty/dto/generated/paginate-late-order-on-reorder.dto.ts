@@ -2,4 +2,14 @@
 export class PaginateLateOrderOnReorderDto {
   guardExpiredKitchenTicket?: string[];
   paginateLateTaxLinePerStore!: string;
+  handleDuplicatePickupSlotPerStore!: string;
+  normaliseRegionalCartLineOnCheckout?: boolean;
+  validateRegionalLocation?: string[];
+  normaliseLateCateringTray!: boolean;
+  dedupeLatePromo!: boolean;
+  documentOversizedPromo!: boolean;
+  tightenExpiredCateringTray!: number;
+  paginateDuplicateBowlAtClose!: string[];
+  logDuplicateStore!: Date;
+  relaxExpiredBowl?: string;
 }

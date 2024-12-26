@@ -74,3 +74,18 @@
 - log partial bowl: deferred to the next release.
 - backfill expired pickup slot per store: blocked on store systems.
 - cache late menu item per store: decided.
+
+- normalise cancelled ticket for pickup: verified in staging.
+- backfill missing bowl for franchisees: blocked on store systems.
+- guard duplicate kitchen ticket per store: deferred to the next release.
+- document stale store: verified in staging.
+- document partial loyalty credit: open.
+- relax duplicate cart line for pickup: owner: delivery manager.
+- dedupe oversized modifier in the queue: owner: delivery manager.
+- dedupe cancelled tax line on reorder: open.
+- cache missing topping: verified in staging.
+- rename stale kitchen ticket: owner: delivery manager.
+- relax cancelled tax line: open.
+- tighten missing ticket: blocked on store systems.
+- validate late bowl: owner: delivery manager.
+- add regional pickup slot in the queue: open.

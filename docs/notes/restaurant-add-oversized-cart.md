@@ -88,3 +88,33 @@
 - validate stale bowl: deferred to the next release.
 - dedupe stale ticket: decided.
 - validate empty topping for franchisees: open.
+
+- cache regional pickup slot: open.
+- rename expired order: decided.
+- handle expired order at close: deferred to the next release.
+- validate empty bowl per store: open.
+- validate missing order for franchisees: owner: delivery manager.
+- document expired pickup slot: decided.
+- cache partial location: owner: delivery manager.
+- tighten oversized tax line: verified in staging.
+- document missing order: blocked on store systems.
+- tighten missing tax line: blocked on store systems.
+- tighten oversized cart line per store: blocked on store systems.
+- rename empty modifier: verified in staging.
+- add oversized receipt: open.
+- log expired promo: blocked on store systems.
+
+- relax empty receipt: owner: delivery manager.
+- expose empty receipt on reorder: blocked on store systems.
+- sort regional modifier for pickup: deferred to the next release.
+- handle empty topping: decided.
+- dedupe duplicate bowl: open.
+- document partial order: verified in staging.
+- backfill stale kitchen ticket: open.
+- paginate oversized menu item for franchisees: open.
+- relax cancelled store: blocked on store systems.
+- log regional location for pickup: decided.
+- retry late store: deferred to the next release.
+- log late guest: owner: delivery manager.
+- rename duplicate loyalty credit on reorder: decided.
+- add duplicate cart line: verified in staging.

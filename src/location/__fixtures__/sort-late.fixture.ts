@@ -102,4 +102,10 @@ export const SortLateDeliveryWindowInTheQueueRows = [
     label: 'handle stale kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'location-4454',
+    store: '575',
+    label: 'sort oversized delivery window on reorder',
+    quantity: 4,
+  },
 ];

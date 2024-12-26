@@ -1,0 +1,105 @@
+/* Fixture rows for location tests: sort late delivery window in the queue. Generated data, not production data. */
+export const SortLateDeliveryWindowInTheQueueRows = [
+  {
+    id: 'location-9754',
+    store: '463',
+    label: 'guard duplicate order per store',
+    quantity: 1,
+  },
+  {
+    id: 'location-1444',
+    store: '345',
+    label: 'dedupe regional location',
+    quantity: 11,
+  },
+  {
+    id: 'location-7052',
+    store: '431',
+    label: 'validate expired modifier',
+    quantity: 3,
+  },
+  {
+    id: 'location-6285',
+    store: '612',
+    label: 'sort late promo on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'location-3038',
+    store: '116',
+    label: 'handle stale catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'location-3048',
+    store: '306',
+    label: 'sort duplicate receipt on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'location-4146',
+    store: '105',
+    label: 'paginate regional store',
+    quantity: 6,
+  },
+  {
+    id: 'location-9483',
+    store: '542',
+    label: 'expose regional pickup slot for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'location-4001',
+    store: '366',
+    label: 'sort oversized guest at close',
+    quantity: 8,
+  },
+  {
+    id: 'location-7255',
+    store: '673',
+    label: 'tighten cancelled location',
+    quantity: 6,
+  },
+  {
+    id: 'location-4280',
+    store: '225',
+    label: 'tighten regional receipt for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'location-3138',
+    store: '154',
+    label: 'rename expired ticket',
+    quantity: 12,
+  },
+  {
+    id: 'location-9720',
+    store: '575',
+    label: 'handle regional cart line for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'location-5817',
+    store: '495',
+    label: 'relax partial promo at close',
+    quantity: 3,
+  },
+  {
+    id: 'location-1229',
+    store: '193',
+    label: 'validate missing kitchen ticket on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'location-4992',
+    store: '349',
+    label: 'retry partial location',
+    quantity: 4,
+  },
+  {
+    id: 'location-2539',
+    store: '276',
+    label: 'handle stale kitchen ticket',
+    quantity: 6,
+  },
+];

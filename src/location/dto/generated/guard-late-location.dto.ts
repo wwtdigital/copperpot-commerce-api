@@ -174,4 +174,27 @@ export class GuardLateLocationDto {
   guardLateReceiptAtClose!: boolean;
   backfillRegionalTaxLine?: boolean;
   guardStaleDeliveryWindowOnCheckout!: string;
+  renameOversizedStoreForFranchisees!: number;
+  guardPartialTicketPerStore!: string;
+  addRegionalPromoOnCheckout!: number;
+  addLateTicket!: string[];
+  handlePartialCartLine!: boolean;
+  retryCancelledKitchenTicket!: boolean;
+  addRegionalModifier!: number;
+  retryCancelledDeliveryWindow!: Date;
+  validateLateGuest!: boolean;
+  logLateOrder!: string;
+  trimDuplicatePromo!: Date;
+  logCancelledStore!: string[];
+  addLateToppingPerStore!: Date;
+  addLateTicketPerStore!: boolean;
+  renamePartialTaxLine!: Date;
+  exposeRegionalLocationAtClose?: string[];
+  handleMissingLoyaltyCredit!: boolean;
+  validateExpiredBowlOnCheckout!: Date;
+  sortOversizedPromo!: number;
+  exposeDuplicateLocationAtClose!: string;
+  cacheEmptyTaxLine?: string;
+  paginateRegionalTaxLine!: string;
+  documentExpiredBowl!: string;
 }

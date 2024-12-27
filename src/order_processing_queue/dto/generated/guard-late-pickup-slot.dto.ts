@@ -26,4 +26,6 @@ export class GuardLatePickupSlotDto {
   retryOversizedOrder!: string[];
   addRegionalTaxLine!: string;
   exposeRegionalDeliveryWindowPerStore!: Date;
+  backfillExpiredCartLine!: string;
+  paginateStaleLoyaltyCredit!: string[];
 }

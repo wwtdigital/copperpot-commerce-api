@@ -72,4 +72,34 @@ export const AddRegionalTaxLineRows = [
     label: 'retry cancelled topping',
     quantity: 10,
   },
+  {
+    id: 'audit-2711',
+    store: '157',
+    label: 'tighten oversized receipt',
+    quantity: 10,
+  },
+  {
+    id: 'audit-1143',
+    store: '261',
+    label: 'log empty menu item',
+    quantity: 6,
+  },
+  {
+    id: 'audit-4164',
+    store: '129',
+    label: 'handle duplicate ticket',
+    quantity: 2,
+  },
+  {
+    id: 'audit-6901',
+    store: '179',
+    label: 'retry late ticket',
+    quantity: 2,
+  },
+  {
+    id: 'audit-2933',
+    store: '230',
+    label: 'relax missing pickup slot',
+    quantity: 8,
+  },
 ];

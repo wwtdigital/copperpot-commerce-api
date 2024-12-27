@@ -340,4 +340,16 @@ export class LogLateMenuItemDto {
   sortCancelledPromo!: boolean;
   relaxRegionalTopping!: boolean;
   retryCancelledCateringTrayForFranchisees!: boolean;
+  validateRegionalGuest?: Date;
+  sortEmptyTaxLine?: boolean;
+  logLatePromoOnReorder?: string;
+  paginateDuplicateDeliveryWindowForFranchisees!: string;
+  addStaleCateringTrayAtClose!: boolean;
+  relaxMissingLoyaltyCreditPerStore?: boolean;
+  normaliseMissingCateringTray!: boolean;
+  cacheRegionalStoreOnCheckout!: string[];
+  logCancelledCateringTrayForFranchisees?: boolean;
+  logOversizedToppingAtClose!: string[];
+  documentRegionalCartLine!: Date;
+  sortCancelledCateringTrayOnReorder!: Date;
 }

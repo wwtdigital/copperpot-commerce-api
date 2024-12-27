@@ -90,4 +90,16 @@ export const AddRegionalTaxLineRows = [
     label: 'handle duplicate ticket',
     quantity: 2,
   },
+  {
+    id: 'audit-6901',
+    store: '179',
+    label: 'retry late ticket',
+    quantity: 2,
+  },
+  {
+    id: 'audit-2933',
+    store: '230',
+    label: 'relax missing pickup slot',
+    quantity: 8,
+  },
 ];

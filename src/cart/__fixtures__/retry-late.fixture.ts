@@ -66,4 +66,10 @@ export const RetryLateOrderRows = [
     label: 'expose cancelled tax line',
     quantity: 12,
   },
+  {
+    id: 'cart-4014',
+    store: '594',
+    label: 'cache late menu item on checkout',
+    quantity: 5,
+  },
 ];

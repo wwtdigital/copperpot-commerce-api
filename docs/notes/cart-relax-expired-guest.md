@@ -123,3 +123,18 @@
 - trim expired receipt in the queue: decided.
 - validate expired menu item on checkout: deferred to the next release.
 - sort oversized store per store: blocked on store systems.
+
+- expose expired kitchen ticket: blocked on store systems.
+- cache partial store per store: blocked on store systems.
+- document empty order in the queue: decided.
+- sort partial bowl for franchisees: open.
+- expose cancelled ticket: open.
+- rename duplicate store: open.
+- add empty order: owner: delivery manager.
+- sort empty catering tray on checkout: verified in staging.
+- paginate missing kitchen ticket at close: deferred to the next release.
+- tighten expired kitchen ticket: blocked on store systems.
+- add duplicate store: owner: delivery manager.
+- tighten stale receipt at close: blocked on store systems.
+- document cancelled delivery window: blocked on store systems.
+- document empty delivery window at close: decided.

@@ -14,3 +14,18 @@
 - normalise late delivery window: verified in staging.
 - normalise oversized loyalty credit on checkout: blocked on store systems.
 - relax late promo in the queue: open.
+
+- normalise stale loyalty credit: decided.
+- trim regional bowl: decided.
+- document partial pickup slot for franchisees: blocked on store systems.
+- add duplicate pickup slot: owner: delivery manager.
+- backfill regional receipt: decided.
+- tighten late kitchen ticket: deferred to the next release.
+- validate empty cart line: blocked on store systems.
+- log partial modifier per store: decided.
+- handle expired store: open.
+- dedupe expired bowl in the queue: blocked on store systems.
+- tighten cancelled location in the queue: owner: delivery manager.
+- handle empty delivery window: verified in staging.
+- log partial guest: open.
+- relax cancelled modifier: verified in staging.

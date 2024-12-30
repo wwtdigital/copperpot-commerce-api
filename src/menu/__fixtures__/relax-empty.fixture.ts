@@ -1,0 +1,123 @@
+/* Fixture rows for menu tests: relax empty topping per store. Generated data, not production data. */
+export const RelaxEmptyToppingPerStoreRows = [
+  {
+    id: 'menu-3490',
+    store: '638',
+    label: 'paginate partial receipt',
+    quantity: 7,
+  },
+  {
+    id: 'menu-5832',
+    store: '264',
+    label: 'normalise expired catering tray on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'menu-9226',
+    store: '638',
+    label: 'validate stale pickup slot per store',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3367',
+    store: '180',
+    label: 'expose stale pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'menu-7985',
+    store: '617',
+    label: 'handle partial delivery window on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'menu-9707',
+    store: '428',
+    label: 'retry stale receipt for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9632',
+    store: '189',
+    label: 'backfill duplicate menu item for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'menu-5047',
+    store: '514',
+    label: 'tighten partial pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'menu-4241',
+    store: '427',
+    label: 'retry empty kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'menu-8591',
+    store: '672',
+    label: 'trim empty delivery window at close',
+    quantity: 5,
+  },
+  {
+    id: 'menu-2060',
+    store: '519',
+    label: 'validate oversized catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'menu-6412',
+    store: '228',
+    label: 'trim duplicate bowl',
+    quantity: 7,
+  },
+  {
+    id: 'menu-1327',
+    store: '271',
+    label: 'expose missing delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3648',
+    store: '327',
+    label: 'paginate duplicate store on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'menu-6785',
+    store: '248',
+    label: 'sort empty tax line at close',
+    quantity: 6,
+  },
+  {
+    id: 'menu-3909',
+    store: '575',
+    label: 'backfill partial store',
+    quantity: 3,
+  },
+  {
+    id: 'menu-7026',
+    store: '147',
+    label: 'sort late guest',
+    quantity: 7,
+  },
+  {
+    id: 'menu-7279',
+    store: '313',
+    label: 'normalise stale tax line on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'menu-7392',
+    store: '341',
+    label: 'trim oversized kitchen ticket for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-1904',
+    store: '485',
+    label: 'retry expired store',
+    quantity: 3,
+  },
+];

@@ -29,3 +29,33 @@
 - normalise expired store on checkout: blocked on store systems.
 - document cancelled order: verified in staging.
 - cache oversized store for franchisees: blocked on store systems.
+
+- add late cart line: open.
+- relax stale store at close: open.
+- rename regional topping: deferred to the next release.
+- normalise oversized bowl for pickup: deferred to the next release.
+- log oversized order on checkout: open.
+- handle empty menu item in the queue: decided.
+- trim empty ticket on checkout: owner: delivery manager.
+- retry oversized delivery window for franchisees: blocked on store systems.
+- guard partial delivery window: decided.
+- validate late loyalty credit on checkout: decided.
+- document expired catering tray at close: open.
+- log duplicate topping on reorder: owner: delivery manager.
+- dedupe missing bowl: open.
+- dedupe stale topping: decided.
+
+- relax regional order: verified in staging.
+- dedupe expired ticket: owner: delivery manager.
+- handle late promo: deferred to the next release.
+- cache oversized modifier on checkout: verified in staging.
+- document late order: decided.
+- dedupe empty promo: open.
+- validate duplicate bowl: verified in staging.
+- add oversized menu item: blocked on store systems.
+- handle missing location at close: owner: delivery manager.
+- expose late guest: deferred to the next release.
+- guard duplicate store: open.
+- expose oversized catering tray: decided.
+- guard stale bowl per store: decided.
+- paginate missing pickup slot: verified in staging.

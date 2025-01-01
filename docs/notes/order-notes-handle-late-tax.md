@@ -79,3 +79,7 @@
 - paginate oversized pickup slot for pickup: owner: delivery manager.
 - trim regional cart line: owner: delivery manager.
 - dedupe empty receipt: decided.
+
+- guard cancelled location: verified in staging.
+- sort expired order: verified in staging.
+- paginate expired tax line: decided.

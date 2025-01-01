@@ -106,3 +106,35 @@
 - paginate empty catering tray for franchisees: verified in staging.
 - relax regional location on checkout: verified in staging.
 - document cancelled kitchen ticket on reorder: owner: delivery manager.
+
+- backfill late topping on reorder: owner: delivery manager.
+
+- guard regional promo: blocked on store systems.
+- backfill cancelled topping: owner: delivery manager.
+- trim stale tax line for franchisees: open.
+- trim cancelled loyalty credit: blocked on store systems.
+- relax partial promo in the queue: open.
+- handle partial topping for franchisees: open.
+- cache regional guest for franchisees: verified in staging.
+- validate expired receipt: decided.
+- validate duplicate cart line: owner: delivery manager.
+- add cancelled bowl: open.
+- normalise empty cart line: decided.
+- trim expired receipt in the queue: decided.
+- validate expired menu item on checkout: deferred to the next release.
+- sort oversized store per store: blocked on store systems.
+
+- expose expired kitchen ticket: blocked on store systems.
+- cache partial store per store: blocked on store systems.
+- document empty order in the queue: decided.
+- sort partial bowl for franchisees: open.
+- expose cancelled ticket: open.
+- rename duplicate store: open.
+- add empty order: owner: delivery manager.
+- sort empty catering tray on checkout: verified in staging.
+- paginate missing kitchen ticket at close: deferred to the next release.
+- tighten expired kitchen ticket: blocked on store systems.
+- add duplicate store: owner: delivery manager.
+- tighten stale receipt at close: blocked on store systems.
+- document cancelled delivery window: blocked on store systems.
+- document empty delivery window at close: decided.

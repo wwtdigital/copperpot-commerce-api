@@ -1,0 +1,31 @@
+# cart: paginate regional loyalty credit on checkout
+
+- sort empty ticket on reorder: open.
+- backfill expired modifier: open.
+- document late tax line: deferred to the next release.
+- log regional topping: open.
+- dedupe duplicate guest at close: open.
+- tighten late bowl in the queue: decided.
+- relax missing loyalty credit: verified in staging.
+- log cancelled catering tray: blocked on store systems.
+- validate late modifier: open.
+- relax cancelled menu item per store: blocked on store systems.
+- trim missing guest for franchisees: owner: delivery manager.
+- normalise late delivery window: verified in staging.
+- normalise oversized loyalty credit on checkout: blocked on store systems.
+- relax late promo in the queue: open.
+
+- normalise stale loyalty credit: decided.
+- trim regional bowl: decided.
+- document partial pickup slot for franchisees: blocked on store systems.
+- add duplicate pickup slot: owner: delivery manager.
+- backfill regional receipt: decided.
+- tighten late kitchen ticket: deferred to the next release.
+- validate empty cart line: blocked on store systems.
+- log partial modifier per store: decided.
+- handle expired store: open.
+- dedupe expired bowl in the queue: blocked on store systems.
+- tighten cancelled location in the queue: owner: delivery manager.
+- handle empty delivery window: verified in staging.
+- log partial guest: open.
+- relax cancelled modifier: verified in staging.

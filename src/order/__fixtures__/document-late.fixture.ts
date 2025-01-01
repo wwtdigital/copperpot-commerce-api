@@ -78,4 +78,28 @@ export const DocumentLateKitchenTicketForFranchiseesRows = [
     label: 'normalise oversized kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'order-9173',
+    store: '370',
+    label: 'expose stale menu item',
+    quantity: 2,
+  },
+  {
+    id: 'order-6239',
+    store: '410',
+    label: 'retry partial guest in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'order-9116',
+    store: '693',
+    label: 'document expired catering tray for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'order-6077',
+    store: '146',
+    label: 'handle expired cart line in the queue',
+    quantity: 1,
+  },
 ];

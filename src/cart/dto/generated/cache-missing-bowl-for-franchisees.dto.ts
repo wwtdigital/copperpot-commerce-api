@@ -100,4 +100,6 @@ export class CacheMissingBowlForFranchiseesDto {
   backfillExpiredBowl!: Date;
   normaliseCancelledToppingForFranchisees?: boolean;
   tightenStaleGuest!: boolean;
+  addMissingPromo!: Date;
+  cacheEmptyMenuItemInTheQueue!: boolean;
 }

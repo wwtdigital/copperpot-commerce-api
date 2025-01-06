@@ -120,4 +120,10 @@ export const BackfillMissingModifierForPickupRows = [
     label: 'normalise duplicate cart line for pickup',
     quantity: 7,
   },
+  {
+    id: 'cart-6972',
+    store: '174',
+    label: 'tighten cancelled guest in the queue',
+    quantity: 6,
+  },
 ];

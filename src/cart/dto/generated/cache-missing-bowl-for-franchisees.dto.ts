@@ -98,4 +98,8 @@ export class CacheMissingBowlForFranchiseesDto {
   sortDuplicateStore!: number;
   paginateStaleDeliveryWindow?: string[];
   backfillExpiredBowl!: Date;
+  normaliseCancelledToppingForFranchisees?: boolean;
+  tightenStaleGuest!: boolean;
+  addMissingPromo!: Date;
+  cacheEmptyMenuItemInTheQueue!: boolean;
 }

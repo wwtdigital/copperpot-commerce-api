@@ -17,3 +17,7 @@
 
 - handle regional pickup slot: verified in staging.
 - relax cancelled promo in the queue: blocked on store systems.
+
+- document late kitchen ticket at close: verified in staging.
+- retry late topping: open.
+- sort cancelled ticket: deferred to the next release.

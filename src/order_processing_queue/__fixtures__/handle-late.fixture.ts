@@ -192,4 +192,52 @@ export const HandleLateBowlOnCheckoutRows = [
     label: 'guard empty delivery window for franchisees',
     quantity: 12,
   },
+  {
+    id: 'order-processing-queue-3630',
+    store: '472',
+    label: 'expose oversized topping per store',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-7839',
+    store: '573',
+    label: 'validate expired store',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-2502',
+    store: '500',
+    label: 'log oversized kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-3971',
+    store: '199',
+    label: 'dedupe empty menu item',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-8334',
+    store: '169',
+    label: 'tighten cancelled modifier',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-2596',
+    store: '159',
+    label: 'tighten late topping on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-4292',
+    store: '416',
+    label: 'normalise stale tax line for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-7910',
+    store: '123',
+    label: 'normalise empty store',
+    quantity: 1,
+  },
 ];

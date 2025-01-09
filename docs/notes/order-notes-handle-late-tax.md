@@ -83,3 +83,18 @@
 - guard cancelled location: verified in staging.
 - sort expired order: verified in staging.
 - paginate expired tax line: decided.
+
+- retry missing catering tray: owner: delivery manager.
+- retry cancelled menu item for pickup: blocked on store systems.
+- tighten oversized pickup slot for pickup: verified in staging.
+- paginate partial receipt: open.
+- validate oversized delivery window: blocked on store systems.
+- trim oversized topping: deferred to the next release.
+- rename late bowl: owner: delivery manager.
+- guard duplicate delivery window: decided.
+- normalise regional receipt: verified in staging.
+- relax partial kitchen ticket: blocked on store systems.
+- dedupe partial order on reorder: owner: delivery manager.
+- expose duplicate cart line: owner: delivery manager.
+- handle regional modifier in the queue: owner: delivery manager.
+- relax expired loyalty credit: owner: delivery manager.

@@ -1,0 +1,123 @@
+/* Fixture rows for order_notes tests: rename duplicate menu item. Generated data, not production data. */
+export const RenameDuplicateMenuItemRows = [
+  {
+    id: 'order-notes-5320',
+    store: '667',
+    label: 'log partial receipt for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-9042',
+    store: '424',
+    label: 'trim oversized order',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-6775',
+    store: '388',
+    label: 'handle late bowl',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-3822',
+    store: '314',
+    label: 'trim missing kitchen ticket for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-4203',
+    store: '427',
+    label: 'rename expired catering tray on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-3626',
+    store: '612',
+    label: 'cache missing bowl on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-3121',
+    store: '517',
+    label: 'dedupe missing cart line on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-9729',
+    store: '597',
+    label: 'expose late location per store',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-2165',
+    store: '662',
+    label: 'rename duplicate cart line',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-3080',
+    store: '372',
+    label: 'relax regional delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-3358',
+    store: '478',
+    label: 'backfill cancelled loyalty credit on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-5156',
+    store: '620',
+    label: 'retry stale menu item at close',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-7390',
+    store: '652',
+    label: 'sort partial modifier in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-4512',
+    store: '203',
+    label: 'trim missing guest',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-7791',
+    store: '441',
+    label: 'normalise missing delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-5786',
+    store: '229',
+    label: 'validate duplicate cart line',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-8007',
+    store: '673',
+    label: 'retry partial loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-5877',
+    store: '638',
+    label: 'expose empty menu item',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-9365',
+    store: '137',
+    label: 'document partial store',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-6297',
+    store: '308',
+    label: 'dedupe missing menu item',
+    quantity: 1,
+  },
+];

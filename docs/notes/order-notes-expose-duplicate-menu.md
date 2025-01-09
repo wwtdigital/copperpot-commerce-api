@@ -119,3 +119,18 @@
 - rename duplicate catering tray: owner: delivery manager.
 - add missing topping: decided.
 - retry empty guest on checkout: deferred to the next release.
+
+- normalise duplicate kitchen ticket: blocked on store systems.
+- log missing bowl: verified in staging.
+- retry oversized topping: open.
+- log empty kitchen ticket: owner: delivery manager.
+- expose duplicate menu item for franchisees: deferred to the next release.
+- add stale pickup slot: blocked on store systems.
+- sort regional pickup slot: blocked on store systems.
+- log duplicate cart line: blocked on store systems.
+- validate cancelled delivery window for pickup: verified in staging.
+- dedupe partial kitchen ticket: decided.
+- document cancelled delivery window: open.
+- guard duplicate menu item: blocked on store systems.
+- normalise cancelled store for pickup: owner: delivery manager.
+- paginate missing menu item in the queue: deferred to the next release.

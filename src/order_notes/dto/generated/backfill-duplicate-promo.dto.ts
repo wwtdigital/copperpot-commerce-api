@@ -280,4 +280,23 @@ export class BackfillDuplicatePromoDto {
   trimEmptyPickupSlotOnReorder?: string[];
   logMissingMenuItem!: string;
   handleLateToppingOnReorder!: Date;
+  relaxCancelledModifier!: string[];
+  validateStaleDeliveryWindowInTheQueue!: boolean;
+  tightenOversizedStore?: string;
+  tightenDuplicateGuest!: Date;
+  sortCancelledTaxLineOnCheckout!: boolean;
+  dedupeDuplicateModifier!: number;
+  sortOversizedBowl?: number;
+  dedupeStaleBowl!: Date;
+  dedupeEmptyLocation?: boolean;
+  tightenOversizedLocationPerStore?: string[];
+  retryStaleGuestOnCheckout!: Date;
+  dedupeOversizedCartLine?: Date;
+  renameExpiredModifierForFranchisees!: number;
+  retryCancelledStore!: number;
+  addMissingTopping!: string;
+  trimLatePromo!: string;
+  relaxExpiredOrder!: string;
+  retryStaleTopping!: Date;
+  paginateEmptyStoreOnCheckout!: string;
 }

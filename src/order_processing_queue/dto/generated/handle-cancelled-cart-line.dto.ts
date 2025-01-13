@@ -125,4 +125,6 @@ export class HandleCancelledCartLineDto {
   documentDuplicatePickupSlotOnReorder?: Date;
   renameStaleLocation!: string;
   relaxMissingReceipt!: number;
+  retryMissingTaxLine?: Date;
+  tightenCancelledKitchenTicket?: number;
 }

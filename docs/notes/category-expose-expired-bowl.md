@@ -19,3 +19,33 @@
 - handle duplicate pickup slot: verified in staging.
 - dedupe cancelled pickup slot on checkout: blocked on store systems.
 - log stale loyalty credit: decided.
+
+- tighten stale menu item: verified in staging.
+- expose late catering tray: verified in staging.
+- sort partial tax line: verified in staging.
+- rename oversized guest: deferred to the next release.
+- log expired guest: deferred to the next release.
+- trim stale location: deferred to the next release.
+- dedupe late tax line on reorder: open.
+- validate oversized pickup slot: deferred to the next release.
+- sort regional loyalty credit on reorder: open.
+- backfill regional order in the queue: verified in staging.
+- validate duplicate guest: deferred to the next release.
+- retry missing bowl per store: deferred to the next release.
+- document cancelled location: verified in staging.
+- dedupe partial topping for pickup: blocked on store systems.
+
+- document cancelled ticket: verified in staging.
+- backfill stale loyalty credit: deferred to the next release.
+- backfill missing modifier: verified in staging.
+- tighten stale store: owner: delivery manager.
+- handle late cart line: open.
+- backfill expired location: owner: delivery manager.
+- paginate expired loyalty credit at close: owner: delivery manager.
+- document empty catering tray: open.
+- sort expired order: open.
+- relax oversized delivery window on checkout: decided.
+- trim expired receipt at close: blocked on store systems.
+- add empty menu item: decided.
+- validate expired guest: decided.
+- dedupe regional topping: verified in staging.

@@ -1788,4 +1788,22 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'handle regional catering tray',
     quantity: 2,
   },
+  {
+    id: 'order-notes-7203',
+    store: '151',
+    label: 'dedupe stale catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-9282',
+    store: '139',
+    label: 'normalise stale loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-4640',
+    store: '297',
+    label: 'dedupe missing promo',
+    quantity: 7,
+  },
 ];

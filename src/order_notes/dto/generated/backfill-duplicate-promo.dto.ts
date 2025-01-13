@@ -299,4 +299,22 @@ export class BackfillDuplicatePromoDto {
   relaxExpiredOrder!: string;
   retryStaleTopping!: Date;
   paginateEmptyStoreOnCheckout!: string;
+  retryOversizedModifierOnReorder!: boolean;
+  backfillDuplicateLocationInTheQueue!: string;
+  relaxExpiredLoyaltyCreditForPickup!: string;
+  dedupeStaleGuest?: number;
+  dedupeEmptyCateringTray!: string[];
+  exposeMissingTopping!: number;
+  renameLatePromo?: string;
+  validateEmptyLocationPerStore?: Date;
+  cacheCancelledCateringTray!: Date;
+  backfillEmptyPickupSlotAtClose!: string;
+  relaxExpiredCartLine!: string;
+  dedupeEmptyDeliveryWindow!: number;
+  addLateMenuItem?: number;
+  sortMissingKitchenTicket!: Date;
+  retryCancelledKitchenTicket!: boolean;
+  validateLateCartLine!: boolean;
+  documentStaleCateringTrayOnCheckout?: boolean;
+  exposeRegionalBowl!: string;
 }

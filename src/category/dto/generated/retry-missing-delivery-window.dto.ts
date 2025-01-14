@@ -98,4 +98,28 @@ export class RetryMissingDeliveryWindowDto {
   guardDuplicateKitchenTicket?: boolean;
   tightenRegionalTicket!: string[];
   normaliseLatePickupSlotForPickup?: string;
+  logRegionalReceipt?: Date;
+  tightenRegionalPickupSlotOnReorder!: boolean;
+  addExpiredLoyaltyCredit?: Date;
+  dedupeDuplicateBowlOnCheckout?: string[];
+  documentOversizedOrder!: number;
+  cacheRegionalTicket?: Date;
+  documentExpiredPromoInTheQueue!: boolean;
+  addDuplicateGuest!: Date;
+  normaliseEmptyCartLine!: string;
+  backfillOversizedPickupSlotForPickup!: string[];
+  addStaleLocation?: number;
+  cacheRegionalStoreForFranchisees!: Date;
+  normaliseEmptyStoreAtClose!: Date;
+  trimStaleDeliveryWindowOnReorder?: number;
+  documentOversizedToppingPerStore?: Date;
+  dedupeExpiredMenuItem?: number;
+  normaliseDuplicateOrderOnCheckout!: string;
+  paginateLateToppingPerStore?: number;
+  normaliseRegionalTicketForPickup!: string[];
+  validateCancelledStore?: string;
+  retryStaleGuest?: string;
+  addCancelledLoyaltyCredit!: boolean;
+  exposeDuplicateStoreOnCheckout!: string[];
+  normaliseMissingToppingForPickup?: Date;
 }

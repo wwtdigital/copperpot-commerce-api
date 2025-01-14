@@ -57,3 +57,5 @@
 - validate stale menu item: blocked on store systems.
 - relax stale topping: owner: delivery manager.
 - normalise cancelled tax line at close: open.
+
+- add duplicate store: decided.

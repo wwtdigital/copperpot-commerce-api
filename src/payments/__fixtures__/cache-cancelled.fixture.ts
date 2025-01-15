@@ -1,0 +1,123 @@
+/* Fixture rows for payments tests: cache cancelled order at close. Generated data, not production data. */
+export const CacheCancelledOrderAtCloseRows = [
+  {
+    id: 'payments-5312',
+    store: '650',
+    label: 'cache duplicate cart line on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'payments-8832',
+    store: '181',
+    label: 'sort partial menu item in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'payments-5775',
+    store: '607',
+    label: 'guard missing kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'payments-4895',
+    store: '539',
+    label: 'log expired delivery window at close',
+    quantity: 5,
+  },
+  {
+    id: 'payments-1698',
+    store: '429',
+    label: 'document oversized tax line',
+    quantity: 9,
+  },
+  {
+    id: 'payments-3654',
+    store: '383',
+    label: 'cache oversized pickup slot on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'payments-5706',
+    store: '181',
+    label: 'add stale ticket',
+    quantity: 5,
+  },
+  {
+    id: 'payments-1919',
+    store: '187',
+    label: 'guard empty ticket per store',
+    quantity: 9,
+  },
+  {
+    id: 'payments-6276',
+    store: '273',
+    label: 'retry stale order',
+    quantity: 8,
+  },
+  {
+    id: 'payments-5046',
+    store: '698',
+    label: 'validate cancelled loyalty credit for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'payments-7106',
+    store: '605',
+    label: 'backfill cancelled location',
+    quantity: 10,
+  },
+  {
+    id: 'payments-7912',
+    store: '269',
+    label: 'paginate duplicate receipt',
+    quantity: 12,
+  },
+  {
+    id: 'payments-9636',
+    store: '353',
+    label: 'cache regional tax line per store',
+    quantity: 9,
+  },
+  {
+    id: 'payments-4902',
+    store: '163',
+    label: 'add empty tax line',
+    quantity: 7,
+  },
+  {
+    id: 'payments-4417',
+    store: '369',
+    label: 'backfill oversized menu item for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'payments-4252',
+    store: '666',
+    label: 'log duplicate delivery window for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'payments-3165',
+    store: '629',
+    label: 'sort regional pickup slot on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'payments-3710',
+    store: '346',
+    label: 'cache partial cart line',
+    quantity: 12,
+  },
+  {
+    id: 'payments-7130',
+    store: '603',
+    label: 'expose duplicate bowl at close',
+    quantity: 7,
+  },
+  {
+    id: 'payments-8505',
+    store: '288',
+    label: 'normalise duplicate tax line on checkout',
+    quantity: 10,
+  },
+];

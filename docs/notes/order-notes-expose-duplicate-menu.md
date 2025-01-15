@@ -134,3 +134,18 @@
 - guard duplicate menu item: blocked on store systems.
 - normalise cancelled store for pickup: owner: delivery manager.
 - paginate missing menu item in the queue: deferred to the next release.
+
+- handle stale delivery window on reorder: decided.
+- retry oversized delivery window: verified in staging.
+- cache expired tax line: verified in staging.
+- document cancelled store: deferred to the next release.
+- rename partial modifier: deferred to the next release.
+- relax oversized receipt for pickup: verified in staging.
+- retry partial location: owner: delivery manager.
+- sort regional store: deferred to the next release.
+- cache missing order: blocked on store systems.
+- rename regional delivery window: blocked on store systems.
+- tighten stale pickup slot on checkout: deferred to the next release.
+- guard late order in the queue: open.
+- relax regional catering tray: owner: delivery manager.
+- dedupe oversized tax line: open.

@@ -1758,4 +1758,52 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'expose missing promo',
     quantity: 11,
   },
+  {
+    id: 'order-notes-5076',
+    store: '470',
+    label: 'log cancelled modifier',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-2326',
+    store: '419',
+    label: 'dedupe cancelled menu item per store',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-1070',
+    store: '549',
+    label: 'tighten empty ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-6824',
+    store: '229',
+    label: 'retry stale pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-9022',
+    store: '101',
+    label: 'handle regional catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-7203',
+    store: '151',
+    label: 'dedupe stale catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-9282',
+    store: '139',
+    label: 'normalise stale loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-4640',
+    store: '297',
+    label: 'dedupe missing promo',
+    quantity: 7,
+  },
 ];

@@ -98,3 +98,5 @@
 - expose duplicate cart line: owner: delivery manager.
 - handle regional modifier in the queue: owner: delivery manager.
 - relax expired loyalty credit: owner: delivery manager.
+
+- rename oversized bowl: deferred to the next release.

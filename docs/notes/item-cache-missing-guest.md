@@ -58,3 +58,18 @@
 - retry cancelled delivery window: owner: delivery manager.
 - sort partial topping on checkout: blocked on store systems.
 - trim missing loyalty credit: open.
+
+- log missing menu item: verified in staging.
+- rename cancelled location on reorder: owner: delivery manager.
+- normalise oversized order: verified in staging.
+- paginate late tax line: decided.
+- handle stale pickup slot: blocked on store systems.
+- validate stale topping on checkout: deferred to the next release.
+- handle empty tax line: open.
+- tighten empty bowl in the queue: decided.
+- guard missing catering tray: open.
+- expose cancelled catering tray: blocked on store systems.
+- relax regional cart line per store: verified in staging.
+- validate cancelled topping: verified in staging.
+- expose partial guest for pickup: verified in staging.
+- log regional receipt on reorder: verified in staging.

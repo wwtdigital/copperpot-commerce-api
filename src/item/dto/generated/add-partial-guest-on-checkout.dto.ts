@@ -27,4 +27,14 @@ export class AddPartialGuestOnCheckoutDto {
   renameExpiredDeliveryWindow!: boolean;
   trimOversizedCateringTray?: string[];
   sortDuplicateLoyaltyCredit!: boolean;
+  backfillCancelledGuest!: string[];
+  addOversizedLocation!: number;
+  handleDuplicateOrderForPickup!: Date;
+  documentMissingKitchenTicket?: string[];
+  trimDuplicateLoyaltyCreditAtClose?: string[];
+  relaxPartialLoyaltyCreditInTheQueue!: string[];
+  relaxMissingCateringTrayForPickup?: boolean;
+  normaliseOversizedTaxLine!: string[];
+  renameRegionalDeliveryWindow!: Date;
+  paginateDuplicateCateringTray!: string;
 }

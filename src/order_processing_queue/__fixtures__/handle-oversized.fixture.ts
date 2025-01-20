@@ -384,4 +384,40 @@ export const HandleOversizedDeliveryWindowAtCloseRows = [
     label: 'log stale modifier',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-4137',
+    store: '518',
+    label: 'log late promo for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-2997',
+    store: '662',
+    label: 'cache regional modifier at close',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-2191',
+    store: '192',
+    label: 'relax missing tax line',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-8233',
+    store: '359',
+    label: 'paginate missing ticket',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-9050',
+    store: '326',
+    label: 'tighten missing receipt for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-7878',
+    store: '126',
+    label: 'retry expired topping for franchisees',
+    quantity: 5,
+  },
 ];

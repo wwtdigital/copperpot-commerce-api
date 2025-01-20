@@ -21,3 +21,6 @@
 - document late kitchen ticket at close: verified in staging.
 - retry late topping: open.
 - sort cancelled ticket: deferred to the next release.
+
+- cache expired order on reorder: blocked on store systems.
+- document regional topping at close: owner: delivery manager.

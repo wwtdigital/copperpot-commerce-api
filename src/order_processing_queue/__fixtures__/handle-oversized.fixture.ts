@@ -270,4 +270,58 @@ export const HandleOversizedDeliveryWindowAtCloseRows = [
     label: 'retry duplicate kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'order-processing-queue-6921',
+    store: '197',
+    label: 'relax cancelled location',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-5892',
+    store: '507',
+    label: 'backfill cancelled delivery window on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-5319',
+    store: '159',
+    label: 'normalise missing promo',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-9563',
+    store: '339',
+    label: 'retry empty order on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-1973',
+    store: '409',
+    label: 'expose cancelled guest for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-8194',
+    store: '411',
+    label: 'document late pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-1151',
+    store: '201',
+    label: 'dedupe expired guest',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-7188',
+    store: '623',
+    label: 'relax duplicate promo on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-4711',
+    store: '399',
+    label: 'document late location',
+    quantity: 12,
+  },
 ];

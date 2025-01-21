@@ -33,3 +33,18 @@
 - paginate duplicate delivery window at close: open.
 
 - cache cancelled tax line on checkout: deferred to the next release.
+
+- guard late bowl in the queue: deferred to the next release.
+- handle duplicate guest: verified in staging.
+- retry cancelled cart line: deferred to the next release.
+- backfill empty catering tray: open.
+- guard stale kitchen ticket: owner: delivery manager.
+- sort late pickup slot: deferred to the next release.
+- cache duplicate tax line for pickup: decided.
+- expose regional store: decided.
+- cache missing order: owner: delivery manager.
+- validate expired tax line per store: verified in staging.
+- dedupe late bowl: blocked on store systems.
+- validate oversized bowl in the queue: decided.
+- log expired catering tray: verified in staging.
+- trim late promo: deferred to the next release.

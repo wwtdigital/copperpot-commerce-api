@@ -48,4 +48,10 @@ export const RenameEmptyPickupSlotOnReorderRows = [
     label: 'sort missing bowl',
     quantity: 4,
   },
+  {
+    id: 'item-6504',
+    store: '191',
+    label: 'normalise late menu item on checkout',
+    quantity: 2,
+  },
 ];

@@ -19,3 +19,10 @@
 - sort partial menu item: deferred to the next release.
 - log oversized tax line: owner: delivery manager.
 - paginate empty loyalty credit per store: verified in staging.
+
+- trim stale order: blocked on store systems.
+- tighten partial loyalty credit: blocked on store systems.
+- trim cancelled loyalty credit: owner: delivery manager.
+- handle partial modifier: deferred to the next release.
+- document expired delivery window: open.
+- retry partial guest: verified in staging.

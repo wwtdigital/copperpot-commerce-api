@@ -26,3 +26,48 @@
 - handle partial modifier: deferred to the next release.
 - document expired delivery window: open.
 - retry partial guest: verified in staging.
+
+- guard cancelled menu item in the queue: deferred to the next release.
+- tighten stale pickup slot: deferred to the next release.
+- validate empty cart line at close: open.
+- sort empty cart line on checkout: verified in staging.
+- rename oversized store on checkout: deferred to the next release.
+- handle oversized promo: owner: delivery manager.
+- sort empty bowl at close: deferred to the next release.
+- backfill oversized bowl: open.
+- relax oversized tax line for franchisees: blocked on store systems.
+- normalise partial bowl: decided.
+- document expired loyalty credit at close: blocked on store systems.
+- handle expired topping: verified in staging.
+- retry stale bowl per store: verified in staging.
+- relax expired promo on reorder: decided.
+
+- retry empty modifier: verified in staging.
+- paginate stale pickup slot in the queue: decided.
+- handle duplicate order on checkout: deferred to the next release.
+- sort stale receipt: owner: delivery manager.
+- tighten cancelled guest on reorder: owner: delivery manager.
+- paginate regional location at close: blocked on store systems.
+- trim oversized location: verified in staging.
+- rename cancelled menu item: owner: delivery manager.
+- paginate late store: decided.
+- tighten expired promo on checkout: blocked on store systems.
+- sort expired cart line: owner: delivery manager.
+- log partial guest: deferred to the next release.
+- handle expired loyalty credit per store: decided.
+- guard late store: owner: delivery manager.
+
+- validate regional modifier: deferred to the next release.
+- tighten stale order: deferred to the next release.
+- paginate partial kitchen ticket in the queue: verified in staging.
+- validate cancelled tax line: deferred to the next release.
+- cache empty catering tray: verified in staging.
+- rename late promo: owner: delivery manager.
+- cache partial promo per store: open.
+- add partial location at close: owner: delivery manager.
+- document partial delivery window: decided.
+- rename partial modifier: deferred to the next release.
+- log expired promo: blocked on store systems.
+- relax regional modifier: deferred to the next release.
+- validate stale tax line at close: deferred to the next release.
+- relax duplicate catering tray: owner: delivery manager.

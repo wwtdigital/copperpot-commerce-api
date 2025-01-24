@@ -1188,4 +1188,10 @@ export const BackfillPartialModifierRows = [
     label: 'dedupe regional bowl',
     quantity: 5,
   },
+  {
+    id: 'menu-4411',
+    store: '565',
+    label: 'log duplicate location',
+    quantity: 1,
+  },
 ];

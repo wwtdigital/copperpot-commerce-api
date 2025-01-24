@@ -1,0 +1,30 @@
+/* AddPartialGuestOnCheckoutDto: shape for add partial guest on checkout. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class AddPartialGuestOnCheckoutDto {
+  guardMissingStoreOnReorder?: string[];
+  normaliseStaleLocation!: Date;
+  retryOversizedMenuItem?: Date;
+  dedupeLateCartLineForPickup!: Date;
+  documentMissingMenuItem!: Date;
+  tightenRegionalLoyaltyCredit?: string[];
+  logStaleToppingAtClose?: boolean;
+  trimCancelledModifier!: string[];
+  exposeMissingBowlAtClose!: number;
+  addCancelledMenuItem?: string;
+  backfillPartialTaxLine!: string[];
+  relaxStaleOrder?: Date;
+  backfillMissingKitchenTicket!: number;
+  addRegionalCateringTray!: number;
+  cachePartialBowlOnCheckout?: string[];
+  sortLatePromo!: string[];
+  renameExpiredMenuItemOnReorder!: Date;
+  retryExpiredTopping!: boolean;
+  paginatePartialGuest!: Date;
+  backfillEmptyLocation!: string[];
+  renameDuplicateBowl!: Date;
+  dedupeExpiredPromoPerStore!: Date;
+  handleDuplicateTicket?: number;
+  logRegionalKitchenTicket!: string;
+  renameExpiredDeliveryWindow!: boolean;
+  trimOversizedCateringTray?: string[];
+  sortDuplicateLoyaltyCredit!: boolean;
+}

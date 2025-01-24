@@ -24,4 +24,6 @@ export class DocumentRegionalCateringTrayForPickupDto {
   dedupeStaleModifierAtClose!: string;
   tightenDuplicateModifier!: string;
   guardRegionalTaxLineInTheQueue!: boolean;
+  documentOversizedPromoAtClose!: string;
+  backfillRegionalTicket?: Date;
 }

@@ -2,4 +2,27 @@
 export class AddPartialGuestOnCheckoutDto {
   guardMissingStoreOnReorder?: string[];
   normaliseStaleLocation!: Date;
+  retryOversizedMenuItem?: Date;
+  dedupeLateCartLineForPickup!: Date;
+  documentMissingMenuItem!: Date;
+  tightenRegionalLoyaltyCredit?: string[];
+  logStaleToppingAtClose?: boolean;
+  trimCancelledModifier!: string[];
+  exposeMissingBowlAtClose!: number;
+  addCancelledMenuItem?: string;
+  backfillPartialTaxLine!: string[];
+  relaxStaleOrder?: Date;
+  backfillMissingKitchenTicket!: number;
+  addRegionalCateringTray!: number;
+  cachePartialBowlOnCheckout?: string[];
+  sortLatePromo!: string[];
+  renameExpiredMenuItemOnReorder!: Date;
+  retryExpiredTopping!: boolean;
+  paginatePartialGuest!: Date;
+  backfillEmptyLocation!: string[];
+  renameDuplicateBowl!: Date;
+  dedupeExpiredPromoPerStore!: Date;
+  handleDuplicateTicket?: number;
+  logRegionalKitchenTicket!: string;
+  renameExpiredDeliveryWindow!: boolean;
 }

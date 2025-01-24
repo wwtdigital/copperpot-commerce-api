@@ -252,4 +252,10 @@ export const RelaxCancelledMenuItemRows = [
     label: 'guard late receipt',
     quantity: 7,
   },
+  {
+    id: 'item-2445',
+    store: '349',
+    label: 'tighten partial modifier at close',
+    quantity: 12,
+  },
 ];

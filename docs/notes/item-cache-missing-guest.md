@@ -28,3 +28,18 @@
 - paginate late promo for pickup: open.
 - dedupe late tax line: deferred to the next release.
 - backfill partial catering tray: decided.
+
+- normalise expired loyalty credit at close: open.
+- guard cancelled catering tray: decided.
+- rename cancelled receipt per store: open.
+- rename partial order: decided.
+- sort duplicate tax line: open.
+- log late kitchen ticket: open.
+- relax partial receipt on reorder: open.
+- trim late bowl at close: open.
+- guard missing pickup slot: verified in staging.
+- retry expired order for franchisees: deferred to the next release.
+- log expired order: verified in staging.
+- cache regional catering tray for pickup: decided.
+- cache expired ticket for pickup: open.
+- expose expired cart line: decided.

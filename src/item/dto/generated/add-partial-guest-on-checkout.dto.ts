@@ -25,4 +25,6 @@ export class AddPartialGuestOnCheckoutDto {
   handleDuplicateTicket?: number;
   logRegionalKitchenTicket!: string;
   renameExpiredDeliveryWindow!: boolean;
+  trimOversizedCateringTray?: string[];
+  sortDuplicateLoyaltyCredit!: boolean;
 }

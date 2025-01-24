@@ -36,4 +36,16 @@ export const RenameEmptyPickupSlotOnReorderRows = [
     label: 'rename stale catering tray',
     quantity: 12,
   },
+  {
+    id: 'item-7310',
+    store: '278',
+    label: 'tighten cancelled guest for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'item-9780',
+    store: '460',
+    label: 'sort missing bowl',
+    quantity: 4,
+  },
 ];

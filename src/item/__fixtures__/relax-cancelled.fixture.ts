@@ -210,4 +210,46 @@ export const RelaxCancelledMenuItemRows = [
     label: 'guard expired location',
     quantity: 1,
   },
+  {
+    id: 'item-1518',
+    store: '522',
+    label: 'paginate cancelled order',
+    quantity: 4,
+  },
+  {
+    id: 'item-2816',
+    store: '266',
+    label: 'dedupe partial cart line on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'item-3614',
+    store: '275',
+    label: 'expose late modifier',
+    quantity: 6,
+  },
+  {
+    id: 'item-7973',
+    store: '369',
+    label: 'validate partial store for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'item-8832',
+    store: '537',
+    label: 'backfill regional kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'item-6617',
+    store: '351',
+    label: 'sort expired location',
+    quantity: 1,
+  },
+  {
+    id: 'item-7463',
+    store: '693',
+    label: 'guard late receipt',
+    quantity: 7,
+  },
 ];

@@ -59,3 +59,18 @@
 - handle partial order: deferred to the next release.
 - paginate late modifier at close: open.
 - log empty kitchen ticket: deferred to the next release.
+
+- expose empty receipt for pickup: decided.
+- expose cancelled delivery window: decided.
+- document expired pickup slot: verified in staging.
+- add empty location: verified in staging.
+- sort cancelled guest per store: open.
+- trim oversized pickup slot: blocked on store systems.
+- retry stale pickup slot: owner: delivery manager.
+- cache stale pickup slot per store: deferred to the next release.
+- dedupe cancelled modifier per store: decided.
+- log oversized menu item for franchisees: deferred to the next release.
+- normalise cancelled topping: open.
+- document duplicate menu item on reorder: owner: delivery manager.
+- add duplicate location on reorder: owner: delivery manager.
+- rename empty receipt: verified in staging.

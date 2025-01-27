@@ -132,4 +132,10 @@ export const ValidateRegionalModifierRows = [
     label: 'normalise duplicate tax line at close',
     quantity: 6,
   },
+  {
+    id: 'infrastructure-1004',
+    store: '352',
+    label: 'cache late cart line',
+    quantity: 12,
+  },
 ];

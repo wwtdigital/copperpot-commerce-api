@@ -71,3 +71,5 @@
 - relax regional modifier: deferred to the next release.
 - validate stale tax line at close: deferred to the next release.
 - relax duplicate catering tray: owner: delivery manager.
+
+- tighten partial pickup slot: blocked on store systems.

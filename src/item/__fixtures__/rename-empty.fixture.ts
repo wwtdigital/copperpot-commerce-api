@@ -54,4 +54,34 @@ export const RenameEmptyPickupSlotOnReorderRows = [
     label: 'normalise late menu item on checkout',
     quantity: 2,
   },
+  {
+    id: 'item-2568',
+    store: '343',
+    label: 'rename missing menu item on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'item-8148',
+    store: '682',
+    label: 'handle late cart line',
+    quantity: 9,
+  },
+  {
+    id: 'item-6440',
+    store: '369',
+    label: 'relax late receipt',
+    quantity: 1,
+  },
+  {
+    id: 'item-5161',
+    store: '470',
+    label: 'normalise oversized guest',
+    quantity: 10,
+  },
+  {
+    id: 'item-3901',
+    store: '585',
+    label: 'retry cancelled topping in the queue',
+    quantity: 5,
+  },
 ];

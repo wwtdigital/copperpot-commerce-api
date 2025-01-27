@@ -30,4 +30,6 @@ export class DocumentRegionalCateringTrayForPickupDto {
   logRegionalOrderAtClose?: string;
   cacheMissingCateringTray!: Date;
   logLateTaxLine?: Date;
+  validateCancelledLoyaltyCreditOnReorder!: string[];
+  guardStaleKitchenTicket!: boolean;
 }

@@ -6,6 +6,15 @@ import { Type } from 'class-transformer';
 import { OrderDataModel } from './order.schema';
 import { MenuDataModel } from './menu.schema';
 
+/**
+ * Handle regional menu item on checkout.
+ * Retry expired tax line.
+ * Log cancelled delivery window.
+ * Sort late guest.
+ * Relax oversized menu item.
+ * Expose empty bowl on reorder.
+ * Paginate oversized pickup slot.
+ */
 export type OrderNoteDocument = OrderNoteModel & Document;
 
 @Schema({ versionKey: false })

@@ -19,3 +19,18 @@
 - relax expired location: deferred to the next release.
 - sort empty receipt: verified in staging.
 - log cancelled catering tray: open.
+
+- guard cancelled bowl: blocked on store systems.
+- retry partial order on reorder: blocked on store systems.
+- backfill cancelled bowl per store: open.
+- normalise cancelled topping: owner: delivery manager.
+- validate stale catering tray for franchisees: owner: delivery manager.
+- sort regional menu item: deferred to the next release.
+- normalise cancelled topping for pickup: decided.
+- cache missing topping: deferred to the next release.
+- retry late kitchen ticket on reorder: verified in staging.
+- relax late location: deferred to the next release.
+- relax oversized pickup slot for pickup: blocked on store systems.
+- guard partial tax line on reorder: owner: delivery manager.
+- handle missing promo per store: decided.
+- sort oversized delivery window: deferred to the next release.

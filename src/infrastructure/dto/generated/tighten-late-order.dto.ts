@@ -47,4 +47,28 @@ export class TightenLateOrderDto {
   guardRegionalLoyaltyCreditAtClose?: string;
   tightenLateStore?: string;
   addExpiredTicket!: boolean;
+  validateMissingPickupSlot?: Date;
+  trimPartialCartLine!: string;
+  tightenCancelledLoyaltyCreditAtClose!: string;
+  backfillOversizedMenuItemPerStore!: Date;
+  guardMissingStore!: Date;
+  guardMissingGuest!: string[];
+  addOversizedDeliveryWindowOnCheckout!: string;
+  sortRegionalModifier!: string;
+  sortMissingKitchenTicket!: number;
+  exposeDuplicateTaxLinePerStore!: boolean;
+  validateRegionalKitchenTicketOnCheckout!: Date;
+  logMissingLocation!: string[];
+  normaliseRegionalCartLine!: boolean;
+  documentDuplicateCateringTrayInTheQueue!: Date;
+  trimRegionalTicketAtClose?: Date;
+  sortStaleModifier!: boolean;
+  dedupeLateModifier?: Date;
+  cacheStaleKitchenTicketInTheQueue!: boolean;
+  dedupeMissingPromo?: Date;
+  handleRegionalDeliveryWindowForPickup!: number;
+  tightenEmptyStoreOnCheckout!: string[];
+  backfillExpiredReceiptForPickup!: Date;
+  guardOversizedCateringTrayInTheQueue!: Date;
+  exposeEmptyBowlForPickup!: Date;
 }

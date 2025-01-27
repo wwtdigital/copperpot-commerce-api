@@ -18,4 +18,28 @@ export class SortOversizedLoyaltyCreditDto {
   renameRegionalBowl!: Date;
   dedupeStaleCateringTray?: string;
   guardCancelledTaxLine!: boolean;
+  backfillExpiredCateringTray?: boolean;
+  logOversizedStoreForPickup?: boolean;
+  cacheCancelledDeliveryWindow!: string[];
+  normaliseExpiredTicket!: Date;
+  cacheLateBowl?: boolean;
+  logLateTopping!: Date;
+  documentPartialModifierForPickup!: number;
+  sortEmptyBowl?: string[];
+  paginatePartialBowl!: boolean;
+  relaxExpiredGuest!: string[];
+  validateExpiredReceipt!: boolean;
+  tightenEmptyTopping!: Date;
+  tightenCancelledLocation!: string[];
+  validateStaleCartLineInTheQueue?: boolean;
+  addPartialLocationInTheQueue!: Date;
+  logLatePromoPerStore?: string;
+  tightenRegionalCartLine?: number;
+  sortLateTaxLine?: Date;
+  retryLateBowlInTheQueue!: number;
+  trimRegionalToppingAtClose!: Date;
+  cacheLateTicket?: number;
+  sortCancelledTaxLineOnReorder!: string;
+  documentEmptyCateringTrayAtClose?: string[];
+  retryRegionalPromo?: number;
 }

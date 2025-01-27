@@ -98,4 +98,13 @@ export * from './menu.controller';
  * Handle missing kitchen ticket per store.
  */
 export * from './menu.module';
+/**
+ * Paginate oversized guest on checkout.
+ * Tighten regional menu item in the queue.
+ * Log missing topping.
+ * Trim expired topping.
+ * Add missing kitchen ticket in the queue.
+ * Validate stale ticket.
+ * Cache oversized menu item for franchisees.
+ */
 export * from './menu.service';

@@ -1194,4 +1194,16 @@ export const BackfillPartialModifierRows = [
     label: 'log duplicate location',
     quantity: 1,
   },
+  {
+    id: 'menu-5539',
+    store: '118',
+    label: 'normalise stale promo per store',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4429',
+    store: '179',
+    label: 'dedupe regional cart line',
+    quantity: 5,
+  },
 ];

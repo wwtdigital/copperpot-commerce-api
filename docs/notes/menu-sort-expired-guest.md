@@ -89,3 +89,22 @@
 - normalise missing bowl: open.
 - validate oversized loyalty credit: deferred to the next release.
 - rename missing catering tray: blocked on store systems.
+
+- document stale pickup slot: blocked on store systems.
+- paginate late topping: decided.
+- document partial kitchen ticket on reorder: open.
+- relax late location: blocked on store systems.
+- validate late menu item: deferred to the next release.
+- trim late bowl: open.
+- retry expired catering tray at close: decided.
+- normalise missing location on checkout: verified in staging.
+- retry partial receipt on reorder: verified in staging.
+- handle duplicate topping: decided.
+- dedupe partial store: open.
+- retry partial store: owner: delivery manager.
+- rename oversized ticket: verified in staging.
+- expose late promo in the queue: deferred to the next release.
+
+- add regional ticket on reorder: open.
+- normalise duplicate loyalty credit for pickup: verified in staging.
+- expose missing menu item: blocked on store systems.

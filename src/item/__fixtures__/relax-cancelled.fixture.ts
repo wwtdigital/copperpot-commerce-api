@@ -276,4 +276,10 @@ export const RelaxCancelledMenuItemRows = [
     label: 'validate partial order per store',
     quantity: 1,
   },
+  {
+    id: 'item-2729',
+    store: '140',
+    label: 'retry cancelled menu item for franchisees',
+    quantity: 1,
+  },
 ];

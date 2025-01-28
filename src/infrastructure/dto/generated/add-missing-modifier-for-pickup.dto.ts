@@ -170,4 +170,28 @@ export class AddMissingModifierForPickupDto {
   backfillOversizedGuest?: boolean;
   exposeRegionalPickupSlotOnCheckout!: number;
   relaxRegionalLoyaltyCredit!: boolean;
+  addStaleCateringTrayForPickup!: number;
+  addMissingCateringTrayInTheQueue!: string;
+  documentMissingKitchenTicket?: boolean;
+  relaxLateGuest?: number;
+  addOversizedTicket?: boolean;
+  trimDuplicateGuest!: string;
+  retryDuplicateReceipt!: boolean;
+  sortExpiredDeliveryWindowAtClose!: number;
+  handleOversizedModifierForPickup!: string[];
+  retryEmptyToppingOnReorder!: boolean;
+  relaxCancelledTopping!: Date;
+  exposeMissingBowlOnReorder?: Date;
+  sortOversizedLocationPerStore!: string;
+  normaliseExpiredPickupSlot?: number;
+  handleMissingLocation!: string;
+  renameDuplicateLocation!: Date;
+  guardOversizedPickupSlotOnCheckout?: number;
+  trimPartialTicketOnReorder!: Date;
+  normaliseCancelledTicket!: Date;
+  dedupeLateKitchenTicketOnReorder?: number;
+  exposeMissingPromoOnReorder!: string;
+  sortCancelledGuest!: number;
+  dedupeMissingModifier!: boolean;
+  normaliseCancelledStoreOnReorder?: string[];
 }

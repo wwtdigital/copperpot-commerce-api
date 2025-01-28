@@ -34,3 +34,22 @@
 - normalise oversized promo at close: deferred to the next release.
 - document late bowl for pickup: owner: delivery manager.
 - expose stale catering tray: owner: delivery manager.
+
+- backfill regional bowl on checkout: deferred to the next release.
+- log expired promo for pickup: verified in staging.
+- paginate partial bowl for franchisees: verified in staging.
+- dedupe cancelled delivery window: decided.
+- log partial location: verified in staging.
+- normalise empty promo: open.
+- sort regional delivery window per store: owner: delivery manager.
+- paginate partial receipt for pickup: owner: delivery manager.
+- guard oversized menu item: decided.
+- relax regional pickup slot for pickup: blocked on store systems.
+- dedupe cancelled store: deferred to the next release.
+- paginate duplicate store: verified in staging.
+- guard late store: deferred to the next release.
+- rename expired cart line: owner: delivery manager.
+
+- retry missing store: owner: delivery manager.
+- paginate empty cart line: deferred to the next release.
+- document empty kitchen ticket: verified in staging.

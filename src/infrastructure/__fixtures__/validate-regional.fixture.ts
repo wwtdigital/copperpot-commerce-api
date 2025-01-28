@@ -42,4 +42,34 @@ export const ValidateRegionalModifierRows = [
     label: 'log regional kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'infrastructure-2382',
+    store: '118',
+    label: 'normalise regional order at close',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-3990',
+    store: '301',
+    label: 'sort cancelled tax line',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-7653',
+    store: '697',
+    label: 'retry oversized cart line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-8213',
+    store: '395',
+    label: 'backfill expired modifier for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-7397',
+    store: '581',
+    label: 'handle regional menu item in the queue',
+    quantity: 5,
+  },
 ];

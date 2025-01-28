@@ -24,4 +24,27 @@ export class TightenLateOrderDto {
   renameStaleKitchenTicket?: boolean;
   handleStaleModifier!: string;
   documentEmptyModifier?: Date;
+  guardExpiredDeliveryWindow!: Date;
+  cacheLateMenuItemOnCheckout?: string;
+  backfillDuplicateOrder!: boolean;
+  documentExpiredCartLineInTheQueue?: string;
+  paginateStaleStore!: string[];
+  tightenMissingStore?: string;
+  tightenRegionalTicketAtClose!: Date;
+  cacheEmptyMenuItem!: Date;
+  handleStaleReceiptPerStore!: boolean;
+  trimOversizedLocation!: Date;
+  relaxCancelledPickupSlotForPickup!: string;
+  documentCancelledOrder!: Date;
+  dedupeRegionalTicketAtClose!: Date;
+  exposeRegionalLoyaltyCredit?: boolean;
+  dedupeLateTaxLineAtClose!: Date;
+  backfillLatePromo!: Date;
+  paginateExpiredReceipt?: boolean;
+  validateCancelledGuestForPickup?: Date;
+  renameStaleOrderAtClose?: number;
+  addStaleCateringTray!: boolean;
+  guardRegionalLoyaltyCreditAtClose?: string;
+  tightenLateStore?: string;
+  addExpiredTicket!: boolean;
 }

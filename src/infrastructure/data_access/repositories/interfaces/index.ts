@@ -19,4 +19,13 @@ export * from './addon-repository.interface';
  */
 export * from './item-repository.interface';
 export * from './menu-repository.interface';
+/**
+ * Trim regional location for franchisees.
+ * Cache oversized loyalty credit.
+ * Relax expired order on reorder.
+ * Backfill empty guest.
+ * Expose duplicate catering tray in the queue.
+ * Expose partial catering tray in the queue.
+ * Normalise empty kitchen ticket on reorder.
+ */
 export * from './restaurant-repository.interface';

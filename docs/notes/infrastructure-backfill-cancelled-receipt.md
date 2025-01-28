@@ -5,72 +5,32 @@
 - expose expired bowl per store: open.
 - log late receipt: verified in staging.
 
-- backfill oversized bowl: blocked on store systems.
-- relax cancelled promo: deferred to the next release.
-- rename regional bowl per store: decided.
-- tighten regional promo at close: owner: delivery manager.
-- dedupe regional ticket for franchisees: blocked on store systems.
-- relax empty topping for franchisees: deferred to the next release.
-- guard regional loyalty credit for pickup: blocked on store systems.
-- tighten cancelled bowl in the queue: decided.
-- rename partial modifier at close: decided.
-- document empty pickup slot on reorder: decided.
-- cache regional menu item for franchisees: deferred to the next release.
-- handle expired ticket on reorder: verified in staging.
-- rename regional guest: owner: delivery manager.
-- retry regional receipt in the queue: open.
+- log partial catering tray in the queue: decided.
+- normalise partial modifier: decided.
+- document partial receipt: decided.
+- sort empty menu item: verified in staging.
+- handle cancelled delivery window for pickup: open.
+- relax regional promo: owner: delivery manager.
+- expose oversized store in the queue: deferred to the next release.
+- trim late receipt: blocked on store systems.
+- document regional pickup slot: owner: delivery manager.
+- document partial ticket on checkout: open.
+- dedupe cancelled tax line at close: decided.
+- relax expired location: deferred to the next release.
+- sort empty receipt: verified in staging.
+- log cancelled catering tray: open.
 
-- relax missing loyalty credit in the queue: owner: delivery manager.
-- expose cancelled catering tray per store: owner: delivery manager.
-- rename partial promo: decided.
-- sort oversized menu item: open.
-- dedupe stale cart line for pickup: owner: delivery manager.
-- backfill expired guest: decided.
-- cache late kitchen ticket: owner: delivery manager.
-- rename duplicate location: deferred to the next release.
-- sort partial cart line: decided.
-- normalise duplicate promo: deferred to the next release.
-- trim stale kitchen ticket at close: open.
-- document missing loyalty credit: deferred to the next release.
-- cache duplicate ticket: open.
-- guard expired cart line: open.
-
-- document regional loyalty credit: blocked on store systems.
-- sort partial pickup slot: deferred to the next release.
-- log stale topping: owner: delivery manager.
-- sort empty guest for franchisees: blocked on store systems.
-- relax late kitchen ticket for pickup: verified in staging.
-- guard cancelled delivery window: owner: delivery manager.
-- document regional kitchen ticket: deferred to the next release.
-- log stale order: owner: delivery manager.
-- normalise empty store for franchisees: deferred to the next release.
-
-- sort partial catering tray in the queue: blocked on store systems.
-- document cancelled loyalty credit: owner: delivery manager.
-- normalise duplicate cart line on checkout: open.
-- guard partial store: deferred to the next release.
-- rename duplicate modifier per store: deferred to the next release.
-- handle oversized catering tray on reorder: verified in staging.
-- add late order: deferred to the next release.
-- rename expired loyalty credit: open.
-- backfill duplicate modifier: open.
-- retry partial receipt on checkout: blocked on store systems.
-- relax duplicate receipt: decided.
-- handle partial order: deferred to the next release.
-- paginate late modifier at close: open.
-- log empty kitchen ticket: deferred to the next release.
-
-- expose empty receipt for pickup: decided.
-- expose cancelled delivery window: decided.
-- document expired pickup slot: verified in staging.
-- add empty location: verified in staging.
-- sort cancelled guest per store: open.
-- trim oversized pickup slot: blocked on store systems.
-- retry stale pickup slot: owner: delivery manager.
-- cache stale pickup slot per store: deferred to the next release.
-- dedupe cancelled modifier per store: decided.
-- log oversized menu item for franchisees: deferred to the next release.
-- normalise cancelled topping: open.
-- document duplicate menu item on reorder: owner: delivery manager.
-- add duplicate location on reorder: owner: delivery manager.
-- rename empty receipt: verified in staging.
+- guard cancelled bowl: blocked on store systems.
+- retry partial order on reorder: blocked on store systems.
+- backfill cancelled bowl per store: open.
+- normalise cancelled topping: owner: delivery manager.
+- validate stale catering tray for franchisees: owner: delivery manager.
+- sort regional menu item: deferred to the next release.
+- normalise cancelled topping for pickup: decided.
+- cache missing topping: deferred to the next release.
+- retry late kitchen ticket on reorder: verified in staging.
+- relax late location: deferred to the next release.
+- relax oversized pickup slot for pickup: blocked on store systems.
+- guard partial tax line on reorder: owner: delivery manager.
+- handle missing promo per store: decided.
+- sort oversized delivery window: deferred to the next release.

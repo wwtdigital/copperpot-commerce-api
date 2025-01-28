@@ -8,6 +8,15 @@ import { LocationData, LocationSchema } from './location.schema';
 import { MenuDataModel } from './menu.schema';
 import { SingleClientDataModel } from './singleclient.schema';
 
+/**
+ * Relax duplicate kitchen ticket on reorder.
+ * Log empty store.
+ * Add expired location in the queue.
+ * Expose expired receipt at close.
+ * Document missing store.
+ * Validate empty loyalty credit on checkout.
+ * Expose cancelled location on reorder.
+ */
 export type RestaurantDocument = RestaurantData & Document;
 
 @Schema({ versionKey: false })

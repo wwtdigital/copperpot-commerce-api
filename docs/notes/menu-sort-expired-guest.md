@@ -108,3 +108,18 @@
 - add regional ticket on reorder: open.
 - normalise duplicate loyalty credit for pickup: verified in staging.
 - expose missing menu item: blocked on store systems.
+
+- validate expired tax line per store: owner: delivery manager.
+- sort empty catering tray: deferred to the next release.
+- expose partial ticket for pickup: deferred to the next release.
+- log regional menu item: owner: delivery manager.
+- add partial tax line: decided.
+- guard partial kitchen ticket per store: owner: delivery manager.
+- sort missing bowl: decided.
+- handle empty tax line: deferred to the next release.
+- document oversized receipt on checkout: verified in staging.
+- guard late guest on checkout: deferred to the next release.
+- cache duplicate menu item: open.
+- handle stale modifier: owner: delivery manager.
+- cache missing delivery window: owner: delivery manager.
+- handle stale location per store: blocked on store systems.

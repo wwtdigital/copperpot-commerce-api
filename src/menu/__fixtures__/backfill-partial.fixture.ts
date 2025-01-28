@@ -1206,4 +1206,16 @@ export const BackfillPartialModifierRows = [
     label: 'dedupe regional cart line',
     quantity: 5,
   },
+  {
+    id: 'menu-2122',
+    store: '185',
+    label: 'tighten stale store at close',
+    quantity: 6,
+  },
+  {
+    id: 'menu-1358',
+    store: '608',
+    label: 'relax empty modifier for pickup',
+    quantity: 6,
+  },
 ];

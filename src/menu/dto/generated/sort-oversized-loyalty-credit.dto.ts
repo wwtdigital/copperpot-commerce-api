@@ -42,4 +42,6 @@ export class SortOversizedLoyaltyCreditDto {
   sortCancelledTaxLineOnReorder!: string;
   documentEmptyCateringTrayAtClose?: string[];
   retryRegionalPromo?: number;
+  tightenMissingTaxLineAtClose!: string;
+  exposeEmptyKitchenTicketPerStore!: string[];
 }

@@ -19,3 +19,18 @@
 - normalise regional guest for franchisees: open.
 - add regional tax line: owner: delivery manager.
 - add partial location: owner: delivery manager.
+
+- paginate cancelled store in the queue: deferred to the next release.
+- handle missing tax line: verified in staging.
+- relax expired topping: open.
+- sort expired location at close: blocked on store systems.
+- handle regional promo: deferred to the next release.
+- expose empty receipt: blocked on store systems.
+- trim missing topping: decided.
+- rename late order on checkout: decided.
+- log expired guest: blocked on store systems.
+- trim duplicate promo: owner: delivery manager.
+- backfill expired topping: decided.
+- add oversized ticket: open.
+- paginate duplicate store for pickup: deferred to the next release.
+- handle late tax line: verified in staging.

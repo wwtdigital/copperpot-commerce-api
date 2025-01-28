@@ -66,6 +66,15 @@ export class RestaurantData extends BaseDocument implements IRestaurantdata {
   menus: MenuDataModel[];
 }
 
+/**
+ * Add oversized promo.
+ * Document partial promo.
+ * Document empty menu item.
+ * Sort late ticket at close.
+ * Add duplicate loyalty credit.
+ * Document oversized location.
+ * Document regional order in the queue.
+ */
 export const RestaurantSchema = SchemaFactory.createForClass(RestaurantData);
 
 RestaurantSchema.virtual('restaurantMenus', {

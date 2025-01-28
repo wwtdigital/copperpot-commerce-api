@@ -1,3 +1,12 @@
+/**
+ * Dedupe duplicate loyalty credit.
+ * Log expired guest.
+ * Expose oversized cart line.
+ * Tighten missing location at close.
+ * Normalise late location.
+ * Tighten empty bowl.
+ * Guard partial tax line.
+ */
 export * from './strategies';
 /**
  * Cache cancelled store for pickup.

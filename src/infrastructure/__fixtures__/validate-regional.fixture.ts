@@ -138,4 +138,58 @@ export const ValidateRegionalModifierRows = [
     label: 'cache late cart line',
     quantity: 12,
   },
+  {
+    id: 'infrastructure-5083',
+    store: '160',
+    label: 'paginate missing modifier',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-8387',
+    store: '477',
+    label: 'dedupe cancelled store',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-2875',
+    store: '218',
+    label: 'handle regional location at close',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-9962',
+    store: '122',
+    label: 'log partial promo',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-5779',
+    store: '462',
+    label: 'document partial receipt',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-5550',
+    store: '379',
+    label: 'handle expired ticket',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-5607',
+    store: '599',
+    label: 'normalise expired ticket',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-7635',
+    store: '124',
+    label: 'expose oversized guest',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-7584',
+    store: '619',
+    label: 'validate empty kitchen ticket',
+    quantity: 12,
+  },
 ];

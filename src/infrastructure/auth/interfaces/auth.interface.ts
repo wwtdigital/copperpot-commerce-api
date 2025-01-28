@@ -35,6 +35,15 @@ export interface ISignUpTokens {
   accessToken: string;
 }
 
+/**
+ * Handle late catering tray.
+ * Log cancelled receipt.
+ * Expose partial catering tray.
+ * Trim cancelled topping.
+ * Rename missing delivery window.
+ * Cache regional topping.
+ * Document duplicate catering tray.
+ */
 export interface ILogin {
   email: string;
   password: string;

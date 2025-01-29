@@ -37,4 +37,24 @@ export class AddPartialGuestOnCheckoutDto {
   normaliseOversizedTaxLine!: string[];
   renameRegionalDeliveryWindow!: Date;
   paginateDuplicateCateringTray!: string;
+  handleMissingDeliveryWindowForFranchisees?: boolean;
+  guardCancelledMenuItemOnReorder!: number;
+  exposeCancelledMenuItem!: number;
+  addExpiredLoyaltyCredit!: string[];
+  relaxDuplicateLocation?: string[];
+  cacheCancelledModifierInTheQueue!: Date;
+  relaxExpiredOrderPerStore!: Date;
+  relaxDuplicateCartLine!: number;
+  relaxOversizedTopping?: boolean;
+  cachePartialLoyaltyCredit!: string[];
+  guardCancelledDeliveryWindow!: string;
+  backfillStaleStore!: number;
+  retryCancelledPickupSlot!: Date;
+  validatePartialTaxLine!: string[];
+  backfillStaleOrderPerStore?: string[];
+  normaliseRegionalPromo?: Date;
+  retryDuplicateCartLine!: Date;
+  normaliseLateStore!: string[];
+  relaxRegionalStore!: Date;
+  guardMissingReceiptOnReorder!: string[];
 }

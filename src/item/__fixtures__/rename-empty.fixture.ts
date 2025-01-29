@@ -84,4 +84,10 @@ export const RenameEmptyPickupSlotOnReorderRows = [
     label: 'retry cancelled topping in the queue',
     quantity: 5,
   },
+  {
+    id: 'item-7557',
+    store: '542',
+    label: 'add expired store on reorder',
+    quantity: 5,
+  },
 ];

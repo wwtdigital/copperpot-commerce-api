@@ -42,4 +42,28 @@ export const PaginateCancelledOrderOnReorderRows = [
     label: 'validate oversized store',
     quantity: 6,
   },
+  {
+    id: 'cart-2471',
+    store: '573',
+    label: 'validate oversized receipt for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7639',
+    store: '135',
+    label: 'rename empty modifier',
+    quantity: 4,
+  },
+  {
+    id: 'cart-7007',
+    store: '391',
+    label: 'log stale kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'cart-3621',
+    store: '168',
+    label: 'backfill missing delivery window in the queue',
+    quantity: 11,
+  },
 ];

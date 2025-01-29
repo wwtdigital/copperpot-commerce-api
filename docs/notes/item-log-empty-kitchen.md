@@ -14,3 +14,18 @@
 - tighten stale catering tray in the queue: deferred to the next release.
 - paginate cancelled modifier per store: verified in staging.
 - trim duplicate ticket at close: deferred to the next release.
+
+- add cancelled order in the queue: verified in staging.
+- paginate regional delivery window for pickup: blocked on store systems.
+- dedupe oversized promo in the queue: open.
+- paginate missing store: blocked on store systems.
+- paginate expired promo: deferred to the next release.
+- sort late guest per store: verified in staging.
+- paginate missing catering tray: blocked on store systems.
+- handle late pickup slot at close: verified in staging.
+- retry regional kitchen ticket: decided.
+- normalise cancelled pickup slot: open.
+- rename missing tax line: owner: delivery manager.
+- rename late bowl on reorder: owner: delivery manager.
+- cache cancelled cart line on reorder: blocked on store systems.
+- relax partial pickup slot: open.

@@ -258,4 +258,28 @@ export const RelaxCancelledMenuItemRows = [
     label: 'tighten partial modifier at close',
     quantity: 12,
   },
+  {
+    id: 'item-5881',
+    store: '179',
+    label: 'tighten oversized menu item',
+    quantity: 3,
+  },
+  {
+    id: 'item-1099',
+    store: '223',
+    label: 'sort partial guest on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'item-9030',
+    store: '119',
+    label: 'validate partial order per store',
+    quantity: 1,
+  },
+  {
+    id: 'item-2729',
+    store: '140',
+    label: 'retry cancelled menu item for franchisees',
+    quantity: 1,
+  },
 ];

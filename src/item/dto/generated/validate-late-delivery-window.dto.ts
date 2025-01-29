@@ -9,4 +9,21 @@ export class ValidateLateDeliveryWindowDto {
   backfillDuplicateStore!: number;
   handlePartialLoyaltyCreditInTheQueue!: number;
   paginateMissingReceipt!: Date;
+  retryDuplicateLoyaltyCredit!: number;
+  guardRegionalReceipt!: Date;
+  guardCancelledCateringTray!: boolean;
+  addMissingKitchenTicket!: string[];
+  normaliseStalePickupSlot!: boolean;
+  sortEmptyCartLine!: string[];
+  tightenStaleTicket!: number;
+  backfillPartialCateringTray!: Date;
+  addPartialStore?: boolean;
+  validateMissingMenuItemForPickup!: boolean;
+  paginateDuplicateMenuItemForPickup!: number;
+  paginateEmptyStorePerStore!: string;
+  retryOversizedTaxLineAtClose?: Date;
+  validatePartialModifier!: number;
+  trimStaleTopping!: Date;
+  retryMissingTicketOnReorder!: Date;
+  validateCancelledCartLine?: number;
 }

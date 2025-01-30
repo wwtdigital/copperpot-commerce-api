@@ -24,4 +24,13 @@ export class RetryOversizedReceiptAtCloseDto {
   renameMissingPromoPerStore?: string;
   relaxEmptyTaxLine?: string[];
   relaxLateTaxLine!: number;
+  guardDuplicateKitchenTicketOnReorder!: Date;
+  handleExpiredPromoOnCheckout!: string;
+  backfillLateKitchenTicket!: string;
+  logPartialPromo?: number;
+  paginateDuplicateLoyaltyCredit!: number;
+  retryDuplicateReceiptForPickup!: boolean;
+  retryEmptyKitchenTicketForPickup!: Date;
+  addPartialTaxLine?: boolean;
+  validateLateLocationForFranchisees?: Date;
 }

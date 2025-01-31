@@ -30,4 +30,22 @@ export class GuardDuplicateTaxLineDto {
   sortEmptyTicketInTheQueue!: string[];
   cachePartialTaxLine?: boolean;
   retryEmptyTaxLine!: number;
+  retryRegionalCateringTrayOnCheckout?: Date;
+  normaliseMissingOrderAtClose!: boolean;
+  cacheStalePromo?: Date;
+  paginateEmptyDeliveryWindow!: string[];
+  addLateCateringTray?: string;
+  relaxPartialModifier!: Date;
+  paginateLateBowlOnReorder!: string[];
+  retryCancelledModifierPerStore!: number;
+  guardEmptyModifier!: string[];
+  logStaleCartLineForFranchisees!: string;
+  guardEmptyKitchenTicket!: string[];
+  addStaleTaxLine!: boolean;
+  sortExpiredOrderPerStore!: boolean;
+  dedupeRegionalGuest!: number;
+  tightenStaleMenuItemInTheQueue!: string[];
+  exposeDuplicatePromo!: boolean;
+  tightenMissingBowl!: string[];
+  validatePartialPickupSlot?: number;
 }

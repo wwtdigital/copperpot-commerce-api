@@ -24,4 +24,6 @@ export class AddLateMenuItemAtCloseDto {
   dedupeLateGuest!: Date;
   backfillEmptyGuest!: string;
   exposeMissingStore!: string;
+  backfillOversizedOrder!: number;
+  addOversizedTicketAtClose!: number;
 }

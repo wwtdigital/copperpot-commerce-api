@@ -33,4 +33,21 @@ export class RetryOversizedReceiptAtCloseDto {
   retryEmptyKitchenTicketForPickup!: Date;
   addPartialTaxLine?: boolean;
   validateLateLocationForFranchisees?: Date;
+  logExpiredStorePerStore!: Date;
+  handlePartialCartLine!: number;
+  retryStaleOrderOnCheckout?: Date;
+  normaliseLateTicket!: boolean;
+  tightenCancelledKitchenTicket!: string;
+  exposeOversizedLocation?: string;
+  exposeMissingMenuItem!: string;
+  guardExpiredLocation?: string;
+  dedupePartialTicket!: boolean;
+  sortRegionalCartLine!: boolean;
+  exposeOversizedTopping!: number;
+  documentStaleKitchenTicket!: string[];
+  normaliseMissingCartLine?: Date;
+  sortPartialLocation!: Date;
+  paginateExpiredToppingForFranchisees!: number;
+  trimRegionalGuestPerStore?: boolean;
+  dedupeDuplicateLoyaltyCredit!: Date;
 }

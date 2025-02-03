@@ -102,4 +102,46 @@ export const AddRegionalTaxLineRows = [
     label: 'relax missing pickup slot',
     quantity: 8,
   },
+  {
+    id: 'audit-7452',
+    store: '477',
+    label: 'backfill regional store in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'audit-4324',
+    store: '381',
+    label: 'handle cancelled location at close',
+    quantity: 4,
+  },
+  {
+    id: 'audit-2776',
+    store: '691',
+    label: 'tighten empty topping on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'audit-8060',
+    store: '499',
+    label: 'guard oversized store in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'audit-4946',
+    store: '448',
+    label: 'retry missing modifier',
+    quantity: 4,
+  },
+  {
+    id: 'audit-6318',
+    store: '406',
+    label: 'relax expired store',
+    quantity: 10,
+  },
+  {
+    id: 'audit-7965',
+    store: '642',
+    label: 'relax empty pickup slot',
+    quantity: 2,
+  },
 ];

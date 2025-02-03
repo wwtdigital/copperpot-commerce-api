@@ -312,4 +312,34 @@ export const RelaxEmptyToppingPerStoreRows = [
     label: 'document duplicate cart line',
     quantity: 6,
   },
+  {
+    id: 'menu-6209',
+    store: '494',
+    label: 'trim oversized kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'menu-8196',
+    store: '274',
+    label: 'expose expired order',
+    quantity: 2,
+  },
+  {
+    id: 'menu-9103',
+    store: '361',
+    label: 'retry regional modifier',
+    quantity: 7,
+  },
+  {
+    id: 'menu-2667',
+    store: '409',
+    label: 'trim late loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'menu-4924',
+    store: '517',
+    label: 'expose cancelled receipt at close',
+    quantity: 7,
+  },
 ];

@@ -282,4 +282,34 @@ export const RelaxEmptyToppingPerStoreRows = [
     label: 'validate duplicate receipt',
     quantity: 8,
   },
+  {
+    id: 'menu-9814',
+    store: '309',
+    label: 'rename partial menu item',
+    quantity: 2,
+  },
+  {
+    id: 'menu-4781',
+    store: '139',
+    label: 'document missing bowl on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'menu-9844',
+    store: '318',
+    label: 'log empty menu item for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'menu-1730',
+    store: '251',
+    label: 'expose stale ticket',
+    quantity: 9,
+  },
+  {
+    id: 'menu-4632',
+    store: '142',
+    label: 'document duplicate cart line',
+    quantity: 6,
+  },
 ];

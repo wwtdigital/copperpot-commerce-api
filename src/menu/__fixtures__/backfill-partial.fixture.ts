@@ -1218,4 +1218,52 @@ export const BackfillPartialModifierRows = [
     label: 'relax empty modifier for pickup',
     quantity: 6,
   },
+  {
+    id: 'menu-1918',
+    store: '515',
+    label: 'document missing loyalty credit in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'menu-7844',
+    store: '520',
+    label: 'retry oversized tax line',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7114',
+    store: '650',
+    label: 'paginate duplicate kitchen ticket at close',
+    quantity: 1,
+  },
+  {
+    id: 'menu-6327',
+    store: '671',
+    label: 'guard regional modifier',
+    quantity: 9,
+  },
+  {
+    id: 'menu-2984',
+    store: '424',
+    label: 'validate missing bowl on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3814',
+    store: '187',
+    label: 'document expired ticket in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2326',
+    store: '579',
+    label: 'cache late guest',
+    quantity: 2,
+  },
+  {
+    id: 'menu-4608',
+    store: '288',
+    label: 'cache missing tax line per store',
+    quantity: 7,
+  },
 ];

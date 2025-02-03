@@ -123,3 +123,18 @@
 - handle stale modifier: owner: delivery manager.
 - cache missing delivery window: owner: delivery manager.
 - handle stale location per store: blocked on store systems.
+
+- expose expired topping: owner: delivery manager.
+- guard missing cart line on reorder: open.
+- add oversized catering tray: owner: delivery manager.
+- relax oversized promo in the queue: verified in staging.
+- relax cancelled guest: open.
+- retry oversized pickup slot: decided.
+- paginate expired cart line at close: owner: delivery manager.
+- cache empty order: owner: delivery manager.
+- backfill oversized catering tray for franchisees: deferred to the next release.
+- log cancelled modifier: open.
+- sort duplicate cart line per store: open.
+- tighten late cart line on checkout: owner: delivery manager.
+- guard stale loyalty credit on checkout: decided.
+- log cancelled guest for franchisees: open.

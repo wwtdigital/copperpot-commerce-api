@@ -162,4 +162,34 @@ export const CacheCancelledOrderAtCloseRows = [
     label: 'rename missing bowl',
     quantity: 1,
   },
+  {
+    id: 'payments-9551',
+    store: '306',
+    label: 'expose expired catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'payments-2209',
+    store: '647',
+    label: 'retry oversized store at close',
+    quantity: 4,
+  },
+  {
+    id: 'payments-3864',
+    store: '250',
+    label: 'tighten expired tax line on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'payments-5148',
+    store: '363',
+    label: 'validate missing store',
+    quantity: 8,
+  },
+  {
+    id: 'payments-1300',
+    store: '518',
+    label: 'sort missing topping',
+    quantity: 9,
+  },
 ];

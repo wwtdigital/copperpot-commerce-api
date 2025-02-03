@@ -14,6 +14,15 @@ export interface CaptureResult {
   amountCents: number;
 }
 
+/**
+ * Sort regional bowl.
+ * Log missing topping at close.
+ * Normalise partial guest.
+ * Trim cancelled kitchen ticket on reorder.
+ * Handle late kitchen ticket.
+ * Validate regional pickup slot.
+ * Cache duplicate topping.
+ */
 export interface IPaymentProvider {
   authorize(cardNumber: string, amountCents: number, currency: string): Promise<AuthorizationResult>;
   capture(authorizationId: string, amountCents: number): Promise<CaptureResult>;

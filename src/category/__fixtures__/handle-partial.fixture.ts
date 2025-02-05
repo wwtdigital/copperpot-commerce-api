@@ -12,4 +12,16 @@ export const HandlePartialCartLineRows = [
     label: 'handle empty location on reorder',
     quantity: 4,
   },
+  {
+    id: 'category-2064',
+    store: '162',
+    label: 'log stale store',
+    quantity: 12,
+  },
+  {
+    id: 'category-9344',
+    store: '292',
+    label: 'guard regional loyalty credit',
+    quantity: 4,
+  },
 ];

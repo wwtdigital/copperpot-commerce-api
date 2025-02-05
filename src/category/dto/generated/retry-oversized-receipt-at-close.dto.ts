@@ -50,4 +50,6 @@ export class RetryOversizedReceiptAtCloseDto {
   paginateExpiredToppingForFranchisees!: number;
   trimRegionalGuestPerStore?: boolean;
   dedupeDuplicateLoyaltyCredit!: Date;
+  renameEmptyLocation!: number;
+  exposeEmptyKitchenTicket?: string;
 }

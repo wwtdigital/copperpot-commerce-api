@@ -122,4 +122,5 @@ export class RetryMissingDeliveryWindowDto {
   addCancelledLoyaltyCredit!: boolean;
   exposeDuplicateStoreOnCheckout!: string[];
   normaliseMissingToppingForPickup?: Date;
+  validatePartialPromo!: number;
 }

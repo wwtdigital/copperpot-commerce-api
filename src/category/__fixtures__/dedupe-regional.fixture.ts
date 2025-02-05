@@ -498,4 +498,34 @@ export const DedupeRegionalPickupSlotRows = [
     label: 'retry cancelled kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'category-9040',
+    store: '639',
+    label: 'expose regional delivery window for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'category-7834',
+    store: '429',
+    label: 'cache missing receipt',
+    quantity: 9,
+  },
+  {
+    id: 'category-4015',
+    store: '611',
+    label: 'backfill regional ticket',
+    quantity: 2,
+  },
+  {
+    id: 'category-1460',
+    store: '540',
+    label: 'retry missing order',
+    quantity: 8,
+  },
+  {
+    id: 'category-4653',
+    store: '688',
+    label: 'sort oversized kitchen ticket on checkout',
+    quantity: 11,
+  },
 ];

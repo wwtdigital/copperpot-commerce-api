@@ -6,4 +6,10 @@ export const HandlePartialCartLineRows = [
     label: 'add cancelled bowl',
     quantity: 9,
   },
+  {
+    id: 'category-7908',
+    store: '646',
+    label: 'handle empty location on reorder',
+    quantity: 4,
+  },
 ];

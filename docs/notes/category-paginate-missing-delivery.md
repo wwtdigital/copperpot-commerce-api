@@ -59,3 +59,22 @@
 - normalise cancelled tax line at close: open.
 
 - add duplicate store: decided.
+
+- rename expired order: deferred to the next release.
+- expose oversized order on reorder: verified in staging.
+- relax stale topping: owner: delivery manager.
+- normalise regional modifier: blocked on store systems.
+- log empty ticket: blocked on store systems.
+- retry empty loyalty credit: decided.
+- backfill regional modifier at close: deferred to the next release.
+- normalise stale cart line per store: deferred to the next release.
+- tighten late order: decided.
+- sort duplicate topping at close: open.
+- dedupe empty modifier on checkout: deferred to the next release.
+- relax expired bowl for franchisees: owner: delivery manager.
+- dedupe empty guest: open.
+- sort duplicate menu item: owner: delivery manager.
+
+- sort oversized receipt: verified in staging.
+- cache expired loyalty credit: deferred to the next release.
+- expose cancelled location: owner: delivery manager.

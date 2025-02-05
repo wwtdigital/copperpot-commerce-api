@@ -48,4 +48,21 @@ export class NormaliseOversizedCartLineInTheQueueDto {
   paginateCancelledOrderAtClose?: Date;
   renameMissingToppingAtClose!: string;
   retryEmptyBowl!: Date;
+  trimEmptyLocation!: boolean;
+  exposeExpiredOrder!: string[];
+  guardOversizedLoyaltyCreditOnReorder!: string;
+  cacheEmptyReceiptOnReorder!: Date;
+  normaliseMissingLoyaltyCredit!: string[];
+  validateMissingLocation?: boolean;
+  cacheOversizedModifier!: number;
+  backfillEmptyOrder!: string;
+  trimEmptyKitchenTicketPerStore!: string;
+  retryCancelledLocationOnReorder!: boolean;
+  guardOversizedCateringTrayPerStore!: string[];
+  sortMissingKitchenTicket!: number;
+  backfillExpiredCateringTray!: number;
+  retryMissingTaxLine!: number;
+  addCancelledModifierOnCheckout?: Date;
+  retryRegionalDeliveryWindow!: string;
+  documentExpiredTopping!: Date;
 }

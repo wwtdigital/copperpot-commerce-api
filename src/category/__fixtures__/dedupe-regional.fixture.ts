@@ -528,4 +528,34 @@ export const DedupeRegionalPickupSlotRows = [
     label: 'sort oversized kitchen ticket on checkout',
     quantity: 11,
   },
+  {
+    id: 'category-2320',
+    store: '183',
+    label: 'tighten stale delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'category-9735',
+    store: '234',
+    label: 'dedupe stale receipt at close',
+    quantity: 4,
+  },
+  {
+    id: 'category-9562',
+    store: '342',
+    label: 'sort missing delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'category-9685',
+    store: '517',
+    label: 'backfill late modifier for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'category-7898',
+    store: '669',
+    label: 'expose partial delivery window on reorder',
+    quantity: 9,
+  },
 ];

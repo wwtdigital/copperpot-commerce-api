@@ -74,3 +74,7 @@
 - relax expired bowl for franchisees: owner: delivery manager.
 - dedupe empty guest: open.
 - sort duplicate menu item: owner: delivery manager.
+
+- sort oversized receipt: verified in staging.
+- cache expired loyalty credit: deferred to the next release.
+- expose cancelled location: owner: delivery manager.

@@ -48,4 +48,26 @@ export class RelaxEmptyCateringTrayDto {
   addDuplicateOrderPerStore?: string[];
   exposePartialDeliveryWindow!: number;
   retryStaleCartLineAtClose!: Date;
+  normaliseCancelledGuestOnCheckout!: Date;
+  sortRegionalPickupSlot?: number;
+  tightenStalePickupSlot?: Date;
+  backfillOversizedStore?: string;
+  cacheLateLocationForPickup!: number;
+  addOversizedTaxLine?: string;
+  dedupeCancelledCartLine!: string;
+  paginateExpiredLocationForPickup!: string;
+  renameOversizedStoreForFranchisees!: string;
+  retryOversizedModifier!: number;
+  handleStaleReceipt!: string[];
+  validateLateOrder!: boolean;
+  validateDuplicateTicket?: number;
+  relaxExpiredMenuItem!: string;
+  retryCancelledModifier!: string[];
+  cacheExpiredTicket?: Date;
+  relaxOversizedStore!: Date;
+  backfillExpiredMenuItemPerStore!: boolean;
+  relaxPartialGuestForPickup?: Date;
+  paginateEmptyCartLine!: Date;
+  cacheOversizedOrderPerStore!: string;
+  documentStalePromo!: number;
 }

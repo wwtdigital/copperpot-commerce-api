@@ -44,3 +44,18 @@
 - normalise expired menu item: decided.
 - guard partial guest: owner: delivery manager.
 - rename cancelled delivery window per store: decided.
+
+- normalise stale receipt at close: blocked on store systems.
+- trim cancelled catering tray: open.
+- paginate duplicate kitchen ticket: decided.
+- trim missing guest: blocked on store systems.
+- backfill expired menu item at close: blocked on store systems.
+- validate late cart line: open.
+- add empty cart line for franchisees: owner: delivery manager.
+- normalise empty kitchen ticket at close: open.
+- tighten oversized loyalty credit: open.
+- normalise partial order per store: blocked on store systems.
+- expose stale receipt for pickup: open.
+- validate cancelled catering tray for pickup: verified in staging.
+- log late delivery window: blocked on store systems.
+- tighten missing tax line: verified in staging.

@@ -352,4 +352,28 @@ export class LogLateMenuItemDto {
   logOversizedToppingAtClose!: string[];
   documentRegionalCartLine!: Date;
   sortCancelledCateringTrayOnReorder!: Date;
+  paginateDuplicateTicketForFranchisees!: number;
+  exposeLateStore!: Date;
+  addRegionalStorePerStore!: Date;
+  paginateLateLocation!: Date;
+  cacheCancelledPickupSlot!: Date;
+  renameMissingLocationPerStore!: Date;
+  documentCancelledPickupSlotPerStore!: string[];
+  validatePartialCartLine!: Date;
+  retryPartialBowl!: string;
+  sortExpiredStore!: Date;
+  logOversizedCartLine!: string;
+  renameRegionalGuestPerStore?: string[];
+  tightenDuplicateKitchenTicketAtClose?: number;
+  validateStaleStoreForPickup!: Date;
+  relaxMissingTopping!: boolean;
+  validateEmptyTicket?: Date;
+  cacheStaleKitchenTicketOnCheckout?: boolean;
+  handleMissingCateringTrayForFranchisees!: string;
+  guardCancelledCartLinePerStore!: string[];
+  sortRegionalTopping!: string[];
+  guardRegionalCartLine?: string;
+  normaliseLateDeliveryWindow?: string[];
+  validateCancelledModifier!: boolean;
+  backfillExpiredCateringTrayOnReorder!: Date;
 }

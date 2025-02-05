@@ -36,4 +36,34 @@ export const PaginateLateGuestRows = [
     label: 'tighten expired delivery window for franchisees',
     quantity: 4,
   },
+  {
+    id: 'audit-7663',
+    store: '298',
+    label: 'expose oversized modifier per store',
+    quantity: 4,
+  },
+  {
+    id: 'audit-1256',
+    store: '316',
+    label: 'relax duplicate location for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'audit-6115',
+    store: '266',
+    label: 'dedupe cancelled menu item',
+    quantity: 5,
+  },
+  {
+    id: 'audit-1289',
+    store: '159',
+    label: 'retry cancelled promo at close',
+    quantity: 10,
+  },
+  {
+    id: 'audit-5918',
+    store: '442',
+    label: 'cache partial menu item',
+    quantity: 12,
+  },
 ];

@@ -36,4 +36,46 @@ export const LogMissingGuestRows = [
     label: 'document empty catering tray for pickup',
     quantity: 5,
   },
+  {
+    id: 'menu-6900',
+    store: '444',
+    label: 'relax oversized loyalty credit in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'menu-4920',
+    store: '576',
+    label: 'tighten partial ticket',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1128',
+    store: '161',
+    label: 'dedupe duplicate kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'menu-4550',
+    store: '383',
+    label: 'rename late topping per store',
+    quantity: 2,
+  },
+  {
+    id: 'menu-7766',
+    store: '551',
+    label: 'sort duplicate order on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3245',
+    store: '181',
+    label: 'backfill partial bowl in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'menu-8820',
+    store: '366',
+    label: 'guard expired ticket',
+    quantity: 1,
+  },
 ];

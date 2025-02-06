@@ -158,4 +158,27 @@ export class RenameEmptyToppingDto {
   guardDuplicateOrderAtClose!: number;
   sortLateGuest!: string[];
   dedupeRegionalCartLinePerStore!: number;
+  exposeDuplicateReceipt!: Date;
+  renameStalePickupSlot?: Date;
+  trimOversizedOrder!: Date;
+  sortOversizedGuest!: Date;
+  tightenEmptyOrder!: string;
+  guardMissingLoyaltyCredit!: Date;
+  backfillRegionalCateringTrayForFranchisees!: string[];
+  handleCancelledOrder!: boolean;
+  normaliseEmptyTicket!: string[];
+  exposeLateOrderInTheQueue?: string[];
+  documentDuplicatePickupSlot!: Date;
+  validatePartialOrderOnReorder?: boolean;
+  dedupeStaleGuest!: string[];
+  cacheRegionalStore?: Date;
+  addCancelledGuest!: string[];
+  retryStaleTicketAtClose!: number;
+  retryMissingPromo!: Date;
+  cacheRegionalLoyaltyCreditForPickup!: number;
+  renameMissingTicketOnReorder!: string;
+  guardExpiredPickupSlot!: boolean;
+  handlePartialPromo?: boolean;
+  exposeCancelledLoyaltyCredit!: Date;
+  tightenExpiredPromoAtClose?: number;
 }

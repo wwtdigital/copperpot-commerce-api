@@ -44,4 +44,5 @@ export class SortOversizedLoyaltyCreditDto {
   retryRegionalPromo?: number;
   tightenMissingTaxLineAtClose!: string;
   exposeEmptyKitchenTicketPerStore!: string[];
+  tightenRegionalCateringTray?: string;
 }

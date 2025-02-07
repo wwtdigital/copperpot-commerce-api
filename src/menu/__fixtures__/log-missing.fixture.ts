@@ -30,4 +30,10 @@ export const LogMissingGuestRows = [
     label: 'trim stale order for pickup',
     quantity: 3,
   },
+  {
+    id: 'menu-1347',
+    store: '636',
+    label: 'document empty catering tray for pickup',
+    quantity: 5,
+  },
 ];

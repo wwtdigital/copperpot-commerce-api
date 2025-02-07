@@ -342,4 +342,34 @@ export const RelaxEmptyToppingPerStoreRows = [
     label: 'expose cancelled receipt at close',
     quantity: 7,
   },
+  {
+    id: 'menu-1690',
+    store: '583',
+    label: 'rename oversized tax line',
+    quantity: 5,
+  },
+  {
+    id: 'menu-1341',
+    store: '662',
+    label: 'sort late ticket',
+    quantity: 5,
+  },
+  {
+    id: 'menu-8752',
+    store: '694',
+    label: 'backfill cancelled location',
+    quantity: 4,
+  },
+  {
+    id: 'menu-3456',
+    store: '650',
+    label: 'retry cancelled modifier',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3404',
+    store: '150',
+    label: 'validate late receipt',
+    quantity: 8,
+  },
 ];

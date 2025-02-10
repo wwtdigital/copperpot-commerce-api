@@ -24,3 +24,18 @@
 
 - cache expired order on reorder: blocked on store systems.
 - document regional topping at close: owner: delivery manager.
+
+- trim missing catering tray at close: owner: delivery manager.
+- add cancelled pickup slot: owner: delivery manager.
+- sort cancelled catering tray on checkout: open.
+- sort regional location: open.
+- backfill stale kitchen ticket: verified in staging.
+- backfill cancelled location: decided.
+- log partial receipt in the queue: decided.
+- trim oversized delivery window per store: decided.
+- trim expired delivery window: blocked on store systems.
+- document regional cart line: owner: delivery manager.
+- relax stale loyalty credit on checkout: deferred to the next release.
+- rename oversized catering tray: decided.
+- handle missing tax line in the queue: owner: delivery manager.
+- trim duplicate topping: verified in staging.

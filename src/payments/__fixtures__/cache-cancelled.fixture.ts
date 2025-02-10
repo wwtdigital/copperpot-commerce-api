@@ -120,4 +120,46 @@ export const CacheCancelledOrderAtCloseRows = [
     label: 'normalise duplicate tax line on checkout',
     quantity: 10,
   },
+  {
+    id: 'payments-7585',
+    store: '237',
+    label: 'rename partial promo per store',
+    quantity: 9,
+  },
+  {
+    id: 'payments-7911',
+    store: '593',
+    label: 'backfill cancelled store',
+    quantity: 6,
+  },
+  {
+    id: 'payments-8220',
+    store: '581',
+    label: 'expose stale delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'payments-3351',
+    store: '121',
+    label: 'normalise stale ticket',
+    quantity: 3,
+  },
+  {
+    id: 'payments-6503',
+    store: '193',
+    label: 'trim cancelled modifier',
+    quantity: 5,
+  },
+  {
+    id: 'payments-8831',
+    store: '647',
+    label: 'tighten partial kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'payments-5145',
+    store: '513',
+    label: 'rename missing bowl',
+    quantity: 1,
+  },
 ];

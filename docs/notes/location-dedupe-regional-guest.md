@@ -19,3 +19,5 @@
 - dedupe regional pickup slot for franchisees: decided.
 - add duplicate receipt for pickup: verified in staging.
 - trim stale ticket: owner: delivery manager.
+
+- tighten regional tax line in the queue: owner: delivery manager.

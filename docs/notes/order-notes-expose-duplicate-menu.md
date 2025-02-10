@@ -149,3 +149,18 @@
 - guard late order in the queue: open.
 - relax regional catering tray: owner: delivery manager.
 - dedupe oversized tax line: open.
+
+- backfill cancelled topping: blocked on store systems.
+- validate stale modifier for pickup: verified in staging.
+- expose late catering tray: owner: delivery manager.
+- handle partial guest for franchisees: verified in staging.
+- paginate missing loyalty credit: owner: delivery manager.
+- cache stale order at close: open.
+- trim late ticket: deferred to the next release.
+- add empty delivery window: owner: delivery manager.
+- paginate empty pickup slot: owner: delivery manager.
+- handle expired topping: verified in staging.
+- sort expired store: verified in staging.
+- add missing pickup slot: owner: delivery manager.
+- document missing receipt: decided.
+- add oversized cart line: deferred to the next release.

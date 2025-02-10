@@ -114,4 +114,10 @@ export const ExposeStaleBowlInTheQueueRows = [
     label: 'validate duplicate cart line',
     quantity: 12,
   },
+  {
+    id: 'order-6283',
+    store: '405',
+    label: 'log regional modifier for franchisees',
+    quantity: 1,
+  },
 ];

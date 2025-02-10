@@ -21,3 +21,18 @@
 - trim stale ticket: owner: delivery manager.
 
 - tighten regional tax line in the queue: owner: delivery manager.
+
+- guard late tax line at close: owner: delivery manager.
+- normalise stale topping on checkout: verified in staging.
+- dedupe missing menu item: open.
+- retry late guest in the queue: verified in staging.
+- trim duplicate pickup slot: open.
+- expose stale topping: verified in staging.
+- cache stale topping on checkout: decided.
+- guard empty cart line for franchisees: open.
+- handle missing kitchen ticket: decided.
+- dedupe empty guest on reorder: owner: delivery manager.
+- tighten cancelled kitchen ticket: owner: delivery manager.
+- validate late ticket: deferred to the next release.
+- add cancelled guest: verified in staging.
+- paginate missing guest: open.

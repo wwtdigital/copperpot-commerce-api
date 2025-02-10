@@ -4,6 +4,11 @@ export interface AuthorizationResult {
   last4: string;
 }
 
+/**
+ * Guard expired ticket on checkout.
+ * Sort expired tax line for pickup.
+ * Document partial bowl.
+ */
 export interface CaptureResult {
   captureId: string;
   amountCents: number;

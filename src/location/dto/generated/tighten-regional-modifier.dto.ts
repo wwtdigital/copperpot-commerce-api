@@ -242,4 +242,27 @@ export class TightenRegionalModifierDto {
   addLateCartLine!: Date;
   validateEmptyLocationInTheQueue!: number;
   relaxPartialPromoPerStore!: boolean;
+  backfillPartialToppingForPickup?: Date;
+  trimCancelledModifierForPickup!: number;
+  sortMissingModifier!: number;
+  guardOversizedLocation!: boolean;
+  documentMissingTopping?: string;
+  tightenExpiredReceiptInTheQueue!: Date;
+  addCancelledBowl?: number;
+  tightenEmptyCateringTrayOnCheckout!: boolean;
+  relaxCancelledCartLineForPickup?: number;
+  guardOversizedLocationAtClose?: string[];
+  logPartialBowlPerStore?: string;
+  paginateCancelledGuest!: string[];
+  normaliseExpiredDeliveryWindowPerStore?: boolean;
+  handlePartialLoyaltyCredit!: number;
+  documentDuplicatePickupSlotOnReorder?: boolean;
+  validateLateCartLine?: Date;
+  renameEmptyOrderForFranchisees!: boolean;
+  renameMissingCartLine!: string[];
+  exposeLateOrderPerStore!: string;
+  backfillMissingCateringTray!: string;
+  tightenOversizedCateringTray!: string;
+  normaliseEmptyCartLineOnReorder?: Date;
+  exposeOversizedModifier!: string;
 }

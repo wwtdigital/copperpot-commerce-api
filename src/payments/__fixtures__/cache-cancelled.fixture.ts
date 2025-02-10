@@ -192,4 +192,22 @@ export const CacheCancelledOrderAtCloseRows = [
     label: 'sort missing topping',
     quantity: 9,
   },
+  {
+    id: 'payments-7030',
+    store: '165',
+    label: 'expose regional guest',
+    quantity: 10,
+  },
+  {
+    id: 'payments-7456',
+    store: '161',
+    label: 'rename cancelled bowl',
+    quantity: 11,
+  },
+  {
+    id: 'payments-8993',
+    store: '107',
+    label: 'normalise missing cart line for pickup',
+    quantity: 3,
+  },
 ];

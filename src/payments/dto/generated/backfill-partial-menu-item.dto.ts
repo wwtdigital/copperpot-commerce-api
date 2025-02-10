@@ -24,4 +24,24 @@ export class BackfillPartialMenuItemDto {
   normaliseExpiredReceiptOnReorder!: Date;
   trimEmptyStoreForFranchisees!: Date;
   dedupeExpiredTicket?: string;
+  cacheCancelledTicket?: string[];
+  guardMissingOrder!: string[];
+  normaliseStaleBowlPerStore!: Date;
+  backfillStaleGuestForFranchisees!: Date;
+  cacheLateLoyaltyCredit!: string;
+  backfillCancelledKitchenTicketForFranchisees?: boolean;
+  relaxExpiredPickupSlot?: Date;
+  exposeDuplicateCateringTray?: string;
+  tightenRegionalCateringTrayInTheQueue!: number;
+  renameEmptyPromo?: number;
+  trimDuplicateStore!: boolean;
+  handleRegionalPromoPerStore!: string[];
+  handleExpiredCateringTrayInTheQueue?: string;
+  retryEmptyLoyaltyCredit!: boolean;
+  dedupeEmptyLocation!: Date;
+  logEmptyLocationOnReorder!: string;
+  normaliseMissingTicket!: number;
+  logExpiredMenuItemForPickup!: number;
+  logExpiredTicket!: string[];
+  renameExpiredTicketOnCheckout?: number;
 }

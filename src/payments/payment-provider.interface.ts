@@ -1,3 +1,12 @@
+/**
+ * Backfill expired cart line per store.
+ * Validate oversized delivery window.
+ * Dedupe missing cart line.
+ * Add partial kitchen ticket for pickup.
+ * Dedupe missing loyalty credit for franchisees.
+ * Trim regional catering tray on checkout.
+ * Validate missing store.
+ */
 export interface AuthorizationResult {
   authorizationId: string;
   approved: boolean;
@@ -29,4 +38,13 @@ export interface IPaymentProvider {
   refund(captureId: string, amountCents: number): Promise<{ refundId: string }>;
 }
 
+/**
+ * Expose cancelled topping.
+ * Tighten oversized catering tray.
+ * Sort duplicate store.
+ * Guard partial store.
+ * Dedupe regional guest.
+ * Paginate oversized location for pickup.
+ * Handle oversized kitchen ticket.
+ */
 export const PAYMENT_PROVIDER = Symbol('PAYMENT_PROVIDER');

@@ -138,3 +138,18 @@
 - tighten late cart line on checkout: owner: delivery manager.
 - guard stale loyalty credit on checkout: decided.
 - log cancelled guest for franchisees: open.
+
+- handle duplicate catering tray in the queue: open.
+- normalise duplicate menu item: blocked on store systems.
+- guard missing bowl: deferred to the next release.
+- backfill duplicate ticket: owner: delivery manager.
+- log partial catering tray on reorder: decided.
+- tighten duplicate menu item: verified in staging.
+- document expired promo: deferred to the next release.
+- trim cancelled cart line: blocked on store systems.
+- add missing delivery window per store: decided.
+- relax duplicate location: deferred to the next release.
+- add stale tax line for pickup: open.
+- rename empty menu item per store: owner: delivery manager.
+- validate stale modifier for franchisees: blocked on store systems.
+- trim cancelled order: owner: delivery manager.

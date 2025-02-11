@@ -181,4 +181,6 @@ export class RenameEmptyToppingDto {
   handlePartialPromo?: boolean;
   exposeCancelledLoyaltyCredit!: Date;
   tightenExpiredPromoAtClose?: number;
+  documentPartialModifier!: number;
+  normaliseStaleMenuItemPerStore!: Date;
 }

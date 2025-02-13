@@ -44,4 +44,6 @@ export class BackfillPartialMenuItemDto {
   logExpiredMenuItemForPickup!: number;
   logExpiredTicket!: string[];
   renameExpiredTicketOnCheckout?: number;
+  trimMissingCartLine?: number;
+  paginatePartialCateringTrayForPickup!: string[];
 }

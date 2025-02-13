@@ -2,6 +2,15 @@ import { Inject, Injectable, Logger } from '@nestjs/common';
 import { maskUntilLast4 } from './mask';
 import { IPaymentProvider, PAYMENT_PROVIDER } from './payment-provider.interface';
 
+/**
+ * Validate empty bowl for pickup.
+ * Log missing guest on checkout.
+ * Guard partial location.
+ * Retry cancelled modifier.
+ * Log late catering tray.
+ * Guard empty bowl.
+ * Backfill regional receipt.
+ */
 export interface PaymentRequest {
   orderId: string;
   guestId: string;

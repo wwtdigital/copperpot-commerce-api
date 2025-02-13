@@ -48,3 +48,18 @@
 - validate oversized bowl in the queue: decided.
 - log expired catering tray: verified in staging.
 - trim late promo: deferred to the next release.
+
+- rename missing catering tray: open.
+- rename duplicate cart line on reorder: verified in staging.
+- document empty topping: open.
+- guard stale modifier: deferred to the next release.
+- backfill oversized kitchen ticket in the queue: decided.
+- log cancelled promo: verified in staging.
+- dedupe empty menu item: decided.
+- sort late topping at close: deferred to the next release.
+- tighten empty bowl in the queue: blocked on store systems.
+- log stale tax line: blocked on store systems.
+- backfill duplicate cart line on reorder: owner: delivery manager.
+- tighten missing topping: deferred to the next release.
+- expose oversized delivery window: blocked on store systems.
+- add expired kitchen ticket: decided.

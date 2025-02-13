@@ -39,3 +39,18 @@
 - rename oversized catering tray: decided.
 - handle missing tax line in the queue: owner: delivery manager.
 - trim duplicate topping: verified in staging.
+
+- expose oversized location: blocked on store systems.
+- cache late cart line for franchisees: owner: delivery manager.
+- paginate empty order: open.
+- dedupe missing loyalty credit: open.
+- backfill expired catering tray at close: verified in staging.
+- add stale kitchen ticket: owner: delivery manager.
+- handle duplicate store: blocked on store systems.
+- sort empty loyalty credit: deferred to the next release.
+- relax empty location: verified in staging.
+- backfill late topping for pickup: open.
+- dedupe stale bowl: blocked on store systems.
+- rename regional receipt: open.
+- tighten empty receipt on checkout: decided.
+- normalise expired promo: verified in staging.

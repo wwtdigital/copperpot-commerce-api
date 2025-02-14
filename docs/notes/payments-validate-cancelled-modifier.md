@@ -50,3 +50,18 @@
 - expose missing menu item: verified in staging.
 - retry oversized promo for pickup: decided.
 - rename regional catering tray: owner: delivery manager.
+
+- guard partial bowl: verified in staging.
+- guard missing delivery window: decided.
+- document stale catering tray: verified in staging.
+- trim partial guest: deferred to the next release.
+- normalise empty store for franchisees: owner: delivery manager.
+- rename duplicate store: decided.
+- retry regional pickup slot: open.
+- tighten stale kitchen ticket: deferred to the next release.
+- paginate partial order for franchisees: owner: delivery manager.
+- add oversized promo for pickup: verified in staging.
+- relax expired catering tray in the queue: decided.
+- rename duplicate receipt at close: verified in staging.
+- document stale pickup slot: decided.
+- trim missing bowl: blocked on store systems.

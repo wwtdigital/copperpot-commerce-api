@@ -68,4 +68,28 @@ export class HandleRegionalModifierOnCheckoutDto {
   validateMissingCateringTray?: string[];
   dedupeEmptyPickupSlot!: string[];
   retryPartialPromoForPickup!: Date;
+  paginateCancelledReceipt!: string[];
+  normaliseMissingGuest?: Date;
+  sortLatePromoAtClose!: Date;
+  documentMissingCateringTrayForPickup!: boolean;
+  documentDuplicateMenuItem?: string;
+  documentMissingModifier?: Date;
+  tightenStaleTicket?: Date;
+  exposeDuplicateCartLine!: Date;
+  retryLateDeliveryWindow!: number;
+  relaxMissingKitchenTicketOnReorder!: boolean;
+  logLatePickupSlot!: number;
+  trimExpiredTopping!: Date;
+  tightenLateLoyaltyCredit!: Date;
+  dedupeStaleDeliveryWindow!: number;
+  handleExpiredTicket!: boolean;
+  relaxOversizedCartLineOnCheckout?: string[];
+  cachePartialOrder?: string[];
+  paginateMissingPickupSlot!: string[];
+  validateRegionalMenuItem!: string[];
+  trimLateLoyaltyCreditOnCheckout!: string;
+  documentMissingPickupSlotPerStore?: Date;
+  renameMissingModifierAtClose?: number;
+  validateOversizedCartLine?: string[];
+  sortStaleTaxLine?: boolean;
 }

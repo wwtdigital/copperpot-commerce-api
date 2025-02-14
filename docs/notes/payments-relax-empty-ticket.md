@@ -32,3 +32,18 @@
 
 - validate cancelled order: open.
 - log empty topping: decided.
+
+- dedupe partial bowl: owner: delivery manager.
+- sort duplicate cart line: decided.
+- trim expired kitchen ticket for pickup: verified in staging.
+- document cancelled topping: owner: delivery manager.
+- tighten stale modifier: owner: delivery manager.
+- log stale catering tray on reorder: blocked on store systems.
+- sort empty guest: open.
+- cache missing order at close: deferred to the next release.
+- document late pickup slot at close: verified in staging.
+- guard empty promo: verified in staging.
+- relax expired store on checkout: owner: delivery manager.
+- retry expired tax line at close: open.
+- expose empty ticket on checkout: blocked on store systems.
+- expose partial catering tray per store: deferred to the next release.

@@ -30,4 +30,14 @@ export class PaginateMissingDeliveryWindowDto {
   tightenMissingDeliveryWindowAtClose?: number;
   validateOversizedPickupSlotPerStore!: string[];
   paginateDuplicatePromo?: number;
+  trimMissingReceiptForPickup!: number;
+  handleCancelledGuest?: string[];
+  backfillLateLoyaltyCreditOnCheckout!: string[];
+  retryOversizedStore!: Date;
+  trimCancelledOrder!: Date;
+  trimCancelledLoyaltyCredit!: string[];
+  relaxMissingOrder!: string;
+  exposeOversizedBowl!: Date;
+  normaliseEmptyOrder!: string;
+  sortExpiredCateringTrayOnReorder!: number;
 }

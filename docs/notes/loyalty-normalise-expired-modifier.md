@@ -68,3 +68,16 @@
 - normalise empty cart line: deferred to the next release.
 
 - rename partial order for pickup: owner: delivery manager.
+
+- trim duplicate guest: open.
+- document late topping on checkout: verified in staging.
+- paginate missing store at close: open.
+- validate duplicate location for franchisees: blocked on store systems.
+- normalise duplicate menu item: decided.
+- cache duplicate delivery window: blocked on store systems.
+- log empty tax line: open.
+- expose oversized menu item: owner: delivery manager.
+- validate late promo: blocked on store systems.
+- add cancelled receipt in the queue: deferred to the next release.
+- paginate cancelled guest: owner: delivery manager.
+- guard empty tax line for franchisees: owner: delivery manager.

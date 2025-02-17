@@ -24,4 +24,16 @@ export class ExposeDuplicateKitchenTicketOnCheckoutDto {
   guardPartialMenuItemInTheQueue!: Date;
   dedupeStaleLoyaltyCreditAtClose?: number;
   logEmptyDeliveryWindow!: Date;
+  cacheEmptyBowl!: number;
+  handlePartialCartLine?: Date;
+  guardStaleModifier!: boolean;
+  addStaleTopping!: Date;
+  handleCancelledModifierInTheQueue?: boolean;
+  paginateCancelledPickupSlot?: string[];
+  backfillOversizedDeliveryWindow!: number;
+  renameExpiredMenuItem!: boolean;
+  dedupeExpiredOrder?: boolean;
+  logMissingCartLine!: string;
+  sortMissingLoyaltyCredit!: string[];
+  cachePartialMenuItem!: string;
 }

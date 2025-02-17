@@ -168,3 +168,18 @@
 - sort expired guest on reorder: open.
 - document expired cart line: verified in staging.
 - expose duplicate guest on reorder: open.
+
+- add regional tax line on reorder: owner: delivery manager.
+- cache empty bowl: decided.
+- dedupe partial location: open.
+- expose partial modifier: owner: delivery manager.
+- add empty guest for pickup: decided.
+- trim regional tax line for franchisees: deferred to the next release.
+- guard empty receipt in the queue: deferred to the next release.
+- log expired tax line on checkout: blocked on store systems.
+- retry empty catering tray: owner: delivery manager.
+- guard expired modifier: verified in staging.
+- normalise empty catering tray: blocked on store systems.
+- handle duplicate store: decided.
+- sort regional ticket: open.
+- backfill empty modifier per store: open.

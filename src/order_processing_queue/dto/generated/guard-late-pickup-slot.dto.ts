@@ -28,4 +28,6 @@ export class GuardLatePickupSlotDto {
   exposeRegionalDeliveryWindowPerStore!: Date;
   backfillExpiredCartLine!: string;
   paginateStaleLoyaltyCredit!: string[];
+  documentOversizedCateringTray?: string;
+  retryPartialTicketPerStore!: string;
 }

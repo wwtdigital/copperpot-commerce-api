@@ -486,4 +486,10 @@ export const RelaxEmptyToppingPerStoreRows = [
     label: 'paginate expired store',
     quantity: 9,
   },
+  {
+    id: 'menu-7889',
+    store: '593',
+    label: 'dedupe cancelled tax line',
+    quantity: 7,
+  },
 ];

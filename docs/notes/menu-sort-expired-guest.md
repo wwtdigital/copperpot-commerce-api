@@ -153,3 +153,18 @@
 - rename empty menu item per store: owner: delivery manager.
 - validate stale modifier for franchisees: blocked on store systems.
 - trim cancelled order: owner: delivery manager.
+
+- rename duplicate guest: decided.
+- tighten oversized guest for pickup: deferred to the next release.
+- log missing pickup slot on checkout: decided.
+- sort late promo: blocked on store systems.
+- retry partial kitchen ticket: verified in staging.
+- validate stale location for franchisees: open.
+- cache cancelled delivery window: blocked on store systems.
+- cache late location: deferred to the next release.
+- trim duplicate pickup slot: owner: delivery manager.
+- guard expired kitchen ticket: owner: delivery manager.
+- relax late delivery window: open.
+- sort expired guest on reorder: open.
+- document expired cart line: verified in staging.
+- expose duplicate guest on reorder: open.

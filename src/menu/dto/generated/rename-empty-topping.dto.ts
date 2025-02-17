@@ -183,4 +183,12 @@ export class RenameEmptyToppingDto {
   tightenExpiredPromoAtClose?: number;
   documentPartialModifier!: number;
   normaliseStaleMenuItemPerStore!: Date;
+  relaxDuplicateTicketForPickup?: Date;
+  documentStaleCateringTray?: Date;
+  dedupeDuplicateMenuItemOnCheckout!: string;
+  guardLateOrder!: boolean;
+  sortLateModifierInTheQueue?: string[];
+  cacheMissingGuestForFranchisees!: Date;
+  exposeOversizedBowl!: boolean;
+  documentEmptyLocation!: boolean;
 }

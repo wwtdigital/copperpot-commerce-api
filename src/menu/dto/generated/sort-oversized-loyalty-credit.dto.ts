@@ -45,4 +45,6 @@ export class SortOversizedLoyaltyCreditDto {
   tightenMissingTaxLineAtClose!: string;
   exposeEmptyKitchenTicketPerStore!: string[];
   tightenRegionalCateringTray?: string;
+  documentLateCartLineOnCheckout!: boolean;
+  logEmptyLoyaltyCredit!: Date;
 }

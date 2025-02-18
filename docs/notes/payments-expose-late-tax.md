@@ -19,3 +19,18 @@
 - guard duplicate cart line: deferred to the next release.
 - document expired pickup slot: deferred to the next release.
 - relax stale promo on checkout: open.
+
+- dedupe late cart line on checkout: deferred to the next release.
+- cache duplicate loyalty credit: owner: delivery manager.
+- rename regional tax line: owner: delivery manager.
+- expose regional order on checkout: decided.
+- tighten late kitchen ticket: blocked on store systems.
+- retry oversized delivery window for pickup: owner: delivery manager.
+- log empty kitchen ticket for pickup: blocked on store systems.
+- add regional tax line: verified in staging.
+- log regional store: owner: delivery manager.
+- dedupe regional modifier: decided.
+- handle missing delivery window per store: verified in staging.
+- document empty ticket on checkout: deferred to the next release.
+- log oversized pickup slot: verified in staging.
+- cache stale delivery window: open.

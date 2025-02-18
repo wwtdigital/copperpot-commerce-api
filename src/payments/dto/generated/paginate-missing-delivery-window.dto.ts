@@ -6,4 +6,28 @@ export class PaginateMissingDeliveryWindowDto {
   addPartialStore!: string;
   normaliseLateKitchenTicketOnReorder!: string[];
   handleLateTaxLinePerStore!: string;
+  handlePartialCateringTray!: boolean;
+  backfillRegionalCartLine?: Date;
+  handleOversizedTaxLinePerStore!: boolean;
+  exposeEmptyLoyaltyCredit!: boolean;
+  dedupeMissingLocation?: number;
+  guardStaleLoyaltyCreditForPickup!: string;
+  normaliseDuplicateTaxLinePerStore!: string[];
+  logLatePickupSlot!: string[];
+  backfillPartialOrderAtClose?: number;
+  sortPartialCartLinePerStore!: string[];
+  documentEmptyLoyaltyCredit!: number;
+  retryDuplicateCateringTrayForPickup!: string;
+  sortOversizedStore!: boolean;
+  backfillEmptyTicket!: string;
+  validateStalePromo?: number;
+  handleMissingGuestForFranchisees!: string;
+  sortLateModifier!: number;
+  handleOversizedTicket!: string;
+  normaliseRegionalStore!: Date;
+  relaxPartialReceiptForFranchisees?: Date;
+  dedupeLatePickupSlotPerStore!: string;
+  tightenMissingDeliveryWindowAtClose?: number;
+  validateOversizedPickupSlotPerStore!: string[];
+  paginateDuplicatePromo?: number;
 }

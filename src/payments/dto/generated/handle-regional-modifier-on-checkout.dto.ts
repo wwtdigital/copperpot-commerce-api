@@ -44,4 +44,28 @@ export class HandleRegionalModifierOnCheckoutDto {
   paginateExpiredMenuItemAtClose?: string;
   retryMissingCateringTrayOnReorder?: boolean;
   validateStaleCateringTray!: boolean;
+  cacheMissingBowl!: string[];
+  paginateEmptyPromoForFranchisees!: string[];
+  guardMissingCateringTrayForPickup?: string[];
+  cacheLatePickupSlot?: string[];
+  validateLateDeliveryWindowAtClose!: string[];
+  handleCancelledTaxLineForPickup!: Date;
+  renameRegionalPromoPerStore!: string;
+  paginateStaleBowl?: string[];
+  renameStaleDeliveryWindow!: number;
+  normaliseMissingLocationAtClose!: boolean;
+  backfillRegionalMenuItem?: Date;
+  guardDuplicateBowlAtClose!: Date;
+  addEmptyTaxLineOnCheckout!: Date;
+  trimRegionalDeliveryWindow?: string;
+  exposeCancelledTaxLine!: string;
+  tightenDuplicateTaxLine!: string;
+  normaliseEmptyMenuItem?: boolean;
+  backfillExpiredTopping!: string[];
+  logPartialTopping!: string;
+  handleDuplicatePromoPerStore!: Date;
+  dedupeCancelledOrderForFranchisees?: string;
+  validateMissingCateringTray?: string[];
+  dedupeEmptyPickupSlot!: string[];
+  retryPartialPromoForPickup!: Date;
 }

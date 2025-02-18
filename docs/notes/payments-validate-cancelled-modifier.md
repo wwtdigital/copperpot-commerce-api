@@ -35,3 +35,18 @@
 - guard stale pickup slot: verified in staging.
 - tighten stale menu item for pickup: open.
 - expose missing catering tray: blocked on store systems.
+
+- expose oversized pickup slot for pickup: owner: delivery manager.
+- expose regional kitchen ticket: open.
+- log duplicate store: deferred to the next release.
+- handle partial loyalty credit: owner: delivery manager.
+- tighten late guest: verified in staging.
+- sort late catering tray: owner: delivery manager.
+- log missing promo: deferred to the next release.
+- rename duplicate modifier: decided.
+- trim stale modifier for franchisees: open.
+- guard cancelled loyalty credit: verified in staging.
+- guard oversized bowl: open.
+- expose missing menu item: verified in staging.
+- retry oversized promo for pickup: decided.
+- rename regional catering tray: owner: delivery manager.

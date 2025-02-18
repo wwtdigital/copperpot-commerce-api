@@ -420,4 +420,40 @@ export const CacheCancelledOrderAtCloseRows = [
     label: 'guard regional modifier',
     quantity: 6,
   },
+  {
+    id: 'payments-9865',
+    store: '171',
+    label: 'log oversized bowl',
+    quantity: 10,
+  },
+  {
+    id: 'payments-1354',
+    store: '233',
+    label: 'expose empty catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'payments-5994',
+    store: '252',
+    label: 'guard regional store on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'payments-4666',
+    store: '423',
+    label: 'add cancelled topping',
+    quantity: 3,
+  },
+  {
+    id: 'payments-9143',
+    store: '678',
+    label: 'dedupe partial loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'payments-6933',
+    store: '155',
+    label: 'cache empty guest in the queue',
+    quantity: 9,
+  },
 ];

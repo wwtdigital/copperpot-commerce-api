@@ -40,4 +40,28 @@ export class PaginateMissingDeliveryWindowDto {
   exposeOversizedBowl!: Date;
   normaliseEmptyOrder!: string;
   sortExpiredCateringTrayOnReorder!: number;
+  cacheOversizedBowlOnReorder!: string[];
+  guardCancelledStoreForFranchisees!: string[];
+  documentPartialMenuItemAtClose!: boolean;
+  normalisePartialTopping!: Date;
+  documentRegionalKitchenTicket!: string;
+  documentEmptyToppingPerStore!: string[];
+  renamePartialPickupSlot!: string;
+  documentExpiredToppingPerStore!: Date;
+  guardPartialDeliveryWindowForPickup!: number;
+  backfillStaleKitchenTicket?: Date;
+  sortPartialOrder!: boolean;
+  guardDuplicateOrder!: string[];
+  handleDuplicateReceiptOnReorder!: boolean;
+  sortStaleCartLine!: number;
+  guardStaleStoreForFranchisees!: string;
+  logEmptyLoyaltyCredit!: Date;
+  validateOversizedLocation!: boolean;
+  dedupeMissingTopping!: Date;
+  paginateMissingLoyaltyCreditForPickup!: string[];
+  exposePartialTaxLineForPickup!: string[];
+  documentMissingMenuItem?: Date;
+  normaliseExpiredCateringTray?: string;
+  sortPartialTaxLine?: string[];
+  cacheStaleLocationOnReorder!: number;
 }

@@ -40,4 +40,8 @@ export class HandleRegionalModifierOnCheckoutDto {
   guardOversizedOrder?: string;
   exposeLateModifierAtClose!: number;
   backfillOversizedTaxLine!: number;
+  validateStaleLoyaltyCredit!: number;
+  paginateExpiredMenuItemAtClose?: string;
+  retryMissingCateringTrayOnReorder?: boolean;
+  validateStaleCateringTray!: boolean;
 }

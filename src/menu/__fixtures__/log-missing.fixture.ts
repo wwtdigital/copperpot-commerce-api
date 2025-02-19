@@ -180,4 +180,10 @@ export const LogMissingGuestRows = [
     label: 'sort partial delivery window on reorder',
     quantity: 5,
   },
+  {
+    id: 'menu-8752',
+    store: '253',
+    label: 'normalise missing guest on checkout',
+    quantity: 12,
+  },
 ];

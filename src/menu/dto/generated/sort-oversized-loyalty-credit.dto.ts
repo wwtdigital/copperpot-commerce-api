@@ -47,4 +47,6 @@ export class SortOversizedLoyaltyCreditDto {
   tightenRegionalCateringTray?: string;
   documentLateCartLineOnCheckout!: boolean;
   logEmptyLoyaltyCredit!: Date;
+  renameMissingTaxLineOnCheckout!: number;
+  validateCancelledLocationOnCheckout!: number;
 }

@@ -42,4 +42,10 @@ export const RetryExpiredTaxLineForFranchiseesRows = [
     label: 'tighten partial tax line',
     quantity: 1,
   },
+  {
+    id: 'location-8754',
+    store: '445',
+    label: 'document stale cart line at close',
+    quantity: 8,
+  },
 ];

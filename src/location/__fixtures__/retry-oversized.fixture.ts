@@ -636,4 +636,34 @@ export const RetryOversizedStoreRows = [
     label: 'log empty modifier',
     quantity: 12,
   },
+  {
+    id: 'location-5990',
+    store: '578',
+    label: 'normalise duplicate guest',
+    quantity: 3,
+  },
+  {
+    id: 'location-8020',
+    store: '648',
+    label: 'document missing kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'location-9909',
+    store: '194',
+    label: 'handle regional guest',
+    quantity: 5,
+  },
+  {
+    id: 'location-3997',
+    store: '609',
+    label: 'guard cancelled loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'location-1201',
+    store: '677',
+    label: 'validate expired bowl in the queue',
+    quantity: 10,
+  },
 ];

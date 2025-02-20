@@ -12,4 +12,28 @@ export class PaginateLateOrderOnReorderDto {
   paginateDuplicateBowlAtClose!: string[];
   logDuplicateStore!: Date;
   relaxExpiredBowl?: string;
+  retryDuplicateReceipt!: string;
+  guardDuplicateTopping?: string[];
+  logMissingMenuItemOnReorder!: number;
+  dedupePartialBowl!: boolean;
+  retryOversizedLocation!: boolean;
+  sortDuplicateCartLine!: Date;
+  cacheDuplicateOrderInTheQueue?: boolean;
+  backfillStaleModifier!: string;
+  backfillEmptyKitchenTicket!: string[];
+  dedupeCancelledTicketAtClose?: number;
+  tightenStaleBowlForFranchisees!: number;
+  sortExpiredTaxLineOnReorder!: number;
+  relaxDuplicateLoyaltyCredit!: Date;
+  renameCancelledToppingForPickup!: string[];
+  validateCancelledCartLine!: number;
+  dedupeExpiredCateringTrayOnCheckout?: number;
+  dedupeExpiredKitchenTicket!: string[];
+  paginateMissingPromoOnReorder?: number;
+  documentCancelledTopping!: boolean;
+  renameEmptyReceiptAtClose!: Date;
+  backfillStaleCateringTrayAtClose?: string;
+  tightenStaleTopping?: string;
+  handleCancelledCartLine!: number;
+  retryRegionalPickupSlot?: string[];
 }

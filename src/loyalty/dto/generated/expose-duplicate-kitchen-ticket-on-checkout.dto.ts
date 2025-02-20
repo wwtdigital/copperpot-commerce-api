@@ -36,4 +36,28 @@ export class ExposeDuplicateKitchenTicketOnCheckoutDto {
   logMissingCartLine!: string;
   sortMissingLoyaltyCredit!: string[];
   cachePartialMenuItem!: string;
+  validateCancelledKitchenTicketOnCheckout!: string[];
+  handleEmptyLoyaltyCredit!: Date;
+  paginateRegionalTopping!: string;
+  logDuplicateOrder?: Date;
+  renameLateLoyaltyCreditOnReorder!: number;
+  sortOversizedLoyaltyCredit!: number;
+  trimDuplicateCartLineOnReorder!: boolean;
+  normaliseExpiredPickupSlot!: boolean;
+  documentLateCateringTrayOnReorder!: number;
+  dedupeMissingOrderPerStore?: boolean;
+  trimDuplicateTicketInTheQueue!: Date;
+  retryMissingTaxLineForPickup?: Date;
+  tightenDuplicateDeliveryWindow!: string;
+  relaxMissingPickupSlot!: string;
+  trimEmptyPromo!: string[];
+  addMissingTopping!: boolean;
+  documentDuplicateTopping?: string;
+  sortExpiredStore?: string;
+  dedupeOversizedKitchenTicketForFranchisees?: string[];
+  backfillDuplicateTaxLineForFranchisees!: boolean;
+  dedupeOversizedReceipt?: boolean;
+  dedupeLateModifierPerStore!: number;
+  backfillStaleModifier!: boolean;
+  documentStaleModifier!: number;
 }

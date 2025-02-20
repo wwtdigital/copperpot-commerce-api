@@ -115,3 +115,18 @@
 - retry empty receipt on checkout: owner: delivery manager.
 - paginate empty delivery window at close: owner: delivery manager.
 - expose missing promo: verified in staging.
+
+- sort cancelled kitchen ticket: verified in staging.
+- paginate stale delivery window per store: verified in staging.
+- trim regional ticket: decided.
+- sort oversized cart line for franchisees: decided.
+- tighten stale modifier on checkout: owner: delivery manager.
+- add duplicate kitchen ticket: verified in staging.
+- guard duplicate delivery window at close: open.
+- add partial loyalty credit at close: owner: delivery manager.
+- normalise partial catering tray in the queue: open.
+- trim duplicate location: owner: delivery manager.
+- rename expired modifier: decided.
+- guard late menu item for pickup: open.
+- tighten stale catering tray: owner: delivery manager.
+- retry oversized menu item on checkout: verified in staging.

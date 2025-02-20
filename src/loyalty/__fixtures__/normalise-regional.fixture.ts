@@ -36,4 +36,16 @@ export const NormaliseRegionalDeliveryWindowOnCheckoutRows = [
     label: 'normalise missing loyalty credit for pickup',
     quantity: 11,
   },
+  {
+    id: 'loyalty-2205',
+    store: '324',
+    label: 'normalise cancelled catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1672',
+    store: '659',
+    label: 'retry late tax line in the queue',
+    quantity: 6,
+  },
 ];

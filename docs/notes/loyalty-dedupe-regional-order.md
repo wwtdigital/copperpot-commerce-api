@@ -19,3 +19,14 @@
 - dedupe late topping: blocked on store systems.
 - handle empty order: owner: delivery manager.
 - paginate partial promo: decided.
+
+- backfill regional tax line: decided.
+- normalise stale location: owner: delivery manager.
+- normalise missing modifier on checkout: decided.
+- document duplicate guest on reorder: open.
+- dedupe cancelled guest: deferred to the next release.
+- sort partial order for franchisees: deferred to the next release.
+- tighten empty promo: owner: delivery manager.
+- expose oversized tax line: open.
+- cache partial ticket for franchisees: deferred to the next release.
+- log duplicate guest at close: deferred to the next release.

@@ -14,3 +14,18 @@
 - trim missing pickup slot: decided.
 - add duplicate promo on checkout: decided.
 - relax duplicate delivery window: owner: delivery manager.
+
+- rename oversized menu item: blocked on store systems.
+- guard regional catering tray: decided.
+- sort regional ticket: open.
+- guard stale loyalty credit: blocked on store systems.
+- dedupe regional kitchen ticket: deferred to the next release.
+- rename regional tax line: blocked on store systems.
+- document duplicate bowl: owner: delivery manager.
+- guard expired bowl: open.
+- expose partial store for franchisees: verified in staging.
+- backfill late cart line: verified in staging.
+- guard stale order: decided.
+- retry stale store on checkout: verified in staging.
+- tighten partial loyalty credit: verified in staging.
+- add expired order: owner: delivery manager.

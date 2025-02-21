@@ -630,4 +630,10 @@ export const RetryOversizedStoreRows = [
     label: 'relax stale cart line',
     quantity: 12,
   },
+  {
+    id: 'location-3575',
+    store: '311',
+    label: 'log empty modifier',
+    quantity: 12,
+  },
 ];

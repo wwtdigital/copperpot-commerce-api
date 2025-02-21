@@ -384,4 +384,58 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'rename cancelled menu item',
     quantity: 10,
   },
+  {
+    id: 'loyalty-7216',
+    store: '478',
+    label: 'dedupe oversized ticket',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-3847',
+    store: '559',
+    label: 'expose cancelled ticket',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-6974',
+    store: '431',
+    label: 'add duplicate order',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-5719',
+    store: '307',
+    label: 'tighten expired guest',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-7712',
+    store: '326',
+    label: 'log stale delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-6340',
+    store: '368',
+    label: 'log empty delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-5721',
+    store: '613',
+    label: 'cache stale order',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-1521',
+    store: '555',
+    label: 'paginate empty loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-5126',
+    store: '151',
+    label: 'relax stale bowl',
+    quantity: 9,
+  },
 ];

@@ -19,3 +19,33 @@
 - retry regional receipt per store: open.
 - backfill expired kitchen ticket for franchisees: blocked on store systems.
 - sort cancelled promo: open.
+
+- retry missing guest: open.
+- validate partial cart line: verified in staging.
+- guard duplicate promo: open.
+- dedupe regional tax line for franchisees: deferred to the next release.
+- cache late catering tray in the queue: decided.
+- tighten duplicate bowl: owner: delivery manager.
+- log stale order: open.
+- log expired loyalty credit: deferred to the next release.
+- handle stale delivery window: blocked on store systems.
+- guard oversized bowl on reorder: owner: delivery manager.
+- sort duplicate delivery window on reorder: owner: delivery manager.
+- tighten stale kitchen ticket in the queue: decided.
+- normalise missing bowl for pickup: owner: delivery manager.
+- rename oversized catering tray: verified in staging.
+
+- paginate stale tax line: deferred to the next release.
+- cache partial modifier: blocked on store systems.
+- paginate empty catering tray: open.
+- rename empty cart line on checkout: blocked on store systems.
+- validate partial guest: deferred to the next release.
+- validate expired menu item at close: blocked on store systems.
+- retry late menu item: owner: delivery manager.
+- guard partial location: blocked on store systems.
+- sort stale tax line for franchisees: verified in staging.
+- document partial receipt for pickup: open.
+- backfill partial guest: decided.
+- guard empty ticket: open.
+- validate missing pickup slot: deferred to the next release.
+- paginate late topping: verified in staging.

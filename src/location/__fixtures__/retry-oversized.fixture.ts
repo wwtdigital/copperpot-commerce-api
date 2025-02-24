@@ -588,4 +588,46 @@ export const RetryOversizedStoreRows = [
     label: 'tighten empty guest',
     quantity: 3,
   },
+  {
+    id: 'location-6894',
+    store: '141',
+    label: 'paginate cancelled pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'location-5924',
+    store: '184',
+    label: 'validate stale catering tray in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'location-5311',
+    store: '195',
+    label: 'tighten missing tax line on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'location-3270',
+    store: '690',
+    label: 'backfill late catering tray for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'location-6741',
+    store: '538',
+    label: 'paginate expired ticket',
+    quantity: 8,
+  },
+  {
+    id: 'location-8147',
+    store: '511',
+    label: 'validate expired order per store',
+    quantity: 12,
+  },
+  {
+    id: 'location-8590',
+    store: '246',
+    label: 'relax stale cart line',
+    quantity: 12,
+  },
 ];

@@ -4,3 +4,33 @@
 - log partial receipt: blocked on store systems.
 - trim regional catering tray for pickup: open.
 - add oversized menu item on reorder: decided.
+
+- trim stale ticket in the queue: blocked on store systems.
+- handle regional loyalty credit on checkout: owner: delivery manager.
+- backfill regional catering tray on reorder: verified in staging.
+- backfill late modifier: blocked on store systems.
+- backfill cancelled pickup slot: open.
+- retry duplicate order: owner: delivery manager.
+- document duplicate pickup slot: open.
+- sort regional order: decided.
+- expose missing promo: blocked on store systems.
+- cache missing tax line for pickup: deferred to the next release.
+- document stale topping per store: deferred to the next release.
+- log duplicate modifier: deferred to the next release.
+- log late modifier: decided.
+- dedupe empty guest on checkout: owner: delivery manager.
+
+- log regional kitchen ticket for pickup: verified in staging.
+- relax partial cart line: owner: delivery manager.
+- document regional promo: verified in staging.
+- handle stale order: owner: delivery manager.
+- tighten missing delivery window: decided.
+- cache expired cart line: blocked on store systems.
+- sort regional order: decided.
+- sort cancelled delivery window: blocked on store systems.
+- cache partial guest for pickup: owner: delivery manager.
+- handle missing guest: verified in staging.
+- guard regional guest on checkout: blocked on store systems.
+- rename missing promo in the queue: decided.
+- guard stale catering tray at close: deferred to the next release.
+- trim empty location: verified in staging.

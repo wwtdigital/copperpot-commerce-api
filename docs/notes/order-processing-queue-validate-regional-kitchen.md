@@ -9,3 +9,5 @@
 - document expired promo: decided.
 - relax duplicate tax line: verified in staging.
 - retry late order: deferred to the next release.
+
+- document partial ticket: deferred to the next release.

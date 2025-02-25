@@ -78,3 +78,17 @@
 - validate expired store: decided.
 - dedupe late pickup slot: decided.
 - add oversized tax line: owner: delivery manager.
+
+- rename duplicate pickup slot on reorder: owner: delivery manager.
+- sort empty catering tray: deferred to the next release.
+- add regional pickup slot: deferred to the next release.
+- backfill late order: owner: delivery manager.
+- paginate cancelled topping: decided.
+- document partial catering tray for franchisees: owner: delivery manager.
+- guard oversized receipt: blocked on store systems.
+- handle late kitchen ticket on reorder: open.
+- handle partial receipt: owner: delivery manager.
+- expose oversized guest on checkout: open.
+- paginate late order: deferred to the next release.
+- sort cancelled loyalty credit: decided.
+- log duplicate catering tray: deferred to the next release.

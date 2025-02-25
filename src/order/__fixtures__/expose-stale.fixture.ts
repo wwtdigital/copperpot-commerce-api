@@ -120,4 +120,34 @@ export const ExposeStaleBowlInTheQueueRows = [
     label: 'log regional modifier for franchisees',
     quantity: 1,
   },
+  {
+    id: 'order-8748',
+    store: '355',
+    label: 'dedupe oversized menu item for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'order-5324',
+    store: '338',
+    label: 'paginate late catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'order-6454',
+    store: '390',
+    label: 'tighten cancelled menu item on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'order-5917',
+    store: '508',
+    label: 'log duplicate modifier',
+    quantity: 9,
+  },
+  {
+    id: 'order-8309',
+    store: '463',
+    label: 'document regional topping',
+    quantity: 9,
+  },
 ];

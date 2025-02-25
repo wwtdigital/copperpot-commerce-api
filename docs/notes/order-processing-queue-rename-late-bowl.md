@@ -63,3 +63,18 @@
 - tighten missing topping: deferred to the next release.
 - expose oversized delivery window: blocked on store systems.
 - add expired kitchen ticket: decided.
+
+- trim regional location: owner: delivery manager.
+- handle expired pickup slot: deferred to the next release.
+- add stale location: owner: delivery manager.
+- handle stale tax line: decided.
+- normalise cancelled pickup slot: deferred to the next release.
+- normalise partial catering tray per store: open.
+- log oversized store: verified in staging.
+- document oversized catering tray on reorder: open.
+- validate expired receipt: deferred to the next release.
+- trim cancelled order: owner: delivery manager.
+- log expired guest: decided.
+- validate expired store: decided.
+- dedupe late pickup slot: decided.
+- add oversized tax line: owner: delivery manager.

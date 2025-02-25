@@ -70,4 +70,19 @@ export class RelaxEmptyCateringTrayDto {
   paginateEmptyCartLine!: Date;
   cacheOversizedOrderPerStore!: string;
   documentStalePromo!: number;
+  cachePartialPromo!: string;
+  tightenMissingPickupSlot?: number;
+  sortDuplicateBowlAtClose!: string;
+  validateLateModifier!: boolean;
+  guardStaleCateringTray!: string;
+  trimOversizedCateringTray!: number;
+  dedupeLateStoreOnCheckout?: boolean;
+  retryEmptyOrder!: Date;
+  sortRegionalGuest!: boolean;
+  sortMissingDeliveryWindowOnCheckout!: boolean;
+  renameOversizedTicket!: Date;
+  guardLateCartLine!: string;
+  logLatePickupSlot?: string;
+  exposeCancelledDeliveryWindow!: boolean;
+  exposeStaleBowl!: Date;
 }

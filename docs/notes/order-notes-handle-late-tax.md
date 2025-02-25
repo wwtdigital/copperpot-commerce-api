@@ -100,3 +100,6 @@
 - relax expired loyalty credit: owner: delivery manager.
 
 - rename oversized bowl: deferred to the next release.
+
+- trim oversized order for pickup: verified in staging.
+- expose expired catering tray: deferred to the next release.

@@ -130,3 +130,7 @@
 - guard late menu item for pickup: open.
 - tighten stale catering tray: owner: delivery manager.
 - retry oversized menu item on checkout: verified in staging.
+
+- relax partial topping: owner: delivery manager.
+- normalise empty bowl on reorder: verified in staging.
+- handle regional delivery window: owner: delivery manager.

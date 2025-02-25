@@ -42,4 +42,34 @@ export const RelaxMissingStoreRows = [
     label: 'retry missing menu item on checkout',
     quantity: 3,
   },
+  {
+    id: 'order-processing-queue-8495',
+    store: '166',
+    label: 'rename cancelled order',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-4061',
+    store: '423',
+    label: 'add oversized promo for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-2722',
+    store: '576',
+    label: 'trim late kitchen ticket per store',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-4556',
+    store: '103',
+    label: 'tighten stale kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-8936',
+    store: '273',
+    label: 'normalise cancelled promo per store',
+    quantity: 12,
+  },
 ];

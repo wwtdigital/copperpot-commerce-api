@@ -30,4 +30,12 @@ export class GuardLatePickupSlotDto {
   paginateStaleLoyaltyCredit!: string[];
   documentOversizedCateringTray?: string;
   retryPartialTicketPerStore!: string;
+  sortStaleTaxLine!: string[];
+  sortExpiredPickupSlotOnCheckout!: string[];
+  guardPartialCateringTray!: string[];
+  retryRegionalGuest!: number;
+  trimOversizedDeliveryWindowForFranchisees?: string;
+  retryLateToppingForPickup!: string;
+  exposeMissingGuestForPickup!: string;
+  dedupeDuplicateOrder!: string;
 }

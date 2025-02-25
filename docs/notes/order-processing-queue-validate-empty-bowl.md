@@ -54,3 +54,18 @@
 - rename regional receipt: open.
 - tighten empty receipt on checkout: decided.
 - normalise expired promo: verified in staging.
+
+- cache regional ticket in the queue: blocked on store systems.
+- retry regional ticket: decided.
+- paginate empty delivery window: blocked on store systems.
+- backfill missing loyalty credit: verified in staging.
+- sort empty modifier on reorder: verified in staging.
+- log stale kitchen ticket: owner: delivery manager.
+- normalise cancelled loyalty credit: deferred to the next release.
+- paginate partial order: owner: delivery manager.
+- sort oversized catering tray in the queue: decided.
+- retry regional modifier: owner: delivery manager.
+- handle empty store: blocked on store systems.
+- dedupe duplicate kitchen ticket at close: blocked on store systems.
+- tighten empty receipt at close: owner: delivery manager.
+- add expired guest: decided.

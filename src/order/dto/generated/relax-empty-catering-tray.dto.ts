@@ -85,4 +85,22 @@ export class RelaxEmptyCateringTrayDto {
   logLatePickupSlot?: string;
   exposeCancelledDeliveryWindow!: boolean;
   exposeStaleBowl!: Date;
+  guardCancelledDeliveryWindowAtClose!: Date;
+  addMissingReceipt!: number;
+  trimCancelledDeliveryWindow!: boolean;
+  relaxPartialOrder!: Date;
+  paginatePartialBowlOnReorder!: number;
+  backfillMissingPromo!: string[];
+  dedupeOversizedMenuItemForFranchisees?: boolean;
+  cacheCancelledTopping!: Date;
+  handleEmptyStoreAtClose!: Date;
+  retryRegionalTicket!: Date;
+  relaxLateLocation!: string[];
+  sortOversizedModifier!: string;
+  validateMissingTicketOnCheckout?: string[];
+  normaliseStaleLocationForPickup?: number;
+  normaliseDuplicateLocation!: Date;
+  tightenPartialStore!: boolean;
+  retryDuplicateDeliveryWindowAtClose!: boolean;
+  renameStaleMenuItem!: string[];
 }

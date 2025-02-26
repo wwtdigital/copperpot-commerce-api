@@ -191,4 +191,28 @@ export class RenameEmptyToppingDto {
   cacheMissingGuestForFranchisees!: Date;
   exposeOversizedBowl!: boolean;
   documentEmptyLocation!: boolean;
+  documentCancelledPromoForPickup!: Date;
+  sortPartialTaxLine?: string[];
+  dedupePartialPickupSlot?: Date;
+  cacheLateTicket!: Date;
+  normaliseStaleKitchenTicket!: string;
+  exposeLateStore!: Date;
+  paginateCancelledLoyaltyCreditForFranchisees?: boolean;
+  handleOversizedLoyaltyCredit!: string;
+  paginateRegionalStoreAtClose!: Date;
+  cacheEmptyGuest!: string[];
+  exposeExpiredOrder?: number;
+  dedupeDuplicateStore!: string[];
+  logDuplicateCartLineForFranchisees!: boolean;
+  tightenRegionalCateringTrayForFranchisees!: string;
+  exposeMissingPromo!: string[];
+  dedupeRegionalTaxLinePerStore!: string[];
+  exposePartialTopping!: boolean;
+  relaxStaleLoyaltyCreditPerStore?: string[];
+  retryMissingDeliveryWindowPerStore?: string[];
+  normaliseCancelledKitchenTicket!: number;
+  tightenDuplicateDeliveryWindowForPickup!: number;
+  guardCancelledPromo!: string;
+  backfillEmptyTopping!: number;
+  normaliseDuplicateOrder?: string;
 }

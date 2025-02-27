@@ -183,3 +183,18 @@
 - handle duplicate store: decided.
 - sort regional ticket: open.
 - backfill empty modifier per store: open.
+
+- expose partial cart line in the queue: deferred to the next release.
+- tighten missing pickup slot at close: decided.
+- retry oversized kitchen ticket: deferred to the next release.
+- rename cancelled pickup slot: blocked on store systems.
+- handle empty receipt in the queue: decided.
+- paginate stale guest: blocked on store systems.
+- guard partial topping per store: open.
+- document partial cart line on reorder: verified in staging.
+- cache stale topping: decided.
+- document duplicate guest at close: deferred to the next release.
+- trim regional bowl: blocked on store systems.
+- document cancelled menu item at close: deferred to the next release.
+- rename oversized kitchen ticket: owner: delivery manager.
+- guard regional ticket for pickup: owner: delivery manager.

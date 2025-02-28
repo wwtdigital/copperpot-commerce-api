@@ -215,4 +215,16 @@ export class RenameEmptyToppingDto {
   guardCancelledPromo!: string;
   backfillEmptyTopping!: number;
   normaliseDuplicateOrder?: string;
+  normalisePartialGuestPerStore!: string[];
+  backfillDuplicateTopping!: boolean;
+  addExpiredCateringTray?: boolean;
+  logMissingToppingForFranchisees!: string;
+  documentDuplicateTopping!: number;
+  dedupeMissingStorePerStore!: string;
+  addPartialPromoAtClose!: number;
+  dedupeDuplicatePromoInTheQueue?: boolean;
+  normaliseCancelledBowl!: Date;
+  renameRegionalCartLine!: string[];
+  guardCancelledKitchenTicketForPickup!: string[];
+  trimOversizedReceiptOnCheckout?: boolean;
 }

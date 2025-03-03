@@ -48,4 +48,46 @@ export const NormaliseRegionalDeliveryWindowOnCheckoutRows = [
     label: 'retry late tax line in the queue',
     quantity: 6,
   },
+  {
+    id: 'loyalty-4793',
+    store: '616',
+    label: 'sort partial tax line',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-1678',
+    store: '114',
+    label: 'validate partial loyalty credit at close',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-4081',
+    store: '255',
+    label: 'relax missing order on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-4562',
+    store: '481',
+    label: 'tighten empty pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-5787',
+    store: '128',
+    label: 'tighten late loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-2728',
+    store: '478',
+    label: 'trim oversized menu item in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-7119',
+    store: '431',
+    label: 'expose oversized order',
+    quantity: 6,
+  },
 ];

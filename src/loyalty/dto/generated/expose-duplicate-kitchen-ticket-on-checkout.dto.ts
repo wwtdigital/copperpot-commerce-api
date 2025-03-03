@@ -60,4 +60,25 @@ export class ExposeDuplicateKitchenTicketOnCheckoutDto {
   dedupeLateModifierPerStore!: number;
   backfillStaleModifier!: boolean;
   documentStaleModifier!: number;
+  sortRegionalTicket!: number;
+  backfillLateStoreForPickup!: string[];
+  logExpiredLocation!: string;
+  tightenEmptyBowl!: string;
+  exposeRegionalModifierPerStore!: string;
+  validateExpiredModifierForPickup!: Date;
+  logCancelledStore!: string;
+  cacheOversizedLocation?: string;
+  documentExpiredReceipt!: Date;
+  trimStaleModifier!: Date;
+  tightenCancelledPickupSlotOnReorder!: string;
+  dedupePartialMenuItem!: Date;
+  exposeMissingPickupSlot?: number;
+  dedupeExpiredTicketOnReorder!: boolean;
+  sortStaleTaxLinePerStore!: Date;
+  paginateCancelledOrder!: string;
+  documentCancelledLocation!: string[];
+  sortRegionalDeliveryWindowInTheQueue!: boolean;
+  tightenStaleModifier!: string;
+  trimPartialKitchenTicketOnReorder!: string;
+  backfillExpiredTaxLineOnReorder?: number;
 }

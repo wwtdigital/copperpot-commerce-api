@@ -110,4 +110,8 @@ export class SortOversizedLoyaltyCreditDto {
   backfillDuplicatePromo?: number;
   renameOversizedLoyaltyCredit?: Date;
   backfillDuplicateMenuItem?: Date;
+  paginateLatePickupSlot?: Date;
+  handleDuplicateModifierForFranchisees!: string[];
+  normaliseStalePickupSlotInTheQueue?: boolean;
+  retryExpiredModifierOnCheckout!: string;
 }

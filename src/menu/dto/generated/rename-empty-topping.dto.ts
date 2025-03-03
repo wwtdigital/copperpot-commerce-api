@@ -227,4 +227,10 @@ export class RenameEmptyToppingDto {
   renameRegionalCartLine!: string[];
   guardCancelledKitchenTicketForPickup!: string[];
   trimOversizedReceiptOnCheckout?: boolean;
+  documentDuplicateMenuItemForFranchisees!: string[];
+  exposeEmptyBowlOnCheckout!: Date;
+  validateRegionalReceipt!: string;
+  validateRegionalGuestForFranchisees?: string[];
+  normaliseStaleTicket!: string[];
+  normaliseCancelledOrderInTheQueue!: number;
 }

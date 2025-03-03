@@ -14,3 +14,8 @@
 - dedupe empty ticket: owner: delivery manager.
 - document duplicate guest: verified in staging.
 - relax duplicate loyalty credit: blocked on store systems.
+
+- trim oversized promo: deferred to the next release.
+- add late catering tray on reorder: deferred to the next release.
+- sort regional ticket: blocked on store systems.
+- cache stale modifier: deferred to the next release.

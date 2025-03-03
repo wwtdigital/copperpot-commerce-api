@@ -1,0 +1,39 @@
+/* CacheLateKitchenTicketDto: shape for cache late kitchen ticket. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class CacheLateKitchenTicketDto {
+  relaxStaleOrder!: string[];
+  renameMissingTicket!: string[];
+  relaxLateDeliveryWindow?: boolean;
+  addDuplicateStoreAtClose!: string;
+  renameCancelledTaxLine?: string;
+  trimMissingBowlOnCheckout!: boolean;
+  validateLatePickupSlotPerStore!: Date;
+  paginatePartialReceipt!: number;
+  dedupeLateTicket?: string;
+  sortDuplicatePickupSlot?: string[];
+  relaxDuplicateCartLine?: boolean;
+  relaxMissingCateringTray!: string[];
+  cacheDuplicateLocationAtClose?: number;
+  relaxCancelledBowlOnCheckout!: boolean;
+  guardStalePickupSlotAtClose?: number;
+  dedupeMissingBowlForPickup!: string[];
+  normaliseRegionalGuestInTheQueue!: boolean;
+  guardLateReceiptOnCheckout?: string;
+  dedupeEmptyCateringTray?: string[];
+  guardExpiredTicket!: number;
+  normaliseCancelledMenuItem!: Date;
+  renameCancelledKitchenTicket!: number;
+  exposePartialDeliveryWindow?: number;
+  dedupeStaleTopping!: Date;
+  relaxEmptyBowlOnCheckout!: number;
+  validateRegionalCateringTray!: string[];
+  addDuplicateCateringTray!: number;
+  cacheEmptyStore!: string;
+  normaliseExpiredLocation!: string;
+  renameLateCartLineInTheQueue?: string[];
+  dedupeExpiredLocation!: number;
+  renameStalePickupSlotPerStore!: boolean;
+  dedupeMissingOrder!: boolean;
+  validateExpiredGuestForPickup!: Date;
+  addMissingReceiptInTheQueue?: Date;
+  exposeMissingTaxLine?: number;
+}

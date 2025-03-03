@@ -1,0 +1,123 @@
+/* Fixture rows for restaurant tests: expose partial receipt. Generated data, not production data. */
+export const ExposePartialReceiptRows = [
+  {
+    id: 'restaurant-5212',
+    store: '368',
+    label: 'backfill duplicate receipt at close',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-3054',
+    store: '393',
+    label: 'dedupe cancelled store on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-1769',
+    store: '331',
+    label: 'add partial tax line for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-4803',
+    store: '112',
+    label: 'normalise partial delivery window on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-2315',
+    store: '675',
+    label: 'validate oversized guest',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-3503',
+    store: '293',
+    label: 'log regional receipt',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-1099',
+    store: '175',
+    label: 'guard cancelled kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-5284',
+    store: '584',
+    label: 'backfill missing delivery window for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-1832',
+    store: '483',
+    label: 'paginate empty location per store',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-7615',
+    store: '394',
+    label: 'dedupe stale modifier',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-1753',
+    store: '106',
+    label: 'document cancelled modifier',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-3973',
+    store: '248',
+    label: 'expose stale modifier',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-5441',
+    store: '506',
+    label: 'rename regional receipt',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-4597',
+    store: '405',
+    label: 'normalise duplicate loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-5501',
+    store: '103',
+    label: 'expose late catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-2061',
+    store: '252',
+    label: 'sort regional loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-8737',
+    store: '468',
+    label: 'handle expired tax line',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-7314',
+    store: '517',
+    label: 'paginate missing kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-6090',
+    store: '691',
+    label: 'log duplicate store for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-1854',
+    store: '669',
+    label: 'tighten partial promo per store',
+    quantity: 12,
+  },
+];

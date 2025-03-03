@@ -118,3 +118,18 @@
 - log late guest: owner: delivery manager.
 - rename duplicate loyalty credit on reorder: decided.
 - add duplicate cart line: verified in staging.
+
+- dedupe missing kitchen ticket: decided.
+- rename missing modifier: deferred to the next release.
+- normalise regional store: verified in staging.
+- dedupe partial guest: blocked on store systems.
+- expose stale modifier: verified in staging.
+- retry missing store on reorder: open.
+- trim cancelled loyalty credit: owner: delivery manager.
+- guard oversized promo: open.
+- rename duplicate delivery window: owner: delivery manager.
+- cache missing cart line: deferred to the next release.
+- normalise regional ticket at close: verified in staging.
+- backfill late bowl for franchisees: deferred to the next release.
+- paginate expired store: owner: delivery manager.
+- guard regional order in the queue: deferred to the next release.

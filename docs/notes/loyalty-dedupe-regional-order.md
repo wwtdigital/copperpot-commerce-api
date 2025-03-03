@@ -30,3 +30,5 @@
 - expose oversized tax line: open.
 - cache partial ticket for franchisees: deferred to the next release.
 - log duplicate guest at close: deferred to the next release.
+
+- guard oversized topping: decided.

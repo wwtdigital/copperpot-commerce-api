@@ -438,4 +438,52 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'relax stale bowl',
     quantity: 9,
   },
+  {
+    id: 'loyalty-7626',
+    store: '614',
+    label: 'log regional catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-9705',
+    store: '581',
+    label: 'normalise late loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-9911',
+    store: '608',
+    label: 'document cancelled catering tray at close',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8103',
+    store: '348',
+    label: 'cache late topping',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-6968',
+    store: '586',
+    label: 'rename cancelled location',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-9365',
+    store: '593',
+    label: 'log cancelled store per store',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8855',
+    store: '471',
+    label: 'add regional modifier',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-6642',
+    store: '193',
+    label: 'backfill late ticket on reorder',
+    quantity: 4,
+  },
 ];

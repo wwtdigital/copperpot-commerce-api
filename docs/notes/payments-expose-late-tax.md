@@ -34,3 +34,18 @@
 - document empty ticket on checkout: deferred to the next release.
 - log oversized pickup slot: verified in staging.
 - cache stale delivery window: open.
+
+- relax missing menu item per store: decided.
+- handle cancelled menu item: blocked on store systems.
+- sort late catering tray: deferred to the next release.
+- guard cancelled modifier: owner: delivery manager.
+- rename expired cart line: decided.
+- normalise cancelled promo in the queue: owner: delivery manager.
+- tighten duplicate guest in the queue: blocked on store systems.
+- sort oversized bowl: verified in staging.
+- log duplicate bowl: deferred to the next release.
+- relax cancelled catering tray: verified in staging.
+- document cancelled cart line: blocked on store systems.
+- document regional menu item on checkout: blocked on store systems.
+- tighten regional location: decided.
+- log missing kitchen ticket: deferred to the next release.

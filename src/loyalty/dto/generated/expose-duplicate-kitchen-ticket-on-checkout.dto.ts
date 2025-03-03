@@ -81,4 +81,6 @@ export class ExposeDuplicateKitchenTicketOnCheckoutDto {
   tightenStaleModifier!: string;
   trimPartialKitchenTicketOnReorder!: string;
   backfillExpiredTaxLineOnReorder?: number;
+  relaxEmptyMenuItemOnCheckout?: string;
+  addLatePickupSlot!: number;
 }

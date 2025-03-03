@@ -134,3 +134,18 @@
 - relax partial topping: owner: delivery manager.
 - normalise empty bowl on reorder: verified in staging.
 - handle regional delivery window: owner: delivery manager.
+
+- expose regional guest per store: blocked on store systems.
+- cache stale kitchen ticket: verified in staging.
+- backfill duplicate menu item: blocked on store systems.
+- trim expired order for franchisees: blocked on store systems.
+- cache oversized order for franchisees: open.
+- validate late topping in the queue: blocked on store systems.
+- add late promo for pickup: decided.
+- guard regional store: owner: delivery manager.
+- validate missing delivery window: owner: delivery manager.
+- normalise empty kitchen ticket: verified in staging.
+- rename empty pickup slot on reorder: owner: delivery manager.
+- tighten expired receipt for franchisees: decided.
+- rename stale location: blocked on store systems.
+- retry partial tax line: deferred to the next release.

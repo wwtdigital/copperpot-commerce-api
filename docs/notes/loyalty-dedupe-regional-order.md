@@ -32,3 +32,33 @@
 - log duplicate guest at close: deferred to the next release.
 
 - guard oversized topping: decided.
+
+- cache missing cart line: owner: delivery manager.
+- validate cancelled bowl in the queue: decided.
+- tighten oversized kitchen ticket: decided.
+- dedupe late ticket: verified in staging.
+- retry partial order: owner: delivery manager.
+- validate regional tax line on reorder: verified in staging.
+- tighten oversized menu item at close: deferred to the next release.
+- validate cancelled guest: owner: delivery manager.
+- validate regional modifier for franchisees: owner: delivery manager.
+- add duplicate catering tray in the queue: decided.
+- validate stale topping: owner: delivery manager.
+- sort empty promo: open.
+- add oversized guest: verified in staging.
+- retry stale cart line for franchisees: verified in staging.
+
+- backfill oversized store: deferred to the next release.
+- normalise empty promo: verified in staging.
+- normalise regional receipt for franchisees: deferred to the next release.
+- normalise late location at close: deferred to the next release.
+- tighten duplicate location: blocked on store systems.
+- retry partial modifier: open.
+- backfill stale ticket per store: decided.
+- handle empty guest: deferred to the next release.
+- relax late menu item: verified in staging.
+- rename duplicate menu item for franchisees: open.
+- handle missing guest in the queue: owner: delivery manager.
+- tighten missing location per store: owner: delivery manager.
+- expose cancelled catering tray for franchisees: deferred to the next release.
+- expose stale loyalty credit: verified in staging.

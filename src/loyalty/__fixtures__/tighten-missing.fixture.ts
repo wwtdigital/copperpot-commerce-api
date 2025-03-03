@@ -486,4 +486,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'backfill late ticket on reorder',
     quantity: 4,
   },
+  {
+    id: 'loyalty-3952',
+    store: '594',
+    label: 'paginate late order',
+    quantity: 5,
+  },
 ];

@@ -70,4 +70,18 @@ export class SortOversizedLoyaltyCreditDto {
   cacheStaleOrder!: boolean;
   sortOversizedBowl?: number;
   retryLateMenuItem!: boolean;
+  validateDuplicateGuest!: Date;
+  tightenDuplicateBowl!: number;
+  backfillEmptyCateringTrayOnReorder?: Date;
+  trimOversizedGuestForPickup!: boolean;
+  handleStaleCateringTray?: string[];
+  relaxEmptyBowlInTheQueue!: Date;
+  tightenEmptyStore?: string;
+  trimPartialOrderForFranchisees!: boolean;
+  renameExpiredStoreAtClose!: string;
+  retryOversizedStore!: Date;
+  addLateBowlPerStore?: string[];
+  normaliseMissingTicketOnCheckout!: string;
+  renameStaleKitchenTicketForPickup!: string[];
+  sortCancelledTicket?: boolean;
 }

@@ -103,3 +103,21 @@
 
 - trim oversized order for pickup: verified in staging.
 - expose expired catering tray: deferred to the next release.
+
+- retry regional tax line: deferred to the next release.
+- guard duplicate order for pickup: verified in staging.
+
+- trim oversized tax line: decided.
+- tighten partial topping in the queue: open.
+- validate regional delivery window: verified in staging.
+- document cancelled tax line for franchisees: verified in staging.
+- document stale receipt: blocked on store systems.
+- guard oversized guest: blocked on store systems.
+- backfill empty menu item: owner: delivery manager.
+- retry late cart line: blocked on store systems.
+- sort late guest: verified in staging.
+- log cancelled ticket: blocked on store systems.
+- backfill oversized promo: blocked on store systems.
+- validate stale catering tray on reorder: decided.
+- rename duplicate location for franchisees: open.
+- paginate late catering tray: owner: delivery manager.

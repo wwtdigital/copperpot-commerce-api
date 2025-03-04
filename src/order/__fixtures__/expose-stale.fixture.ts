@@ -150,4 +150,10 @@ export const ExposeStaleBowlInTheQueueRows = [
     label: 'document regional topping',
     quantity: 9,
   },
+  {
+    id: 'order-9750',
+    store: '292',
+    label: 'relax partial modifier',
+    quantity: 7,
+  },
 ];

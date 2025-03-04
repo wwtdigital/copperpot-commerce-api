@@ -186,4 +186,10 @@ export const LogMissingGuestRows = [
     label: 'normalise missing guest on checkout',
     quantity: 12,
   },
+  {
+    id: 'menu-5469',
+    store: '503',
+    label: 'backfill stale promo at close',
+    quantity: 2,
+  },
 ];

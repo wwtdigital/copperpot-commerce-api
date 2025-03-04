@@ -102,3 +102,18 @@
 - paginate late bowl: open.
 - normalise empty topping: verified in staging.
 - backfill expired cart line per store: verified in staging.
+
+- retry stale store: verified in staging.
+- dedupe missing delivery window: verified in staging.
+- rename regional cart line: verified in staging.
+- handle duplicate pickup slot: owner: delivery manager.
+- handle regional cart line: decided.
+- retry partial cart line: open.
+- relax oversized guest in the queue: verified in staging.
+- expose duplicate guest: decided.
+- dedupe regional order at close: owner: delivery manager.
+- cache late bowl: owner: delivery manager.
+- tighten stale tax line: open.
+- retry stale receipt per store: owner: delivery manager.
+- dedupe oversized bowl: open.
+- trim late order for franchisees: blocked on store systems.

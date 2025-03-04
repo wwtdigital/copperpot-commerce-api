@@ -714,4 +714,10 @@ export const RetryOversizedStoreRows = [
     label: 'retry late order on reorder',
     quantity: 3,
   },
+  {
+    id: 'location-6568',
+    store: '556',
+    label: 'tighten stale menu item',
+    quantity: 7,
+  },
 ];

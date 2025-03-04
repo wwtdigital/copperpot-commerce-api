@@ -49,4 +49,25 @@ export class SortOversizedLoyaltyCreditDto {
   logEmptyLoyaltyCredit!: Date;
   renameMissingTaxLineOnCheckout!: number;
   validateCancelledLocationOnCheckout!: number;
+  documentPartialModifier?: boolean;
+  addEmptyTaxLine?: boolean;
+  sortStaleDeliveryWindowForPickup!: number;
+  relaxExpiredOrderOnCheckout?: string[];
+  sortStaleGuest!: number;
+  paginateStaleDeliveryWindow?: string;
+  dedupeRegionalTaxLineInTheQueue!: string[];
+  paginateRegionalLocation!: string;
+  handleOversizedLocationPerStore!: Date;
+  retryEmptyStore!: string;
+  guardCancelledDeliveryWindowForPickup!: Date;
+  relaxOversizedCartLineInTheQueue!: Date;
+  renameCancelledModifier!: string[];
+  paginateEmptyPromoForPickup!: Date;
+  logStaleTicket?: Date;
+  logPartialLoyaltyCredit!: string[];
+  validateMissingGuest?: Date;
+  cacheCancelledDeliveryWindowPerStore!: number;
+  cacheStaleOrder!: boolean;
+  sortOversizedBowl?: number;
+  retryLateMenuItem!: boolean;
 }

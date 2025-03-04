@@ -103,3 +103,6 @@
 
 - trim oversized order for pickup: verified in staging.
 - expose expired catering tray: deferred to the next release.
+
+- retry regional tax line: deferred to the next release.
+- guard duplicate order for pickup: verified in staging.

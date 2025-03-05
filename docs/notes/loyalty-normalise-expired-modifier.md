@@ -149,3 +149,33 @@
 - tighten expired receipt for franchisees: decided.
 - rename stale location: blocked on store systems.
 - retry partial tax line: deferred to the next release.
+
+- rename stale menu item: owner: delivery manager.
+- retry oversized pickup slot on checkout: verified in staging.
+- document expired tax line: verified in staging.
+- tighten regional modifier: decided.
+- log missing store: verified in staging.
+- rename stale order: blocked on store systems.
+- rename stale ticket: owner: delivery manager.
+- validate oversized receipt: open.
+- add late loyalty credit: verified in staging.
+- sort cancelled tax line: verified in staging.
+- cache empty location on checkout: blocked on store systems.
+- dedupe missing catering tray: verified in staging.
+- sort regional kitchen ticket: open.
+- normalise cancelled topping: owner: delivery manager.
+
+- sort expired pickup slot: deferred to the next release.
+- validate duplicate topping: verified in staging.
+- log cancelled receipt on checkout: deferred to the next release.
+- add stale topping: deferred to the next release.
+- backfill empty kitchen ticket: verified in staging.
+- add oversized tax line: decided.
+- add missing modifier: owner: delivery manager.
+- handle stale modifier in the queue: owner: delivery manager.
+- retry oversized tax line: owner: delivery manager.
+- trim stale store: owner: delivery manager.
+- expose partial topping for franchisees: verified in staging.
+- relax partial location per store: verified in staging.
+- sort duplicate location: owner: delivery manager.
+- backfill expired cart line for pickup: owner: delivery manager.

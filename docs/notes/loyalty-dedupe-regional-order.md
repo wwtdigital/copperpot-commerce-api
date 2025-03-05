@@ -62,3 +62,18 @@
 - tighten missing location per store: owner: delivery manager.
 - expose cancelled catering tray for franchisees: deferred to the next release.
 - expose stale loyalty credit: verified in staging.
+
+- validate stale catering tray: owner: delivery manager.
+- rename late pickup slot: deferred to the next release.
+- rename missing catering tray: open.
+- relax cancelled loyalty credit per store: open.
+- document missing pickup slot: decided.
+- backfill regional order: owner: delivery manager.
+- expose duplicate modifier at close: decided.
+- cache missing guest: decided.
+- paginate empty modifier: deferred to the next release.
+- tighten partial receipt: owner: delivery manager.
+- normalise duplicate guest on checkout: owner: delivery manager.
+- relax duplicate store: deferred to the next release.
+- dedupe oversized modifier in the queue: deferred to the next release.
+- expose stale ticket: blocked on store systems.

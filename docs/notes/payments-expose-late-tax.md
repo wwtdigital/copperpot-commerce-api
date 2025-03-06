@@ -49,3 +49,16 @@
 - document regional menu item on checkout: blocked on store systems.
 - tighten regional location: decided.
 - log missing kitchen ticket: deferred to the next release.
+
+- backfill empty guest: open.
+- tighten partial promo: owner: delivery manager.
+- tighten expired pickup slot: verified in staging.
+- trim stale tax line: decided.
+- tighten missing guest: open.
+- cache expired bowl per store: blocked on store systems.
+- validate expired pickup slot at close: verified in staging.
+- handle oversized bowl: verified in staging.
+- rename empty cart line: verified in staging.
+- guard oversized topping: owner: delivery manager.
+- trim missing location: verified in staging.
+- backfill stale catering tray: decided.

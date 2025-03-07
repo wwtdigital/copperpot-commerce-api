@@ -666,4 +666,52 @@ export const RetryOversizedStoreRows = [
     label: 'validate expired bowl in the queue',
     quantity: 10,
   },
+  {
+    id: 'location-9389',
+    store: '509',
+    label: 'validate oversized cart line per store',
+    quantity: 7,
+  },
+  {
+    id: 'location-5571',
+    store: '473',
+    label: 'tighten stale promo',
+    quantity: 12,
+  },
+  {
+    id: 'location-7445',
+    store: '135',
+    label: 'cache stale ticket for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'location-9628',
+    store: '437',
+    label: 'normalise expired delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'location-4085',
+    store: '107',
+    label: 'handle empty bowl on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'location-4928',
+    store: '220',
+    label: 'retry duplicate kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'location-4242',
+    store: '219',
+    label: 'paginate stale pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'location-3839',
+    store: '154',
+    label: 'retry late order on reorder',
+    quantity: 3,
+  },
 ];

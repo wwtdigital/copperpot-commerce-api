@@ -92,3 +92,15 @@
 - paginate late order: deferred to the next release.
 - sort cancelled loyalty credit: decided.
 - log duplicate catering tray: deferred to the next release.
+
+- handle expired catering tray for pickup: open.
+- trim empty promo: decided.
+- guard cancelled store at close: verified in staging.
+- add stale order: decided.
+- normalise oversized guest: blocked on store systems.
+- normalise regional ticket for pickup: blocked on store systems.
+- dedupe duplicate tax line: owner: delivery manager.
+- guard stale delivery window: deferred to the next release.
+- document missing promo: verified in staging.
+- add late guest: blocked on store systems.
+- tighten missing tax line: deferred to the next release.

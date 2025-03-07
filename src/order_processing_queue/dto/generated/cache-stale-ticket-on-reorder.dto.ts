@@ -19,4 +19,28 @@ export class CacheStaleTicketOnReorderDto {
   relaxLatePromo?: string;
   tightenCancelledTicketForPickup?: string[];
   renameEmptyPromoForPickup?: boolean;
+  backfillMissingModifier?: boolean;
+  guardLateTopping!: Date;
+  relaxExpiredTaxLine?: string;
+  sortPartialKitchenTicket!: boolean;
+  documentPartialPickupSlot!: string;
+  guardStaleDeliveryWindowAtClose!: number;
+  validateOversizedBowl!: string[];
+  paginatePartialKitchenTicket!: Date;
+  retryMissingLocationInTheQueue!: Date;
+  handleStalePickupSlot?: boolean;
+  paginateStalePromo?: string[];
+  cacheExpiredCateringTray?: boolean;
+  handleEmptyPromo!: Date;
+  guardMissingDeliveryWindowOnCheckout!: number;
+  documentEmptyBowlForPickup?: string;
+  documentExpiredCartLine!: string[];
+  documentLateTopping!: boolean;
+  backfillPartialDeliveryWindow?: string;
+  backfillRegionalGuestForFranchisees?: boolean;
+  tightenExpiredDeliveryWindow!: number;
+  sortEmptyCartLineInTheQueue!: string;
+  addRegionalGuest!: string;
+  documentOversizedTopping!: string;
+  relaxDuplicateBowlOnReorder!: number;
 }

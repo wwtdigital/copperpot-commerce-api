@@ -119,3 +119,6 @@
 - retry empty modifier: decided.
 - rename cancelled cart line in the queue: open.
 - rename regional loyalty credit: verified in staging.
+
+- trim stale catering tray: open.
+- document late loyalty credit for franchisees: owner: delivery manager.

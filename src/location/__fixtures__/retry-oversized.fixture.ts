@@ -720,4 +720,58 @@ export const RetryOversizedStoreRows = [
     label: 'tighten stale menu item',
     quantity: 7,
   },
+  {
+    id: 'location-6123',
+    store: '654',
+    label: 'log regional store',
+    quantity: 6,
+  },
+  {
+    id: 'location-2387',
+    store: '215',
+    label: 'add stale menu item at close',
+    quantity: 6,
+  },
+  {
+    id: 'location-8570',
+    store: '452',
+    label: 'document cancelled bowl',
+    quantity: 12,
+  },
+  {
+    id: 'location-4971',
+    store: '288',
+    label: 'tighten expired topping',
+    quantity: 4,
+  },
+  {
+    id: 'location-1421',
+    store: '305',
+    label: 'handle late catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'location-4135',
+    store: '111',
+    label: 'expose stale location',
+    quantity: 9,
+  },
+  {
+    id: 'location-4299',
+    store: '586',
+    label: 'backfill duplicate kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'location-7542',
+    store: '333',
+    label: 'normalise missing kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'location-9825',
+    store: '368',
+    label: 'cache missing location per store',
+    quantity: 10,
+  },
 ];

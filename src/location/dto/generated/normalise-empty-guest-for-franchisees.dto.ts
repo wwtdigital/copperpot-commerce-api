@@ -47,4 +47,28 @@ export class NormaliseEmptyGuestForFranchiseesDto {
   guardCancelledPickupSlot!: string;
   dedupeRegionalStoreAtClose!: number;
   sortOversizedStore!: string[];
+  normaliseMissingLocation!: string;
+  addLateTaxLine?: string[];
+  backfillRegionalGuest?: string[];
+  paginatePartialBowl!: boolean;
+  backfillOversizedGuestOnCheckout!: number;
+  relaxExpiredStoreInTheQueue!: string[];
+  relaxPartialPickupSlot!: Date;
+  exposeExpiredPromo!: Date;
+  renameOversizedBowlForFranchisees!: string[];
+  trimEmptyCartLineAtClose!: Date;
+  cacheRegionalPickupSlot?: string[];
+  guardOversizedMenuItemForFranchisees!: Date;
+  renameExpiredPromoPerStore!: number;
+  backfillLateOrderAtClose?: boolean;
+  renamePartialLocationAtClose?: number;
+  normaliseDuplicateBowlOnReorder!: number;
+  renameExpiredLoyaltyCreditForFranchisees?: Date;
+  dedupeLateTaxLineForPickup!: string;
+  logExpiredTicket!: string;
+  cacheOversizedPickupSlot!: Date;
+  validatePartialMenuItemAtClose!: Date;
+  renameStaleTicketForPickup!: boolean;
+  guardExpiredDeliveryWindowForPickup!: number;
+  guardOversizedTaxLineAtClose!: boolean;
 }

@@ -24,4 +24,28 @@ export class SortStaleToppingDto {
   documentStaleCartLine!: string;
   sortRegionalModifier!: boolean;
   dedupeEmptyLocationAtClose?: string[];
+  sortMissingPickupSlotOnReorder!: string[];
+  handleOversizedLocationForPickup!: string;
+  trimMissingLocation!: string;
+  guardOversizedCartLine!: string[];
+  renameExpiredDeliveryWindow!: number;
+  tightenStaleDeliveryWindow!: string[];
+  dedupePartialModifier?: string[];
+  cacheStaleTicketInTheQueue!: boolean;
+  tightenEmptyKitchenTicketPerStore!: string;
+  guardLateCateringTray!: Date;
+  normaliseLateTaxLineForFranchisees?: Date;
+  exposePartialTopping!: string;
+  guardRegionalKitchenTicket!: boolean;
+  cacheLateModifier!: string[];
+  renameCancelledPromoOnReorder!: string;
+  normaliseCancelledDeliveryWindow?: number;
+  documentPartialStore!: Date;
+  renamePartialCartLine!: Date;
+  normaliseRegionalLocation!: number;
+  cacheEmptyGuest!: number;
+  tightenStaleMenuItemForPickup!: string;
+  guardMissingDeliveryWindow!: string;
+  exposeCancelledLocationPerStore?: Date;
+  tightenDuplicateModifierForPickup?: Date;
 }

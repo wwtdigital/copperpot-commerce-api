@@ -24,4 +24,6 @@ export class TightenOversizedPickupSlotForFranchiseesDto {
   trimRegionalKitchenTicket?: boolean;
   documentPartialGuest!: number;
   relaxPartialLoyaltyCredit!: Date;
+  trimDuplicateStoreOnReorder!: string;
+  cacheEmptyTicket!: Date;
 }

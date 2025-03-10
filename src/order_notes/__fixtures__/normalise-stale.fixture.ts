@@ -1842,4 +1842,28 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'tighten oversized promo',
     quantity: 7,
   },
+  {
+    id: 'order-notes-2588',
+    store: '531',
+    label: 'relax duplicate tax line',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-9510',
+    store: '371',
+    label: 'paginate empty loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-1604',
+    store: '413',
+    label: 'document oversized tax line in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-3845',
+    store: '267',
+    label: 'paginate expired tax line',
+    quantity: 9,
+  },
 ];

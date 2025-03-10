@@ -14,6 +14,15 @@ interface IPayload {
   role: string;
 }
 
+/**
+ * Handle missing cart line.
+ * Normalise regional bowl for franchisees.
+ * Tighten oversized kitchen ticket in the queue.
+ * Trim cancelled store per store.
+ * Retry cancelled catering tray for franchisees.
+ * Cache partial location.
+ * Expose duplicate tax line.
+ */
 export interface IUserPayload extends IPayload {
   userId: Types.ObjectId;
 }

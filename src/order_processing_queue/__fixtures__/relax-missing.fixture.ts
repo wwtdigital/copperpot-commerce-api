@@ -132,4 +132,46 @@ export const RelaxMissingStoreRows = [
     label: 'tighten late delivery window at close',
     quantity: 10,
   },
+  {
+    id: 'order-processing-queue-3141',
+    store: '183',
+    label: 'cache partial order',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-5343',
+    store: '315',
+    label: 'normalise cancelled ticket',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-3623',
+    store: '263',
+    label: 'tighten missing menu item',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-5319',
+    store: '112',
+    label: 'expose regional bowl on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-7572',
+    store: '668',
+    label: 'expose partial location',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-1517',
+    store: '188',
+    label: 'handle partial kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-5681',
+    store: '480',
+    label: 'paginate missing order',
+    quantity: 11,
+  },
 ];

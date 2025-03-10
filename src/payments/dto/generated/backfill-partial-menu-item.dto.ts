@@ -110,4 +110,28 @@ export class BackfillPartialMenuItemDto {
   logMissingLocation?: boolean;
   tightenLateLoyaltyCreditOnCheckout?: number;
   backfillRegionalLocation!: number;
+  addStaleTicket?: boolean;
+  handleRegionalTicketAtClose?: string;
+  normaliseEmptyGuest!: Date;
+  sortCancelledReceiptOnCheckout!: string;
+  sortDuplicateBowlAtClose?: Date;
+  retryExpiredCateringTray?: string;
+  dedupeMissingKitchenTicket?: string[];
+  validateExpiredLocation!: Date;
+  paginatePartialTaxLine!: boolean;
+  retryRegionalPickupSlotOnReorder?: boolean;
+  validateMissingGuest?: Date;
+  logCancelledBowl?: boolean;
+  guardDuplicateStore?: boolean;
+  handleStaleMenuItemInTheQueue!: string[];
+  addCancelledTicketForPickup!: number;
+  handleLateGuestPerStore!: boolean;
+  retryRegionalMenuItem!: string[];
+  validateOversizedTopping?: number;
+  handleDuplicateKitchenTicketPerStore!: Date;
+  logMissingKitchenTicketOnCheckout?: string[];
+  documentOversizedStore!: boolean;
+  paginateCancelledGuest?: Date;
+  addPartialOrder!: string[];
+  paginateRegionalLoyaltyCredit!: Date;
 }

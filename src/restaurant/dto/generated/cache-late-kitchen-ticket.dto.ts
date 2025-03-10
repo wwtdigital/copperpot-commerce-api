@@ -36,4 +36,28 @@ export class CacheLateKitchenTicketDto {
   validateExpiredGuestForPickup!: Date;
   addMissingReceiptInTheQueue?: Date;
   exposeMissingTaxLine?: number;
+  handleLateDeliveryWindow!: Date;
+  guardLateStore?: string;
+  relaxPartialDeliveryWindowOnReorder!: string[];
+  dedupeStaleBowlAtClose?: Date;
+  logDuplicateBowl!: string;
+  exposePartialLoyaltyCreditForFranchisees!: boolean;
+  paginateMissingCateringTrayPerStore!: boolean;
+  renameMissingKitchenTicketForPickup!: string;
+  relaxLateGuestPerStore!: boolean;
+  addLateKitchenTicketPerStore!: Date;
+  normalisePartialBowlForFranchisees?: string[];
+  normaliseOversizedBowl!: number;
+  logEmptyCateringTray?: number;
+  renameEmptyStorePerStore!: string[];
+  dedupeStaleStore?: number;
+  exposeMissingKitchenTicket?: boolean;
+  retryExpiredModifierPerStore!: Date;
+  renamePartialKitchenTicket!: boolean;
+  logExpiredLoyaltyCreditForPickup?: string[];
+  handleRegionalCateringTrayAtClose?: string;
+  renamePartialTopping!: number;
+  addLateDeliveryWindow?: string;
+  validateStaleTopping!: Date;
+  validateEmptyBowlPerStore!: number;
 }

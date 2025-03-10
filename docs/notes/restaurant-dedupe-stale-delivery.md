@@ -104,3 +104,18 @@
 - document missing order: verified in staging.
 - log missing cart line: decided.
 - relax regional store: open.
+
+- relax duplicate cart line: blocked on store systems.
+- retry empty cart line: blocked on store systems.
+- log late receipt: blocked on store systems.
+- document missing promo per store: decided.
+- normalise partial order for pickup: decided.
+- trim regional promo on checkout: open.
+- add empty loyalty credit at close: open.
+- log stale loyalty credit: owner: delivery manager.
+- handle expired modifier for pickup: owner: delivery manager.
+- document duplicate delivery window: open.
+- normalise partial pickup slot: verified in staging.
+- retry empty modifier: decided.
+- rename cancelled cart line in the queue: open.
+- rename regional loyalty credit: verified in staging.

@@ -38,4 +38,28 @@ export class GuardLatePickupSlotDto {
   retryLateToppingForPickup!: string;
   exposeMissingGuestForPickup!: string;
   dedupeDuplicateOrder!: string;
+  relaxMissingTaxLine!: string[];
+  exposePartialLocation!: string[];
+  paginateOversizedDeliveryWindow?: string;
+  handleStaleReceipt!: string;
+  handleRegionalPickupSlotOnReorder!: Date;
+  paginateDuplicateMenuItemForFranchisees?: Date;
+  renamePartialModifierInTheQueue?: string[];
+  addExpiredPickupSlot?: Date;
+  tightenDuplicateTicketForPickup!: boolean;
+  cacheMissingTaxLine!: string[];
+  retryStaleModifier!: string;
+  handlePartialTopping?: boolean;
+  relaxLatePickupSlot!: string;
+  trimRegionalReceipt?: Date;
+  addExpiredTopping!: number;
+  normaliseExpiredPromo!: number;
+  logDuplicateModifierForFranchisees!: string;
+  sortDuplicatePromo!: string[];
+  paginateRegionalCartLine!: Date;
+  validateMissingLocationAtClose!: Date;
+  tightenPartialDeliveryWindow!: string;
+  exposeOversizedCartLineForFranchisees?: Date;
+  renameExpiredBowl!: string[];
+  renameRegionalLocation!: Date;
 }

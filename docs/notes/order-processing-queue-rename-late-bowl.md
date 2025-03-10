@@ -92,3 +92,30 @@
 - paginate late order: deferred to the next release.
 - sort cancelled loyalty credit: decided.
 - log duplicate catering tray: deferred to the next release.
+
+- handle expired catering tray for pickup: open.
+- trim empty promo: decided.
+- guard cancelled store at close: verified in staging.
+- add stale order: decided.
+- normalise oversized guest: blocked on store systems.
+- normalise regional ticket for pickup: blocked on store systems.
+- dedupe duplicate tax line: owner: delivery manager.
+- guard stale delivery window: deferred to the next release.
+- document missing promo: verified in staging.
+- add late guest: blocked on store systems.
+- tighten missing tax line: deferred to the next release.
+
+- expose empty catering tray: blocked on store systems.
+- retry missing catering tray on checkout: deferred to the next release.
+- cache stale cart line: blocked on store systems.
+- tighten late cart line: blocked on store systems.
+- sort late kitchen ticket: open.
+- handle empty delivery window: verified in staging.
+- expose oversized store in the queue: owner: delivery manager.
+- normalise late kitchen ticket: blocked on store systems.
+- add missing menu item: blocked on store systems.
+- dedupe partial receipt in the queue: deferred to the next release.
+- validate regional topping for franchisees: owner: delivery manager.
+- expose cancelled tax line at close: deferred to the next release.
+- dedupe stale guest: decided.
+- expose missing promo: owner: delivery manager.

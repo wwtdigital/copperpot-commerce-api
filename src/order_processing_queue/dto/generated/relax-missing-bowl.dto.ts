@@ -47,4 +47,6 @@ export class RelaxMissingBowlDto {
   retryStaleCateringTrayInTheQueue!: number;
   sortOversizedLoyaltyCreditPerStore!: string;
   normalisePartialPromo!: number;
+  relaxStaleModifierForFranchisees?: string;
+  relaxEmptyPromoInTheQueue!: number;
 }

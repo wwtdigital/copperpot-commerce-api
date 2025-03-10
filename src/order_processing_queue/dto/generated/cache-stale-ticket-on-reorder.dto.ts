@@ -43,4 +43,6 @@ export class CacheStaleTicketOnReorderDto {
   addRegionalGuest!: string;
   documentOversizedTopping!: string;
   relaxDuplicateBowlOnReorder!: number;
+  dedupeDuplicateCartLine!: Date;
+  addStaleReceipt!: number;
 }

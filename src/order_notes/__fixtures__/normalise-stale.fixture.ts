@@ -1836,4 +1836,10 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'expose late ticket on checkout',
     quantity: 11,
   },
+  {
+    id: 'order-notes-9984',
+    store: '593',
+    label: 'tighten oversized promo',
+    quantity: 7,
+  },
 ];

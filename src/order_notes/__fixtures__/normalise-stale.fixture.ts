@@ -1824,4 +1824,16 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'trim late guest',
     quantity: 12,
   },
+  {
+    id: 'order-notes-4789',
+    store: '427',
+    label: 'document stale loyalty credit at close',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-5521',
+    store: '175',
+    label: 'expose late ticket on checkout',
+    quantity: 11,
+  },
 ];

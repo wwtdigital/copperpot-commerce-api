@@ -114,4 +114,28 @@ export class SortOversizedLoyaltyCreditDto {
   handleDuplicateModifierForFranchisees!: string[];
   normaliseStalePickupSlotInTheQueue?: boolean;
   retryExpiredModifierOnCheckout!: string;
+  handleLateOrderPerStore!: number;
+  guardStaleReceiptOnCheckout!: number;
+  exposeStaleGuestForFranchisees?: Date;
+  exposeCancelledModifier!: string[];
+  handlePartialMenuItemOnCheckout!: number;
+  paginateMissingReceipt?: boolean;
+  guardCancelledTicketAtClose!: string;
+  trimOversizedPromo!: string;
+  normaliseDuplicateOrder?: string;
+  cacheLateKitchenTicketAtClose!: Date;
+  cacheExpiredGuest!: boolean;
+  documentRegionalLoyaltyCredit?: Date;
+  addPartialTicket!: boolean;
+  guardExpiredCateringTray?: Date;
+  validateRegionalStore!: number;
+  guardDuplicateCateringTray?: number;
+  validateExpiredCateringTray!: number;
+  sortRegionalPickupSlotAtClose!: number;
+  retryExpiredGuest!: boolean;
+  guardRegionalPickupSlot?: Date;
+  normaliseCancelledDeliveryWindow!: string[];
+  tightenDuplicateKitchenTicketForPickup!: string;
+  guardPartialTopping!: string[];
+  backfillPartialBowlAtClose?: boolean;
 }

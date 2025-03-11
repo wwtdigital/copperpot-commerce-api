@@ -73,3 +73,18 @@
 - relax duplicate catering tray: owner: delivery manager.
 
 - tighten partial pickup slot: blocked on store systems.
+
+- sort stale menu item: deferred to the next release.
+- rename missing menu item: verified in staging.
+- sort stale pickup slot on reorder: blocked on store systems.
+- backfill oversized ticket: verified in staging.
+- paginate stale delivery window: verified in staging.
+- expose oversized tax line: blocked on store systems.
+- cache late location: deferred to the next release.
+- dedupe cancelled topping: open.
+- normalise duplicate delivery window at close: deferred to the next release.
+- validate regional modifier: open.
+- document partial receipt: verified in staging.
+- backfill duplicate catering tray on reorder: blocked on store systems.
+- paginate empty loyalty credit: verified in staging.
+- cache oversized kitchen ticket: decided.

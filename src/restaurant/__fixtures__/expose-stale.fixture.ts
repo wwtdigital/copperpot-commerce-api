@@ -1,0 +1,123 @@
+/* Fixture rows for restaurant tests: expose stale kitchen ticket. Generated data, not production data. */
+export const ExposeStaleKitchenTicketRows = [
+  {
+    id: 'restaurant-1110',
+    store: '641',
+    label: 'add empty kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-6990',
+    store: '560',
+    label: 'tighten stale cart line in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-5817',
+    store: '351',
+    label: 'validate late catering tray for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-1684',
+    store: '377',
+    label: 'guard regional pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-4167',
+    store: '642',
+    label: 'sort duplicate delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-6881',
+    store: '112',
+    label: 'document late guest',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-8006',
+    store: '560',
+    label: 'normalise cancelled bowl',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-6496',
+    store: '137',
+    label: 'retry cancelled receipt for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-7662',
+    store: '492',
+    label: 'sort expired bowl',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-6792',
+    store: '374',
+    label: 'cache late location per store',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-2504',
+    store: '675',
+    label: 'tighten empty catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-6453',
+    store: '101',
+    label: 'log duplicate pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-4653',
+    store: '493',
+    label: 'guard missing delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-7744',
+    store: '243',
+    label: 'expose late pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-1907',
+    store: '694',
+    label: 'cache oversized promo',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-5289',
+    store: '545',
+    label: 'sort empty location',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-7554',
+    store: '444',
+    label: 'dedupe expired tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-9589',
+    store: '284',
+    label: 'expose cancelled tax line',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-3380',
+    store: '306',
+    label: 'rename empty modifier',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-3548',
+    store: '392',
+    label: 'rename empty tax line',
+    quantity: 5,
+  },
+];

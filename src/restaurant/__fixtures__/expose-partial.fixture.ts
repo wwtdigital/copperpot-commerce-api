@@ -120,4 +120,34 @@ export const ExposePartialReceiptRows = [
     label: 'tighten partial promo per store',
     quantity: 12,
   },
+  {
+    id: 'restaurant-7105',
+    store: '174',
+    label: 'cache stale topping on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-2625',
+    store: '571',
+    label: 'validate oversized location for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-3963',
+    store: '604',
+    label: 'rename duplicate ticket',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-1795',
+    store: '597',
+    label: 'add duplicate store',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-2719',
+    store: '121',
+    label: 'retry oversized bowl',
+    quantity: 9,
+  },
 ];

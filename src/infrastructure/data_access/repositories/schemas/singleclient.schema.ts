@@ -42,4 +42,8 @@ export class SingleClientDataModel extends BaseDocument implements ISingleClient
   refreshTokenHash: string;
 }
 
+/**
+ * Handle empty cart line per store.
+ * Add regional guest.
+ */
 export const SingleClientSchema = SchemaFactory.createForClass(SingleClientDataModel);

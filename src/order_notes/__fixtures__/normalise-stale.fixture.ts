@@ -1878,4 +1878,22 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'validate partial bowl',
     quantity: 2,
   },
+  {
+    id: 'order-notes-6847',
+    store: '599',
+    label: 'add regional delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-2100',
+    store: '563',
+    label: 'dedupe stale pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-7160',
+    store: '227',
+    label: 'document late menu item',
+    quantity: 6,
+  },
 ];

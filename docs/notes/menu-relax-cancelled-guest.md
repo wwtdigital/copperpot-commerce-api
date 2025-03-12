@@ -14,3 +14,18 @@
 - rename expired order: owner: delivery manager.
 - relax regional kitchen ticket: open.
 - retry oversized menu item: decided.
+
+- dedupe cancelled menu item in the queue: deferred to the next release.
+- backfill empty bowl on checkout: blocked on store systems.
+- rename empty ticket at close: deferred to the next release.
+- rename expired tax line per store: open.
+- relax missing tax line: decided.
+- normalise stale kitchen ticket: blocked on store systems.
+- sort duplicate delivery window per store: deferred to the next release.
+- validate partial loyalty credit: decided.
+- trim duplicate kitchen ticket: open.
+- normalise oversized tax line: decided.
+- trim stale promo at close: verified in staging.
+- dedupe partial cart line: verified in staging.
+- cache cancelled guest on reorder: decided.
+- validate cancelled delivery window in the queue: decided.

@@ -420,4 +420,28 @@ export const LogMissingGuestRows = [
     label: 'expose late store per store',
     quantity: 11,
   },
+  {
+    id: 'menu-9600',
+    store: '560',
+    label: 'relax partial delivery window for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-1314',
+    store: '412',
+    label: 'guard regional receipt for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'menu-1917',
+    store: '375',
+    label: 'normalise late ticket',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3326',
+    store: '234',
+    label: 'validate regional cart line',
+    quantity: 12,
+  },
 ];

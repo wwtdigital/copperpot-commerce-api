@@ -1,0 +1,87 @@
+/* Fixture rows for payments tests: backfill cancelled guest per store. Generated data, not production data. */
+export const BackfillCancelledGuestPerStoreRows = [
+  {
+    id: 'payments-5593',
+    store: '230',
+    label: 'document cancelled store for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'payments-3287',
+    store: '549',
+    label: 'tighten cancelled guest at close',
+    quantity: 1,
+  },
+  {
+    id: 'payments-1327',
+    store: '221',
+    label: 'expose missing location for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'payments-4559',
+    store: '362',
+    label: 'relax duplicate receipt',
+    quantity: 5,
+  },
+  {
+    id: 'payments-2062',
+    store: '236',
+    label: 'cache regional promo',
+    quantity: 1,
+  },
+  {
+    id: 'payments-4002',
+    store: '359',
+    label: 'add expired location for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'payments-8877',
+    store: '485',
+    label: 'document stale catering tray per store',
+    quantity: 10,
+  },
+  {
+    id: 'payments-7894',
+    store: '152',
+    label: 'relax regional catering tray in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'payments-9566',
+    store: '430',
+    label: 'relax missing loyalty credit for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'payments-5195',
+    store: '434',
+    label: 'document empty guest',
+    quantity: 3,
+  },
+  {
+    id: 'payments-9228',
+    store: '543',
+    label: 'validate regional modifier',
+    quantity: 7,
+  },
+  {
+    id: 'payments-2014',
+    store: '362',
+    label: 'dedupe expired pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'payments-8209',
+    store: '545',
+    label: 'backfill stale bowl',
+    quantity: 5,
+  },
+  {
+    id: 'payments-2927',
+    store: '265',
+    label: 'trim partial guest for franchisees',
+    quantity: 6,
+  },
+];

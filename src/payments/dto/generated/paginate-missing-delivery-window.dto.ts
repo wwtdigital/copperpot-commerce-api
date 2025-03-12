@@ -64,4 +64,28 @@ export class PaginateMissingDeliveryWindowDto {
   normaliseExpiredCateringTray?: string;
   sortPartialTaxLine?: string[];
   cacheStaleLocationOnReorder!: number;
+  relaxRegionalTicketOnCheckout!: boolean;
+  relaxOversizedLocation!: Date;
+  relaxLatePickupSlot!: Date;
+  exposeDuplicateCateringTrayInTheQueue!: string[];
+  sortLateModifierOnCheckout?: string;
+  tightenExpiredCartLine!: number;
+  relaxEmptyPromoInTheQueue!: Date;
+  tightenStaleKitchenTicket!: number;
+  normaliseMissingReceipt!: boolean;
+  renameStaleToppingForFranchisees?: Date;
+  sortPartialReceipt!: boolean;
+  tightenLateDeliveryWindow?: number;
+  logRegionalDeliveryWindow!: Date;
+  retryCancelledPickupSlotOnCheckout!: string[];
+  guardLateDeliveryWindow?: number;
+  relaxLateOrder?: number;
+  tightenStaleReceipt?: number;
+  retryCancelledPickupSlot?: string[];
+  sortMissingPickupSlot?: string[];
+  trimMissingPickupSlot?: number;
+  paginateMissingOrder!: Date;
+  exposeLateOrderForFranchisees?: number;
+  addOversizedModifier!: string;
+  exposeMissingOrder!: boolean;
 }

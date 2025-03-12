@@ -49,3 +49,18 @@
 - guard empty ticket: open.
 - validate missing pickup slot: deferred to the next release.
 - paginate late topping: verified in staging.
+
+- retry partial loyalty credit: decided.
+- guard cancelled loyalty credit: blocked on store systems.
+- normalise late store: verified in staging.
+- retry missing bowl: blocked on store systems.
+- expose oversized catering tray on reorder: open.
+- dedupe late store: owner: delivery manager.
+- expose stale bowl per store: decided.
+- retry stale receipt: verified in staging.
+- guard empty delivery window in the queue: blocked on store systems.
+- validate missing promo: verified in staging.
+- expose duplicate kitchen ticket: verified in staging.
+- sort oversized ticket per store: deferred to the next release.
+- cache duplicate ticket: deferred to the next release.
+- paginate cancelled bowl: owner: delivery manager.

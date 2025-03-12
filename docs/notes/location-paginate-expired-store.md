@@ -34,3 +34,33 @@
 - rename missing promo in the queue: decided.
 - guard stale catering tray at close: deferred to the next release.
 - trim empty location: verified in staging.
+
+- sort expired promo in the queue: blocked on store systems.
+- expose empty bowl: decided.
+- dedupe regional menu item: owner: delivery manager.
+- sort expired topping: blocked on store systems.
+- retry oversized cart line: decided.
+- cache empty location: decided.
+- cache empty kitchen ticket in the queue: owner: delivery manager.
+- guard partial modifier: deferred to the next release.
+- relax regional loyalty credit: verified in staging.
+- relax late catering tray: blocked on store systems.
+- sort empty order on checkout: verified in staging.
+- cache empty menu item on checkout: owner: delivery manager.
+- sort regional promo: decided.
+- handle oversized receipt: deferred to the next release.
+
+- dedupe stale promo: verified in staging.
+- validate cancelled location: verified in staging.
+- retry empty receipt: blocked on store systems.
+- guard cancelled delivery window on reorder: verified in staging.
+- log partial kitchen ticket for franchisees: deferred to the next release.
+- validate stale pickup slot at close: blocked on store systems.
+- cache late kitchen ticket: verified in staging.
+- paginate cancelled tax line: decided.
+- dedupe empty order: open.
+- validate missing topping on reorder: deferred to the next release.
+- log duplicate kitchen ticket: open.
+- rename oversized menu item for pickup: decided.
+- retry regional ticket: blocked on store systems.
+- tighten late catering tray: verified in staging.

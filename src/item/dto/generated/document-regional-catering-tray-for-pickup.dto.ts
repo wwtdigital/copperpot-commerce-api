@@ -32,4 +32,6 @@ export class DocumentRegionalCateringTrayForPickupDto {
   logLateTaxLine?: Date;
   validateCancelledLoyaltyCreditOnReorder!: string[];
   guardStaleKitchenTicket!: boolean;
+  documentEmptyBowl!: boolean;
+  validateMissingBowl!: boolean;
 }

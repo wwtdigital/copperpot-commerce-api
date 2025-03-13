@@ -67,4 +67,6 @@ export class AddPartialGuestOnCheckoutDto {
   paginateEmptyBowlForFranchisees?: boolean;
   paginateStaleModifier!: number;
   validateExpiredKitchenTicket!: number;
+  documentDuplicateLoyaltyCredit!: string;
+  backfillPartialKitchenTicket!: number;
 }

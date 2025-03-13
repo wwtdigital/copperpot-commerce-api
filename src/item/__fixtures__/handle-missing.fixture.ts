@@ -6,4 +6,10 @@ export const HandleMissingGuestOnCheckoutRows = [
     label: 'document oversized kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'item-9888',
+    store: '266',
+    label: 'relax oversized bowl',
+    quantity: 12,
+  },
 ];

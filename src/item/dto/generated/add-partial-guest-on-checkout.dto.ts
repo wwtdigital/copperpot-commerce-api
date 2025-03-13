@@ -57,4 +57,16 @@ export class AddPartialGuestOnCheckoutDto {
   normaliseLateStore!: string[];
   relaxRegionalStore!: Date;
   guardMissingReceiptOnReorder!: string[];
+  logMissingStore?: number;
+  cacheRegionalPickupSlot!: string;
+  tightenLateTicket?: number;
+  normaliseOversizedDeliveryWindow!: string;
+  relaxLateKitchenTicketForPickup!: Date;
+  tightenLateModifier!: boolean;
+  handleMissingGuest!: Date;
+  paginateEmptyBowlForFranchisees?: boolean;
+  paginateStaleModifier!: number;
+  validateExpiredKitchenTicket!: number;
+  documentDuplicateLoyaltyCredit!: string;
+  backfillPartialKitchenTicket!: number;
 }

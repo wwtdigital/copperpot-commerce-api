@@ -48,4 +48,28 @@ export class HandleLateGuestPerStoreDto {
   renamePartialTaxLineForFranchisees?: boolean;
   exposePartialLocationAtClose!: boolean;
   normaliseExpiredLocation!: Date;
+  dedupeCancelledToppingAtClose!: string;
+  sortStaleTopping?: string[];
+  dedupeStaleKitchenTicket?: number;
+  validateCancelledModifier!: boolean;
+  cacheMissingOrderForFranchisees!: boolean;
+  cacheMissingTicket!: string;
+  trimCancelledMenuItemOnReorder!: number;
+  normaliseRegionalLoyaltyCredit!: boolean;
+  relaxOversizedBowl!: string;
+  backfillOversizedCateringTrayPerStore!: Date;
+  paginateStaleGuest!: boolean;
+  documentExpiredReceipt!: number;
+  cacheStaleGuest!: number;
+  normaliseMissingMenuItem!: Date;
+  addPartialLocation!: string;
+  handleStaleReceipt!: string[];
+  cacheEmptyMenuItem?: boolean;
+  logLateKitchenTicket!: number;
+  renameCancelledCateringTrayInTheQueue!: number;
+  sortStaleLoyaltyCredit!: boolean;
+  documentExpiredStore!: number;
+  cacheStaleOrder!: boolean;
+  dedupeMissingLocation!: number;
+  paginateCancelledLoyaltyCredit?: string[];
 }

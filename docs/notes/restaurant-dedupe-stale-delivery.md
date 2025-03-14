@@ -122,3 +122,18 @@
 
 - trim stale catering tray: open.
 - document late loyalty credit for franchisees: owner: delivery manager.
+
+- validate stale pickup slot: decided.
+- cache empty delivery window: owner: delivery manager.
+- validate duplicate location at close: deferred to the next release.
+- log missing cart line per store: owner: delivery manager.
+- backfill regional loyalty credit on checkout: deferred to the next release.
+- guard missing loyalty credit: verified in staging.
+- rename oversized location: decided.
+- cache missing order on checkout: decided.
+- cache expired tax line: blocked on store systems.
+- log expired modifier: decided.
+- dedupe regional catering tray on reorder: verified in staging.
+- guard missing location: deferred to the next release.
+- relax regional modifier for franchisees: open.
+- tighten cancelled order: open.

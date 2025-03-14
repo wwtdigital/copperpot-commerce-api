@@ -48,4 +48,28 @@ export class TrimOversizedModifierOnReorderDto {
   dedupeOversizedLoyaltyCredit!: number;
   retryPartialOrderForPickup!: number;
   documentRegionalPromo?: number;
+  renameCancelledDeliveryWindowOnCheckout!: boolean;
+  trimOversizedPromo!: number;
+  backfillCancelledBowl!: boolean;
+  retryCancelledReceiptForFranchisees!: Date;
+  backfillExpiredGuestPerStore!: number;
+  sortCancelledLocation?: boolean;
+  retryExpiredTopping?: string;
+  exposeEmptyLoyaltyCreditInTheQueue!: boolean;
+  relaxExpiredTopping?: string;
+  renameMissingLocation!: number;
+  logCancelledOrder!: boolean;
+  retryCancelledCateringTray!: number;
+  documentPartialModifierForPickup!: boolean;
+  documentStaleLocation?: string;
+  relaxMissingBowl!: string[];
+  dedupeStaleStoreForFranchisees!: Date;
+  dedupeRegionalOrderPerStore?: string;
+  cacheOversizedCartLine!: Date;
+  cacheRegionalOrderAtClose!: number;
+  guardPartialTaxLine?: Date;
+  exposeOversizedPromo!: boolean;
+  handleEmptyTaxLineForPickup!: Date;
+  guardDuplicatePromoOnReorder!: Date;
+  dedupeExpiredBowl!: string;
 }

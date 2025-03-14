@@ -84,4 +84,27 @@ export class CacheLateKitchenTicketDto {
   tightenStaleToppingOnReorder!: number;
   paginateExpiredBowl?: boolean;
   backfillStaleLoyaltyCreditOnReorder?: boolean;
+  relaxCancelledDeliveryWindow!: boolean;
+  exposeDuplicateReceipt!: string;
+  trimRegionalPickupSlot!: Date;
+  cacheCancelledReceipt!: boolean;
+  cacheOversizedDeliveryWindow!: string;
+  addOversizedDeliveryWindowOnCheckout!: Date;
+  logPartialTicketInTheQueue!: Date;
+  handleStaleKitchenTicketForPickup?: boolean;
+  renameStaleTopping!: Date;
+  guardExpiredGuestOnReorder!: Date;
+  validateStaleStoreInTheQueue!: number;
+  cacheRegionalCartLineForPickup!: string[];
+  handleLateTicket!: string;
+  tightenOversizedCateringTrayAtClose!: string;
+  backfillStaleTopping!: Date;
+  dedupeRegionalCartLineOnReorder!: string[];
+  sortPartialCateringTrayInTheQueue?: Date;
+  validatePartialMenuItemPerStore!: boolean;
+  paginateLatePickupSlotOnCheckout?: Date;
+  tightenPartialKitchenTicketOnCheckout?: number;
+  dedupeDuplicateStoreInTheQueue?: Date;
+  sortEmptyTicket!: number;
+  cacheRegionalModifierOnReorder!: string[];
 }

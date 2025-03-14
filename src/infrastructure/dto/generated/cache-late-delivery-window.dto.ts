@@ -1,0 +1,27 @@
+/* CacheLateDeliveryWindowDto: shape for cache late delivery window. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class CacheLateDeliveryWindowDto {
+  sortStaleKitchenTicketForFranchisees!: Date;
+  normaliseExpiredTopping!: boolean;
+  handleOversizedTicketPerStore!: string[];
+  normaliseDuplicateModifierOnCheckout!: Date;
+  renameOversizedPickupSlot!: string;
+  retryOversizedPromo!: string;
+  handlePartialStore!: string;
+  sortRegionalPickupSlot!: string[];
+  trimExpiredReceiptOnCheckout?: Date;
+  addStaleReceipt?: Date;
+  exposeCancelledTaxLine?: number;
+  logRegionalBowl!: number;
+  guardOversizedCateringTray?: string[];
+  logCancelledCartLine!: number;
+  documentExpiredStore?: boolean;
+  documentMissingLocationPerStore?: Date;
+  normaliseExpiredToppingOnCheckout!: string;
+  normaliseMissingTaxLinePerStore?: string[];
+  validateRegionalTopping!: Date;
+  backfillLateBowlOnReorder?: string;
+  guardEmptyReceiptPerStore!: string;
+  sortRegionalDeliveryWindow!: string[];
+  backfillDuplicateTopping?: Date;
+  logLateTicket?: Date;
+}

@@ -1,0 +1,117 @@
+/* Fixture rows for infrastructure tests: expose partial tax line. Generated data, not production data. */
+export const ExposePartialTaxLineRows = [
+  {
+    id: 'infrastructure-1136',
+    store: '638',
+    label: 'handle late order',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-5723',
+    store: '477',
+    label: 'add oversized menu item',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-4579',
+    store: '675',
+    label: 'dedupe late catering tray on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-8430',
+    store: '187',
+    label: 'normalise late modifier on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-1260',
+    store: '132',
+    label: 'handle missing pickup slot per store',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-8005',
+    store: '252',
+    label: 'retry empty topping at close',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-8450',
+    store: '302',
+    label: 'add stale catering tray for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-8956',
+    store: '467',
+    label: 'rename duplicate order',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-4334',
+    store: '366',
+    label: 'retry missing cart line',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-6119',
+    store: '636',
+    label: 'tighten cancelled menu item',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-7262',
+    store: '537',
+    label: 'rename partial ticket for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-1838',
+    store: '308',
+    label: 'guard regional catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-3081',
+    store: '589',
+    label: 'rename empty cart line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-1473',
+    store: '152',
+    label: 'handle expired guest',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-6895',
+    store: '674',
+    label: 'log stale bowl',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-1116',
+    store: '364',
+    label: 'add partial kitchen ticket on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-9531',
+    store: '632',
+    label: 'add partial delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-7204',
+    store: '570',
+    label: 'sort expired cart line',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-9494',
+    store: '584',
+    label: 'sort partial order',
+    quantity: 10,
+  },
+];

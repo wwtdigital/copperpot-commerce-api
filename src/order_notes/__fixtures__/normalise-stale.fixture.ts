@@ -1866,4 +1866,16 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'paginate expired tax line',
     quantity: 9,
   },
+  {
+    id: 'order-notes-8117',
+    store: '157',
+    label: 'expose oversized topping at close',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-6553',
+    store: '244',
+    label: 'validate partial bowl',
+    quantity: 2,
+  },
 ];

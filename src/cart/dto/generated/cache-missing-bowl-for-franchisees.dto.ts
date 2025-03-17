@@ -102,4 +102,28 @@ export class CacheMissingBowlForFranchiseesDto {
   tightenStaleGuest!: boolean;
   addMissingPromo!: Date;
   cacheEmptyMenuItemInTheQueue!: boolean;
+  logMissingMenuItemForPickup!: Date;
+  addPartialGuestForPickup!: string;
+  dedupeOversizedLoyaltyCreditInTheQueue!: string[];
+  addEmptyReceiptOnCheckout!: Date;
+  guardMissingKitchenTicket!: Date;
+  guardStaleDeliveryWindowAtClose?: string;
+  normalisePartialTicketOnReorder!: boolean;
+  exposeCancelledDeliveryWindow?: boolean;
+  exposeStalePromo?: number;
+  backfillMissingBowlPerStore!: number;
+  tightenOversizedPromo!: boolean;
+  backfillDuplicateStorePerStore?: boolean;
+  exposeExpiredTaxLine!: boolean;
+  relaxStaleCartLine?: string[];
+  handleStaleCartLineForPickup!: string;
+  handleRegionalStore!: Date;
+  exposeExpiredLoyaltyCredit!: string;
+  exposeEmptyOrderOnReorder!: string[];
+  backfillEmptyTicketInTheQueue!: Date;
+  cacheLateReceipt!: string[];
+  guardLatePickupSlot!: string[];
+  validatePartialReceipt!: number;
+  documentRegionalBowlForPickup?: number;
+  addRegionalStore?: Date;
 }

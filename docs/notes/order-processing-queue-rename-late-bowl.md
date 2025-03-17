@@ -119,3 +119,6 @@
 - expose cancelled tax line at close: deferred to the next release.
 - dedupe stale guest: decided.
 - expose missing promo: owner: delivery manager.
+
+- backfill late cart line: blocked on store systems.
+- sort expired store: open.

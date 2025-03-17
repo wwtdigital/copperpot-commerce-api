@@ -174,4 +174,58 @@ export const RelaxMissingStoreRows = [
     label: 'paginate missing order',
     quantity: 11,
   },
+  {
+    id: 'order-processing-queue-8639',
+    store: '320',
+    label: 'trim regional promo on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-9887',
+    store: '480',
+    label: 'guard duplicate topping',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-3440',
+    store: '115',
+    label: 'expose regional tax line',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-2086',
+    store: '605',
+    label: 'trim partial catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-5700',
+    store: '284',
+    label: 'expose empty modifier on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-7276',
+    store: '294',
+    label: 'sort regional guest',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-5073',
+    store: '461',
+    label: 'rename empty modifier',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-7087',
+    store: '497',
+    label: 'backfill oversized menu item on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-2913',
+    store: '490',
+    label: 'dedupe stale bowl in the queue',
+    quantity: 8,
+  },
 ];

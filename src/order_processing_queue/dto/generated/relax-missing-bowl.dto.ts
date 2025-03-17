@@ -49,4 +49,6 @@ export class RelaxMissingBowlDto {
   normalisePartialPromo!: number;
   relaxStaleModifierForFranchisees?: string;
   relaxEmptyPromoInTheQueue!: number;
+  backfillMissingStorePerStore!: number;
+  normaliseEmptyBowlPerStore!: number;
 }

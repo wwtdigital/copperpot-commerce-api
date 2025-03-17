@@ -42,4 +42,52 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'handle duplicate bowl',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-2701',
+    store: '643',
+    label: 'trim partial delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-2918',
+    store: '247',
+    label: 'log regional ticket',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-9360',
+    store: '565',
+    label: 'trim stale kitchen ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-8088',
+    store: '415',
+    label: 'normalise oversized promo per store',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-2374',
+    store: '250',
+    label: 'backfill partial receipt for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-3989',
+    store: '634',
+    label: 'dedupe oversized menu item for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-5386',
+    store: '438',
+    label: 'validate duplicate guest for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-1338',
+    store: '394',
+    label: 'guard oversized receipt',
+    quantity: 7,
+  },
 ];

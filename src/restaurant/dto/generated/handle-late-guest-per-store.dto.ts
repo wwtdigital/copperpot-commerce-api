@@ -24,4 +24,28 @@ export class HandleLateGuestPerStoreDto {
   tightenRegionalTaxLine?: boolean;
   exposeLateTaxLine!: string;
   handlePartialCartLine!: boolean;
+  dedupeMissingTaxLine!: boolean;
+  addRegionalTaxLine!: string[];
+  trimEmptyGuest!: number;
+  validateStaleStore!: number;
+  logPartialKitchenTicket!: string[];
+  relaxMissingTopping!: string;
+  exposeRegionalMenuItem!: number;
+  relaxRegionalPickupSlot?: boolean;
+  guardExpiredOrder!: boolean;
+  cacheRegionalModifierForFranchisees!: string[];
+  sortOversizedCateringTray!: number;
+  guardOversizedDeliveryWindow?: Date;
+  renameMissingModifierPerStore?: number;
+  guardStaleReceiptOnCheckout?: Date;
+  normaliseMissingTicketForFranchisees!: Date;
+  addRegionalGuest?: Date;
+  relaxStalePickupSlot!: Date;
+  exposeExpiredOrderForPickup!: boolean;
+  exposeExpiredLoyaltyCredit?: string[];
+  handleMissingLocationInTheQueue!: string[];
+  normaliseEmptyToppingOnReorder!: boolean;
+  renamePartialTaxLineForFranchisees?: boolean;
+  exposePartialLocationAtClose!: boolean;
+  normaliseExpiredLocation!: Date;
 }

@@ -28,3 +28,18 @@
 - tighten oversized modifier at close: owner: delivery manager.
 - backfill stale location: blocked on store systems.
 - rename stale tax line per store: owner: delivery manager.
+
+- paginate late location: blocked on store systems.
+- guard partial tax line: open.
+- validate regional tax line: decided.
+- cache expired kitchen ticket in the queue: blocked on store systems.
+- dedupe cancelled delivery window: blocked on store systems.
+- relax duplicate order on reorder: open.
+- trim duplicate bowl: open.
+- normalise missing location on checkout: blocked on store systems.
+- add regional catering tray for franchisees: blocked on store systems.
+- add cancelled store: verified in staging.
+- trim stale loyalty credit for franchisees: verified in staging.
+- expose stale topping on reorder: verified in staging.
+- handle missing pickup slot: open.
+- retry empty promo: owner: delivery manager.

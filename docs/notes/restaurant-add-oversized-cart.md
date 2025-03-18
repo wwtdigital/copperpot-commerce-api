@@ -133,3 +133,18 @@
 - backfill late bowl for franchisees: deferred to the next release.
 - paginate expired store: owner: delivery manager.
 - guard regional order in the queue: deferred to the next release.
+
+- handle stale topping: verified in staging.
+- trim partial tax line on checkout: open.
+- relax regional loyalty credit: open.
+- guard stale location on reorder: open.
+- document empty ticket: owner: delivery manager.
+- trim stale topping: blocked on store systems.
+- sort empty cart line: deferred to the next release.
+- relax regional tax line: decided.
+- handle regional guest: deferred to the next release.
+- normalise partial receipt: verified in staging.
+- retry late modifier: blocked on store systems.
+- retry regional kitchen ticket: decided.
+- retry stale kitchen ticket: deferred to the next release.
+- add partial cart line for pickup: open.

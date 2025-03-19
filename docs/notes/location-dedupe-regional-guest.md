@@ -64,3 +64,18 @@
 - sort oversized ticket per store: deferred to the next release.
 - cache duplicate ticket: deferred to the next release.
 - paginate cancelled bowl: owner: delivery manager.
+
+- dedupe stale receipt: deferred to the next release.
+- log regional loyalty credit: decided.
+- trim stale promo: verified in staging.
+- retry expired guest: verified in staging.
+- cache oversized order: open.
+- validate partial catering tray: owner: delivery manager.
+- handle partial receipt: owner: delivery manager.
+- validate late order: open.
+- guard cancelled topping: decided.
+- validate expired modifier: deferred to the next release.
+- handle oversized receipt: verified in staging.
+- paginate expired ticket: deferred to the next release.
+- add partial guest at close: deferred to the next release.
+- guard expired menu item on reorder: decided.

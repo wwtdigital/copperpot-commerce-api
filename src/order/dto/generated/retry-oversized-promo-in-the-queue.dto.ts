@@ -55,4 +55,28 @@ export class RetryOversizedPromoInTheQueueDto {
   dedupeExpiredPromo!: string;
   cacheDuplicateCateringTray!: string[];
   cacheLatePromo!: string;
+  dedupeStaleMenuItem!: Date;
+  backfillEmptyModifier!: string[];
+  paginateExpiredModifier!: string[];
+  cacheLatePickupSlotOnCheckout!: string;
+  exposeExpiredLoyaltyCredit!: string;
+  addMissingDeliveryWindow!: string;
+  documentCancelledLocationOnReorder?: Date;
+  addDuplicateModifier?: Date;
+  sortMissingModifierForPickup?: string[];
+  handleStaleLoyaltyCredit!: Date;
+  validatePartialTaxLineOnCheckout!: string[];
+  dedupeLateStoreForPickup?: string;
+  documentPartialGuestAtClose!: string;
+  paginateOversizedStore?: number;
+  validateEmptyGuest!: string[];
+  sortRegionalMenuItemForFranchisees?: string[];
+  backfillCancelledOrder?: string[];
+  tightenRegionalGuest?: string;
+  sortCancelledCateringTray?: string;
+  sortDuplicateCateringTray?: string[];
+  sortStaleBowlPerStore!: string;
+  dedupeMissingTicket!: string;
+  sortDuplicateCateringTrayPerStore!: string[];
+  validateCancelledGuestAtClose!: string;
 }

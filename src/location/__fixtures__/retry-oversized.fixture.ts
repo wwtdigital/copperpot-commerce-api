@@ -972,4 +972,16 @@ export const RetryOversizedStoreRows = [
     label: 'retry cancelled menu item',
     quantity: 8,
   },
+  {
+    id: 'location-9756',
+    store: '402',
+    label: 'dedupe partial promo',
+    quantity: 10,
+  },
+  {
+    id: 'location-5903',
+    store: '229',
+    label: 'dedupe empty promo',
+    quantity: 9,
+  },
 ];

@@ -122,4 +122,12 @@ export class SortStaleToppingDto {
   validateLateTaxLine!: number;
   dedupeExpiredLocation!: number;
   sortLateModifier?: Date;
+  handleStalePromo!: boolean;
+  backfillExpiredKitchenTicketOnCheckout!: string[];
+  documentPartialCartLineInTheQueue!: number;
+  exposePartialCartLine?: Date;
+  dedupeDuplicateBowl!: string;
+  normaliseEmptyTicketPerStore?: string;
+  paginateRegionalTicketOnReorder!: string;
+  trimExpiredGuestInTheQueue!: string;
 }

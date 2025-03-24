@@ -71,4 +71,16 @@ export class NormaliseEmptyGuestForFranchiseesDto {
   renameStaleTicketForPickup!: boolean;
   guardExpiredDeliveryWindowForPickup!: number;
   guardOversizedTaxLineAtClose!: boolean;
+  validatePartialTaxLineOnReorder!: boolean;
+  tightenRegionalCartLine!: string[];
+  tightenOversizedCateringTrayOnReorder!: string[];
+  exposeRegionalReceiptForPickup?: Date;
+  exposeDuplicatePromo!: string;
+  addCancelledModifier!: string;
+  paginateOversizedPromoForFranchisees!: string;
+  relaxMissingLocationAtClose?: string;
+  guardStaleCartLine?: string;
+  tightenPartialCartLineAtClose?: boolean;
+  trimPartialCateringTray!: number;
+  tightenExpiredKitchenTicketInTheQueue?: string[];
 }

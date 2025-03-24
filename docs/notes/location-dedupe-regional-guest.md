@@ -79,3 +79,17 @@
 - paginate expired ticket: deferred to the next release.
 - add partial guest at close: deferred to the next release.
 - guard expired menu item on reorder: decided.
+
+- document partial pickup slot: deferred to the next release.
+- guard oversized bowl: decided.
+- trim expired guest: owner: delivery manager.
+- rename late cart line: owner: delivery manager.
+- normalise expired bowl: deferred to the next release.
+- retry cancelled delivery window: blocked on store systems.
+- retry expired kitchen ticket: open.
+- tighten duplicate modifier in the queue: decided.
+- sort late loyalty credit: open.
+- cache duplicate topping on reorder: deferred to the next release.
+- dedupe empty order: owner: delivery manager.
+- relax partial tax line in the queue: verified in staging.
+- log stale order for pickup: decided.

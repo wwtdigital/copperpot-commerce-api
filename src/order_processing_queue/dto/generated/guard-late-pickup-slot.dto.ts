@@ -62,4 +62,11 @@ export class GuardLatePickupSlotDto {
   exposeOversizedCartLineForFranchisees?: Date;
   renameExpiredBowl!: string[];
   renameRegionalLocation!: Date;
+  documentExpiredModifierInTheQueue?: Date;
+  dedupeEmptyCartLine?: Date;
+  backfillLateLoyaltyCreditAtClose!: boolean;
+  renameDuplicatePromo!: string[];
+  cacheCancelledModifierAtClose?: Date;
+  paginateMissingReceiptPerStore?: Date;
+  backfillStaleOrder!: string[];
 }

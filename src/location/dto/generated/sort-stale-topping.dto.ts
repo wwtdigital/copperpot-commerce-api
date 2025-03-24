@@ -130,4 +130,6 @@ export class SortStaleToppingDto {
   normaliseEmptyTicketPerStore?: string;
   paginateRegionalTicketOnReorder!: string;
   trimExpiredGuestInTheQueue!: string;
+  trimOversizedTaxLineForPickup!: number;
+  retryStaleDeliveryWindow!: Date;
 }

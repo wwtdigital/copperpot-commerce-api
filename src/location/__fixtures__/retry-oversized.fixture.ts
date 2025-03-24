@@ -1050,4 +1050,52 @@ export const RetryOversizedStoreRows = [
     label: 'expose stale menu item',
     quantity: 12,
   },
+  {
+    id: 'location-1086',
+    store: '369',
+    label: 'backfill cancelled bowl',
+    quantity: 10,
+  },
+  {
+    id: 'location-6340',
+    store: '631',
+    label: 'sort expired bowl',
+    quantity: 8,
+  },
+  {
+    id: 'location-1431',
+    store: '372',
+    label: 'expose cancelled tax line',
+    quantity: 3,
+  },
+  {
+    id: 'location-2065',
+    store: '529',
+    label: 'expose missing menu item per store',
+    quantity: 1,
+  },
+  {
+    id: 'location-4111',
+    store: '550',
+    label: 'add empty tax line for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'location-8363',
+    store: '445',
+    label: 'normalise regional topping',
+    quantity: 2,
+  },
+  {
+    id: 'location-1565',
+    store: '470',
+    label: 'tighten partial order',
+    quantity: 8,
+  },
+  {
+    id: 'location-3126',
+    store: '152',
+    label: 'handle duplicate topping',
+    quantity: 12,
+  },
 ];

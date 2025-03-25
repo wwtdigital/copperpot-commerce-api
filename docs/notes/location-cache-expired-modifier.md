@@ -147,3 +147,18 @@
 - expose oversized bowl: open.
 - log duplicate receipt: blocked on store systems.
 - log partial pickup slot: blocked on store systems.
+
+- paginate stale ticket on reorder: deferred to the next release.
+- sort oversized order: owner: delivery manager.
+- relax partial topping for pickup: decided.
+- paginate empty ticket for pickup: verified in staging.
+- dedupe cancelled pickup slot for pickup: decided.
+- log regional bowl: open.
+- relax late location for pickup: open.
+- backfill partial loyalty credit: blocked on store systems.
+- rename partial tax line: owner: delivery manager.
+- tighten oversized topping at close: verified in staging.
+- dedupe cancelled promo for pickup: blocked on store systems.
+- normalise partial loyalty credit: deferred to the next release.
+- paginate stale promo: owner: delivery manager.
+- trim empty ticket for franchisees: owner: delivery manager.

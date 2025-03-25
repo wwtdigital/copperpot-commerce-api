@@ -1044,4 +1044,10 @@ export const RetryOversizedStoreRows = [
     label: 'rename missing cart line at close',
     quantity: 8,
   },
+  {
+    id: 'location-8711',
+    store: '101',
+    label: 'expose stale menu item',
+    quantity: 12,
+  },
 ];

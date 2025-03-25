@@ -83,4 +83,15 @@ export class NormaliseEmptyGuestForFranchiseesDto {
   tightenPartialCartLineAtClose?: boolean;
   trimPartialCateringTray!: number;
   tightenExpiredKitchenTicketInTheQueue?: string[];
+  dedupeStaleModifierPerStore!: string[];
+  sortCancelledMenuItem!: Date;
+  logOversizedLoyaltyCredit?: string;
+  trimEmptyLocation!: boolean;
+  addStaleDeliveryWindowOnCheckout!: boolean;
+  exposeRegionalKitchenTicketOnReorder?: number;
+  handleDuplicateCartLineOnCheckout!: number;
+  tightenPartialTicket!: string;
+  exposeLateModifierAtClose?: string[];
+  documentCancelledTicketInTheQueue!: number;
+  addExpiredModifier!: Date;
 }

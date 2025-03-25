@@ -233,4 +233,28 @@ export class RenameEmptyToppingDto {
   validateRegionalGuestForFranchisees?: string[];
   normaliseStaleTicket!: string[];
   normaliseCancelledOrderInTheQueue!: number;
+  paginateRegionalDeliveryWindowOnCheckout?: string[];
+  addExpiredLoyaltyCredit?: boolean;
+  guardDuplicateTaxLine!: string;
+  trimCancelledLoyaltyCreditForPickup!: string;
+  paginateRegionalDeliveryWindow!: string[];
+  logLateDeliveryWindow?: string[];
+  dedupeEmptyBowlPerStore?: boolean;
+  normaliseEmptyDeliveryWindow!: boolean;
+  tightenPartialTopping!: string[];
+  documentRegionalReceipt!: string[];
+  retryExpiredOrder!: Date;
+  backfillEmptyTicket?: number;
+  guardExpiredTicket!: Date;
+  relaxRegionalReceipt!: boolean;
+  addStaleGuest!: string;
+  cacheExpiredPromoOnReorder!: Date;
+  handleStaleTopping!: string;
+  normaliseOversizedDeliveryWindow!: string[];
+  logDuplicateTaxLinePerStore!: number;
+  retryExpiredToppingOnReorder!: string[];
+  handleLateKitchenTicket!: number;
+  normaliseMissingPickupSlotPerStore?: string[];
+  sortCancelledReceipt!: string[];
+  logRegionalReceiptForPickup?: Date;
 }

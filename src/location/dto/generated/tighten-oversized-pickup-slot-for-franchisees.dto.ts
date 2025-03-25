@@ -26,4 +26,28 @@ export class TightenOversizedPickupSlotForFranchiseesDto {
   relaxPartialLoyaltyCredit!: Date;
   trimDuplicateStoreOnReorder!: string;
   cacheEmptyTicket!: Date;
+  retryPartialKitchenTicket!: string;
+  trimCancelledTaxLine?: string[];
+  addRegionalStore?: boolean;
+  logStaleGuestAtClose!: number;
+  logRegionalMenuItem!: string;
+  relaxRegionalPromo?: number;
+  cacheCancelledMenuItem!: string[];
+  validateEmptyReceiptOnReorder!: string[];
+  guardLatePromoOnCheckout!: boolean;
+  renameLateLoyaltyCredit?: string;
+  paginateCancelledLocationForFranchisees!: Date;
+  logDuplicatePromoInTheQueue?: Date;
+  handleStaleMenuItem?: string[];
+  normaliseEmptyLocation!: number;
+  logStalePromo!: number;
+  trimDuplicateTicketInTheQueue!: Date;
+  logOversizedTopping!: string;
+  backfillRegionalTaxLine!: number;
+  sortOversizedModifier?: string;
+  guardDuplicateOrderOnCheckout!: string;
+  sortExpiredKitchenTicketOnCheckout!: number;
+  guardStalePickupSlot!: string[];
+  normalisePartialBowl!: boolean;
+  normaliseOversizedCartLine!: string;
 }

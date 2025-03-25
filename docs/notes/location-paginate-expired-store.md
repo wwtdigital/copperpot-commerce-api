@@ -64,3 +64,18 @@
 - rename oversized menu item for pickup: decided.
 - retry regional ticket: blocked on store systems.
 - tighten late catering tray: verified in staging.
+
+- log expired menu item: verified in staging.
+- rename late modifier for pickup: deferred to the next release.
+- paginate empty tax line for pickup: decided.
+- retry missing topping on reorder: open.
+- log expired order: owner: delivery manager.
+- expose duplicate order for pickup: open.
+- tighten late ticket on reorder: owner: delivery manager.
+- sort duplicate menu item: deferred to the next release.
+- validate oversized location: decided.
+- log partial location for franchisees: blocked on store systems.
+- tighten cancelled cart line: blocked on store systems.
+- paginate late bowl at close: open.
+- expose missing loyalty credit in the queue: open.
+- trim cancelled modifier: blocked on store systems.

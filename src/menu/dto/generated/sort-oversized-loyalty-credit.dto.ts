@@ -186,4 +186,6 @@ export class SortOversizedLoyaltyCreditDto {
   normalisePartialCartLine!: string[];
   exposeLateMenuItem!: string;
   paginatePartialTicket!: string[];
+  retryCancelledLocation?: number;
+  trimOversizedCateringTrayInTheQueue!: boolean;
 }

@@ -257,4 +257,6 @@ export class RenameEmptyToppingDto {
   normaliseMissingPickupSlotPerStore?: string[];
   sortCancelledReceipt!: string[];
   logRegionalReceiptForPickup?: Date;
+  trimDuplicateMenuItem!: number;
+  logOversizedLoyaltyCredit!: string;
 }

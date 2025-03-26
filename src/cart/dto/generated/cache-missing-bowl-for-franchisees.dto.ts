@@ -126,4 +126,18 @@ export class CacheMissingBowlForFranchiseesDto {
   validatePartialReceipt!: number;
   documentRegionalBowlForPickup?: number;
   addRegionalStore?: Date;
+  cacheRegionalPickupSlotOnReorder!: boolean;
+  backfillEmptyPickupSlot!: number;
+  sortLateMenuItem!: string;
+  sortCancelledModifier!: number;
+  renameRegionalDeliveryWindowOnReorder?: string[];
+  sortDuplicateToppingForPickup?: boolean;
+  tightenStaleReceipt!: boolean;
+  relaxOversizedTaxLine!: string;
+  logExpiredDeliveryWindow?: number;
+  relaxMissingDeliveryWindowPerStore!: boolean;
+  normaliseMissingTaxLine!: number;
+  relaxExpiredBowl!: Date;
+  renamePartialMenuItem?: string[];
+  trimCancelledMenuItem!: Date;
 }

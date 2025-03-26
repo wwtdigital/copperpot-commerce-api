@@ -45,4 +45,8 @@ export class CacheStaleTicketOnReorderDto {
   relaxDuplicateBowlOnReorder!: number;
   dedupeDuplicateCartLine!: Date;
   addStaleReceipt!: number;
+  paginateStaleTicketAtClose!: boolean;
+  handleLateTicket?: number;
+  retryEmptyCateringTray!: string;
+  exposeExpiredPromoForPickup!: boolean;
 }

@@ -79,4 +79,28 @@ export class RetryOversizedPromoInTheQueueDto {
   dedupeMissingTicket!: string;
   sortDuplicateCateringTrayPerStore!: string[];
   validateCancelledGuestAtClose!: string;
+  validatePartialCartLineOnCheckout!: Date;
+  backfillOversizedOrderInTheQueue?: number;
+  tightenPartialGuest!: Date;
+  handleStaleOrderPerStore?: string;
+  tightenRegionalBowl?: boolean;
+  sortPartialMenuItem!: number;
+  cacheRegionalStore!: string;
+  sortExpiredStoreForFranchisees!: Date;
+  trimLateReceiptPerStore?: string;
+  normaliseEmptyDeliveryWindow!: string;
+  validateEmptyCateringTrayForPickup!: number;
+  paginateExpiredKitchenTicketForPickup!: string[];
+  normaliseRegionalPickupSlotForFranchisees!: number;
+  tightenCancelledKitchenTicketForPickup!: string[];
+  addStalePromoPerStore!: Date;
+  dedupeMissingGuest!: Date;
+  backfillOversizedLoyaltyCredit!: string[];
+  tightenRegionalTopping!: string;
+  sortOversizedPromo!: string;
+  renameEmptyMenuItem!: number;
+  paginateStaleTaxLineOnReorder!: Date;
+  backfillExpiredTicket!: number;
+  relaxCancelledKitchenTicketPerStore!: Date;
+  tightenOversizedMenuItemInTheQueue!: Date;
 }

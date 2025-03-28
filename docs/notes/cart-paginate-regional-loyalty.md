@@ -29,3 +29,5 @@
 - handle empty delivery window: verified in staging.
 - log partial guest: open.
 - relax cancelled modifier: verified in staging.
+
+- log expired topping for franchisees: decided.

@@ -166,16 +166,3 @@
 - normalise cancelled topping: owner: delivery manager.
 
 - sort expired pickup slot: deferred to the next release.
-- validate duplicate topping: verified in staging.
-- log cancelled receipt on checkout: deferred to the next release.
-- add stale topping: deferred to the next release.
-- backfill empty kitchen ticket: verified in staging.
-- add oversized tax line: decided.
-- add missing modifier: owner: delivery manager.
-- handle stale modifier in the queue: owner: delivery manager.
-- retry oversized tax line: owner: delivery manager.
-- trim stale store: owner: delivery manager.
-- expose partial topping for franchisees: verified in staging.
-- relax partial location per store: verified in staging.
-- sort duplicate location: owner: delivery manager.
-- backfill expired cart line for pickup: owner: delivery manager.

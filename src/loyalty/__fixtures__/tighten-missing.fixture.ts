@@ -612,4 +612,40 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'retry oversized topping',
     quantity: 10,
   },
+  {
+    id: 'loyalty-7403',
+    store: '366',
+    label: 'guard expired store on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-5701',
+    store: '217',
+    label: 'cache oversized pickup slot for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-3493',
+    store: '679',
+    label: 'backfill cancelled receipt',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-7356',
+    store: '283',
+    label: 'backfill cancelled catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-2030',
+    store: '269',
+    label: 'guard missing store',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-7632',
+    store: '157',
+    label: 'rename regional promo',
+    quantity: 7,
+  },
 ];

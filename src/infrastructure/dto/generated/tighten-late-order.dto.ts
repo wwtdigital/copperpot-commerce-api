@@ -71,4 +71,17 @@ export class TightenLateOrderDto {
   backfillExpiredReceiptForPickup!: Date;
   guardOversizedCateringTrayInTheQueue!: Date;
   exposeEmptyBowlForPickup!: Date;
+  paginateCancelledModifier!: string;
+  retryPartialStore!: Date;
+  cacheCancelledTicket!: string[];
+  dedupePartialReceipt?: number;
+  renameDuplicateGuestForFranchisees!: Date;
+  backfillPartialOrder?: string;
+  handlePartialTicketOnCheckout!: number;
+  dedupeLateTopping!: string[];
+  cacheExpiredPickupSlotPerStore!: string[];
+  documentEmptyGuest?: number;
+  paginateExpiredCartLineForFranchisees!: string;
+  exposeMissingMenuItem?: boolean;
+  trimEmptyOrder?: string[];
 }

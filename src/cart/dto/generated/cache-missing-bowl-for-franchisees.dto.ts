@@ -140,4 +140,19 @@ export class CacheMissingBowlForFranchiseesDto {
   relaxExpiredBowl!: Date;
   renamePartialMenuItem?: string[];
   trimCancelledMenuItem!: Date;
+  exposePartialTaxLine?: number;
+  addOversizedModifier!: string[];
+  sortCancelledDeliveryWindowAtClose!: string;
+  logEmptyReceipt!: string;
+  paginateLateBowl!: number;
+  renameLateReceipt?: boolean;
+  paginateCancelledOrderOnCheckout!: string;
+  sortExpiredPromo!: Date;
+  renameRegionalLocation!: string;
+  retryLateMenuItem?: Date;
+  trimRegionalGuest!: Date;
+  cacheMissingMenuItem?: string;
+  retryLateOrderPerStore!: Date;
+  addEmptyCateringTrayForPickup!: boolean;
+  relaxPartialDeliveryWindow?: number;
 }

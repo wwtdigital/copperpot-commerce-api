@@ -402,4 +402,28 @@ export const RetryStaleToppingPerStoreRows = [
     label: 'cache oversized delivery window',
     quantity: 9,
   },
+  {
+    id: 'cart-1592',
+    store: '629',
+    label: 'expose oversized order',
+    quantity: 5,
+  },
+  {
+    id: 'cart-9325',
+    store: '658',
+    label: 'trim oversized pickup slot on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'cart-6709',
+    store: '222',
+    label: 'add empty catering tray at close',
+    quantity: 2,
+  },
+  {
+    id: 'cart-8770',
+    store: '152',
+    label: 'guard stale bowl',
+    quantity: 5,
+  },
 ];

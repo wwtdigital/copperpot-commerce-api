@@ -29,3 +29,36 @@
 - dedupe partial cart line: verified in staging.
 - cache cancelled guest on reorder: decided.
 - validate cancelled delivery window in the queue: decided.
+
+- cache duplicate modifier: blocked on store systems.
+- trim missing order per store: blocked on store systems.
+- log partial tax line: verified in staging.
+- relax partial tax line for franchisees: blocked on store systems.
+- dedupe empty receipt at close: decided.
+- tighten late store: open.
+- document stale cart line: verified in staging.
+- dedupe stale pickup slot: deferred to the next release.
+- handle missing location: blocked on store systems.
+- cache empty loyalty credit: owner: delivery manager.
+- expose stale tax line: decided.
+- handle cancelled kitchen ticket: verified in staging.
+- paginate cancelled menu item: verified in staging.
+- relax empty tax line: deferred to the next release.
+
+- tighten regional location: decided.
+- trim stale receipt on checkout: deferred to the next release.
+- add late location: verified in staging.
+- dedupe empty bowl on checkout: decided.
+- retry oversized catering tray: blocked on store systems.
+- tighten empty loyalty credit on checkout: deferred to the next release.
+- relax expired store: blocked on store systems.
+- guard duplicate tax line: blocked on store systems.
+- tighten partial catering tray at close: open.
+- retry expired location: blocked on store systems.
+- document empty guest: open.
+- normalise partial pickup slot: owner: delivery manager.
+- dedupe oversized order: decided.
+- relax partial location on reorder: blocked on store systems.
+
+- document partial guest: verified in staging.
+- relax oversized receipt: decided.

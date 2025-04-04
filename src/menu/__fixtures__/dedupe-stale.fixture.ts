@@ -288,4 +288,16 @@ export const DedupeStaleCateringTrayOnCheckoutRows = [
     label: 'dedupe missing loyalty credit on checkout',
     quantity: 11,
   },
+  {
+    id: 'menu-1294',
+    store: '391',
+    label: 'backfill duplicate promo',
+    quantity: 2,
+  },
+  {
+    id: 'menu-4976',
+    store: '592',
+    label: 'validate missing ticket',
+    quantity: 6,
+  },
 ];

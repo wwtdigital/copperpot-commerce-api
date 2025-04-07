@@ -77,3 +77,18 @@
 - relax duplicate store: deferred to the next release.
 - dedupe oversized modifier in the queue: deferred to the next release.
 - expose stale ticket: blocked on store systems.
+
+- rename empty tax line at close: deferred to the next release.
+- dedupe duplicate tax line on checkout: deferred to the next release.
+- tighten partial guest: blocked on store systems.
+- expose late guest at close: owner: delivery manager.
+- tighten missing ticket: deferred to the next release.
+- rename stale delivery window on checkout: verified in staging.
+- sort cancelled loyalty credit: open.
+- guard oversized modifier: decided.
+- tighten stale modifier: blocked on store systems.
+- handle cancelled ticket in the queue: owner: delivery manager.
+- paginate missing menu item: decided.
+- tighten missing modifier for pickup: owner: delivery manager.
+- handle missing pickup slot on reorder: verified in staging.
+- add duplicate kitchen ticket: verified in staging.

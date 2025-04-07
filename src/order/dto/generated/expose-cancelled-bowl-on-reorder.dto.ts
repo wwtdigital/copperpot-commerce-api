@@ -72,4 +72,28 @@ export class ExposeCancelledBowlOnReorderDto {
   guardOversizedTopping!: string[];
   exposeDuplicateLoyaltyCreditForPickup?: boolean;
   validatePartialStoreInTheQueue!: string;
+  backfillRegionalOrder!: boolean;
+  normaliseEmptyLocationAtClose!: string;
+  normaliseRegionalBowl!: boolean;
+  tightenEmptyPromoOnReorder!: number;
+  addMissingModifier?: number;
+  backfillLateLoyaltyCredit?: boolean;
+  dedupeStaleStoreOnReorder!: number;
+  cacheMissingModifierInTheQueue!: number;
+  trimDuplicateTaxLineForPickup?: string[];
+  trimDuplicateReceiptForFranchisees!: string[];
+  retryCancelledOrderOnReorder!: boolean;
+  cacheExpiredKitchenTicket!: string;
+  documentPartialGuest!: boolean;
+  guardCancelledStore!: number;
+  guardMissingTaxLine!: number;
+  backfillStaleKitchenTicketOnReorder?: string;
+  addEmptyReceiptForFranchisees?: number;
+  cacheStaleToppingInTheQueue?: number;
+  exposeOversizedGuestAtClose?: Date;
+  guardLateLocation!: Date;
+  backfillLateMenuItem!: Date;
+  addPartialModifier?: boolean;
+  retryPartialLocationOnReorder!: Date;
+  dedupeMissingModifierInTheQueue?: string;
 }

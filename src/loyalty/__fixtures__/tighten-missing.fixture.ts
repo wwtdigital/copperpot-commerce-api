@@ -648,4 +648,40 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'rename regional promo',
     quantity: 7,
   },
+  {
+    id: 'loyalty-4089',
+    store: '368',
+    label: 'backfill expired store',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-4581',
+    store: '166',
+    label: 'validate expired menu item for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-4034',
+    store: '131',
+    label: 'log regional delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-1685',
+    store: '392',
+    label: 'rename duplicate store',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-2704',
+    store: '106',
+    label: 'validate late menu item',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-3776',
+    store: '420',
+    label: 'log empty pickup slot',
+    quantity: 4,
+  },
 ];

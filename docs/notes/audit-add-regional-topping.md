@@ -85,3 +85,18 @@
 - dedupe empty guest for franchisees: decided.
 - validate stale modifier: deferred to the next release.
 - add expired topping per store: owner: delivery manager.
+
+- rename regional cart line: verified in staging.
+- expose missing ticket for pickup: verified in staging.
+- validate stale cart line at close: verified in staging.
+- log expired store on reorder: deferred to the next release.
+- sort stale bowl on checkout: open.
+- guard empty guest: open.
+- sort cancelled ticket: blocked on store systems.
+- dedupe empty cart line: verified in staging.
+- backfill empty tax line: blocked on store systems.
+- validate expired loyalty credit on reorder: deferred to the next release.
+- add partial ticket: blocked on store systems.
+- normalise oversized guest: owner: delivery manager.
+- add cancelled menu item per store: owner: delivery manager.
+- expose regional store on reorder: decided.

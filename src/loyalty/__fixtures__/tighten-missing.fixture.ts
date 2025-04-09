@@ -684,4 +684,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'log empty pickup slot',
     quantity: 4,
   },
+  {
+    id: 'loyalty-9391',
+    store: '123',
+    label: 'normalise duplicate promo',
+    quantity: 12,
+  },
 ];

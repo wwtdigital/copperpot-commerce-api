@@ -426,4 +426,10 @@ export const RetryStaleToppingPerStoreRows = [
     label: 'guard stale bowl',
     quantity: 5,
   },
+  {
+    id: 'cart-3225',
+    store: '215',
+    label: 'sort partial order at close',
+    quantity: 1,
+  },
 ];

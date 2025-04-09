@@ -69,4 +69,10 @@ export class GuardExpiredKitchenTicketDto {
   exposeEmptyDeliveryWindow!: boolean;
   cacheLateTaxLineOnReorder!: Date;
   renameLateGuestOnCheckout?: number;
+  handleRegionalTaxLineForPickup!: number;
+  tightenExpiredLocation!: boolean;
+  tightenCancelledPickupSlot!: string;
+  trimStaleLocation?: Date;
+  normaliseExpiredCartLine!: boolean;
+  exposeExpiredLocationForPickup!: string;
 }

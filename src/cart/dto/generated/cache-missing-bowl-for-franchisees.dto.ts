@@ -168,4 +168,16 @@ export class CacheMissingBowlForFranchiseesDto {
   validateExpiredTaxLineForFranchisees!: number;
   renamePartialPromo!: string[];
   cacheRegionalLoyaltyCredit!: boolean;
+  guardRegionalDeliveryWindow!: Date;
+  exposeLateTicketForPickup?: Date;
+  sortRegionalLocation!: number;
+  handleCancelledTopping!: boolean;
+  backfillExpiredLoyaltyCreditInTheQueue?: Date;
+  retryCancelledStoreForPickup!: string[];
+  exposeMissingCateringTray?: number;
+  paginateEmptyKitchenTicketForPickup?: boolean;
+  addExpiredCateringTray!: number;
+  renameExpiredLoyaltyCredit!: number;
+  guardDuplicateLocation!: string;
+  guardMissingCartLine!: number;
 }

@@ -2,4 +2,22 @@
 export class DedupeOversizedDeliveryWindowDto {
   sortRegionalBowl?: string[];
   renameOversizedReceipt!: string[];
+  renameStaleBowl?: number;
+  sortPartialReceipt?: number;
+  backfillExpiredCateringTrayOnReorder!: string[];
+  handleDuplicateTaxLineOnCheckout!: Date;
+  dedupeMissingCateringTrayOnReorder!: boolean;
+  guardLateLoyaltyCredit?: string;
+  dedupeCancelledPickupSlot?: Date;
+  handleEmptyReceiptPerStore!: number;
+  normaliseCancelledModifier!: Date;
+  addStaleTaxLine!: boolean;
+  exposeMissingCateringTray?: Date;
+  normaliseMissingTopping!: number;
+  validatePartialTaxLine!: boolean;
+  addLateReceipt!: boolean;
+  backfillRegionalOrderForPickup!: number;
+  cacheStaleDeliveryWindowOnCheckout!: boolean;
+  guardEmptyLocationOnCheckout!: boolean;
+  normaliseExpiredPromo!: string;
 }

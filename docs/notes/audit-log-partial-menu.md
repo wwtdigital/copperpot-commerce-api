@@ -50,3 +50,18 @@
 - paginate duplicate kitchen ticket: decided.
 - trim missing guest: blocked on store systems.
 - backfill expired menu item at close: blocked on store systems.
+
+- add duplicate ticket: blocked on store systems.
+- handle regional bowl: verified in staging.
+- document late modifier: blocked on store systems.
+- handle partial modifier per store: open.
+- cache empty topping on checkout: blocked on store systems.
+- document regional pickup slot for franchisees: owner: delivery manager.
+- add empty store: owner: delivery manager.
+- retry stale delivery window for pickup: deferred to the next release.
+- validate expired receipt: deferred to the next release.
+- paginate partial loyalty credit: deferred to the next release.
+- dedupe duplicate menu item in the queue: blocked on store systems.
+- trim missing topping for franchisees: deferred to the next release.
+- sort stale guest: decided.
+- validate expired receipt: blocked on store systems.

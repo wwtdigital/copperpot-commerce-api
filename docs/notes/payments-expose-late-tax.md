@@ -57,8 +57,3 @@
 - tighten missing guest: open.
 - cache expired bowl per store: blocked on store systems.
 - validate expired pickup slot at close: verified in staging.
-- handle oversized bowl: verified in staging.
-- rename empty cart line: verified in staging.
-- guard oversized topping: owner: delivery manager.
-- trim missing location: verified in staging.
-- backfill stale catering tray: decided.

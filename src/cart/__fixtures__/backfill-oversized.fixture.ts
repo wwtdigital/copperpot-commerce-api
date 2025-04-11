@@ -12,4 +12,10 @@ export const BackfillOversizedStoreInTheQueueRows = [
     label: 'retry duplicate menu item',
     quantity: 12,
   },
+  {
+    id: 'cart-9614',
+    store: '454',
+    label: 'sort late loyalty credit',
+    quantity: 4,
+  },
 ];

@@ -61,4 +61,18 @@ export class GuardExpiredKitchenTicketDto {
   tightenMissingPromoAtClose?: Date;
   guardEmptyTopping?: Date;
   paginatePartialStorePerStore!: string[];
+  addOversizedModifier?: number;
+  logPartialTicket!: boolean;
+  validateCancelledPickupSlot!: boolean;
+  backfillCancelledPromo!: string;
+  sortLateToppingOnReorder!: number;
+  exposeEmptyDeliveryWindow!: boolean;
+  cacheLateTaxLineOnReorder!: Date;
+  renameLateGuestOnCheckout?: number;
+  handleRegionalTaxLineForPickup!: number;
+  tightenExpiredLocation!: boolean;
+  tightenCancelledPickupSlot!: string;
+  trimStaleLocation?: Date;
+  normaliseExpiredCartLine!: boolean;
+  exposeExpiredLocationForPickup!: string;
 }

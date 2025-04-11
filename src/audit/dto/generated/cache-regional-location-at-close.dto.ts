@@ -24,4 +24,19 @@ export class CacheRegionalLocationAtCloseDto {
   addCancelledTaxLineOnReorder!: string[];
   logCancelledCateringTray!: string[];
   cacheRegionalGuest!: Date;
+  backfillCancelledOrderOnReorder!: string;
+  paginateDuplicateStore?: Date;
+  relaxMissingOrder!: string[];
+  logEmptyLocation!: number;
+  validateExpiredLoyaltyCredit!: boolean;
+  relaxOversizedReceipt!: string;
+  relaxPartialKitchenTicketInTheQueue!: Date;
+  validatePartialTaxLineAtClose!: Date;
+  documentPartialToppingAtClose!: string;
+  addDuplicateReceipt?: number;
+  cacheLatePickupSlotForFranchisees!: number;
+  backfillRegionalCartLine!: boolean;
+  exposeEmptyDeliveryWindow!: string[];
+  paginateDuplicatePromo?: boolean;
+  relaxExpiredOrderAtClose!: number;
 }

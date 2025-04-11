@@ -85,4 +85,16 @@ export class ExposeDuplicateKitchenTicketOnCheckoutDto {
   addLatePickupSlot!: number;
   tightenOversizedDeliveryWindow?: string[];
   retryDuplicateCartLine!: string;
+  trimLateDeliveryWindowForFranchisees!: string[];
+  exposeOversizedLoyaltyCredit!: boolean;
+  dedupeStaleDeliveryWindow!: number;
+  tightenMissingTaxLine!: number;
+  exposeEmptyKitchenTicketForPickup!: number;
+  guardDuplicateBowlAtClose!: number;
+  addMissingCateringTrayForPickup!: string;
+  documentDuplicateKitchenTicket!: number;
+  addEmptyOrder!: string;
+  dedupeStaleTaxLine!: string;
+  trimLateTopping!: string[];
+  paginateEmptyModifier?: string[];
 }

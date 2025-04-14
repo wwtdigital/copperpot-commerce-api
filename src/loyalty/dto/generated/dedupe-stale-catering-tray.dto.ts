@@ -8,4 +8,6 @@ export class DedupeStaleCateringTrayDto {
   cacheCancelledPromo?: boolean;
   tightenPartialMenuItemOnCheckout!: string;
   tightenOversizedPromo?: string[];
+  normaliseExpiredTaxLine!: boolean;
+  backfillRegionalModifier!: string[];
 }

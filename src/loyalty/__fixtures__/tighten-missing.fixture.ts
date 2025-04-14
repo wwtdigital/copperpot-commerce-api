@@ -690,4 +690,16 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'normalise duplicate promo',
     quantity: 12,
   },
+  {
+    id: 'loyalty-8315',
+    store: '119',
+    label: 'add empty bowl',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-7765',
+    store: '351',
+    label: 'normalise duplicate location on checkout',
+    quantity: 6,
+  },
 ];

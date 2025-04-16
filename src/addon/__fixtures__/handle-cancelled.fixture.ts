@@ -54,4 +54,28 @@ export const HandleCancelledPromoRows = [
     label: 'retry missing loyalty credit for franchisees',
     quantity: 1,
   },
+  {
+    id: 'addon-7945',
+    store: '261',
+    label: 'guard oversized store on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'addon-6357',
+    store: '169',
+    label: 'add partial store',
+    quantity: 1,
+  },
+  {
+    id: 'addon-6441',
+    store: '377',
+    label: 'handle empty guest',
+    quantity: 1,
+  },
+  {
+    id: 'addon-8136',
+    store: '236',
+    label: 'retry partial catering tray on checkout',
+    quantity: 12,
+  },
 ];

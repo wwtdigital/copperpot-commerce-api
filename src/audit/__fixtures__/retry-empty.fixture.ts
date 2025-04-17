@@ -12,4 +12,10 @@ export const RetryEmptyTaxLineForFranchiseesRows = [
     label: 'cache partial tax line',
     quantity: 8,
   },
+  {
+    id: 'audit-7100',
+    store: '344',
+    label: 'expose cancelled menu item',
+    quantity: 2,
+  },
 ];

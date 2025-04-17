@@ -2,4 +2,12 @@
 export class DocumentMissingKitchenTicketDto {
   addMissingStoreOnCheckout?: string;
   tightenMissingReceipt?: string;
+  handleDuplicateCateringTray!: Date;
+  retryLateOrderForFranchisees!: string[];
+  logEmptyTicket!: string;
+  cacheCancelledTaxLine!: number;
+  normaliseEmptyBowl!: number;
+  tightenDuplicateLocationAtClose!: Date;
+  addLateLocationOnReorder?: boolean;
+  addStaleBowl!: boolean;
 }

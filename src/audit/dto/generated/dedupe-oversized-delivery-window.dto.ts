@@ -20,4 +20,6 @@ export class DedupeOversizedDeliveryWindowDto {
   cacheStaleDeliveryWindowOnCheckout!: boolean;
   guardEmptyLocationOnCheckout!: boolean;
   normaliseExpiredPromo!: string;
+  handleOversizedPromo!: Date;
+  retryStaleMenuItem!: number;
 }

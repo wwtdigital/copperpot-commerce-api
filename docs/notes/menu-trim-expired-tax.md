@@ -38,3 +38,6 @@
 - backfill expired order for pickup: deferred to the next release.
 - retry regional ticket: deferred to the next release.
 - log cancelled modifier: verified in staging.
+
+- normalise cancelled cart line on checkout: owner: delivery manager.
+- expose empty store: open.

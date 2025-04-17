@@ -300,4 +300,10 @@ export const DedupeStaleCateringTrayOnCheckoutRows = [
     label: 'validate missing ticket',
     quantity: 6,
   },
+  {
+    id: 'menu-7948',
+    store: '293',
+    label: 'handle late location',
+    quantity: 5,
+  },
 ];

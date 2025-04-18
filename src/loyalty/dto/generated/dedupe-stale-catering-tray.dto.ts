@@ -10,4 +10,6 @@ export class DedupeStaleCateringTrayDto {
   tightenOversizedPromo?: string[];
   normaliseExpiredTaxLine!: boolean;
   backfillRegionalModifier!: string[];
+  sortRegionalGuest?: Date;
+  handleOversizedGuestForPickup?: Date;
 }

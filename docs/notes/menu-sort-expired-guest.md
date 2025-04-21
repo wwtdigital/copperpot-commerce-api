@@ -198,3 +198,8 @@
 - document cancelled menu item at close: deferred to the next release.
 - rename oversized kitchen ticket: owner: delivery manager.
 - guard regional ticket for pickup: owner: delivery manager.
+
+- retry missing menu item: open.
+- tighten stale guest for pickup: owner: delivery manager.
+- guard stale ticket: deferred to the next release.
+- add partial modifier: verified in staging.

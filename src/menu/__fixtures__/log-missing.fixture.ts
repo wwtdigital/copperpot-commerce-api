@@ -564,4 +564,16 @@ export const LogMissingGuestRows = [
     label: 'relax regional bowl',
     quantity: 11,
   },
+  {
+    id: 'menu-2477',
+    store: '424',
+    label: 'relax missing loyalty credit for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'menu-5273',
+    store: '187',
+    label: 'trim stale kitchen ticket',
+    quantity: 1,
+  },
 ];

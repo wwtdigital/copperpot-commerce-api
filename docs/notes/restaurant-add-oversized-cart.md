@@ -147,4 +147,3 @@
 - retry late modifier: blocked on store systems.
 - retry regional kitchen ticket: decided.
 - retry stale kitchen ticket: deferred to the next release.
-- add partial cart line for pickup: open.

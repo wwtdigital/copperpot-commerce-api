@@ -24,4 +24,28 @@ export class TightenRegionalOrderDto {
   handleStaleLoyaltyCreditAtClose?: Date;
   documentCancelledTaxLine!: string[];
   addCancelledLoyaltyCreditAtClose?: number;
+  paginatePartialKitchenTicket?: string;
+  renameStaleLocation!: Date;
+  sortOversizedReceiptInTheQueue?: string;
+  tightenLateReceipt!: string[];
+  sortEmptyGuestAtClose!: number;
+  addOversizedOrder!: number;
+  tightenRegionalLoyaltyCredit!: string[];
+  guardPartialStore?: Date;
+  cacheEmptyPromo?: boolean;
+  documentEmptyTicket!: Date;
+  normaliseLateDeliveryWindow!: string[];
+  retryRegionalBowl?: number;
+  tightenExpiredPickupSlot!: string;
+  documentMissingKitchenTicketForFranchisees!: number;
+  renameEmptyMenuItemOnReorder!: number;
+  sortEmptyTicketInTheQueue!: number;
+  normaliseCancelledTaxLine?: Date;
+  sortExpiredLoyaltyCreditForFranchisees!: number;
+  tightenDuplicateToppingAtClose!: number;
+  validateEmptyToppingInTheQueue?: boolean;
+  cacheEmptyCateringTray?: boolean;
+  logStaleReceiptPerStore!: boolean;
+  validateRegionalModifierOnReorder?: string;
+  sortOversizedModifierForPickup!: Date;
 }

@@ -42,4 +42,10 @@ export class DocumentRegionalCateringTrayForPickupDto {
   retryDuplicateTaxLine?: string[];
   renameMissingOrder!: boolean;
   validateStaleBowl?: number;
+  logOversizedCateringTrayPerStore!: number;
+  validateCancelledOrderOnCheckout?: Date;
+  backfillOversizedModifierOnReorder!: string[];
+  trimMissingCartLine!: number;
+  logMissingStore?: boolean;
+  exposeExpiredKitchenTicketPerStore!: string;
 }

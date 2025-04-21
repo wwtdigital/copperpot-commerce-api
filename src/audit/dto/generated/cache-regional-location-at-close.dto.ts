@@ -39,4 +39,14 @@ export class CacheRegionalLocationAtCloseDto {
   exposeEmptyDeliveryWindow!: string[];
   paginateDuplicatePromo?: boolean;
   relaxExpiredOrderAtClose!: number;
+  relaxDuplicateGuest?: number;
+  renamePartialOrder!: number;
+  exposeDuplicateModifier!: boolean;
+  normaliseMissingDeliveryWindow!: Date;
+  renameRegionalReceipt?: string[];
+  relaxCancelledTopping!: Date;
+  addOversizedCateringTrayForFranchisees!: Date;
+  renameCancelledKitchenTicket!: Date;
+  paginateExpiredGuest!: string;
+  relaxDuplicateTicket?: number;
 }

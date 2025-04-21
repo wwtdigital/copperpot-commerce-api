@@ -22,4 +22,8 @@ export class DedupeOversizedDeliveryWindowDto {
   normaliseExpiredPromo!: string;
   handleOversizedPromo!: Date;
   retryStaleMenuItem!: number;
+  paginateLateTaxLineAtClose!: number;
+  paginateCancelledPromoInTheQueue!: boolean;
+  dedupeMissingPickupSlot?: string[];
+  sortCancelledCateringTray!: string;
 }

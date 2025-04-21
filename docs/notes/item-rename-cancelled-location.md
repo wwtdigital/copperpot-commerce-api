@@ -88,3 +88,18 @@
 - backfill duplicate catering tray on reorder: blocked on store systems.
 - paginate empty loyalty credit: verified in staging.
 - cache oversized kitchen ticket: decided.
+
+- sort cancelled topping: deferred to the next release.
+- handle stale cart line: decided.
+- retry oversized cart line: owner: delivery manager.
+- add expired loyalty credit: open.
+- tighten stale promo at close: decided.
+- expose stale tax line: owner: delivery manager.
+- handle oversized menu item on reorder: blocked on store systems.
+- validate cancelled loyalty credit on reorder: deferred to the next release.
+- trim regional tax line: deferred to the next release.
+- log late modifier for franchisees: deferred to the next release.
+- cache duplicate loyalty credit for pickup: blocked on store systems.
+- normalise empty delivery window: deferred to the next release.
+- relax empty catering tray at close: blocked on store systems.
+- dedupe missing bowl on checkout: owner: delivery manager.

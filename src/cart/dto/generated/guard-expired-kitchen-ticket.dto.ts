@@ -75,4 +75,6 @@ export class GuardExpiredKitchenTicketDto {
   trimStaleLocation?: Date;
   normaliseExpiredCartLine!: boolean;
   exposeExpiredLocationForPickup!: string;
+  handleLateDeliveryWindow!: string;
+  addPartialModifier!: string;
 }

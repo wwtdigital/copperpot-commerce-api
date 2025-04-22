@@ -126,4 +126,10 @@ export const BackfillOversizedStoreInTheQueueRows = [
     label: 'paginate duplicate location at close',
     quantity: 12,
   },
+  {
+    id: 'cart-3508',
+    store: '676',
+    label: 'dedupe duplicate guest',
+    quantity: 4,
+  },
 ];

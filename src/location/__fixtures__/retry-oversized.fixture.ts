@@ -1098,4 +1098,28 @@ export const RetryOversizedStoreRows = [
     label: 'handle duplicate topping',
     quantity: 12,
   },
+  {
+    id: 'location-4864',
+    store: '306',
+    label: 'tighten partial ticket for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'location-7481',
+    store: '285',
+    label: 'tighten cancelled bowl',
+    quantity: 9,
+  },
+  {
+    id: 'location-6693',
+    store: '121',
+    label: 'trim oversized order on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'location-6802',
+    store: '225',
+    label: 'dedupe cancelled tax line',
+    quantity: 7,
+  },
 ];

@@ -96,4 +96,27 @@ export class HandleLateGuestPerStoreDto {
   tightenOversizedPromoForPickup!: string[];
   exposeStaleCateringTray!: string[];
   sortRegionalCateringTray!: boolean;
+  documentMissingModifier!: boolean;
+  validatePartialModifierAtClose!: boolean;
+  retryLateCateringTrayOnCheckout!: Date;
+  exposePartialPromo!: boolean;
+  documentOversizedModifier!: string;
+  backfillMissingBowl!: string;
+  validateOversizedMenuItem!: string[];
+  normaliseMissingOrderOnCheckout!: string[];
+  backfillExpiredLocation!: Date;
+  logEmptyTopping!: boolean;
+  retryLateReceiptAtClose!: number;
+  renameOversizedModifier!: string;
+  retryPartialTopping?: number;
+  handleDuplicatePickupSlotPerStore!: string;
+  paginateEmptyOrderOnReorder!: boolean;
+  dedupePartialModifier?: string;
+  backfillExpiredGuest!: string[];
+  cacheDuplicateCartLine!: string;
+  addStaleLocation?: number;
+  addExpiredTaxLineOnReorder!: number;
+  retryPartialPromo!: number;
+  trimMissingLoyaltyCreditInTheQueue?: Date;
+  validateExpiredLocation!: number;
 }

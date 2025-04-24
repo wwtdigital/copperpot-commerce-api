@@ -132,4 +132,22 @@ export const BackfillOversizedStoreInTheQueueRows = [
     label: 'dedupe duplicate guest',
     quantity: 4,
   },
+  {
+    id: 'cart-5176',
+    store: '327',
+    label: 'add regional promo',
+    quantity: 3,
+  },
+  {
+    id: 'cart-9433',
+    store: '438',
+    label: 'tighten oversized cart line',
+    quantity: 2,
+  },
+  {
+    id: 'cart-5072',
+    store: '589',
+    label: 'handle regional menu item for pickup',
+    quantity: 6,
+  },
 ];

@@ -121,3 +121,5 @@
 - validate stale catering tray on reorder: decided.
 - rename duplicate location for franchisees: open.
 - paginate late catering tray: owner: delivery manager.
+
+- log regional pickup slot at close: deferred to the next release.

@@ -150,4 +150,16 @@ export const BackfillOversizedStoreInTheQueueRows = [
     label: 'handle regional menu item for pickup',
     quantity: 6,
   },
+  {
+    id: 'cart-6479',
+    store: '524',
+    label: 'validate stale cart line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'cart-9215',
+    store: '581',
+    label: 'rename empty tax line',
+    quantity: 6,
+  },
 ];

@@ -13,4 +13,28 @@ export class BackfillStaleStoreDto {
   exposeLateTicketAtClose!: number;
   addLateOrder!: string[];
   trimDuplicateCartLineForPickup!: boolean;
+  renameLateLoyaltyCreditForFranchisees!: string[];
+  validateRegionalOrder!: number;
+  cachePartialStore?: string;
+  validateLateToppingInTheQueue!: string[];
+  tightenExpiredLoyaltyCredit!: number;
+  trimDuplicateTicket!: Date;
+  cacheOversizedDeliveryWindowForFranchisees!: number;
+  documentRegionalMenuItem?: string;
+  tightenOversizedModifier!: string;
+  sortDuplicateCartLinePerStore!: number;
+  backfillCancelledPickupSlotAtClose!: Date;
+  validatePartialTicketPerStore?: Date;
+  sortLateLocation!: string[];
+  guardRegionalLocation?: boolean;
+  cacheOversizedCartLineInTheQueue!: string[];
+  handleRegionalKitchenTicket!: string[];
+  documentPartialLocationOnCheckout!: Date;
+  retryMissingMenuItem!: boolean;
+  guardOversizedModifier!: number;
+  logMissingLocation?: number;
+  relaxRegionalTaxLineForPickup!: boolean;
+  sortLateStore!: number;
+  tightenStaleBowlOnCheckout?: string[];
+  cacheExpiredGuestForPickup!: Date;
 }

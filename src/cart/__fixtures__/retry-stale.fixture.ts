@@ -444,4 +444,28 @@ export const RetryStaleToppingPerStoreRows = [
     label: 'relax missing modifier',
     quantity: 11,
   },
+  {
+    id: 'cart-5507',
+    store: '263',
+    label: 'normalise late cart line at close',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9486',
+    store: '658',
+    label: 'sort expired receipt at close',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6513',
+    store: '449',
+    label: 'document oversized delivery window per store',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3219',
+    store: '411',
+    label: 'backfill partial order',
+    quantity: 2,
+  },
 ];

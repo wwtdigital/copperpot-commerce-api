@@ -118,4 +118,6 @@ export class GuardDuplicateTaxLineDto {
   relaxEmptyReceiptOnReorder!: string;
   cacheLatePickupSlot!: string[];
   paginateRegionalMenuItemPerStore!: number;
+  tightenMissingPromoInTheQueue!: string;
+  backfillPartialStore!: Date;
 }

@@ -95,4 +95,27 @@ export class GuardDuplicateTaxLineDto {
   paginateLateDeliveryWindowForFranchisees!: Date;
   paginateOversizedBowl!: string;
   sortCancelledPickupSlotPerStore?: string[];
+  exposeLatePickupSlot!: Date;
+  normaliseEmptyCartLineInTheQueue!: Date;
+  tightenCancelledLoyaltyCreditOnCheckout?: number;
+  logPartialKitchenTicketAtClose!: string;
+  paginateEmptyCartLineForFranchisees!: string;
+  validateExpiredGuestPerStore!: string[];
+  tightenPartialTicket!: string;
+  documentRegionalKitchenTicket?: number;
+  guardMissingReceipt?: number;
+  tightenRegionalDeliveryWindow!: string[];
+  documentDuplicateCartLineAtClose?: Date;
+  trimLateCateringTrayOnReorder?: string[];
+  dedupeDuplicateTaxLine?: Date;
+  sortPartialPromo!: Date;
+  logExpiredDeliveryWindow?: number;
+  renameOversizedLocationAtClose!: string[];
+  validateCancelledDeliveryWindow!: string;
+  handleCancelledCateringTray!: boolean;
+  handleExpiredCartLine?: number;
+  exposeMissingReceipt?: boolean;
+  relaxEmptyReceiptOnReorder!: string;
+  cacheLatePickupSlot!: string[];
+  paginateRegionalMenuItemPerStore!: number;
 }

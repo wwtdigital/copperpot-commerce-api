@@ -13,3 +13,18 @@
 - paginate stale ticket for franchisees: owner: delivery manager.
 - document cancelled location: blocked on store systems.
 - handle cancelled guest: blocked on store systems.
+
+- dedupe empty ticket: blocked on store systems.
+- expose expired loyalty credit in the queue: owner: delivery manager.
+- rename expired promo: owner: delivery manager.
+- expose cancelled loyalty credit: open.
+- handle expired menu item: deferred to the next release.
+- paginate regional ticket for franchisees: verified in staging.
+- tighten missing promo: deferred to the next release.
+- dedupe late tax line: blocked on store systems.
+- handle stale location: blocked on store systems.
+- log late menu item: open.
+- relax duplicate catering tray: deferred to the next release.
+- relax partial delivery window in the queue: owner: delivery manager.
+- paginate partial delivery window: open.
+- add duplicate delivery window per store: owner: delivery manager.

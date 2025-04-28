@@ -6,3 +6,6 @@
 
 - add empty cart line: deferred to the next release.
 - validate regional order: owner: delivery manager.
+
+- retry duplicate ticket in the queue: deferred to the next release.
+- sort stale delivery window: deferred to the next release.

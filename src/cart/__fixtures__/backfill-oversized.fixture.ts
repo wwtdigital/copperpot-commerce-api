@@ -126,4 +126,40 @@ export const BackfillOversizedStoreInTheQueueRows = [
     label: 'paginate duplicate location at close',
     quantity: 12,
   },
+  {
+    id: 'cart-3508',
+    store: '676',
+    label: 'dedupe duplicate guest',
+    quantity: 4,
+  },
+  {
+    id: 'cart-5176',
+    store: '327',
+    label: 'add regional promo',
+    quantity: 3,
+  },
+  {
+    id: 'cart-9433',
+    store: '438',
+    label: 'tighten oversized cart line',
+    quantity: 2,
+  },
+  {
+    id: 'cart-5072',
+    store: '589',
+    label: 'handle regional menu item for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'cart-6479',
+    store: '524',
+    label: 'validate stale cart line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'cart-9215',
+    store: '581',
+    label: 'rename empty tax line',
+    quantity: 6,
+  },
 ];

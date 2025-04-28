@@ -432,4 +432,16 @@ export const RetryStaleToppingPerStoreRows = [
     label: 'sort partial order at close',
     quantity: 1,
   },
+  {
+    id: 'cart-4173',
+    store: '659',
+    label: 'dedupe late catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'cart-4621',
+    store: '415',
+    label: 'relax missing modifier',
+    quantity: 11,
+  },
 ];

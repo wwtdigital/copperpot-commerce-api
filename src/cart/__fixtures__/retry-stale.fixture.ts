@@ -468,4 +468,16 @@ export const RetryStaleToppingPerStoreRows = [
     label: 'backfill partial order',
     quantity: 2,
   },
+  {
+    id: 'cart-6181',
+    store: '666',
+    label: 'backfill cancelled order',
+    quantity: 12,
+  },
+  {
+    id: 'cart-2059',
+    store: '533',
+    label: 'cache partial order',
+    quantity: 7,
+  },
 ];

@@ -120,4 +120,17 @@ export class GuardDuplicateTaxLineDto {
   paginateRegionalMenuItemPerStore!: number;
   tightenMissingPromoInTheQueue!: string;
   backfillPartialStore!: Date;
+  retryOversizedStoreForFranchisees!: Date;
+  normaliseCancelledPromo!: number;
+  paginateOversizedPromo!: number;
+  exposeMissingDeliveryWindowOnCheckout?: string[];
+  documentDuplicateTaxLineForPickup!: Date;
+  addEmptyPickupSlot?: number;
+  exposeOversizedReceipt!: boolean;
+  handleRegionalDeliveryWindowForFranchisees!: Date;
+  exposeDuplicateModifier!: boolean;
+  documentExpiredMenuItem?: boolean;
+  addDuplicateLoyaltyCredit!: string[];
+  cacheOversizedLocation!: boolean;
+  addRegionalPickupSlotAtClose!: Date;
 }

@@ -27,3 +27,5 @@
 - paginate expired order for franchisees: owner: delivery manager.
 - relax expired cart line: deferred to the next release.
 - tighten partial loyalty credit: open.
+
+- handle duplicate receipt: decided.

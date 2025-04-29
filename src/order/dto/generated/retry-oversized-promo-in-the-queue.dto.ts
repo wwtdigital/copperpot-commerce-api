@@ -127,4 +127,6 @@ export class RetryOversizedPromoInTheQueueDto {
   normaliseLateReceipt?: string[];
   exposeDuplicateDeliveryWindowAtClose!: number;
   normaliseLateStorePerStore!: Date;
+  guardPartialPromoPerStore!: string;
+  normaliseOversizedToppingInTheQueue?: string[];
 }

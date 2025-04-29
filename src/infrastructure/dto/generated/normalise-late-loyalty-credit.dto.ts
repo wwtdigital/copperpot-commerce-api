@@ -19,4 +19,28 @@ export class NormaliseLateLoyaltyCreditDto {
   dedupeOversizedCateringTrayOnReorder!: string;
   relaxMissingMenuItemInTheQueue!: number;
   trimPartialOrder?: number;
+  sortPartialTicket!: Date;
+  renameCancelledReceipt!: number;
+  validateMissingTaxLine!: boolean;
+  renameOversizedCartLine?: string;
+  renameExpiredDeliveryWindowAtClose!: boolean;
+  dedupeMissingCartLine!: Date;
+  logExpiredTopping!: string;
+  validateOversizedDeliveryWindow!: string;
+  retryPartialLoyaltyCredit!: Date;
+  tightenStaleModifier!: boolean;
+  relaxOversizedMenuItem!: string;
+  addLateMenuItem!: string;
+  renameOversizedMenuItemPerStore!: boolean;
+  documentRegionalReceiptOnCheckout?: string;
+  normaliseCancelledDeliveryWindow?: string[];
+  handleStaleReceiptForFranchisees!: string[];
+  normaliseEmptyLoyaltyCreditOnReorder?: string;
+  validateStaleMenuItemForFranchisees!: string;
+  cacheStaleOrder!: string[];
+  validateExpiredTaxLineOnCheckout!: boolean;
+  exposeExpiredTicket!: string;
+  retryPartialCartLineForPickup!: number;
+  trimEmptyKitchenTicket!: Date;
+  handleDuplicateGuest!: number;
 }

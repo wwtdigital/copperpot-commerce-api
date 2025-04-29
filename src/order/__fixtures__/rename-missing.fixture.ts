@@ -1,0 +1,99 @@
+/* Fixture rows for order tests: rename missing location per store. Generated data, not production data. */
+export const RenameMissingLocationPerStoreRows = [
+  {
+    id: 'order-2054',
+    store: '113',
+    label: 'retry cancelled loyalty credit at close',
+    quantity: 5,
+  },
+  {
+    id: 'order-1378',
+    store: '421',
+    label: 'expose stale guest',
+    quantity: 8,
+  },
+  {
+    id: 'order-3458',
+    store: '527',
+    label: 'expose cancelled kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'order-9231',
+    store: '630',
+    label: 'normalise regional ticket for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'order-9651',
+    store: '203',
+    label: 'dedupe regional promo',
+    quantity: 3,
+  },
+  {
+    id: 'order-2388',
+    store: '143',
+    label: 'add partial receipt in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'order-7770',
+    store: '190',
+    label: 'rename stale order per store',
+    quantity: 8,
+  },
+  {
+    id: 'order-9820',
+    store: '583',
+    label: 'normalise late cart line for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-1086',
+    store: '433',
+    label: 'normalise partial menu item in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-1119',
+    store: '552',
+    label: 'backfill regional catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'order-1728',
+    store: '364',
+    label: 'validate partial pickup slot in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'order-7214',
+    store: '524',
+    label: 'rename oversized guest',
+    quantity: 12,
+  },
+  {
+    id: 'order-1992',
+    store: '422',
+    label: 'normalise stale modifier for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'order-2364',
+    store: '270',
+    label: 'expose partial location at close',
+    quantity: 5,
+  },
+  {
+    id: 'order-6218',
+    store: '214',
+    label: 'add empty topping',
+    quantity: 5,
+  },
+  {
+    id: 'order-8592',
+    store: '129',
+    label: 'guard duplicate catering tray',
+    quantity: 1,
+  },
+];

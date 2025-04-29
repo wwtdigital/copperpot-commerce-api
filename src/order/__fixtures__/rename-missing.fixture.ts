@@ -96,4 +96,58 @@ export const RenameMissingLocationPerStoreRows = [
     label: 'guard duplicate catering tray',
     quantity: 1,
   },
+  {
+    id: 'order-6359',
+    store: '667',
+    label: 'document oversized tax line',
+    quantity: 6,
+  },
+  {
+    id: 'order-7836',
+    store: '455',
+    label: 'dedupe regional store',
+    quantity: 7,
+  },
+  {
+    id: 'order-6059',
+    store: '194',
+    label: 'document regional menu item',
+    quantity: 6,
+  },
+  {
+    id: 'order-7547',
+    store: '472',
+    label: 'guard oversized catering tray in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-1229',
+    store: '326',
+    label: 'guard cancelled cart line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-4041',
+    store: '666',
+    label: 'retry empty store',
+    quantity: 6,
+  },
+  {
+    id: 'order-1258',
+    store: '480',
+    label: 'dedupe late cart line on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-9889',
+    store: '256',
+    label: 'dedupe regional guest for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'order-4995',
+    store: '409',
+    label: 'rename stale order',
+    quantity: 11,
+  },
 ];

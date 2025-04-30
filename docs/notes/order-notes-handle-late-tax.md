@@ -121,3 +121,20 @@
 - validate stale catering tray on reorder: decided.
 - rename duplicate location for franchisees: open.
 - paginate late catering tray: owner: delivery manager.
+
+- log regional pickup slot at close: deferred to the next release.
+
+- backfill partial delivery window: owner: delivery manager.
+- dedupe regional ticket: decided.
+- paginate expired delivery window for pickup: open.
+- document cancelled topping: open.
+- trim empty bowl for pickup: decided.
+- relax duplicate delivery window: verified in staging.
+- validate stale promo per store: owner: delivery manager.
+- tighten late receipt on checkout: open.
+- validate duplicate delivery window: deferred to the next release.
+- tighten cancelled receipt: blocked on store systems.
+- handle oversized bowl: open.
+- guard empty guest: owner: delivery manager.
+- document empty loyalty credit: blocked on store systems.
+- cache late location: blocked on store systems.

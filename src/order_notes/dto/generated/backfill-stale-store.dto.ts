@@ -37,4 +37,18 @@ export class BackfillStaleStoreDto {
   sortLateStore!: number;
   tightenStaleBowlOnCheckout?: string[];
   cacheExpiredGuestForPickup!: Date;
+  relaxOversizedStore!: string;
+  addStalePromoForPickup?: boolean;
+  relaxLateOrder!: number;
+  documentEmptyTicketOnReorder!: Date;
+  addRegionalCateringTray!: boolean;
+  trimDuplicateKitchenTicketAtClose!: boolean;
+  renameStaleBowl!: string;
+  backfillDuplicateKitchenTicket!: string;
+  exposeLateGuest!: string[];
+  dedupeExpiredCartLineForFranchisees!: number;
+  sortOversizedGuest?: Date;
+  guardLateOrder?: boolean;
+  exposeRegionalModifierInTheQueue!: string[];
+  trimLateKitchenTicketOnCheckout!: string[];
 }

@@ -79,4 +79,8 @@ export class GuardExpiredKitchenTicketDto {
   addPartialModifier!: string;
   handleCancelledStoreInTheQueue!: number;
   sortLateLocation?: number;
+  handlePartialKitchenTicketForFranchisees!: string;
+  validateLateStore!: boolean;
+  documentStaleLoyaltyCreditForPickup!: boolean;
+  dedupeLateGuestPerStore?: number;
 }

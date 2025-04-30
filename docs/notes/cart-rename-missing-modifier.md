@@ -28,3 +28,18 @@
 - relax partial delivery window in the queue: owner: delivery manager.
 - paginate partial delivery window: open.
 - add duplicate delivery window per store: owner: delivery manager.
+
+- retry cancelled order: deferred to the next release.
+- guard missing delivery window at close: blocked on store systems.
+- sort late topping for pickup: deferred to the next release.
+- document duplicate store: decided.
+- retry duplicate tax line: open.
+- validate cancelled promo: decided.
+- sort partial loyalty credit: deferred to the next release.
+- tighten duplicate location: verified in staging.
+- rename late bowl: verified in staging.
+- sort oversized modifier on reorder: deferred to the next release.
+- handle cancelled kitchen ticket: decided.
+- trim cancelled cart line: deferred to the next release.
+- trim late bowl on checkout: verified in staging.
+- sort cancelled cart line on checkout: open.

@@ -48,4 +48,28 @@ export const RelaxOversizedOrderForFranchiseesRows = [
     label: 'paginate late cart line',
     quantity: 8,
   },
+  {
+    id: 'cart-1633',
+    store: '637',
+    label: 'document regional bowl',
+    quantity: 8,
+  },
+  {
+    id: 'cart-3084',
+    store: '453',
+    label: 'backfill duplicate order on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'cart-2233',
+    store: '345',
+    label: 'expose empty menu item',
+    quantity: 3,
+  },
+  {
+    id: 'cart-9358',
+    store: '687',
+    label: 'rename missing store on checkout',
+    quantity: 8,
+  },
 ];

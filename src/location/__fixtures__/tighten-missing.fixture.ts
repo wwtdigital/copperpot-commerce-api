@@ -6,4 +6,10 @@ export const TightenMissingReceiptRows = [
     label: 'rename stale topping per store',
     quantity: 6,
   },
+  {
+    id: 'location-6519',
+    store: '322',
+    label: 'expose missing receipt',
+    quantity: 5,
+  },
 ];

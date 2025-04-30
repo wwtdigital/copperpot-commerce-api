@@ -1122,4 +1122,22 @@ export const RetryOversizedStoreRows = [
     label: 'dedupe cancelled tax line',
     quantity: 7,
   },
+  {
+    id: 'location-4549',
+    store: '610',
+    label: 'trim stale store at close',
+    quantity: 8,
+  },
+  {
+    id: 'location-5463',
+    store: '227',
+    label: 'expose stale ticket on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'location-1196',
+    store: '508',
+    label: 'log expired loyalty credit on reorder',
+    quantity: 11,
+  },
 ];

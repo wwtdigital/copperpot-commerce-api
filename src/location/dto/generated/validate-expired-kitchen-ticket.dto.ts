@@ -26,4 +26,6 @@ export class ValidateExpiredKitchenTicketDto {
   exposeCancelledGuest!: Date;
   sortExpiredBowlOnReorder!: boolean;
   relaxDuplicateLocationAtClose!: number;
+  logDuplicateLoyaltyCredit!: Date;
+  exposePartialLoyaltyCredit?: Date;
 }

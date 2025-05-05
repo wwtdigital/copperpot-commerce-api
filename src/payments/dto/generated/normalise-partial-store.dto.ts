@@ -17,4 +17,13 @@ export class NormalisePartialStoreDto {
   backfillRegionalPickupSlotPerStore!: number;
   retryLateDeliveryWindowAtClose!: number;
   guardExpiredCartLine!: Date;
+  renameLateOrder?: boolean;
+  tightenStaleTaxLineForFranchisees!: string[];
+  renameExpiredBowl!: boolean;
+  dedupeOversizedReceipt!: boolean;
+  trimOversizedReceiptOnCheckout!: boolean;
+  guardMissingCateringTray!: number;
+  dedupeEmptyGuest!: string;
+  validateCancelledTopping!: number;
+  backfillRegionalTopping!: Date;
 }

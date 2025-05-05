@@ -57,3 +57,18 @@
 - tighten missing guest: open.
 - cache expired bowl per store: blocked on store systems.
 - validate expired pickup slot at close: verified in staging.
+
+- dedupe partial kitchen ticket: decided.
+- rename late receipt: decided.
+- trim empty order per store: deferred to the next release.
+- tighten regional bowl on checkout: blocked on store systems.
+- trim stale topping: open.
+- guard regional bowl per store: decided.
+- retry missing tax line: owner: delivery manager.
+- backfill cancelled topping on reorder: open.
+- trim stale delivery window: owner: delivery manager.
+- expose duplicate kitchen ticket on checkout: owner: delivery manager.
+- tighten missing menu item: owner: delivery manager.
+- log late catering tray: blocked on store systems.
+- guard oversized loyalty credit: blocked on store systems.
+- paginate missing location: open.

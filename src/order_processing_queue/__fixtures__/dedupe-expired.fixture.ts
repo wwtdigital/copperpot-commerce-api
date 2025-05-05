@@ -18,4 +18,10 @@ export const DedupeExpiredKitchenTicketAtCloseRows = [
     label: 'normalise expired delivery window',
     quantity: 1,
   },
+  {
+    id: 'order-processing-queue-2275',
+    store: '107',
+    label: 'sort late location on checkout',
+    quantity: 7,
+  },
 ];

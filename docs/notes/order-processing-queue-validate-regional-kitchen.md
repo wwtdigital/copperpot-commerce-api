@@ -26,3 +26,18 @@
 - expose expired menu item at close: blocked on store systems.
 - log empty cart line: decided.
 - relax missing receipt: owner: delivery manager.
+
+- rename expired store: blocked on store systems.
+- normalise stale modifier: decided.
+- add oversized tax line: open.
+- add cancelled loyalty credit: open.
+- cache stale delivery window per store: deferred to the next release.
+- add empty kitchen ticket: owner: delivery manager.
+- add missing loyalty credit: verified in staging.
+- relax expired kitchen ticket on reorder: deferred to the next release.
+- log cancelled menu item in the queue: verified in staging.
+- retry cancelled guest: owner: delivery manager.
+- rename stale promo: open.
+- sort empty pickup slot: deferred to the next release.
+- log stale promo for pickup: open.
+- paginate duplicate location: deferred to the next release.

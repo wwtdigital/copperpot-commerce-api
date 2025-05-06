@@ -12,4 +12,10 @@ export const DedupeExpiredKitchenTicketAtCloseRows = [
     label: 'backfill cancelled location',
     quantity: 3,
   },
+  {
+    id: 'order-processing-queue-2641',
+    store: '198',
+    label: 'normalise expired delivery window',
+    quantity: 1,
+  },
 ];

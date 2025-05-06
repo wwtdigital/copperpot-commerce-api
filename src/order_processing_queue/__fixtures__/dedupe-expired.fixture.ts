@@ -24,4 +24,16 @@ export const DedupeExpiredKitchenTicketAtCloseRows = [
     label: 'sort late location on checkout',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-9202',
+    store: '568',
+    label: 'sort partial ticket',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-2030',
+    store: '126',
+    label: 'rename empty location on checkout',
+    quantity: 7,
+  },
 ];

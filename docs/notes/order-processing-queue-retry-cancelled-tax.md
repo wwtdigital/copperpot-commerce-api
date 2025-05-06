@@ -14,3 +14,18 @@
 - backfill oversized catering tray on checkout: verified in staging.
 - document cancelled store: open.
 - tighten missing topping: deferred to the next release.
+
+- relax regional delivery window: open.
+- expose cancelled loyalty credit: deferred to the next release.
+- log cancelled pickup slot: blocked on store systems.
+- normalise oversized order: decided.
+- backfill regional pickup slot at close: deferred to the next release.
+- trim missing bowl: owner: delivery manager.
+- sort oversized catering tray: owner: delivery manager.
+- rename duplicate tax line at close: deferred to the next release.
+- validate regional order: decided.
+- guard oversized catering tray at close: decided.
+- sort oversized pickup slot: blocked on store systems.
+- validate empty modifier per store: verified in staging.
+- dedupe late location: verified in staging.
+- backfill duplicate catering tray: open.

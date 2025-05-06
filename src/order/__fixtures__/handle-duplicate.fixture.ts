@@ -732,4 +732,16 @@ export const HandleDuplicateKitchenTicketRows = [
     label: 'relax late kitchen ticket at close',
     quantity: 8,
   },
+  {
+    id: 'order-2497',
+    store: '231',
+    label: 'tighten oversized delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'order-5032',
+    store: '666',
+    label: 'retry stale pickup slot on reorder',
+    quantity: 4,
+  },
 ];

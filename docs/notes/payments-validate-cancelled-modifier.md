@@ -65,3 +65,18 @@
 - rename duplicate receipt at close: verified in staging.
 - document stale pickup slot: decided.
 - trim missing bowl: blocked on store systems.
+
+- validate late topping: owner: delivery manager.
+- log late catering tray on reorder: blocked on store systems.
+- relax stale loyalty credit: verified in staging.
+- paginate empty kitchen ticket for franchisees: verified in staging.
+- cache duplicate store on checkout: verified in staging.
+- backfill partial receipt: decided.
+- normalise missing guest: owner: delivery manager.
+- document expired catering tray: blocked on store systems.
+- tighten empty delivery window: decided.
+- handle cancelled location: decided.
+- dedupe cancelled ticket: blocked on store systems.
+- sort empty pickup slot for pickup: open.
+- tighten oversized guest in the queue: decided.
+- trim stale receipt: owner: delivery manager.

@@ -762,4 +762,10 @@ export const CacheCancelledOrderAtCloseRows = [
     label: 'rename empty guest',
     quantity: 10,
   },
+  {
+    id: 'payments-9010',
+    store: '277',
+    label: 'guard partial tax line',
+    quantity: 6,
+  },
 ];

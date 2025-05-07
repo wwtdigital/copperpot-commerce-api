@@ -116,4 +116,19 @@ export class HandleRegionalModifierOnCheckoutDto {
   renamePartialLocationOnCheckout!: Date;
   relaxExpiredLoyaltyCredit?: string[];
   addCancelledLocation!: string;
+  paginateExpiredDeliveryWindow!: boolean;
+  handleMissingOrder!: Date;
+  validateMissingPromo!: boolean;
+  trimCancelledToppingPerStore!: number;
+  cacheMissingLoyaltyCreditOnReorder!: boolean;
+  renameStaleLoyaltyCreditInTheQueue!: string;
+  dedupeMissingTopping!: Date;
+  documentStaleDeliveryWindow!: string;
+  addLateLocation!: string;
+  normaliseMissingPromo!: number;
+  retryRegionalCartLine!: Date;
+  documentDuplicatePromoForPickup!: number;
+  paginateDuplicateModifierOnCheckout!: number;
+  trimPartialLoyaltyCreditPerStore?: string;
+  addRegionalModifier?: string[];
 }

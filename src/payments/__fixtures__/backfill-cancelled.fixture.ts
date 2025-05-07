@@ -84,4 +84,16 @@ export const BackfillCancelledGuestPerStoreRows = [
     label: 'trim partial guest for franchisees',
     quantity: 6,
   },
+  {
+    id: 'payments-8815',
+    store: '350',
+    label: 'document regional ticket for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'payments-8321',
+    store: '167',
+    label: 'sort empty catering tray for pickup',
+    quantity: 5,
+  },
 ];

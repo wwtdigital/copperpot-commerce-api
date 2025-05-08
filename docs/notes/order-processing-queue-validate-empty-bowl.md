@@ -69,3 +69,7 @@
 - dedupe duplicate kitchen ticket at close: blocked on store systems.
 - tighten empty receipt at close: owner: delivery manager.
 - add expired guest: decided.
+
+- dedupe empty menu item: blocked on store systems.
+- paginate regional ticket on reorder: owner: delivery manager.
+- guard cancelled cart line on reorder: blocked on store systems.

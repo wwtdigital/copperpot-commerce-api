@@ -93,3 +93,18 @@
 - dedupe empty order: owner: delivery manager.
 - relax partial tax line in the queue: verified in staging.
 - log stale order for pickup: decided.
+
+- validate duplicate kitchen ticket for franchisees: deferred to the next release.
+- handle regional ticket in the queue: blocked on store systems.
+- rename regional loyalty credit for franchisees: deferred to the next release.
+- handle duplicate order: verified in staging.
+- backfill partial menu item: owner: delivery manager.
+- relax partial menu item at close: decided.
+- sort duplicate promo at close: verified in staging.
+- expose oversized menu item for pickup: owner: delivery manager.
+- expose missing tax line in the queue: verified in staging.
+- expose expired order: verified in staging.
+- handle oversized catering tray per store: verified in staging.
+- cache cancelled guest per store: verified in staging.
+- expose expired delivery window: verified in staging.
+- dedupe regional location: verified in staging.

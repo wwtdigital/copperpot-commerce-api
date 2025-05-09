@@ -119,4 +119,19 @@ export class HandleLateGuestPerStoreDto {
   retryPartialPromo!: number;
   trimMissingLoyaltyCreditInTheQueue?: Date;
   validateExpiredLocation!: number;
+  renameOversizedPickupSlot?: string;
+  guardRegionalPromo?: boolean;
+  sortOversizedPickupSlot!: boolean;
+  renameExpiredGuest!: number;
+  logDuplicateToppingInTheQueue!: string[];
+  guardExpiredStoreForFranchisees?: string;
+  backfillLateStoreAtClose!: number;
+  exposeCancelledOrderOnCheckout!: boolean;
+  handleRegionalCartLine!: number;
+  renameDuplicateCartLineForFranchisees?: string;
+  sortDuplicateModifier!: Date;
+  handleEmptyMenuItem?: number;
+  tightenEmptyLocation?: string[];
+  documentRegionalStoreOnReorder!: string;
+  sortExpiredDeliveryWindow!: number;
 }

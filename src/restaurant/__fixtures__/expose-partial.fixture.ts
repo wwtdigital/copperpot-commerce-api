@@ -1122,4 +1122,40 @@ export const ExposePartialReceiptRows = [
     label: 'dedupe expired cart line',
     quantity: 4,
   },
+  {
+    id: 'restaurant-7070',
+    store: '112',
+    label: 'dedupe oversized pickup slot for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-5509',
+    store: '524',
+    label: 'cache missing store',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-8765',
+    store: '506',
+    label: 'rename regional order',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-1935',
+    store: '292',
+    label: 'rename duplicate modifier',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-9910',
+    store: '388',
+    label: 'backfill duplicate ticket on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-8577',
+    store: '647',
+    label: 'guard missing menu item on reorder',
+    quantity: 1,
+  },
 ];

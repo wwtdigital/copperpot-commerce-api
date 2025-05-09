@@ -1122,4 +1122,16 @@ export const ExposePartialReceiptRows = [
     label: 'dedupe expired cart line',
     quantity: 4,
   },
+  {
+    id: 'restaurant-7070',
+    store: '112',
+    label: 'dedupe oversized pickup slot for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-5509',
+    store: '524',
+    label: 'cache missing store',
+    quantity: 12,
+  },
 ];

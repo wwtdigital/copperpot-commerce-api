@@ -744,4 +744,58 @@ export const HandleDuplicateKitchenTicketRows = [
     label: 'retry stale pickup slot on reorder',
     quantity: 4,
   },
+  {
+    id: 'order-8482',
+    store: '293',
+    label: 'relax cancelled delivery window at close',
+    quantity: 4,
+  },
+  {
+    id: 'order-2449',
+    store: '370',
+    label: 'guard cancelled location on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'order-5831',
+    store: '216',
+    label: 'cache stale topping for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'order-3711',
+    store: '452',
+    label: 'sort stale cart line',
+    quantity: 12,
+  },
+  {
+    id: 'order-8117',
+    store: '370',
+    label: 'handle partial delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'order-1793',
+    store: '255',
+    label: 'guard cancelled ticket',
+    quantity: 11,
+  },
+  {
+    id: 'order-2474',
+    store: '422',
+    label: 'cache stale tax line',
+    quantity: 11,
+  },
+  {
+    id: 'order-5570',
+    store: '404',
+    label: 'paginate missing kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'order-5619',
+    store: '165',
+    label: 'cache oversized modifier',
+    quantity: 3,
+  },
 ];

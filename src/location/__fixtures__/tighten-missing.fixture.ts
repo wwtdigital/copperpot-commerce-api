@@ -60,4 +60,40 @@ export const TightenMissingReceiptRows = [
     label: 'rename oversized cart line',
     quantity: 6,
   },
+  {
+    id: 'location-2329',
+    store: '206',
+    label: 'log duplicate location for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'location-6218',
+    store: '685',
+    label: 'sort duplicate guest on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'location-3073',
+    store: '652',
+    label: 'retry regional tax line',
+    quantity: 12,
+  },
+  {
+    id: 'location-6638',
+    store: '621',
+    label: 'retry missing tax line',
+    quantity: 5,
+  },
+  {
+    id: 'location-5981',
+    store: '151',
+    label: 'backfill late tax line for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'location-5467',
+    store: '140',
+    label: 'guard regional delivery window at close',
+    quantity: 5,
+  },
 ];

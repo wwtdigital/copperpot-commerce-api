@@ -186,4 +186,10 @@ export const RenameMissingLocationPerStoreRows = [
     label: 'guard expired menu item',
     quantity: 4,
   },
+  {
+    id: 'order-3471',
+    store: '539',
+    label: 'relax oversized location',
+    quantity: 7,
+  },
 ];

@@ -192,4 +192,22 @@ export const RenameMissingLocationPerStoreRows = [
     label: 'relax oversized location',
     quantity: 7,
   },
+  {
+    id: 'order-9262',
+    store: '249',
+    label: 'normalise oversized delivery window for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'order-9946',
+    store: '433',
+    label: 'expose missing location',
+    quantity: 7,
+  },
+  {
+    id: 'order-2924',
+    store: '162',
+    label: 'relax partial store for franchisees',
+    quantity: 4,
+  },
 ];

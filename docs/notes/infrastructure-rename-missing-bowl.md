@@ -14,3 +14,7 @@
 - sort missing delivery window on checkout: verified in staging.
 - guard duplicate delivery window: decided.
 - trim expired topping for franchisees: deferred to the next release.
+
+- retry oversized catering tray: deferred to the next release.
+- dedupe cancelled catering tray: decided.
+- guard stale location: owner: delivery manager.

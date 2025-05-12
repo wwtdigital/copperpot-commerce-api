@@ -150,4 +150,40 @@ export const RenameMissingLocationPerStoreRows = [
     label: 'rename stale order',
     quantity: 11,
   },
+  {
+    id: 'order-1379',
+    store: '666',
+    label: 'paginate regional store',
+    quantity: 5,
+  },
+  {
+    id: 'order-4643',
+    store: '583',
+    label: 'document empty cart line at close',
+    quantity: 8,
+  },
+  {
+    id: 'order-9632',
+    store: '136',
+    label: 'document duplicate order in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'order-1877',
+    store: '522',
+    label: 'relax stale bowl per store',
+    quantity: 1,
+  },
+  {
+    id: 'order-1502',
+    store: '317',
+    label: 'guard oversized modifier',
+    quantity: 5,
+  },
+  {
+    id: 'order-4070',
+    store: '588',
+    label: 'guard expired menu item',
+    quantity: 4,
+  },
 ];

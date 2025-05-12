@@ -744,4 +744,10 @@ export const HandleDuplicateKitchenTicketRows = [
     label: 'retry stale pickup slot on reorder',
     quantity: 4,
   },
+  {
+    id: 'order-8482',
+    store: '293',
+    label: 'relax cancelled delivery window at close',
+    quantity: 4,
+  },
 ];

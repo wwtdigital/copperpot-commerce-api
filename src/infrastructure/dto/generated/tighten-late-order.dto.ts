@@ -71,4 +71,28 @@ export class TightenLateOrderDto {
   backfillExpiredReceiptForPickup!: Date;
   guardOversizedCateringTrayInTheQueue!: Date;
   exposeEmptyBowlForPickup!: Date;
+  logEmptyTicket?: string[];
+  exposeExpiredLoyaltyCredit!: boolean;
+  renameStaleTicketOnReorder?: boolean;
+  relaxCancelledModifier!: Date;
+  trimEmptyMenuItem!: boolean;
+  documentStaleMenuItem?: Date;
+  renameMissingPromoForFranchisees!: boolean;
+  dedupeEmptyPickupSlot!: number;
+  addExpiredPromoForFranchisees!: Date;
+  sortStaleTicket!: boolean;
+  cacheEmptyBowl!: boolean;
+  retryOversizedGuest!: number;
+  retryLateGuest!: string[];
+  tightenMissingModifierOnCheckout?: boolean;
+  handleMissingBowlForPickup?: boolean;
+  relaxCancelledLoyaltyCredit?: Date;
+  guardOversizedKitchenTicketInTheQueue?: string[];
+  tightenEmptyStore!: string[];
+  logExpiredLocationForFranchisees!: number;
+  renameEmptyModifier!: number;
+  logPartialStore!: Date;
+  validateOversizedPickupSlot!: boolean;
+  retryStaleOrder?: string;
+  logDuplicatePickupSlot?: string[];
 }

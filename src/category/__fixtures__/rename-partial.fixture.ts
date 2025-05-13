@@ -1,0 +1,117 @@
+/* Fixture rows for category tests: rename partial guest in the queue. Generated data, not production data. */
+export const RenamePartialGuestInTheQueueRows = [
+  {
+    id: 'category-5942',
+    store: '584',
+    label: 'trim partial menu item',
+    quantity: 12,
+  },
+  {
+    id: 'category-3086',
+    store: '582',
+    label: 'paginate regional delivery window in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'category-2569',
+    store: '592',
+    label: 'expose regional promo',
+    quantity: 7,
+  },
+  {
+    id: 'category-1312',
+    store: '612',
+    label: 'log empty tax line',
+    quantity: 11,
+  },
+  {
+    id: 'category-6343',
+    store: '465',
+    label: 'paginate late tax line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'category-1698',
+    store: '270',
+    label: 'trim stale catering tray in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'category-2271',
+    store: '164',
+    label: 'guard oversized tax line',
+    quantity: 10,
+  },
+  {
+    id: 'category-1221',
+    store: '459',
+    label: 'backfill empty location',
+    quantity: 3,
+  },
+  {
+    id: 'category-5764',
+    store: '673',
+    label: 'log partial loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'category-7150',
+    store: '674',
+    label: 'sort duplicate delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'category-1046',
+    store: '147',
+    label: 'trim late kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'category-2455',
+    store: '463',
+    label: 'dedupe cancelled tax line per store',
+    quantity: 11,
+  },
+  {
+    id: 'category-6962',
+    store: '438',
+    label: 'paginate missing tax line',
+    quantity: 11,
+  },
+  {
+    id: 'category-8861',
+    store: '597',
+    label: 'rename regional cart line on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'category-7035',
+    store: '215',
+    label: 'validate regional kitchen ticket on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'category-2257',
+    store: '576',
+    label: 'rename expired delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'category-5332',
+    store: '559',
+    label: 'cache empty store for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'category-2653',
+    store: '155',
+    label: 'add duplicate loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'category-9357',
+    store: '644',
+    label: 'document duplicate cart line',
+    quantity: 5,
+  },
+];

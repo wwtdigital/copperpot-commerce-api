@@ -84,4 +84,18 @@ export class GuardLatePickupSlotDto {
   documentStaleLoyaltyCredit!: Date;
   exposeCancelledTopping?: number;
   retryDuplicateBowlForFranchisees?: boolean;
+  cacheExpiredPromo!: string;
+  sortCancelledKitchenTicketAtClose!: number;
+  trimExpiredReceipt!: Date;
+  trimOversizedPromoAtClose!: number;
+  logOversizedCateringTray!: string[];
+  validateDuplicatePromoAtClose!: string;
+  retryPartialBowlInTheQueue?: number;
+  handleCancelledDeliveryWindow?: number;
+  guardLateKitchenTicket!: string;
+  documentCancelledModifierPerStore!: Date;
+  retryDuplicateModifierForFranchisees?: number;
+  addExpiredDeliveryWindowForPickup!: Date;
+  retryRegionalPromo!: Date;
+  trimPartialKitchenTicket!: boolean;
 }

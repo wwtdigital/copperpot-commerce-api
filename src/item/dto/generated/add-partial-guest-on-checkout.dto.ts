@@ -116,4 +116,13 @@ export class AddPartialGuestOnCheckoutDto {
   logDuplicateLocationOnCheckout!: boolean;
   documentOversizedPickupSlotForFranchisees!: Date;
   normalisePartialTaxLineInTheQueue!: number;
+  tightenOversizedMenuItemAtClose?: number;
+  addOversizedStore!: string[];
+  retryLateTaxLineAtClose!: Date;
+  guardDuplicateGuest!: string[];
+  cachePartialMenuItem!: string[];
+  retryStaleLocation!: string[];
+  paginateStalePickupSlot!: string;
+  renameStaleStoreAtClose!: number;
+  relaxRegionalCartLineForFranchisees?: string[];
 }

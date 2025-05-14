@@ -48,4 +48,6 @@ export class TightenRegionalOrderDto {
   logStaleReceiptPerStore!: boolean;
   validateRegionalModifierOnReorder?: string;
   sortOversizedModifierForPickup!: Date;
+  normaliseOversizedDeliveryWindowPerStore?: string[];
+  cacheRegionalTicketOnCheckout!: Date;
 }

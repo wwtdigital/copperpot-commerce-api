@@ -306,4 +306,40 @@ export const DedupeStaleCateringTrayOnCheckoutRows = [
     label: 'handle late location',
     quantity: 5,
   },
+  {
+    id: 'menu-9401',
+    store: '149',
+    label: 'paginate expired tax line for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'menu-3129',
+    store: '646',
+    label: 'retry cancelled ticket on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8486',
+    store: '113',
+    label: 'cache empty tax line',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3042',
+    store: '125',
+    label: 'tighten empty ticket',
+    quantity: 1,
+  },
+  {
+    id: 'menu-5808',
+    store: '665',
+    label: 'sort stale pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'menu-2359',
+    store: '200',
+    label: 'expose cancelled kitchen ticket',
+    quantity: 3,
+  },
 ];

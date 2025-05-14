@@ -79,3 +79,33 @@
 - paginate late bowl at close: open.
 - expose missing loyalty credit in the queue: open.
 - trim cancelled modifier: blocked on store systems.
+
+- relax late bowl: verified in staging.
+- rename partial order per store: deferred to the next release.
+- rename empty order: blocked on store systems.
+- guard missing pickup slot for pickup: owner: delivery manager.
+- backfill duplicate guest: blocked on store systems.
+- validate cancelled modifier: verified in staging.
+- cache cancelled tax line: open.
+- document stale loyalty credit: decided.
+- log partial pickup slot: verified in staging.
+- handle empty promo for franchisees: verified in staging.
+- handle late bowl: verified in staging.
+- relax regional promo: decided.
+- dedupe expired tax line: blocked on store systems.
+- normalise oversized guest: deferred to the next release.
+
+- validate empty topping for franchisees: open.
+- sort cancelled delivery window per store: verified in staging.
+- tighten expired order: deferred to the next release.
+- sort expired kitchen ticket: owner: delivery manager.
+- log regional loyalty credit in the queue: deferred to the next release.
+- document stale tax line: blocked on store systems.
+- retry late pickup slot: owner: delivery manager.
+- dedupe oversized modifier: open.
+- log empty catering tray: verified in staging.
+- dedupe oversized topping: verified in staging.
+- relax cancelled kitchen ticket on reorder: decided.
+- rename late store: blocked on store systems.
+- trim missing location for pickup: open.
+- tighten regional tax line: open.

@@ -1368,4 +1368,34 @@ export const RetryOversizedStoreRows = [
     label: 'normalise partial modifier',
     quantity: 7,
   },
+  {
+    id: 'location-7838',
+    store: '126',
+    label: 'rename late store',
+    quantity: 9,
+  },
+  {
+    id: 'location-5870',
+    store: '648',
+    label: 'rename missing kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'location-6799',
+    store: '653',
+    label: 'rename oversized store',
+    quantity: 9,
+  },
+  {
+    id: 'location-9499',
+    store: '338',
+    label: 'validate partial kitchen ticket on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'location-4067',
+    store: '276',
+    label: 'document oversized bowl',
+    quantity: 5,
+  },
 ];

@@ -24,4 +24,28 @@ export class TightenOversizedPromoDto {
   handleDuplicateMenuItem?: string;
   guardLateTaxLinePerStore!: string;
   normaliseMissingTaxLineOnCheckout!: boolean;
+  cacheMissingBowlForPickup!: number;
+  dedupeOversizedTaxLine!: string[];
+  logExpiredOrder!: string;
+  renameOversizedLocationForPickup!: string[];
+  trimCancelledLoyaltyCredit?: boolean;
+  exposeOversizedTaxLinePerStore!: Date;
+  trimStaleKitchenTicket?: string[];
+  documentRegionalMenuItemOnReorder!: string;
+  backfillDuplicateLocation!: string;
+  cacheOversizedMenuItem!: Date;
+  relaxLateBowl!: boolean;
+  normaliseStaleModifier!: number;
+  backfillEmptyKitchenTicketForFranchisees!: boolean;
+  dedupeCancelledStore?: string[];
+  renameDuplicatePickupSlot!: number;
+  guardPartialCateringTray!: string[];
+  dedupeCancelledCateringTray!: string[];
+  cacheDuplicateOrder!: string;
+  retryStaleLoyaltyCredit?: boolean;
+  trimOversizedModifier?: boolean;
+  documentExpiredPromo?: number;
+  normaliseStaleCateringTrayOnCheckout!: string[];
+  exposeOversizedLocationAtClose!: string[];
+  handleEmptyLocationForPickup!: Date;
 }

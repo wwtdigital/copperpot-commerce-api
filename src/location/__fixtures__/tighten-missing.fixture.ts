@@ -96,4 +96,10 @@ export const TightenMissingReceiptRows = [
     label: 'guard regional delivery window at close',
     quantity: 5,
   },
+  {
+    id: 'location-4555',
+    store: '551',
+    label: 'cache expired bowl',
+    quantity: 5,
+  },
 ];

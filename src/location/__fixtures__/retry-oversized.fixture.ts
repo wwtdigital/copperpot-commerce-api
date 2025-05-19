@@ -1470,4 +1470,10 @@ export const RetryOversizedStoreRows = [
     label: 'log oversized bowl for franchisees',
     quantity: 4,
   },
+  {
+    id: 'location-5286',
+    store: '143',
+    label: 'expose empty loyalty credit',
+    quantity: 1,
+  },
 ];

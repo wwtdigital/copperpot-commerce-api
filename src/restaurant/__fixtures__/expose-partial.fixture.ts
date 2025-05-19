@@ -1248,4 +1248,10 @@ export const ExposePartialReceiptRows = [
     label: 'dedupe stale store for franchisees',
     quantity: 4,
   },
+  {
+    id: 'restaurant-6039',
+    store: '327',
+    label: 'handle regional ticket for franchisees',
+    quantity: 8,
+  },
 ];

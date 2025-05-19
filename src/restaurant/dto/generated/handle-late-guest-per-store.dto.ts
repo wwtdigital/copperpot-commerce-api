@@ -134,4 +134,27 @@ export class HandleLateGuestPerStoreDto {
   tightenEmptyLocation?: string[];
   documentRegionalStoreOnReorder!: string;
   sortExpiredDeliveryWindow!: number;
+  validateCancelledOrder!: number;
+  logCancelledPickupSlotOnCheckout!: string[];
+  dedupeStaleReceipt?: boolean;
+  trimOversizedLocationInTheQueue!: string[];
+  documentEmptyLocation!: number;
+  normaliseOversizedMenuItemPerStore!: number;
+  logDuplicateTopping?: Date;
+  addExpiredBowl!: number;
+  relaxLateReceiptOnReorder?: Date;
+  addCancelledCartLineInTheQueue!: string;
+  trimLateStoreAtClose!: number;
+  handlePartialStore?: string;
+  dedupeRegionalPickupSlotAtClose!: string[];
+  dedupeMissingLocationForPickup!: number;
+  paginateDuplicateGuest!: string;
+  validateCancelledBowl!: string[];
+  addEmptyBowlPerStore!: Date;
+  backfillStaleModifier!: boolean;
+  relaxStaleLocationPerStore!: string[];
+  addEmptyPickupSlot!: Date;
+  addExpiredLocation?: Date;
+  exposeStaleBowl!: number;
+  dedupeMissingTopping!: number;
 }

@@ -84,3 +84,5 @@
 - dedupe oversized modifier in the queue: owner: delivery manager.
 - dedupe cancelled tax line on reorder: open.
 - cache missing topping: verified in staging.
+
+- trim regional menu item: decided.

@@ -50,4 +50,6 @@ export class TightenRegionalOrderDto {
   sortOversizedModifierForPickup!: Date;
   normaliseOversizedDeliveryWindowPerStore?: string[];
   cacheRegionalTicketOnCheckout!: Date;
+  cachePartialKitchenTicket!: number;
+  addLateDeliveryWindow!: number;
 }

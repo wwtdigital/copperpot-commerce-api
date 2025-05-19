@@ -138,3 +138,18 @@
 - guard empty guest: owner: delivery manager.
 - document empty loyalty credit: blocked on store systems.
 - cache late location: blocked on store systems.
+
+- normalise partial topping: deferred to the next release.
+- expose empty loyalty credit: blocked on store systems.
+- guard regional delivery window for franchisees: open.
+- rename partial pickup slot: decided.
+- dedupe expired menu item: deferred to the next release.
+- guard stale promo: decided.
+- retry partial topping per store: blocked on store systems.
+- paginate late ticket: open.
+- retry expired location: verified in staging.
+- backfill regional bowl: verified in staging.
+- log late guest: decided.
+- dedupe missing store: open.
+- expose cancelled tax line: verified in staging.
+- relax missing guest: decided.

@@ -342,4 +342,40 @@ export const DedupeStaleCateringTrayOnCheckoutRows = [
     label: 'expose cancelled kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'menu-1073',
+    store: '350',
+    label: 'paginate stale menu item',
+    quantity: 1,
+  },
+  {
+    id: 'menu-2822',
+    store: '649',
+    label: 'log stale order for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'menu-8814',
+    store: '125',
+    label: 'relax partial location',
+    quantity: 8,
+  },
+  {
+    id: 'menu-9813',
+    store: '277',
+    label: 'sort regional receipt for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'menu-8201',
+    store: '312',
+    label: 'relax late location',
+    quantity: 6,
+  },
+  {
+    id: 'menu-3233',
+    store: '363',
+    label: 'validate late receipt per store',
+    quantity: 1,
+  },
 ];

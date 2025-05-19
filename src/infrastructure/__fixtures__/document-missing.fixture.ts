@@ -1,0 +1,105 @@
+/* Fixture rows for infrastructure tests: document missing delivery window. Generated data, not production data. */
+export const DocumentMissingDeliveryWindowRows = [
+  {
+    id: 'infrastructure-2099',
+    store: '412',
+    label: 'retry duplicate menu item',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-8009',
+    store: '390',
+    label: 'dedupe late ticket',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-9096',
+    store: '445',
+    label: 'sort stale promo for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-8565',
+    store: '180',
+    label: 'handle expired loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-3202',
+    store: '150',
+    label: 'log cancelled loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-5882',
+    store: '276',
+    label: 'paginate expired delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-3351',
+    store: '251',
+    label: 'expose regional modifier on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-4090',
+    store: '379',
+    label: 'backfill regional location per store',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-4540',
+    store: '320',
+    label: 'add expired ticket',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-4059',
+    store: '102',
+    label: 'paginate missing order on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-5251',
+    store: '535',
+    label: 'sort empty guest',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-5535',
+    store: '575',
+    label: 'log regional modifier on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-8063',
+    store: '387',
+    label: 'normalise empty loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-5072',
+    store: '243',
+    label: 'tighten duplicate receipt at close',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-8222',
+    store: '535',
+    label: 'log expired kitchen ticket for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-7889',
+    store: '640',
+    label: 'paginate partial receipt',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-2638',
+    store: '172',
+    label: 'tighten regional guest',
+    quantity: 7,
+  },
+];

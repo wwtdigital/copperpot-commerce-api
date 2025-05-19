@@ -86,3 +86,22 @@
 - cache missing topping: verified in staging.
 
 - trim regional menu item: decided.
+
+- relax empty delivery window: decided.
+- cache duplicate receipt: blocked on store systems.
+- guard empty ticket per store: deferred to the next release.
+- validate oversized ticket: open.
+- validate stale store: open.
+- expose empty kitchen ticket: decided.
+- retry partial receipt: owner: delivery manager.
+- document empty cart line: blocked on store systems.
+- log expired order for pickup: deferred to the next release.
+- paginate duplicate delivery window: decided.
+- add partial location: blocked on store systems.
+- dedupe cancelled menu item: open.
+- normalise regional topping: decided.
+- document stale guest in the queue: owner: delivery manager.
+
+- rename empty order: verified in staging.
+- guard partial delivery window: open.
+- log duplicate topping: owner: delivery manager.

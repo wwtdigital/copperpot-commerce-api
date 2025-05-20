@@ -276,4 +276,52 @@ export const RenameMissingLocationPerStoreRows = [
     label: 'dedupe oversized menu item on reorder',
     quantity: 2,
   },
+  {
+    id: 'order-1440',
+    store: '247',
+    label: 'guard expired ticket',
+    quantity: 8,
+  },
+  {
+    id: 'order-2804',
+    store: '261',
+    label: 'cache regional delivery window on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'order-1103',
+    store: '696',
+    label: 'sort stale promo',
+    quantity: 11,
+  },
+  {
+    id: 'order-7719',
+    store: '616',
+    label: 'normalise regional cart line',
+    quantity: 9,
+  },
+  {
+    id: 'order-2817',
+    store: '160',
+    label: 'normalise regional pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'order-5319',
+    store: '476',
+    label: 'log missing delivery window per store',
+    quantity: 8,
+  },
+  {
+    id: 'order-6897',
+    store: '688',
+    label: 'paginate stale tax line',
+    quantity: 3,
+  },
+  {
+    id: 'order-7366',
+    store: '350',
+    label: 'retry missing pickup slot',
+    quantity: 5,
+  },
 ];

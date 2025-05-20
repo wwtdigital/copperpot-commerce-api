@@ -156,4 +156,26 @@ export class ExposeLateToppingDto {
   tightenExpiredGuestForFranchisees!: number;
   trimDuplicateGuestForPickup!: string;
   documentLateMenuItemForPickup!: string;
+  guardMissingPromoOnCheckout?: boolean;
+  logOversizedTicketOnReorder!: number;
+  cacheCancelledCateringTray!: string;
+  retryEmptyDeliveryWindow!: boolean;
+  paginatePartialKitchenTicketPerStore?: string[];
+  sortPartialModifier!: Date;
+  retryMissingLocation!: string;
+  tightenDuplicateCartLineAtClose!: string;
+  renameEmptyTopping!: string[];
+  addStaleTopping!: string[];
+  exposeEmptyTaxLinePerStore!: boolean;
+  sortStaleLocation!: Date;
+  cacheMissingTicket!: string[];
+  sortStaleModifierForFranchisees!: Date;
+  tightenRegionalMenuItemOnCheckout!: string[];
+  backfillStaleCartLineForPickup?: Date;
+  dedupeEmptyReceipt?: Date;
+  tightenStaleLoyaltyCredit!: string[];
+  dedupeEmptyLocation!: string[];
+  cacheOversizedMenuItemPerStore!: number;
+  handleLatePromo!: string[];
+  backfillOversizedLoyaltyCredit!: Date;
 }

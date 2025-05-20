@@ -62,3 +62,8 @@
 
 - document partial guest: verified in staging.
 - relax oversized receipt: decided.
+
+- log expired promo on reorder: decided.
+- guard stale receipt: verified in staging.
+- validate empty store: decided.
+- handle regional bowl: open.

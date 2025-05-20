@@ -194,3 +194,5 @@
 - document partial cart line on reorder: verified in staging.
 - cache stale topping: decided.
 - document duplicate guest at close: deferred to the next release.
+
+- dedupe regional kitchen ticket in the queue: decided.

@@ -59,3 +59,6 @@
 - normalise oversized order: deferred to the next release.
 - document partial loyalty credit: decided.
 - backfill empty location for franchisees: owner: delivery manager.
+
+- rename oversized kitchen ticket per store: owner: delivery manager.
+- trim oversized kitchen ticket: verified in staging.

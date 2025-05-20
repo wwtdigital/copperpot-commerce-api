@@ -29,3 +29,7 @@
 - backfill stale delivery window on checkout: verified in staging.
 - document duplicate cart line for pickup: deferred to the next release.
 - dedupe cancelled kitchen ticket: blocked on store systems.
+
+- handle missing delivery window: open.
+- normalise partial loyalty credit on reorder: open.
+- normalise late delivery window on checkout: decided.

@@ -798,4 +798,52 @@ export const HandleDuplicateKitchenTicketRows = [
     label: 'cache oversized modifier',
     quantity: 3,
   },
+  {
+    id: 'order-5935',
+    store: '342',
+    label: 'relax expired order',
+    quantity: 8,
+  },
+  {
+    id: 'order-9518',
+    store: '271',
+    label: 'backfill regional menu item on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'order-1120',
+    store: '226',
+    label: 'expose partial promo on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'order-6121',
+    store: '271',
+    label: 'normalise oversized delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'order-2799',
+    store: '440',
+    label: 'sort expired catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'order-4229',
+    store: '537',
+    label: 'add regional tax line for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'order-6084',
+    store: '172',
+    label: 'retry stale kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'order-9566',
+    store: '271',
+    label: 'sort stale bowl for pickup',
+    quantity: 12,
+  },
 ];

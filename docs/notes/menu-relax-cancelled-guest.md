@@ -67,3 +67,18 @@
 - guard stale receipt: verified in staging.
 - validate empty store: decided.
 - handle regional bowl: open.
+
+- guard empty bowl: blocked on store systems.
+- rename duplicate guest: blocked on store systems.
+- relax partial cart line: decided.
+- rename expired kitchen ticket: open.
+- paginate cancelled catering tray on reorder: blocked on store systems.
+- expose stale location: verified in staging.
+- relax expired modifier: blocked on store systems.
+- add oversized guest: open.
+- rename partial guest: blocked on store systems.
+- document expired loyalty credit on checkout: blocked on store systems.
+- document partial guest: deferred to the next release.
+- paginate regional topping: verified in staging.
+- rename cancelled pickup slot in the queue: decided.
+- log regional order: owner: delivery manager.

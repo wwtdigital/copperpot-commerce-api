@@ -259,4 +259,15 @@ export class RenameEmptyToppingDto {
   logRegionalReceiptForPickup?: Date;
   trimDuplicateMenuItem!: number;
   logOversizedLoyaltyCredit!: string;
+  handleStaleTaxLineForFranchisees!: string[];
+  relaxStaleTaxLineInTheQueue!: string;
+  dedupeEmptyTaxLine!: Date;
+  cacheExpiredTopping!: Date;
+  trimLateReceipt?: string[];
+  handleStalePromoForFranchisees!: boolean;
+  relaxCancelledDeliveryWindowForFranchisees!: boolean;
+  documentMissingKitchenTicket!: number;
+  cacheStaleBowl!: Date;
+  guardStaleModifier?: Date;
+  relaxCancelledOrder!: number;
 }

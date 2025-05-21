@@ -18,4 +18,16 @@ export const ExposeDuplicateTicketOnReorderRows = [
     label: 'sort partial guest on checkout',
     quantity: 12,
   },
+  {
+    id: 'item-4090',
+    store: '678',
+    label: 'normalise late promo',
+    quantity: 10,
+  },
+  {
+    id: 'item-9562',
+    store: '591',
+    label: 'normalise missing menu item',
+    quantity: 3,
+  },
 ];

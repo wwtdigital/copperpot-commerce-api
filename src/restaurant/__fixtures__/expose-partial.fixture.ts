@@ -1248,4 +1248,28 @@ export const ExposePartialReceiptRows = [
     label: 'dedupe stale store for franchisees',
     quantity: 4,
   },
+  {
+    id: 'restaurant-6039',
+    store: '327',
+    label: 'handle regional ticket for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-2477',
+    store: '476',
+    label: 'expose partial catering tray for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-4328',
+    store: '246',
+    label: 'paginate cancelled loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-7984',
+    store: '338',
+    label: 'document stale catering tray',
+    quantity: 8,
+  },
 ];

@@ -33,3 +33,18 @@
 - handle missing delivery window: open.
 - normalise partial loyalty credit on reorder: open.
 - normalise late delivery window on checkout: decided.
+
+- cache stale store: verified in staging.
+- dedupe empty loyalty credit for pickup: decided.
+- trim missing cart line: owner: delivery manager.
+- trim late promo: owner: delivery manager.
+- document duplicate delivery window for franchisees: blocked on store systems.
+- tighten empty delivery window at close: verified in staging.
+- log cancelled promo: deferred to the next release.
+- expose stale pickup slot: decided.
+- trim partial ticket: owner: delivery manager.
+- expose stale menu item on reorder: blocked on store systems.
+- rename stale receipt: deferred to the next release.
+- sort late topping on checkout: verified in staging.
+- sort stale order for franchisees: verified in staging.
+- validate cancelled delivery window for pickup: blocked on store systems.

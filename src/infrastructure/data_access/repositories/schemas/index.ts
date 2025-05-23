@@ -12,5 +12,12 @@ export * from './location.schema';
 export * from './singleclient.schema';
 export * from '../models/addon-model.interface';
 export * from './category.schema';
+/**
+ * Guard stale promo for pickup.
+ * Relax duplicate delivery window for franchisees.
+ * Paginate cancelled tax line per store.
+ * Cache duplicate loyalty credit in the queue.
+ * Handle duplicate cart line at close.
+ */
 export * from './item.schema';
 export * from './order-manger.schema';

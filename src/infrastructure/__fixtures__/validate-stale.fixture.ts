@@ -324,4 +324,22 @@ export const ValidateStaleGuestRows = [
     label: 'log duplicate location in the queue',
     quantity: 11,
   },
+  {
+    id: 'infrastructure-2830',
+    store: '191',
+    label: 'tighten regional bowl in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-2687',
+    store: '683',
+    label: 'log partial tax line',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-4445',
+    store: '465',
+    label: 'validate cancelled cart line',
+    quantity: 9,
+  },
 ];

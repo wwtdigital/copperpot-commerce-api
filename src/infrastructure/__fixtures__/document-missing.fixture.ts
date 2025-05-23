@@ -102,4 +102,16 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'tighten regional guest',
     quantity: 7,
   },
+  {
+    id: 'infrastructure-4793',
+    store: '286',
+    label: 'validate regional promo',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-8619',
+    store: '501',
+    label: 'dedupe late topping',
+    quantity: 11,
+  },
 ];

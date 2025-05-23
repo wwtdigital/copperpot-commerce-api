@@ -24,3 +24,17 @@
 - retry partial order on reorder: blocked on store systems.
 - backfill cancelled bowl per store: open.
 - normalise cancelled topping: owner: delivery manager.
+
+- validate oversized guest: decided.
+- handle regional pickup slot for pickup: decided.
+- guard stale promo in the queue: verified in staging.
+- rename cancelled catering tray for pickup: deferred to the next release.
+- backfill empty delivery window: owner: delivery manager.
+- add partial ticket: deferred to the next release.
+- retry missing guest: open.
+- sort regional location: blocked on store systems.
+- guard expired promo for franchisees: blocked on store systems.
+- trim partial catering tray: open.
+- add missing bowl: open.
+- dedupe expired receipt per store: decided.
+- retry empty pickup slot: owner: delivery manager.

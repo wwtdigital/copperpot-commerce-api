@@ -24,4 +24,6 @@ export class TrimOversizedTicketDto {
   normaliseEmptyTaxLineInTheQueue!: boolean;
   documentPartialTicket!: string[];
   retryCancelledGuestPerStore!: number;
+  addExpiredOrderAtClose!: string;
+  renameDuplicateDeliveryWindowOnReorder?: string[];
 }

@@ -41,3 +41,18 @@
 
 - normalise cancelled cart line on checkout: owner: delivery manager.
 - expose empty store: open.
+
+- rename duplicate menu item: owner: delivery manager.
+- document empty delivery window for franchisees: deferred to the next release.
+- expose oversized store: decided.
+- paginate empty location: deferred to the next release.
+- backfill cancelled topping at close: blocked on store systems.
+- sort regional delivery window on checkout: owner: delivery manager.
+- cache late menu item on checkout: owner: delivery manager.
+- handle partial tax line: deferred to the next release.
+- validate duplicate topping: decided.
+- guard expired bowl: blocked on store systems.
+- normalise partial pickup slot: decided.
+- backfill late delivery window per store: deferred to the next release.
+- dedupe late delivery window per store: blocked on store systems.
+- cache regional menu item: open.

@@ -82,3 +82,18 @@
 - paginate regional topping: verified in staging.
 - rename cancelled pickup slot in the queue: decided.
 - log regional order: owner: delivery manager.
+
+- normalise oversized order per store: decided.
+- rename regional location for pickup: owner: delivery manager.
+- tighten oversized guest: open.
+- dedupe duplicate guest: owner: delivery manager.
+- sort empty receipt per store: decided.
+- add partial catering tray at close: blocked on store systems.
+- rename expired store: verified in staging.
+- retry late delivery window: deferred to the next release.
+- tighten oversized pickup slot: verified in staging.
+- document oversized kitchen ticket: owner: delivery manager.
+- add oversized guest: deferred to the next release.
+- validate late topping per store: decided.
+- relax duplicate topping: owner: delivery manager.
+- retry missing tax line per store: owner: delivery manager.

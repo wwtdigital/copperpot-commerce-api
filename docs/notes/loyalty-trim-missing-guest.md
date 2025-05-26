@@ -64,3 +64,33 @@
 - tighten partial tax line: owner: delivery manager.
 - tighten cancelled bowl: verified in staging.
 - cache partial cart line: decided.
+
+- rename expired catering tray: open.
+- tighten partial kitchen ticket in the queue: blocked on store systems.
+- add empty topping per store: blocked on store systems.
+- guard empty promo for pickup: blocked on store systems.
+- cache missing menu item in the queue: owner: delivery manager.
+- relax missing bowl: verified in staging.
+- handle empty delivery window for pickup: owner: delivery manager.
+- rename regional store: verified in staging.
+- validate duplicate store: blocked on store systems.
+- dedupe regional order: owner: delivery manager.
+- relax duplicate catering tray: blocked on store systems.
+- dedupe regional menu item: blocked on store systems.
+- cache oversized store at close: owner: delivery manager.
+- dedupe stale location: verified in staging.
+
+- guard expired topping: blocked on store systems.
+- backfill cancelled topping on checkout: blocked on store systems.
+- tighten empty menu item: verified in staging.
+- document oversized tax line: deferred to the next release.
+- handle expired ticket: verified in staging.
+- document late ticket for franchisees: verified in staging.
+- expose expired topping: verified in staging.
+- retry empty guest: owner: delivery manager.
+- dedupe empty location: open.
+- rename regional modifier on checkout: open.
+- relax duplicate topping in the queue: open.
+- normalise duplicate store: open.
+- sort missing loyalty credit for franchisees: blocked on store systems.
+- add oversized promo: owner: delivery manager.

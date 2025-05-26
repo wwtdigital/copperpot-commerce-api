@@ -78,4 +78,34 @@ export const HandleCancelledPromoRows = [
     label: 'retry partial catering tray on checkout',
     quantity: 12,
   },
+  {
+    id: 'addon-5346',
+    store: '683',
+    label: 'sort empty receipt',
+    quantity: 11,
+  },
+  {
+    id: 'addon-1729',
+    store: '277',
+    label: 'backfill regional promo on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'addon-3480',
+    store: '687',
+    label: 'dedupe duplicate tax line',
+    quantity: 10,
+  },
+  {
+    id: 'addon-5959',
+    store: '138',
+    label: 'relax partial ticket',
+    quantity: 3,
+  },
+  {
+    id: 'addon-1259',
+    store: '438',
+    label: 'log partial store in the queue',
+    quantity: 3,
+  },
 ];

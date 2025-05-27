@@ -108,4 +108,34 @@ export const HandleCancelledPromoRows = [
     label: 'log partial store in the queue',
     quantity: 3,
   },
+  {
+    id: 'addon-1192',
+    store: '375',
+    label: 'dedupe stale bowl',
+    quantity: 11,
+  },
+  {
+    id: 'addon-7742',
+    store: '293',
+    label: 'retry stale modifier at close',
+    quantity: 5,
+  },
+  {
+    id: 'addon-6416',
+    store: '295',
+    label: 'rename regional tax line',
+    quantity: 7,
+  },
+  {
+    id: 'addon-4182',
+    store: '644',
+    label: 'tighten expired ticket',
+    quantity: 10,
+  },
+  {
+    id: 'addon-5124',
+    store: '104',
+    label: 'retry duplicate cart line',
+    quantity: 6,
+  },
 ];

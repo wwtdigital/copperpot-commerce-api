@@ -109,3 +109,18 @@
 - rename late store: blocked on store systems.
 - trim missing location for pickup: open.
 - tighten regional tax line: open.
+
+- rename expired topping: owner: delivery manager.
+- paginate empty order for franchisees: open.
+- expose oversized modifier: decided.
+- handle missing location: blocked on store systems.
+- document stale location for pickup: open.
+- guard duplicate ticket: decided.
+- normalise cancelled loyalty credit: owner: delivery manager.
+- trim expired cart line: deferred to the next release.
+- validate missing delivery window for pickup: verified in staging.
+- cache missing promo: verified in staging.
+- validate partial store per store: deferred to the next release.
+- validate partial pickup slot: owner: delivery manager.
+- log partial kitchen ticket in the queue: verified in staging.
+- rename oversized order: blocked on store systems.

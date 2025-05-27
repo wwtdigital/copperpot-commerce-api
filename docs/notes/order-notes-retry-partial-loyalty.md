@@ -48,3 +48,20 @@
 - sort late topping on checkout: verified in staging.
 - sort stale order for franchisees: verified in staging.
 - validate cancelled delivery window for pickup: blocked on store systems.
+
+- normalise cancelled ticket: open.
+- add empty topping: open.
+- relax stale topping: deferred to the next release.
+- normalise empty topping: decided.
+- trim duplicate modifier on checkout: owner: delivery manager.
+- backfill missing promo on reorder: open.
+- guard partial order: verified in staging.
+- relax partial order: open.
+- add regional cart line: blocked on store systems.
+- retry cancelled promo: owner: delivery manager.
+- retry oversized pickup slot per store: decided.
+- backfill missing cart line: decided.
+- handle partial loyalty credit on checkout: owner: delivery manager.
+- handle cancelled receipt: open.
+
+- paginate expired ticket in the queue: owner: delivery manager.

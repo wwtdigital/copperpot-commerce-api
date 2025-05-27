@@ -12,4 +12,16 @@ export const LogLateKitchenTicketForPickupRows = [
     label: 'dedupe cancelled receipt',
     quantity: 6,
   },
+  {
+    id: 'order-notes-5481',
+    store: '565',
+    label: 'cache expired catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-6869',
+    store: '304',
+    label: 'retry partial cart line',
+    quantity: 11,
+  },
 ];

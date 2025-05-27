@@ -30,4 +30,22 @@ export const ExposeDuplicateTicketOnReorderRows = [
     label: 'normalise missing menu item',
     quantity: 3,
   },
+  {
+    id: 'item-6521',
+    store: '198',
+    label: 'log expired delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'item-2665',
+    store: '657',
+    label: 'tighten cancelled guest for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'item-6757',
+    store: '302',
+    label: 'expose late store',
+    quantity: 9,
+  },
 ];

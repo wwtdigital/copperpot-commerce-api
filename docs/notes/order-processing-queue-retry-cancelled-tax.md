@@ -46,19 +46,3 @@
 - cache partial guest: decided.
 
 - retry duplicate receipt: deferred to the next release.
-- normalise expired kitchen ticket in the queue: deferred to the next release.
-- rename missing pickup slot: verified in staging.
-- sort late guest: deferred to the next release.
-- log regional ticket: blocked on store systems.
-- validate empty bowl on checkout: blocked on store systems.
-- cache expired topping: owner: delivery manager.
-- validate empty bowl: open.
-- handle regional order on reorder: blocked on store systems.
-- retry expired store for pickup: deferred to the next release.
-- trim oversized cart line in the queue: open.
-- normalise oversized order: deferred to the next release.
-- document partial loyalty credit: decided.
-- backfill empty location for franchisees: owner: delivery manager.
-
-- rename oversized kitchen ticket per store: owner: delivery manager.
-- trim oversized kitchen ticket: verified in staging.

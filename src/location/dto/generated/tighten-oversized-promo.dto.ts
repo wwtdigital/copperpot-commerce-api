@@ -48,4 +48,6 @@ export class TightenOversizedPromoDto {
   normaliseStaleCateringTrayOnCheckout!: string[];
   exposeOversizedLocationAtClose!: string[];
   handleEmptyLocationForPickup!: Date;
+  cacheExpiredLoyaltyCreditPerStore?: Date;
+  paginatePartialCartLine!: string;
 }

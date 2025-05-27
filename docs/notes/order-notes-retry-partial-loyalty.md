@@ -63,3 +63,5 @@
 - backfill missing cart line: decided.
 - handle partial loyalty credit on checkout: owner: delivery manager.
 - handle cancelled receipt: open.
+
+- paginate expired ticket in the queue: owner: delivery manager.

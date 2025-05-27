@@ -1968,4 +1968,58 @@ export const NormaliseStaleCateringTrayRows = [
     label: 'paginate missing ticket',
     quantity: 2,
   },
+  {
+    id: 'order-notes-2977',
+    store: '431',
+    label: 'document late modifier',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-5648',
+    store: '382',
+    label: 'paginate partial modifier',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-2268',
+    store: '250',
+    label: 'add empty menu item in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-6597',
+    store: '682',
+    label: 'guard expired order',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-1044',
+    store: '629',
+    label: 'trim oversized modifier',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-7453',
+    store: '230',
+    label: 'rename cancelled guest',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-1766',
+    store: '256',
+    label: 'add empty delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-7026',
+    store: '500',
+    label: 'normalise regional topping',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-5209',
+    store: '370',
+    label: 'backfill duplicate ticket per store',
+    quantity: 9,
+  },
 ];

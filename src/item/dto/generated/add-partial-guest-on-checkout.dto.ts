@@ -125,4 +125,6 @@ export class AddPartialGuestOnCheckoutDto {
   paginateStalePickupSlot!: string;
   renameStaleStoreAtClose!: number;
   relaxRegionalCartLineForFranchisees?: string[];
+  paginateCancelledStoreAtClose?: boolean;
+  documentStaleModifier!: string[];
 }

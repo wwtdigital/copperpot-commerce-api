@@ -37,3 +37,8 @@
 - backfill late loyalty credit: deferred to the next release.
 - relax missing receipt: open.
 - handle cancelled promo: decided.
+
+- log partial pickup slot: decided.
+- paginate regional guest: open.
+- add stale ticket: blocked on store systems.
+- dedupe cancelled ticket: deferred to the next release.

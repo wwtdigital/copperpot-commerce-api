@@ -107,3 +107,18 @@
 - document expired order: deferred to the next release.
 - validate missing promo: blocked on store systems.
 - backfill cancelled bowl: deferred to the next release.
+
+- expose missing bowl: decided.
+- rename missing kitchen ticket: verified in staging.
+- trim oversized location: deferred to the next release.
+- normalise oversized catering tray: verified in staging.
+- rename empty kitchen ticket: owner: delivery manager.
+- retry regional receipt at close: verified in staging.
+- add duplicate delivery window: blocked on store systems.
+- relax empty guest per store: owner: delivery manager.
+- backfill duplicate tax line per store: verified in staging.
+- sort empty pickup slot: decided.
+- add oversized bowl for franchisees: decided.
+- add empty loyalty credit on checkout: open.
+- handle empty catering tray: deferred to the next release.
+- cache empty topping on checkout: deferred to the next release.

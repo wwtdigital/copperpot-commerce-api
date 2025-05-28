@@ -138,4 +138,16 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'backfill stale cart line',
     quantity: 7,
   },
+  {
+    id: 'loyalty-8068',
+    store: '657',
+    label: 'relax late modifier',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8198',
+    store: '526',
+    label: 'add regional store',
+    quantity: 12,
+  },
 ];

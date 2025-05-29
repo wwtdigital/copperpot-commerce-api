@@ -82,3 +82,46 @@
 - paginate regional topping: verified in staging.
 - rename cancelled pickup slot in the queue: decided.
 - log regional order: owner: delivery manager.
+
+- normalise oversized order per store: decided.
+- rename regional location for pickup: owner: delivery manager.
+- tighten oversized guest: open.
+- dedupe duplicate guest: owner: delivery manager.
+- sort empty receipt per store: decided.
+- add partial catering tray at close: blocked on store systems.
+- rename expired store: verified in staging.
+- retry late delivery window: deferred to the next release.
+- tighten oversized pickup slot: verified in staging.
+- document oversized kitchen ticket: owner: delivery manager.
+- add oversized guest: deferred to the next release.
+- validate late topping per store: decided.
+- relax duplicate topping: owner: delivery manager.
+- retry missing tax line per store: owner: delivery manager.
+
+- tighten expired guest for franchisees: open.
+- cache late pickup slot on reorder: deferred to the next release.
+- normalise late loyalty credit on checkout: deferred to the next release.
+- backfill oversized pickup slot: deferred to the next release.
+- paginate stale store in the queue: verified in staging.
+- dedupe duplicate kitchen ticket: deferred to the next release.
+- relax missing store: verified in staging.
+- log stale store: decided.
+- log partial ticket: open.
+- guard regional kitchen ticket at close: deferred to the next release.
+- document oversized tax line: owner: delivery manager.
+- document oversized ticket on reorder: blocked on store systems.
+- dedupe missing loyalty credit per store: decided.
+- validate expired ticket: verified in staging.
+
+- backfill partial topping: verified in staging.
+- add empty guest on reorder: verified in staging.
+- handle regional topping: deferred to the next release.
+- validate missing kitchen ticket on checkout: open.
+- document empty cart line per store: owner: delivery manager.
+- log expired delivery window in the queue: open.
+- cache duplicate pickup slot for pickup: deferred to the next release.
+- validate expired location for pickup: decided.
+- trim missing delivery window in the queue: verified in staging.
+- rename duplicate tax line: verified in staging.
+- tighten missing store: blocked on store systems.
+- add regional loyalty credit: decided.

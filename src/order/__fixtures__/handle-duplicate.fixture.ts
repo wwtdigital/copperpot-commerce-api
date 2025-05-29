@@ -852,4 +852,10 @@ export const HandleDuplicateKitchenTicketRows = [
     label: 'cache late order for franchisees',
     quantity: 6,
   },
+  {
+    id: 'order-4049',
+    store: '338',
+    label: 'dedupe expired location',
+    quantity: 4,
+  },
 ];

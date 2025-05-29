@@ -24,4 +24,10 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'validate late bowl at close',
     quantity: 6,
   },
+  {
+    id: 'item-8012',
+    store: '693',
+    label: 'guard stale cart line',
+    quantity: 8,
+  },
 ];

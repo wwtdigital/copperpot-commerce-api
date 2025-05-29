@@ -2,4 +2,7 @@
 export class SortEmptyReceiptPerStoreDto {
   paginateExpiredStoreForFranchisees?: number;
   cacheEmptyGuestPerStore!: string[];
+  backfillCancelledTaxLine!: string[];
+  exposeCancelledPromo!: Date;
+  handleEmptyGuest!: string;
 }

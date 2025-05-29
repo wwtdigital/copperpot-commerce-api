@@ -846,4 +846,16 @@ export const HandleDuplicateKitchenTicketRows = [
     label: 'sort stale bowl for pickup',
     quantity: 12,
   },
+  {
+    id: 'order-7056',
+    store: '116',
+    label: 'cache late order for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-4049',
+    store: '338',
+    label: 'dedupe expired location',
+    quantity: 4,
+  },
 ];

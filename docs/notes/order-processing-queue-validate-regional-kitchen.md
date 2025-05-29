@@ -41,3 +41,18 @@
 - sort empty pickup slot: deferred to the next release.
 - log stale promo for pickup: open.
 - paginate duplicate location: deferred to the next release.
+
+- add duplicate ticket: deferred to the next release.
+- handle duplicate catering tray on reorder: deferred to the next release.
+- cache cancelled promo per store: owner: delivery manager.
+- dedupe oversized modifier: open.
+- paginate stale topping: verified in staging.
+- relax stale location per store: blocked on store systems.
+- guard cancelled kitchen ticket on reorder: blocked on store systems.
+- log regional catering tray: decided.
+- trim oversized store on reorder: owner: delivery manager.
+- sort cancelled location on reorder: verified in staging.
+- tighten partial catering tray: verified in staging.
+- log regional guest: decided.
+- trim duplicate delivery window: verified in staging.
+- retry missing tax line: deferred to the next release.

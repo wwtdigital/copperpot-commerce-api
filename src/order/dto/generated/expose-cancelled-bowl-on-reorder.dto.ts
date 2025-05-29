@@ -96,4 +96,11 @@ export class ExposeCancelledBowlOnReorderDto {
   addPartialModifier?: boolean;
   retryPartialLocationOnReorder!: Date;
   dedupeMissingModifierInTheQueue?: string;
+  normaliseExpiredBowlOnReorder?: string;
+  tightenOversizedModifierForFranchisees!: boolean;
+  sortExpiredTopping?: Date;
+  logDuplicateTaxLine!: Date;
+  addRegionalBowl!: string[];
+  documentRegionalCateringTray!: boolean;
+  paginateExpiredKitchenTicket!: Date;
 }

@@ -204,4 +204,40 @@ export const HandleCancelledPromoRows = [
     label: 'relax late receipt',
     quantity: 7,
   },
+  {
+    id: 'addon-5428',
+    store: '448',
+    label: 'dedupe empty menu item for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'addon-8007',
+    store: '638',
+    label: 'add oversized bowl',
+    quantity: 7,
+  },
+  {
+    id: 'addon-6473',
+    store: '259',
+    label: 'cache duplicate store',
+    quantity: 3,
+  },
+  {
+    id: 'addon-9053',
+    store: '222',
+    label: 'paginate duplicate ticket',
+    quantity: 10,
+  },
+  {
+    id: 'addon-1770',
+    store: '653',
+    label: 'trim empty receipt in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'addon-1260',
+    store: '382',
+    label: 'cache stale guest',
+    quantity: 12,
+  },
 ];

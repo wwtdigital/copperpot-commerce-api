@@ -384,4 +384,40 @@ export const RenameMissingLocationPerStoreRows = [
     label: 'expose expired store',
     quantity: 7,
   },
+  {
+    id: 'order-2379',
+    store: '293',
+    label: 'sort stale menu item',
+    quantity: 2,
+  },
+  {
+    id: 'order-2200',
+    store: '286',
+    label: 'backfill expired loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'order-3017',
+    store: '371',
+    label: 'guard stale promo',
+    quantity: 5,
+  },
+  {
+    id: 'order-6447',
+    store: '480',
+    label: 'backfill missing receipt per store',
+    quantity: 11,
+  },
+  {
+    id: 'order-6770',
+    store: '244',
+    label: 'guard stale bowl',
+    quantity: 12,
+  },
+  {
+    id: 'order-2589',
+    store: '403',
+    label: 'paginate late receipt',
+    quantity: 12,
+  },
 ];

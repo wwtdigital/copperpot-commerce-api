@@ -378,4 +378,28 @@ export const DedupeStaleCateringTrayOnCheckoutRows = [
     label: 'validate late receipt per store',
     quantity: 1,
   },
+  {
+    id: 'menu-8774',
+    store: '330',
+    label: 'handle late topping',
+    quantity: 1,
+  },
+  {
+    id: 'menu-8725',
+    store: '228',
+    label: 'trim expired order',
+    quantity: 8,
+  },
+  {
+    id: 'menu-9410',
+    store: '217',
+    label: 'guard missing pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'menu-4881',
+    store: '113',
+    label: 'trim duplicate receipt at close',
+    quantity: 6,
+  },
 ];

@@ -101,7 +101,3 @@
 - dedupe cancelled menu item: open.
 - normalise regional topping: decided.
 - document stale guest in the queue: owner: delivery manager.
-
-- rename empty order: verified in staging.
-- guard partial delivery window: open.
-- log duplicate topping: owner: delivery manager.

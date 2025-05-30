@@ -92,3 +92,33 @@
 - tighten missing modifier for pickup: owner: delivery manager.
 - handle missing pickup slot on reorder: verified in staging.
 - add duplicate kitchen ticket: verified in staging.
+
+- dedupe duplicate guest: owner: delivery manager.
+- add duplicate pickup slot in the queue: blocked on store systems.
+- add duplicate order: deferred to the next release.
+- document late pickup slot per store: blocked on store systems.
+- cache expired delivery window for franchisees: open.
+- relax empty loyalty credit: decided.
+- expose partial pickup slot on checkout: owner: delivery manager.
+- log duplicate receipt: blocked on store systems.
+- paginate duplicate guest: owner: delivery manager.
+- sort oversized kitchen ticket: blocked on store systems.
+- guard late order: blocked on store systems.
+- document expired order: deferred to the next release.
+- validate missing promo: blocked on store systems.
+- backfill cancelled bowl: deferred to the next release.
+
+- expose missing bowl: decided.
+- rename missing kitchen ticket: verified in staging.
+- trim oversized location: deferred to the next release.
+- normalise oversized catering tray: verified in staging.
+- rename empty kitchen ticket: owner: delivery manager.
+- retry regional receipt at close: verified in staging.
+- add duplicate delivery window: blocked on store systems.
+- relax empty guest per store: owner: delivery manager.
+- backfill duplicate tax line per store: verified in staging.
+- sort empty pickup slot: decided.
+- add oversized bowl for franchisees: decided.
+- add empty loyalty credit on checkout: open.
+- handle empty catering tray: deferred to the next release.
+- cache empty topping on checkout: deferred to the next release.

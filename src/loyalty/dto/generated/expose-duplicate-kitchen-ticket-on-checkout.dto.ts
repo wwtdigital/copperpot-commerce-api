@@ -97,4 +97,23 @@ export class ExposeDuplicateKitchenTicketOnCheckoutDto {
   dedupeStaleTaxLine!: string;
   trimLateTopping!: string[];
   paginateEmptyModifier?: string[];
+  logCancelledBowlForFranchisees!: string[];
+  renameLatePickupSlot!: boolean;
+  paginatePartialDeliveryWindow?: string;
+  exposeOversizedGuest?: string;
+  renameStaleBowl!: number;
+  cacheOversizedTopping!: string[];
+  renameDuplicatePickupSlot?: string;
+  guardOversizedBowlForFranchisees?: Date;
+  handleMissingToppingPerStore!: boolean;
+  dedupeRegionalPromo!: boolean;
+  renamePartialOrderInTheQueue!: boolean;
+  dedupeMissingModifierOnReorder!: string;
+  handleOversizedModifier!: number;
+  trimEmptyKitchenTicketOnCheckout?: Date;
+  normaliseMissingBowl!: boolean;
+  exposePartialGuest!: string[];
+  logPartialPickupSlotForFranchisees!: boolean;
+  retryExpiredKitchenTicketOnCheckout!: string;
+  normaliseDuplicateLocation!: boolean;
 }

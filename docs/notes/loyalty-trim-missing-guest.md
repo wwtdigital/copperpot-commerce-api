@@ -29,3 +29,18 @@
 - retry stale store on checkout: verified in staging.
 - tighten partial loyalty credit: verified in staging.
 - add expired order: owner: delivery manager.
+
+- backfill oversized store on reorder: blocked on store systems.
+- backfill duplicate catering tray: verified in staging.
+- paginate cancelled loyalty credit for pickup: owner: delivery manager.
+- dedupe duplicate promo: owner: delivery manager.
+- tighten regional pickup slot at close: deferred to the next release.
+- trim duplicate topping: blocked on store systems.
+- validate partial kitchen ticket on reorder: blocked on store systems.
+- guard stale modifier: open.
+- relax duplicate topping for pickup: deferred to the next release.
+- sort empty location: owner: delivery manager.
+- add cancelled bowl at close: open.
+- dedupe partial modifier: deferred to the next release.
+- paginate cancelled pickup slot at close: owner: delivery manager.
+- validate regional tax line: deferred to the next release.

@@ -44,3 +44,23 @@
 - dedupe partial modifier: deferred to the next release.
 - paginate cancelled pickup slot at close: owner: delivery manager.
 - validate regional tax line: deferred to the next release.
+
+- guard cancelled ticket: verified in staging.
+- dedupe missing store: decided.
+- guard regional promo in the queue: verified in staging.
+- validate oversized catering tray in the queue: blocked on store systems.
+- add partial store: deferred to the next release.
+- trim empty delivery window: decided.
+- normalise duplicate cart line: open.
+- relax late kitchen ticket: decided.
+- sort missing menu item: owner: delivery manager.
+- validate oversized tax line: owner: delivery manager.
+- cache stale receipt: blocked on store systems.
+- guard partial ticket: deferred to the next release.
+- add regional modifier: deferred to the next release.
+- dedupe duplicate kitchen ticket: decided.
+
+- tighten stale order: decided.
+- tighten partial tax line: owner: delivery manager.
+- tighten cancelled bowl: verified in staging.
+- cache partial cart line: decided.

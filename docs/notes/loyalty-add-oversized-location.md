@@ -22,3 +22,18 @@
 - handle late pickup slot: deferred to the next release.
 - handle cancelled order for pickup: open.
 - tighten regional kitchen ticket: verified in staging.
+
+- tighten oversized modifier: open.
+- sort stale menu item: deferred to the next release.
+- guard partial delivery window: deferred to the next release.
+- paginate stale tax line: verified in staging.
+- dedupe duplicate catering tray: blocked on store systems.
+- handle duplicate topping per store: decided.
+- retry missing location on reorder: decided.
+- normalise oversized kitchen ticket: deferred to the next release.
+- tighten cancelled ticket: decided.
+- rename expired promo per store: decided.
+- sort partial order for franchisees: open.
+- backfill late loyalty credit: deferred to the next release.
+- relax missing receipt: open.
+- handle cancelled promo: decided.

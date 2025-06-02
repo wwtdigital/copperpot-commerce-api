@@ -102,4 +102,22 @@ export const BackfillCancelledGuestPerStoreRows = [
     label: 'guard regional guest',
     quantity: 10,
   },
+  {
+    id: 'payments-2355',
+    store: '637',
+    label: 'tighten regional menu item',
+    quantity: 6,
+  },
+  {
+    id: 'payments-7575',
+    store: '144',
+    label: 'dedupe cancelled topping',
+    quantity: 10,
+  },
+  {
+    id: 'payments-3360',
+    store: '347',
+    label: 'document missing promo',
+    quantity: 3,
+  },
 ];

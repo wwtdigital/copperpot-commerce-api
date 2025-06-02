@@ -24,4 +24,34 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'validate late bowl at close',
     quantity: 6,
   },
+  {
+    id: 'item-8012',
+    store: '693',
+    label: 'guard stale cart line',
+    quantity: 8,
+  },
+  {
+    id: 'item-2171',
+    store: '332',
+    label: 'log late guest',
+    quantity: 3,
+  },
+  {
+    id: 'item-8028',
+    store: '546',
+    label: 'document expired tax line on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'item-8178',
+    store: '665',
+    label: 'retry expired topping',
+    quantity: 10,
+  },
+  {
+    id: 'item-1974',
+    store: '299',
+    label: 'guard duplicate pickup slot',
+    quantity: 1,
+  },
 ];

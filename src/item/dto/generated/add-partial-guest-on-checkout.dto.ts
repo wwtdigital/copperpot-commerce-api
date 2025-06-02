@@ -127,4 +127,17 @@ export class AddPartialGuestOnCheckoutDto {
   relaxRegionalCartLineForFranchisees?: string[];
   paginateCancelledStoreAtClose?: boolean;
   documentStaleModifier!: string[];
+  cachePartialModifier?: string[];
+  relaxDuplicateBowl!: boolean;
+  normaliseEmptyToppingForPickup?: string;
+  relaxLateMenuItem?: Date;
+  backfillCancelledPickupSlot?: number;
+  addCancelledPickupSlotOnCheckout?: string;
+  relaxLateReceipt?: number;
+  cacheOversizedGuestOnCheckout!: boolean;
+  handleMissingStore!: string[];
+  validateStaleCartLine!: boolean;
+  normaliseStaleOrder!: string[];
+  normaliseMissingMenuItem!: string;
+  addExpiredOrderAtClose!: string;
 }

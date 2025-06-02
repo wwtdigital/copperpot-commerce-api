@@ -52,4 +52,10 @@ export class TightenRegionalOrderDto {
   cacheRegionalTicketOnCheckout!: Date;
   cachePartialKitchenTicket!: number;
   addLateDeliveryWindow!: number;
+  exposeMissingCateringTrayOnCheckout!: string;
+  backfillExpiredToppingInTheQueue!: string[];
+  renameRegionalPickupSlotForFranchisees!: string;
+  cacheExpiredTaxLine!: string;
+  dedupeDuplicateLocationAtClose?: Date;
+  normalisePartialModifier?: Date;
 }

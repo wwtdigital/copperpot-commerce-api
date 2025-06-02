@@ -96,4 +96,10 @@ export const BackfillCancelledGuestPerStoreRows = [
     label: 'sort empty catering tray for pickup',
     quantity: 5,
   },
+  {
+    id: 'payments-9937',
+    store: '501',
+    label: 'guard regional guest',
+    quantity: 10,
+  },
 ];

@@ -1,0 +1,44 @@
+/* RetryRegionalPromoDto: shape for retry regional promo. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class RetryRegionalPromoDto {
+  exposeOversizedReceiptOnCheckout!: number;
+  normaliseRegionalGuestInTheQueue?: string[];
+  dedupePartialLocation?: string;
+  logStaleGuestForPickup!: boolean;
+  tightenEmptyCateringTray!: Date;
+  documentPartialStore?: number;
+  logLateKitchenTicketOnCheckout!: Date;
+  cacheMissingReceiptOnReorder?: number;
+  trimStaleStore!: Date;
+  documentOversizedReceipt?: string;
+  handleMissingReceipt!: number;
+  renameRegionalMenuItem!: Date;
+  tightenPartialCartLine!: boolean;
+  cacheStaleOrder!: string;
+  exposePartialLocation!: number;
+  validateStaleModifier!: number;
+  trimCancelledModifier!: number;
+  documentPartialReceipt?: boolean;
+  sortDuplicateTopping!: boolean;
+  normaliseOversizedLoyaltyCredit?: number;
+  documentEmptyPickupSlotInTheQueue?: boolean;
+  paginateOversizedTopping?: string;
+  handleEmptyPromoOnCheckout!: boolean;
+  validateMissingCartLineAtClose!: string;
+  guardExpiredLoyaltyCreditForFranchisees!: boolean;
+  validatePartialTicket!: boolean;
+  exposeExpiredModifier!: Date;
+  documentCancelledTicket!: Date;
+  logMissingTicket!: string;
+  paginateOversizedCateringTray?: string;
+  addLateOrderForFranchisees?: number;
+  renameRegionalOrder?: string[];
+  retryExpiredCartLine!: boolean;
+  exposeLateLocationForPickup!: string[];
+  relaxMissingTicketForPickup!: Date;
+  dedupeExpiredCateringTrayAtClose!: number;
+  relaxEmptyBowlForFranchisees?: string;
+  sortRegionalLocation?: boolean;
+  renameExpiredBowlAtClose!: boolean;
+  documentLateDeliveryWindow!: string;
+  guardMissingTopping!: string;
+}

@@ -1,0 +1,123 @@
+/* Fixture rows for restaurant tests: backfill partial ticket. Generated data, not production data. */
+export const BackfillPartialTicketRows = [
+  {
+    id: 'restaurant-8314',
+    store: '604',
+    label: 'validate expired location',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-2100',
+    store: '589',
+    label: 'relax oversized modifier for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-5516',
+    store: '225',
+    label: 'guard empty delivery window at close',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-6786',
+    store: '659',
+    label: 'dedupe duplicate kitchen ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-6350',
+    store: '554',
+    label: 'backfill partial guest',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-7669',
+    store: '648',
+    label: 'trim late delivery window for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-3186',
+    store: '609',
+    label: 'document empty order for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-7803',
+    store: '535',
+    label: 'dedupe stale kitchen ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-6133',
+    store: '184',
+    label: 'add oversized location',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-3430',
+    store: '436',
+    label: 'retry expired ticket',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-1032',
+    store: '564',
+    label: 'trim empty store',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-1967',
+    store: '403',
+    label: 'log cancelled topping',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-9298',
+    store: '665',
+    label: 'paginate regional modifier for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-8386',
+    store: '630',
+    label: 'document empty delivery window on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-5353',
+    store: '118',
+    label: 'backfill stale topping on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-7480',
+    store: '664',
+    label: 'tighten oversized catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-3497',
+    store: '379',
+    label: 'validate partial store per store',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-9390',
+    store: '685',
+    label: 'normalise regional modifier',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-1833',
+    store: '405',
+    label: 'trim stale guest',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-4207',
+    store: '203',
+    label: 'rename regional loyalty credit',
+    quantity: 12,
+  },
+];

@@ -14,3 +14,6 @@
 - expose late catering tray per store: blocked on store systems.
 - rename empty delivery window: owner: delivery manager.
 - tighten regional loyalty credit: open.
+
+- sort regional order: blocked on store systems.
+- handle duplicate promo: deferred to the next release.

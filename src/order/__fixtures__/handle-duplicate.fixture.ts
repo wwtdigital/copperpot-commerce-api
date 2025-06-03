@@ -858,4 +858,34 @@ export const HandleDuplicateKitchenTicketRows = [
     label: 'dedupe expired location',
     quantity: 4,
   },
+  {
+    id: 'order-4855',
+    store: '188',
+    label: 'normalise partial bowl',
+    quantity: 8,
+  },
+  {
+    id: 'order-4645',
+    store: '463',
+    label: 'cache late guest at close',
+    quantity: 2,
+  },
+  {
+    id: 'order-3875',
+    store: '454',
+    label: 'paginate duplicate bowl per store',
+    quantity: 7,
+  },
+  {
+    id: 'order-8288',
+    store: '417',
+    label: 'handle empty kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'order-2209',
+    store: '405',
+    label: 'cache oversized menu item',
+    quantity: 2,
+  },
 ];

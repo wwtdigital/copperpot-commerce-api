@@ -38,3 +38,15 @@
 - add missing bowl: open.
 - dedupe expired receipt per store: decided.
 - retry empty pickup slot: owner: delivery manager.
+
+- tighten missing menu item: verified in staging.
+- relax regional loyalty credit: blocked on store systems.
+- expose regional promo: verified in staging.
+- log oversized ticket: decided.
+- trim missing topping for franchisees: deferred to the next release.
+- retry oversized receipt for franchisees: blocked on store systems.
+- tighten missing modifier for pickup: deferred to the next release.
+- handle expired order per store: deferred to the next release.
+- retry late modifier: open.
+- trim stale menu item: deferred to the next release.
+- guard cancelled order: open.

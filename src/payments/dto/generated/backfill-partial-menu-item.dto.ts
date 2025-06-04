@@ -134,4 +134,11 @@ export class BackfillPartialMenuItemDto {
   paginateCancelledGuest?: Date;
   addPartialOrder!: string[];
   paginateRegionalLoyaltyCredit!: Date;
+  paginateCancelledPromoForPickup!: string;
+  validateOversizedTicketInTheQueue?: string[];
+  guardMissingPickupSlotInTheQueue?: boolean;
+  trimStaleReceipt!: Date;
+  cacheRegionalMenuItem?: string[];
+  documentEmptyModifierPerStore?: string[];
+  guardOversizedTicket!: number;
 }

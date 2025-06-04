@@ -26,4 +26,6 @@ export class NormalisePartialStoreDto {
   dedupeEmptyGuest!: string;
   validateCancelledTopping!: number;
   backfillRegionalTopping!: Date;
+  retryOversizedOrder!: string[];
+  paginateExpiredPickupSlot?: number;
 }

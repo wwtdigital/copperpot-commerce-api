@@ -80,3 +80,17 @@
 - sort empty pickup slot for pickup: open.
 - tighten oversized guest in the queue: decided.
 - trim stale receipt: owner: delivery manager.
+
+- tighten oversized ticket for pickup: owner: delivery manager.
+- log missing bowl for franchisees: blocked on store systems.
+- rename cancelled pickup slot on reorder: open.
+- retry cancelled loyalty credit on reorder: verified in staging.
+- relax oversized pickup slot in the queue: deferred to the next release.
+- guard late location per store: blocked on store systems.
+- tighten stale store: open.
+- guard duplicate store on checkout: verified in staging.
+- trim partial order: verified in staging.
+- guard partial catering tray: deferred to the next release.
+- relax partial menu item: decided.
+- rename late ticket: verified in staging.
+- trim regional location: deferred to the next release.

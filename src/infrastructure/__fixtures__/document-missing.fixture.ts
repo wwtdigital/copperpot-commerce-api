@@ -114,4 +114,10 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'dedupe late topping',
     quantity: 11,
   },
+  {
+    id: 'infrastructure-8798',
+    store: '290',
+    label: 'document regional modifier',
+    quantity: 3,
+  },
 ];

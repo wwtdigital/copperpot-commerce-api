@@ -24,4 +24,8 @@ export class CacheLateDeliveryWindowDto {
   sortRegionalDeliveryWindow!: string[];
   backfillDuplicateTopping?: Date;
   logLateTicket?: Date;
+  renameDuplicateGuest!: boolean;
+  guardOversizedDeliveryWindow!: string;
+  logExpiredTaxLineForPickup!: number;
+  tightenLateTicket!: boolean;
 }

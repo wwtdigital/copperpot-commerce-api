@@ -240,4 +240,34 @@ export const HandleCancelledPromoRows = [
     label: 'cache stale guest',
     quantity: 12,
   },
+  {
+    id: 'addon-7534',
+    store: '215',
+    label: 'guard partial delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'addon-1765',
+    store: '562',
+    label: 'tighten empty kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'addon-7200',
+    store: '309',
+    label: 'add duplicate delivery window for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'addon-7255',
+    store: '521',
+    label: 'document oversized bowl',
+    quantity: 5,
+  },
+  {
+    id: 'addon-9186',
+    store: '366',
+    label: 'sort empty store',
+    quantity: 1,
+  },
 ];

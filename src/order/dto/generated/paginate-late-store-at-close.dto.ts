@@ -17,4 +17,16 @@ export class PaginateLateStoreAtCloseDto {
   sortRegionalGuestInTheQueue!: Date;
   paginateEmptyDeliveryWindow?: string[];
   logDuplicateDeliveryWindow?: number;
+  cacheMissingTopping?: string[];
+  tightenRegionalReceipt?: string[];
+  exposePartialLoyaltyCreditInTheQueue!: boolean;
+  renameStaleLoyaltyCredit!: Date;
+  tightenLateTopping!: string;
+  dedupeDuplicateCateringTray!: string[];
+  addRegionalCateringTrayPerStore!: string;
+  cacheMissingStoreOnCheckout?: string[];
+  dedupeStaleCartLineAtClose?: string[];
+  renameCancelledBowl!: string[];
+  logMissingOrder!: string[];
+  documentPartialBowlOnReorder!: string[];
 }

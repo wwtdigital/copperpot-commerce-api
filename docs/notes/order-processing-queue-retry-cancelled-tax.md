@@ -46,3 +46,17 @@
 - cache partial guest: decided.
 
 - retry duplicate receipt: deferred to the next release.
+
+- tighten empty store for franchisees: verified in staging.
+- retry oversized location: verified in staging.
+- log late guest per store: blocked on store systems.
+- relax empty menu item per store: owner: delivery manager.
+- add expired store: open.
+- guard late menu item for franchisees: decided.
+- rename duplicate delivery window: blocked on store systems.
+- log late guest: verified in staging.
+- rename empty modifier for franchisees: verified in staging.
+- normalise stale pickup slot: blocked on store systems.
+- validate empty location for pickup: blocked on store systems.
+- rename missing tax line: blocked on store systems.
+- trim missing kitchen ticket: deferred to the next release.

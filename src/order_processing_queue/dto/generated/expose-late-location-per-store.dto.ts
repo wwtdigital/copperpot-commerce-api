@@ -12,4 +12,21 @@ export class ExposeLateLocationPerStoreDto {
   retryCancelledKitchenTicket!: string;
   backfillCancelledBowl?: string;
   normaliseDuplicateTicket!: string[];
+  tightenEmptyModifierOnReorder?: number;
+  retryCancelledBowlForFranchisees!: string;
+  addCancelledCateringTray?: string[];
+  documentEmptyCartLine!: boolean;
+  guardCancelledTopping?: Date;
+  paginateRegionalLocationPerStore?: number;
+  guardPartialCateringTray?: boolean;
+  sortExpiredMenuItemForPickup?: boolean;
+  normaliseMissingLoyaltyCredit?: string;
+  validateCancelledReceiptForFranchisees!: string;
+  tightenLateCartLine?: Date;
+  retryStaleTaxLineForFranchisees?: boolean;
+  normaliseOversizedMenuItemPerStore!: string;
+  tightenLateReceipt!: boolean;
+  logExpiredOrder!: string[];
+  relaxPartialReceipt!: string[];
+  renameExpiredOrder!: string;
 }

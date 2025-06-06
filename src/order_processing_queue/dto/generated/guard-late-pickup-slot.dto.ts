@@ -110,4 +110,13 @@ export class GuardLatePickupSlotDto {
   retryCancelledTicketOnReorder!: string[];
   logRegionalLocationOnReorder!: string[];
   tightenEmptyLoyaltyCredit!: number;
+  paginateEmptyPickupSlot!: string[];
+  addStaleReceipt!: number;
+  tightenStaleStore!: string[];
+  normaliseOversizedLoyaltyCredit?: boolean;
+  documentEmptyCateringTrayForPickup!: boolean;
+  validateOversizedTicket!: number;
+  sortMissingPromo?: Date;
+  exposeRegionalCartLine!: Date;
+  relaxMissingGuestInTheQueue!: boolean;
 }

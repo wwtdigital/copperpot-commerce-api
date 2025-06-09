@@ -54,4 +54,46 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'guard duplicate pickup slot',
     quantity: 1,
   },
+  {
+    id: 'item-4932',
+    store: '254',
+    label: 'normalise regional store',
+    quantity: 10,
+  },
+  {
+    id: 'item-3146',
+    store: '373',
+    label: 'normalise cancelled ticket in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'item-4679',
+    store: '544',
+    label: 'backfill partial guest',
+    quantity: 11,
+  },
+  {
+    id: 'item-5106',
+    store: '693',
+    label: 'log cancelled kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'item-7393',
+    store: '323',
+    label: 'paginate regional kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'item-5876',
+    store: '427',
+    label: 'sort cancelled cart line',
+    quantity: 8,
+  },
+  {
+    id: 'item-3109',
+    store: '204',
+    label: 'validate stale delivery window',
+    quantity: 4,
+  },
 ];

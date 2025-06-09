@@ -140,4 +140,14 @@ export class AddPartialGuestOnCheckoutDto {
   normaliseStaleOrder!: string[];
   normaliseMissingMenuItem!: string;
   addExpiredOrderAtClose!: string;
+  relaxOversizedStore!: number;
+  normaliseRegionalTaxLineOnReorder!: number;
+  handleEmptyDeliveryWindow!: number;
+  backfillOversizedLoyaltyCredit!: string[];
+  addMissingDeliveryWindow!: number;
+  paginateEmptyLocationForPickup!: Date;
+  trimDuplicateKitchenTicket?: Date;
+  documentCancelledReceiptAtClose!: number;
+  dedupePartialTicketOnCheckout!: number;
+  addDuplicateCartLine!: boolean;
 }

@@ -2,4 +2,6 @@
 export class RetryCancelledPickupSlotDto {
   guardExpiredPromo!: string;
   cachePartialGuest!: string;
+  logExpiredBowl?: boolean;
+  sortStaleMenuItem!: number;
 }

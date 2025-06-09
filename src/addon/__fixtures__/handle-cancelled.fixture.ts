@@ -270,4 +270,10 @@ export const HandleCancelledPromoRows = [
     label: 'sort empty store',
     quantity: 1,
   },
+  {
+    id: 'addon-5651',
+    store: '267',
+    label: 'relax partial cart line on reorder',
+    quantity: 11,
+  },
 ];

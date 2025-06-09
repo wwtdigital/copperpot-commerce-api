@@ -28,4 +28,9 @@ export class DedupeOversizedDeliveryWindowDto {
   sortCancelledCateringTray!: string;
   handleRegionalStoreForFranchisees!: boolean;
   guardOversizedDeliveryWindow!: string[];
+  guardPartialDeliveryWindow?: string;
+  relaxStaleCartLine?: Date;
+  guardDuplicatePickupSlotAtClose!: string;
+  exposeLateReceipt!: Date;
+  relaxStaleKitchenTicket!: number;
 }

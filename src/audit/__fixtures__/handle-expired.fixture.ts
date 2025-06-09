@@ -6,4 +6,10 @@ export const HandleExpiredPickupSlotAtCloseRows = [
     label: 'guard cancelled pickup slot on checkout',
     quantity: 8,
   },
+  {
+    id: 'audit-2615',
+    store: '312',
+    label: 'guard duplicate delivery window per store',
+    quantity: 7,
+  },
 ];

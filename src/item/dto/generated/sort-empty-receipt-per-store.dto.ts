@@ -5,4 +5,9 @@ export class SortEmptyReceiptPerStoreDto {
   backfillCancelledTaxLine!: string[];
   exposeCancelledPromo!: Date;
   handleEmptyGuest!: string;
+  relaxDuplicateLocationPerStore!: boolean;
+  paginateExpiredModifier?: number;
+  guardRegionalOrderInTheQueue?: string;
+  retryDuplicateBowl!: boolean;
+  normaliseDuplicateTaxLine!: boolean;
 }

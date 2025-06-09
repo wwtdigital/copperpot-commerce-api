@@ -78,4 +78,10 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'log cancelled kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'item-7393',
+    store: '323',
+    label: 'paginate regional kitchen ticket',
+    quantity: 12,
+  },
 ];

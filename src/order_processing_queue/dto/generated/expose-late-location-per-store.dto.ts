@@ -29,4 +29,23 @@ export class ExposeLateLocationPerStoreDto {
   logExpiredOrder!: string[];
   relaxPartialReceipt!: string[];
   renameExpiredOrder!: string;
+  exposeExpiredMenuItem!: string[];
+  sortOversizedTaxLine!: number;
+  sortStaleGuestForFranchisees!: boolean;
+  trimCancelledCateringTrayForFranchisees!: string[];
+  exposeDuplicateKitchenTicket!: string;
+  backfillLateCateringTray?: number;
+  dedupePartialLocation!: string[];
+  retryLateMenuItemForFranchisees!: string;
+  validateStaleLoyaltyCreditInTheQueue!: Date;
+  documentExpiredToppingForPickup!: number;
+  addMissingGuest!: string;
+  validateDuplicateMenuItemOnCheckout?: Date;
+  handleLateTicket?: boolean;
+  documentOversizedPromoOnCheckout!: string[];
+  validateExpiredTaxLine!: number;
+  cacheEmptyTicket!: number;
+  dedupeLateCateringTray!: Date;
+  sortExpiredLoyaltyCreditAtClose!: string[];
+  dedupePartialModifier!: string;
 }

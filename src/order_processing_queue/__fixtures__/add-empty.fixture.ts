@@ -96,4 +96,10 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'relax cancelled promo',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-4572',
+    store: '695',
+    label: 'trim regional catering tray for pickup',
+    quantity: 4,
+  },
 ];

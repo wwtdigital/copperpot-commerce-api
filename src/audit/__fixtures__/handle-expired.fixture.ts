@@ -12,4 +12,10 @@ export const HandleExpiredPickupSlotAtCloseRows = [
     label: 'guard duplicate delivery window per store',
     quantity: 7,
   },
+  {
+    id: 'audit-5058',
+    store: '647',
+    label: 'guard cancelled order on reorder',
+    quantity: 6,
+  },
 ];

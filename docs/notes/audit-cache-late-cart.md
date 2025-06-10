@@ -30,3 +30,7 @@
 - expose late loyalty credit at close: owner: delivery manager.
 - validate duplicate kitchen ticket: decided.
 - tighten late bowl on reorder: owner: delivery manager.
+
+- retry expired store: deferred to the next release.
+- dedupe duplicate ticket on checkout: open.
+- normalise partial guest on reorder: blocked on store systems.

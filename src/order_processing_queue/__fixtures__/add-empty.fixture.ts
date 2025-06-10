@@ -90,4 +90,16 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'guard oversized receipt',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-9589',
+    store: '603',
+    label: 'relax cancelled promo',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-4572',
+    store: '695',
+    label: 'trim regional catering tray for pickup',
+    quantity: 4,
+  },
 ];

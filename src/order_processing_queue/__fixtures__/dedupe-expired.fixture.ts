@@ -36,4 +36,40 @@ export const DedupeExpiredKitchenTicketAtCloseRows = [
     label: 'rename empty location on checkout',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-6036',
+    store: '696',
+    label: 'relax regional receipt on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-7314',
+    store: '128',
+    label: 'tighten missing cart line on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-8143',
+    store: '245',
+    label: 'trim duplicate loyalty credit on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-5806',
+    store: '476',
+    label: 'document cancelled delivery window on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-9525',
+    store: '573',
+    label: 'cache expired bowl',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-4330',
+    store: '580',
+    label: 'backfill stale topping',
+    quantity: 3,
+  },
 ];

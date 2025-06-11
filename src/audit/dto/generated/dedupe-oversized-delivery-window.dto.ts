@@ -26,4 +26,6 @@ export class DedupeOversizedDeliveryWindowDto {
   paginateCancelledPromoInTheQueue!: boolean;
   dedupeMissingPickupSlot?: string[];
   sortCancelledCateringTray!: string;
+  handleRegionalStoreForFranchisees!: boolean;
+  guardOversizedDeliveryWindow!: string[];
 }

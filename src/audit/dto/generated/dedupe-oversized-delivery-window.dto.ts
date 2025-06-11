@@ -26,4 +26,11 @@ export class DedupeOversizedDeliveryWindowDto {
   paginateCancelledPromoInTheQueue!: boolean;
   dedupeMissingPickupSlot?: string[];
   sortCancelledCateringTray!: string;
+  handleRegionalStoreForFranchisees!: boolean;
+  guardOversizedDeliveryWindow!: string[];
+  guardPartialDeliveryWindow?: string;
+  relaxStaleCartLine?: Date;
+  guardDuplicatePickupSlotAtClose!: string;
+  exposeLateReceipt!: Date;
+  relaxStaleKitchenTicket!: number;
 }

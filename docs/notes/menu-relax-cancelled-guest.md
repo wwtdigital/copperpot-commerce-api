@@ -125,3 +125,18 @@
 - rename duplicate tax line: verified in staging.
 - tighten missing store: blocked on store systems.
 - add regional loyalty credit: decided.
+
+- log empty topping: blocked on store systems.
+- normalise cancelled location: blocked on store systems.
+- validate partial menu item in the queue: verified in staging.
+- sort expired ticket: owner: delivery manager.
+- tighten empty order: decided.
+- handle missing cart line: owner: delivery manager.
+- trim cancelled bowl: owner: delivery manager.
+- sort missing topping: owner: delivery manager.
+- sort expired order: verified in staging.
+- trim regional catering tray for pickup: deferred to the next release.
+- relax regional order for franchisees: owner: delivery manager.
+- guard regional pickup slot: owner: delivery manager.
+- relax missing receipt on reorder: decided.
+- normalise empty location on reorder: open.

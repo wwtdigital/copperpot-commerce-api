@@ -15,4 +15,28 @@ export class RelaxExpiredOrderDto {
   renameMissingBowlPerStore!: boolean;
   logPartialLocationAtClose!: string[];
   tightenStaleCateringTrayOnCheckout?: Date;
+  handleRegionalLoyaltyCreditOnCheckout!: number;
+  paginateRegionalToppingPerStore!: Date;
+  tightenLateTicket?: string;
+  renameMissingTaxLine?: Date;
+  relaxOversizedLocation!: number;
+  logStaleTaxLine!: number;
+  sortPartialMenuItemOnCheckout?: boolean;
+  dedupeLateLoyaltyCreditAtClose!: Date;
+  tightenRegionalLocation!: number;
+  addExpiredLoyaltyCreditInTheQueue!: boolean;
+  logMissingKitchenTicket!: number;
+  handleDuplicateReceipt!: string;
+  normaliseOversizedLocationOnReorder?: Date;
+  normaliseRegionalLoyaltyCreditAtClose!: string[];
+  addPartialPickupSlotForPickup!: string[];
+  dedupeLateCateringTrayOnCheckout?: boolean;
+  dedupeEmptyReceipt!: string;
+  guardEmptyTicketInTheQueue?: boolean;
+  sortStaleTaxLine!: boolean;
+  sortCancelledReceipt?: Date;
+  validateMissingPromoPerStore!: number;
+  guardCancelledTaxLineOnCheckout!: Date;
+  documentCancelledCartLine?: string[];
+  relaxPartialGuestOnCheckout!: string;
 }

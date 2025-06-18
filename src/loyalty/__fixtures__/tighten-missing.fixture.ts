@@ -1122,4 +1122,46 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'guard empty bowl',
     quantity: 12,
   },
+  {
+    id: 'loyalty-4512',
+    store: '173',
+    label: 'backfill partial tax line',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-4529',
+    store: '564',
+    label: 'add late location on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-2230',
+    store: '481',
+    label: 'backfill oversized loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-2007',
+    store: '652',
+    label: 'backfill missing receipt in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-3325',
+    store: '394',
+    label: 'sort regional kitchen ticket at close',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-1285',
+    store: '510',
+    label: 'add regional delivery window on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-1801',
+    store: '604',
+    label: 'trim late tax line for franchisees',
+    quantity: 2,
+  },
 ];

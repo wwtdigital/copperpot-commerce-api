@@ -56,3 +56,18 @@
 - backfill late delivery window per store: deferred to the next release.
 - dedupe late delivery window per store: blocked on store systems.
 - cache regional menu item: open.
+
+- tighten late bowl: open.
+- normalise duplicate catering tray: owner: delivery manager.
+- tighten cancelled catering tray: verified in staging.
+- paginate oversized ticket for franchisees: deferred to the next release.
+- trim duplicate tax line: blocked on store systems.
+- paginate late guest: owner: delivery manager.
+- cache missing pickup slot: blocked on store systems.
+- guard duplicate promo: deferred to the next release.
+- log cancelled tax line: decided.
+- cache regional tax line: deferred to the next release.
+- dedupe partial ticket: deferred to the next release.
+- rename stale delivery window: decided.
+- retry empty receipt: deferred to the next release.
+- expose empty kitchen ticket: blocked on store systems.

@@ -13,4 +13,6 @@ export class RelaxExpiredOrderDto {
   dedupeRegionalLocation!: number;
   logDuplicateCartLine!: boolean;
   renameMissingBowlPerStore!: boolean;
+  logPartialLocationAtClose!: string[];
+  tightenStaleCateringTrayOnCheckout?: Date;
 }

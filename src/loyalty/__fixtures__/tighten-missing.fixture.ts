@@ -1056,4 +1056,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'paginate partial cart line on reorder',
     quantity: 9,
   },
+  {
+    id: 'loyalty-6888',
+    store: '210',
+    label: 'relax oversized menu item per store',
+    quantity: 9,
+  },
 ];

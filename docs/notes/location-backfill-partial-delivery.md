@@ -20,3 +20,6 @@
 - paginate cancelled receipt per store: deferred to the next release.
 - log cancelled kitchen ticket on checkout: open.
 - trim empty bowl on reorder: open.
+
+- cache stale order: verified in staging.
+- add partial topping: owner: delivery manager.

@@ -108,3 +108,18 @@
 - cache cancelled guest per store: verified in staging.
 - expose expired delivery window: verified in staging.
 - dedupe regional location: verified in staging.
+
+- rename empty cart line for franchisees: blocked on store systems.
+- cache cancelled catering tray: verified in staging.
+- relax stale catering tray: deferred to the next release.
+- log regional kitchen ticket on reorder: open.
+- sort cancelled catering tray: decided.
+- trim oversized kitchen ticket: blocked on store systems.
+- rename late menu item for pickup: deferred to the next release.
+- tighten empty guest: owner: delivery manager.
+- normalise regional modifier: blocked on store systems.
+- cache stale cart line in the queue: deferred to the next release.
+- rename late location: verified in staging.
+- log regional bowl: open.
+- paginate stale promo: decided.
+- guard partial promo: open.

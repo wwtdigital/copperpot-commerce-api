@@ -46,4 +46,28 @@ export class DedupeStaleCateringTrayDto {
   guardExpiredKitchenTicket!: number;
   backfillEmptyDeliveryWindowOnCheckout!: string;
   sortDuplicateCartLine!: string[];
+  trimDuplicateTaxLine!: string[];
+  backfillRegionalCateringTrayInTheQueue!: string[];
+  sortEmptyLoyaltyCreditInTheQueue!: string;
+  cachePartialTaxLine!: string[];
+  exposeStaleModifier!: number;
+  addPartialCateringTray?: boolean;
+  sortCancelledTaxLine!: Date;
+  tightenExpiredMenuItem!: boolean;
+  cacheExpiredReceipt!: Date;
+  normaliseStaleTaxLine!: number;
+  tightenExpiredStore!: Date;
+  dedupeRegionalTaxLine!: string[];
+  addExpiredOrderOnReorder!: string[];
+  addStaleTopping!: number;
+  logLateTicket!: string[];
+  retryMissingStore!: number;
+  exposeDuplicatePickupSlot?: Date;
+  retryDuplicateCateringTrayPerStore!: string[];
+  validateDuplicateReceipt?: string[];
+  relaxDuplicatePromo!: number;
+  retryPartialTaxLine!: Date;
+  documentDuplicateTopping!: string[];
+  guardExpiredBowl?: Date;
+  validatePartialPickupSlotAtClose!: string;
 }

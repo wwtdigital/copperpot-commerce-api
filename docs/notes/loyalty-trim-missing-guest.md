@@ -94,3 +94,18 @@
 - normalise duplicate store: open.
 - sort missing loyalty credit for franchisees: blocked on store systems.
 - add oversized promo: owner: delivery manager.
+
+- document partial kitchen ticket: blocked on store systems.
+- normalise stale ticket: decided.
+- tighten empty tax line for franchisees: decided.
+- validate empty modifier: deferred to the next release.
+- sort late promo for franchisees: decided.
+- expose oversized ticket: owner: delivery manager.
+- backfill cancelled modifier: open.
+- tighten duplicate kitchen ticket: open.
+- cache late bowl on reorder: decided.
+- document oversized modifier: decided.
+- rename empty tax line: owner: delivery manager.
+- paginate regional tax line for pickup: blocked on store systems.
+- log expired tax line per store: deferred to the next release.
+- trim stale pickup slot: blocked on store systems.

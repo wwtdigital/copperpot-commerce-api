@@ -150,4 +150,34 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'add regional store',
     quantity: 12,
   },
+  {
+    id: 'loyalty-2137',
+    store: '112',
+    label: 'retry partial bowl',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-9150',
+    store: '516',
+    label: 'guard late bowl',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8330',
+    store: '575',
+    label: 'relax regional store',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-7893',
+    store: '248',
+    label: 'expose regional catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-9588',
+    store: '179',
+    label: 'paginate cancelled pickup slot',
+    quantity: 8,
+  },
 ];

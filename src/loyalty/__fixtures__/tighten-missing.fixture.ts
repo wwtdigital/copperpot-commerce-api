@@ -1032,4 +1032,34 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'document oversized kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'loyalty-9749',
+    store: '156',
+    label: 'handle expired kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-6724',
+    store: '424',
+    label: 'cache late store',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-6538',
+    store: '243',
+    label: 'relax partial delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-8035',
+    store: '558',
+    label: 'paginate partial cart line on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-6888',
+    store: '210',
+    label: 'relax oversized menu item per store',
+    quantity: 9,
+  },
 ];

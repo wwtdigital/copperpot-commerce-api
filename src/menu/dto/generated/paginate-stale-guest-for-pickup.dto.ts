@@ -64,4 +64,12 @@ export class PaginateStaleGuestForPickupDto {
   paginateLateTicket?: Date;
   addMissingDeliveryWindowPerStore!: boolean;
   logRegionalTicket!: Date;
+  guardRegionalReceipt!: number;
+  cacheLateGuest!: number;
+  validateOversizedModifier!: boolean;
+  relaxExpiredLocationInTheQueue!: Date;
+  logStaleModifier!: number;
+  cacheExpiredOrder?: Date;
+  exposePartialStoreForPickup!: Date;
+  documentDuplicateTaxLineForPickup?: boolean;
 }

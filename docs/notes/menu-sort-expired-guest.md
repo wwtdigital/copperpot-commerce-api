@@ -196,3 +196,7 @@
 - document duplicate guest at close: deferred to the next release.
 
 - dedupe regional kitchen ticket in the queue: decided.
+
+- validate empty bowl: open.
+- dedupe duplicate cart line: blocked on store systems.
+- relax expired guest for pickup: deferred to the next release.

@@ -34,3 +34,18 @@
 - retry expired store: deferred to the next release.
 - dedupe duplicate ticket on checkout: open.
 - normalise partial guest on reorder: blocked on store systems.
+
+- normalise oversized cart line: open.
+- normalise partial receipt: decided.
+- paginate cancelled cart line: verified in staging.
+- guard partial receipt for franchisees: blocked on store systems.
+- document missing promo: open.
+- rename empty catering tray: decided.
+- guard missing bowl: deferred to the next release.
+- rename late loyalty credit: deferred to the next release.
+- log regional location: verified in staging.
+- relax late order for franchisees: owner: delivery manager.
+- sort empty promo: decided.
+- relax empty bowl: verified in staging.
+- cache late kitchen ticket per store: decided.
+- cache duplicate guest: deferred to the next release.

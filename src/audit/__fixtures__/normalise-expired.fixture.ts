@@ -102,4 +102,22 @@ export const NormaliseExpiredPickupSlotRows = [
     label: 'relax partial pickup slot',
     quantity: 4,
   },
+  {
+    id: 'audit-7110',
+    store: '232',
+    label: 'dedupe empty kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'audit-5451',
+    store: '649',
+    label: 'paginate duplicate ticket',
+    quantity: 7,
+  },
+  {
+    id: 'audit-2181',
+    store: '254',
+    label: 'trim missing receipt per store',
+    quantity: 12,
+  },
 ];

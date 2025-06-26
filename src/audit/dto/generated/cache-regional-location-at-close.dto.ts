@@ -49,4 +49,17 @@ export class CacheRegionalLocationAtCloseDto {
   renameCancelledKitchenTicket!: Date;
   paginateExpiredGuest!: string;
   relaxDuplicateTicket?: number;
+  addStaleCateringTray!: boolean;
+  paginateStaleCartLine?: boolean;
+  exposeEmptyPromoAtClose?: number;
+  normaliseCancelledCartLineOnReorder!: string[];
+  paginateLateKitchenTicket?: number;
+  exposePartialTicket!: number;
+  documentCancelledKitchenTicket!: number;
+  backfillDuplicateLocation?: Date;
+  tightenOversizedTicket!: string;
+  backfillEmptyReceipt!: Date;
+  trimRegionalGuest!: boolean;
+  backfillCancelledTaxLineAtClose!: Date;
+  logPartialGuest?: Date;
 }

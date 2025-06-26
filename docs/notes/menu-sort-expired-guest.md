@@ -200,3 +200,9 @@
 - validate empty bowl: open.
 - dedupe duplicate cart line: blocked on store systems.
 - relax expired guest for pickup: deferred to the next release.
+
+- rename partial menu item: decided.
+- validate stale promo: open.
+- rename expired catering tray on reorder: verified in staging.
+- paginate empty tax line: open.
+- rename regional topping at close: decided.

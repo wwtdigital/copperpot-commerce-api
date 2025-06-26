@@ -140,3 +140,17 @@
 - guard regional pickup slot: owner: delivery manager.
 - relax missing receipt on reorder: decided.
 - normalise empty location on reorder: open.
+
+- retry duplicate menu item: open.
+- cache oversized cart line: open.
+- expose stale pickup slot for pickup: blocked on store systems.
+- trim expired ticket for franchisees: open.
+- log empty location: decided.
+- validate cancelled pickup slot: open.
+- relax late kitchen ticket for pickup: verified in staging.
+- cache partial modifier per store: verified in staging.
+- handle empty cart line: decided.
+- backfill oversized promo: blocked on store systems.
+- tighten late tax line: deferred to the next release.
+- cache partial pickup slot: decided.
+- paginate empty cart line for pickup: deferred to the next release.

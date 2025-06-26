@@ -270,4 +270,9 @@ export class RenameEmptyToppingDto {
   cacheStaleBowl!: Date;
   guardStaleModifier?: Date;
   relaxCancelledOrder!: number;
+  retryExpiredCartLineForPickup!: string[];
+  handleStaleKitchenTicketInTheQueue!: boolean;
+  validateMissingPickupSlot!: number;
+  documentOversizedCateringTrayInTheQueue!: string;
+  validateDuplicateDeliveryWindowOnReorder?: boolean;
 }

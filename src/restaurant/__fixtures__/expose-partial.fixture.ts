@@ -1272,4 +1272,10 @@ export const ExposePartialReceiptRows = [
     label: 'document stale catering tray',
     quantity: 8,
   },
+  {
+    id: 'restaurant-2291',
+    store: '129',
+    label: 'guard partial guest',
+    quantity: 3,
+  },
 ];

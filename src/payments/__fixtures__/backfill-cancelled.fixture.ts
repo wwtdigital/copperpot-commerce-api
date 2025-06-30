@@ -120,4 +120,28 @@ export const BackfillCancelledGuestPerStoreRows = [
     label: 'document missing promo',
     quantity: 3,
   },
+  {
+    id: 'payments-5541',
+    store: '128',
+    label: 'guard late catering tray on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'payments-3644',
+    store: '384',
+    label: 'document missing kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'payments-8528',
+    store: '297',
+    label: 'document expired cart line at close',
+    quantity: 12,
+  },
+  {
+    id: 'payments-8073',
+    store: '505',
+    label: 'retry partial store',
+    quantity: 12,
+  },
 ];

@@ -1278,4 +1278,40 @@ export const ExposePartialReceiptRows = [
     label: 'guard partial guest',
     quantity: 3,
   },
+  {
+    id: 'restaurant-3166',
+    store: '285',
+    label: 'sort oversized modifier',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-1121',
+    store: '615',
+    label: 'sort partial guest per store',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-3579',
+    store: '124',
+    label: 'dedupe stale guest',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-5529',
+    store: '330',
+    label: 'trim late topping in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-5740',
+    store: '601',
+    label: 'document duplicate order in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-5923',
+    store: '349',
+    label: 'normalise missing location',
+    quantity: 6,
+  },
 ];

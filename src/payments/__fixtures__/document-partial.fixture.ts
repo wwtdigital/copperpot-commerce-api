@@ -24,4 +24,28 @@ export const DocumentPartialTaxLineRows = [
     label: 'backfill oversized catering tray',
     quantity: 11,
   },
+  {
+    id: 'payments-3132',
+    store: '636',
+    label: 'normalise partial receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'payments-3273',
+    store: '113',
+    label: 'cache missing bowl',
+    quantity: 8,
+  },
+  {
+    id: 'payments-6661',
+    store: '349',
+    label: 'guard cancelled modifier',
+    quantity: 9,
+  },
+  {
+    id: 'payments-9499',
+    store: '605',
+    label: 'guard empty tax line at close',
+    quantity: 8,
+  },
 ];

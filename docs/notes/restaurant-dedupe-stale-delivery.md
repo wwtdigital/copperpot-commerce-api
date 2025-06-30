@@ -82,3 +82,18 @@
 - document partial loyalty credit: open.
 - relax duplicate cart line for pickup: owner: delivery manager.
 - dedupe oversized modifier in the queue: owner: delivery manager.
+
+- trim oversized promo: blocked on store systems.
+- handle duplicate topping: verified in staging.
+- backfill late promo: owner: delivery manager.
+- trim expired tax line for franchisees: deferred to the next release.
+- tighten stale kitchen ticket: deferred to the next release.
+- cache partial location: open.
+- backfill partial location: deferred to the next release.
+- expose stale bowl on checkout: verified in staging.
+- sort empty location: blocked on store systems.
+- relax regional loyalty credit in the queue: open.
+- document duplicate catering tray for franchisees: owner: delivery manager.
+- document expired order: blocked on store systems.
+- tighten expired bowl: owner: delivery manager.
+- paginate duplicate pickup slot for pickup: blocked on store systems.

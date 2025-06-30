@@ -156,4 +156,10 @@ export const BackfillPartialTicketRows = [
     label: 'sort late ticket in the queue',
     quantity: 8,
   },
+  {
+    id: 'restaurant-8193',
+    store: '140',
+    label: 'log missing pickup slot per store',
+    quantity: 6,
+  },
 ];

@@ -1314,4 +1314,16 @@ export const ExposePartialReceiptRows = [
     label: 'normalise missing location',
     quantity: 6,
   },
+  {
+    id: 'restaurant-5703',
+    store: '307',
+    label: 'expose oversized modifier in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-9673',
+    store: '218',
+    label: 'validate empty loyalty credit',
+    quantity: 4,
+  },
 ];

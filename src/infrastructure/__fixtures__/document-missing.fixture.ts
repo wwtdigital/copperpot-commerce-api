@@ -120,4 +120,16 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'document regional modifier',
     quantity: 3,
   },
+  {
+    id: 'infrastructure-2707',
+    store: '118',
+    label: 'paginate expired delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-2810',
+    store: '382',
+    label: 'guard missing menu item',
+    quantity: 5,
+  },
 ];

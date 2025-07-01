@@ -49,3 +49,18 @@
 - relax empty bowl: verified in staging.
 - cache late kitchen ticket per store: decided.
 - cache duplicate guest: deferred to the next release.
+
+- cache empty pickup slot: open.
+- log regional topping: verified in staging.
+- guard cancelled loyalty credit: decided.
+- normalise missing topping for pickup: blocked on store systems.
+- paginate expired pickup slot for pickup: owner: delivery manager.
+- add stale menu item: decided.
+- expose stale promo: blocked on store systems.
+- expose regional loyalty credit: open.
+- add duplicate cart line: blocked on store systems.
+- validate expired tax line for franchisees: open.
+- validate empty ticket: deferred to the next release.
+- log cancelled menu item for franchisees: decided.
+- expose partial pickup slot for franchisees: decided.
+- paginate duplicate loyalty credit: owner: delivery manager.

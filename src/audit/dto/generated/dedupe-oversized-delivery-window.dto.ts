@@ -57,4 +57,7 @@ export class DedupeOversizedDeliveryWindowDto {
   documentMissingReceiptAtClose?: string[];
   sortExpiredGuestForPickup!: number;
   handleLateTaxLineForPickup!: boolean;
+  trimDuplicateModifierForPickup!: string;
+  paginateMissingGuest!: Date;
+  cachePartialTaxLineInTheQueue!: Date;
 }

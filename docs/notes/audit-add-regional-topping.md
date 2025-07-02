@@ -100,3 +100,5 @@
 - normalise oversized guest: owner: delivery manager.
 - add cancelled menu item per store: owner: delivery manager.
 - expose regional store on reorder: decided.
+
+- trim expired location: decided.

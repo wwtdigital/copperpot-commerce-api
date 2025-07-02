@@ -126,4 +126,34 @@ export const NormaliseExpiredPickupSlotRows = [
     label: 'backfill expired ticket on reorder',
     quantity: 7,
   },
+  {
+    id: 'audit-9062',
+    store: '462',
+    label: 'validate oversized tax line per store',
+    quantity: 12,
+  },
+  {
+    id: 'audit-2170',
+    store: '314',
+    label: 'paginate empty receipt',
+    quantity: 9,
+  },
+  {
+    id: 'audit-8976',
+    store: '404',
+    label: 'add late order',
+    quantity: 1,
+  },
+  {
+    id: 'audit-7016',
+    store: '572',
+    label: 'backfill late promo',
+    quantity: 8,
+  },
+  {
+    id: 'audit-4503',
+    store: '608',
+    label: 'validate late promo per store',
+    quantity: 3,
+  },
 ];

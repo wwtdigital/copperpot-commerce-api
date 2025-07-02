@@ -120,4 +120,46 @@ export const BackfillPartialTicketRows = [
     label: 'rename regional loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'restaurant-5784',
+    store: '497',
+    label: 'guard cancelled topping',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-2909',
+    store: '465',
+    label: 'dedupe missing catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-6791',
+    store: '454',
+    label: 'relax duplicate kitchen ticket at close',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-8801',
+    store: '425',
+    label: 'sort cancelled kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-6335',
+    store: '420',
+    label: 'document oversized kitchen ticket for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-4350',
+    store: '180',
+    label: 'sort late ticket in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-8193',
+    store: '140',
+    label: 'log missing pickup slot per store',
+    quantity: 6,
+  },
 ];

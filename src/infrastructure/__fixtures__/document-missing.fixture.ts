@@ -120,4 +120,40 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'document regional modifier',
     quantity: 3,
   },
+  {
+    id: 'infrastructure-2707',
+    store: '118',
+    label: 'paginate expired delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-2810',
+    store: '382',
+    label: 'guard missing menu item',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-4809',
+    store: '320',
+    label: 'validate stale topping for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-9572',
+    store: '492',
+    label: 'tighten cancelled tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-7230',
+    store: '381',
+    label: 'expose late tax line at close',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-4910',
+    store: '567',
+    label: 'expose expired order in the queue',
+    quantity: 11,
+  },
 ];

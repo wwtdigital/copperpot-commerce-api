@@ -28,4 +28,15 @@ export class CacheLateDeliveryWindowDto {
   guardOversizedDeliveryWindow!: string;
   logExpiredTaxLineForPickup!: number;
   tightenLateTicket!: boolean;
+  paginateExpiredGuestForFranchisees!: string[];
+  relaxMissingModifier?: number;
+  backfillRegionalPickupSlotAtClose!: number;
+  addMissingCateringTray!: string;
+  sortRegionalCartLine!: string[];
+  backfillCancelledCartLineForPickup!: string[];
+  validateRegionalPickupSlot?: Date;
+  addEmptyPromoForPickup!: boolean;
+  cacheDuplicateLocation!: boolean;
+  cacheCancelledMenuItemOnReorder?: string[];
+  addDuplicateDeliveryWindowPerStore!: number;
 }

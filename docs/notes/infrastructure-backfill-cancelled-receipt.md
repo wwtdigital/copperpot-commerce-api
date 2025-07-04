@@ -50,3 +50,6 @@
 - retry late modifier: open.
 - trim stale menu item: deferred to the next release.
 - guard cancelled order: open.
+
+- add empty cart line: blocked on store systems.
+- paginate stale modifier: open.

@@ -102,3 +102,18 @@
 - expose regional store on reorder: decided.
 
 - trim expired location: decided.
+
+- rename duplicate cart line: open.
+- sort oversized store: deferred to the next release.
+- validate missing location for franchisees: deferred to the next release.
+- log missing promo: verified in staging.
+- tighten late kitchen ticket for pickup: blocked on store systems.
+- dedupe oversized tax line: deferred to the next release.
+- relax empty topping for pickup: blocked on store systems.
+- cache expired order: owner: delivery manager.
+- normalise cancelled store: blocked on store systems.
+- log stale ticket on checkout: deferred to the next release.
+- document partial menu item for pickup: owner: delivery manager.
+- validate late catering tray for pickup: owner: delivery manager.
+- handle partial modifier per store: deferred to the next release.
+- backfill empty loyalty credit in the queue: owner: delivery manager.

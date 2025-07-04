@@ -84,4 +84,8 @@ export class DedupeOversizedDeliveryWindowDto {
   validateExpiredOrderInTheQueue!: boolean;
   logPartialTicket?: boolean;
   cacheOversizedPromoPerStore!: Date;
+  handleExpiredReceipt?: boolean;
+  relaxStaleBowlOnCheckout!: string[];
+  dedupeLateModifier?: Date;
+  logExpiredBowl?: boolean;
 }

@@ -34,4 +34,28 @@ export class DocumentMissingKitchenTicketDto {
   exposeExpiredPickupSlot?: Date;
   logEmptyPickupSlotInTheQueue!: string[];
   validateLateGuestOnReorder!: Date;
+  trimDuplicateCateringTray?: Date;
+  relaxExpiredStore!: boolean;
+  trimLateLoyaltyCredit?: boolean;
+  renameStalePromo?: number;
+  cacheEmptyReceipt?: string[];
+  normaliseLateTicket!: number;
+  guardLateCartLineOnReorder!: number;
+  relaxDuplicateReceiptInTheQueue!: boolean;
+  sortStaleCateringTray!: number;
+  trimDuplicateModifierInTheQueue!: boolean;
+  normaliseOversizedToppingForFranchisees!: Date;
+  cacheEmptyGuestForFranchisees!: string;
+  trimStaleTaxLine!: number;
+  retryMissingBowl!: string;
+  handleEmptyModifier!: number;
+  backfillLateLoyaltyCredit!: number;
+  validateExpiredOrder?: Date;
+  handleCancelledCartLine?: Date;
+  logRegionalPickupSlot?: string;
+  tightenStaleOrder!: number;
+  documentExpiredMenuItem!: string;
+  addPartialMenuItem!: string[];
+  dedupeStaleModifier!: Date;
+  normaliseEmptyLocation!: string;
 }

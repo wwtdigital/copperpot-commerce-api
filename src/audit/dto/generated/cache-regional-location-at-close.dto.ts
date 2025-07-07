@@ -88,4 +88,28 @@ export class CacheRegionalLocationAtCloseDto {
   sortMissingPromoOnReorder!: boolean;
   backfillDuplicatePickupSlotForFranchisees?: Date;
   tightenCancelledBowl!: Date;
+  dedupeDuplicateGuestForPickup!: Date;
+  cacheOversizedLocationOnReorder?: Date;
+  normaliseLateDeliveryWindow!: Date;
+  relaxLateReceiptOnCheckout?: string;
+  exposeLateReceiptOnReorder?: number;
+  dedupeCancelledDeliveryWindowOnCheckout!: string;
+  addRegionalLocationInTheQueue?: number;
+  dedupeLateCateringTrayAtClose!: string[];
+  normaliseMissingTaxLineForPickup!: Date;
+  logLateTicket!: boolean;
+  relaxDuplicateBowl!: string[];
+  retryDuplicateMenuItem!: Date;
+  exposeDuplicateToppingOnReorder?: string;
+  dedupeEmptyBowl!: Date;
+  relaxStaleMenuItemForPickup!: boolean;
+  paginateStaleCartLinePerStore!: string[];
+  paginateDuplicateDeliveryWindow?: boolean;
+  tightenExpiredMenuItem!: number;
+  dedupeExpiredToppingOnReorder!: string;
+  sortCancelledModifierForFranchisees!: string[];
+  tightenStalePickupSlotForFranchisees!: string;
+  addCancelledLocationForFranchisees!: boolean;
+  cacheMissingCartLine!: Date;
+  addEmptyGuest!: Date;
 }

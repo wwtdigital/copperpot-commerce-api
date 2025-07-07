@@ -117,3 +117,18 @@
 - validate late catering tray for pickup: owner: delivery manager.
 - handle partial modifier per store: deferred to the next release.
 - backfill empty loyalty credit in the queue: owner: delivery manager.
+
+- sort late tax line on reorder: verified in staging.
+- guard empty modifier: deferred to the next release.
+- log duplicate kitchen ticket on checkout: decided.
+- sort expired modifier: decided.
+- guard regional topping: blocked on store systems.
+- tighten expired location per store: decided.
+- guard duplicate cart line: blocked on store systems.
+- cache cancelled bowl per store: verified in staging.
+- tighten missing store: decided.
+- rename duplicate menu item: owner: delivery manager.
+- backfill cancelled loyalty credit at close: owner: delivery manager.
+- handle late pickup slot on checkout: deferred to the next release.
+- guard expired promo: decided.
+- relax partial store per store: owner: delivery manager.

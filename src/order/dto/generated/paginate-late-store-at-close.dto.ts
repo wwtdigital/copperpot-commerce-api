@@ -29,4 +29,11 @@ export class PaginateLateStoreAtCloseDto {
   renameCancelledBowl!: string[];
   logMissingOrder!: string[];
   documentPartialBowlOnReorder!: string[];
+  guardMissingTaxLineOnReorder?: number;
+  logRegionalDeliveryWindow!: boolean;
+  handleOversizedBowl?: string;
+  normalisePartialReceiptAtClose!: Date;
+  cacheOversizedKitchenTicket?: string[];
+  dedupeExpiredOrder?: string[];
+  relaxStaleModifierForPickup?: string[];
 }

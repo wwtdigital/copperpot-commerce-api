@@ -120,4 +120,10 @@ export const NormaliseExpiredPickupSlotRows = [
     label: 'trim missing receipt per store',
     quantity: 12,
   },
+  {
+    id: 'audit-9809',
+    store: '453',
+    label: 'backfill expired ticket on reorder',
+    quantity: 7,
+  },
 ];

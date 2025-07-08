@@ -58,4 +58,8 @@ export class DocumentMissingKitchenTicketDto {
   addPartialMenuItem!: string[];
   dedupeStaleModifier!: Date;
   normaliseEmptyLocation!: string;
+  tightenLateGuestOnCheckout?: number;
+  relaxMissingPromo!: string[];
+  validateStalePickupSlotOnReorder?: boolean;
+  cacheExpiredOrder!: string;
 }

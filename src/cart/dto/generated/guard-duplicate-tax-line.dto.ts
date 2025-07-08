@@ -133,4 +133,23 @@ export class GuardDuplicateTaxLineDto {
   addDuplicateLoyaltyCredit!: string[];
   cacheOversizedLocation!: boolean;
   addRegionalPickupSlotAtClose!: Date;
+  validateEmptyTaxLinePerStore?: string[];
+  trimCancelledLocation!: string;
+  exposeRegionalModifierOnCheckout?: boolean;
+  renameRegionalModifier!: number;
+  documentExpiredDeliveryWindow!: number;
+  logRegionalLocation!: boolean;
+  validateDuplicateStore!: number;
+  validateLateGuestForPickup?: string;
+  handleOversizedMenuItemPerStore!: string[];
+  cacheRegionalGuestAtClose!: number;
+  relaxEmptyTicketPerStore!: Date;
+  paginateDuplicatePromoInTheQueue!: boolean;
+  logStaleOrderForPickup!: boolean;
+  validateDuplicateModifierOnReorder?: boolean;
+  sortOversizedCartLine!: Date;
+  relaxRegionalTaxLineAtClose!: number;
+  sortPartialDeliveryWindowAtClose!: string;
+  addOversizedGuest?: string;
+  relaxDuplicateBowl?: number;
 }

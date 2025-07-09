@@ -34,3 +34,18 @@
 - relax partial topping: owner: delivery manager.
 - dedupe partial loyalty credit: blocked on store systems.
 - handle cancelled ticket on reorder: blocked on store systems.
+
+- handle late receipt: owner: delivery manager.
+- sort cancelled promo: owner: delivery manager.
+- relax missing delivery window: blocked on store systems.
+- document cancelled bowl: decided.
+- expose oversized tax line on reorder: open.
+- relax cancelled tax line for pickup: verified in staging.
+- add late tax line: blocked on store systems.
+- dedupe partial bowl for franchisees: blocked on store systems.
+- handle empty receipt on checkout: deferred to the next release.
+- handle stale tax line per store: decided.
+- retry stale order: owner: delivery manager.
+- expose missing loyalty credit: open.
+- cache stale ticket on reorder: deferred to the next release.
+- log partial store in the queue: open.

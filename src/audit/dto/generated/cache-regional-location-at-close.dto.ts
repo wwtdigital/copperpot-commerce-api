@@ -112,4 +112,26 @@ export class CacheRegionalLocationAtCloseDto {
   addCancelledLocationForFranchisees!: boolean;
   cacheMissingCartLine!: Date;
   addEmptyGuest!: Date;
+  logRegionalTicket!: string;
+  guardDuplicateBowlInTheQueue!: boolean;
+  normaliseOversizedLoyaltyCredit?: string;
+  renameEmptyBowl!: string[];
+  dedupeRegionalToppingForPickup!: number;
+  retryDuplicateReceipt?: string;
+  tightenLateCartLineInTheQueue?: number;
+  retryPartialMenuItem!: boolean;
+  dedupeRegionalTicket?: number;
+  sortMissingGuest!: boolean;
+  logStaleLoyaltyCreditOnReorder?: boolean;
+  trimOversizedGuest!: string;
+  relaxPartialDeliveryWindow!: boolean;
+  retryCancelledCateringTray?: string;
+  cacheLateKitchenTicket!: string;
+  dedupeStaleBowl!: boolean;
+  handleOversizedCateringTrayForFranchisees!: Date;
+  sortLateGuestOnReorder?: string;
+  tightenLateKitchenTicketPerStore!: Date;
+  guardLateModifierAtClose!: boolean;
+  exposeExpiredTopping!: Date;
+  documentLateTicketForFranchisees!: Date;
 }

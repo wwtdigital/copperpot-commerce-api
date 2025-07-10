@@ -420,4 +420,28 @@ export const RenameMissingLocationPerStoreRows = [
     label: 'paginate late receipt',
     quantity: 12,
   },
+  {
+    id: 'order-7713',
+    store: '317',
+    label: 'expose oversized topping',
+    quantity: 2,
+  },
+  {
+    id: 'order-9299',
+    store: '297',
+    label: 'paginate partial topping',
+    quantity: 9,
+  },
+  {
+    id: 'order-9603',
+    store: '450',
+    label: 'normalise missing pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'order-1560',
+    store: '221',
+    label: 'trim expired modifier',
+    quantity: 4,
+  },
 ];

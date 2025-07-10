@@ -6,4 +6,10 @@ export const RetryCancelledCartLineOnCheckoutRows = [
     label: 'tighten expired menu item',
     quantity: 2,
   },
+  {
+    id: 'addon-9124',
+    store: '434',
+    label: 'rename empty kitchen ticket',
+    quantity: 3,
+  },
 ];

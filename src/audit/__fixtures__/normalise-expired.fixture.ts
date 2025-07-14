@@ -522,4 +522,22 @@ export const NormaliseExpiredPickupSlotRows = [
     label: 'dedupe regional topping',
     quantity: 1,
   },
+  {
+    id: 'audit-7275',
+    store: '503',
+    label: 'trim duplicate guest on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'audit-6847',
+    store: '673',
+    label: 'cache missing menu item on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'audit-3783',
+    store: '161',
+    label: 'backfill empty loyalty credit',
+    quantity: 8,
+  },
 ];

@@ -26,4 +26,23 @@ export class BackfillLateTicketDto {
   sortPartialGuest!: boolean;
   handleDuplicateOrder?: boolean;
   backfillOversizedDeliveryWindow!: number;
+  dedupeExpiredGuest?: number;
+  retryDuplicateTicketPerStore!: Date;
+  guardPartialOrderOnCheckout!: string;
+  backfillOversizedStore!: Date;
+  relaxEmptyTopping?: Date;
+  sortCancelledMenuItem?: number;
+  tightenOversizedTaxLine?: string;
+  relaxCancelledTaxLineForPickup!: number;
+  addStaleLocation!: string[];
+  normaliseLateKitchenTicket?: number;
+  trimMissingTaxLineAtClose!: number;
+  cachePartialPickupSlot!: Date;
+  retryEmptyBowlOnCheckout!: number;
+  validateMissingTicket!: string[];
+  trimOversizedOrder?: string;
+  sortDuplicatePromo!: Date;
+  addRegionalLocationOnCheckout!: boolean;
+  guardLatePickupSlot!: boolean;
+  addDuplicateLocationPerStore!: number;
 }

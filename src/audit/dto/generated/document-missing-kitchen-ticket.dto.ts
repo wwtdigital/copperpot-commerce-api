@@ -62,4 +62,6 @@ export class DocumentMissingKitchenTicketDto {
   relaxMissingPromo!: string[];
   validateStalePickupSlotOnReorder?: boolean;
   cacheExpiredOrder!: string;
+  paginateExpiredStoreOnReorder!: string;
+  tightenOversizedOrder!: string;
 }

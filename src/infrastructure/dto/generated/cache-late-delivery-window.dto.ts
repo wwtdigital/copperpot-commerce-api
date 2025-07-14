@@ -47,4 +47,17 @@ export class CacheLateDeliveryWindowDto {
   handleExpiredCateringTray!: string;
   logMissingModifierAtClose!: number;
   documentDuplicateCateringTrayForPickup?: Date;
+  backfillRegionalStoreOnCheckout!: string[];
+  handleRegionalPickupSlot!: boolean;
+  cacheLateTicketForFranchisees!: Date;
+  retryOversizedTaxLine!: string[];
+  cacheOversizedMenuItem!: string;
+  trimLateTaxLineOnCheckout!: number;
+  documentMissingStoreOnCheckout!: string[];
+  guardLateOrderOnCheckout!: boolean;
+  documentEmptyBowl?: number;
+  paginateEmptyDeliveryWindowOnCheckout!: string;
+  relaxPartialReceiptOnCheckout?: number;
+  exposePartialModifierForPickup?: Date;
+  logOversizedToppingPerStore?: string[];
 }

@@ -109,3 +109,7 @@
 - paginate regional tax line for pickup: blocked on store systems.
 - log expired tax line per store: deferred to the next release.
 - trim stale pickup slot: blocked on store systems.
+
+- guard missing cart line: deferred to the next release.
+- document cancelled delivery window: owner: delivery manager.
+- paginate oversized order: verified in staging.

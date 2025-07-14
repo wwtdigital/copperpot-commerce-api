@@ -1242,4 +1242,22 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'validate oversized delivery window',
     quantity: 7,
   },
+  {
+    id: 'loyalty-7043',
+    store: '479',
+    label: 'cache stale order',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-1520',
+    store: '676',
+    label: 'backfill missing guest on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-5004',
+    store: '293',
+    label: 'relax expired promo on checkout',
+    quantity: 10,
+  },
 ];

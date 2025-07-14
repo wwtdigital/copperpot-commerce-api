@@ -246,4 +246,16 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'cache missing guest on reorder',
     quantity: 12,
   },
+  {
+    id: 'loyalty-7399',
+    store: '535',
+    label: 'dedupe missing delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8479',
+    store: '448',
+    label: 'expose oversized tax line',
+    quantity: 5,
+  },
 ];

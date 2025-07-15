@@ -114,4 +114,10 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'document duplicate cart line',
     quantity: 5,
   },
+  {
+    id: 'category-2369',
+    store: '462',
+    label: 'guard cancelled cart line',
+    quantity: 6,
+  },
 ];

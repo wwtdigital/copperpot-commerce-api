@@ -372,4 +372,10 @@ export const ValidateStaleGuestRows = [
     label: 'retry regional pickup slot',
     quantity: 6,
   },
+  {
+    id: 'infrastructure-7396',
+    store: '132',
+    label: 'cache regional delivery window at close',
+    quantity: 1,
+  },
 ];

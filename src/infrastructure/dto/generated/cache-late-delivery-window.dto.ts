@@ -60,4 +60,12 @@ export class CacheLateDeliveryWindowDto {
   relaxPartialReceiptOnCheckout?: number;
   exposePartialModifierForPickup?: Date;
   logOversizedToppingPerStore?: string[];
+  backfillRegionalGuestPerStore!: string;
+  validateOversizedBowlForPickup!: string;
+  dedupeStaleCartLine?: Date;
+  normaliseCancelledPromoOnReorder!: string[];
+  retryOversizedTopping?: Date;
+  sortPartialModifier?: string;
+  retryCancelledModifier?: boolean;
+  normalisePartialCartLine!: number;
 }

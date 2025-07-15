@@ -162,4 +162,10 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'expose duplicate guest',
     quantity: 3,
   },
+  {
+    id: 'infrastructure-4924',
+    store: '395',
+    label: 'tighten oversized promo',
+    quantity: 8,
+  },
 ];

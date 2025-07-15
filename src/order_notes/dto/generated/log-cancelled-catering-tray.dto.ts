@@ -24,4 +24,8 @@ export class LogCancelledCateringTrayDto {
   cacheRegionalMenuItem!: number;
   sortExpiredPickupSlotInTheQueue!: string;
   handleCancelledBowl?: string;
+  sortExpiredCateringTray!: string;
+  paginateOversizedStore!: string[];
+  cacheRegionalModifier!: string[];
+  backfillDuplicateBowlPerStore!: Date;
 }

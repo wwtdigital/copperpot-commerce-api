@@ -8,4 +8,14 @@ export class RenameExpiredKitchenTicketDto {
   validateLateOrderAtClose!: number;
   retryEmptyLocation!: boolean;
   relaxDuplicatePickupSlot!: string[];
+  validateExpiredTicket?: Date;
+  normaliseStaleCartLine!: string[];
+  exposeExpiredLoyaltyCreditForFranchisees!: string[];
+  relaxPartialStoreForFranchisees!: number;
+  exposeExpiredKitchenTicketForFranchisees!: string[];
+  backfillDuplicateLoyaltyCreditForFranchisees!: boolean;
+  exposeMissingPromo?: boolean;
+  addEmptyTaxLine!: string;
+  dedupeStaleOrder!: number;
+  guardDuplicateBowl!: boolean;
 }

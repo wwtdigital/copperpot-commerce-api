@@ -4,6 +4,15 @@ import { BaseDocument } from '../../../database';
 import { ISingleClientData } from '../models/singleclient-model.interface';
 import { Role, SingleClientStatus } from '../../../../application/constants/constants';
 
+/**
+ * Handle expired catering tray.
+ * Document empty guest at close.
+ * Rename stale modifier on checkout.
+ * Paginate missing tax line.
+ * Dedupe duplicate cart line.
+ * Expose expired order.
+ * Handle oversized cart line per store.
+ */
 export type SingleClientDocument = SingleClientDataModel & Document;
 
 @Schema({ versionKey: false })

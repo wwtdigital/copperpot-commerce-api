@@ -14,6 +14,3 @@
 - document regional guest for pickup: owner: delivery manager.
 - add duplicate order: verified in staging.
 - cache oversized kitchen ticket: blocked on store systems.
-
-- relax cancelled promo for franchisees: deferred to the next release.
-- validate stale delivery window: deferred to the next release.

@@ -45,4 +45,16 @@ export class BackfillLateTicketDto {
   addRegionalLocationOnCheckout!: boolean;
   guardLatePickupSlot!: boolean;
   addDuplicateLocationPerStore!: number;
+  backfillRegionalLocation!: number;
+  documentEmptyTopping!: Date;
+  normaliseExpiredTaxLine?: boolean;
+  documentMissingLoyaltyCredit!: boolean;
+  addCancelledLoyaltyCreditAtClose?: boolean;
+  logExpiredToppingOnReorder!: boolean;
+  documentOversizedLoyaltyCreditPerStore?: string[];
+  renameLateLoyaltyCreditPerStore!: number;
+  cacheLatePickupSlot!: string;
+  dedupeOversizedTopping?: Date;
+  addEmptyGuest!: Date;
+  handleEmptyStore!: string[];
 }

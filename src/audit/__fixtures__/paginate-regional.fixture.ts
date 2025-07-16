@@ -6,4 +6,10 @@ export const PaginateRegionalReceiptRows = [
     label: 'cache stale delivery window for pickup',
     quantity: 11,
   },
+  {
+    id: 'audit-6387',
+    store: '390',
+    label: 'guard stale loyalty credit at close',
+    quantity: 12,
+  },
 ];

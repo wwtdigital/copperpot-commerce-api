@@ -64,4 +64,19 @@ export class DocumentMissingKitchenTicketDto {
   cacheExpiredOrder!: string;
   paginateExpiredStoreOnReorder!: string;
   tightenOversizedOrder!: string;
+  handleStaleLocationPerStore!: string[];
+  renameStaleLocation!: number;
+  exposeDuplicateCateringTray!: Date;
+  logCancelledToppingForFranchisees!: Date;
+  paginateMissingKitchenTicket!: boolean;
+  exposeMissingDeliveryWindowAtClose!: boolean;
+  renameStaleCateringTray!: Date;
+  exposeEmptyKitchenTicket?: boolean;
+  retryEmptyLoyaltyCredit?: string;
+  renameMissingTaxLine!: number;
+  paginateDuplicateLoyaltyCredit?: number;
+  relaxPartialTopping?: boolean;
+  guardPartialModifierForPickup!: Date;
+  addMissingGuest?: string;
+  logLateLocationAtClose!: string;
 }

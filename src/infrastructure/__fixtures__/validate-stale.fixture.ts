@@ -342,4 +342,10 @@ export const ValidateStaleGuestRows = [
     label: 'validate cancelled cart line',
     quantity: 9,
   },
+  {
+    id: 'infrastructure-1660',
+    store: '404',
+    label: 'cache late menu item for franchisees',
+    quantity: 12,
+  },
 ];

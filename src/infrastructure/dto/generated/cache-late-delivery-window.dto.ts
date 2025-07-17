@@ -39,4 +39,12 @@ export class CacheLateDeliveryWindowDto {
   cacheDuplicateLocation!: boolean;
   cacheCancelledMenuItemOnReorder?: string[];
   addDuplicateDeliveryWindowPerStore!: number;
+  documentCancelledTicket!: string[];
+  trimPartialPickupSlotOnReorder?: boolean;
+  tightenPartialTicket!: Date;
+  sortLateStore!: Date;
+  logMissingReceipt?: boolean;
+  handleExpiredCateringTray!: string;
+  logMissingModifierAtClose!: number;
+  documentDuplicateCateringTrayForPickup?: Date;
 }

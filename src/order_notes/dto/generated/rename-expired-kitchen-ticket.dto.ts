@@ -18,4 +18,8 @@ export class RenameExpiredKitchenTicketDto {
   addEmptyTaxLine!: string;
   dedupeStaleOrder!: number;
   guardDuplicateBowl!: boolean;
+  trimStaleToppingOnReorder!: string;
+  validateDuplicateLocation?: string[];
+  handleStaleModifierInTheQueue!: string;
+  logPartialBowlOnReorder!: number;
 }

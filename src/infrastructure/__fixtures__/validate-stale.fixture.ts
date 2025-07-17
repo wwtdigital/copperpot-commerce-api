@@ -348,4 +348,28 @@ export const ValidateStaleGuestRows = [
     label: 'cache late menu item for franchisees',
     quantity: 12,
   },
+  {
+    id: 'infrastructure-6650',
+    store: '636',
+    label: 'expose missing store in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-7229',
+    store: '436',
+    label: 'relax missing promo',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-4651',
+    store: '528',
+    label: 'add partial location',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-3767',
+    store: '363',
+    label: 'retry regional pickup slot',
+    quantity: 6,
+  },
 ];

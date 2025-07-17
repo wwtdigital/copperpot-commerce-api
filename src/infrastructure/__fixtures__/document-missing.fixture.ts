@@ -156,4 +156,10 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'expose expired order in the queue',
     quantity: 11,
   },
+  {
+    id: 'infrastructure-2742',
+    store: '218',
+    label: 'expose duplicate guest',
+    quantity: 3,
+  },
 ];

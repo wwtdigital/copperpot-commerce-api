@@ -53,3 +53,18 @@
 
 - add empty cart line: blocked on store systems.
 - paginate stale modifier: open.
+
+- guard oversized promo on checkout: blocked on store systems.
+- add stale delivery window: blocked on store systems.
+- expose partial cart line per store: decided.
+- document stale order for pickup: blocked on store systems.
+- rename oversized modifier for pickup: owner: delivery manager.
+- retry late guest for pickup: verified in staging.
+- handle regional guest per store: verified in staging.
+- add missing kitchen ticket: owner: delivery manager.
+- expose duplicate cart line for pickup: verified in staging.
+- dedupe regional guest at close: open.
+- rename partial pickup slot: deferred to the next release.
+- add late catering tray: deferred to the next release.
+- tighten oversized bowl: verified in staging.
+- guard partial menu item: open.

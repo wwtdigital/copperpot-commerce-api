@@ -2,4 +2,6 @@
 export class TrimMissingMenuItemDto {
   cacheExpiredCateringTray!: Date;
   paginateOversizedCartLine?: string;
+  tightenPartialModifierForFranchisees!: string[];
+  paginateStaleTicket!: Date;
 }

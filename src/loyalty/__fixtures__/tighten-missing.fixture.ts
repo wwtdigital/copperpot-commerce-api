@@ -1260,4 +1260,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'relax expired promo on checkout',
     quantity: 10,
   },
+  {
+    id: 'loyalty-7328',
+    store: '482',
+    label: 'add late cart line on reorder',
+    quantity: 3,
+  },
 ];

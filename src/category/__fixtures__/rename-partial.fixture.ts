@@ -120,4 +120,10 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'guard cancelled cart line',
     quantity: 6,
   },
+  {
+    id: 'category-6997',
+    store: '326',
+    label: 'normalise partial bowl in the queue',
+    quantity: 8,
+  },
 ];

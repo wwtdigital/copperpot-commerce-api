@@ -14,3 +14,10 @@
 - document regional guest for pickup: owner: delivery manager.
 - add duplicate order: verified in staging.
 - cache oversized kitchen ticket: blocked on store systems.
+
+- handle partial tax line: decided.
+- paginate duplicate ticket: deferred to the next release.
+- document oversized order: owner: delivery manager.
+- add expired tax line per store: deferred to the next release.
+- guard stale order at close: deferred to the next release.
+- expose late order: blocked on store systems.

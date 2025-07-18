@@ -1,0 +1,69 @@
+/* Fixture rows for order_notes tests: relax late store for pickup. Generated data, not production data. */
+export const RelaxLateStoreForPickupRows = [
+  {
+    id: 'order-notes-5118',
+    store: '184',
+    label: 'relax regional tax line',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-4014',
+    store: '220',
+    label: 'add partial catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-5858',
+    store: '334',
+    label: 'handle regional bowl in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-9322',
+    store: '210',
+    label: 'rename regional topping at close',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-3670',
+    store: '519',
+    label: 'validate missing ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-4382',
+    store: '603',
+    label: 'trim oversized bowl on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-9548',
+    store: '172',
+    label: 'trim cancelled location',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-2140',
+    store: '264',
+    label: 'rename expired topping for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-1466',
+    store: '556',
+    label: 'normalise stale delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-6357',
+    store: '211',
+    label: 'backfill partial kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'order-notes-4403',
+    store: '202',
+    label: 'paginate regional receipt',
+    quantity: 5,
+  },
+];

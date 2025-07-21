@@ -19,4 +19,28 @@ export class BackfillStaleCateringTrayDto {
   sortExpiredDeliveryWindow!: string[];
   sortEmptyToppingInTheQueue?: string[];
   trimMissingModifierForPickup!: Date;
+  trimLateModifierForPickup?: boolean;
+  tightenLateLoyaltyCreditPerStore!: Date;
+  addRegionalLoyaltyCredit?: string;
+  documentDuplicatePickupSlot?: boolean;
+  addExpiredOrder!: Date;
+  validateRegionalMenuItemInTheQueue?: number;
+  documentRegionalCateringTray!: number;
+  paginateOversizedModifierInTheQueue?: boolean;
+  documentLateStore!: Date;
+  handleExpiredTaxLine!: string[];
+  validateExpiredPromo!: boolean;
+  retryLateOrder!: string[];
+  retryOversizedReceiptPerStore?: string;
+  cacheLateTaxLinePerStore!: Date;
+  exposeCancelledPromo?: number;
+  renameLateCartLine!: string;
+  renameCancelledReceipt?: boolean;
+  dedupeDuplicateCartLine!: boolean;
+  addMissingLoyaltyCredit!: number;
+  validateMissingStore!: string;
+  tightenLateMenuItem!: number;
+  addEmptyStorePerStore!: boolean;
+  guardOversizedOrderForFranchisees!: string[];
+  retryDuplicateModifier!: number;
 }

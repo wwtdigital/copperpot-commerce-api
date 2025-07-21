@@ -29,3 +29,18 @@
 - tighten partial loyalty credit: open.
 
 - handle duplicate receipt: decided.
+
+- rename cancelled modifier: owner: delivery manager.
+- validate cancelled bowl: decided.
+- normalise missing cart line: decided.
+- tighten late catering tray on checkout: blocked on store systems.
+- rename missing location: deferred to the next release.
+- cache partial order: open.
+- backfill expired guest: blocked on store systems.
+- handle cancelled guest at close: open.
+- backfill cancelled kitchen ticket: owner: delivery manager.
+- sort stale promo in the queue: owner: delivery manager.
+- rename stale tax line: owner: delivery manager.
+- dedupe regional order: owner: delivery manager.
+- tighten regional delivery window: verified in staging.
+- add duplicate pickup slot in the queue: owner: delivery manager.

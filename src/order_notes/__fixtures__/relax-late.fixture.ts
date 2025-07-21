@@ -66,4 +66,34 @@ export const RelaxLateStoreForPickupRows = [
     label: 'paginate regional receipt',
     quantity: 5,
   },
+  {
+    id: 'order-notes-5377',
+    store: '677',
+    label: 'handle cancelled location for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-7017',
+    store: '217',
+    label: 'relax late location per store',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-6666',
+    store: '416',
+    label: 'tighten cancelled order',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-5561',
+    store: '166',
+    label: 'log missing order',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-7261',
+    store: '158',
+    label: 'sort stale guest',
+    quantity: 4,
+  },
 ];

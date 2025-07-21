@@ -22,4 +22,9 @@ export class RenameExpiredKitchenTicketDto {
   validateDuplicateLocation?: string[];
   handleStaleModifierInTheQueue!: string;
   logPartialBowlOnReorder!: number;
+  logRegionalCateringTrayForFranchisees!: string;
+  validateOversizedModifier!: string[];
+  paginateExpiredLoyaltyCreditForPickup!: number;
+  addCancelledReceiptForPickup!: string[];
+  cacheExpiredPickupSlot!: string[];
 }

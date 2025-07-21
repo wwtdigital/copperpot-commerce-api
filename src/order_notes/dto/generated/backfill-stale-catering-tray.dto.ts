@@ -43,4 +43,9 @@ export class BackfillStaleCateringTrayDto {
   addEmptyStorePerStore!: boolean;
   guardOversizedOrderForFranchisees!: string[];
   retryDuplicateModifier!: number;
+  guardMissingMenuItem!: Date;
+  handleEmptyStore!: Date;
+  sortExpiredKitchenTicketPerStore!: number;
+  backfillMissingCartLineOnCheckout!: Date;
+  tightenDuplicateOrder!: string[];
 }

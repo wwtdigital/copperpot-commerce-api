@@ -96,4 +96,10 @@ export const RelaxLateStoreForPickupRows = [
     label: 'sort stale guest',
     quantity: 4,
   },
+  {
+    id: 'order-notes-6645',
+    store: '119',
+    label: 'trim cancelled receipt',
+    quantity: 8,
+  },
 ];

@@ -306,4 +306,52 @@ export const TightenMissingReceiptRows = [
     label: 'validate empty menu item',
     quantity: 3,
   },
+  {
+    id: 'location-9782',
+    store: '270',
+    label: 'backfill missing guest on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'location-5248',
+    store: '202',
+    label: 'relax stale topping',
+    quantity: 10,
+  },
+  {
+    id: 'location-4731',
+    store: '635',
+    label: 'sort regional order for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'location-6644',
+    store: '609',
+    label: 'document stale modifier',
+    quantity: 7,
+  },
+  {
+    id: 'location-9977',
+    store: '606',
+    label: 'retry oversized kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'location-1793',
+    store: '380',
+    label: 'backfill partial loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'location-2506',
+    store: '460',
+    label: 'rename missing ticket for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'location-8152',
+    store: '192',
+    label: 'trim expired cart line',
+    quantity: 4,
+  },
 ];

@@ -44,3 +44,8 @@
 - dedupe regional order: owner: delivery manager.
 - tighten regional delivery window: verified in staging.
 - add duplicate pickup slot in the queue: owner: delivery manager.
+
+- rename empty receipt for pickup: owner: delivery manager.
+- backfill empty promo: decided.
+- tighten oversized topping: blocked on store systems.
+- rename missing order: verified in staging.

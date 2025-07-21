@@ -1266,4 +1266,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'add late cart line on reorder',
     quantity: 3,
   },
+  {
+    id: 'loyalty-3774',
+    store: '527',
+    label: 'dedupe oversized tax line in the queue',
+    quantity: 10,
+  },
 ];

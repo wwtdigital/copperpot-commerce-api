@@ -162,4 +162,34 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'dedupe regional cart line on reorder',
     quantity: 8,
   },
+  {
+    id: 'category-5014',
+    store: '591',
+    label: 'validate empty bowl',
+    quantity: 8,
+  },
+  {
+    id: 'category-8317',
+    store: '233',
+    label: 'tighten cancelled order',
+    quantity: 1,
+  },
+  {
+    id: 'category-7752',
+    store: '382',
+    label: 'log oversized delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'category-1960',
+    store: '613',
+    label: 'paginate cancelled ticket per store',
+    quantity: 12,
+  },
+  {
+    id: 'category-5424',
+    store: '129',
+    label: 'tighten duplicate kitchen ticket at close',
+    quantity: 7,
+  },
 ];

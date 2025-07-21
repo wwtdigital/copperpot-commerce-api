@@ -126,4 +126,40 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'normalise partial bowl in the queue',
     quantity: 8,
   },
+  {
+    id: 'category-2430',
+    store: '375',
+    label: 'normalise missing bowl',
+    quantity: 3,
+  },
+  {
+    id: 'category-3071',
+    store: '531',
+    label: 'handle cancelled store',
+    quantity: 4,
+  },
+  {
+    id: 'category-3178',
+    store: '302',
+    label: 'trim missing delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'category-6652',
+    store: '629',
+    label: 'paginate duplicate menu item',
+    quantity: 3,
+  },
+  {
+    id: 'category-1257',
+    store: '100',
+    label: 'document empty kitchen ticket in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'category-9725',
+    store: '575',
+    label: 'dedupe regional cart line on reorder',
+    quantity: 8,
+  },
 ];

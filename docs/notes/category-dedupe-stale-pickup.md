@@ -14,3 +14,18 @@
 - cache late kitchen ticket: deferred to the next release.
 - backfill oversized guest for pickup: blocked on store systems.
 - relax partial receipt: blocked on store systems.
+
+- add missing bowl: deferred to the next release.
+- document partial cart line: owner: delivery manager.
+- retry expired topping in the queue: blocked on store systems.
+- trim missing kitchen ticket at close: verified in staging.
+- sort empty bowl at close: decided.
+- dedupe empty loyalty credit: open.
+- paginate missing loyalty credit: open.
+- guard expired kitchen ticket: verified in staging.
+- document stale pickup slot at close: decided.
+- guard expired bowl per store: blocked on store systems.
+- expose stale ticket: owner: delivery manager.
+- paginate missing loyalty credit: blocked on store systems.
+- guard partial tax line: deferred to the next release.
+- retry missing order at close: open.

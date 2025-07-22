@@ -1326,4 +1326,10 @@ export const ExposePartialReceiptRows = [
     label: 'validate empty loyalty credit',
     quantity: 4,
   },
+  {
+    id: 'restaurant-4063',
+    store: '427',
+    label: 'expose partial location',
+    quantity: 1,
+  },
 ];

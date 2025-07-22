@@ -124,3 +124,18 @@
 - validate partial pickup slot: owner: delivery manager.
 - log partial kitchen ticket in the queue: verified in staging.
 - rename oversized order: blocked on store systems.
+
+- paginate oversized guest: owner: delivery manager.
+- add regional modifier: deferred to the next release.
+- sort partial menu item: decided.
+- backfill expired receipt: owner: delivery manager.
+- expose cancelled ticket: verified in staging.
+- validate duplicate kitchen ticket: verified in staging.
+- handle stale tax line for franchisees: owner: delivery manager.
+- tighten late topping: verified in staging.
+- trim stale order: owner: delivery manager.
+- retry cancelled tax line: owner: delivery manager.
+- tighten stale topping: blocked on store systems.
+- retry empty guest: deferred to the next release.
+- expose late bowl: deferred to the next release.
+- document late receipt: verified in staging.

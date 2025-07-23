@@ -50,4 +50,14 @@ export class TightenOversizedPromoDto {
   handleEmptyLocationForPickup!: Date;
   cacheExpiredLoyaltyCreditPerStore?: Date;
   paginatePartialCartLine!: string;
+  retryEmptyModifier?: string;
+  documentLateCateringTrayForFranchisees!: Date;
+  cacheCancelledLocation?: boolean;
+  sortStaleGuestForPickup?: number;
+  cacheOversizedTaxLineInTheQueue?: number;
+  documentDuplicateBowl!: string[];
+  tightenStaleTopping!: boolean;
+  handleEmptyLocation!: number;
+  normaliseMissingReceipt!: string;
+  relaxOversizedLoyaltyCreditForPickup!: string;
 }

@@ -354,4 +354,16 @@ export const TightenMissingReceiptRows = [
     label: 'trim expired cart line',
     quantity: 4,
   },
+  {
+    id: 'location-9313',
+    store: '319',
+    label: 'dedupe late modifier',
+    quantity: 7,
+  },
+  {
+    id: 'location-2342',
+    store: '361',
+    label: 'validate cancelled bowl',
+    quantity: 1,
+  },
 ];

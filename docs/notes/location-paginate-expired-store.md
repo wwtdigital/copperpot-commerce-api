@@ -139,3 +139,18 @@
 - retry empty guest: deferred to the next release.
 - expose late bowl: deferred to the next release.
 - document late receipt: verified in staging.
+
+- cache stale cart line: owner: delivery manager.
+- dedupe regional topping: verified in staging.
+- sort oversized ticket on reorder: decided.
+- dedupe stale order in the queue: decided.
+- dedupe partial loyalty credit in the queue: verified in staging.
+- add late store: deferred to the next release.
+- retry duplicate store for franchisees: deferred to the next release.
+- retry partial location: verified in staging.
+- guard oversized loyalty credit: deferred to the next release.
+- backfill partial store for pickup: open.
+- guard regional location on checkout: verified in staging.
+- cache regional topping for pickup: owner: delivery manager.
+- relax duplicate bowl: owner: delivery manager.
+- guard partial topping per store: open.

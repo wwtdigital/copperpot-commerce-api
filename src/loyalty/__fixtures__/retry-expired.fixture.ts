@@ -258,4 +258,34 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'expose oversized tax line',
     quantity: 5,
   },
+  {
+    id: 'loyalty-1447',
+    store: '154',
+    label: 'tighten cancelled menu item',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-2806',
+    store: '484',
+    label: 'sort stale order',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-4791',
+    store: '570',
+    label: 'expose partial promo for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8046',
+    store: '113',
+    label: 'tighten expired tax line',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-3647',
+    store: '122',
+    label: 'backfill oversized bowl',
+    quantity: 3,
+  },
 ];

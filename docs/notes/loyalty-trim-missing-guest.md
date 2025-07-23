@@ -113,3 +113,18 @@
 - guard missing cart line: deferred to the next release.
 - document cancelled delivery window: owner: delivery manager.
 - paginate oversized order: verified in staging.
+
+- sort duplicate pickup slot: deferred to the next release.
+- dedupe oversized store: decided.
+- sort partial loyalty credit: owner: delivery manager.
+- normalise cancelled topping: blocked on store systems.
+- backfill late guest for pickup: owner: delivery manager.
+- trim empty pickup slot: owner: delivery manager.
+- guard late guest: deferred to the next release.
+- sort partial bowl in the queue: owner: delivery manager.
+- tighten missing store: open.
+- trim regional receipt: verified in staging.
+- handle duplicate ticket: blocked on store systems.
+- validate expired receipt: verified in staging.
+- rename oversized guest: open.
+- rename empty guest: decided.

@@ -9,4 +9,28 @@ export class LogRegionalStoreAtCloseDto {
   sortDuplicateDeliveryWindow!: number;
   documentDuplicateDeliveryWindowInTheQueue!: boolean;
   sortPartialReceipt?: number;
+  dedupePartialMenuItem?: Date;
+  handleCancelledCartLine!: string[];
+  relaxMissingDeliveryWindowForPickup!: Date;
+  paginatePartialCateringTray!: Date;
+  retryExpiredGuestAtClose!: string[];
+  guardOversizedToppingAtClose!: string[];
+  relaxCancelledTaxLine?: string;
+  documentOversizedModifier?: string;
+  dedupeMissingToppingForPickup!: string;
+  retryDuplicateGuest!: string[];
+  paginateRegionalStore!: boolean;
+  relaxPartialMenuItem!: string;
+  exposeEmptyCateringTray!: Date;
+  relaxExpiredStore!: string[];
+  validateStaleTicket!: Date;
+  logOversizedPromoPerStore!: string;
+  retryDuplicateStorePerStore!: string;
+  renameExpiredStore!: string[];
+  tightenOversizedPickupSlot!: string;
+  paginateStaleTaxLineAtClose!: Date;
+  documentPartialOrder!: string[];
+  tightenEmptyReceipt!: Date;
+  paginateOversizedTicket!: number;
+  renameExpiredDeliveryWindowInTheQueue!: string[];
 }

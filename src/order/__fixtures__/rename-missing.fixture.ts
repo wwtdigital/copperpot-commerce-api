@@ -504,4 +504,52 @@ export const RenameMissingLocationPerStoreRows = [
     label: 'guard partial tax line per store',
     quantity: 9,
   },
+  {
+    id: 'order-1128',
+    store: '430',
+    label: 'rename duplicate guest',
+    quantity: 2,
+  },
+  {
+    id: 'order-8250',
+    store: '510',
+    label: 'sort oversized cart line in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'order-9227',
+    store: '572',
+    label: 'document expired catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'order-1299',
+    store: '506',
+    label: 'paginate stale promo',
+    quantity: 1,
+  },
+  {
+    id: 'order-1687',
+    store: '547',
+    label: 'sort stale catering tray at close',
+    quantity: 12,
+  },
+  {
+    id: 'order-6318',
+    store: '403',
+    label: 'backfill late delivery window for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'order-7912',
+    store: '497',
+    label: 'tighten partial kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-3301',
+    store: '642',
+    label: 'relax partial bowl',
+    quantity: 7,
+  },
 ];

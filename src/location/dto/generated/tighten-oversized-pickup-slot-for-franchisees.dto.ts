@@ -121,4 +121,6 @@ export class TightenOversizedPickupSlotForFranchiseesDto {
   exposeDuplicateBowl!: Date;
   tightenRegionalOrder!: string;
   validateDuplicatePromo!: Date;
+  logMissingGuest!: number;
+  handleDuplicateStore!: Date;
 }

@@ -66,4 +66,28 @@ export const DedupeStaleModifierRows = [
     label: 'guard expired receipt',
     quantity: 1,
   },
+  {
+    id: 'location-3654',
+    store: '671',
+    label: 'rename stale tax line',
+    quantity: 9,
+  },
+  {
+    id: 'location-9567',
+    store: '119',
+    label: 'document regional receipt at close',
+    quantity: 11,
+  },
+  {
+    id: 'location-6983',
+    store: '132',
+    label: 'rename empty kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'location-8150',
+    store: '252',
+    label: 'add empty topping',
+    quantity: 5,
+  },
 ];

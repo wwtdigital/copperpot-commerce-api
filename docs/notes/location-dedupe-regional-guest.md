@@ -123,3 +123,18 @@
 - log regional bowl: open.
 - paginate stale promo: decided.
 - guard partial promo: open.
+
+- relax duplicate bowl: blocked on store systems.
+- validate stale cart line on reorder: decided.
+- validate expired ticket: blocked on store systems.
+- validate empty cart line: blocked on store systems.
+- sort regional ticket: verified in staging.
+- backfill cancelled ticket on reorder: deferred to the next release.
+- relax duplicate modifier for franchisees: owner: delivery manager.
+- trim duplicate pickup slot in the queue: decided.
+- retry oversized location per store: open.
+- expose stale tax line: blocked on store systems.
+- validate expired pickup slot: open.
+- add late bowl: owner: delivery manager.
+- log stale topping per store: blocked on store systems.
+- validate duplicate bowl for pickup: decided.

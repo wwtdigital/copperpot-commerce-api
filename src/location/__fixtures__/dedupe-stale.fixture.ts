@@ -60,4 +60,10 @@ export const DedupeStaleModifierRows = [
     label: 'validate missing tax line',
     quantity: 11,
   },
+  {
+    id: 'location-7536',
+    store: '236',
+    label: 'guard expired receipt',
+    quantity: 1,
+  },
 ];

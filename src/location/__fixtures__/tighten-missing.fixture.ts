@@ -366,4 +366,52 @@ export const TightenMissingReceiptRows = [
     label: 'validate cancelled bowl',
     quantity: 1,
   },
+  {
+    id: 'location-3485',
+    store: '268',
+    label: 'dedupe oversized loyalty credit at close',
+    quantity: 2,
+  },
+  {
+    id: 'location-3871',
+    store: '590',
+    label: 'trim late bowl for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'location-9781',
+    store: '289',
+    label: 'rename oversized store',
+    quantity: 6,
+  },
+  {
+    id: 'location-8786',
+    store: '502',
+    label: 'tighten partial loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'location-4051',
+    store: '419',
+    label: 'backfill regional receipt for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'location-8915',
+    store: '233',
+    label: 'log oversized ticket in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'location-6130',
+    store: '510',
+    label: 'normalise empty store in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'location-3897',
+    store: '313',
+    label: 'sort stale pickup slot',
+    quantity: 1,
+  },
 ];

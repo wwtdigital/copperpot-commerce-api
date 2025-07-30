@@ -18,4 +18,16 @@ export const PaginateExpiredToppingRows = [
     label: 'cache empty receipt',
     quantity: 4,
   },
+  {
+    id: 'cart-2443',
+    store: '653',
+    label: 'add stale store',
+    quantity: 5,
+  },
+  {
+    id: 'cart-3068',
+    store: '447',
+    label: 'validate stale loyalty credit',
+    quantity: 6,
+  },
 ];

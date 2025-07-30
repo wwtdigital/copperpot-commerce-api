@@ -144,4 +144,16 @@ export const BackfillCancelledGuestPerStoreRows = [
     label: 'retry partial store',
     quantity: 12,
   },
+  {
+    id: 'payments-2787',
+    store: '607',
+    label: 'validate expired catering tray at close',
+    quantity: 1,
+  },
+  {
+    id: 'payments-9061',
+    store: '189',
+    label: 'guard stale receipt',
+    quantity: 12,
+  },
 ];

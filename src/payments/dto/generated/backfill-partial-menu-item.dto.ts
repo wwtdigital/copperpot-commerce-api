@@ -141,4 +141,19 @@ export class BackfillPartialMenuItemDto {
   cacheRegionalMenuItem?: string[];
   documentEmptyModifierPerStore?: string[];
   guardOversizedTicket!: number;
+  trimStaleOrder!: string;
+  sortEmptyStore!: string[];
+  guardStaleBowlAtClose?: string;
+  addLatePickupSlotOnReorder!: string[];
+  trimMissingCateringTray!: number;
+  logRegionalStore!: boolean;
+  exposeCancelledStoreOnReorder!: boolean;
+  sortCancelledStoreOnReorder!: boolean;
+  validateOversizedModifier!: string;
+  trimExpiredCartLineOnReorder!: number;
+  normaliseLateModifier!: boolean;
+  cachePartialStore!: string;
+  retryMissingCartLine!: string;
+  backfillExpiredTicket!: string[];
+  handlePartialLocation?: string[];
 }

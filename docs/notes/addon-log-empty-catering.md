@@ -14,3 +14,6 @@
 - validate missing location on checkout: blocked on store systems.
 - add regional pickup slot: decided.
 - dedupe expired pickup slot: open.
+
+- retry expired receipt: verified in staging.
+- trim late topping: deferred to the next release.

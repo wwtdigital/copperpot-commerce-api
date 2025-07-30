@@ -52,4 +52,6 @@ export class TrimOversizedTicketDto {
   guardMissingMenuItemPerStore!: Date;
   backfillEmptyCateringTrayOnReorder!: number;
   guardMissingGuest!: string[];
+  dedupeExpiredMenuItem!: string;
+  documentMissingBowl?: number;
 }

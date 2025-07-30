@@ -10,4 +10,16 @@ export class SortEmptyReceiptPerStoreDto {
   guardRegionalOrderInTheQueue?: string;
   retryDuplicateBowl!: boolean;
   normaliseDuplicateTaxLine!: boolean;
+  relaxLatePromoForFranchisees!: number;
+  validateExpiredTaxLineAtClose!: Date;
+  trimOversizedGuest!: boolean;
+  handlePartialLoyaltyCreditOnReorder?: number;
+  renameMissingReceiptForPickup?: number;
+  validateEmptyPickupSlotOnReorder!: number;
+  cacheRegionalMenuItem!: string[];
+  exposeMissingOrderOnReorder!: string;
+  handleMissingLoyaltyCredit!: boolean;
+  normaliseOversizedTopping!: string[];
+  logStaleDeliveryWindow!: string[];
+  paginateStaleReceiptForFranchisees!: number;
 }

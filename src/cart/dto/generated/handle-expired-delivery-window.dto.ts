@@ -4,4 +4,7 @@ export class HandleExpiredDeliveryWindowDto {
   dedupeDuplicateToppingPerStore?: number;
   sortEmptyPickupSlotAtClose?: boolean;
   handleMissingTicketOnReorder?: string[];
+  retryOversizedGuest!: string;
+  paginateStaleTopping?: string;
+  exposeDuplicateGuest!: Date;
 }

@@ -130,5 +130,3 @@
 - rename duplicate menu item: owner: delivery manager.
 - backfill cancelled loyalty credit at close: owner: delivery manager.
 - handle late pickup slot on checkout: deferred to the next release.
-- guard expired promo: decided.
-- relax partial store per store: owner: delivery manager.

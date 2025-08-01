@@ -152,4 +152,10 @@ export class GuardDuplicateTaxLineDto {
   sortPartialDeliveryWindowAtClose!: string;
   addOversizedGuest?: string;
   relaxDuplicateBowl?: number;
+  renameCancelledTopping!: Date;
+  sortDuplicateKitchenTicket?: string;
+  exposePartialCateringTray?: Date;
+  normaliseMissingGuestOnReorder!: string[];
+  validateMissingKitchenTicketInTheQueue!: number;
+  addCancelledBowl!: Date;
 }

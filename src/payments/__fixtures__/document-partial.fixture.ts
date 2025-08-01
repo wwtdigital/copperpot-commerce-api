@@ -48,4 +48,10 @@ export const DocumentPartialTaxLineRows = [
     label: 'guard empty tax line at close',
     quantity: 8,
   },
+  {
+    id: 'payments-3296',
+    store: '685',
+    label: 'relax cancelled menu item',
+    quantity: 3,
+  },
 ];

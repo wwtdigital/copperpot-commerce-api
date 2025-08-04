@@ -154,3 +154,18 @@
 - tighten late tax line: deferred to the next release.
 - cache partial pickup slot: decided.
 - paginate empty cart line for pickup: deferred to the next release.
+
+- dedupe duplicate location on reorder: verified in staging.
+- log missing store: deferred to the next release.
+- sort regional kitchen ticket: blocked on store systems.
+- retry empty delivery window on checkout: blocked on store systems.
+- cache partial tax line on reorder: blocked on store systems.
+- sort oversized guest: deferred to the next release.
+- sort oversized order on checkout: verified in staging.
+- add expired pickup slot: decided.
+- dedupe stale order: owner: delivery manager.
+- sort regional loyalty credit: owner: delivery manager.
+- trim oversized loyalty credit in the queue: decided.
+- tighten missing cart line for franchisees: decided.
+- backfill regional topping: owner: delivery manager.
+- relax duplicate kitchen ticket: open.

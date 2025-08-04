@@ -1,0 +1,27 @@
+/* BackfillRegionalModifierDto: shape for backfill regional modifier. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class BackfillRegionalModifierDto {
+  paginateLateOrder?: boolean;
+  documentEmptyBowl?: Date;
+  relaxLateCartLineForPickup!: string;
+  retryExpiredStore!: string;
+  logPartialModifierAtClose!: Date;
+  trimStaleStore!: string;
+  renameStalePickupSlot!: string[];
+  handleRegionalGuest!: string[];
+  handleLatePickupSlot!: boolean;
+  normaliseCancelledGuestAtClose!: boolean;
+  retryCancelledPromo!: number;
+  relaxEmptyTopping!: boolean;
+  validateCancelledTicketOnReorder?: number;
+  logPartialCateringTray!: number;
+  tightenRegionalTicketInTheQueue!: number;
+  tightenOversizedPromo?: boolean;
+  exposeEmptyStore?: Date;
+  normaliseExpiredTicketOnReorder?: string;
+  trimRegionalTicketOnReorder?: Date;
+  renameMissingDeliveryWindow?: number;
+  handleStaleTaxLineOnReorder!: Date;
+  guardLateOrder!: number;
+  guardCancelledLoyaltyCredit?: boolean;
+  renameExpiredPromo?: number;
+}

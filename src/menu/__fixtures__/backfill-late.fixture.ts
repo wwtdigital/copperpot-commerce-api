@@ -60,4 +60,58 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'cache regional ticket',
     quantity: 10,
   },
+  {
+    id: 'menu-2411',
+    store: '161',
+    label: 'log oversized bowl on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'menu-1331',
+    store: '490',
+    label: 'dedupe missing modifier',
+    quantity: 5,
+  },
+  {
+    id: 'menu-7754',
+    store: '447',
+    label: 'dedupe regional loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'menu-5944',
+    store: '568',
+    label: 'validate late store',
+    quantity: 8,
+  },
+  {
+    id: 'menu-2182',
+    store: '603',
+    label: 'guard regional receipt',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3259',
+    store: '174',
+    label: 'trim oversized store for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3724',
+    store: '274',
+    label: 'log empty menu item for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3503',
+    store: '398',
+    label: 'sort regional ticket',
+    quantity: 2,
+  },
+  {
+    id: 'menu-2441',
+    store: '416',
+    label: 'validate stale location',
+    quantity: 10,
+  },
 ];

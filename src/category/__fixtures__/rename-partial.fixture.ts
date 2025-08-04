@@ -234,4 +234,46 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'retry partial receipt',
     quantity: 11,
   },
+  {
+    id: 'category-7787',
+    store: '670',
+    label: 'sort missing catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'category-1619',
+    store: '432',
+    label: 'document oversized menu item',
+    quantity: 2,
+  },
+  {
+    id: 'category-2082',
+    store: '530',
+    label: 'rename oversized store',
+    quantity: 1,
+  },
+  {
+    id: 'category-3073',
+    store: '306',
+    label: 'tighten late delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'category-7344',
+    store: '360',
+    label: 'normalise partial catering tray on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'category-2295',
+    store: '347',
+    label: 'validate regional guest',
+    quantity: 12,
+  },
+  {
+    id: 'category-6449',
+    store: '477',
+    label: 'dedupe duplicate guest on checkout',
+    quantity: 1,
+  },
 ];

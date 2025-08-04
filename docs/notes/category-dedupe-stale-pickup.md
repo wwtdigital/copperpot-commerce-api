@@ -29,3 +29,5 @@
 - paginate missing loyalty credit: blocked on store systems.
 - guard partial tax line: deferred to the next release.
 - retry missing order at close: open.
+
+- cache partial promo: owner: delivery manager.

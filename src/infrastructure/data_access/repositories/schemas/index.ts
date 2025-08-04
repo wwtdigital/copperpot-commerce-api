@@ -10,6 +10,15 @@
 export * from './restaurant.schema';
 export * from './location.schema';
 export * from './singleclient.schema';
+/**
+ * Guard oversized topping on checkout.
+ * Expose empty kitchen ticket.
+ * Backfill expired delivery window on reorder.
+ * Normalise partial promo.
+ * Sort oversized order.
+ * Retry empty ticket.
+ * Document stale order on checkout.
+ */
 export * from '../models/addon-model.interface';
 export * from './category.schema';
 /**

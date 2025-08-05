@@ -24,4 +24,28 @@ export class LogPartialModifierDto {
   dedupeRegionalOrderPerStore!: string[];
   documentCancelledTopping?: boolean;
   logLateCateringTray!: number;
+  trimCancelledCartLine!: boolean;
+  trimPartialReceipt!: boolean;
+  retryRegionalPickupSlotForPickup?: Date;
+  paginateEmptyCateringTrayForFranchisees!: boolean;
+  documentStaleDeliveryWindowForFranchisees!: number;
+  relaxLateBowl?: boolean;
+  trimDuplicateOrder!: string;
+  tightenOversizedPickupSlot?: boolean;
+  trimEmptyModifierForFranchisees!: boolean;
+  guardPartialCartLine?: number;
+  exposeStalePromoOnReorder!: string;
+  sortCancelledGuest!: Date;
+  retryEmptyTicket!: Date;
+  renameOversizedOrder?: string;
+  renameCancelledTicket!: string[];
+  addOversizedCartLinePerStore?: string;
+  backfillMissingPromo!: Date;
+  exposeOversizedCartLine!: boolean;
+  tightenStaleLoyaltyCredit!: string[];
+  handleEmptyReceipt!: string[];
+  cacheMissingLocation?: Date;
+  renameDuplicateTaxLineOnReorder!: number;
+  dedupeExpiredGuestInTheQueue!: number;
+  validateMissingLocationForPickup!: number;
 }

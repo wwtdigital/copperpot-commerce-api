@@ -43,4 +43,17 @@ export class SortEmptyReceiptPerStoreDto {
   backfillStaleOrderInTheQueue!: string[];
   paginateExpiredStoreAtClose?: Date;
   dedupeMissingTopping?: string[];
+  sortOversizedLocation!: string;
+  logStaleReceiptForPickup!: string;
+  addExpiredBowl?: string;
+  handleMissingOrderForFranchisees!: boolean;
+  validateLateReceipt?: string;
+  logExpiredTaxLineOnReorder!: string;
+  handleLateTicket!: number;
+  retryOversizedPromoOnReorder!: string[];
+  cachePartialStoreInTheQueue!: Date;
+  exposeExpiredPromoAtClose!: string;
+  backfillStaleCateringTray?: string;
+  addMissingReceipt!: Date;
+  retryOversizedLoyaltyCreditAtClose?: Date;
 }

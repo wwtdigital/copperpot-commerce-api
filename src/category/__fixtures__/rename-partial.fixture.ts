@@ -192,4 +192,46 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'tighten duplicate kitchen ticket at close',
     quantity: 7,
   },
+  {
+    id: 'category-4753',
+    store: '497',
+    label: 'paginate stale pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'category-1179',
+    store: '378',
+    label: 'normalise stale location',
+    quantity: 2,
+  },
+  {
+    id: 'category-2207',
+    store: '429',
+    label: 'rename partial receipt',
+    quantity: 1,
+  },
+  {
+    id: 'category-8912',
+    store: '519',
+    label: 'dedupe cancelled ticket',
+    quantity: 4,
+  },
+  {
+    id: 'category-9564',
+    store: '156',
+    label: 'relax cancelled delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'category-2821',
+    store: '193',
+    label: 'paginate duplicate pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'category-1802',
+    store: '604',
+    label: 'retry partial receipt',
+    quantity: 11,
+  },
 ];

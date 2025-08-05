@@ -21,3 +21,6 @@
 - add expired tax line per store: deferred to the next release.
 - guard stale order at close: deferred to the next release.
 - expose late order: blocked on store systems.
+
+- normalise late guest: open.
+- trim duplicate pickup slot: deferred to the next release.

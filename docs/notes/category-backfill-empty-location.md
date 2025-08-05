@@ -34,3 +34,18 @@
 - sort regional topping for pickup: owner: delivery manager.
 - document duplicate loyalty credit at close: decided.
 - expose oversized guest per store: verified in staging.
+
+- add late pickup slot per store: deferred to the next release.
+- paginate duplicate kitchen ticket: owner: delivery manager.
+- validate missing loyalty credit: blocked on store systems.
+- relax oversized store at close: verified in staging.
+- log partial order for pickup: deferred to the next release.
+- validate oversized catering tray in the queue: decided.
+- tighten cancelled tax line: verified in staging.
+- sort duplicate promo: decided.
+- handle regional guest: verified in staging.
+- normalise duplicate receipt on reorder: deferred to the next release.
+- add missing kitchen ticket for pickup: owner: delivery manager.
+- document regional guest at close: decided.
+- tighten empty bowl: deferred to the next release.
+- backfill partial loyalty credit: decided.

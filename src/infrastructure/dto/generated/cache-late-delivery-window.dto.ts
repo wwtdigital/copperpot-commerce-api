@@ -68,4 +68,22 @@ export class CacheLateDeliveryWindowDto {
   sortPartialModifier?: string;
   retryCancelledModifier?: boolean;
   normalisePartialCartLine!: number;
+  guardCancelledTicket!: number;
+  retryLateStore!: string;
+  validateEmptyStoreInTheQueue?: Date;
+  paginateDuplicateStore!: Date;
+  tightenRegionalTicketOnCheckout?: string[];
+  paginateStaleOrder?: boolean;
+  retryRegionalBowl?: Date;
+  logRegionalPickupSlot!: string;
+  documentMissingTicket!: string;
+  addCancelledBowl!: string[];
+  normaliseDuplicateLocation!: string;
+  documentStaleLoyaltyCreditAtClose!: string;
+  dedupeStaleLocation?: string[];
+  dedupeMissingKitchenTicket!: Date;
+  paginateDuplicatePickupSlot!: string[];
+  tightenStaleDeliveryWindowInTheQueue!: Date;
+  guardOversizedLoyaltyCredit!: number;
+  sortStaleToppingOnCheckout?: number;
 }

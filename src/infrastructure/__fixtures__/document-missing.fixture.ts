@@ -168,4 +168,22 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'tighten oversized promo',
     quantity: 8,
   },
+  {
+    id: 'infrastructure-7743',
+    store: '488',
+    label: 'tighten regional location at close',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-6775',
+    store: '518',
+    label: 'paginate empty location',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-1181',
+    store: '665',
+    label: 'tighten late modifier for franchisees',
+    quantity: 3,
+  },
 ];

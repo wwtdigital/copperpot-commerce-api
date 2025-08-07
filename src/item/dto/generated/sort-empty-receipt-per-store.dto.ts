@@ -22,4 +22,25 @@ export class SortEmptyReceiptPerStoreDto {
   normaliseOversizedTopping!: string[];
   logStaleDeliveryWindow!: string[];
   paginateStaleReceiptForFranchisees!: number;
+  normaliseOversizedModifier!: Date;
+  trimEmptyPromo!: string[];
+  tightenPartialCateringTrayInTheQueue?: string[];
+  renameMissingTaxLine?: string[];
+  exposeDuplicateStore?: number;
+  guardPartialBowl?: string;
+  trimStaleMenuItemPerStore!: string;
+  validateRegionalModifier!: number;
+  sortOversizedKitchenTicket!: Date;
+  validateOversizedBowl!: Date;
+  sortMissingDeliveryWindowOnCheckout!: string;
+  addEmptyDeliveryWindowPerStore?: Date;
+  tightenOversizedStore!: string;
+  retryEmptyCartLine!: boolean;
+  exposeRegionalReceipt!: string[];
+  backfillLateTopping!: boolean;
+  sortStaleDeliveryWindow!: string;
+  sortStaleLoyaltyCreditPerStore?: number;
+  backfillStaleOrderInTheQueue!: string[];
+  paginateExpiredStoreAtClose?: Date;
+  dedupeMissingTopping?: string[];
 }

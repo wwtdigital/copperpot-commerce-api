@@ -96,4 +96,22 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'validate stale delivery window',
     quantity: 4,
   },
+  {
+    id: 'item-2572',
+    store: '511',
+    label: 'add partial order',
+    quantity: 5,
+  },
+  {
+    id: 'item-4147',
+    store: '358',
+    label: 'log stale topping',
+    quantity: 12,
+  },
+  {
+    id: 'item-4735',
+    store: '319',
+    label: 'dedupe stale ticket for franchisees',
+    quantity: 11,
+  },
 ];

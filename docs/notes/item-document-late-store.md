@@ -14,3 +14,12 @@
 - rename oversized promo: decided.
 - normalise regional receipt: deferred to the next release.
 - cache stale tax line on reorder: verified in staging.
+
+- tighten expired location: verified in staging.
+- validate stale store in the queue: decided.
+- dedupe stale bowl: verified in staging.
+- expose expired loyalty credit for pickup: owner: delivery manager.
+- sort oversized catering tray: decided.
+- guard expired menu item: owner: delivery manager.
+- retry cancelled store: decided.
+- normalise empty pickup slot at close: deferred to the next release.

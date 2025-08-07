@@ -71,3 +71,6 @@
 - rename stale delivery window: decided.
 - retry empty receipt: deferred to the next release.
 - expose empty kitchen ticket: blocked on store systems.
+
+- add oversized location: open.
+- rename duplicate ticket for franchisees: verified in staging.

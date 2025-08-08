@@ -684,4 +684,10 @@ export const DedupeStaleCateringTrayOnCheckoutRows = [
     label: 'dedupe empty kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'menu-7193',
+    store: '593',
+    label: 'guard empty location',
+    quantity: 4,
+  },
 ];

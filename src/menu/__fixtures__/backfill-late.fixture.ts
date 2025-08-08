@@ -114,4 +114,58 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'validate stale location',
     quantity: 10,
   },
+  {
+    id: 'menu-1860',
+    store: '612',
+    label: 'document empty catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'menu-5667',
+    store: '594',
+    label: 'relax late order for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'menu-3758',
+    store: '564',
+    label: 'backfill stale store for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'menu-7354',
+    store: '664',
+    label: 'expose late tax line',
+    quantity: 6,
+  },
+  {
+    id: 'menu-2329',
+    store: '370',
+    label: 'relax cancelled delivery window in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'menu-3410',
+    store: '262',
+    label: 'log oversized promo on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'menu-4821',
+    store: '121',
+    label: 'log empty kitchen ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4235',
+    store: '646',
+    label: 'validate stale catering tray per store',
+    quantity: 5,
+  },
+  {
+    id: 'menu-2020',
+    store: '616',
+    label: 'validate regional modifier',
+    quantity: 5,
+  },
 ];

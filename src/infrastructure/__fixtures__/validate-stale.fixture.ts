@@ -378,4 +378,10 @@ export const ValidateStaleGuestRows = [
     label: 'cache regional delivery window at close',
     quantity: 1,
   },
+  {
+    id: 'infrastructure-7052',
+    store: '650',
+    label: 'validate oversized order',
+    quantity: 5,
+  },
 ];

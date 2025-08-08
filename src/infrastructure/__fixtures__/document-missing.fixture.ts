@@ -168,4 +168,40 @@ export const DocumentMissingDeliveryWindowRows = [
     label: 'tighten oversized promo',
     quantity: 8,
   },
+  {
+    id: 'infrastructure-7743',
+    store: '488',
+    label: 'tighten regional location at close',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-6775',
+    store: '518',
+    label: 'paginate empty location',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-1181',
+    store: '665',
+    label: 'tighten late modifier for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-7949',
+    store: '314',
+    label: 'cache duplicate pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-1244',
+    store: '373',
+    label: 'normalise late promo per store',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-6219',
+    store: '439',
+    label: 'document missing ticket for pickup',
+    quantity: 9,
+  },
 ];

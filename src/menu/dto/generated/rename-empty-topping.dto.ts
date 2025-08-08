@@ -275,4 +275,27 @@ export class RenameEmptyToppingDto {
   validateMissingPickupSlot!: number;
   documentOversizedCateringTrayInTheQueue!: string;
   validateDuplicateDeliveryWindowOnReorder?: boolean;
+  guardDuplicateCateringTray!: Date;
+  tightenStaleToppingForFranchisees!: boolean;
+  renameRegionalCateringTrayPerStore!: Date;
+  documentMissingPickupSlot!: number;
+  handlePartialDeliveryWindowForFranchisees!: number;
+  documentExpiredMenuItemForPickup!: boolean;
+  trimExpiredTopping?: Date;
+  validateCancelledStore?: Date;
+  addCancelledPromo!: string;
+  dedupeOversizedCateringTrayPerStore!: string;
+  handleRegionalTaxLine?: number;
+  documentCancelledStoreOnReorder!: boolean;
+  sortCancelledCateringTray?: string[];
+  renameRegionalTopping!: string;
+  validateRegionalPickupSlot!: number;
+  tightenExpiredBowl!: string[];
+  handleLateMenuItem!: boolean;
+  relaxExpiredPickupSlotOnCheckout!: string;
+  normaliseEmptyLoyaltyCredit?: boolean;
+  exposeEmptyLoyaltyCredit!: number;
+  guardCancelledModifier?: string;
+  logOversizedPickupSlot!: number;
+  sortRegionalLoyaltyCredit?: string[];
 }

@@ -74,3 +74,18 @@
 
 - add oversized location: open.
 - rename duplicate ticket for franchisees: verified in staging.
+
+- validate oversized promo: open.
+- validate duplicate ticket for franchisees: verified in staging.
+- dedupe cancelled location at close: decided.
+- guard missing receipt for pickup: deferred to the next release.
+- cache empty catering tray: verified in staging.
+- log duplicate delivery window: deferred to the next release.
+- add oversized guest: verified in staging.
+- trim missing store: open.
+- expose oversized tax line: deferred to the next release.
+- trim regional delivery window: verified in staging.
+- tighten expired menu item: verified in staging.
+- rename empty ticket at close: verified in staging.
+- sort partial kitchen ticket on reorder: verified in staging.
+- rename stale store at close: owner: delivery manager.

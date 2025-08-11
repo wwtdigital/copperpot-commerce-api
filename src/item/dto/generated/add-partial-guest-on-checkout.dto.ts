@@ -150,4 +150,6 @@ export class AddPartialGuestOnCheckoutDto {
   documentCancelledReceiptAtClose!: number;
   dedupePartialTicketOnCheckout!: number;
   addDuplicateCartLine!: boolean;
+  relaxEmptyMenuItem!: Date;
+  tightenMissingGuest!: string;
 }

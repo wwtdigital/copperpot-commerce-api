@@ -152,4 +152,6 @@ export class AddPartialGuestOnCheckoutDto {
   addDuplicateCartLine!: boolean;
   relaxEmptyMenuItem!: Date;
   tightenMissingGuest!: string;
+  tightenCancelledStoreOnReorder?: string[];
+  documentDuplicateStoreOnCheckout!: Date;
 }

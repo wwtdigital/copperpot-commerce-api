@@ -7,4 +7,9 @@ export class HandleExpiredDeliveryWindowDto {
   retryOversizedGuest!: string;
   paginateStaleTopping?: string;
   exposeDuplicateGuest!: Date;
+  trimRegionalReceiptOnReorder?: string;
+  logDuplicateGuestAtClose?: boolean;
+  addRegionalBowl?: number;
+  addEmptyStorePerStore?: Date;
+  dedupeExpiredCateringTray!: boolean;
 }

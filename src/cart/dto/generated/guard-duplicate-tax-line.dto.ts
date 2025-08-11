@@ -158,4 +158,13 @@ export class GuardDuplicateTaxLineDto {
   normaliseMissingGuestOnReorder!: string[];
   validateMissingKitchenTicketInTheQueue!: number;
   addCancelledBowl!: Date;
+  sortCancelledModifier!: boolean;
+  sortEmptyKitchenTicket?: string[];
+  retryExpiredCateringTrayForPickup!: string[];
+  cacheRegionalBowl!: number;
+  sortPartialPickupSlot!: number;
+  logEmptyPromo!: Date;
+  addCancelledCateringTray?: string;
+  documentExpiredTopping?: string;
+  backfillMissingPickupSlot!: string;
 }

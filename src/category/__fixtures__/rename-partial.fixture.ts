@@ -276,4 +276,34 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'dedupe duplicate guest on checkout',
     quantity: 1,
   },
+  {
+    id: 'category-6841',
+    store: '111',
+    label: 'log late catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'category-6879',
+    store: '522',
+    label: 'dedupe expired catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'category-9634',
+    store: '221',
+    label: 'retry stale ticket',
+    quantity: 8,
+  },
+  {
+    id: 'category-8234',
+    store: '538',
+    label: 'guard regional pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'category-1174',
+    store: '282',
+    label: 'handle duplicate promo',
+    quantity: 5,
+  },
 ];

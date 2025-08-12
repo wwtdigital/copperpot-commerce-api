@@ -154,4 +154,9 @@ export class AddPartialGuestOnCheckoutDto {
   tightenMissingGuest!: string;
   tightenCancelledStoreOnReorder?: string[];
   documentDuplicateStoreOnCheckout!: Date;
+  retryOversizedModifierOnReorder?: number;
+  relaxLateCateringTray!: Date;
+  trimPartialMenuItem!: Date;
+  validateCancelledLoyaltyCreditAtClose!: Date;
+  guardStaleMenuItemForFranchisees!: string[];
 }

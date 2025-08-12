@@ -126,4 +126,10 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'rename late pickup slot at close',
     quantity: 11,
   },
+  {
+    id: 'item-8074',
+    store: '669',
+    label: 'backfill empty order',
+    quantity: 1,
+  },
 ];

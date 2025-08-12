@@ -154,3 +154,8 @@
 - cache regional topping for pickup: owner: delivery manager.
 - relax duplicate bowl: owner: delivery manager.
 - guard partial topping per store: open.
+
+- guard empty guest: deferred to the next release.
+- dedupe expired menu item: open.
+- validate stale promo: deferred to the next release.
+- trim regional location: deferred to the next release.

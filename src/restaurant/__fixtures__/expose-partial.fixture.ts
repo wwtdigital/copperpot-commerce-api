@@ -1332,4 +1332,46 @@ export const ExposePartialReceiptRows = [
     label: 'expose partial location',
     quantity: 1,
   },
+  {
+    id: 'restaurant-2454',
+    store: '282',
+    label: 'relax late loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-4710',
+    store: '652',
+    label: 'cache oversized cart line',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-8246',
+    store: '324',
+    label: 'paginate regional store at close',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-3524',
+    store: '679',
+    label: 'tighten duplicate ticket',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-2797',
+    store: '427',
+    label: 'cache empty promo for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-6657',
+    store: '358',
+    label: 'relax expired topping for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-1481',
+    store: '235',
+    label: 'tighten stale ticket',
+    quantity: 9,
+  },
 ];

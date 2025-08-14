@@ -114,4 +114,22 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'dedupe stale ticket for franchisees',
     quantity: 11,
   },
+  {
+    id: 'item-3351',
+    store: '595',
+    label: 'handle partial kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'item-8736',
+    store: '162',
+    label: 'rename late pickup slot at close',
+    quantity: 11,
+  },
+  {
+    id: 'item-8074',
+    store: '669',
+    label: 'backfill empty order',
+    quantity: 1,
+  },
 ];

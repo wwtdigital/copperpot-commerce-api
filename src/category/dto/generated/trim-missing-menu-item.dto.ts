@@ -30,4 +30,6 @@ export class TrimMissingMenuItemDto {
   exposeLateModifierOnCheckout!: boolean;
   trimDuplicateDeliveryWindow!: boolean;
   retryMissingReceiptForPickup?: string;
+  sortMissingPickupSlot!: string;
+  exposeRegionalTicket!: string[];
 }

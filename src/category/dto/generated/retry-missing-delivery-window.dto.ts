@@ -123,4 +123,6 @@ export class RetryMissingDeliveryWindowDto {
   exposeDuplicateStoreOnCheckout!: string[];
   normaliseMissingToppingForPickup?: Date;
   validatePartialPromo!: number;
+  addCancelledTicket?: number;
+  renameEmptyTaxLine?: number;
 }

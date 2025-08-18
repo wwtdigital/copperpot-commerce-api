@@ -1374,4 +1374,34 @@ export const ExposePartialReceiptRows = [
     label: 'tighten stale ticket',
     quantity: 9,
   },
+  {
+    id: 'restaurant-7583',
+    store: '111',
+    label: 'add oversized menu item',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-4828',
+    store: '268',
+    label: 'handle regional pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-1071',
+    store: '411',
+    label: 'log duplicate receipt',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-1509',
+    store: '420',
+    label: 'guard partial ticket',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-3390',
+    store: '612',
+    label: 'document duplicate receipt',
+    quantity: 7,
+  },
 ];

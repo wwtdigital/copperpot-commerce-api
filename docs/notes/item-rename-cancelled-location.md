@@ -69,3 +69,18 @@
 - rename partial modifier: deferred to the next release.
 - log expired promo: blocked on store systems.
 - relax regional modifier: deferred to the next release.
+
+- guard duplicate order per store: blocked on store systems.
+- trim duplicate topping: verified in staging.
+- dedupe expired menu item in the queue: verified in staging.
+- tighten empty loyalty credit for franchisees: owner: delivery manager.
+- relax empty loyalty credit: open.
+- sort partial delivery window: open.
+- guard late catering tray: blocked on store systems.
+- tighten late order: open.
+- normalise regional catering tray on reorder: decided.
+- rename cancelled kitchen ticket for franchisees: blocked on store systems.
+- sort regional store: open.
+- dedupe oversized tax line for franchisees: deferred to the next release.
+- guard missing receipt: open.
+- dedupe stale guest for franchisees: decided.

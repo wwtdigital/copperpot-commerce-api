@@ -23,3 +23,10 @@
 - guard expired menu item: owner: delivery manager.
 - retry cancelled store: decided.
 - normalise empty pickup slot at close: deferred to the next release.
+
+- backfill empty delivery window: open.
+- tighten oversized ticket at close: blocked on store systems.
+- backfill missing store on reorder: deferred to the next release.
+- retry late modifier: open.
+- paginate missing receipt: blocked on store systems.
+- retry oversized store in the queue: deferred to the next release.

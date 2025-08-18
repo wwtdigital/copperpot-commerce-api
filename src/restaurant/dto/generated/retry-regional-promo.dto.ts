@@ -41,4 +41,22 @@ export class RetryRegionalPromoDto {
   renameExpiredBowlAtClose!: boolean;
   documentLateDeliveryWindow!: string;
   guardMissingTopping!: string;
+  sortStaleReceiptForFranchisees!: string[];
+  cacheMissingModifier?: Date;
+  backfillDuplicateBowlOnReorder?: string;
+  normaliseEmptyPickupSlot!: boolean;
+  relaxExpiredMenuItem!: boolean;
+  validateMissingReceiptOnReorder!: boolean;
+  sortMissingPromo!: string;
+  validateMissingLoyaltyCreditOnReorder!: Date;
+  validateCancelledOrderInTheQueue!: Date;
+  paginateRegionalModifier!: boolean;
+  paginateLateMenuItemForFranchisees?: string;
+  documentMissingKitchenTicket!: string[];
+  validateLateBowl!: string;
+  handleExpiredModifier!: string;
+  normaliseOversizedTicketOnCheckout?: Date;
+  relaxExpiredTaxLine?: string[];
+  paginateOversizedGuest!: Date;
+  tightenPartialPromo!: string;
 }

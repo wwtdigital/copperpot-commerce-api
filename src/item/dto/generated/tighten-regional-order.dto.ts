@@ -72,4 +72,15 @@ export class TightenRegionalOrderDto {
   tightenEmptyCateringTrayForFranchisees!: string;
   tightenLateDeliveryWindow!: Date;
   normaliseOversizedPickupSlot!: boolean;
+  cachePartialTicketOnReorder?: boolean;
+  guardPartialCartLine!: boolean;
+  cacheOversizedMenuItemPerStore?: string;
+  documentMissingKitchenTicketAtClose!: Date;
+  tightenDuplicatePickupSlot?: number;
+  logCancelledToppingInTheQueue?: string;
+  paginateLateCartLine?: Date;
+  dedupeMissingOrder!: Date;
+  exposeDuplicateTaxLine?: string[];
+  logPartialPromo!: boolean;
+  dedupeStalePromo!: string;
 }

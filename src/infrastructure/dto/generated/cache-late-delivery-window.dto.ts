@@ -124,4 +124,6 @@ export class CacheLateDeliveryWindowDto {
   logCancelledReceipt!: boolean;
   guardOversizedGuest!: number;
   exposeLateCartLine?: number;
+  validateRegionalGuestOnCheckout!: string;
+  exposeMissingCartLine!: string[];
 }

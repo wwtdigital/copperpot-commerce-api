@@ -19,3 +19,18 @@
 - cache regional cart line: deferred to the next release.
 - guard duplicate guest: blocked on store systems.
 - validate regional pickup slot per store: open.
+
+- relax stale ticket: open.
+- retry oversized delivery window for franchisees: blocked on store systems.
+- cache cancelled tax line at close: verified in staging.
+- normalise expired tax line on checkout: verified in staging.
+- rename oversized catering tray: deferred to the next release.
+- dedupe cancelled tax line: deferred to the next release.
+- rename oversized modifier: decided.
+- log late tax line: owner: delivery manager.
+- tighten late bowl on checkout: deferred to the next release.
+- trim expired bowl at close: blocked on store systems.
+- expose missing pickup slot per store: decided.
+- rename oversized store: blocked on store systems.
+- paginate regional promo: owner: delivery manager.
+- guard oversized topping: deferred to the next release.

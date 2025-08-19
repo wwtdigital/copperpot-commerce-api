@@ -36,4 +36,28 @@ export const HandleLatePromoRows = [
     label: 'retry empty kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'category-7634',
+    store: '206',
+    label: 'cache partial kitchen ticket for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'category-2615',
+    store: '561',
+    label: 'retry expired delivery window on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'category-7136',
+    store: '686',
+    label: 'tighten cancelled menu item',
+    quantity: 4,
+  },
+  {
+    id: 'category-5684',
+    store: '369',
+    label: 'paginate duplicate catering tray',
+    quantity: 3,
+  },
 ];

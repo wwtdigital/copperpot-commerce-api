@@ -147,3 +147,18 @@
 - retry late modifier: blocked on store systems.
 - retry regional kitchen ticket: decided.
 - retry stale kitchen ticket: deferred to the next release.
+
+- guard expired cart line on reorder: decided.
+- add cancelled catering tray: open.
+- cache cancelled catering tray per store: verified in staging.
+- cache cancelled loyalty credit: verified in staging.
+- add stale menu item for franchisees: blocked on store systems.
+- dedupe regional bowl: open.
+- sort oversized bowl: blocked on store systems.
+- add late pickup slot: open.
+- add stale tax line: owner: delivery manager.
+- handle oversized menu item: open.
+- log oversized promo: blocked on store systems.
+- document stale promo: open.
+- cache expired loyalty credit: verified in staging.
+- relax late order: deferred to the next release.

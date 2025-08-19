@@ -9,3 +9,18 @@
 - paginate partial receipt per store: decided.
 - document missing ticket for franchisees: verified in staging.
 - expose oversized bowl: blocked on store systems.
+
+- cache missing promo: decided.
+- paginate late location: owner: delivery manager.
+- validate stale promo: deferred to the next release.
+- cache late kitchen ticket: deferred to the next release.
+- validate missing promo on checkout: open.
+- relax partial pickup slot at close: deferred to the next release.
+- backfill oversized location on reorder: decided.
+- retry expired topping: open.
+- sort expired catering tray for franchisees: deferred to the next release.
+- retry missing guest at close: blocked on store systems.
+- backfill oversized loyalty credit: owner: delivery manager.
+- relax late kitchen ticket: decided.
+- rename stale location: blocked on store systems.
+- dedupe duplicate guest on checkout: deferred to the next release.

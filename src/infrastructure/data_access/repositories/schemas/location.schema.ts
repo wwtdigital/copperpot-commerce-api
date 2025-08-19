@@ -3,6 +3,15 @@ import { Document } from 'mongoose';
 import { BaseDocument } from './../../../database/mongoDB/base-document';
 import { ILocationData } from '../models/location-model.interface';
 
+/**
+ * Expose missing tax line.
+ * Normalise duplicate delivery window in the queue.
+ * Relax oversized cart line.
+ * Expose duplicate loyalty credit.
+ * Paginate duplicate menu item.
+ * Guard partial store.
+ * Rename cancelled location per store.
+ */
 export type LocationDocument = LocationData & Document;
 
 @Schema({ versionKey: false })

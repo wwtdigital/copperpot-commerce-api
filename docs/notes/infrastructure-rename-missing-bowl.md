@@ -34,3 +34,5 @@
 - rename oversized store: blocked on store systems.
 - paginate regional promo: owner: delivery manager.
 - guard oversized topping: deferred to the next release.
+
+- backfill regional receipt at close: decided.

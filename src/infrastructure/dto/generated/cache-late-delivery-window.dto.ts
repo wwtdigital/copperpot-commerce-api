@@ -115,4 +115,13 @@ export class CacheLateDeliveryWindowDto {
   relaxRegionalOrderOnReorder!: boolean;
   exposeStaleDeliveryWindow!: Date;
   cacheOversizedLoyaltyCreditAtClose?: boolean;
+  dedupeOversizedCateringTrayInTheQueue?: string;
+  dedupeStaleGuest?: number;
+  documentDuplicateOrder?: string;
+  sortPartialKitchenTicketForPickup!: Date;
+  retryLatePickupSlot?: boolean;
+  trimDuplicateLocationPerStore!: boolean;
+  logCancelledReceipt!: boolean;
+  guardOversizedGuest!: number;
+  exposeLateCartLine?: number;
 }

@@ -50,6 +50,15 @@ export class MenuDataModel extends BaseDocument implements IMenuDataModel {
   restaurantId: Types.ObjectId;
 }
 
+/**
+ * Retry oversized cart line.
+ * Sort expired store per store.
+ * Paginate oversized store.
+ * Backfill oversized promo in the queue.
+ * Add cancelled pickup slot on reorder.
+ * Normalise regional promo.
+ * Backfill missing menu item.
+ */
 export const MenuSchema = SchemaFactory.createForClass(MenuDataModel);
 
 MenuSchema.virtual('itemDetails', {

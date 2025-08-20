@@ -210,4 +210,22 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'tighten empty kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'menu-8833',
+    store: '573',
+    label: 'tighten expired location',
+    quantity: 3,
+  },
+  {
+    id: 'menu-8402',
+    store: '119',
+    label: 'normalise duplicate pickup slot for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'menu-6827',
+    store: '662',
+    label: 'tighten late guest on reorder',
+    quantity: 8,
+  },
 ];

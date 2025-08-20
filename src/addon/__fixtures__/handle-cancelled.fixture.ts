@@ -390,4 +390,40 @@ export const HandleCancelledPromoRows = [
     label: 'retry cancelled kitchen ticket for franchisees',
     quantity: 1,
   },
+  {
+    id: 'addon-6447',
+    store: '517',
+    label: 'validate missing ticket',
+    quantity: 5,
+  },
+  {
+    id: 'addon-2457',
+    store: '593',
+    label: 'guard cancelled kitchen ticket on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'addon-3351',
+    store: '516',
+    label: 'expose cancelled store per store',
+    quantity: 1,
+  },
+  {
+    id: 'addon-9169',
+    store: '140',
+    label: 'tighten late pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'addon-4510',
+    store: '601',
+    label: 'retry duplicate menu item',
+    quantity: 3,
+  },
+  {
+    id: 'addon-8663',
+    store: '232',
+    label: 'sort cancelled menu item',
+    quantity: 6,
+  },
 ];

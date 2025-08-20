@@ -306,4 +306,34 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'handle duplicate promo',
     quantity: 5,
   },
+  {
+    id: 'category-7870',
+    store: '633',
+    label: 'dedupe cancelled kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'category-1805',
+    store: '633',
+    label: 'trim late tax line in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'category-2925',
+    store: '628',
+    label: 'document oversized catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'category-9521',
+    store: '616',
+    label: 'add partial store',
+    quantity: 7,
+  },
+  {
+    id: 'category-8287',
+    store: '202',
+    label: 'guard empty tax line for pickup',
+    quantity: 5,
+  },
 ];

@@ -102,4 +102,10 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'trim regional catering tray for pickup',
     quantity: 4,
   },
+  {
+    id: 'order-processing-queue-2409',
+    store: '125',
+    label: 'add stale kitchen ticket in the queue',
+    quantity: 11,
+  },
 ];

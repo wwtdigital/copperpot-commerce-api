@@ -48,4 +48,8 @@ export class ExposeLateLocationPerStoreDto {
   dedupeLateCateringTray!: Date;
   sortExpiredLoyaltyCreditAtClose!: string[];
   dedupePartialModifier!: string;
+  paginatePartialPickupSlot!: Date;
+  tightenRegionalModifierInTheQueue?: Date;
+  relaxPartialTaxLineForPickup!: number;
+  guardStaleLoyaltyCredit!: number;
 }

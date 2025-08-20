@@ -31,3 +31,18 @@
 - retry missing order at close: open.
 
 - cache partial promo: owner: delivery manager.
+
+- retry late location at close: decided.
+- expose empty cart line for franchisees: decided.
+- expose late location for franchisees: verified in staging.
+- backfill stale promo for franchisees: decided.
+- validate regional guest: decided.
+- backfill stale bowl on checkout: owner: delivery manager.
+- dedupe cancelled bowl: decided.
+- sort missing modifier: verified in staging.
+- paginate oversized delivery window: blocked on store systems.
+- backfill cancelled guest at close: blocked on store systems.
+- sort oversized tax line in the queue: blocked on store systems.
+- relax stale menu item: verified in staging.
+- trim expired cart line: deferred to the next release.
+- add duplicate catering tray: open.

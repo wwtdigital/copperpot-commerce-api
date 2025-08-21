@@ -168,4 +168,46 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'validate regional modifier',
     quantity: 5,
   },
+  {
+    id: 'menu-7668',
+    store: '551',
+    label: 'trim duplicate receipt',
+    quantity: 8,
+  },
+  {
+    id: 'menu-7916',
+    store: '311',
+    label: 'add missing kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'menu-4214',
+    store: '616',
+    label: 'backfill expired receipt in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'menu-4423',
+    store: '136',
+    label: 'rename partial pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'menu-9827',
+    store: '426',
+    label: 'sort regional store',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7011',
+    store: '493',
+    label: 'trim cancelled catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'menu-2220',
+    store: '571',
+    label: 'tighten empty kitchen ticket',
+    quantity: 1,
+  },
 ];

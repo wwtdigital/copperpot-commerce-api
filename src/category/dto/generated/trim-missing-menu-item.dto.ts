@@ -32,4 +32,27 @@ export class TrimMissingMenuItemDto {
   retryMissingReceiptForPickup?: string;
   sortMissingPickupSlot!: string;
   exposeRegionalTicket!: string[];
+  exposeCancelledOrder!: string[];
+  exposeEmptyTicketForFranchisees!: string;
+  dedupeLateKitchenTicket!: string[];
+  paginateDuplicateTaxLineForPickup!: number;
+  retryRegionalBowl?: boolean;
+  renameCancelledLocationInTheQueue!: string;
+  exposeLateLoyaltyCreditAtClose!: string;
+  validatePartialBowl?: string;
+  normaliseStaleMenuItemInTheQueue!: number;
+  documentDuplicateGuestForPickup!: number;
+  backfillPartialReceipt?: Date;
+  guardOversizedTicket!: number;
+  addPartialModifier!: boolean;
+  renameMissingLocationAtClose!: string[];
+  tightenExpiredPickupSlot!: number;
+  validateCancelledTopping!: string;
+  handleRegionalBowl!: boolean;
+  retryMissingStoreForFranchisees?: Date;
+  exposeExpiredReceiptForPickup!: string;
+  retryDuplicateBowlOnCheckout!: boolean;
+  relaxCancelledTaxLineAtClose!: boolean;
+  handleCancelledReceipt?: Date;
+  tightenOversizedLoyaltyCredit!: number;
 }

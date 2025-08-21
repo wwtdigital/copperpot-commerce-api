@@ -55,4 +55,8 @@ export class TrimMissingMenuItemDto {
   relaxCancelledTaxLineAtClose!: boolean;
   handleCancelledReceipt?: Date;
   tightenOversizedLoyaltyCredit!: number;
+  sortCancelledGuestInTheQueue!: boolean;
+  backfillPartialTicket!: boolean;
+  tightenCancelledTicketForFranchisees!: string[];
+  documentMissingCateringTray!: Date;
 }

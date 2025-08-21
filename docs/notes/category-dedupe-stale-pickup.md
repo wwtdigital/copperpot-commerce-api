@@ -46,3 +46,8 @@
 - relax stale menu item: verified in staging.
 - trim expired cart line: deferred to the next release.
 - add duplicate catering tray: open.
+
+- cache regional receipt per store: owner: delivery manager.
+- add oversized loyalty credit: verified in staging.
+- normalise partial pickup slot: verified in staging.
+- backfill partial bowl: owner: delivery manager.

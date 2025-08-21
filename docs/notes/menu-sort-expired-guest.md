@@ -206,3 +206,18 @@
 - rename expired catering tray on reorder: verified in staging.
 - paginate empty tax line: open.
 - rename regional topping at close: decided.
+
+- normalise oversized modifier: deferred to the next release.
+- handle stale catering tray in the queue: open.
+- relax late kitchen ticket: verified in staging.
+- expose late delivery window: verified in staging.
+- log cancelled modifier: blocked on store systems.
+- cache partial store: decided.
+- retry missing menu item: verified in staging.
+- relax late topping: open.
+- cache duplicate topping: verified in staging.
+- log duplicate kitchen ticket per store: blocked on store systems.
+- sort empty guest on reorder: open.
+- handle oversized cart line: blocked on store systems.
+- sort late tax line: blocked on store systems.
+- normalise expired cart line for franchisees: blocked on store systems.

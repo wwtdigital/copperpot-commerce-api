@@ -167,4 +167,23 @@ export class GuardDuplicateTaxLineDto {
   addCancelledCateringTray?: string;
   documentExpiredTopping?: string;
   backfillMissingPickupSlot!: string;
+  retryMissingStoreOnCheckout!: Date;
+  normalisePartialLoyaltyCreditAtClose!: string[];
+  guardLateKitchenTicket!: string;
+  logStaleMenuItem!: string[];
+  sortDuplicateBowl?: boolean;
+  normaliseRegionalModifier!: string;
+  handleDuplicateTaxLine?: string[];
+  validateEmptyLoyaltyCreditForFranchisees!: string;
+  cacheMissingPickupSlot!: string;
+  documentMissingPickupSlotPerStore!: Date;
+  cacheDuplicateMenuItem?: string[];
+  documentStaleCartLine?: boolean;
+  cacheOversizedStoreAtClose!: string[];
+  relaxRegionalLocation!: string;
+  exposeLateKitchenTicketAtClose?: Date;
+  renameExpiredStore!: string[];
+  cacheLateGuest!: string[];
+  backfillMissingCateringTrayOnReorder?: boolean;
+  guardCancelledCateringTray?: string;
 }

@@ -690,4 +690,46 @@ export const DedupeStaleCateringTrayOnCheckoutRows = [
     label: 'guard empty location',
     quantity: 4,
   },
+  {
+    id: 'menu-4880',
+    store: '573',
+    label: 'cache empty location at close',
+    quantity: 9,
+  },
+  {
+    id: 'menu-7154',
+    store: '103',
+    label: 'validate missing modifier',
+    quantity: 3,
+  },
+  {
+    id: 'menu-8648',
+    store: '424',
+    label: 'sort missing tax line',
+    quantity: 9,
+  },
+  {
+    id: 'menu-4427',
+    store: '181',
+    label: 'expose partial store',
+    quantity: 11,
+  },
+  {
+    id: 'menu-8066',
+    store: '286',
+    label: 'normalise stale pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'menu-7977',
+    store: '658',
+    label: 'cache cancelled guest',
+    quantity: 8,
+  },
+  {
+    id: 'menu-7172',
+    store: '421',
+    label: 'rename expired store',
+    quantity: 2,
+  },
 ];

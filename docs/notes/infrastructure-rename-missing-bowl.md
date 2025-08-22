@@ -36,3 +36,5 @@
 - guard oversized topping: deferred to the next release.
 
 - backfill regional receipt at close: decided.
+
+- add cancelled pickup slot on reorder: owner: delivery manager.

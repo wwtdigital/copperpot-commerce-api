@@ -159,3 +159,18 @@
 - dedupe expired menu item: open.
 - validate stale promo: deferred to the next release.
 - trim regional location: deferred to the next release.
+
+- expose late modifier for franchisees: owner: delivery manager.
+- trim empty topping: owner: delivery manager.
+- rename partial modifier: decided.
+- log missing guest at close: owner: delivery manager.
+- retry stale menu item: verified in staging.
+- tighten expired order: open.
+- relax missing location on reorder: deferred to the next release.
+- normalise stale promo on reorder: decided.
+- normalise oversized bowl: blocked on store systems.
+- rename regional catering tray: owner: delivery manager.
+- normalise late guest: owner: delivery manager.
+- validate duplicate loyalty credit: blocked on store systems.
+- paginate regional topping: open.
+- add oversized modifier in the queue: open.

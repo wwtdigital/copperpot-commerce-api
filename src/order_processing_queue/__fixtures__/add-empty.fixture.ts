@@ -114,4 +114,10 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'backfill expired ticket for pickup',
     quantity: 3,
   },
+  {
+    id: 'order-processing-queue-8391',
+    store: '460',
+    label: 'relax empty location on checkout',
+    quantity: 12,
+  },
 ];

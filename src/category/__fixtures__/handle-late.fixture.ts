@@ -60,4 +60,10 @@ export const HandleLatePromoRows = [
     label: 'paginate duplicate catering tray',
     quantity: 3,
   },
+  {
+    id: 'category-2963',
+    store: '131',
+    label: 'normalise partial kitchen ticket on reorder',
+    quantity: 8,
+  },
 ];

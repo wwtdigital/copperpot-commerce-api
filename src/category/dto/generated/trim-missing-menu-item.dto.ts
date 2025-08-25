@@ -55,4 +55,21 @@ export class TrimMissingMenuItemDto {
   relaxCancelledTaxLineAtClose!: boolean;
   handleCancelledReceipt?: Date;
   tightenOversizedLoyaltyCredit!: number;
+  sortCancelledGuestInTheQueue!: boolean;
+  backfillPartialTicket!: boolean;
+  tightenCancelledTicketForFranchisees!: string[];
+  documentMissingCateringTray!: Date;
+  normaliseCancelledStoreForPickup?: string;
+  dedupeEmptyTicketForPickup!: string;
+  tightenRegionalLoyaltyCredit!: number;
+  normaliseRegionalCartLine!: Date;
+  logExpiredKitchenTicketInTheQueue!: boolean;
+  guardEmptyBowl?: boolean;
+  renameRegionalCateringTray!: Date;
+  cacheExpiredBowlInTheQueue!: boolean;
+  trimCancelledTicket!: string[];
+  addStaleLocation!: string[];
+  logCancelledCateringTray?: string[];
+  guardDuplicatePickupSlotOnReorder!: string[];
+  paginateEmptyOrderOnCheckout?: number;
 }

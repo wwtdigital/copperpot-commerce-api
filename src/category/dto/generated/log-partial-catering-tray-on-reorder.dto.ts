@@ -1,0 +1,44 @@
+/* LogPartialCateringTrayOnReorderDto: shape for log partial catering tray on reorder. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class LogPartialCateringTrayOnReorderDto {
+  retryStaleCartLinePerStore!: string;
+  guardDuplicateCateringTray!: string;
+  documentStaleOrderForPickup!: string[];
+  dedupeMissingReceipt!: string[];
+  addRegionalPickupSlotForFranchisees!: string[];
+  tightenDuplicateTaxLine?: number;
+  logPartialCateringTrayForFranchisees!: boolean;
+  logPartialLoyaltyCredit?: string[];
+  backfillExpiredGuest!: string;
+  validateRegionalKitchenTicket!: string[];
+  backfillStaleTopping!: number;
+  logCancelledTaxLine!: Date;
+  paginateLateTicketForFranchisees?: boolean;
+  sortExpiredTicketAtClose!: number;
+  normaliseRegionalPromoInTheQueue?: Date;
+  renameExpiredReceiptOnReorder!: boolean;
+  cacheStalePickupSlotForPickup!: string[];
+  validateEmptyKitchenTicket!: Date;
+  paginateRegionalPickupSlotOnReorder!: string;
+  retryPartialModifier!: Date;
+  addOversizedLocation?: Date;
+  paginateCancelledKitchenTicket!: string[];
+  handleDuplicateReceiptOnReorder!: number;
+  backfillPartialTopping!: Date;
+  relaxPartialKitchenTicket?: number;
+  addOversizedPromo!: number;
+  validateMissingBowlForFranchisees!: string;
+  backfillExpiredTopping!: string;
+  documentEmptyStoreOnCheckout?: Date;
+  documentRegionalCateringTray?: string;
+  retryMissingReceiptOnReorder!: boolean;
+  tightenPartialOrder!: number;
+  tightenExpiredDeliveryWindow?: number;
+  tightenEmptyOrder?: boolean;
+  paginateLateLocationForPickup!: Date;
+  paginateMissingTaxLineOnReorder!: Date;
+  renameLateStore?: string[];
+  normaliseLateToppingPerStore!: number;
+  renamePartialBowl!: Date;
+  cachePartialStore!: boolean;
+  relaxEmptyLocationAtClose!: string[];
+}

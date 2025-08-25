@@ -26,4 +26,19 @@ export class LogPartialCateringTrayOnReorderDto {
   backfillPartialTopping!: Date;
   relaxPartialKitchenTicket?: number;
   addOversizedPromo!: number;
+  validateMissingBowlForFranchisees!: string;
+  backfillExpiredTopping!: string;
+  documentEmptyStoreOnCheckout?: Date;
+  documentRegionalCateringTray?: string;
+  retryMissingReceiptOnReorder!: boolean;
+  tightenPartialOrder!: number;
+  tightenExpiredDeliveryWindow?: number;
+  tightenEmptyOrder?: boolean;
+  paginateLateLocationForPickup!: Date;
+  paginateMissingTaxLineOnReorder!: Date;
+  renameLateStore?: string[];
+  normaliseLateToppingPerStore!: number;
+  renamePartialBowl!: Date;
+  cachePartialStore!: boolean;
+  relaxEmptyLocationAtClose!: string[];
 }

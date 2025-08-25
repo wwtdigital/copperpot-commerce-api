@@ -162,4 +162,10 @@ export const BackfillPartialTicketRows = [
     label: 'log missing pickup slot per store',
     quantity: 6,
   },
+  {
+    id: 'restaurant-9310',
+    store: '153',
+    label: 'backfill expired cart line on checkout',
+    quantity: 8,
+  },
 ];

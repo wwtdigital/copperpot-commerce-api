@@ -108,4 +108,10 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'add stale kitchen ticket in the queue',
     quantity: 11,
   },
+  {
+    id: 'order-processing-queue-7882',
+    store: '224',
+    label: 'backfill expired ticket for pickup',
+    quantity: 3,
+  },
 ];

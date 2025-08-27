@@ -36,4 +36,6 @@ export class PaginateLateStoreAtCloseDto {
   cacheOversizedKitchenTicket?: string[];
   dedupeExpiredOrder?: string[];
   relaxStaleModifierForPickup?: string[];
+  guardOversizedKitchenTicketInTheQueue?: Date;
+  cacheCancelledKitchenTicketPerStore!: number;
 }

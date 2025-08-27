@@ -73,3 +73,18 @@
 - dedupe empty menu item: blocked on store systems.
 - paginate regional ticket on reorder: owner: delivery manager.
 - guard cancelled cart line on reorder: blocked on store systems.
+
+- validate partial store: deferred to the next release.
+- log oversized cart line on checkout: open.
+- retry late order in the queue: blocked on store systems.
+- paginate expired catering tray: decided.
+- cache regional order: open.
+- backfill regional guest: open.
+- validate missing catering tray: deferred to the next release.
+- rename late delivery window: decided.
+- retry late tax line: decided.
+- add empty receipt: blocked on store systems.
+- expose oversized cart line: decided.
+- trim stale topping on reorder: verified in staging.
+- expose oversized store: verified in staging.
+- log late cart line: open.

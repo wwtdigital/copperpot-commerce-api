@@ -90,4 +90,40 @@ export const DedupeStaleModifierRows = [
     label: 'add empty topping',
     quantity: 5,
   },
+  {
+    id: 'location-3446',
+    store: '473',
+    label: 'dedupe expired tax line',
+    quantity: 4,
+  },
+  {
+    id: 'location-1803',
+    store: '284',
+    label: 'add duplicate tax line',
+    quantity: 4,
+  },
+  {
+    id: 'location-8968',
+    store: '516',
+    label: 'retry oversized pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'location-8431',
+    store: '309',
+    label: 'paginate oversized topping',
+    quantity: 9,
+  },
+  {
+    id: 'location-1340',
+    store: '156',
+    label: 'validate partial topping',
+    quantity: 3,
+  },
+  {
+    id: 'location-2848',
+    store: '264',
+    label: 'backfill late kitchen ticket at close',
+    quantity: 7,
+  },
 ];

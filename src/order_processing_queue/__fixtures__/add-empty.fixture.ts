@@ -120,4 +120,10 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'relax empty location on checkout',
     quantity: 12,
   },
+  {
+    id: 'order-processing-queue-5376',
+    store: '393',
+    label: 'tighten late pickup slot',
+    quantity: 12,
+  },
 ];

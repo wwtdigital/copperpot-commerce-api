@@ -450,4 +450,34 @@ export const HandleCancelledPromoRows = [
     label: 'trim oversized location',
     quantity: 11,
   },
+  {
+    id: 'addon-6155',
+    store: '507',
+    label: 'rename late promo at close',
+    quantity: 9,
+  },
+  {
+    id: 'addon-2406',
+    store: '194',
+    label: 'paginate empty location',
+    quantity: 3,
+  },
+  {
+    id: 'addon-1670',
+    store: '653',
+    label: 'retry oversized menu item per store',
+    quantity: 8,
+  },
+  {
+    id: 'addon-1573',
+    store: '447',
+    label: 'cache regional promo',
+    quantity: 7,
+  },
+  {
+    id: 'addon-8603',
+    store: '533',
+    label: 'add duplicate promo per store',
+    quantity: 3,
+  },
 ];

@@ -426,4 +426,28 @@ export const HandleCancelledPromoRows = [
     label: 'sort cancelled menu item',
     quantity: 6,
   },
+  {
+    id: 'addon-2672',
+    store: '485',
+    label: 'validate regional cart line',
+    quantity: 3,
+  },
+  {
+    id: 'addon-7516',
+    store: '505',
+    label: 'normalise empty store',
+    quantity: 11,
+  },
+  {
+    id: 'addon-6092',
+    store: '622',
+    label: 'add regional location per store',
+    quantity: 1,
+  },
+  {
+    id: 'addon-9784',
+    store: '644',
+    label: 'trim oversized location',
+    quantity: 11,
+  },
 ];

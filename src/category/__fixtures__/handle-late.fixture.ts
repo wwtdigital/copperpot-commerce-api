@@ -66,4 +66,58 @@ export const HandleLatePromoRows = [
     label: 'normalise partial kitchen ticket on reorder',
     quantity: 8,
   },
+  {
+    id: 'category-8436',
+    store: '310',
+    label: 'trim empty tax line',
+    quantity: 5,
+  },
+  {
+    id: 'category-9816',
+    store: '273',
+    label: 'sort expired catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'category-6148',
+    store: '582',
+    label: 'handle oversized store',
+    quantity: 3,
+  },
+  {
+    id: 'category-2892',
+    store: '621',
+    label: 'add cancelled receipt',
+    quantity: 8,
+  },
+  {
+    id: 'category-3295',
+    store: '597',
+    label: 'log stale cart line',
+    quantity: 8,
+  },
+  {
+    id: 'category-8959',
+    store: '670',
+    label: 'rename stale ticket',
+    quantity: 12,
+  },
+  {
+    id: 'category-6461',
+    store: '686',
+    label: 'trim cancelled catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'category-4874',
+    store: '488',
+    label: 'cache missing loyalty credit on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'category-2080',
+    store: '452',
+    label: 'guard empty guest',
+    quantity: 5,
+  },
 ];

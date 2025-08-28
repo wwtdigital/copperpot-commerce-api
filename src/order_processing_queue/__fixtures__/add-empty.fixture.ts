@@ -102,4 +102,28 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'trim regional catering tray for pickup',
     quantity: 4,
   },
+  {
+    id: 'order-processing-queue-2409',
+    store: '125',
+    label: 'add stale kitchen ticket in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-7882',
+    store: '224',
+    label: 'backfill expired ticket for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-8391',
+    store: '460',
+    label: 'relax empty location on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-5376',
+    store: '393',
+    label: 'tighten late pickup slot',
+    quantity: 12,
+  },
 ];

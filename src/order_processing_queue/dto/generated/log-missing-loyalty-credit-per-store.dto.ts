@@ -4,4 +4,6 @@ export class LogMissingLoyaltyCreditPerStoreDto {
   dedupeLateGuestAtClose?: Date;
   paginateMissingMenuItemPerStore?: Date;
   backfillOversizedTicketInTheQueue!: string;
+  cacheExpiredKitchenTicket!: boolean;
+  cacheOversizedKitchenTicketPerStore?: string[];
 }

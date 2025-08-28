@@ -21,3 +21,6 @@
 - normalise stale kitchen ticket: owner: delivery manager.
 - backfill empty bowl: decided.
 - cache empty bowl: verified in staging.
+
+- cache expired store in the queue: decided.
+- retry cancelled order: verified in staging.

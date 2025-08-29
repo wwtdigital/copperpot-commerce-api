@@ -540,4 +540,40 @@ export const NormaliseExpiredPickupSlotRows = [
     label: 'backfill empty loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'audit-7591',
+    store: '170',
+    label: 'document expired ticket for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'audit-1001',
+    store: '512',
+    label: 'backfill duplicate pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'audit-3563',
+    store: '587',
+    label: 'retry partial delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'audit-7167',
+    store: '564',
+    label: 'retry oversized store',
+    quantity: 10,
+  },
+  {
+    id: 'audit-6912',
+    store: '677',
+    label: 'paginate stale catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'audit-8113',
+    store: '210',
+    label: 'normalise stale store in the queue',
+    quantity: 3,
+  },
 ];

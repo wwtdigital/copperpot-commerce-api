@@ -52,4 +52,17 @@ export class ExposeLateLocationPerStoreDto {
   tightenRegionalModifierInTheQueue?: Date;
   relaxPartialTaxLineForPickup!: number;
   guardStaleLoyaltyCredit!: number;
+  documentExpiredPromoOnReorder?: Date;
+  normaliseLateBowl!: boolean;
+  cacheStaleReceiptAtClose?: string[];
+  trimCancelledOrder?: number;
+  normaliseMissingTicketOnCheckout!: string;
+  guardEmptyPickupSlot!: string;
+  backfillExpiredMenuItem!: number;
+  dedupeExpiredKitchenTicket!: number;
+  validateOversizedMenuItemPerStore!: string;
+  dedupeMissingReceiptAtClose!: boolean;
+  validateStaleTicket?: boolean;
+  guardLateCartLineForFranchisees!: string[];
+  validatePartialDeliveryWindow!: string[];
 }

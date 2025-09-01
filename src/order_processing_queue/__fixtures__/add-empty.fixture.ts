@@ -312,4 +312,10 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'validate regional kitchen ticket in the queue',
     quantity: 1,
   },
+  {
+    id: 'order-processing-queue-8689',
+    store: '506',
+    label: 'validate partial modifier for franchisees',
+    quantity: 8,
+  },
 ];

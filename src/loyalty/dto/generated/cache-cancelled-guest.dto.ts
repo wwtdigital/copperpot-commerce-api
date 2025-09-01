@@ -55,4 +55,6 @@ export class CacheCancelledGuestDto {
   trimPartialModifier!: number;
   handleCancelledBowlInTheQueue!: boolean;
   dedupeEmptyBowl!: number;
+  retryCancelledOrder!: number;
+  normaliseDuplicateStore!: string[];
 }

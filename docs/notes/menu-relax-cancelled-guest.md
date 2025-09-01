@@ -184,3 +184,13 @@
 - backfill stale catering tray: owner: delivery manager.
 - validate late receipt on checkout: verified in staging.
 - add oversized ticket: decided.
+
+- dedupe empty delivery window: deferred to the next release.
+- dedupe stale promo: deferred to the next release.
+- normalise missing tax line per store: owner: delivery manager.
+- handle duplicate promo for franchisees: blocked on store systems.
+- paginate expired bowl for franchisees: owner: delivery manager.
+- expose empty loyalty credit: blocked on store systems.
+- normalise cancelled topping: verified in staging.
+- retry missing menu item: owner: delivery manager.
+- add expired menu item: open.

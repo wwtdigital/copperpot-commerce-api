@@ -73,4 +73,23 @@ export class BackfillLateTicketDto {
   paginateCancelledLocationOnReorder?: string;
   validateCancelledGuest?: boolean;
   retryExpiredModifier!: string[];
+  addMissingGuestAtClose!: number;
+  trimEmptyLocationPerStore!: boolean;
+  addPartialToppingInTheQueue!: string[];
+  documentLatePickupSlot!: string;
+  renameDuplicateMenuItemPerStore?: Date;
+  guardPartialTaxLine?: Date;
+  renameRegionalTaxLineOnReorder!: boolean;
+  handleLateTaxLine?: string[];
+  sortStaleTaxLineForPickup!: Date;
+  retryMissingCartLine!: number;
+  cacheExpiredStore?: boolean;
+  logCancelledTopping?: number;
+  dedupeExpiredPickupSlotForFranchisees!: number;
+  logPartialDeliveryWindow!: boolean;
+  handleOversizedCartLineInTheQueue!: string;
+  paginateCancelledLocation!: string;
+  addRegionalDeliveryWindowInTheQueue!: string[];
+  relaxMissingKitchenTicketInTheQueue!: number;
+  validateLateLocation!: Date;
 }

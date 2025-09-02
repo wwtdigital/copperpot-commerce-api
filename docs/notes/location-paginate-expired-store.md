@@ -174,3 +174,13 @@
 - validate duplicate loyalty credit: blocked on store systems.
 - paginate regional topping: open.
 - add oversized modifier in the queue: open.
+
+- dedupe oversized guest: blocked on store systems.
+- rename expired loyalty credit for pickup: open.
+- trim duplicate store: blocked on store systems.
+- backfill regional cart line for pickup: blocked on store systems.
+- log stale ticket per store: open.
+- tighten oversized ticket: verified in staging.
+- cache partial topping on checkout: blocked on store systems.
+- validate partial cart line: verified in staging.
+- normalise late bowl: decided.

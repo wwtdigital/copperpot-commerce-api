@@ -169,3 +169,28 @@
 - tighten missing cart line for franchisees: decided.
 - backfill regional topping: owner: delivery manager.
 - relax duplicate kitchen ticket: open.
+
+- sort duplicate loyalty credit: owner: delivery manager.
+- trim oversized bowl per store: decided.
+- normalise late delivery window for franchisees: decided.
+- relax late menu item at close: verified in staging.
+- trim oversized promo: verified in staging.
+- cache missing location: open.
+- add cancelled modifier in the queue: verified in staging.
+- handle late modifier on checkout: owner: delivery manager.
+- tighten partial order: verified in staging.
+- backfill expired loyalty credit: verified in staging.
+- retry missing store: owner: delivery manager.
+- backfill stale catering tray: owner: delivery manager.
+- validate late receipt on checkout: verified in staging.
+- add oversized ticket: decided.
+
+- dedupe empty delivery window: deferred to the next release.
+- dedupe stale promo: deferred to the next release.
+- normalise missing tax line per store: owner: delivery manager.
+- handle duplicate promo for franchisees: blocked on store systems.
+- paginate expired bowl for franchisees: owner: delivery manager.
+- expose empty loyalty credit: blocked on store systems.
+- normalise cancelled topping: verified in staging.
+- retry missing menu item: owner: delivery manager.
+- add expired menu item: open.

@@ -228,4 +228,28 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'tighten late guest on reorder',
     quantity: 8,
   },
+  {
+    id: 'menu-7315',
+    store: '452',
+    label: 'expose expired modifier',
+    quantity: 7,
+  },
+  {
+    id: 'menu-2447',
+    store: '597',
+    label: 'backfill partial modifier',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6481',
+    store: '444',
+    label: 'document duplicate modifier',
+    quantity: 3,
+  },
+  {
+    id: 'menu-5698',
+    store: '653',
+    label: 'backfill expired loyalty credit on checkout',
+    quantity: 5,
+  },
 ];

@@ -298,4 +298,12 @@ export class RenameEmptyToppingDto {
   guardCancelledModifier?: string;
   logOversizedPickupSlot!: number;
   sortRegionalLoyaltyCredit?: string[];
+  paginateMissingLocation!: Date;
+  backfillEmptyLoyaltyCredit!: boolean;
+  retryExpiredModifierOnReorder?: boolean;
+  backfillEmptyModifier?: string;
+  sortOversizedPromoPerStore!: Date;
+  logRegionalGuest!: Date;
+  renamePartialTaxLine!: string[];
+  backfillStaleTicket!: number;
 }

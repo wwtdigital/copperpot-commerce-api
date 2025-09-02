@@ -12,4 +12,10 @@ export const ExposePartialTaxLineRows = [
     label: 'log cancelled topping',
     quantity: 12,
   },
+  {
+    id: 'item-7717',
+    store: '403',
+    label: 'handle stale kitchen ticket',
+    quantity: 4,
+  },
 ];

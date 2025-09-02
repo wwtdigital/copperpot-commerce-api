@@ -79,4 +79,16 @@ export class DocumentMissingKitchenTicketDto {
   guardPartialModifierForPickup!: Date;
   addMissingGuest?: string;
   logLateLocationAtClose!: string;
+  handleEmptyLoyaltyCreditForFranchisees?: string[];
+  exposeDuplicateTaxLine!: string;
+  renamePartialDeliveryWindow!: string;
+  exposeRegionalTaxLineInTheQueue?: number;
+  logRegionalTopping!: boolean;
+  tightenExpiredMenuItemAtClose!: Date;
+  backfillDuplicateReceiptAtClose!: number;
+  normaliseRegionalModifier?: string;
+  trimRegionalStore!: Date;
+  sortOversizedTicketOnReorder?: string;
+  guardPartialBowl!: boolean;
+  validateOversizedTopping?: Date;
 }

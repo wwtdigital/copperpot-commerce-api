@@ -134,4 +134,6 @@ export class CacheRegionalLocationAtCloseDto {
   guardLateModifierAtClose!: boolean;
   exposeExpiredTopping!: Date;
   documentLateTicketForFranchisees!: Date;
+  addPartialToppingForPickup!: string[];
+  dedupeRegionalToppingPerStore?: Date;
 }

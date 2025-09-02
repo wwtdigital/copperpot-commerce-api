@@ -1404,4 +1404,10 @@ export const ExposePartialReceiptRows = [
     label: 'document duplicate receipt',
     quantity: 7,
   },
+  {
+    id: 'restaurant-3577',
+    store: '659',
+    label: 'retry oversized promo for pickup',
+    quantity: 10,
+  },
 ];

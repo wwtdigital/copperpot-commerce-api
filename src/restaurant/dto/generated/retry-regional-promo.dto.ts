@@ -59,4 +59,8 @@ export class RetryRegionalPromoDto {
   relaxExpiredTaxLine?: string[];
   paginateOversizedGuest!: Date;
   tightenPartialPromo!: string;
+  handleLateDeliveryWindow!: number;
+  normaliseOversizedTicket!: Date;
+  normaliseEmptyCartLine!: boolean;
+  validateStaleDeliveryWindow!: string[];
 }

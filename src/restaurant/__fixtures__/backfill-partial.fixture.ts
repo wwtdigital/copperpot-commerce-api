@@ -162,4 +162,40 @@ export const BackfillPartialTicketRows = [
     label: 'log missing pickup slot per store',
     quantity: 6,
   },
+  {
+    id: 'restaurant-9310',
+    store: '153',
+    label: 'backfill expired cart line on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-3845',
+    store: '325',
+    label: 'rename duplicate tax line',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-7752',
+    store: '112',
+    label: 'relax duplicate bowl',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-3130',
+    store: '251',
+    label: 'handle stale tax line on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-1822',
+    store: '558',
+    label: 'cache expired kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-5045',
+    store: '611',
+    label: 'backfill duplicate guest',
+    quantity: 10,
+  },
 ];

@@ -97,3 +97,18 @@
 - document expired order: blocked on store systems.
 - tighten expired bowl: owner: delivery manager.
 - paginate duplicate pickup slot for pickup: blocked on store systems.
+
+- guard cancelled tax line: decided.
+- log expired store on checkout: decided.
+- document oversized tax line per store: verified in staging.
+- paginate stale loyalty credit: verified in staging.
+- validate regional location: open.
+- cache regional pickup slot: deferred to the next release.
+- paginate cancelled promo: deferred to the next release.
+- guard stale bowl in the queue: blocked on store systems.
+- normalise missing receipt for franchisees: deferred to the next release.
+- paginate partial modifier: decided.
+- document empty ticket: verified in staging.
+- cache partial menu item: owner: delivery manager.
+- expose stale ticket: blocked on store systems.
+- backfill missing location for franchisees: deferred to the next release.

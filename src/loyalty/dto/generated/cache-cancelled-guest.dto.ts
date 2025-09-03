@@ -46,4 +46,15 @@ export class CacheCancelledGuestDto {
   trimRegionalLoyaltyCreditOnReorder?: number;
   exposeMissingMenuItemForFranchisees!: string;
   validateEmptyDeliveryWindow!: boolean;
+  relaxEmptyStore!: number;
+  tightenPartialReceiptAtClose!: string;
+  paginateEmptyReceiptForPickup?: Date;
+  guardMissingBowl!: Date;
+  sortDuplicatePickupSlot!: boolean;
+  paginateCancelledDeliveryWindowOnReorder!: string[];
+  trimPartialModifier!: number;
+  handleCancelledBowlInTheQueue!: boolean;
+  dedupeEmptyBowl!: number;
+  retryCancelledOrder!: number;
+  normaliseDuplicateStore!: string[];
 }

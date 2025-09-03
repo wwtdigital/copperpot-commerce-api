@@ -288,4 +288,46 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'backfill oversized bowl',
     quantity: 3,
   },
+  {
+    id: 'loyalty-1331',
+    store: '237',
+    label: 'guard expired modifier',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-2128',
+    store: '526',
+    label: 'guard cancelled delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6755',
+    store: '102',
+    label: 'guard regional receipt',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-6582',
+    store: '621',
+    label: 'cache regional topping',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-5585',
+    store: '368',
+    label: 'tighten empty guest at close',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-4517',
+    store: '141',
+    label: 'normalise duplicate cart line',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-7130',
+    store: '666',
+    label: 'cache empty pickup slot',
+    quantity: 10,
+  },
 ];

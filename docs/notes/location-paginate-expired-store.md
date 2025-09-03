@@ -183,4 +183,3 @@
 - tighten oversized ticket: verified in staging.
 - cache partial topping on checkout: blocked on store systems.
 - validate partial cart line: verified in staging.
-- normalise late bowl: decided.

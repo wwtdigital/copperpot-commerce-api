@@ -1362,4 +1362,34 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'tighten expired promo',
     quantity: 9,
   },
+  {
+    id: 'loyalty-3012',
+    store: '395',
+    label: 'dedupe cancelled cart line per store',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-7529',
+    store: '182',
+    label: 'log regional catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-7150',
+    store: '343',
+    label: 'expose cancelled menu item',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-1700',
+    store: '281',
+    label: 'backfill regional kitchen ticket for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-4682',
+    store: '650',
+    label: 'validate duplicate topping',
+    quantity: 1,
+  },
 ];

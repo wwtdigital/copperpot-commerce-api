@@ -24,4 +24,6 @@ export class ExposeRegionalPromoDto {
   retryEmptyLocationForPickup!: Date;
   dedupeMissingReceipt!: number;
   retryStalePromo?: string[];
+  cacheRegionalCartLine!: string;
+  trimMissingTopping?: string[];
 }

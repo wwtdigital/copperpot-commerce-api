@@ -312,4 +312,22 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'cache regional topping',
     quantity: 9,
   },
+  {
+    id: 'loyalty-5585',
+    store: '368',
+    label: 'tighten empty guest at close',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-4517',
+    store: '141',
+    label: 'normalise duplicate cart line',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-7130',
+    store: '666',
+    label: 'cache empty pickup slot',
+    quantity: 10,
+  },
 ];

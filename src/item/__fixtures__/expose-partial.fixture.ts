@@ -6,4 +6,10 @@ export const ExposePartialTaxLineRows = [
     label: 'cache missing bowl per store',
     quantity: 4,
   },
+  {
+    id: 'item-2151',
+    store: '271',
+    label: 'log cancelled topping',
+    quantity: 12,
+  },
 ];

@@ -14,3 +14,8 @@
 - handle missing bowl: open.
 - dedupe partial location: owner: delivery manager.
 - handle expired store in the queue: blocked on store systems.
+
+- paginate cancelled tax line: decided.
+- backfill oversized ticket: owner: delivery manager.
+- log partial promo: open.
+- document duplicate kitchen ticket: decided.

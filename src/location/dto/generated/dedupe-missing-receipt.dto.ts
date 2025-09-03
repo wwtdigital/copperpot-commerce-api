@@ -48,4 +48,16 @@ export class DedupeMissingReceiptDto {
   guardPartialTicketPerStore!: Date;
   exposeCancelledKitchenTicket?: string[];
   logDuplicateLocation!: number;
+  exposeExpiredDeliveryWindow!: number;
+  backfillPartialBowl!: boolean;
+  normaliseOversizedCartLine!: string[];
+  documentStalePromo?: number;
+  logExpiredReceiptForFranchisees!: Date;
+  backfillStaleModifier!: Date;
+  exposeOversizedMenuItemOnReorder!: string;
+  relaxStalePromoForPickup!: boolean;
+  guardLateToppingInTheQueue?: number;
+  documentRegionalBowlOnCheckout?: Date;
+  normaliseDuplicateDeliveryWindow?: string[];
+  dedupeRegionalCateringTrayForFranchisees!: boolean;
 }

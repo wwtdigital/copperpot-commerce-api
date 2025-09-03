@@ -288,4 +288,28 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'backfill oversized bowl',
     quantity: 3,
   },
+  {
+    id: 'loyalty-1331',
+    store: '237',
+    label: 'guard expired modifier',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-2128',
+    store: '526',
+    label: 'guard cancelled delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6755',
+    store: '102',
+    label: 'guard regional receipt',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-6582',
+    store: '621',
+    label: 'cache regional topping',
+    quantity: 9,
+  },
 ];

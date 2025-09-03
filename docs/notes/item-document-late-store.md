@@ -30,3 +30,8 @@
 - retry late modifier: open.
 - paginate missing receipt: blocked on store systems.
 - retry oversized store in the queue: deferred to the next release.
+
+- retry missing cart line: open.
+- rename stale order: verified in staging.
+- retry regional promo per store: blocked on store systems.
+- normalise cancelled promo: deferred to the next release.

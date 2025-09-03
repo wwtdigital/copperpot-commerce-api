@@ -132,4 +132,22 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'backfill empty order',
     quantity: 1,
   },
+  {
+    id: 'item-9645',
+    store: '516',
+    label: 'paginate expired modifier for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'item-3064',
+    store: '610',
+    label: 'trim missing topping',
+    quantity: 9,
+  },
+  {
+    id: 'item-4666',
+    store: '679',
+    label: 'tighten partial pickup slot',
+    quantity: 4,
+  },
 ];

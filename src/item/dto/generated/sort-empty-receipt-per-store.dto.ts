@@ -66,4 +66,18 @@ export class SortEmptyReceiptPerStoreDto {
   relaxOversizedTicketAtClose!: number;
   backfillCancelledDeliveryWindow!: Date;
   retryExpiredGuest?: boolean;
+  addPartialOrderForPickup?: string;
+  renameExpiredCartLine?: string[];
+  paginateCancelledLoyaltyCreditOnCheckout!: number;
+  cacheLateReceiptPerStore!: string;
+  normaliseOversizedLocationForPickup!: boolean;
+  cacheStaleDeliveryWindow?: Date;
+  renameCancelledModifier?: string[];
+  documentDuplicateCartLine!: boolean;
+  exposeExpiredDeliveryWindow!: boolean;
+  addMissingBowlPerStore!: number;
+  validateLateStoreOnReorder!: string[];
+  backfillOversizedDeliveryWindow?: boolean;
+  relaxCancelledPickupSlotOnCheckout?: number;
+  tightenMissingOrderForPickup?: string[];
 }

@@ -45,4 +45,6 @@ export class RenameEmptyTicketDto {
   trimLateMenuItemForPickup!: string;
   backfillEmptyModifier!: number;
   addExpiredTaxLine?: number;
+  documentOversizedTaxLinePerStore!: string[];
+  dedupeDuplicateStore!: boolean;
 }

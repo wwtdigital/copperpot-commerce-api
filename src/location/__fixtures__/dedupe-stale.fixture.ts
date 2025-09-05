@@ -126,4 +126,28 @@ export const DedupeStaleModifierRows = [
     label: 'backfill late kitchen ticket at close',
     quantity: 7,
   },
+  {
+    id: 'location-2302',
+    store: '193',
+    label: 'paginate empty guest',
+    quantity: 9,
+  },
+  {
+    id: 'location-2746',
+    store: '450',
+    label: 'add empty guest',
+    quantity: 1,
+  },
+  {
+    id: 'location-9584',
+    store: '305',
+    label: 'trim partial loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'location-4106',
+    store: '101',
+    label: 'document stale pickup slot per store',
+    quantity: 12,
+  },
 ];

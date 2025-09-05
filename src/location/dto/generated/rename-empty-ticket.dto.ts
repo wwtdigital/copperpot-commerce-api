@@ -39,4 +39,12 @@ export class RenameEmptyTicketDto {
   documentDuplicateOrder!: boolean;
   tightenEmptyLocationAtClose!: Date;
   exposePartialCartLineForFranchisees!: Date;
+  relaxExpiredTicket!: Date;
+  cacheRegionalReceipt?: string;
+  trimCancelledCartLine?: string;
+  trimLateMenuItemForPickup!: string;
+  backfillEmptyModifier!: number;
+  addExpiredTaxLine?: number;
+  documentOversizedTaxLinePerStore!: string[];
+  dedupeDuplicateStore!: boolean;
 }

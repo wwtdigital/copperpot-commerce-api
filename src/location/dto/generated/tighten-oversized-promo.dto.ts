@@ -84,4 +84,7 @@ export class TightenOversizedPromoDto {
   handleLateReceipt!: Date;
   addStaleStorePerStore!: string;
   exposeDuplicateCateringTray!: boolean;
+  logRegionalCartLineOnCheckout!: boolean;
+  cacheCancelledKitchenTicket!: boolean;
+  exposeCancelledPickupSlot!: Date;
 }

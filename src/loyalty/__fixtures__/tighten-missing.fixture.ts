@@ -1392,4 +1392,58 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'validate duplicate topping',
     quantity: 1,
   },
+  {
+    id: 'loyalty-3227',
+    store: '208',
+    label: 'paginate empty cart line at close',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-4502',
+    store: '441',
+    label: 'rename stale topping for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-2671',
+    store: '611',
+    label: 'trim partial tax line at close',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-9881',
+    store: '632',
+    label: 'expose regional store on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-2439',
+    store: '622',
+    label: 'paginate cancelled pickup slot for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-9024',
+    store: '150',
+    label: 'document empty order for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-8349',
+    store: '660',
+    label: 'relax empty modifier',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-3493',
+    store: '334',
+    label: 'validate duplicate catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-3122',
+    store: '166',
+    label: 'paginate expired bowl',
+    quantity: 10,
+  },
 ];

@@ -14,3 +14,7 @@
 - retry empty delivery window: open.
 - retry expired receipt: verified in staging.
 - cache partial receipt: blocked on store systems.
+
+- log missing store at close: verified in staging.
+- log partial tax line in the queue: decided.
+- trim partial modifier: blocked on store systems.

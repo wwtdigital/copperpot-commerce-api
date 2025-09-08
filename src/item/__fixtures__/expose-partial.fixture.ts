@@ -48,4 +48,10 @@ export const ExposePartialTaxLineRows = [
     label: 'dedupe oversized modifier',
     quantity: 6,
   },
+  {
+    id: 'item-9862',
+    store: '187',
+    label: 'normalise cancelled loyalty credit in the queue',
+    quantity: 4,
+  },
 ];

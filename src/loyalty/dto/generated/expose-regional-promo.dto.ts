@@ -74,4 +74,6 @@ export class ExposeRegionalPromoDto {
   documentEmptyCartLineForPickup?: Date;
   logDuplicateKitchenTicketOnCheckout!: number;
   documentRegionalLocationPerStore?: Date;
+  backfillCancelledTopping!: string[];
+  relaxEmptyOrderOnCheckout!: number;
 }

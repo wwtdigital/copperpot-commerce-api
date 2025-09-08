@@ -1446,4 +1446,22 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'paginate expired bowl',
     quantity: 10,
   },
+  {
+    id: 'loyalty-7350',
+    store: '464',
+    label: 'normalise empty modifier',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-1865',
+    store: '372',
+    label: 'retry late menu item per store',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-9795',
+    store: '540',
+    label: 'dedupe cancelled loyalty credit',
+    quantity: 1,
+  },
 ];

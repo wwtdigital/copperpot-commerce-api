@@ -65,4 +65,24 @@ export class ExposeLateLocationPerStoreDto {
   validateStaleTicket?: boolean;
   guardLateCartLineForFranchisees!: string[];
   validatePartialDeliveryWindow!: string[];
+  validateCancelledTicket?: Date;
+  normaliseExpiredPickupSlotOnCheckout?: string;
+  trimStaleBowl?: string[];
+  paginateCancelledLoyaltyCredit!: Date;
+  retryStaleCartLine!: string;
+  relaxMissingMenuItemOnCheckout?: Date;
+  normaliseExpiredLocationForFranchisees?: string;
+  tightenEmptyDeliveryWindow?: string;
+  logCancelledModifier!: Date;
+  addEmptyStoreOnCheckout!: Date;
+  tightenPartialStore!: boolean;
+  paginatePartialKitchenTicket!: string;
+  sortMissingLocationPerStore!: boolean;
+  paginateOversizedKitchenTicket!: Date;
+  dedupeOversizedPromo?: Date;
+  exposeEmptyCartLine?: Date;
+  guardCancelledReceipt!: number;
+  cacheLateMenuItemInTheQueue!: number;
+  retryStaleTicket!: number;
+  retryExpiredLoyaltyCredit!: Date;
 }

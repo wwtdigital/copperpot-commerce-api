@@ -91,4 +91,7 @@ export class CacheCancelledGuestDto {
   trimMissingDeliveryWindowPerStore!: number;
   normaliseCancelledCartLine?: Date;
   guardStalePromoPerStore!: string;
+  paginateOversizedLoyaltyCredit!: Date;
+  renameExpiredCartLine!: Date;
+  trimEmptyCateringTray?: Date;
 }

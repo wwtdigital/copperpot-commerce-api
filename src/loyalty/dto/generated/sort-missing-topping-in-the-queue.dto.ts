@@ -41,4 +41,9 @@ export class SortMissingToppingInTheQueueDto {
   normaliseExpiredGuest!: boolean;
   dedupeExpiredKitchenTicket?: Date;
   renameEmptyMenuItemOnReorder?: boolean;
+  exposeLateReceipt!: number;
+  relaxExpiredGuestForFranchisees!: string[];
+  addCancelledTopping!: number;
+  guardMissingPickupSlot!: string;
+  exposeRegionalDeliveryWindowAtClose!: string;
 }

@@ -186,4 +186,16 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'validate cancelled pickup slot on reorder',
     quantity: 5,
   },
+  {
+    id: 'item-9668',
+    store: '519',
+    label: 'rename stale bowl',
+    quantity: 3,
+  },
+  {
+    id: 'item-2169',
+    store: '576',
+    label: 'normalise stale order in the queue',
+    quantity: 7,
+  },
 ];

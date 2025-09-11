@@ -150,4 +150,58 @@ export const DedupeStaleModifierRows = [
     label: 'document stale pickup slot per store',
     quantity: 12,
   },
+  {
+    id: 'location-5575',
+    store: '639',
+    label: 'normalise expired topping for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'location-6289',
+    store: '642',
+    label: 'normalise partial kitchen ticket on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'location-5365',
+    store: '548',
+    label: 'validate duplicate promo',
+    quantity: 5,
+  },
+  {
+    id: 'location-4610',
+    store: '157',
+    label: 'sort expired loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'location-6226',
+    store: '399',
+    label: 'log cancelled cart line',
+    quantity: 2,
+  },
+  {
+    id: 'location-1449',
+    store: '549',
+    label: 'guard regional delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'location-3045',
+    store: '236',
+    label: 'cache regional kitchen ticket for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'location-2371',
+    store: '211',
+    label: 'paginate missing delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'location-7040',
+    store: '608',
+    label: 'dedupe regional store',
+    quantity: 9,
+  },
 ];

@@ -480,4 +480,58 @@ export const HandleCancelledPromoRows = [
     label: 'add duplicate promo per store',
     quantity: 3,
   },
+  {
+    id: 'addon-6976',
+    store: '342',
+    label: 'cache stale catering tray on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'addon-1477',
+    store: '669',
+    label: 'cache cancelled loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'addon-4142',
+    store: '263',
+    label: 'dedupe oversized promo',
+    quantity: 1,
+  },
+  {
+    id: 'addon-8650',
+    store: '496',
+    label: 'tighten oversized kitchen ticket at close',
+    quantity: 11,
+  },
+  {
+    id: 'addon-7929',
+    store: '422',
+    label: 'add oversized cart line',
+    quantity: 8,
+  },
+  {
+    id: 'addon-8998',
+    store: '148',
+    label: 'validate empty catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'addon-5942',
+    store: '666',
+    label: 'trim missing cart line on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'addon-5219',
+    store: '580',
+    label: 'expose stale bowl',
+    quantity: 8,
+  },
+  {
+    id: 'addon-1659',
+    store: '302',
+    label: 'log empty loyalty credit for franchisees',
+    quantity: 3,
+  },
 ];

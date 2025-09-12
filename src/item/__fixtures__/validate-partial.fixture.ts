@@ -168,4 +168,34 @@ export const ValidatePartialKitchenTicketRows = [
     label: 'sort duplicate order',
     quantity: 4,
   },
+  {
+    id: 'item-4426',
+    store: '348',
+    label: 'retry late catering tray in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'item-5308',
+    store: '333',
+    label: 'log regional location',
+    quantity: 5,
+  },
+  {
+    id: 'item-9021',
+    store: '125',
+    label: 'validate cancelled pickup slot on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'item-9668',
+    store: '519',
+    label: 'rename stale bowl',
+    quantity: 3,
+  },
+  {
+    id: 'item-2169',
+    store: '576',
+    label: 'normalise stale order in the queue',
+    quantity: 7,
+  },
 ];

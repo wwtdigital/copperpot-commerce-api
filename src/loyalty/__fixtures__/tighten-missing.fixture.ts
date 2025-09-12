@@ -1464,4 +1464,22 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'dedupe cancelled loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'loyalty-8583',
+    store: '317',
+    label: 'trim late modifier on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-4114',
+    store: '333',
+    label: 'rename late topping',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-2741',
+    store: '652',
+    label: 'paginate regional bowl',
+    quantity: 10,
+  },
 ];

@@ -80,4 +80,18 @@ export class CacheCancelledGuestDto {
   exposeDuplicateModifierOnCheckout!: string[];
   addPartialCartLine?: Date;
   addMissingPromo!: string[];
+  guardLateBowl?: string;
+  logPartialReceiptPerStore!: boolean;
+  trimStaleMenuItem?: string;
+  retryRegionalTopping?: Date;
+  guardCancelledMenuItem!: string;
+  validateOversizedPromo!: Date;
+  validateStaleMenuItem?: number;
+  sortMissingTaxLine!: string;
+  trimMissingDeliveryWindowPerStore!: number;
+  normaliseCancelledCartLine?: Date;
+  guardStalePromoPerStore!: string;
+  paginateOversizedLoyaltyCredit!: Date;
+  renameExpiredCartLine!: Date;
+  trimEmptyCateringTray?: Date;
 }

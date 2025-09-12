@@ -1446,4 +1446,40 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'paginate expired bowl',
     quantity: 10,
   },
+  {
+    id: 'loyalty-7350',
+    store: '464',
+    label: 'normalise empty modifier',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-1865',
+    store: '372',
+    label: 'retry late menu item per store',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-9795',
+    store: '540',
+    label: 'dedupe cancelled loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-8583',
+    store: '317',
+    label: 'trim late modifier on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-4114',
+    store: '333',
+    label: 'rename late topping',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-2741',
+    store: '652',
+    label: 'paginate regional bowl',
+    quantity: 10,
+  },
 ];

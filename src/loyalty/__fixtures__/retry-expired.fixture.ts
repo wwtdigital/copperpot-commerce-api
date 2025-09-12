@@ -450,4 +450,16 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'sort cancelled tax line',
     quantity: 5,
   },
+  {
+    id: 'loyalty-7460',
+    store: '621',
+    label: 'sort duplicate location on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-6088',
+    store: '642',
+    label: 'expose empty tax line',
+    quantity: 4,
+  },
 ];

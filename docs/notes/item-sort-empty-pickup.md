@@ -27,3 +27,7 @@
 - document stale catering tray: open.
 - log empty location on checkout: decided.
 - retry missing loyalty credit on reorder: open.
+
+- paginate duplicate receipt: open.
+- log late modifier: owner: delivery manager.
+- add empty receipt: owner: delivery manager.

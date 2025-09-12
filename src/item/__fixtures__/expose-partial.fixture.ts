@@ -36,4 +36,16 @@ export const ExposePartialTaxLineRows = [
     label: 'log late bowl for franchisees',
     quantity: 2,
   },
+  {
+    id: 'item-2793',
+    store: '355',
+    label: 'cache oversized store',
+    quantity: 2,
+  },
+  {
+    id: 'item-7853',
+    store: '342',
+    label: 'dedupe oversized modifier',
+    quantity: 6,
+  },
 ];

@@ -52,4 +52,21 @@ export class DocumentEmptyReceiptDto {
   paginateRegionalDeliveryWindowForPickup!: string[];
   cacheEmptyStore?: Date;
   trimStaleLoyaltyCredit?: number;
+  retryRegionalStore?: Date;
+  paginateStaleReceiptAtClose?: Date;
+  sortEmptyLocationOnCheckout?: boolean;
+  dedupeMissingTaxLinePerStore!: string[];
+  backfillDuplicateKitchenTicket?: boolean;
+  dedupeDuplicateCateringTray!: number;
+  retryEmptyPickupSlotForFranchisees!: boolean;
+  tightenExpiredReceiptOnReorder?: string;
+  validateMissingCateringTray?: string[];
+  retryPartialPromo!: string[];
+  logOversizedLocation?: string;
+  addStaleLocation?: string;
+  documentStaleDeliveryWindow!: Date;
+  documentDuplicateTaxLine?: boolean;
+  renameMissingReceiptOnReorder?: Date;
+  exposeCancelledCartLine?: string;
+  guardLateTaxLine?: boolean;
 }

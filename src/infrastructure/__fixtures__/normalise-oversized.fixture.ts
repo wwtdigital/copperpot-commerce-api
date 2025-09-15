@@ -132,4 +132,10 @@ export const NormaliseOversizedCartLinePerStoreRows = [
     label: 'cache stale pickup slot',
     quantity: 12,
   },
+  {
+    id: 'infrastructure-7549',
+    store: '687',
+    label: 'tighten missing menu item',
+    quantity: 12,
+  },
 ];

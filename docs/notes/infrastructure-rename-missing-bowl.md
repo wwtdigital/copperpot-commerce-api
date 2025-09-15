@@ -38,3 +38,8 @@
 - backfill regional receipt at close: decided.
 
 - add cancelled pickup slot on reorder: owner: delivery manager.
+
+- validate missing tax line: deferred to the next release.
+- backfill expired tax line: decided.
+- dedupe cancelled order for pickup: decided.
+- log expired bowl in the queue: verified in staging.

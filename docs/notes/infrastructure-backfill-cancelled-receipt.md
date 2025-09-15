@@ -68,3 +68,18 @@
 - add late catering tray: deferred to the next release.
 - tighten oversized bowl: verified in staging.
 - guard partial menu item: open.
+
+- cache late store: open.
+- sort empty guest for franchisees: owner: delivery manager.
+- tighten regional bowl: blocked on store systems.
+- rename oversized kitchen ticket at close: verified in staging.
+- retry missing bowl: deferred to the next release.
+- normalise missing topping on checkout: blocked on store systems.
+- rename missing order on checkout: verified in staging.
+- rename cancelled order: owner: delivery manager.
+- rename duplicate store: deferred to the next release.
+- sort cancelled topping for pickup: verified in staging.
+- trim empty guest on reorder: deferred to the next release.
+- tighten cancelled promo for pickup: verified in staging.
+- dedupe partial cart line in the queue: owner: delivery manager.
+- relax regional pickup slot: decided.

@@ -14,3 +14,18 @@
 - document expired store: deferred to the next release.
 - add oversized topping: verified in staging.
 - sort late menu item in the queue: open.
+
+- add missing menu item for pickup: deferred to the next release.
+- validate cancelled store: deferred to the next release.
+- guard partial guest on checkout: owner: delivery manager.
+- tighten partial loyalty credit in the queue: owner: delivery manager.
+- validate late tax line: open.
+- backfill partial tax line on reorder: blocked on store systems.
+- relax missing bowl: open.
+- add missing menu item in the queue: deferred to the next release.
+- retry duplicate topping: open.
+- add duplicate order in the queue: blocked on store systems.
+- handle oversized kitchen ticket: deferred to the next release.
+- validate missing promo for franchisees: open.
+- relax regional ticket on reorder: owner: delivery manager.
+- trim empty store: blocked on store systems.

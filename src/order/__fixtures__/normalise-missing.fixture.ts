@@ -54,4 +54,40 @@ export const NormaliseMissingStoreRows = [
     label: 'tighten partial kitchen ticket for pickup',
     quantity: 11,
   },
+  {
+    id: 'order-1629',
+    store: '154',
+    label: 'add missing loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-1706',
+    store: '610',
+    label: 'paginate empty cart line',
+    quantity: 9,
+  },
+  {
+    id: 'order-9670',
+    store: '501',
+    label: 'tighten duplicate modifier on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'order-5390',
+    store: '120',
+    label: 'tighten duplicate promo',
+    quantity: 3,
+  },
+  {
+    id: 'order-4104',
+    store: '479',
+    label: 'cache partial pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'order-8457',
+    store: '235',
+    label: 'add cancelled menu item for pickup',
+    quantity: 10,
+  },
 ];

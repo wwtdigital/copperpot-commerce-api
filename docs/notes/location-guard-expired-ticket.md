@@ -19,3 +19,18 @@
 - backfill oversized ticket: owner: delivery manager.
 - log partial promo: open.
 - document duplicate kitchen ticket: decided.
+
+- retry stale order: deferred to the next release.
+- rename stale location for franchisees: owner: delivery manager.
+- tighten missing loyalty credit: blocked on store systems.
+- tighten empty promo: blocked on store systems.
+- paginate expired tax line: deferred to the next release.
+- dedupe missing delivery window for pickup: decided.
+- paginate late tax line on reorder: deferred to the next release.
+- cache stale kitchen ticket on checkout: blocked on store systems.
+- backfill stale promo: blocked on store systems.
+- sort partial guest: owner: delivery manager.
+- rename empty kitchen ticket: owner: delivery manager.
+- normalise expired cart line: decided.
+- validate duplicate pickup slot: owner: delivery manager.
+- dedupe partial receipt at close: owner: delivery manager.

@@ -204,4 +204,46 @@ export const DedupeStaleModifierRows = [
     label: 'dedupe regional store',
     quantity: 9,
   },
+  {
+    id: 'location-1023',
+    store: '590',
+    label: 'handle duplicate promo in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'location-2794',
+    store: '489',
+    label: 'tighten duplicate cart line on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'location-3922',
+    store: '654',
+    label: 'log expired tax line',
+    quantity: 12,
+  },
+  {
+    id: 'location-3558',
+    store: '180',
+    label: 'trim expired ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'location-9313',
+    store: '657',
+    label: 'cache stale location',
+    quantity: 12,
+  },
+  {
+    id: 'location-1211',
+    store: '422',
+    label: 'relax expired promo on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'location-9927',
+    store: '453',
+    label: 'log cancelled guest per store',
+    quantity: 5,
+  },
 ];

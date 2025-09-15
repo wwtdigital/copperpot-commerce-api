@@ -78,4 +78,52 @@ export const PaginateExpiredToppingRows = [
     label: 'trim cancelled cart line',
     quantity: 10,
   },
+  {
+    id: 'cart-3957',
+    store: '400',
+    label: 'relax stale ticket',
+    quantity: 9,
+  },
+  {
+    id: 'cart-8775',
+    store: '422',
+    label: 'relax stale modifier',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7606',
+    store: '462',
+    label: 'handle regional pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'cart-4757',
+    store: '159',
+    label: 'cache empty guest',
+    quantity: 12,
+  },
+  {
+    id: 'cart-6272',
+    store: '569',
+    label: 'relax partial delivery window for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'cart-8293',
+    store: '202',
+    label: 'normalise missing guest',
+    quantity: 3,
+  },
+  {
+    id: 'cart-5044',
+    store: '112',
+    label: 'dedupe oversized modifier',
+    quantity: 2,
+  },
+  {
+    id: 'cart-7043',
+    store: '376',
+    label: 'backfill duplicate order',
+    quantity: 5,
+  },
 ];

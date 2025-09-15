@@ -138,3 +138,8 @@
 - add late bowl: owner: delivery manager.
 - log stale topping per store: blocked on store systems.
 - validate duplicate bowl for pickup: decided.
+
+- expose expired guest per store: open.
+- trim regional location at close: blocked on store systems.
+- expose duplicate delivery window: blocked on store systems.
+- relax expired tax line per store: blocked on store systems.

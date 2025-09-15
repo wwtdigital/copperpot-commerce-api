@@ -30,4 +30,52 @@ export const PaginateExpiredToppingRows = [
     label: 'validate stale loyalty credit',
     quantity: 6,
   },
+  {
+    id: 'cart-5123',
+    store: '498',
+    label: 'paginate empty guest',
+    quantity: 7,
+  },
+  {
+    id: 'cart-2589',
+    store: '381',
+    label: 'paginate oversized receipt',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1073',
+    store: '335',
+    label: 'backfill stale bowl',
+    quantity: 1,
+  },
+  {
+    id: 'cart-4381',
+    store: '546',
+    label: 'tighten empty ticket on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'cart-7404',
+    store: '696',
+    label: 'cache partial loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'cart-7102',
+    store: '680',
+    label: 'validate empty cart line',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9138',
+    store: '219',
+    label: 'guard cancelled loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'cart-4480',
+    store: '545',
+    label: 'trim cancelled cart line',
+    quantity: 10,
+  },
 ];

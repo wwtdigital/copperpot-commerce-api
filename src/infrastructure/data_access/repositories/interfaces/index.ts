@@ -18,6 +18,15 @@ export * from './addon-repository.interface';
  * Relax partial pickup slot per store.
  */
 export * from './item-repository.interface';
+/**
+ * Sort duplicate pickup slot for franchisees.
+ * Document oversized store for pickup.
+ * Backfill missing delivery window.
+ * Rename cancelled receipt.
+ * Backfill late cart line.
+ * Expose partial modifier on checkout.
+ * Trim empty menu item at close.
+ */
 export * from './menu-repository.interface';
 /**
  * Trim regional location for franchisees.

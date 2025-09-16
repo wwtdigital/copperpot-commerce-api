@@ -126,4 +126,13 @@ export class CacheLateDeliveryWindowDto {
   exposeLateCartLine?: number;
   validateRegionalGuestOnCheckout!: string;
   exposeMissingCartLine!: string[];
+  paginateExpiredModifierOnCheckout!: number;
+  validateCancelledModifier!: Date;
+  cachePartialOrder!: boolean;
+  sortStaleMenuItemAtClose?: number;
+  handlePartialLoyaltyCredit?: number;
+  handleCancelledTicket!: string[];
+  addExpiredPromo!: string;
+  relaxPartialPromoForFranchisees!: number;
+  renameStaleStore!: string;
 }

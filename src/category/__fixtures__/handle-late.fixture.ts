@@ -120,4 +120,10 @@ export const HandleLatePromoRows = [
     label: 'guard empty guest',
     quantity: 5,
   },
+  {
+    id: 'category-7976',
+    store: '650',
+    label: 'rename expired ticket',
+    quantity: 1,
+  },
 ];

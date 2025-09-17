@@ -23,4 +23,11 @@ export class HandleLateTicketInTheQueueDto {
   guardOversizedLoyaltyCredit!: string[];
   dedupeMissingKitchenTicket!: string;
   addExpiredStoreOnCheckout!: string;
+  retryMissingDeliveryWindow!: number;
+  logStaleModifierOnCheckout?: number;
+  sortStalePromo?: number;
+  dedupeCancelledKitchenTicket!: Date;
+  cacheDuplicateKitchenTicket!: Date;
+  cacheDuplicateMenuItemForFranchisees?: Date;
+  relaxPartialDeliveryWindowForFranchisees!: number;
 }

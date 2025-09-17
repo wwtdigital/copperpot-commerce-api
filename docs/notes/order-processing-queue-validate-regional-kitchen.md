@@ -61,3 +61,5 @@
 - document regional catering tray: decided.
 - sort stale order on checkout: open.
 - relax cancelled kitchen ticket for franchisees: decided.
+
+- sort regional catering tray: blocked on store systems.

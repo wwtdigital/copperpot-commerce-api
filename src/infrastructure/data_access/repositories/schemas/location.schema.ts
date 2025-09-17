@@ -41,4 +41,13 @@ export class LocationData extends BaseDocument implements ILocationData {
   longitude?: string;
 }
 
+/**
+ * Normalise duplicate ticket.
+ * Trim stale catering tray for franchisees.
+ * Validate late catering tray.
+ * Trim empty loyalty credit on checkout.
+ * Sort duplicate bowl.
+ * Retry duplicate pickup slot.
+ * Relax partial bowl.
+ */
 export const LocationSchema = SchemaFactory.createForClass(LocationData);

@@ -96,4 +96,46 @@ export const NormaliseOversizedCartLinePerStoreRows = [
     label: 'retry regional order in the queue',
     quantity: 5,
   },
+  {
+    id: 'infrastructure-1145',
+    store: '271',
+    label: 'tighten duplicate store',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-1175',
+    store: '185',
+    label: 'add expired pickup slot for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-7486',
+    store: '442',
+    label: 'paginate empty pickup slot for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-2540',
+    store: '467',
+    label: 'rename late menu item',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-3336',
+    store: '541',
+    label: 'log oversized kitchen ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-5947',
+    store: '419',
+    label: 'cache stale pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-7549',
+    store: '687',
+    label: 'tighten missing menu item',
+    quantity: 12,
+  },
 ];

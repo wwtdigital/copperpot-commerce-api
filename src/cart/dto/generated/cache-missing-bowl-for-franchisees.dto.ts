@@ -197,4 +197,27 @@ export class CacheMissingBowlForFranchiseesDto {
   sortOversizedBowlInTheQueue!: number;
   exposeMissingBowl!: string[];
   documentCancelledCartLine!: number;
+  exposeLateDeliveryWindow!: number;
+  tightenDuplicatePickupSlot!: number;
+  tightenDuplicateGuestInTheQueue!: string[];
+  relaxOversizedCateringTrayForFranchisees!: boolean;
+  relaxLateReceipt?: string;
+  tightenDuplicateReceiptForFranchisees?: string[];
+  relaxMissingMenuItem!: string[];
+  retryDuplicateDeliveryWindow!: string;
+  tightenLateDeliveryWindow!: string;
+  validatePartialCartLine!: boolean;
+  documentExpiredMenuItem!: boolean;
+  renameOversizedModifierAtClose!: boolean;
+  normaliseEmptyGuest!: Date;
+  paginateDuplicateStore!: number;
+  paginateStaleLocation!: string[];
+  guardExpiredCartLine!: string[];
+  sortMissingLocationOnReorder?: string[];
+  sortEmptyPromo!: Date;
+  renameOversizedKitchenTicketAtClose!: boolean;
+  normaliseMissingMenuItemAtClose?: number;
+  normaliseLateLoyaltyCreditForFranchisees!: number;
+  sortOversizedBowl?: boolean;
+  guardEmptyMenuItem!: string[];
 }

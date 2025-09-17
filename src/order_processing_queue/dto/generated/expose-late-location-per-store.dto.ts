@@ -85,4 +85,6 @@ export class ExposeLateLocationPerStoreDto {
   cacheLateMenuItemInTheQueue!: number;
   retryStaleTicket!: number;
   retryExpiredLoyaltyCredit!: Date;
+  logMissingTaxLineOnCheckout!: boolean;
+  addDuplicateStore?: number;
 }

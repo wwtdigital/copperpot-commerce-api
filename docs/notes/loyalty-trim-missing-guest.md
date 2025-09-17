@@ -126,5 +126,3 @@
 - trim regional receipt: verified in staging.
 - handle duplicate ticket: blocked on store systems.
 - validate expired receipt: verified in staging.
-- rename oversized guest: open.
-- rename empty guest: decided.

@@ -336,4 +336,28 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'sort regional location',
     quantity: 12,
   },
+  {
+    id: 'order-processing-queue-2586',
+    store: '144',
+    label: 'trim empty menu item',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-5499',
+    store: '436',
+    label: 'paginate duplicate pickup slot per store',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-2287',
+    store: '681',
+    label: 'cache duplicate topping in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-6079',
+    store: '680',
+    label: 'sort empty promo',
+    quantity: 3,
+  },
 ];

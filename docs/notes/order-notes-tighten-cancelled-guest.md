@@ -14,3 +14,33 @@
 - document expired store: deferred to the next release.
 - add oversized topping: verified in staging.
 - sort late menu item in the queue: open.
+
+- add missing menu item for pickup: deferred to the next release.
+- validate cancelled store: deferred to the next release.
+- guard partial guest on checkout: owner: delivery manager.
+- tighten partial loyalty credit in the queue: owner: delivery manager.
+- validate late tax line: open.
+- backfill partial tax line on reorder: blocked on store systems.
+- relax missing bowl: open.
+- add missing menu item in the queue: deferred to the next release.
+- retry duplicate topping: open.
+- add duplicate order in the queue: blocked on store systems.
+- handle oversized kitchen ticket: deferred to the next release.
+- validate missing promo for franchisees: open.
+- relax regional ticket on reorder: owner: delivery manager.
+- trim empty store: blocked on store systems.
+
+- tighten oversized menu item on checkout: owner: delivery manager.
+- handle late order for franchisees: owner: delivery manager.
+- trim cancelled location: deferred to the next release.
+- sort late store: decided.
+- sort empty bowl: owner: delivery manager.
+- document regional catering tray at close: open.
+- handle stale modifier at close: deferred to the next release.
+- guard regional menu item: blocked on store systems.
+- rename stale bowl: blocked on store systems.
+- rename partial bowl for pickup: open.
+- add stale bowl on reorder: verified in staging.
+- relax missing delivery window at close: verified in staging.
+- trim oversized bowl: owner: delivery manager.
+- add missing catering tray: owner: delivery manager.

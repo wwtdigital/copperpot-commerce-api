@@ -1,0 +1,123 @@
+/* Fixture rows for order tests: dedupe empty store. Generated data, not production data. */
+export const DedupeEmptyStoreRows = [
+  {
+    id: 'order-2155',
+    store: '552',
+    label: 'guard empty modifier',
+    quantity: 3,
+  },
+  {
+    id: 'order-8611',
+    store: '435',
+    label: 'expose empty promo on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'order-4277',
+    store: '469',
+    label: 'paginate partial cart line',
+    quantity: 10,
+  },
+  {
+    id: 'order-2567',
+    store: '610',
+    label: 'log late topping',
+    quantity: 9,
+  },
+  {
+    id: 'order-8207',
+    store: '189',
+    label: 'backfill partial bowl',
+    quantity: 8,
+  },
+  {
+    id: 'order-3713',
+    store: '140',
+    label: 'cache partial kitchen ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'order-2627',
+    store: '231',
+    label: 'document empty menu item',
+    quantity: 2,
+  },
+  {
+    id: 'order-1464',
+    store: '316',
+    label: 'add missing modifier on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'order-9631',
+    store: '666',
+    label: 'sort missing bowl',
+    quantity: 5,
+  },
+  {
+    id: 'order-4373',
+    store: '105',
+    label: 'trim regional receipt at close',
+    quantity: 10,
+  },
+  {
+    id: 'order-9223',
+    store: '199',
+    label: 'trim stale catering tray at close',
+    quantity: 12,
+  },
+  {
+    id: 'order-3916',
+    store: '557',
+    label: 'tighten oversized topping',
+    quantity: 11,
+  },
+  {
+    id: 'order-3419',
+    store: '517',
+    label: 'dedupe stale pickup slot for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'order-6383',
+    store: '257',
+    label: 'backfill partial store',
+    quantity: 10,
+  },
+  {
+    id: 'order-3260',
+    store: '551',
+    label: 'relax empty loyalty credit for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-5445',
+    store: '103',
+    label: 'handle oversized pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'order-5121',
+    store: '132',
+    label: 'handle stale guest on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'order-1071',
+    store: '300',
+    label: 'relax regional ticket',
+    quantity: 5,
+  },
+  {
+    id: 'order-1588',
+    store: '675',
+    label: 'expose empty location',
+    quantity: 4,
+  },
+  {
+    id: 'order-7567',
+    store: '328',
+    label: 'normalise cancelled guest at close',
+    quantity: 10,
+  },
+];

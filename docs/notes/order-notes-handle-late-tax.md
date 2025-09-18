@@ -153,3 +153,6 @@
 - dedupe missing store: open.
 - expose cancelled tax line: verified in staging.
 - relax missing guest: decided.
+
+- handle cancelled catering tray per store: blocked on store systems.
+- log cancelled bowl: verified in staging.

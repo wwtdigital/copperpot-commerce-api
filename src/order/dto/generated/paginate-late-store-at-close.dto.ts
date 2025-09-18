@@ -38,4 +38,28 @@ export class PaginateLateStoreAtCloseDto {
   relaxStaleModifierForPickup?: string[];
   guardOversizedKitchenTicketInTheQueue?: Date;
   cacheCancelledKitchenTicketPerStore!: number;
+  paginateRegionalPromo!: string[];
+  backfillExpiredReceipt?: string[];
+  paginateOversizedReceipt?: string[];
+  addExpiredGuest?: number;
+  cacheExpiredPickupSlot!: Date;
+  normaliseMissingCartLineOnCheckout?: Date;
+  retryOversizedCartLine!: Date;
+  trimLateReceipt!: string;
+  dedupeRegionalCateringTray!: boolean;
+  sortCancelledLoyaltyCreditForPickup!: boolean;
+  sortEmptyReceipt?: Date;
+  relaxStaleTicket!: Date;
+  exposeCancelledGuestAtClose!: boolean;
+  trimCancelledOrder!: string[];
+  documentMissingLocation!: string[];
+  normaliseLatePromo!: number;
+  guardDuplicatePromo!: number;
+  trimExpiredLoyaltyCreditAtClose!: string;
+  normaliseCancelledDeliveryWindow?: string[];
+  dedupePartialReceiptOnCheckout!: number;
+  addLateModifierAtClose!: string[];
+  addDuplicatePromoOnReorder!: boolean;
+  logOversizedCateringTray!: string[];
+  retryCancelledTicketPerStore!: Date;
 }

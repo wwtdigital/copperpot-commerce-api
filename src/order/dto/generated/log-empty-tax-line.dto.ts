@@ -24,4 +24,28 @@ export class LogEmptyTaxLineDto {
   dedupeLateModifierOnReorder!: number;
   retryPartialPromo?: string;
   relaxEmptyGuest!: number;
+  addLateTaxLineInTheQueue!: boolean;
+  trimLateTicketAtClose?: Date;
+  dedupeRegionalTopping?: number;
+  guardMissingGuestInTheQueue!: string;
+  retryDuplicateTaxLine?: boolean;
+  renameRegionalPickupSlotInTheQueue!: Date;
+  dedupeStaleCartLineAtClose!: Date;
+  normaliseMissingTaxLineOnCheckout!: boolean;
+  retryPartialTopping!: number;
+  renameRegionalBowlPerStore!: number;
+  normalisePartialStore!: boolean;
+  normaliseMissingGuestOnCheckout!: boolean;
+  dedupeCancelledKitchenTicketAtClose?: string;
+  retryOversizedReceipt!: number;
+  dedupeLateOrder?: number;
+  addRegionalOrder!: boolean;
+  guardStaleToppingForFranchisees!: string;
+  relaxRegionalCartLine!: string;
+  logOversizedModifierForPickup?: string;
+  dedupeExpiredStoreAtClose!: boolean;
+  cacheMissingModifierPerStore!: string[];
+  guardOversizedMenuItem!: boolean;
+  exposeCancelledPickupSlotAtClose!: string;
+  tightenPartialModifierOnCheckout!: Date;
 }

@@ -120,4 +120,10 @@ export const DedupeEmptyStoreRows = [
     label: 'normalise cancelled guest at close',
     quantity: 10,
   },
+  {
+    id: 'order-6451',
+    store: '399',
+    label: 'trim missing tax line',
+    quantity: 3,
+  },
 ];

@@ -162,4 +162,28 @@ export const NormaliseMissingStoreRows = [
     label: 'expose expired guest for franchisees',
     quantity: 11,
   },
+  {
+    id: 'order-4690',
+    store: '585',
+    label: 'backfill empty pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'order-3811',
+    store: '198',
+    label: 'add partial order',
+    quantity: 6,
+  },
+  {
+    id: 'order-3399',
+    store: '387',
+    label: 'retry cancelled promo',
+    quantity: 7,
+  },
+  {
+    id: 'order-2430',
+    store: '146',
+    label: 'handle regional tax line',
+    quantity: 10,
+  },
 ];

@@ -56,3 +56,18 @@
 - normalise expired promo: verified in staging.
 
 - cache regional ticket in the queue: blocked on store systems.
+
+- retry cancelled pickup slot on reorder: owner: delivery manager.
+- tighten late delivery window on reorder: decided.
+- add regional delivery window in the queue: deferred to the next release.
+- validate stale topping: deferred to the next release.
+- document missing tax line: decided.
+- trim empty loyalty credit for pickup: blocked on store systems.
+- paginate stale modifier: verified in staging.
+- validate expired kitchen ticket on reorder: decided.
+- paginate missing guest on reorder: owner: delivery manager.
+- sort oversized bowl for franchisees: deferred to the next release.
+- trim partial delivery window on checkout: owner: delivery manager.
+- add expired loyalty credit in the queue: blocked on store systems.
+- expose duplicate promo: blocked on store systems.
+- backfill empty receipt: owner: delivery manager.

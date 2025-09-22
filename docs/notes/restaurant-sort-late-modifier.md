@@ -24,3 +24,18 @@
 
 - cache expired store in the queue: decided.
 - retry cancelled order: verified in staging.
+
+- expose late catering tray: decided.
+- tighten expired store: blocked on store systems.
+- add missing delivery window for pickup: open.
+- retry duplicate cart line per store: open.
+- backfill late catering tray: deferred to the next release.
+- normalise late topping for pickup: decided.
+- expose partial ticket for franchisees: deferred to the next release.
+- dedupe partial topping: blocked on store systems.
+- retry cancelled bowl at close: owner: delivery manager.
+- rename expired cart line: decided.
+- handle stale order per store: verified in staging.
+- normalise missing topping for pickup: owner: delivery manager.
+- trim cancelled kitchen ticket: blocked on store systems.
+- trim empty topping per store: deferred to the next release.

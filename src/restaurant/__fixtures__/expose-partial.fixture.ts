@@ -1410,4 +1410,52 @@ export const ExposePartialReceiptRows = [
     label: 'retry oversized promo for pickup',
     quantity: 10,
   },
+  {
+    id: 'restaurant-2756',
+    store: '327',
+    label: 'relax partial location',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-8254',
+    store: '538',
+    label: 'add partial delivery window on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-2749',
+    store: '298',
+    label: 'validate late location for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-3003',
+    store: '264',
+    label: 'sort expired catering tray on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-1436',
+    store: '530',
+    label: 'document expired catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-7322',
+    store: '691',
+    label: 'trim empty promo for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-4356',
+    store: '616',
+    label: 'cache stale modifier',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-1718',
+    store: '102',
+    label: 'log duplicate delivery window',
+    quantity: 12,
+  },
 ];

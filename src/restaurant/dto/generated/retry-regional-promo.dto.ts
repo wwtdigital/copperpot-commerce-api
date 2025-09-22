@@ -63,4 +63,26 @@ export class RetryRegionalPromoDto {
   normaliseOversizedTicket!: Date;
   normaliseEmptyCartLine!: boolean;
   validateStaleDeliveryWindow!: string[];
+  normaliseCancelledGuestPerStore?: number;
+  exposePartialKitchenTicketInTheQueue!: number;
+  trimOversizedTopping!: number;
+  paginateDuplicateStore!: string;
+  backfillPartialStore!: string;
+  guardEmptyGuest!: string;
+  retryOversizedPickupSlot!: number;
+  logMissingTaxLine!: string[];
+  trimEmptyLocationPerStore!: number;
+  retryEmptyLocation?: string;
+  addDuplicateLocation?: number;
+  sortEmptyDeliveryWindow!: Date;
+  relaxRegionalDeliveryWindow?: Date;
+  handleLateStoreForPickup!: string[];
+  logEmptyTicket!: boolean;
+  addMissingCateringTray!: string;
+  documentExpiredModifierPerStore?: string;
+  paginateRegionalTopping!: number;
+  backfillCancelledTaxLine?: Date;
+  logMissingReceipt!: string[];
+  exposeDuplicateStore?: boolean;
+  trimPartialKitchenTicket?: string[];
 }

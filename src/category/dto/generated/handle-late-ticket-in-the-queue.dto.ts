@@ -16,4 +16,11 @@ export class HandleLateTicketInTheQueueDto {
   tightenExpiredReceipt!: number;
   validateLateDeliveryWindow?: string[];
   guardRegionalTicketForPickup!: string[];
+  documentPartialDeliveryWindow!: Date;
+  logExpiredTaxLine!: number;
+  tightenCancelledLoyaltyCredit!: boolean;
+  documentDuplicateGuestOnCheckout!: number;
+  guardOversizedLoyaltyCredit!: string[];
+  dedupeMissingKitchenTicket!: string;
+  addExpiredStoreOnCheckout!: string;
 }

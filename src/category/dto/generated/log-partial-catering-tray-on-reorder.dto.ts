@@ -41,4 +41,7 @@ export class LogPartialCateringTrayOnReorderDto {
   renamePartialBowl!: Date;
   cachePartialStore!: boolean;
   relaxEmptyLocationAtClose!: string[];
+  relaxStaleTicket!: boolean;
+  cacheMissingMenuItemAtClose!: string[];
+  renameLateLocation!: number;
 }

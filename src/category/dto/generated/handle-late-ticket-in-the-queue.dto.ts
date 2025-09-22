@@ -30,4 +30,8 @@ export class HandleLateTicketInTheQueueDto {
   cacheDuplicateKitchenTicket!: Date;
   cacheDuplicateMenuItemForFranchisees?: Date;
   relaxPartialDeliveryWindowForFranchisees!: number;
+  dedupeMissingDeliveryWindow!: boolean;
+  addLateReceipt?: Date;
+  guardLateCartLine?: string;
+  handleOversizedLoyaltyCredit!: boolean;
 }

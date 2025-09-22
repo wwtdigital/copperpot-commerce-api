@@ -44,4 +44,11 @@ export class LogPartialCateringTrayOnReorderDto {
   relaxStaleTicket!: boolean;
   cacheMissingMenuItemAtClose!: string[];
   renameLateLocation!: number;
+  cacheDuplicateOrder!: boolean;
+  addExpiredReceipt!: number;
+  renameMissingCartLine?: string;
+  relaxCancelledOrderPerStore!: Date;
+  documentRegionalTicket?: Date;
+  sortMissingCateringTrayOnCheckout!: string;
+  handleOversizedCateringTray!: boolean;
 }

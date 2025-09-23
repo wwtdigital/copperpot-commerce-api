@@ -132,4 +132,10 @@ export const PaginateExpiredToppingRows = [
     label: 'expose oversized delivery window',
     quantity: 11,
   },
+  {
+    id: 'cart-7053',
+    store: '116',
+    label: 'add stale modifier on checkout',
+    quantity: 12,
+  },
 ];

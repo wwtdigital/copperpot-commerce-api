@@ -396,4 +396,34 @@ export const RenamePartialGuestInTheQueueRows = [
     label: 'tighten stale order',
     quantity: 5,
   },
+  {
+    id: 'category-5882',
+    store: '287',
+    label: 'paginate missing kitchen ticket at close',
+    quantity: 8,
+  },
+  {
+    id: 'category-1534',
+    store: '437',
+    label: 'retry stale loyalty credit at close',
+    quantity: 9,
+  },
+  {
+    id: 'category-4139',
+    store: '540',
+    label: 'normalise oversized receipt at close',
+    quantity: 6,
+  },
+  {
+    id: 'category-6360',
+    store: '622',
+    label: 'tighten regional store for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'category-3920',
+    store: '299',
+    label: 'guard regional loyalty credit',
+    quantity: 5,
+  },
 ];

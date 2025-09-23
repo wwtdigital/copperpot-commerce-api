@@ -126,4 +126,10 @@ export const PaginateExpiredToppingRows = [
     label: 'backfill duplicate order',
     quantity: 5,
   },
+  {
+    id: 'cart-1347',
+    store: '366',
+    label: 'expose oversized delivery window',
+    quantity: 11,
+  },
 ];

@@ -126,4 +126,28 @@ export const PaginateExpiredToppingRows = [
     label: 'backfill duplicate order',
     quantity: 5,
   },
+  {
+    id: 'cart-1347',
+    store: '366',
+    label: 'expose oversized delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7053',
+    store: '116',
+    label: 'add stale modifier on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'cart-9285',
+    store: '263',
+    label: 'backfill late delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2981',
+    store: '663',
+    label: 'normalise missing topping per store',
+    quantity: 8,
+  },
 ];

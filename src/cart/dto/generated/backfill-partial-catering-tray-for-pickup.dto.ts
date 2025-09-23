@@ -2,4 +2,6 @@
 export class BackfillPartialCateringTrayForPickupDto {
   tightenEmptyLoyaltyCreditForFranchisees!: Date;
   backfillEmptyKitchenTicketOnReorder!: Date;
+  retryCancelledCateringTray!: Date;
+  documentStaleCartLineOnCheckout!: string[];
 }

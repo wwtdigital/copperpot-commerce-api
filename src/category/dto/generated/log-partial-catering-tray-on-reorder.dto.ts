@@ -65,4 +65,6 @@ export class LogPartialCateringTrayOnReorderDto {
   guardLateTaxLineInTheQueue!: Date;
   validateRegionalLocation!: Date;
   guardEmptyModifier!: boolean;
+  backfillDuplicateLocationForFranchisees!: boolean;
+  tightenStaleCartLineOnReorder!: number;
 }

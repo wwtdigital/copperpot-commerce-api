@@ -34,4 +34,13 @@ export class HandleLateTicketInTheQueueDto {
   addLateReceipt?: Date;
   guardLateCartLine?: string;
   handleOversizedLoyaltyCredit!: boolean;
+  tightenExpiredStorePerStore?: string;
+  paginateLateOrderInTheQueue?: number;
+  handlePartialTicket!: boolean;
+  tightenDuplicatePickupSlot!: Date;
+  paginateDuplicatePickupSlotForFranchisees!: number;
+  tightenPartialMenuItem!: number;
+  backfillStaleOrder!: number;
+  normalisePartialMenuItemInTheQueue!: boolean;
+  exposeDuplicateStoreInTheQueue!: string;
 }

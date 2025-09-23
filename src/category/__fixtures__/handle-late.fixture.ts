@@ -132,4 +132,10 @@ export const HandleLatePromoRows = [
     label: 'rename partial catering tray',
     quantity: 7,
   },
+  {
+    id: 'category-9159',
+    store: '662',
+    label: 'expose stale modifier',
+    quantity: 12,
+  },
 ];

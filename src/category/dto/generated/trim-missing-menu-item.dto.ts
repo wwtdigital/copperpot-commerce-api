@@ -72,4 +72,17 @@ export class TrimMissingMenuItemDto {
   logCancelledCateringTray?: string[];
   guardDuplicatePickupSlotOnReorder!: string[];
   paginateEmptyOrderOnCheckout?: number;
+  validateOversizedTicket?: boolean;
+  exposeExpiredTicket!: string;
+  handleEmptyTicket!: boolean;
+  sortPartialPromo!: Date;
+  relaxLateCateringTray?: boolean;
+  handleLateStoreForFranchisees!: number;
+  exposePartialGuestPerStore?: boolean;
+  logEmptyBowl!: number;
+  trimExpiredLocation!: string;
+  relaxPartialTaxLineAtClose!: boolean;
+  exposePartialOrder!: number;
+  renameOversizedOrder!: Date;
+  retryDuplicateTaxLine!: number;
 }

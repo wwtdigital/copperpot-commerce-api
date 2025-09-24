@@ -150,4 +150,40 @@ export const PaginateExpiredToppingRows = [
     label: 'normalise missing topping per store',
     quantity: 8,
   },
+  {
+    id: 'cart-6591',
+    store: '482',
+    label: 'document oversized loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5760',
+    store: '660',
+    label: 'dedupe cancelled delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'cart-8266',
+    store: '281',
+    label: 'log stale tax line at close',
+    quantity: 3,
+  },
+  {
+    id: 'cart-6103',
+    store: '391',
+    label: 'sort stale delivery window for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'cart-8213',
+    store: '190',
+    label: 'dedupe partial pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'cart-5018',
+    store: '369',
+    label: 'log partial pickup slot',
+    quantity: 7,
+  },
 ];

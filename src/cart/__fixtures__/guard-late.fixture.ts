@@ -66,4 +66,52 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'rename late receipt',
     quantity: 1,
   },
+  {
+    id: 'cart-5361',
+    store: '654',
+    label: 'cache partial receipt',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5242',
+    store: '395',
+    label: 'retry partial loyalty credit on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'cart-2360',
+    store: '692',
+    label: 'cache stale menu item',
+    quantity: 12,
+  },
+  {
+    id: 'cart-8569',
+    store: '101',
+    label: 'expose missing receipt',
+    quantity: 12,
+  },
+  {
+    id: 'cart-1300',
+    store: '177',
+    label: 'cache duplicate pickup slot for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'cart-9401',
+    store: '600',
+    label: 'validate empty bowl for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3233',
+    store: '349',
+    label: 'retry partial delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'cart-9708',
+    store: '492',
+    label: 'paginate regional bowl',
+    quantity: 3,
+  },
 ];

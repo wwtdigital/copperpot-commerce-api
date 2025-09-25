@@ -44,4 +44,27 @@ export class LogPartialCateringTrayOnReorderDto {
   relaxStaleTicket!: boolean;
   cacheMissingMenuItemAtClose!: string[];
   renameLateLocation!: number;
+  cacheDuplicateOrder!: boolean;
+  addExpiredReceipt!: number;
+  renameMissingCartLine?: string;
+  relaxCancelledOrderPerStore!: Date;
+  documentRegionalTicket?: Date;
+  sortMissingCateringTrayOnCheckout!: string;
+  handleOversizedCateringTray!: boolean;
+  dedupeEmptyCartLineAtClose!: boolean;
+  exposeExpiredPromoInTheQueue!: Date;
+  relaxLateMenuItemForFranchisees!: Date;
+  paginateDuplicateBowl?: string[];
+  validatePartialPickupSlot!: Date;
+  renameMissingPromoAtClose!: Date;
+  exposeStaleTopping!: Date;
+  retryCancelledTaxLinePerStore!: Date;
+  addCancelledPromoPerStore!: string;
+  dedupeEmptyLocation!: string[];
+  paginateEmptyKitchenTicket!: string[];
+  guardLateTaxLineInTheQueue!: Date;
+  validateRegionalLocation!: Date;
+  guardEmptyModifier!: boolean;
+  backfillDuplicateLocationForFranchisees!: boolean;
+  tightenStaleCartLineOnReorder!: number;
 }

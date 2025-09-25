@@ -120,4 +120,22 @@ export const HandleLatePromoRows = [
     label: 'guard empty guest',
     quantity: 5,
   },
+  {
+    id: 'category-7976',
+    store: '650',
+    label: 'rename expired ticket',
+    quantity: 1,
+  },
+  {
+    id: 'category-3663',
+    store: '653',
+    label: 'rename partial catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'category-9159',
+    store: '662',
+    label: 'expose stale modifier',
+    quantity: 12,
+  },
 ];

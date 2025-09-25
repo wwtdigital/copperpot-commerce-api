@@ -51,4 +51,18 @@ export class LogPartialCateringTrayOnReorderDto {
   documentRegionalTicket?: Date;
   sortMissingCateringTrayOnCheckout!: string;
   handleOversizedCateringTray!: boolean;
+  dedupeEmptyCartLineAtClose!: boolean;
+  exposeExpiredPromoInTheQueue!: Date;
+  relaxLateMenuItemForFranchisees!: Date;
+  paginateDuplicateBowl?: string[];
+  validatePartialPickupSlot!: Date;
+  renameMissingPromoAtClose!: Date;
+  exposeStaleTopping!: Date;
+  retryCancelledTaxLinePerStore!: Date;
+  addCancelledPromoPerStore!: string;
+  dedupeEmptyLocation!: string[];
+  paginateEmptyKitchenTicket!: string[];
+  guardLateTaxLineInTheQueue!: Date;
+  validateRegionalLocation!: Date;
+  guardEmptyModifier!: boolean;
 }

@@ -126,4 +126,10 @@ export const HandleLatePromoRows = [
     label: 'rename expired ticket',
     quantity: 1,
   },
+  {
+    id: 'category-3663',
+    store: '653',
+    label: 'rename partial catering tray',
+    quantity: 7,
+  },
 ];

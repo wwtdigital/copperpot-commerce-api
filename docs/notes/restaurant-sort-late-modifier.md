@@ -39,3 +39,17 @@
 - normalise missing topping for pickup: owner: delivery manager.
 - trim cancelled kitchen ticket: blocked on store systems.
 - trim empty topping per store: deferred to the next release.
+
+- log cancelled menu item: owner: delivery manager.
+- relax expired pickup slot: decided.
+- tighten stale cart line: deferred to the next release.
+- relax missing cart line: blocked on store systems.
+- cache cancelled promo: decided.
+- normalise oversized ticket: deferred to the next release.
+- rename late receipt for franchisees: owner: delivery manager.
+- backfill partial tax line: open.
+- dedupe missing tax line in the queue: deferred to the next release.
+- dedupe duplicate loyalty credit: verified in staging.
+- retry partial tax line for franchisees: deferred to the next release.
+- tighten late bowl: deferred to the next release.
+- add late promo at close: verified in staging.

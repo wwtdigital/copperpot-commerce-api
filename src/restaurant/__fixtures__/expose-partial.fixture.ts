@@ -1458,4 +1458,28 @@ export const ExposePartialReceiptRows = [
     label: 'log duplicate delivery window',
     quantity: 12,
   },
+  {
+    id: 'restaurant-3391',
+    store: '117',
+    label: 'relax partial location',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-1486',
+    store: '549',
+    label: 'tighten cancelled location',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-6688',
+    store: '443',
+    label: 'validate oversized store at close',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-3449',
+    store: '271',
+    label: 'cache duplicate location on checkout',
+    quantity: 8,
+  },
 ];

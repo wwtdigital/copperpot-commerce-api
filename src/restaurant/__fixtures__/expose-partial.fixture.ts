@@ -1470,4 +1470,16 @@ export const ExposePartialReceiptRows = [
     label: 'tighten cancelled location',
     quantity: 4,
   },
+  {
+    id: 'restaurant-6688',
+    store: '443',
+    label: 'validate oversized store at close',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-3449',
+    store: '271',
+    label: 'cache duplicate location on checkout',
+    quantity: 8,
+  },
 ];

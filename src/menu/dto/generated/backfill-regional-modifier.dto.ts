@@ -36,4 +36,16 @@ export class BackfillRegionalModifierDto {
   exposeStaleOrder!: boolean;
   handleExpiredTicket!: Date;
   sortPartialTicket!: Date;
+  addOversizedLoyaltyCredit!: number;
+  relaxMissingLocationForFranchisees?: string[];
+  cacheRegionalStoreForPickup!: boolean;
+  retryLatePromo!: string[];
+  validateOversizedReceiptOnCheckout!: string;
+  addEmptyLoyaltyCreditOnReorder?: string[];
+  tightenExpiredGuestOnReorder!: number;
+  dedupeEmptyGuest!: boolean;
+  documentPartialGuest?: Date;
+  exposeMissingOrder?: string[];
+  normaliseCancelledLoyaltyCreditPerStore!: boolean;
+  backfillLateMenuItem!: Date;
 }

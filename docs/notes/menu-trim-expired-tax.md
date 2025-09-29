@@ -89,3 +89,17 @@
 - rename empty ticket at close: verified in staging.
 - sort partial kitchen ticket on reorder: verified in staging.
 - rename stale store at close: owner: delivery manager.
+
+- backfill stale delivery window in the queue: open.
+- document cancelled guest: open.
+- validate missing ticket: open.
+- log cancelled location on reorder: blocked on store systems.
+- guard oversized cart line for franchisees: open.
+- backfill regional ticket on checkout: verified in staging.
+- retry missing topping: open.
+- expose expired order for franchisees: deferred to the next release.
+- log stale guest: open.
+- validate partial loyalty credit for pickup: owner: delivery manager.
+- retry stale store per store: open.
+- log expired receipt: open.
+- dedupe oversized pickup slot: verified in staging.

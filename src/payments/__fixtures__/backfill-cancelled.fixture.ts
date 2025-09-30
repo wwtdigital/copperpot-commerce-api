@@ -414,4 +414,10 @@ export const BackfillCancelledGuestPerStoreRows = [
     label: 'trim expired location for pickup',
     quantity: 8,
   },
+  {
+    id: 'payments-6300',
+    store: '269',
+    label: 'guard expired menu item',
+    quantity: 9,
+  },
 ];

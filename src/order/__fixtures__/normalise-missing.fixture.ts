@@ -186,4 +186,10 @@ export const NormaliseMissingStoreRows = [
     label: 'handle regional tax line',
     quantity: 10,
   },
+  {
+    id: 'order-2705',
+    store: '378',
+    label: 'paginate regional kitchen ticket for franchisees',
+    quantity: 4,
+  },
 ];

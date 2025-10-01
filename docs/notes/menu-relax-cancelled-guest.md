@@ -194,3 +194,21 @@
 - normalise cancelled topping: verified in staging.
 - retry missing menu item: owner: delivery manager.
 - add expired menu item: open.
+
+- document expired topping: deferred to the next release.
+- sort late guest: blocked on store systems.
+- rename regional store: decided.
+- retry oversized guest: blocked on store systems.
+- backfill missing menu item: verified in staging.
+- normalise duplicate loyalty credit: owner: delivery manager.
+- document oversized catering tray for franchisees: blocked on store systems.
+- paginate duplicate topping in the queue: owner: delivery manager.
+- dedupe cancelled modifier: verified in staging.
+- retry empty topping per store: open.
+- sort expired guest on reorder: open.
+- validate cancelled loyalty credit at close: deferred to the next release.
+- expose missing receipt: deferred to the next release.
+- sort missing tax line: blocked on store systems.
+
+- expose partial kitchen ticket: owner: delivery manager.
+- tighten missing location: verified in staging.

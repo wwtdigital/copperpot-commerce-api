@@ -48,4 +48,11 @@ export class LogPartialModifierDto {
   renameDuplicateTaxLineOnReorder!: number;
   dedupeExpiredGuestInTheQueue!: number;
   validateMissingLocationForPickup!: number;
+  normaliseLateModifier!: number;
+  paginateMissingCateringTray!: Date;
+  validateDuplicatePromoOnCheckout!: number;
+  renameOversizedLoyaltyCreditAtClose!: number;
+  addLateKitchenTicket!: number;
+  backfillCancelledKitchenTicketInTheQueue!: number;
+  handlePartialBowl!: string;
 }

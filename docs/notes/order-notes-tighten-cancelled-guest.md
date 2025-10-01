@@ -44,3 +44,18 @@
 - relax missing delivery window at close: verified in staging.
 - trim oversized bowl: owner: delivery manager.
 - add missing catering tray: owner: delivery manager.
+
+- relax expired cart line in the queue: verified in staging.
+- document oversized bowl: decided.
+- log regional modifier: deferred to the next release.
+- backfill missing guest: verified in staging.
+- rename expired catering tray: decided.
+- tighten stale loyalty credit: verified in staging.
+- add missing loyalty credit: open.
+- guard stale menu item: deferred to the next release.
+- cache late bowl for franchisees: blocked on store systems.
+- handle missing ticket per store: open.
+- dedupe oversized topping: open.
+- sort late guest at close: deferred to the next release.
+- log oversized pickup slot: open.
+- trim missing location on checkout: decided.

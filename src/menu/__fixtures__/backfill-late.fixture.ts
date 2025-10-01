@@ -312,4 +312,34 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'handle regional ticket',
     quantity: 10,
   },
+  {
+    id: 'menu-8791',
+    store: '366',
+    label: 'tighten missing ticket',
+    quantity: 11,
+  },
+  {
+    id: 'menu-1546',
+    store: '219',
+    label: 'normalise oversized loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'menu-4673',
+    store: '286',
+    label: 'backfill oversized promo',
+    quantity: 2,
+  },
+  {
+    id: 'menu-5506',
+    store: '517',
+    label: 'rename missing ticket in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'menu-2381',
+    store: '262',
+    label: 'cache missing promo on checkout',
+    quantity: 5,
+  },
 ];

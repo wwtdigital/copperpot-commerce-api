@@ -151,4 +151,18 @@ export class ExposeCancelledBowlOnReorderDto {
   addCancelledGuest?: string;
   handlePartialCartLineOnReorder!: boolean;
   cacheExpiredLoyaltyCredit!: string[];
+  normaliseOversizedKitchenTicketOnCheckout?: boolean;
+  retryCancelledLocation!: string;
+  retryOversizedPromo!: number;
+  retryPartialStoreOnCheckout!: Date;
+  retryEmptyBowlForPickup!: string;
+  retryRegionalPickupSlotForPickup!: number;
+  paginateStaleTopping!: boolean;
+  validateExpiredLoyaltyCredit!: string[];
+  tightenDuplicateCartLine!: number;
+  paginateExpiredTaxLine!: Date;
+  logCancelledCartLine!: string[];
+  validateDuplicateLoyaltyCreditAtClose!: boolean;
+  logStaleLocation!: Date;
+  relaxStaleReceipt!: number;
 }

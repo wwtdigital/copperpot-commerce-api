@@ -62,4 +62,11 @@ export class PaginateLateStoreAtCloseDto {
   addDuplicatePromoOnReorder!: boolean;
   logOversizedCateringTray!: string[];
   retryCancelledTicketPerStore!: Date;
+  retryCancelledPickupSlot!: string[];
+  relaxCancelledBowl!: string;
+  guardRegionalModifierOnCheckout!: boolean;
+  paginateStaleMenuItem!: number;
+  tightenOversizedKitchenTicket?: number;
+  exposePartialBowl!: string[];
+  sortDuplicateGuestPerStore!: string;
 }

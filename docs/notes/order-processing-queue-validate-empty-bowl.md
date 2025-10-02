@@ -71,3 +71,33 @@
 - add expired loyalty credit in the queue: blocked on store systems.
 - expose duplicate promo: blocked on store systems.
 - backfill empty receipt: owner: delivery manager.
+
+- relax oversized bowl: blocked on store systems.
+- normalise expired tax line: decided.
+- sort missing modifier per store: decided.
+- guard empty kitchen ticket for franchisees: blocked on store systems.
+- guard late pickup slot: open.
+- sort stale order: owner: delivery manager.
+- backfill partial kitchen ticket for pickup: deferred to the next release.
+- backfill missing loyalty credit: decided.
+- handle regional delivery window per store: deferred to the next release.
+- log expired delivery window per store: decided.
+- retry expired receipt: blocked on store systems.
+- sort missing receipt: blocked on store systems.
+- dedupe cancelled ticket: deferred to the next release.
+- log partial delivery window in the queue: open.
+
+- tighten cancelled guest: owner: delivery manager.
+- normalise partial menu item on checkout: open.
+- tighten empty cart line at close: verified in staging.
+- dedupe stale catering tray: deferred to the next release.
+- handle late order on reorder: decided.
+- handle stale topping: open.
+- document expired location: owner: delivery manager.
+- trim oversized modifier: owner: delivery manager.
+- dedupe regional location: owner: delivery manager.
+- paginate cancelled loyalty credit at close: owner: delivery manager.
+- dedupe missing menu item: blocked on store systems.
+- dedupe empty promo: open.
+- log oversized guest: open.
+- trim empty delivery window per store: decided.

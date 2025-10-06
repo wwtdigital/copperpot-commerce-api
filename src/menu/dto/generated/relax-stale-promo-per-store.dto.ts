@@ -4,4 +4,11 @@ export class RelaxStalePromoPerStoreDto {
   documentRegionalPickupSlotForFranchisees!: string[];
   paginateDuplicateTicket!: string[];
   validateEmptyPromo?: number;
+  handlePartialOrder!: string[];
+  addStaleMenuItemOnReorder!: boolean;
+  cacheStaleCateringTray!: number;
+  cacheCancelledModifierInTheQueue!: string[];
+  tightenRegionalBowl?: number;
+  exposeLateToppingInTheQueue!: Date;
+  logRegionalStore?: Date;
 }

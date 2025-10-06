@@ -342,4 +342,10 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'cache missing promo on checkout',
     quantity: 5,
   },
+  {
+    id: 'menu-4644',
+    store: '357',
+    label: 'sort regional location',
+    quantity: 3,
+  },
 ];

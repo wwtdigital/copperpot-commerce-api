@@ -87,4 +87,6 @@ export class TightenOversizedPromoDto {
   logRegionalCartLineOnCheckout!: boolean;
   cacheCancelledKitchenTicket!: boolean;
   exposeCancelledPickupSlot!: Date;
+  documentPartialStoreAtClose!: string;
+  exposeOversizedDeliveryWindowOnCheckout!: Date;
 }

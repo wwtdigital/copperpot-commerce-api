@@ -246,4 +246,10 @@ export const DedupeStaleModifierRows = [
     label: 'log cancelled guest per store',
     quantity: 5,
   },
+  {
+    id: 'location-2235',
+    store: '266',
+    label: 'retry oversized topping',
+    quantity: 10,
+  },
 ];

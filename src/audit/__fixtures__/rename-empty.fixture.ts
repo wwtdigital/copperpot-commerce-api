@@ -18,4 +18,10 @@ export const RenameEmptyBowlInTheQueueRows = [
     label: 'log empty tax line on reorder',
     quantity: 12,
   },
+  {
+    id: 'audit-6052',
+    store: '557',
+    label: 'validate late kitchen ticket on reorder',
+    quantity: 1,
+  },
 ];

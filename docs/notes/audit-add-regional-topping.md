@@ -130,3 +130,33 @@
 - rename duplicate menu item: owner: delivery manager.
 - backfill cancelled loyalty credit at close: owner: delivery manager.
 - handle late pickup slot on checkout: deferred to the next release.
+
+- trim empty menu item per store: owner: delivery manager.
+- guard expired topping in the queue: verified in staging.
+- normalise empty delivery window on checkout: owner: delivery manager.
+- backfill expired store for franchisees: decided.
+- log partial topping on checkout: open.
+- backfill stale delivery window for franchisees: decided.
+- backfill oversized location: blocked on store systems.
+- add oversized kitchen ticket at close: owner: delivery manager.
+- relax empty cart line: open.
+- handle partial catering tray per store: decided.
+- rename stale modifier on reorder: blocked on store systems.
+- backfill oversized guest: verified in staging.
+- sort expired ticket: deferred to the next release.
+- expose cancelled receipt for pickup: deferred to the next release.
+
+- handle late cart line: owner: delivery manager.
+- handle oversized delivery window: blocked on store systems.
+- expose regional pickup slot: deferred to the next release.
+- log regional order: decided.
+- sort duplicate location: decided.
+- normalise regional receipt: decided.
+- rename empty receipt: decided.
+- retry expired location for pickup: owner: delivery manager.
+- backfill duplicate modifier: verified in staging.
+- document regional bowl for pickup: open.
+- handle regional modifier: decided.
+- handle expired pickup slot: verified in staging.
+- add stale kitchen ticket: blocked on store systems.
+- sort missing store on reorder: deferred to the next release.

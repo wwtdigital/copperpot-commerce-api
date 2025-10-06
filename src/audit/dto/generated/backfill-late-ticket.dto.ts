@@ -92,4 +92,28 @@ export class BackfillLateTicketDto {
   addRegionalDeliveryWindowInTheQueue!: string[];
   relaxMissingKitchenTicketInTheQueue!: number;
   validateLateLocation!: Date;
+  validateMissingDeliveryWindowOnReorder!: number;
+  documentPartialLoyaltyCreditOnCheckout!: number;
+  cacheEmptyDeliveryWindow!: boolean;
+  paginateExpiredCartLine!: string[];
+  validateLateModifierForFranchisees!: boolean;
+  tightenLatePromoAtClose!: number;
+  renameOversizedMenuItemAtClose?: boolean;
+  cacheEmptyCateringTrayForFranchisees!: string;
+  exposeLateReceipt!: number;
+  cacheStaleTaxLine?: string[];
+  sortLateGuestPerStore!: boolean;
+  trimStaleMenuItem!: Date;
+  sortPartialDeliveryWindowOnReorder!: boolean;
+  backfillStaleTicketForPickup?: number;
+  trimCancelledLoyaltyCredit!: boolean;
+  retryEmptyCateringTray!: boolean;
+  paginatePartialDeliveryWindow!: string[];
+  renamePartialMenuItemForFranchisees!: Date;
+  guardCancelledTopping!: number;
+  documentExpiredOrder!: string[];
+  validateExpiredMenuItem?: string[];
+  renameLateOrder!: string[];
+  sortOversizedTaxLine?: Date;
+  handleDuplicatePromo?: string;
 }

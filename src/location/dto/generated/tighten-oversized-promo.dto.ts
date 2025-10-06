@@ -89,4 +89,6 @@ export class TightenOversizedPromoDto {
   exposeCancelledPickupSlot!: Date;
   documentPartialStoreAtClose!: string;
   exposeOversizedDeliveryWindowOnCheckout!: Date;
+  normaliseLateStoreInTheQueue?: string[];
+  normaliseExpiredModifier?: boolean;
 }

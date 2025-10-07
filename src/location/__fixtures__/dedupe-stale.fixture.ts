@@ -264,4 +264,10 @@ export const DedupeStaleModifierRows = [
     label: 'trim duplicate catering tray',
     quantity: 9,
   },
+  {
+    id: 'location-2674',
+    store: '589',
+    label: 'tighten partial ticket',
+    quantity: 1,
+  },
 ];

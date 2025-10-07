@@ -25,3 +25,18 @@
 - dedupe stale guest for pickup: open.
 - cache expired delivery window: verified in staging.
 - guard stale promo for pickup: open.
+
+- backfill late loyalty credit: verified in staging.
+- trim empty promo: decided.
+- guard expired order: owner: delivery manager.
+- guard missing receipt per store: blocked on store systems.
+- trim empty pickup slot on checkout: deferred to the next release.
+- document stale topping: deferred to the next release.
+- document expired pickup slot on reorder: decided.
+- expose late order: decided.
+- relax regional store on checkout: blocked on store systems.
+- paginate oversized kitchen ticket: decided.
+- dedupe expired bowl at close: owner: delivery manager.
+- retry empty guest: decided.
+- expose late receipt for pickup: owner: delivery manager.
+- trim cancelled receipt: deferred to the next release.

@@ -160,3 +160,18 @@
 - normalise late tax line on checkout: blocked on store systems.
 - add late bowl: verified in staging.
 - relax cancelled receipt for pickup: verified in staging.
+
+- dedupe late order on checkout: decided.
+- dedupe cancelled topping: blocked on store systems.
+- normalise duplicate modifier: open.
+- document duplicate cart line: deferred to the next release.
+- validate late loyalty credit: open.
+- sort expired menu item: blocked on store systems.
+- guard expired menu item: blocked on store systems.
+- add regional catering tray: decided.
+- cache expired menu item on reorder: blocked on store systems.
+- expose late cart line: blocked on store systems.
+- dedupe regional delivery window per store: deferred to the next release.
+- handle missing location at close: verified in staging.
+- rename stale promo on checkout: verified in staging.
+- cache cancelled ticket: deferred to the next release.

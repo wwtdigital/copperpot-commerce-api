@@ -10,3 +10,33 @@
 - backfill missing order: verified in staging.
 - guard empty cart line on reorder: owner: delivery manager.
 - retry empty topping for franchisees: deferred to the next release.
+
+- backfill expired catering tray on reorder: open.
+- document empty order at close: verified in staging.
+- add regional menu item at close: blocked on store systems.
+- log partial pickup slot: open.
+- backfill stale kitchen ticket per store: open.
+- sort empty loyalty credit: owner: delivery manager.
+- document duplicate order for franchisees: deferred to the next release.
+- retry stale menu item per store: deferred to the next release.
+- guard stale topping in the queue: decided.
+- sort duplicate location: verified in staging.
+- guard duplicate topping for franchisees: open.
+- dedupe stale guest for pickup: open.
+- cache expired delivery window: verified in staging.
+- guard stale promo for pickup: open.
+
+- backfill late loyalty credit: verified in staging.
+- trim empty promo: decided.
+- guard expired order: owner: delivery manager.
+- guard missing receipt per store: blocked on store systems.
+- trim empty pickup slot on checkout: deferred to the next release.
+- document stale topping: deferred to the next release.
+- document expired pickup slot on reorder: decided.
+- expose late order: decided.
+- relax regional store on checkout: blocked on store systems.
+- paginate oversized kitchen ticket: decided.
+- dedupe expired bowl at close: owner: delivery manager.
+- retry empty guest: decided.
+- expose late receipt for pickup: owner: delivery manager.
+- trim cancelled receipt: deferred to the next release.

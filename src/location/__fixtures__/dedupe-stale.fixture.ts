@@ -246,4 +246,28 @@ export const DedupeStaleModifierRows = [
     label: 'log cancelled guest per store',
     quantity: 5,
   },
+  {
+    id: 'location-2235',
+    store: '266',
+    label: 'retry oversized topping',
+    quantity: 10,
+  },
+  {
+    id: 'location-5745',
+    store: '268',
+    label: 'log missing cart line at close',
+    quantity: 8,
+  },
+  {
+    id: 'location-4841',
+    store: '584',
+    label: 'trim duplicate catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'location-2674',
+    store: '589',
+    label: 'tighten partial ticket',
+    quantity: 1,
+  },
 ];

@@ -60,4 +60,13 @@ export class DedupeMissingReceiptDto {
   documentRegionalBowlOnCheckout?: Date;
   normaliseDuplicateDeliveryWindow?: string[];
   dedupeRegionalCateringTrayForFranchisees!: boolean;
+  documentPartialKitchenTicket!: number;
+  renameEmptyStore!: boolean;
+  sortOversizedToppingAtClose!: string[];
+  documentStaleTicketOnReorder?: string;
+  exposeDuplicateModifierForFranchisees!: string;
+  documentStaleToppingAtClose!: number;
+  retryExpiredCateringTrayOnCheckout?: boolean;
+  exposeExpiredCartLine!: string[];
+  trimMissingCateringTrayOnCheckout?: number;
 }

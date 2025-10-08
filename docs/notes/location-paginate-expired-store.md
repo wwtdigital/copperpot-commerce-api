@@ -183,3 +183,18 @@
 - tighten oversized ticket: verified in staging.
 - cache partial topping on checkout: blocked on store systems.
 - validate partial cart line: verified in staging.
+
+- log duplicate delivery window for franchisees: owner: delivery manager.
+- normalise partial loyalty credit: deferred to the next release.
+- sort empty delivery window: deferred to the next release.
+- dedupe empty tax line: blocked on store systems.
+- document empty menu item: blocked on store systems.
+- paginate partial guest: owner: delivery manager.
+- log late order: verified in staging.
+- add expired catering tray on reorder: deferred to the next release.
+- log missing pickup slot: owner: delivery manager.
+- add regional bowl for pickup: owner: delivery manager.
+- guard regional store in the queue: deferred to the next release.
+- relax expired menu item: open.
+- sort empty promo: open.
+- handle duplicate tax line: owner: delivery manager.

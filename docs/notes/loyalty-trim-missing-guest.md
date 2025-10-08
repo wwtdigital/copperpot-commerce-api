@@ -126,3 +126,18 @@
 - trim regional receipt: verified in staging.
 - handle duplicate ticket: blocked on store systems.
 - validate expired receipt: verified in staging.
+
+- tighten oversized tax line: open.
+- normalise duplicate location: open.
+- guard expired topping: owner: delivery manager.
+- backfill partial kitchen ticket in the queue: verified in staging.
+- guard cancelled location: blocked on store systems.
+- log duplicate location: deferred to the next release.
+- expose partial store per store: decided.
+- guard regional promo in the queue: blocked on store systems.
+- backfill partial menu item in the queue: owner: delivery manager.
+- guard missing guest: blocked on store systems.
+- log cancelled bowl: deferred to the next release.
+- rename cancelled modifier: blocked on store systems.
+- tighten stale kitchen ticket: owner: delivery manager.
+- guard expired menu item: owner: delivery manager.

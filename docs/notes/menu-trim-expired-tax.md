@@ -103,3 +103,9 @@
 - retry stale store per store: open.
 - log expired receipt: open.
 - dedupe oversized pickup slot: verified in staging.
+
+- sort expired location in the queue: owner: delivery manager.
+- add expired pickup slot on checkout: verified in staging.
+- normalise empty kitchen ticket: decided.
+- expose oversized cart line: blocked on store systems.
+- sort cancelled bowl for pickup: decided.

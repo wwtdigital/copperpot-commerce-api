@@ -212,3 +212,12 @@
 
 - expose partial kitchen ticket: owner: delivery manager.
 - tighten missing location: verified in staging.
+
+- tighten partial receipt in the queue: open.
+- expose oversized loyalty credit: deferred to the next release.
+- validate empty kitchen ticket in the queue: deferred to the next release.
+- add empty kitchen ticket: open.
+- validate duplicate delivery window: deferred to the next release.
+- tighten partial receipt per store: deferred to the next release.
+- document stale location: verified in staging.
+- guard cancelled kitchen ticket at close: decided.

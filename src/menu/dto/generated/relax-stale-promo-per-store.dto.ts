@@ -4,4 +4,19 @@ export class RelaxStalePromoPerStoreDto {
   documentRegionalPickupSlotForFranchisees!: string[];
   paginateDuplicateTicket!: string[];
   validateEmptyPromo?: number;
+  handlePartialOrder!: string[];
+  addStaleMenuItemOnReorder!: boolean;
+  cacheStaleCateringTray!: number;
+  cacheCancelledModifierInTheQueue!: string[];
+  tightenRegionalBowl?: number;
+  exposeLateToppingInTheQueue!: Date;
+  logRegionalStore?: Date;
+  backfillRegionalTicket!: string;
+  dedupeStaleLocation!: number;
+  sortOversizedPickupSlotAtClose?: boolean;
+  handleDuplicateTaxLine!: string[];
+  exposeRegionalTaxLine?: string;
+  backfillEmptyPromo?: string;
+  sortStaleOrderInTheQueue!: string[];
+  addRegionalModifier?: string[];
 }

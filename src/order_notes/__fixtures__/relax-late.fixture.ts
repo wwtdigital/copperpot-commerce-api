@@ -174,4 +174,22 @@ export const RelaxLateStoreForPickupRows = [
     label: 'relax late promo for pickup',
     quantity: 6,
   },
+  {
+    id: 'order-notes-3112',
+    store: '101',
+    label: 'log missing receipt',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-9818',
+    store: '569',
+    label: 'add partial loyalty credit on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'order-notes-7525',
+    store: '539',
+    label: 'paginate stale guest on reorder',
+    quantity: 11,
+  },
 ];

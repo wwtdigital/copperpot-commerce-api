@@ -64,3 +64,6 @@
 - backfill cancelled delivery window for pickup: owner: delivery manager.
 - normalise late loyalty credit: open.
 - handle missing loyalty credit: deferred to the next release.
+
+- normalise stale receipt: verified in staging.
+- expose duplicate loyalty credit per store: blocked on store systems.

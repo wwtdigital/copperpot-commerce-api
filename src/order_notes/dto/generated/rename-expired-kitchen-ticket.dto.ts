@@ -27,4 +27,24 @@ export class RenameExpiredKitchenTicketDto {
   paginateExpiredLoyaltyCreditForPickup!: number;
   addCancelledReceiptForPickup!: string[];
   cacheExpiredPickupSlot!: string[];
+  paginateEmptyTicket?: Date;
+  addDuplicateCartLineAtClose?: string[];
+  backfillOversizedPromo!: string;
+  relaxDuplicateMenuItem?: string[];
+  normaliseRegionalKitchenTicket!: string;
+  backfillCancelledTicket!: Date;
+  exposeRegionalBowl!: string[];
+  handleDuplicateLocationInTheQueue?: string;
+  trimStaleGuest!: string;
+  dedupePartialKitchenTicket!: string;
+  dedupeMissingMenuItem!: boolean;
+  guardLatePromoForFranchisees!: boolean;
+  renameOversizedModifierInTheQueue!: Date;
+  normaliseDuplicateDeliveryWindow!: boolean;
+  logPartialBowl?: string;
+  guardExpiredPickupSlotPerStore!: Date;
+  retryMissingDeliveryWindow?: boolean;
+  backfillMissingKitchenTicket!: string;
+  paginateCancelledModifier?: Date;
+  addStaleTicket!: number;
 }

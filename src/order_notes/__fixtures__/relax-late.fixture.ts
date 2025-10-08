@@ -138,4 +138,40 @@ export const RelaxLateStoreForPickupRows = [
     label: 'dedupe oversized bowl',
     quantity: 1,
   },
+  {
+    id: 'order-notes-7527',
+    store: '273',
+    label: 'dedupe missing order',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-4354',
+    store: '385',
+    label: 'handle cancelled bowl',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-3317',
+    store: '550',
+    label: 'validate late modifier',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-4117',
+    store: '301',
+    label: 'dedupe regional store',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-2147',
+    store: '361',
+    label: 'backfill regional menu item',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-6882',
+    store: '675',
+    label: 'relax late promo for pickup',
+    quantity: 6,
+  },
 ];

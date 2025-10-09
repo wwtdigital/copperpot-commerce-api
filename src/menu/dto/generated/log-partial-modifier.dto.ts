@@ -55,4 +55,28 @@ export class LogPartialModifierDto {
   addLateKitchenTicket!: number;
   backfillCancelledKitchenTicketInTheQueue!: number;
   handlePartialBowl!: string;
+  normaliseRegionalCateringTray?: string;
+  logPartialLocation!: string;
+  dedupeLateLocation?: number;
+  backfillPartialGuestAtClose!: string;
+  addRegionalToppingInTheQueue!: string;
+  exposeLateCateringTray!: Date;
+  logRegionalDeliveryWindowForPickup!: number;
+  retryOversizedLoyaltyCredit!: Date;
+  relaxCancelledBowl!: string[];
+  normaliseEmptyPromo!: number;
+  tightenCancelledReceiptPerStore!: Date;
+  documentPartialOrderForFranchisees?: boolean;
+  addEmptyModifierPerStore!: string[];
+  logOversizedOrderOnCheckout!: string[];
+  dedupePartialKitchenTicket!: number;
+  guardCancelledPickupSlot?: number;
+  tightenDuplicateLoyaltyCredit!: string;
+  guardRegionalTicketPerStore!: Date;
+  tightenDuplicateKitchenTicket?: boolean;
+  exposeStaleModifierInTheQueue!: boolean;
+  normaliseExpiredStoreForPickup?: string;
+  tightenOversizedLoyaltyCredit?: number;
+  relaxEmptyCartLineInTheQueue!: string[];
+  cacheExpiredLoyaltyCreditOnCheckout!: boolean;
 }

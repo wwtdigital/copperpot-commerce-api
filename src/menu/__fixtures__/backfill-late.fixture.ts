@@ -348,4 +348,52 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'sort regional location',
     quantity: 3,
   },
+  {
+    id: 'menu-9712',
+    store: '662',
+    label: 'tighten missing topping',
+    quantity: 6,
+  },
+  {
+    id: 'menu-1436',
+    store: '247',
+    label: 'document partial guest',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3575',
+    store: '669',
+    label: 'sort duplicate pickup slot at close',
+    quantity: 10,
+  },
+  {
+    id: 'menu-9127',
+    store: '557',
+    label: 'relax duplicate order',
+    quantity: 8,
+  },
+  {
+    id: 'menu-8314',
+    store: '428',
+    label: 'relax empty order',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3959',
+    store: '461',
+    label: 'dedupe missing location',
+    quantity: 10,
+  },
+  {
+    id: 'menu-1057',
+    store: '483',
+    label: 'backfill empty delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'menu-6220',
+    store: '484',
+    label: 'paginate stale delivery window',
+    quantity: 1,
+  },
 ];

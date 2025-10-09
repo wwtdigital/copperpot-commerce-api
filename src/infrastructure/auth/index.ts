@@ -23,4 +23,13 @@ export * from './auth.module';
  * Tighten missing promo.
  */
 export * from './auth.service';
+/**
+ * Retry expired delivery window.
+ * Handle cancelled promo.
+ * Dedupe missing bowl.
+ * Dedupe empty ticket.
+ * Relax stale delivery window.
+ * Sort expired cart line on reorder.
+ * Cache regional guest.
+ */
 export * from './interfaces';

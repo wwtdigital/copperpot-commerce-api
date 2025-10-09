@@ -9,6 +9,15 @@
  */
 export * from './restaurant.schema';
 export * from './location.schema';
+/**
+ * Tighten duplicate modifier.
+ * Log stale ticket.
+ * Expose partial tax line on reorder.
+ * Trim stale promo for pickup.
+ * Expose expired cart line on checkout.
+ * Validate cancelled ticket.
+ * Retry expired bowl.
+ */
 export * from './singleclient.schema';
 /**
  * Guard oversized topping on checkout.

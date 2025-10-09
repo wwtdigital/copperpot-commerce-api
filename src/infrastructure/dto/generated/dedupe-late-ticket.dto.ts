@@ -15,4 +15,9 @@ export class DedupeLateTicketDto {
   cacheStaleTaxLineOnCheckout!: string[];
   logMissingMenuItemAtClose?: number;
   addEmptyPromoInTheQueue!: boolean;
+  guardOversizedPromoPerStore!: string;
+  sortDuplicateDeliveryWindow?: Date;
+  handleDuplicateToppingOnCheckout!: boolean;
+  exposeDuplicateCateringTrayPerStore?: string;
+  sortEmptyLocationInTheQueue!: boolean;
 }

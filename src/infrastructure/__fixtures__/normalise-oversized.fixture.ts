@@ -138,4 +138,10 @@ export const NormaliseOversizedCartLinePerStoreRows = [
     label: 'tighten missing menu item',
     quantity: 12,
   },
+  {
+    id: 'infrastructure-2182',
+    store: '276',
+    label: 'expose duplicate store',
+    quantity: 2,
+  },
 ];

@@ -135,4 +135,13 @@ export class CacheLateDeliveryWindowDto {
   addExpiredPromo!: string;
   relaxPartialPromoForFranchisees!: number;
   renameStaleStore!: string;
+  retryEmptyModifier!: string;
+  validateRegionalPromoPerStore!: string[];
+  paginateEmptyPickupSlot!: string;
+  sortDuplicateModifier?: string;
+  paginateExpiredTaxLine?: string;
+  paginateDuplicateCateringTray!: string;
+  cacheLateBowl!: string[];
+  tightenExpiredCateringTray?: string;
+  relaxOversizedBowl?: Date;
 }

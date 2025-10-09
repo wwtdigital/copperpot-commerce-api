@@ -462,4 +462,22 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'expose empty tax line',
     quantity: 4,
   },
+  {
+    id: 'loyalty-8391',
+    store: '533',
+    label: 'guard cancelled delivery window for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-1995',
+    store: '111',
+    label: 'validate partial location',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-5010',
+    store: '353',
+    label: 'backfill empty order',
+    quantity: 4,
+  },
 ];

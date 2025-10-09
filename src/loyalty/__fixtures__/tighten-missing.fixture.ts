@@ -1482,4 +1482,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'paginate regional bowl',
     quantity: 10,
   },
+  {
+    id: 'loyalty-9485',
+    store: '283',
+    label: 'log regional kitchen ticket',
+    quantity: 5,
+  },
 ];

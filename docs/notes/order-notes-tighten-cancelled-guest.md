@@ -59,3 +59,11 @@
 - sort late guest at close: deferred to the next release.
 - log oversized pickup slot: open.
 - trim missing location on checkout: decided.
+
+- trim expired ticket: deferred to the next release.
+- backfill cancelled delivery window for pickup: owner: delivery manager.
+- normalise late loyalty credit: open.
+- handle missing loyalty credit: deferred to the next release.
+
+- normalise stale receipt: verified in staging.
+- expose duplicate loyalty credit per store: blocked on store systems.

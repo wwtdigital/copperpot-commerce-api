@@ -159,5 +159,3 @@
 - add stale tax line: owner: delivery manager.
 - handle oversized menu item: open.
 - log oversized promo: blocked on store systems.
-- document stale promo: open.
-- cache expired loyalty credit: verified in staging.

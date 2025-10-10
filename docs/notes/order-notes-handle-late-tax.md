@@ -156,3 +156,7 @@
 
 - handle cancelled catering tray per store: blocked on store systems.
 - log cancelled bowl: verified in staging.
+
+- normalise late tax line on checkout: blocked on store systems.
+- add late bowl: verified in staging.
+- relax cancelled receipt for pickup: verified in staging.

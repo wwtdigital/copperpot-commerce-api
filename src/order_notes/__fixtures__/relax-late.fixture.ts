@@ -102,4 +102,40 @@ export const RelaxLateStoreForPickupRows = [
     label: 'trim cancelled receipt',
     quantity: 8,
   },
+  {
+    id: 'order-notes-9148',
+    store: '609',
+    label: 'trim duplicate loyalty credit for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-3985',
+    store: '696',
+    label: 'trim duplicate cart line',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-6120',
+    store: '159',
+    label: 'guard empty loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-7740',
+    store: '374',
+    label: 'cache missing topping',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-3985',
+    store: '217',
+    label: 'rename expired ticket',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-3148',
+    store: '622',
+    label: 'dedupe oversized bowl',
+    quantity: 1,
+  },
 ];

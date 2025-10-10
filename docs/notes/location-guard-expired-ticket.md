@@ -40,3 +40,18 @@
 - retry empty guest: decided.
 - expose late receipt for pickup: owner: delivery manager.
 - trim cancelled receipt: deferred to the next release.
+
+- retry missing delivery window: blocked on store systems.
+- normalise expired guest: deferred to the next release.
+- retry stale pickup slot: deferred to the next release.
+- expose stale ticket on checkout: deferred to the next release.
+- normalise cancelled order: deferred to the next release.
+- tighten partial store on checkout: deferred to the next release.
+- backfill missing receipt: owner: delivery manager.
+- relax oversized pickup slot: owner: delivery manager.
+- backfill regional catering tray for pickup: owner: delivery manager.
+- dedupe expired delivery window for pickup: blocked on store systems.
+- cache regional receipt: deferred to the next release.
+- normalise missing order on checkout: decided.
+- rename missing store at close: owner: delivery manager.
+- guard missing promo: blocked on store systems.

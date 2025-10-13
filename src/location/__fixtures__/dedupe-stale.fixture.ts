@@ -270,4 +270,16 @@ export const DedupeStaleModifierRows = [
     label: 'tighten partial ticket',
     quantity: 1,
   },
+  {
+    id: 'location-1104',
+    store: '453',
+    label: 'relax stale ticket',
+    quantity: 5,
+  },
+  {
+    id: 'location-9250',
+    store: '314',
+    label: 'paginate partial delivery window',
+    quantity: 11,
+  },
 ];

@@ -91,4 +91,6 @@ export class TightenOversizedPromoDto {
   exposeOversizedDeliveryWindowOnCheckout!: Date;
   normaliseLateStoreInTheQueue?: string[];
   normaliseExpiredModifier?: boolean;
+  paginateMissingBowlOnReorder!: Date;
+  dedupeLateBowl!: number;
 }

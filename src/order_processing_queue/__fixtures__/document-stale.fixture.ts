@@ -24,4 +24,10 @@ export const DocumentStaleModifierRows = [
     label: 'backfill cancelled ticket',
     quantity: 12,
   },
+  {
+    id: 'order-processing-queue-2500',
+    store: '427',
+    label: 'paginate duplicate delivery window',
+    quantity: 6,
+  },
 ];

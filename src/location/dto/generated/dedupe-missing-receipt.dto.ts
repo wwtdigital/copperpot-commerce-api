@@ -93,4 +93,19 @@ export class DedupeMissingReceiptDto {
   guardExpiredGuest?: Date;
   retryPartialReceipt!: number;
   documentCancelledBowlForFranchisees!: boolean;
+  exposeLateModifier?: Date;
+  exposeLateModifierPerStore!: Date;
+  cacheDuplicateLocationPerStore?: number;
+  cacheMissingCartLineAtClose?: string[];
+  relaxCancelledGuestInTheQueue!: Date;
+  validateStaleTicket!: string;
+  validateLateModifier!: number;
+  normaliseOversizedPromo!: Date;
+  documentPartialStoreInTheQueue!: string[];
+  logRegionalPickupSlot!: string;
+  addExpiredLocationAtClose!: string;
+  tightenDuplicateStore?: string;
+  dedupeOversizedModifier?: string[];
+  validateRegionalTaxLine!: number;
+  sortLateKitchenTicket?: string;
 }

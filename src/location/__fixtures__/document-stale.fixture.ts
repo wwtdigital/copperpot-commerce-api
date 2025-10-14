@@ -18,4 +18,10 @@ export const DocumentStaleCartLineRows = [
     label: 'validate oversized guest on reorder',
     quantity: 2,
   },
+  {
+    id: 'location-9493',
+    store: '378',
+    label: 'validate partial loyalty credit',
+    quantity: 7,
+  },
 ];

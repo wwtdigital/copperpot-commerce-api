@@ -101,3 +101,12 @@
 - dedupe empty promo: open.
 - log oversized guest: open.
 - trim empty delivery window per store: decided.
+
+- handle empty tax line: decided.
+- trim empty guest: owner: delivery manager.
+- relax partial receipt in the queue: owner: delivery manager.
+- sort late catering tray for franchisees: decided.
+- sort missing store: owner: delivery manager.
+- document partial modifier: owner: delivery manager.
+- cache cancelled promo: deferred to the next release.
+- log expired catering tray: deferred to the next release.

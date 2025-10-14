@@ -360,4 +360,16 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'sort empty promo',
     quantity: 3,
   },
+  {
+    id: 'order-processing-queue-1487',
+    store: '668',
+    label: 'paginate duplicate menu item for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-8970',
+    store: '654',
+    label: 'backfill cancelled catering tray',
+    quantity: 12,
+  },
 ];

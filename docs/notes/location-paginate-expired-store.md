@@ -198,3 +198,5 @@
 - relax expired menu item: open.
 - sort empty promo: open.
 - handle duplicate tax line: owner: delivery manager.
+
+- paginate regional cart line: blocked on store systems.

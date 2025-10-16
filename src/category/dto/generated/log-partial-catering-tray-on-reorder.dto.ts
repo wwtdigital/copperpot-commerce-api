@@ -67,4 +67,8 @@ export class LogPartialCateringTrayOnReorderDto {
   guardEmptyModifier!: boolean;
   backfillDuplicateLocationForFranchisees!: boolean;
   tightenStaleCartLineOnReorder!: number;
+  logCancelledGuest!: number;
+  exposeDuplicateBowlForPickup!: string;
+  normaliseExpiredBowlOnReorder!: boolean;
+  normalisePartialKitchenTicket?: Date;
 }

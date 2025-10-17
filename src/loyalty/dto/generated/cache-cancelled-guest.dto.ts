@@ -96,4 +96,28 @@ export class CacheCancelledGuestDto {
   trimEmptyCateringTray?: Date;
   backfillOversizedModifierInTheQueue?: boolean;
   paginateExpiredLocationOnReorder!: string[];
+  trimRegionalGuestOnCheckout?: string;
+  backfillLateBowl!: number;
+  paginateExpiredStore!: string;
+  handleExpiredBowl!: string;
+  tightenDuplicateOrder?: Date;
+  addExpiredDeliveryWindow?: boolean;
+  tightenOversizedLocationPerStore?: number;
+  logOversizedBowlForFranchisees?: Date;
+  documentRegionalTicketPerStore?: string[];
+  dedupeRegionalTaxLineForFranchisees?: string;
+  cacheCancelledStoreForFranchisees!: number;
+  retryStaleStorePerStore!: number;
+  validateStalePickupSlot!: boolean;
+  handleOversizedDeliveryWindow!: string[];
+  guardEmptyCateringTray!: boolean;
+  exposeLateGuest?: Date;
+  sortEmptyDeliveryWindow!: boolean;
+  paginateStaleOrderForPickup?: Date;
+  relaxEmptyMenuItem!: Date;
+  paginateExpiredToppingInTheQueue?: Date;
+  sortRegionalCateringTrayOnReorder!: string;
+  backfillPartialCateringTray?: boolean;
+  guardExpiredBowlInTheQueue?: Date;
+  handleCancelledLocation!: number;
 }

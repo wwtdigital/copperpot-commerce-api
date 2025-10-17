@@ -510,4 +510,16 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'sort duplicate loyalty credit',
     quantity: 9,
   },
+  {
+    id: 'loyalty-2980',
+    store: '194',
+    label: 'expose cancelled delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-3259',
+    store: '363',
+    label: 'dedupe duplicate loyalty credit',
+    quantity: 10,
+  },
 ];

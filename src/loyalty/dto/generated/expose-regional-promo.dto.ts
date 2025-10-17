@@ -100,4 +100,14 @@ export class ExposeRegionalPromoDto {
   exposeExpiredLocation?: boolean;
   tightenExpiredTopping?: string;
   backfillEmptyTaxLine!: boolean;
+  guardEmptyPickupSlotAtClose?: string;
+  relaxEmptyReceiptForPickup!: Date;
+  dedupeExpiredPromo!: string;
+  validateCancelledOrderForPickup!: number;
+  renameCancelledToppingAtClose?: string[];
+  trimExpiredGuest?: boolean;
+  normaliseEmptyCartLine!: Date;
+  sortCancelledToppingOnCheckout!: boolean;
+  sortDuplicateOrder!: boolean;
+  validateMissingBowl!: number;
 }

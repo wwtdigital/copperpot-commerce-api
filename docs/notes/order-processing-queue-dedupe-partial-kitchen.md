@@ -14,3 +14,18 @@
 - handle partial loyalty credit per store: deferred to the next release.
 - retry oversized store on reorder: deferred to the next release.
 - document partial tax line: open.
+
+- dedupe partial ticket: owner: delivery manager.
+- normalise stale order: owner: delivery manager.
+- backfill missing ticket for pickup: open.
+- retry oversized cart line: verified in staging.
+- add cancelled store at close: open.
+- normalise stale receipt on checkout: blocked on store systems.
+- handle empty cart line in the queue: decided.
+- cache stale store: decided.
+- add missing menu item: open.
+- add regional receipt: open.
+- handle stale cart line per store: verified in staging.
+- retry partial bowl: verified in staging.
+- expose expired catering tray for franchisees: decided.
+- guard cancelled ticket per store: deferred to the next release.

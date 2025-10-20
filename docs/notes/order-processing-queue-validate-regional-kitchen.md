@@ -49,3 +49,7 @@
 - tighten regional bowl: verified in staging.
 - validate late loyalty credit: deferred to the next release.
 - add missing tax line on checkout: open.
+
+- backfill late receipt on reorder: open.
+- cache cancelled kitchen ticket: verified in staging.
+- log missing modifier: verified in staging.

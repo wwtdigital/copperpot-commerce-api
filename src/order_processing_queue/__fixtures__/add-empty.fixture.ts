@@ -408,4 +408,10 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'validate late cart line',
     quantity: 9,
   },
+  {
+    id: 'order-processing-queue-3251',
+    store: '488',
+    label: 'log stale bowl',
+    quantity: 10,
+  },
 ];

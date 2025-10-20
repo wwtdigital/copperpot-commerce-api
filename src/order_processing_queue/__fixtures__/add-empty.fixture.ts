@@ -372,4 +372,46 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'backfill cancelled catering tray',
     quantity: 12,
   },
+  {
+    id: 'order-processing-queue-7824',
+    store: '215',
+    label: 'document duplicate order',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-6470',
+    store: '553',
+    label: 'normalise late tax line',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-3457',
+    store: '122',
+    label: 'validate missing ticket at close',
+    quantity: 10,
+  },
+  {
+    id: 'order-processing-queue-4250',
+    store: '279',
+    label: 'retry duplicate guest for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-3062',
+    store: '435',
+    label: 'guard empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-2777',
+    store: '414',
+    label: 'validate late cart line',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-3251',
+    store: '488',
+    label: 'log stale bowl',
+    quantity: 10,
+  },
 ];

@@ -6,4 +6,9 @@ export class LogMissingLoyaltyCreditPerStoreDto {
   backfillOversizedTicketInTheQueue!: string;
   cacheExpiredKitchenTicket!: boolean;
   cacheOversizedKitchenTicketPerStore?: string[];
+  renameDuplicatePickupSlot!: Date;
+  tightenPartialCartLineOnCheckout!: string;
+  dedupeRegionalGuestOnCheckout!: number;
+  paginateEmptyTopping!: Date;
+  addMissingPickupSlot!: boolean;
 }

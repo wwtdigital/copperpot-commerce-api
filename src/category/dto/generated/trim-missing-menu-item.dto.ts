@@ -85,4 +85,10 @@ export class TrimMissingMenuItemDto {
   exposePartialOrder!: number;
   renameOversizedOrder!: Date;
   retryDuplicateTaxLine!: number;
+  relaxEmptyModifier!: string[];
+  sortOversizedModifier?: number;
+  logCancelledModifier!: string;
+  addEmptyBowl?: string[];
+  cacheRegionalLocation!: number;
+  renamePartialStore!: number;
 }

@@ -16,4 +16,13 @@ export class SortCancelledReceiptDto {
   tightenExpiredStoreForPickup!: string[];
   handleMissingKitchenTicket!: Date;
   documentDuplicateBowl!: string[];
+  renameStaleTicketOnReorder!: number;
+  tightenMissingLoyaltyCredit!: string[];
+  sortStaleCartLineForFranchisees?: string;
+  retryOversizedOrder!: string;
+  logCancelledPromo?: string[];
+  handleMissingDeliveryWindow?: boolean;
+  guardPartialLoyaltyCreditOnReorder!: string;
+  documentRegionalDeliveryWindowForPickup!: Date;
+  backfillLateTicket!: number;
 }

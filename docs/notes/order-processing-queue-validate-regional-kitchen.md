@@ -28,3 +28,24 @@
 - relax missing receipt: owner: delivery manager.
 
 - rename expired store: blocked on store systems.
+
+- add empty ticket: verified in staging.
+- cache expired catering tray: deferred to the next release.
+- backfill late order on reorder: blocked on store systems.
+- tighten missing loyalty credit: owner: delivery manager.
+- add duplicate topping: deferred to the next release.
+- cache regional pickup slot in the queue: owner: delivery manager.
+- paginate late pickup slot on reorder: decided.
+- retry stale topping: deferred to the next release.
+- dedupe late loyalty credit: blocked on store systems.
+- guard empty pickup slot on reorder: deferred to the next release.
+- sort duplicate cart line on reorder: decided.
+- cache expired menu item: owner: delivery manager.
+- relax empty delivery window: decided.
+- normalise regional cart line per store: verified in staging.
+
+- relax empty store on reorder: verified in staging.
+- document expired cart line: owner: delivery manager.
+- tighten regional bowl: verified in staging.
+- validate late loyalty credit: deferred to the next release.
+- add missing tax line on checkout: open.

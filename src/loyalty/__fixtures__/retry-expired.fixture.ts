@@ -522,4 +522,52 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'dedupe duplicate loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'loyalty-9713',
+    store: '418',
+    label: 'paginate oversized ticket at close',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-5918',
+    store: '537',
+    label: 'paginate duplicate delivery window for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-7706',
+    store: '289',
+    label: 'backfill late cart line',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-8992',
+    store: '181',
+    label: 'dedupe expired guest',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-3503',
+    store: '674',
+    label: 'cache regional order',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-6021',
+    store: '486',
+    label: 'dedupe empty pickup slot in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-3859',
+    store: '186',
+    label: 'handle cancelled kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6438',
+    store: '213',
+    label: 'tighten cancelled pickup slot on reorder',
+    quantity: 1,
+  },
 ];

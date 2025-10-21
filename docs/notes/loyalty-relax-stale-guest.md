@@ -14,3 +14,18 @@
 - dedupe oversized guest: verified in staging.
 - expose regional bowl on checkout: deferred to the next release.
 - handle duplicate order: decided.
+
+- sort cancelled delivery window: deferred to the next release.
+- normalise late guest: open.
+- document regional promo: blocked on store systems.
+- handle late promo for pickup: deferred to the next release.
+- tighten expired loyalty credit: blocked on store systems.
+- relax cancelled topping: open.
+- backfill stale catering tray in the queue: verified in staging.
+- dedupe regional delivery window: decided.
+- backfill missing cart line: verified in staging.
+- validate duplicate delivery window: verified in staging.
+- add regional bowl for franchisees: owner: delivery manager.
+- cache regional cart line on reorder: decided.
+- expose empty kitchen ticket at close: verified in staging.
+- rename regional menu item in the queue: deferred to the next release.

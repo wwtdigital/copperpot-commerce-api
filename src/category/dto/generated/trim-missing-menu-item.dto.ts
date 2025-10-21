@@ -91,4 +91,12 @@ export class TrimMissingMenuItemDto {
   addEmptyBowl?: string[];
   cacheRegionalLocation!: number;
   renamePartialStore!: number;
+  logDuplicateReceiptInTheQueue!: number;
+  retryDuplicateOrder!: number;
+  dedupeOversizedKitchenTicket?: string[];
+  dedupeStaleCateringTrayForFranchisees!: number;
+  validateRegionalReceipt?: string[];
+  sortExpiredKitchenTicket?: Date;
+  paginateStaleBowlForPickup!: number;
+  renameStaleTaxLine!: string[];
 }

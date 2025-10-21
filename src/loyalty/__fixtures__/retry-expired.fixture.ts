@@ -480,4 +480,34 @@ export const RetryExpiredModifierInTheQueueRows = [
     label: 'backfill empty order',
     quantity: 4,
   },
+  {
+    id: 'loyalty-3054',
+    store: '339',
+    label: 'expose regional catering tray for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-7559',
+    store: '584',
+    label: 'rename duplicate topping',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-3916',
+    store: '213',
+    label: 'add cancelled kitchen ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-6370',
+    store: '626',
+    label: 'retry partial bowl for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-6497',
+    store: '607',
+    label: 'sort duplicate loyalty credit',
+    quantity: 9,
+  },
 ];

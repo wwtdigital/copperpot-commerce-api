@@ -94,4 +94,6 @@ export class CacheCancelledGuestDto {
   paginateOversizedLoyaltyCredit!: Date;
   renameExpiredCartLine!: Date;
   trimEmptyCateringTray?: Date;
+  backfillOversizedModifierInTheQueue?: boolean;
+  paginateExpiredLocationOnReorder!: string[];
 }

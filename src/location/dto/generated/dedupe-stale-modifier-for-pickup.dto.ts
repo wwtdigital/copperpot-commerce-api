@@ -7,4 +7,6 @@ export class DedupeStaleModifierForPickupDto {
   validateEmptyCateringTray!: string[];
   sortStaleModifier?: Date;
   dedupeEmptyStore?: Date;
+  documentRegionalPromo!: string[];
+  trimPartialMenuItemOnReorder!: string[];
 }

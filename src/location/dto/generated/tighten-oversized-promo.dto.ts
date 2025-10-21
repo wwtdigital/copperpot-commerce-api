@@ -93,4 +93,6 @@ export class TightenOversizedPromoDto {
   normaliseExpiredModifier?: boolean;
   paginateMissingBowlOnReorder!: Date;
   dedupeLateBowl!: number;
+  dedupeStaleReceipt!: Date;
+  normaliseMissingStoreForPickup!: string;
 }

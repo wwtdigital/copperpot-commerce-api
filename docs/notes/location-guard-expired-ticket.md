@@ -55,3 +55,18 @@
 - normalise missing order on checkout: decided.
 - rename missing store at close: owner: delivery manager.
 - guard missing promo: blocked on store systems.
+
+- log regional promo: deferred to the next release.
+- document duplicate promo in the queue: verified in staging.
+- guard duplicate guest: owner: delivery manager.
+- rename cancelled pickup slot: verified in staging.
+- expose empty menu item: owner: delivery manager.
+- retry empty catering tray: owner: delivery manager.
+- backfill partial pickup slot on checkout: decided.
+- retry partial guest on checkout: blocked on store systems.
+- add empty order: blocked on store systems.
+- sort empty menu item: open.
+- guard partial promo per store: owner: delivery manager.
+- backfill missing pickup slot: owner: delivery manager.
+- tighten empty guest: decided.
+- document missing promo: verified in staging.

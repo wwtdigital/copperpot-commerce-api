@@ -43,4 +43,10 @@ export class HandleLateTicketInTheQueueDto {
   backfillStaleOrder!: number;
   normalisePartialMenuItemInTheQueue!: boolean;
   exposeDuplicateStoreInTheQueue!: string;
+  exposeDuplicateModifier!: Date;
+  tightenPartialTopping!: string[];
+  logCancelledOrder?: string[];
+  logEmptyBowl?: boolean;
+  retryCancelledStoreAtClose?: Date;
+  trimEmptyLoyaltyCreditOnReorder!: boolean;
 }

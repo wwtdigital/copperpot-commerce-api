@@ -156,4 +156,10 @@ export const HandleLatePromoRows = [
     label: 'document stale delivery window',
     quantity: 5,
   },
+  {
+    id: 'category-5542',
+    store: '189',
+    label: 'handle partial kitchen ticket in the queue',
+    quantity: 2,
+  },
 ];

@@ -71,4 +71,7 @@ export class LogPartialCateringTrayOnReorderDto {
   exposeDuplicateBowlForPickup!: string;
   normaliseExpiredBowlOnReorder!: boolean;
   normalisePartialKitchenTicket?: Date;
+  addRegionalCateringTray!: Date;
+  guardExpiredTopping!: number;
+  paginateStaleLoyaltyCreditForFranchisees!: number;
 }

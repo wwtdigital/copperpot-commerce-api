@@ -77,4 +77,13 @@ export class LogEmptyTaxLineDto {
   exposeEmptyPromo!: number;
   retryEmptyPromoPerStore?: Date;
   normalisePartialKitchenTicketOnCheckout!: string;
+  tightenCancelledBowl?: number;
+  documentRegionalReceiptForPickup!: number;
+  sortEmptyStoreInTheQueue!: string[];
+  cacheCancelledTaxLineForPickup!: string;
+  retryOversizedBowl!: number;
+  cachePartialModifier!: number;
+  sortOversizedDeliveryWindow?: Date;
+  relaxLatePickupSlot!: number;
+  validateOversizedCartLineAtClose!: string;
 }

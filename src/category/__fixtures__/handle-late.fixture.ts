@@ -138,4 +138,28 @@ export const HandleLatePromoRows = [
     label: 'expose stale modifier',
     quantity: 12,
   },
+  {
+    id: 'category-4501',
+    store: '583',
+    label: 'handle duplicate pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'category-7960',
+    store: '405',
+    label: 'document regional promo on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'category-8016',
+    store: '555',
+    label: 'document stale delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'category-5542',
+    store: '189',
+    label: 'handle partial kitchen ticket in the queue',
+    quantity: 2,
+  },
 ];

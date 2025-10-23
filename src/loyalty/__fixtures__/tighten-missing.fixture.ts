@@ -1494,4 +1494,58 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'backfill empty ticket for franchisees',
     quantity: 10,
   },
+  {
+    id: 'loyalty-7940',
+    store: '332',
+    label: 'trim regional menu item',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-3482',
+    store: '319',
+    label: 'tighten expired topping',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-7456',
+    store: '442',
+    label: 'add missing topping',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8753',
+    store: '201',
+    label: 'paginate missing cart line for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-4695',
+    store: '522',
+    label: 'rename cancelled store',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-3829',
+    store: '572',
+    label: 'validate regional menu item',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-5139',
+    store: '329',
+    label: 'add cancelled guest',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-2426',
+    store: '632',
+    label: 'document expired order',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-9643',
+    store: '106',
+    label: 'log missing pickup slot',
+    quantity: 10,
+  },
 ];

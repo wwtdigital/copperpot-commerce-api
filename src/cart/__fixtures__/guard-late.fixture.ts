@@ -114,4 +114,10 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'paginate regional bowl',
     quantity: 3,
   },
+  {
+    id: 'cart-9568',
+    store: '140',
+    label: 'validate missing location for franchisees',
+    quantity: 7,
+  },
 ];

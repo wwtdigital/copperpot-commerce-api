@@ -69,4 +69,15 @@ export class PaginateLateStoreAtCloseDto {
   tightenOversizedKitchenTicket?: number;
   exposePartialBowl!: string[];
   sortDuplicateGuestPerStore!: string;
+  validateCancelledBowl!: boolean;
+  paginateLateTicket!: boolean;
+  trimRegionalPromoAtClose!: Date;
+  cachePartialMenuItem!: string;
+  addRegionalLoyaltyCredit?: string[];
+  dedupeCancelledPromoInTheQueue!: number;
+  logOversizedBowl!: string[];
+  dedupeRegionalTopping?: string;
+  paginatePartialToppingOnCheckout?: string[];
+  exposeEmptyDeliveryWindow?: Date;
+  guardRegionalToppingPerStore!: string;
 }

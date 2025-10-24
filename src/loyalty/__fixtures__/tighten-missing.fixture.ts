@@ -1488,4 +1488,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'log regional kitchen ticket',
     quantity: 5,
   },
+  {
+    id: 'loyalty-3630',
+    store: '500',
+    label: 'backfill empty ticket for franchisees',
+    quantity: 10,
+  },
 ];

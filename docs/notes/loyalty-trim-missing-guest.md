@@ -141,3 +141,5 @@
 - rename cancelled modifier: blocked on store systems.
 - tighten stale kitchen ticket: owner: delivery manager.
 - guard expired menu item: owner: delivery manager.
+
+- backfill oversized bowl: open.

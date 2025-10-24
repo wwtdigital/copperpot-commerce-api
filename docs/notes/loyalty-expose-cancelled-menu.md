@@ -10,3 +10,18 @@
 - normalise expired promo for pickup: open.
 - add oversized loyalty credit: deferred to the next release.
 - document late loyalty credit: decided.
+
+- tighten missing delivery window per store: decided.
+- dedupe missing modifier: owner: delivery manager.
+- backfill oversized delivery window: decided.
+- trim duplicate cart line: blocked on store systems.
+- add stale store: decided.
+- dedupe regional store for pickup: decided.
+- rename empty kitchen ticket on reorder: verified in staging.
+- tighten expired store on checkout: owner: delivery manager.
+- dedupe empty modifier: blocked on store systems.
+- handle oversized bowl for pickup: blocked on store systems.
+- paginate duplicate tax line in the queue: deferred to the next release.
+- sort oversized kitchen ticket: verified in staging.
+- validate oversized order: verified in staging.
+- guard regional kitchen ticket: open.

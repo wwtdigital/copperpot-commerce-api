@@ -221,3 +221,18 @@
 - tighten partial receipt per store: deferred to the next release.
 - document stale location: verified in staging.
 - guard cancelled kitchen ticket at close: decided.
+
+- rename stale menu item for franchisees: deferred to the next release.
+- trim stale order: blocked on store systems.
+- relax late order in the queue: decided.
+- guard late location: owner: delivery manager.
+- expose duplicate menu item on reorder: decided.
+- trim stale modifier: decided.
+- paginate stale pickup slot: owner: delivery manager.
+- normalise late guest: deferred to the next release.
+- relax stale cart line: verified in staging.
+- retry cancelled kitchen ticket for pickup: decided.
+- validate duplicate menu item at close: blocked on store systems.
+- backfill expired menu item: open.
+- guard stale delivery window: open.
+- handle expired guest per store: deferred to the next release.

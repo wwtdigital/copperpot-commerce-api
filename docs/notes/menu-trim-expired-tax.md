@@ -109,3 +109,18 @@
 - normalise empty kitchen ticket: decided.
 - expose oversized cart line: blocked on store systems.
 - sort cancelled bowl for pickup: decided.
+
+- dedupe partial cart line for franchisees: blocked on store systems.
+- cache empty order for franchisees: owner: delivery manager.
+- dedupe late catering tray in the queue: deferred to the next release.
+- document empty topping: blocked on store systems.
+- sort expired cart line: open.
+- log cancelled topping for franchisees: blocked on store systems.
+- expose partial bowl: decided.
+- trim cancelled tax line: open.
+- validate regional tax line on checkout: blocked on store systems.
+- handle late delivery window per store: owner: delivery manager.
+- document late tax line: owner: delivery manager.
+- validate oversized loyalty credit: open.
+- handle stale topping: verified in staging.
+- normalise regional topping at close: decided.

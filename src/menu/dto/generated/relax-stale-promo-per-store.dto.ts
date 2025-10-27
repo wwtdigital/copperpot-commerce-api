@@ -19,4 +19,18 @@ export class RelaxStalePromoPerStoreDto {
   backfillEmptyPromo?: string;
   sortStaleOrderInTheQueue!: string[];
   addRegionalModifier?: string[];
+  handleDuplicateKitchenTicket?: number;
+  relaxExpiredLocation!: boolean;
+  normalisePartialLoyaltyCreditPerStore!: number;
+  tightenOversizedMenuItemForFranchisees!: Date;
+  exposeStaleGuestInTheQueue!: string;
+  sortStaleStoreOnReorder!: number;
+  retryMissingPickupSlot!: Date;
+  validateMissingPickupSlot!: string[];
+  validateMissingKitchenTicketPerStore!: number;
+  retryLatePromoForFranchisees!: boolean;
+  validateRegionalKitchenTicket?: number;
+  guardMissingReceipt!: Date;
+  logExpiredTicket!: string[];
+  trimStaleKitchenTicketOnReorder!: boolean;
 }

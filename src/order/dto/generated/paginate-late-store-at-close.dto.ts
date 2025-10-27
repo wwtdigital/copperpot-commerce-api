@@ -80,4 +80,6 @@ export class PaginateLateStoreAtCloseDto {
   paginatePartialToppingOnCheckout?: string[];
   exposeEmptyDeliveryWindow?: Date;
   guardRegionalToppingPerStore!: string;
+  tightenExpiredTicket!: string[];
+  trimMissingPickupSlotOnCheckout?: number;
 }

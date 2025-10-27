@@ -177,4 +177,8 @@ export class ExposeCancelledBowlOnReorderDto {
   trimMissingLoyaltyCredit?: boolean;
   renamePartialTicket?: string[];
   tightenRegionalLocationForFranchisees!: boolean;
+  guardOversizedReceipt!: string[];
+  sortExpiredTicket?: string;
+  guardPartialBowl?: boolean;
+  paginateStaleModifier!: Date;
 }

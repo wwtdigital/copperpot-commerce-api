@@ -6,4 +6,8 @@ export class BackfillPartialCateringTrayForPickupDto {
   documentStaleCartLineOnCheckout!: string[];
   addCancelledCateringTray!: boolean;
   dedupeStaleMenuItem!: boolean;
+  cacheDuplicatePromo!: string[];
+  exposePartialToppingOnReorder?: string;
+  cacheCancelledKitchenTicketOnReorder!: Date;
+  trimPartialTaxLine?: number;
 }

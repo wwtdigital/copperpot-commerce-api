@@ -24,3 +24,18 @@
 - relax late kitchen ticket: decided.
 - rename stale location: blocked on store systems.
 - dedupe duplicate guest on checkout: deferred to the next release.
+
+- paginate missing ticket: deferred to the next release.
+- backfill missing promo at close: decided.
+- dedupe oversized guest: deferred to the next release.
+- retry duplicate promo: open.
+- retry duplicate receipt for franchisees: open.
+- tighten stale menu item: blocked on store systems.
+- log expired guest: decided.
+- sort empty topping: blocked on store systems.
+- backfill expired modifier: deferred to the next release.
+- backfill regional modifier: blocked on store systems.
+- handle oversized tax line: decided.
+- rename expired menu item: blocked on store systems.
+- rename missing tax line at close: decided.
+- backfill regional receipt: deferred to the next release.

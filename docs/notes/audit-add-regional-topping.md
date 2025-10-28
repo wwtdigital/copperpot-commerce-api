@@ -160,3 +160,18 @@
 - handle expired pickup slot: verified in staging.
 - add stale kitchen ticket: blocked on store systems.
 - sort missing store on reorder: deferred to the next release.
+
+- normalise oversized delivery window at close: deferred to the next release.
+- retry oversized delivery window: blocked on store systems.
+- sort late loyalty credit at close: deferred to the next release.
+- trim duplicate receipt on reorder: verified in staging.
+- expose stale guest for franchisees: verified in staging.
+- retry regional order for pickup: decided.
+- guard partial bowl: deferred to the next release.
+- sort cancelled promo: owner: delivery manager.
+- sort regional bowl: open.
+- sort cancelled ticket at close: owner: delivery manager.
+- normalise missing tax line: decided.
+- guard empty ticket in the queue: deferred to the next release.
+- log duplicate receipt at close: decided.
+- relax missing tax line for pickup: open.

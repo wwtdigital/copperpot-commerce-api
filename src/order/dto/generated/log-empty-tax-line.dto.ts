@@ -77,4 +77,26 @@ export class LogEmptyTaxLineDto {
   exposeEmptyPromo!: number;
   retryEmptyPromoPerStore?: Date;
   normalisePartialKitchenTicketOnCheckout!: string;
+  tightenCancelledBowl?: number;
+  documentRegionalReceiptForPickup!: number;
+  sortEmptyStoreInTheQueue!: string[];
+  cacheCancelledTaxLineForPickup!: string;
+  retryOversizedBowl!: number;
+  cachePartialModifier!: number;
+  sortOversizedDeliveryWindow?: Date;
+  relaxLatePickupSlot!: number;
+  validateOversizedCartLineAtClose!: string;
+  backfillOversizedTaxLine!: string[];
+  guardRegionalModifierInTheQueue?: string[];
+  handleEmptyModifier?: boolean;
+  validateEmptyPickupSlot?: number;
+  logPartialTicket?: string;
+  handleExpiredLocationForPickup!: Date;
+  dedupeDuplicateTicketOnReorder?: string[];
+  handleCancelledModifierOnReorder?: string[];
+  guardStaleTaxLineInTheQueue!: Date;
+  cacheLateCateringTray!: number;
+  guardMissingOrder?: boolean;
+  validateLateMenuItem!: string;
+  trimEmptyTaxLineOnCheckout!: string[];
 }

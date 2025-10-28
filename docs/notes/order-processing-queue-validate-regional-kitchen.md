@@ -53,3 +53,7 @@
 - backfill late receipt on reorder: open.
 - cache cancelled kitchen ticket: verified in staging.
 - log missing modifier: verified in staging.
+
+- document missing modifier on reorder: deferred to the next release.
+- document cancelled guest on reorder: deferred to the next release.
+- backfill late bowl: blocked on store systems.

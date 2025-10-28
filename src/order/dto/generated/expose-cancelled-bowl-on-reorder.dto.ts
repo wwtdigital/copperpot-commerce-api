@@ -165,4 +165,20 @@ export class ExposeCancelledBowlOnReorderDto {
   validateDuplicateLoyaltyCreditAtClose!: boolean;
   logStaleLocation!: Date;
   relaxStaleReceipt!: number;
+  normaliseExpiredKitchenTicket?: string[];
+  retryDuplicateLocationInTheQueue?: boolean;
+  cacheStaleTaxLineForFranchisees!: string;
+  guardStaleTicket?: Date;
+  cacheMissingCartLinePerStore!: number;
+  sortRegionalDeliveryWindow!: number;
+  handleLateLoyaltyCreditForFranchisees!: number;
+  paginateDuplicateTopping?: boolean;
+  handleDuplicateReceipt!: boolean;
+  trimMissingLoyaltyCredit?: boolean;
+  renamePartialTicket?: string[];
+  tightenRegionalLocationForFranchisees!: boolean;
+  guardOversizedReceipt!: string[];
+  sortExpiredTicket?: string;
+  guardPartialBowl?: boolean;
+  paginateStaleModifier!: Date;
 }

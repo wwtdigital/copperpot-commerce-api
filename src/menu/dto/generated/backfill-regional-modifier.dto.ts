@@ -112,4 +112,26 @@ export class BackfillRegionalModifierDto {
   trimDuplicateCartLine!: Date;
   exposePartialCartLine!: number;
   paginateMissingGuest!: number;
+  guardDuplicateBowl?: boolean;
+  backfillExpiredLocation?: number;
+  documentLateToppingOnReorder?: number;
+  paginateDuplicateTicket!: string[];
+  exposeMissingGuestPerStore!: string[];
+  relaxExpiredTicket!: number;
+  validateRegionalStore!: number;
+  retryCancelledDeliveryWindowInTheQueue!: number;
+  trimMissingStore?: string[];
+  addOversizedCateringTray?: string;
+  retryPartialStoreOnCheckout!: boolean;
+  retryMissingDeliveryWindowOnCheckout!: string[];
+  exposeStaleOrderForFranchisees!: Date;
+  validateLateBowl!: boolean;
+  addRegionalPickupSlot!: boolean;
+  exposeLateOrder?: Date;
+  addRegionalPromo?: Date;
+  tightenPartialTaxLineOnCheckout!: boolean;
+  backfillOversizedCartLinePerStore!: boolean;
+  paginateEmptyTaxLineAtClose?: number;
+  cacheStaleTopping?: boolean;
+  retryRegionalBowl!: string;
 }

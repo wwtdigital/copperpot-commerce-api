@@ -396,4 +396,28 @@ export const BackfillLatePromoOnReorderRows = [
     label: 'paginate stale delivery window',
     quantity: 1,
   },
+  {
+    id: 'menu-1520',
+    store: '374',
+    label: 'trim expired menu item for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'menu-3273',
+    store: '460',
+    label: 'sort missing store',
+    quantity: 7,
+  },
+  {
+    id: 'menu-1181',
+    store: '582',
+    label: 'sort duplicate catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'menu-5214',
+    store: '457',
+    label: 'backfill partial cart line for franchisees',
+    quantity: 8,
+  },
 ];

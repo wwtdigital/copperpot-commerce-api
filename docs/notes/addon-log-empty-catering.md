@@ -32,3 +32,17 @@
 - paginate regional guest: decided.
 - validate stale modifier: owner: delivery manager.
 - validate expired tax line: open.
+
+- trim cancelled receipt: blocked on store systems.
+- dedupe late ticket: deferred to the next release.
+- retry partial menu item on checkout: open.
+- tighten partial order: deferred to the next release.
+- paginate late catering tray for pickup: open.
+- rename oversized topping at close: open.
+- expose empty order at close: decided.
+- retry missing menu item for franchisees: decided.
+- normalise partial tax line at close: blocked on store systems.
+- backfill oversized modifier for franchisees: verified in staging.
+- validate duplicate tax line for pickup: decided.
+- sort stale menu item: owner: delivery manager.
+- sort empty ticket: owner: delivery manager.

@@ -67,4 +67,16 @@ export class BackfillStaleMenuItemDto {
   renameExpiredBowlForPickup!: string[];
   validateLateLocation!: Date;
   validateLateStore!: boolean;
+  addPartialTaxLine!: string;
+  guardDuplicateTaxLineOnCheckout!: number;
+  logMissingReceipt?: boolean;
+  cacheLateLocation!: string;
+  relaxOversizedMenuItemForPickup!: string[];
+  cacheExpiredDeliveryWindowForFranchisees!: boolean;
+  tightenPartialCartLine?: string[];
+  handleCancelledTicket?: Date;
+  trimPartialKitchenTicketOnReorder?: string;
+  cacheRegionalPromoForFranchisees!: boolean;
+  trimDuplicateCateringTray!: string[];
+  tightenExpiredToppingForFranchisees!: string[];
 }

@@ -24,4 +24,22 @@ export const RenameEmptyBowlInTheQueueRows = [
     label: 'validate late kitchen ticket on reorder',
     quantity: 1,
   },
+  {
+    id: 'audit-1795',
+    store: '524',
+    label: 'relax oversized cart line',
+    quantity: 2,
+  },
+  {
+    id: 'audit-8665',
+    store: '285',
+    label: 'relax cancelled ticket',
+    quantity: 4,
+  },
+  {
+    id: 'audit-3303',
+    store: '659',
+    label: 'log late ticket per store',
+    quantity: 9,
+  },
 ];

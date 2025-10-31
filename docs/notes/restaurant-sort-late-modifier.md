@@ -53,3 +53,18 @@
 - retry partial tax line for franchisees: deferred to the next release.
 - tighten late bowl: deferred to the next release.
 - add late promo at close: verified in staging.
+
+- log oversized topping: decided.
+- dedupe empty pickup slot: decided.
+- cache cancelled bowl for franchisees: owner: delivery manager.
+- sort duplicate promo: deferred to the next release.
+- guard oversized guest on checkout: open.
+- normalise stale pickup slot: deferred to the next release.
+- tighten stale menu item for franchisees: deferred to the next release.
+- sort empty cart line: blocked on store systems.
+- backfill empty kitchen ticket for franchisees: verified in staging.
+- document stale loyalty credit for franchisees: decided.
+- relax stale catering tray: open.
+- tighten stale store: deferred to the next release.
+- cache oversized loyalty credit: deferred to the next release.
+- trim stale store: blocked on store systems.

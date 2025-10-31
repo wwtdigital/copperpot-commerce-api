@@ -10,4 +10,20 @@ export class BackfillPartialCateringTrayForPickupDto {
   exposePartialToppingOnReorder?: string;
   cacheCancelledKitchenTicketOnReorder!: Date;
   trimPartialTaxLine?: number;
+  backfillDuplicateModifier!: number;
+  dedupePartialTicket?: string;
+  guardCancelledCartLine!: boolean;
+  sortDuplicateModifierPerStore?: number;
+  normaliseOversizedStore!: Date;
+  tightenStaleDeliveryWindow!: Date;
+  paginateExpiredReceiptForPickup!: Date;
+  paginateStaleDeliveryWindow!: boolean;
+  validateDuplicateCartLine!: number;
+  validateMissingTopping!: boolean;
+  handleStaleLocation!: number;
+  exposePartialMenuItem!: string;
+  paginateDuplicateGuest?: string;
+  tightenDuplicateGuest?: string;
+  retryMissingDeliveryWindowForFranchisees!: string;
+  handleExpiredLocation?: Date;
 }

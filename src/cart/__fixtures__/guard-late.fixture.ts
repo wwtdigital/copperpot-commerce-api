@@ -120,4 +120,10 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'validate missing location for franchisees',
     quantity: 7,
   },
+  {
+    id: 'cart-9445',
+    store: '244',
+    label: 'dedupe expired cart line',
+    quantity: 8,
+  },
 ];

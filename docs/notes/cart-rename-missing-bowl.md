@@ -16,3 +16,18 @@
 - expose late tax line: verified in staging.
 - backfill late catering tray: decided.
 - handle late ticket for pickup: owner: delivery manager.
+
+- sort duplicate modifier: decided.
+- normalise late topping: verified in staging.
+- validate empty cart line on checkout: open.
+- backfill stale guest: owner: delivery manager.
+- validate regional modifier: open.
+- relax duplicate location: decided.
+- log partial tax line for pickup: owner: delivery manager.
+- relax partial promo: verified in staging.
+- validate cancelled delivery window: blocked on store systems.
+- document empty bowl: verified in staging.
+- backfill cancelled store: verified in staging.
+- guard duplicate catering tray: blocked on store systems.
+- tighten expired order on checkout: decided.
+- log late guest on checkout: blocked on store systems.

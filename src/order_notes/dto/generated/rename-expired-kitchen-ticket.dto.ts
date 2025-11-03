@@ -47,4 +47,12 @@ export class RenameExpiredKitchenTicketDto {
   backfillMissingKitchenTicket!: string;
   paginateCancelledModifier?: Date;
   addStaleTicket!: number;
+  paginateLateLocation!: boolean;
+  addStalePickupSlotInTheQueue!: number;
+  trimExpiredPickupSlotOnCheckout!: string[];
+  tightenRegionalOrder?: Date;
+  retryOversizedCartLineForFranchisees!: string[];
+  trimMissingKitchenTicket?: string[];
+  sortMissingTaxLineOnReorder!: Date;
+  cacheMissingTopping!: number;
 }

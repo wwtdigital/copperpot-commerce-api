@@ -750,4 +750,10 @@ export const NormaliseExpiredPickupSlotRows = [
     label: 'expose stale location',
     quantity: 10,
   },
+  {
+    id: 'audit-3168',
+    store: '490',
+    label: 'guard late store',
+    quantity: 8,
+  },
 ];

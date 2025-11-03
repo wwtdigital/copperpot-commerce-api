@@ -42,4 +42,10 @@ export const RenameEmptyBowlInTheQueueRows = [
     label: 'log late ticket per store',
     quantity: 9,
   },
+  {
+    id: 'audit-4445',
+    store: '290',
+    label: 'rename oversized promo in the queue',
+    quantity: 10,
+  },
 ];

@@ -136,4 +136,12 @@ export class CacheRegionalLocationAtCloseDto {
   documentLateTicketForFranchisees!: Date;
   addPartialToppingForPickup!: string[];
   dedupeRegionalToppingPerStore?: Date;
+  validateEmptyStore!: boolean;
+  tightenStaleTicketForPickup!: number;
+  validateStaleDeliveryWindowInTheQueue!: string[];
+  validateOversizedOrder!: boolean;
+  relaxOversizedCateringTrayAtClose!: number;
+  logPartialModifier!: number;
+  validateExpiredTaxLine!: boolean;
+  retryStaleTicket?: string[];
 }

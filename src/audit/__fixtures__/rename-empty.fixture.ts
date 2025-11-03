@@ -48,4 +48,10 @@ export const RenameEmptyBowlInTheQueueRows = [
     label: 'rename oversized promo in the queue',
     quantity: 10,
   },
+  {
+    id: 'audit-5690',
+    store: '341',
+    label: 'backfill stale store',
+    quantity: 7,
+  },
 ];

@@ -54,4 +54,7 @@ export class HandleLateTicketInTheQueueDto {
   normaliseDuplicateLocationInTheQueue?: Date;
   sortEmptyCartLine!: boolean;
   handleMissingReceipt!: string;
+  normaliseRegionalTopping!: string;
+  handleRegionalModifierOnCheckout?: string;
+  sortOversizedDeliveryWindowForPickup?: Date;
 }

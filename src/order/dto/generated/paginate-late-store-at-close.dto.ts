@@ -82,4 +82,28 @@ export class PaginateLateStoreAtCloseDto {
   guardRegionalToppingPerStore!: string;
   tightenExpiredTicket!: string[];
   trimMissingPickupSlotOnCheckout?: number;
+  relaxCancelledCateringTrayOnReorder!: Date;
+  trimOversizedTicket?: boolean;
+  dedupeEmptyBowlAtClose?: number;
+  relaxOversizedLocationInTheQueue?: boolean;
+  dedupeRegionalToppingAtClose?: boolean;
+  dedupeCancelledCartLineForFranchisees?: string[];
+  guardMissingPromo!: string[];
+  trimOversizedStoreOnReorder?: Date;
+  validateEmptyLocationForFranchisees!: Date;
+  cacheOversizedLoyaltyCredit?: number;
+  trimLateTaxLineForPickup!: Date;
+  backfillMissingDeliveryWindow?: string[];
+  dedupePartialCateringTray?: Date;
+  tightenOversizedTicket!: boolean;
+  handleMissingPickupSlot!: boolean;
+  tightenExpiredLoyaltyCreditInTheQueue?: string;
+  cacheMissingGuestOnReorder!: boolean;
+  logMissingCateringTray!: string[];
+  addStaleTaxLine!: boolean;
+  cacheCancelledReceipt!: string[];
+  tightenCancelledPromoAtClose!: string[];
+  backfillEmptyStore!: boolean;
+  trimDuplicateCartLineInTheQueue?: number;
+  documentExpiredToppingInTheQueue?: boolean;
 }

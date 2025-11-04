@@ -24,4 +24,14 @@ export class LogDuplicateCateringTrayDto {
   addRegionalTaxLineForPickup!: string;
   sortDuplicateGuest?: number;
   tightenEmptyTicket!: Date;
+  handlePartialLocationOnCheckout?: string[];
+  handleLatePickupSlot!: string[];
+  renameCancelledTopping!: string[];
+  logDuplicateDeliveryWindow!: boolean;
+  documentEmptyPromo?: Date;
+  retryLateModifier!: string[];
+  guardRegionalGuestPerStore!: boolean;
+  documentOversizedLoyaltyCredit!: Date;
+  dedupeLateToppingOnCheckout!: string;
+  documentOversizedBowl!: number;
 }

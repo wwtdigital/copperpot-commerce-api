@@ -144,4 +144,10 @@ export const NormaliseOversizedCartLinePerStoreRows = [
     label: 'expose duplicate store',
     quantity: 2,
   },
+  {
+    id: 'infrastructure-9196',
+    store: '108',
+    label: 'relax regional receipt per store',
+    quantity: 3,
+  },
 ];

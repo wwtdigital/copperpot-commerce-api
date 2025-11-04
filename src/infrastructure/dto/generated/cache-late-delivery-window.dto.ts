@@ -144,4 +144,25 @@ export class CacheLateDeliveryWindowDto {
   cacheLateBowl!: string[];
   tightenExpiredCateringTray?: string;
   relaxOversizedBowl?: Date;
+  addCancelledGuest?: string[];
+  renameExpiredPickupSlot!: number;
+  dedupeRegionalPromoPerStore!: string;
+  documentMissingCartLine!: string[];
+  cacheRegionalPromo!: string[];
+  logEmptyLoyaltyCredit!: Date;
+  logPartialPickupSlot!: string[];
+  cacheCancelledGuest?: number;
+  retryOversizedLocation?: number;
+  relaxOversizedLocationForFranchisees?: string;
+  dedupeStaleLoyaltyCredit!: string;
+  normaliseDuplicateGuest!: Date;
+  validateRegionalCateringTray!: number;
+  addMissingCartLine!: string[];
+  cachePartialPickupSlotAtClose!: number;
+  exposeExpiredCartLine!: string[];
+  relaxEmptyLoyaltyCreditForPickup!: Date;
+  sortEmptyMenuItem?: number;
+  renameLateTaxLineForFranchisees!: string;
+  logEmptyReceipt!: Date;
+  backfillRegionalPromo!: number;
 }

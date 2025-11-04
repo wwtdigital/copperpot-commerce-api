@@ -26,3 +26,10 @@
 - log stale location: deferred to the next release.
 - retry cancelled tax line: decided.
 - log empty loyalty credit for pickup: owner: delivery manager.
+
+- retry late kitchen ticket on checkout: owner: delivery manager.
+- document stale catering tray on checkout: open.
+- tighten cancelled location: verified in staging.
+- retry oversized receipt: owner: delivery manager.
+- guard empty receipt for pickup: blocked on store systems.
+- normalise partial receipt: deferred to the next release.

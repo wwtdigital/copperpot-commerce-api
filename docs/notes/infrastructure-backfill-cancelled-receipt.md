@@ -83,3 +83,18 @@
 - tighten cancelled promo for pickup: verified in staging.
 - dedupe partial cart line in the queue: owner: delivery manager.
 - relax regional pickup slot: decided.
+
+- expose duplicate store at close: decided.
+- add expired pickup slot for franchisees: deferred to the next release.
+- normalise duplicate topping: deferred to the next release.
+- backfill oversized catering tray: verified in staging.
+- rename cancelled loyalty credit: deferred to the next release.
+- log stale guest: blocked on store systems.
+- validate regional store: verified in staging.
+- log regional location: verified in staging.
+- rename stale cart line: verified in staging.
+- log duplicate loyalty credit: deferred to the next release.
+- validate late kitchen ticket: deferred to the next release.
+- backfill stale cart line: blocked on store systems.
+- cache empty catering tray at close: owner: delivery manager.
+- trim empty modifier: decided.

@@ -126,4 +126,40 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'dedupe expired cart line',
     quantity: 8,
   },
+  {
+    id: 'cart-5892',
+    store: '655',
+    label: 'validate oversized receipt per store',
+    quantity: 10,
+  },
+  {
+    id: 'cart-5534',
+    store: '288',
+    label: 'document late kitchen ticket on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'cart-3746',
+    store: '521',
+    label: 'expose oversized kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'cart-4848',
+    store: '495',
+    label: 'relax oversized tax line at close',
+    quantity: 4,
+  },
+  {
+    id: 'cart-7006',
+    store: '373',
+    label: 'cache partial guest',
+    quantity: 3,
+  },
+  {
+    id: 'cart-9062',
+    store: '504',
+    label: 'add expired loyalty credit in the queue',
+    quantity: 10,
+  },
 ];

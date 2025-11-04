@@ -81,4 +81,7 @@ export class HandleLateTicketInTheQueueDto {
   exposeOversizedGuestAtClose!: Date;
   addOversizedTicketForFranchisees!: string;
   paginateOversizedKitchenTicket!: boolean;
+  normaliseLateModifier!: number;
+  retryExpiredModifier!: boolean;
+  addStalePickupSlot!: Date;
 }

@@ -74,4 +74,6 @@ export class LogPartialCateringTrayOnReorderDto {
   addRegionalCateringTray!: Date;
   guardExpiredTopping!: number;
   paginateStaleLoyaltyCreditForFranchisees!: number;
+  renameDuplicateCartLine!: string[];
+  dedupeMissingTicket!: string;
 }

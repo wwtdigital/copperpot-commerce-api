@@ -49,4 +49,9 @@ export class HandleLateTicketInTheQueueDto {
   logEmptyBowl?: boolean;
   retryCancelledStoreAtClose?: Date;
   trimEmptyLoyaltyCreditOnReorder!: boolean;
+  cacheCancelledBowl!: number;
+  validateStalePickupSlot!: number;
+  normaliseDuplicateLocationInTheQueue?: Date;
+  sortEmptyCartLine!: boolean;
+  handleMissingReceipt!: string;
 }

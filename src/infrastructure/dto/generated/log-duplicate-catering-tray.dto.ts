@@ -1,0 +1,27 @@
+/* LogDuplicateCateringTrayDto: shape for log duplicate catering tray. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class LogDuplicateCateringTrayDto {
+  renameEmptyLocation!: string[];
+  relaxCancelledBowl!: string[];
+  handleLateModifier!: string;
+  normalisePartialDeliveryWindow!: string;
+  addPartialKitchenTicket!: number;
+  paginateOversizedStoreAtClose!: string;
+  sortOversizedGuestOnReorder!: Date;
+  cacheDuplicateLocationOnCheckout!: boolean;
+  dedupeExpiredMenuItem?: string[];
+  paginateExpiredPromo?: string;
+  backfillLateModifierOnReorder?: Date;
+  handleEmptyLocationOnCheckout!: number;
+  guardStaleBowl!: number;
+  logEmptyReceipt!: string[];
+  addStaleModifierPerStore!: Date;
+  renameDuplicateTicket?: string;
+  documentStaleTaxLine?: number;
+  sortDuplicateBowl?: number;
+  trimMissingMenuItemForFranchisees!: number;
+  retryOversizedReceiptInTheQueue!: string;
+  normaliseCancelledTicket!: string;
+  addRegionalTaxLineForPickup!: string;
+  sortDuplicateGuest?: number;
+  tightenEmptyTicket!: Date;
+}

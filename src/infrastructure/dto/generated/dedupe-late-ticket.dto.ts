@@ -20,4 +20,21 @@ export class DedupeLateTicketDto {
   handleDuplicateToppingOnCheckout!: boolean;
   exposeDuplicateCateringTrayPerStore?: string;
   sortEmptyLocationInTheQueue!: boolean;
+  tightenMissingTaxLineForFranchisees?: Date;
+  addRegionalBowlInTheQueue?: boolean;
+  backfillRegionalTaxLine!: string[];
+  documentMissingLoyaltyCreditPerStore!: string[];
+  cacheStaleTaxLineInTheQueue!: number;
+  backfillPartialKitchenTicket!: Date;
+  addRegionalLoyaltyCredit!: string;
+  normaliseLateModifier!: string[];
+  guardDuplicateModifier!: string[];
+  relaxDuplicateTaxLine!: string;
+  backfillCancelledBowl!: number;
+  paginateDuplicateLoyaltyCredit!: boolean;
+  documentPartialBowl?: Date;
+  cacheMissingBowl?: string;
+  trimEmptyLocation?: string;
+  guardStaleDeliveryWindowAtClose?: string;
+  exposeOversizedDeliveryWindowForFranchisees!: string[];
 }

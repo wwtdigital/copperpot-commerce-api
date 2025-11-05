@@ -105,3 +105,18 @@
 - handle empty tax line: decided.
 - trim empty guest: owner: delivery manager.
 - relax partial receipt in the queue: owner: delivery manager.
+
+- cache expired catering tray on checkout: blocked on store systems.
+- expose missing tax line in the queue: owner: delivery manager.
+- document regional promo: verified in staging.
+- guard expired cart line: blocked on store systems.
+- trim expired menu item at close: blocked on store systems.
+- cache empty catering tray: deferred to the next release.
+- guard stale receipt on checkout: open.
+- add stale bowl: verified in staging.
+- guard duplicate delivery window: blocked on store systems.
+- dedupe empty delivery window: deferred to the next release.
+- expose empty promo: decided.
+- validate late order in the queue: verified in staging.
+- sort regional modifier: blocked on store systems.
+- normalise missing pickup slot: blocked on store systems.

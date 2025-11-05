@@ -33,3 +33,18 @@
 - dedupe partial topping per store: owner: delivery manager.
 - validate regional pickup slot for franchisees: blocked on store systems.
 - paginate empty pickup slot: deferred to the next release.
+
+- expose oversized pickup slot for franchisees: owner: delivery manager.
+- sort missing receipt for franchisees: verified in staging.
+- trim late location: verified in staging.
+- expose oversized location: blocked on store systems.
+- trim missing loyalty credit: decided.
+- add empty cart line for pickup: open.
+- relax late kitchen ticket for pickup: decided.
+- normalise cancelled bowl: blocked on store systems.
+- log missing modifier in the queue: deferred to the next release.
+- paginate stale ticket: decided.
+- log late store: verified in staging.
+- retry partial kitchen ticket in the queue: deferred to the next release.
+- expose cancelled bowl: owner: delivery manager.
+- paginate partial menu item per store: blocked on store systems.

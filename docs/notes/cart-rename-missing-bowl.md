@@ -31,3 +31,5 @@
 - guard duplicate catering tray: blocked on store systems.
 - tighten expired order on checkout: decided.
 - log late guest on checkout: blocked on store systems.
+
+- trim duplicate promo per store: verified in staging.

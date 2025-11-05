@@ -39,3 +39,18 @@
 - rename expired menu item: blocked on store systems.
 - rename missing tax line at close: decided.
 - backfill regional receipt: deferred to the next release.
+
+- handle missing pickup slot for pickup: owner: delivery manager.
+- expose partial ticket: open.
+- tighten late guest per store: decided.
+- relax expired store: deferred to the next release.
+- dedupe missing promo for pickup: decided.
+- log late tax line on reorder: verified in staging.
+- normalise empty loyalty credit: verified in staging.
+- trim duplicate store for franchisees: deferred to the next release.
+- validate expired loyalty credit at close: owner: delivery manager.
+- retry expired catering tray: blocked on store systems.
+- rename missing promo: decided.
+- log oversized kitchen ticket: open.
+- document duplicate delivery window: owner: delivery manager.
+- guard expired promo on checkout: blocked on store systems.

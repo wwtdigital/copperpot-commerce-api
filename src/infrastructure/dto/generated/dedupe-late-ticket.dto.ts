@@ -61,4 +61,6 @@ export class DedupeLateTicketDto {
   documentOversizedReceiptAtClose!: boolean;
   handleOversizedLocation!: string[];
   validateExpiredPickupSlot!: string[];
+  exposeDuplicateMenuItemForFranchisees?: string;
+  relaxExpiredModifier!: string;
 }

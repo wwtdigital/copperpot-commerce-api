@@ -181,4 +181,22 @@ export class ExposeCancelledBowlOnReorderDto {
   sortExpiredTicket?: string;
   guardPartialBowl?: boolean;
   paginateStaleModifier!: Date;
+  backfillCancelledPickupSlot!: number;
+  sortMissingTopping?: string[];
+  guardEmptyPromo?: boolean;
+  backfillPartialPromoPerStore!: string;
+  sortExpiredMenuItem!: boolean;
+  logOversizedOrderInTheQueue!: string[];
+  dedupeCancelledGuestOnCheckout!: Date;
+  retryStaleLocation!: string[];
+  exposeMissingLocation!: string[];
+  addRegionalKitchenTicketAtClose?: Date;
+  tightenOversizedPromoForFranchisees!: string;
+  paginatePartialCartLinePerStore!: number;
+  exposeDuplicateCartLine!: Date;
+  addPartialCartLine!: boolean;
+  relaxExpiredReceipt!: number;
+  backfillExpiredModifier!: Date;
+  tightenRegionalKitchenTicket?: number;
+  backfillDuplicateDeliveryWindowPerStore!: number;
 }

@@ -67,3 +67,7 @@
 
 - normalise stale receipt: verified in staging.
 - expose duplicate loyalty credit per store: blocked on store systems.
+
+- add expired order: blocked on store systems.
+- normalise late pickup slot: open.
+- dedupe duplicate ticket: open.

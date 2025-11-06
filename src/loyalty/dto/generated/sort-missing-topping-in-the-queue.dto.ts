@@ -46,4 +46,6 @@ export class SortMissingToppingInTheQueueDto {
   addCancelledTopping!: number;
   guardMissingPickupSlot!: string;
   exposeRegionalDeliveryWindowAtClose!: string;
+  addMissingLocation!: string;
+  handlePartialLocationPerStore!: string;
 }

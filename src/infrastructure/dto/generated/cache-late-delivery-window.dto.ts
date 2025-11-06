@@ -165,4 +165,11 @@ export class CacheLateDeliveryWindowDto {
   renameLateTaxLineForFranchisees!: string;
   logEmptyReceipt!: Date;
   backfillRegionalPromo!: number;
+  relaxDuplicateTaxLineForFranchisees!: number;
+  renameExpiredModifier!: number;
+  sortCancelledTicket!: number;
+  cacheStaleCateringTray!: number;
+  addMissingLoyaltyCredit?: Date;
+  guardStaleCateringTray!: string;
+  retryDuplicateCateringTray?: string[];
 }

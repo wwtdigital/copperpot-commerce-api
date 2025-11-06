@@ -150,4 +150,10 @@ export const NormaliseOversizedCartLinePerStoreRows = [
     label: 'relax regional receipt per store',
     quantity: 3,
   },
+  {
+    id: 'infrastructure-1621',
+    store: '250',
+    label: 'normalise late bowl on checkout',
+    quantity: 3,
+  },
 ];

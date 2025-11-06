@@ -57,4 +57,28 @@ export class HandleLateTicketInTheQueueDto {
   normaliseRegionalTopping!: string;
   handleRegionalModifierOnCheckout?: string;
   sortOversizedDeliveryWindowForPickup?: Date;
+  paginateExpiredPickupSlot!: boolean;
+  addEmptyPickupSlot!: string[];
+  validateDuplicateDeliveryWindowAtClose!: number;
+  tightenExpiredKitchenTicket!: string;
+  renameOversizedKitchenTicket!: boolean;
+  trimMissingTaxLineOnReorder?: string;
+  sortStaleCateringTray!: string;
+  relaxLateCartLineForFranchisees!: string;
+  retryStalePromo!: string[];
+  backfillExpiredBowl!: string[];
+  sortLateCateringTray!: boolean;
+  handleEmptyTaxLineForFranchisees?: number;
+  dedupeExpiredModifier!: string;
+  logExpiredPickupSlotForPickup!: boolean;
+  sortCancelledLoyaltyCreditForPickup!: boolean;
+  retryStalePickupSlot?: Date;
+  addDuplicateTaxLineAtClose!: number;
+  handleDuplicateKitchenTicket?: string[];
+  backfillCancelledPromo!: Date;
+  cachePartialBowl!: Date;
+  exposePartialCartLine?: number;
+  exposeOversizedGuestAtClose!: Date;
+  addOversizedTicketForFranchisees!: string;
+  paginateOversizedKitchenTicket!: boolean;
 }

@@ -7,6 +7,15 @@ import { MenuDataModel } from './menu.schema';
 import { OrderDataModel } from './order.schema';
 import { SelectedCartItemDataModel } from './selected-cart-item.schema';
 
+/**
+ * Document oversized location.
+ * Paginate late location.
+ * Backfill stale receipt.
+ * Handle oversized pickup slot on reorder.
+ * Guard stale cart line at close.
+ * Relax cancelled catering tray.
+ * Validate partial loyalty credit on reorder.
+ */
 export type CartItemDocument = CartItemDataModel & Document;
 @Schema({ versionKey: false })
 export class CartItemDataModel extends BaseDocument implements ICartItemModel {

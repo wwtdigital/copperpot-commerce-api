@@ -43,3 +43,6 @@
 - backfill expired tax line: decided.
 - dedupe cancelled order for pickup: decided.
 - log expired bowl in the queue: verified in staging.
+
+- log regional location per store: owner: delivery manager.
+- add oversized tax line per store: owner: delivery manager.

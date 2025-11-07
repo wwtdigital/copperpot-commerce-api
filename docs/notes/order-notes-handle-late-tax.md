@@ -175,3 +175,30 @@
 - handle missing location at close: verified in staging.
 - rename stale promo on checkout: verified in staging.
 - cache cancelled ticket: deferred to the next release.
+
+- trim stale topping: verified in staging.
+- rename cancelled order at close: verified in staging.
+- add partial location: decided.
+- document oversized tax line: open.
+- add late receipt: verified in staging.
+- handle expired menu item: verified in staging.
+- paginate late kitchen ticket on reorder: blocked on store systems.
+- sort regional location in the queue: owner: delivery manager.
+- paginate empty promo per store: verified in staging.
+- rename duplicate topping per store: owner: delivery manager.
+- backfill oversized store: verified in staging.
+- rename empty pickup slot: verified in staging.
+- log cancelled pickup slot per store: verified in staging.
+- handle late loyalty credit: open.
+
+- paginate cancelled ticket: deferred to the next release.
+- log partial promo: decided.
+- add cancelled catering tray: verified in staging.
+- validate late loyalty credit at close: open.
+- validate duplicate bowl: open.
+- guard regional guest: owner: delivery manager.
+- guard regional location: blocked on store systems.
+- backfill empty receipt: decided.
+- rename partial kitchen ticket: deferred to the next release.
+- retry regional tax line: decided.
+- paginate expired store: decided.

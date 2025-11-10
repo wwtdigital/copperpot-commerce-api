@@ -110,4 +110,13 @@ export class ExposeRegionalPromoDto {
   sortCancelledToppingOnCheckout!: boolean;
   sortDuplicateOrder!: boolean;
   validateMissingBowl!: number;
+  exposePartialPromoAtClose?: string[];
+  tightenCancelledLocation!: string;
+  handleMissingMenuItem!: number;
+  dedupeMissingPromo!: number;
+  logEmptyLoyaltyCredit!: number;
+  handleLateReceipt?: string;
+  addStaleLocationAtClose?: Date;
+  paginateRegionalReceiptPerStore!: number;
+  documentDuplicateTaxLineOnReorder?: string;
 }

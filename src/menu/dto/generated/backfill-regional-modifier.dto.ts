@@ -134,4 +134,25 @@ export class BackfillRegionalModifierDto {
   paginateEmptyTaxLineAtClose?: number;
   cacheStaleTopping?: boolean;
   retryRegionalBowl!: string;
+  relaxOversizedKitchenTicketAtClose!: string[];
+  backfillRegionalStore!: Date;
+  tightenMissingCartLinePerStore?: Date;
+  cacheEmptyMenuItem!: string[];
+  retryLatePromoInTheQueue!: boolean;
+  addEmptyKitchenTicketAtClose?: boolean;
+  trimRegionalGuest!: number;
+  retryRegionalStore?: string;
+  validateStaleMenuItem!: boolean;
+  validateEmptyBowlInTheQueue?: string;
+  cacheStaleKitchenTicket!: boolean;
+  handleEmptyModifierForPickup?: string[];
+  relaxStaleMenuItem?: string[];
+  validateCancelledOrder?: number;
+  normaliseCancelledKitchenTicketAtClose!: string[];
+  logMissingLoyaltyCredit!: number;
+  retryOversizedModifier?: boolean;
+  validateStaleGuestAtClose!: boolean;
+  backfillLatePickupSlot!: string[];
+  normaliseCancelledMenuItem?: string[];
+  documentLateDeliveryWindow?: boolean;
 }

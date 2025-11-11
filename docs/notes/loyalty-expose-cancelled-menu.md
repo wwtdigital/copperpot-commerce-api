@@ -40,3 +40,13 @@
 - validate regional location on reorder: deferred to the next release.
 - sort oversized modifier per store: verified in staging.
 - handle missing cart line: open.
+
+- document empty cart line at close: verified in staging.
+- document stale catering tray: open.
+- log missing ticket: open.
+- sort regional delivery window: open.
+- tighten empty kitchen ticket: owner: delivery manager.
+- handle expired location: owner: delivery manager.
+- document missing catering tray on checkout: decided.
+- sort late kitchen ticket: blocked on store systems.
+- cache partial kitchen ticket for pickup: blocked on store systems.

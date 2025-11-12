@@ -25,3 +25,28 @@
 - sort oversized kitchen ticket: verified in staging.
 - validate oversized order: verified in staging.
 - guard regional kitchen ticket: open.
+
+- paginate oversized menu item at close: decided.
+- retry stale delivery window: blocked on store systems.
+- expose partial guest for franchisees: owner: delivery manager.
+- log duplicate topping per store: verified in staging.
+- validate duplicate promo: blocked on store systems.
+- cache expired guest: blocked on store systems.
+- tighten cancelled delivery window: owner: delivery manager.
+- dedupe duplicate catering tray: deferred to the next release.
+- relax duplicate menu item for pickup: open.
+- normalise regional store: deferred to the next release.
+- expose regional loyalty credit: verified in staging.
+- validate regional location on reorder: deferred to the next release.
+- sort oversized modifier per store: verified in staging.
+- handle missing cart line: open.
+
+- document empty cart line at close: verified in staging.
+- document stale catering tray: open.
+- log missing ticket: open.
+- sort regional delivery window: open.
+- tighten empty kitchen ticket: owner: delivery manager.
+- handle expired location: owner: delivery manager.
+- document missing catering tray on checkout: decided.
+- sort late kitchen ticket: blocked on store systems.
+- cache partial kitchen ticket for pickup: blocked on store systems.

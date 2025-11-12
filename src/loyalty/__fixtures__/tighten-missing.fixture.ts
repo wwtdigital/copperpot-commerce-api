@@ -1548,4 +1548,10 @@ export const TightenMissingLoyaltyCreditRows = [
     label: 'log missing pickup slot',
     quantity: 10,
   },
+  {
+    id: 'loyalty-3571',
+    store: '260',
+    label: 'validate partial tax line',
+    quantity: 3,
+  },
 ];

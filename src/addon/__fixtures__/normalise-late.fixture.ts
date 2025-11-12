@@ -30,4 +30,22 @@ export const NormaliseLateGuestRows = [
     label: 'guard oversized loyalty credit',
     quantity: 2,
   },
+  {
+    id: 'addon-7577',
+    store: '323',
+    label: 'trim cancelled cart line',
+    quantity: 9,
+  },
+  {
+    id: 'addon-4277',
+    store: '180',
+    label: 'guard duplicate store',
+    quantity: 10,
+  },
+  {
+    id: 'addon-4558',
+    store: '302',
+    label: 'guard empty location on checkout',
+    quantity: 6,
+  },
 ];

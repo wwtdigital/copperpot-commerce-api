@@ -119,4 +119,8 @@ export class ExposeRegionalPromoDto {
   addStaleLocationAtClose?: Date;
   paginateRegionalReceiptPerStore!: number;
   documentDuplicateTaxLineOnReorder?: string;
+  dedupeOversizedTicketAtClose?: number;
+  logCancelledBowlForPickup?: string;
+  cacheLateBowlOnCheckout!: Date;
+  sortExpiredMenuItem!: boolean;
 }

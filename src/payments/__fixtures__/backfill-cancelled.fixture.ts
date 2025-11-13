@@ -474,4 +474,16 @@ export const BackfillCancelledGuestPerStoreRows = [
     label: 'log late kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'payments-8686',
+    store: '169',
+    label: 'retry expired receipt',
+    quantity: 11,
+  },
+  {
+    id: 'payments-8250',
+    store: '330',
+    label: 'expose oversized kitchen ticket',
+    quantity: 1,
+  },
 ];

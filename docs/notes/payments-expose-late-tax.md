@@ -17,3 +17,18 @@
 - paginate oversized modifier: deferred to the next release.
 - document late catering tray for franchisees: owner: delivery manager.
 - sort oversized tax line at close: verified in staging.
+
+- normalise partial pickup slot: deferred to the next release.
+- add regional store at close: deferred to the next release.
+- guard expired receipt: deferred to the next release.
+- paginate duplicate catering tray on reorder: blocked on store systems.
+- cache stale menu item: verified in staging.
+- add stale ticket: owner: delivery manager.
+- log duplicate guest: decided.
+- expose duplicate store on reorder: open.
+- guard stale guest: open.
+- paginate regional bowl for franchisees: blocked on store systems.
+- add duplicate receipt: verified in staging.
+- normalise expired kitchen ticket: deferred to the next release.
+- paginate missing modifier at close: deferred to the next release.
+- guard empty topping: verified in staging.

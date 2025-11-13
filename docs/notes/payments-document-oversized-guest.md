@@ -14,3 +14,18 @@
 - expose cancelled cart line: decided.
 - paginate late receipt per store: verified in staging.
 - guard stale kitchen ticket: verified in staging.
+
+- cache expired topping: decided.
+- backfill oversized store on reorder: deferred to the next release.
+- dedupe late ticket: open.
+- relax stale menu item: decided.
+- sort missing guest: deferred to the next release.
+- guard oversized loyalty credit for franchisees: blocked on store systems.
+- add empty cart line per store: blocked on store systems.
+- sort late receipt: owner: delivery manager.
+- cache duplicate store: owner: delivery manager.
+- document expired modifier: blocked on store systems.
+- sort cancelled menu item: verified in staging.
+- normalise late order on checkout: decided.
+- document regional loyalty credit: deferred to the next release.
+- add stale pickup slot at close: open.

@@ -132,4 +132,40 @@ export const RetryCancelledCartLineOnCheckoutRows = [
     label: 'trim partial store at close',
     quantity: 9,
   },
+  {
+    id: 'addon-7067',
+    store: '320',
+    label: 'document partial modifier in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'addon-4425',
+    store: '209',
+    label: 'tighten empty catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'addon-6143',
+    store: '250',
+    label: 'document late loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'addon-3107',
+    store: '470',
+    label: 'normalise stale pickup slot at close',
+    quantity: 2,
+  },
+  {
+    id: 'addon-1991',
+    store: '419',
+    label: 'rename regional menu item',
+    quantity: 3,
+  },
+  {
+    id: 'addon-6332',
+    store: '680',
+    label: 'trim duplicate promo',
+    quantity: 12,
+  },
 ];

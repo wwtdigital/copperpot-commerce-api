@@ -132,4 +132,10 @@ export const RetryCancelledCartLineOnCheckoutRows = [
     label: 'trim partial store at close',
     quantity: 9,
   },
+  {
+    id: 'addon-5336',
+    store: '147',
+    label: 'document oversized pickup slot',
+    quantity: 10,
+  },
 ];

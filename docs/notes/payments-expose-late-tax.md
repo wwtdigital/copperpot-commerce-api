@@ -32,3 +32,18 @@
 - normalise expired kitchen ticket: deferred to the next release.
 - paginate missing modifier at close: deferred to the next release.
 - guard empty topping: verified in staging.
+
+- add empty kitchen ticket at close: open.
+- retry oversized location for pickup: decided.
+- guard oversized order for pickup: blocked on store systems.
+- sort stale bowl: open.
+- cache missing order: verified in staging.
+- add partial location: blocked on store systems.
+- document oversized order: deferred to the next release.
+- normalise expired pickup slot for franchisees: blocked on store systems.
+- document regional kitchen ticket: owner: delivery manager.
+- log partial menu item: open.
+- tighten missing guest per store: deferred to the next release.
+- normalise missing modifier: blocked on store systems.
+- add oversized location: decided.
+- log cancelled topping per store: open.

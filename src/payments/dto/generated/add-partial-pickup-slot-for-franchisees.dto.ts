@@ -24,4 +24,26 @@ export class AddPartialPickupSlotForFranchiseesDto {
   normalisePartialLoyaltyCredit!: boolean;
   validatePartialTaxLineAtClose!: string;
   validateDuplicateToppingOnReorder!: Date;
+  addDuplicateKitchenTicket?: string[];
+  trimEmptyCateringTray!: boolean;
+  cacheDuplicateDeliveryWindow!: string[];
+  normaliseCancelledReceipt!: string[];
+  handleOversizedKitchenTicketPerStore?: number;
+  documentStaleCateringTrayOnReorder!: string;
+  renameLateTicketForPickup!: number;
+  dedupeMissingLocation?: boolean;
+  normaliseDuplicateModifier?: boolean;
+  retryOversizedTicketInTheQueue!: string[];
+  renamePartialTaxLineForFranchisees!: string;
+  renameEmptyKitchenTicketAtClose!: boolean;
+  relaxPartialReceipt!: string;
+  handleLateGuest!: string[];
+  trimDuplicateCartLineAtClose!: string;
+  paginateRegionalCateringTrayAtClose!: number;
+  trimRegionalBowl!: Date;
+  relaxPartialOrderForFranchisees!: boolean;
+  normaliseOversizedCateringTray!: boolean;
+  trimRegionalCateringTray?: number;
+  documentMissingModifier?: number;
+  validateLateTaxLineInTheQueue!: string;
 }

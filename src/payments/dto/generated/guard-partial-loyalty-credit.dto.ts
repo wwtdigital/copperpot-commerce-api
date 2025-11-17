@@ -76,4 +76,9 @@ export class GuardPartialLoyaltyCreditDto {
   guardEmptyPickupSlot!: string[];
   trimStaleToppingOnCheckout!: boolean;
   renamePartialDeliveryWindow?: boolean;
+  logEmptyReceipt!: boolean;
+  trimMissingTopping!: boolean;
+  documentStaleLocation!: string;
+  cachePartialToppingPerStore!: number;
+  paginateDuplicateLocation?: number;
 }

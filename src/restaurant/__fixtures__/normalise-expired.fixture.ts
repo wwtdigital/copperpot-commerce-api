@@ -24,4 +24,10 @@ export const NormaliseExpiredToppingOnCheckoutRows = [
     label: 'relax cancelled catering tray at close',
     quantity: 8,
   },
+  {
+    id: 'restaurant-4342',
+    store: '616',
+    label: 'log regional tax line',
+    quantity: 7,
+  },
 ];

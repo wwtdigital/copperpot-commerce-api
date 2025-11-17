@@ -81,3 +81,5 @@
 - add empty promo: blocked on store systems.
 - dedupe partial pickup slot: owner: delivery manager.
 - rename stale loyalty credit: deferred to the next release.
+
+- validate missing topping in the queue: verified in staging.

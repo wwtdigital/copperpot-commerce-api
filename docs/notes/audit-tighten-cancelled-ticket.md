@@ -48,3 +48,9 @@
 - retry partial kitchen ticket in the queue: deferred to the next release.
 - expose cancelled bowl: owner: delivery manager.
 - paginate partial menu item per store: blocked on store systems.
+
+- relax regional delivery window: decided.
+- validate late guest for pickup: open.
+- handle cancelled bowl: owner: delivery manager.
+- handle oversized bowl on reorder: verified in staging.
+- expose cancelled promo: open.

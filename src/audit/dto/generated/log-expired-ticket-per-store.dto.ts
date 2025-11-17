@@ -2,4 +2,8 @@
 export class LogExpiredTicketPerStoreDto {
   guardEmptyMenuItem!: boolean;
   trimRegionalTicket!: number;
+  renameMissingPickupSlot?: string;
+  retryExpiredGuest!: string[];
+  addRegionalTicket!: Date;
+  retryStaleMenuItemForPickup!: string[];
 }

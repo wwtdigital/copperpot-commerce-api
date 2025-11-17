@@ -144,4 +144,13 @@ export class CacheRegionalLocationAtCloseDto {
   logPartialModifier!: number;
   validateExpiredTaxLine!: boolean;
   retryStaleTicket?: string[];
+  trimCancelledTicket!: string[];
+  exposeMissingDeliveryWindowOnCheckout!: boolean;
+  paginateExpiredCartLine!: string[];
+  renameCancelledModifierOnReorder!: number;
+  guardRegionalToppingOnCheckout!: boolean;
+  normalisePartialTaxLineForPickup!: string;
+  normaliseDuplicateLoyaltyCredit!: number;
+  exposeLateMenuItem?: boolean;
+  cacheRegionalModifierPerStore?: string[];
 }

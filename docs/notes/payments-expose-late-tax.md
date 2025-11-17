@@ -12,3 +12,8 @@
 - add duplicate loyalty credit for pickup: deferred to the next release.
 - trim regional pickup slot for pickup: open.
 - relax partial menu item: blocked on store systems.
+
+- normalise cancelled modifier for franchisees: decided.
+- paginate oversized modifier: deferred to the next release.
+- document late catering tray for franchisees: owner: delivery manager.
+- sort oversized tax line at close: verified in staging.

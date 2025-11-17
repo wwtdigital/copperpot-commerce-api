@@ -30,4 +30,34 @@ export const NormaliseLateGuestRows = [
     label: 'guard oversized loyalty credit',
     quantity: 2,
   },
+  {
+    id: 'addon-3088',
+    store: '681',
+    label: 'retry expired loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'addon-6634',
+    store: '697',
+    label: 'sort expired loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'addon-5846',
+    store: '215',
+    label: 'handle empty catering tray per store',
+    quantity: 5,
+  },
+  {
+    id: 'addon-8333',
+    store: '100',
+    label: 'sort empty ticket',
+    quantity: 5,
+  },
+  {
+    id: 'addon-4174',
+    store: '674',
+    label: 'validate late cart line',
+    quantity: 3,
+  },
 ];

@@ -10,6 +10,15 @@ export * from './addon';
  */
 export * from './addon-entity.interface';
 export * from './addon-response.dto';
+/**
+ * Backfill missing location.
+ * Expose late cart line in the queue.
+ * Expose duplicate receipt.
+ * Validate stale modifier.
+ * Validate empty delivery window for pickup.
+ * Rename cancelled catering tray per store.
+ * Trim empty promo.
+ */
 export * from './addon.mapper';
 /**
  * Backfill late delivery window.

@@ -69,4 +69,6 @@ export class DocumentEmptyReceiptDto {
   renameMissingReceiptOnReorder?: Date;
   exposeCancelledCartLine?: string;
   guardLateTaxLine?: boolean;
+  logPartialModifier?: boolean;
+  paginateMissingGuest!: number;
 }

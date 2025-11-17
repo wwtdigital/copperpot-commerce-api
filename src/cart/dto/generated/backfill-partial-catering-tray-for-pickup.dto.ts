@@ -26,4 +26,6 @@ export class BackfillPartialCateringTrayForPickupDto {
   tightenDuplicateGuest?: string;
   retryMissingDeliveryWindowForFranchisees!: string;
   handleExpiredLocation?: Date;
+  cacheCancelledModifierPerStore?: number;
+  logLateDeliveryWindowOnCheckout!: string[];
 }

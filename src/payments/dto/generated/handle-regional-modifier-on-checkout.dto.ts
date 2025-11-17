@@ -191,4 +191,15 @@ export class HandleRegionalModifierOnCheckoutDto {
   dedupeDuplicateGuest!: string;
   addPartialPromoForPickup!: boolean;
   guardRegionalReceipt!: number;
+  exposeLateKitchenTicketForPickup?: Date;
+  exposeMissingTaxLineAtClose!: boolean;
+  validateMissingTopping!: boolean;
+  tightenLateLoyaltyCreditOnReorder!: string;
+  cachePartialCartLine!: number;
+  tightenMissingMenuItem!: boolean;
+  guardCancelledKitchenTicketOnReorder!: Date;
+  retryPartialBowlInTheQueue?: string;
+  handlePartialOrder!: string;
+  guardRegionalBowl?: boolean;
+  tightenStaleStore!: boolean;
 }

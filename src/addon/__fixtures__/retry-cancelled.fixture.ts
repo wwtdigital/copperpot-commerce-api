@@ -138,4 +138,46 @@ export const RetryCancelledCartLineOnCheckoutRows = [
     label: 'document oversized pickup slot',
     quantity: 10,
   },
+  {
+    id: 'addon-4185',
+    store: '312',
+    label: 'add empty loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'addon-8562',
+    store: '529',
+    label: 'cache partial bowl',
+    quantity: 6,
+  },
+  {
+    id: 'addon-1942',
+    store: '382',
+    label: 'tighten expired store',
+    quantity: 5,
+  },
+  {
+    id: 'addon-4210',
+    store: '506',
+    label: 'sort regional order',
+    quantity: 2,
+  },
+  {
+    id: 'addon-3043',
+    store: '275',
+    label: 'dedupe empty promo at close',
+    quantity: 7,
+  },
+  {
+    id: 'addon-5214',
+    store: '604',
+    label: 'validate empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'addon-8105',
+    store: '640',
+    label: 'tighten cancelled order on reorder',
+    quantity: 6,
+  },
 ];

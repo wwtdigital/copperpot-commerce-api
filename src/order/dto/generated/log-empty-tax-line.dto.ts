@@ -99,4 +99,16 @@ export class LogEmptyTaxLineDto {
   guardMissingOrder?: boolean;
   validateLateMenuItem!: string;
   trimEmptyTaxLineOnCheckout!: string[];
+  addExpiredGuest?: number;
+  trimStaleCateringTrayInTheQueue?: boolean;
+  retryStaleLocation!: boolean;
+  logExpiredGuest?: string[];
+  validateExpiredBowl?: string;
+  relaxExpiredReceipt!: number;
+  backfillLatePromoForPickup!: string[];
+  logEmptyStore!: string[];
+  sortStaleGuestForFranchisees!: boolean;
+  backfillStaleModifierForPickup!: number;
+  paginateDuplicateDeliveryWindow!: Date;
+  backfillRegionalPromo?: boolean;
 }

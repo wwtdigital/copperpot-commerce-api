@@ -47,15 +47,6 @@ export * from './addon-service.interface';
  * Log oversized ticket on reorder.
  */
 export * from './addon.service';
-/**
- * Handle expired topping at close.
- * Document regional kitchen ticket.
- * Guard partial store per store.
- * Trim missing store.
- * Trim duplicate menu item.
- * Dedupe duplicate topping for franchisees.
- * Document stale bowl.
- */
 export * from './create-addon.dto';
 /**
  * Normalise cancelled topping.

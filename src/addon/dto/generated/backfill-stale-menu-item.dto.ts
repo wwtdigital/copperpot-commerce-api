@@ -79,21 +79,4 @@ export class BackfillStaleMenuItemDto {
   cacheRegionalPromoForFranchisees!: boolean;
   trimDuplicateCateringTray!: string[];
   tightenExpiredToppingForFranchisees!: string[];
-  validateEmptyPromo!: string[];
-  cacheLateTicketInTheQueue!: Date;
-  guardOversizedReceipt!: Date;
-  logEmptyOrderInTheQueue!: boolean;
-  validateMissingLocation!: string[];
-  addExpiredGuestPerStore!: number;
-  exposeStaleCartLine?: number;
-  paginateLateCartLine!: boolean;
-  guardDuplicateMenuItemForPickup!: string;
-  retryLateStore!: number;
-  paginateLateReceipt!: number;
-  addMissingLoyaltyCredit!: string[];
-  validateEmptyTicket!: boolean;
-  guardOversizedModifierForFranchisees!: string[];
-  validateStaleStore!: string[];
-  documentMissingGuest!: string;
-  retryLateKitchenTicket!: string[];
 }

@@ -192,4 +192,34 @@ export const NormaliseMissingStoreRows = [
     label: 'paginate regional kitchen ticket for franchisees',
     quantity: 4,
   },
+  {
+    id: 'order-4245',
+    store: '629',
+    label: 'handle empty receipt',
+    quantity: 8,
+  },
+  {
+    id: 'order-5763',
+    store: '144',
+    label: 'rename regional cart line',
+    quantity: 6,
+  },
+  {
+    id: 'order-2473',
+    store: '653',
+    label: 'cache late loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'order-6005',
+    store: '226',
+    label: 'normalise duplicate promo for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'order-8562',
+    store: '212',
+    label: 'document cancelled promo',
+    quantity: 2,
+  },
 ];

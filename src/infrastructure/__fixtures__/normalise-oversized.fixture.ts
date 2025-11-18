@@ -174,4 +174,10 @@ export const NormaliseOversizedCartLinePerStoreRows = [
     label: 'guard oversized loyalty credit',
     quantity: 6,
   },
+  {
+    id: 'infrastructure-2254',
+    store: '245',
+    label: 'validate regional delivery window',
+    quantity: 6,
+  },
 ];

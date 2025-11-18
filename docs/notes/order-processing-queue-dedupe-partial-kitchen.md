@@ -19,3 +19,18 @@
 - paginate late catering tray: decided.
 - paginate partial kitchen ticket: open.
 - trim expired ticket per store: blocked on store systems.
+
+- expose stale cart line on reorder: verified in staging.
+- expose missing kitchen ticket: owner: delivery manager.
+- cache cancelled guest: open.
+- retry stale order: verified in staging.
+- validate stale kitchen ticket: verified in staging.
+- add expired modifier: owner: delivery manager.
+- validate regional topping: verified in staging.
+- paginate duplicate receipt: decided.
+- sort cancelled loyalty credit per store: blocked on store systems.
+- validate stale order for pickup: deferred to the next release.
+- retry duplicate menu item on checkout: decided.
+- retry empty loyalty credit in the queue: decided.
+- cache duplicate bowl: verified in staging.
+- validate missing menu item for franchisees: decided.

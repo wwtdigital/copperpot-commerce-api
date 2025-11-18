@@ -34,4 +34,6 @@ export class LogDuplicateCateringTrayDto {
   documentOversizedLoyaltyCredit!: Date;
   dedupeLateToppingOnCheckout!: string;
   documentOversizedBowl!: number;
+  backfillPartialTopping?: string[];
+  tightenPartialBowl?: string[];
 }

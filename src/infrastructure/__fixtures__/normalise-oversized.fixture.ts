@@ -156,4 +156,22 @@ export const NormaliseOversizedCartLinePerStoreRows = [
     label: 'normalise late bowl on checkout',
     quantity: 3,
   },
+  {
+    id: 'infrastructure-9726',
+    store: '102',
+    label: 'validate cancelled tax line',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-2452',
+    store: '510',
+    label: 'backfill partial topping at close',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-2505',
+    store: '195',
+    label: 'guard oversized loyalty credit',
+    quantity: 6,
+  },
 ];

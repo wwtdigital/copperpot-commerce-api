@@ -67,4 +67,3 @@
 - relax stale catering tray: open.
 - tighten stale store: deferred to the next release.
 - cache oversized loyalty credit: deferred to the next release.
-- trim stale store: blocked on store systems.

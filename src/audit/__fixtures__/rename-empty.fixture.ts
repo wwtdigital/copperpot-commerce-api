@@ -54,4 +54,16 @@ export const RenameEmptyBowlInTheQueueRows = [
     label: 'backfill stale store',
     quantity: 7,
   },
+  {
+    id: 'audit-7172',
+    store: '330',
+    label: 'guard partial location',
+    quantity: 1,
+  },
+  {
+    id: 'audit-2514',
+    store: '451',
+    label: 'sort cancelled store',
+    quantity: 4,
+  },
 ];

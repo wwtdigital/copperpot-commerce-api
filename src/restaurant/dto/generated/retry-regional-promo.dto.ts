@@ -85,4 +85,11 @@ export class RetryRegionalPromoDto {
   logMissingReceipt!: string[];
   exposeDuplicateStore?: boolean;
   trimPartialKitchenTicket?: string[];
+  exposeLateCateringTray!: Date;
+  documentRegionalStoreAtClose?: Date;
+  cacheExpiredDeliveryWindow!: number;
+  cacheLateTopping!: number;
+  trimStaleBowlOnReorder?: string[];
+  cacheMissingStoreOnCheckout!: number;
+  dedupeStaleDeliveryWindowInTheQueue!: number;
 }

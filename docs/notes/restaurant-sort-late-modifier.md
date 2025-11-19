@@ -67,3 +67,19 @@
 - relax stale catering tray: open.
 - tighten stale store: deferred to the next release.
 - cache oversized loyalty credit: deferred to the next release.
+
+- relax missing tax line: owner: delivery manager.
+- handle expired order: owner: delivery manager.
+- add partial modifier: owner: delivery manager.
+- normalise empty order: verified in staging.
+- sort empty loyalty credit in the queue: decided.
+- paginate cancelled receipt on checkout: blocked on store systems.
+- log empty kitchen ticket: verified in staging.
+- validate missing cart line: verified in staging.
+- dedupe regional ticket: deferred to the next release.
+- paginate late menu item: blocked on store systems.
+- add empty promo: blocked on store systems.
+- dedupe partial pickup slot: owner: delivery manager.
+- rename stale loyalty credit: deferred to the next release.
+
+- validate missing topping in the queue: verified in staging.

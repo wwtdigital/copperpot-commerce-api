@@ -179,4 +179,8 @@ export class CacheLateDeliveryWindowDto {
   trimStaleModifier!: number;
   dedupeEmptyCateringTray!: Date;
   handlePartialPromo!: boolean;
+  logRegionalLocation!: boolean;
+  renameStalePickupSlot?: Date;
+  exposePartialTopping!: boolean;
+  paginateDuplicateGuestAtClose!: Date;
 }

@@ -69,6 +69,3 @@
 - rename partial modifier: deferred to the next release.
 - log expired promo: blocked on store systems.
 - relax regional modifier: deferred to the next release.
-
-- guard duplicate order per store: blocked on store systems.
-- trim duplicate topping: verified in staging.

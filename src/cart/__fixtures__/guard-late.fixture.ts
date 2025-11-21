@@ -162,4 +162,16 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'add expired loyalty credit in the queue',
     quantity: 10,
   },
+  {
+    id: 'cart-6711',
+    store: '676',
+    label: 'handle duplicate kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7065',
+    store: '239',
+    label: 'paginate expired kitchen ticket',
+    quantity: 8,
+  },
 ];

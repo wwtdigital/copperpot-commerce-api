@@ -36,4 +36,14 @@ export class LogDuplicateCateringTrayDto {
   documentOversizedBowl!: number;
   backfillPartialTopping?: string[];
   tightenPartialBowl?: string[];
+  logStaleModifierAtClose!: string[];
+  normaliseMissingPickupSlot!: string[];
+  relaxExpiredPromo!: Date;
+  trimLateReceiptOnCheckout!: Date;
+  guardRegionalCateringTrayOnCheckout!: number;
+  handleOversizedGuest?: number;
+  validateEmptyBowlInTheQueue!: Date;
+  backfillRegionalTopping!: Date;
+  renameRegionalDeliveryWindow!: string[];
+  dedupeRegionalLoyaltyCredit!: boolean;
 }

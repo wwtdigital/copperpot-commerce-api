@@ -172,4 +172,15 @@ export class CacheLateDeliveryWindowDto {
   addMissingLoyaltyCredit?: Date;
   guardStaleCateringTray!: string;
   retryDuplicateCateringTray?: string[];
+  sortDuplicateLoyaltyCredit!: Date;
+  handleOversizedBowl!: Date;
+  relaxStaleMenuItem?: boolean;
+  handleOversizedKitchenTicket?: number;
+  trimStaleModifier!: number;
+  dedupeEmptyCateringTray!: Date;
+  handlePartialPromo!: boolean;
+  logRegionalLocation!: boolean;
+  renameStalePickupSlot?: Date;
+  exposePartialTopping!: boolean;
+  paginateDuplicateGuestAtClose!: Date;
 }

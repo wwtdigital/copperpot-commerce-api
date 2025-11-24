@@ -63,4 +63,13 @@ export class DedupeLateTicketDto {
   validateExpiredPickupSlot!: string[];
   exposeDuplicateMenuItemForFranchisees?: string;
   relaxExpiredModifier!: string;
+  documentOversizedLocation?: string;
+  retryPartialCartLine!: string;
+  validateStaleTopping!: string;
+  logLateKitchenTicket?: Date;
+  dedupeEmptyMenuItemOnReorder!: boolean;
+  trimRegionalCartLine?: string;
+  tightenRegionalKitchenTicketOnCheckout!: boolean;
+  relaxPartialBowl!: Date;
+  cacheRegionalDeliveryWindow!: Date;
 }

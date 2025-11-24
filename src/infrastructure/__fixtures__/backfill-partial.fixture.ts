@@ -24,4 +24,10 @@ export const BackfillPartialStoreForFranchiseesRows = [
     label: 'sort missing cart line per store',
     quantity: 5,
   },
+  {
+    id: 'infrastructure-1000',
+    store: '130',
+    label: 'paginate regional topping',
+    quantity: 2,
+  },
 ];

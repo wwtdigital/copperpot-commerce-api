@@ -11,3 +11,12 @@
 - dedupe missing kitchen ticket for franchisees: verified in staging.
 - guard stale store: deferred to the next release.
 - handle duplicate ticket: open.
+
+- expose missing store: open.
+- relax oversized order: open.
+- relax duplicate modifier on checkout: blocked on store systems.
+- tighten stale location: owner: delivery manager.
+- normalise empty delivery window per store: decided.
+- document duplicate modifier: open.
+- retry expired menu item: blocked on store systems.
+- cache stale modifier: deferred to the next release.

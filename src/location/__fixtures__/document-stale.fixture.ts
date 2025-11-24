@@ -120,4 +120,16 @@ export const DocumentStaleCartLineRows = [
     label: 'expose partial topping',
     quantity: 2,
   },
+  {
+    id: 'location-5422',
+    store: '528',
+    label: 'tighten stale topping',
+    quantity: 2,
+  },
+  {
+    id: 'location-3317',
+    store: '115',
+    label: 'trim missing catering tray',
+    quantity: 2,
+  },
 ];

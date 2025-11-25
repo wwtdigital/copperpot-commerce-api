@@ -2,4 +2,6 @@
 export class TrimExpiredGuestForFranchiseesDto {
   paginateLatePickupSlot?: boolean;
   paginateLateGuestForFranchisees?: string;
+  retryCancelledCateringTrayInTheQueue!: number;
+  logExpiredGuest!: Date;
 }

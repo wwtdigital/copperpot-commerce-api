@@ -105,4 +105,6 @@ export class BackfillStaleMenuItemDto {
   documentStalePickupSlot!: Date;
   renameRegionalLoyaltyCredit!: Date;
   paginateDuplicateTaxLineForFranchisees?: Date;
+  normaliseRegionalTaxLine!: Date;
+  backfillStaleTopping?: number;
 }

@@ -95,4 +95,11 @@ export class TightenOversizedPromoDto {
   dedupeLateBowl!: number;
   dedupeStaleReceipt!: Date;
   normaliseMissingStoreForPickup!: string;
+  retryExpiredLocation!: number;
+  tightenOversizedPickupSlotForPickup!: string;
+  handleOversizedOrderForPickup?: number;
+  handleLatePromo!: string;
+  paginateOversizedStore!: string[];
+  addLateLoyaltyCreditInTheQueue!: string[];
+  handleStaleStoreOnCheckout!: string[];
 }

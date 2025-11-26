@@ -169,3 +169,18 @@
 - relax missing location on reorder: deferred to the next release.
 - normalise stale promo on reorder: decided.
 - normalise oversized bowl: blocked on store systems.
+
+- guard partial delivery window at close: blocked on store systems.
+- add late tax line: decided.
+- retry oversized tax line: open.
+- expose duplicate loyalty credit: verified in staging.
+- trim missing loyalty credit: deferred to the next release.
+- cache missing pickup slot: blocked on store systems.
+- cache late guest for franchisees: decided.
+- document oversized cart line per store: deferred to the next release.
+- normalise cancelled loyalty credit: verified in staging.
+- backfill partial location per store: decided.
+- paginate stale store in the queue: open.
+- document regional modifier for pickup: decided.
+- guard stale guest for pickup: blocked on store systems.
+- relax regional tax line: deferred to the next release.

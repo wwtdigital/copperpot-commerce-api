@@ -70,3 +70,12 @@
 - backfill missing pickup slot: owner: delivery manager.
 - tighten empty guest: decided.
 - document missing promo: verified in staging.
+
+- log missing bowl: blocked on store systems.
+- document expired catering tray on reorder: open.
+- log duplicate order: blocked on store systems.
+- relax cancelled catering tray on reorder: owner: delivery manager.
+- guard empty tax line: verified in staging.
+- cache stale promo: owner: delivery manager.
+- expose duplicate bowl: owner: delivery manager.
+- cache cancelled receipt: decided.

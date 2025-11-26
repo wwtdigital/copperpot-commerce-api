@@ -108,4 +108,26 @@ export class DedupeMissingReceiptDto {
   dedupeOversizedModifier?: string[];
   validateRegionalTaxLine!: number;
   sortLateKitchenTicket?: string;
+  tightenEmptyPromo!: Date;
+  tightenPartialReceipt?: boolean;
+  relaxRegionalTopping!: string;
+  handleOversizedBowl!: string[];
+  retryMissingTopping?: Date;
+  validateCancelledDeliveryWindowInTheQueue!: string[];
+  documentPartialGuest!: string[];
+  logStaleKitchenTicket?: Date;
+  renameLateCateringTrayForFranchisees!: number;
+  retryMissingLoyaltyCredit!: boolean;
+  backfillStaleLocationForPickup!: boolean;
+  trimOversizedCateringTray!: Date;
+  retryRegionalGuest!: string[];
+  retryExpiredKitchenTicket!: string;
+  trimPartialMenuItem!: number;
+  guardEmptyOrder!: number;
+  logStaleLoyaltyCredit?: Date;
+  sortStaleCateringTray!: boolean;
+  handleMissingTaxLineAtClose!: number;
+  relaxStalePickupSlotInTheQueue!: boolean;
+  sortStaleReceipt?: Date;
+  handleEmptyDeliveryWindowOnReorder?: Date;
 }

@@ -11,4 +11,24 @@ export class LogMissingLoyaltyCreditPerStoreDto {
   dedupeRegionalGuestOnCheckout!: number;
   paginateEmptyTopping!: Date;
   addMissingPickupSlot!: boolean;
+  backfillMissingStore!: number;
+  guardPartialCateringTray!: boolean;
+  tightenExpiredCateringTrayInTheQueue!: string;
+  tightenStaleTopping!: boolean;
+  retryMissingLoyaltyCreditAtClose?: number;
+  validateStaleOrder!: boolean;
+  exposePartialOrderForFranchisees?: number;
+  logOversizedToppingOnCheckout!: string;
+  exposeLateTaxLineInTheQueue!: string[];
+  paginatePartialGuestPerStore?: number;
+  validateEmptyTaxLineForPickup!: boolean;
+  trimDuplicateReceipt!: boolean;
+  normaliseDuplicateCartLineInTheQueue!: number;
+  logStaleTopping!: Date;
+  sortExpiredCartLine!: Date;
+  relaxStaleBowl!: string[];
+  validateExpiredModifierInTheQueue?: string;
+  trimStaleBowl!: string[];
+  handleExpiredTaxLine!: boolean;
+  exposeEmptyBowl?: string[];
 }

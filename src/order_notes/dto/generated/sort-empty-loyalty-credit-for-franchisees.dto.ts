@@ -2,4 +2,6 @@
 export class SortEmptyLoyaltyCreditForFranchiseesDto {
   exposeCancelledDeliveryWindow!: number;
   relaxStaleLocationOnReorder?: Date;
+  trimExpiredCartLine!: number;
+  relaxCancelledReceipt!: number;
 }

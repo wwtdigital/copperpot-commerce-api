@@ -504,4 +504,10 @@ export const DedupeStaleModifierRows = [
     label: 'retry duplicate topping',
     quantity: 4,
   },
+  {
+    id: 'location-1654',
+    store: '428',
+    label: 'cache empty store',
+    quantity: 4,
+  },
 ];

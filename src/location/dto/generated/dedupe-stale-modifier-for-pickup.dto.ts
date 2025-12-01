@@ -14,4 +14,6 @@ export class DedupeStaleModifierForPickupDto {
   trimOversizedTaxLinePerStore!: string[];
   relaxCancelledPromo!: number;
   retryEmptyStore?: number;
+  normaliseStaleTopping!: number;
+  handleCancelledModifier?: Date;
 }

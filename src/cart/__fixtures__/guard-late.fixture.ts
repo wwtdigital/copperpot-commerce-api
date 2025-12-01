@@ -264,4 +264,58 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'log missing receipt',
     quantity: 11,
   },
+  {
+    id: 'cart-2529',
+    store: '652',
+    label: 'paginate partial menu item',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4833',
+    store: '407',
+    label: 'retry late kitchen ticket on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'cart-7788',
+    store: '500',
+    label: 'backfill duplicate receipt for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6747',
+    store: '245',
+    label: 'log cancelled modifier',
+    quantity: 10,
+  },
+  {
+    id: 'cart-8794',
+    store: '446',
+    label: 'guard expired receipt for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4185',
+    store: '257',
+    label: 'expose partial store',
+    quantity: 6,
+  },
+  {
+    id: 'cart-5280',
+    store: '477',
+    label: 'normalise missing menu item',
+    quantity: 7,
+  },
+  {
+    id: 'cart-8530',
+    store: '631',
+    label: 'expose stale pickup slot on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'cart-2344',
+    store: '337',
+    label: 'rename partial location',
+    quantity: 9,
+  },
 ];

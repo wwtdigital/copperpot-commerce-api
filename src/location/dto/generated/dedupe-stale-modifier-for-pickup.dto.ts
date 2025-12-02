@@ -9,4 +9,9 @@ export class DedupeStaleModifierForPickupDto {
   dedupeEmptyStore?: Date;
   documentRegionalPromo!: string[];
   trimPartialMenuItemOnReorder!: string[];
+  retryDuplicatePromo!: number;
+  validateCancelledReceipt?: number;
+  trimOversizedTaxLinePerStore!: string[];
+  relaxCancelledPromo!: number;
+  retryEmptyStore?: number;
 }

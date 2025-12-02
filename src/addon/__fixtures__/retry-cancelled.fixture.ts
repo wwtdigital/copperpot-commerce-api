@@ -252,4 +252,52 @@ export const RetryCancelledCartLineOnCheckoutRows = [
     label: 'dedupe expired location',
     quantity: 9,
   },
+  {
+    id: 'addon-2036',
+    store: '378',
+    label: 'trim late ticket',
+    quantity: 1,
+  },
+  {
+    id: 'addon-7052',
+    store: '583',
+    label: 'retry oversized pickup slot in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'addon-5044',
+    store: '260',
+    label: 'normalise regional modifier',
+    quantity: 11,
+  },
+  {
+    id: 'addon-3371',
+    store: '450',
+    label: 'retry cancelled tax line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'addon-6037',
+    store: '522',
+    label: 'sort expired catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'addon-7951',
+    store: '629',
+    label: 'dedupe cancelled order in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'addon-4430',
+    store: '107',
+    label: 'guard missing guest in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'addon-9296',
+    store: '548',
+    label: 'normalise missing catering tray',
+    quantity: 1,
+  },
 ];

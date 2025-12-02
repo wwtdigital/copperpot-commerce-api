@@ -31,4 +31,27 @@ export class LogMissingLoyaltyCreditPerStoreDto {
   trimStaleBowl!: string[];
   handleExpiredTaxLine!: boolean;
   exposeEmptyBowl?: string[];
+  validateMissingGuest!: boolean;
+  tightenExpiredMenuItemAtClose!: string[];
+  backfillDuplicateBowl!: string;
+  paginateExpiredPromo!: boolean;
+  paginateEmptyLoyaltyCredit!: number;
+  cacheEmptyPickupSlotAtClose!: Date;
+  sortOversizedPromo!: number;
+  documentMissingTaxLineForPickup?: number;
+  trimEmptyPickupSlot?: Date;
+  handlePartialGuestOnCheckout!: number;
+  dedupePartialPickupSlot!: number;
+  sortExpiredCateringTray!: number;
+  logPartialCateringTrayOnCheckout?: boolean;
+  tightenPartialPickupSlot?: number;
+  paginateLatePromoForPickup!: string[];
+  cacheLateTopping!: string[];
+  normaliseEmptyLoyaltyCredit!: number;
+  backfillStaleTicket?: string[];
+  documentExpiredLoyaltyCredit!: string;
+  dedupeOversizedDeliveryWindow!: boolean;
+  logStaleToppingAtClose!: boolean;
+  dedupeRegionalKitchenTicketInTheQueue!: Date;
+  validateDuplicatePickupSlot!: number;
 }

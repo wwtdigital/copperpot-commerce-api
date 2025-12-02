@@ -282,4 +282,10 @@ export const HandleLatePromoRows = [
     label: 'rename cancelled bowl',
     quantity: 9,
   },
+  {
+    id: 'category-9506',
+    store: '448',
+    label: 'trim expired promo',
+    quantity: 8,
+  },
 ];

@@ -71,3 +71,18 @@
 - add expired order: blocked on store systems.
 - normalise late pickup slot: open.
 - dedupe duplicate ticket: open.
+
+- trim stale pickup slot: verified in staging.
+- validate partial kitchen ticket on checkout: open.
+- dedupe late bowl: open.
+- document empty menu item: owner: delivery manager.
+- retry oversized receipt: deferred to the next release.
+- paginate expired ticket: open.
+- sort missing promo per store: open.
+- add missing ticket: verified in staging.
+- validate stale promo: blocked on store systems.
+- normalise stale ticket for franchisees: verified in staging.
+- expose partial loyalty credit: verified in staging.
+- retry empty cart line: owner: delivery manager.
+- rename late loyalty credit at close: owner: delivery manager.
+- paginate oversized tax line for pickup: verified in staging.

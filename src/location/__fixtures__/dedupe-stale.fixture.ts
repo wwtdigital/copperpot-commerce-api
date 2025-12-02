@@ -498,4 +498,16 @@ export const DedupeStaleModifierRows = [
     label: 'add oversized store in the queue',
     quantity: 4,
   },
+  {
+    id: 'location-5636',
+    store: '402',
+    label: 'retry duplicate topping',
+    quantity: 4,
+  },
+  {
+    id: 'location-1654',
+    store: '428',
+    label: 'cache empty store',
+    quantity: 4,
+  },
 ];

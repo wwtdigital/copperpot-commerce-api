@@ -120,3 +120,18 @@
 - validate late order in the queue: verified in staging.
 - sort regional modifier: blocked on store systems.
 - normalise missing pickup slot: blocked on store systems.
+
+- paginate partial topping: verified in staging.
+- validate empty promo for pickup: deferred to the next release.
+- rename regional topping: open.
+- paginate partial menu item: decided.
+- guard oversized topping for pickup: deferred to the next release.
+- handle duplicate bowl for pickup: verified in staging.
+- handle oversized location: blocked on store systems.
+- guard oversized guest on reorder: deferred to the next release.
+- tighten expired pickup slot: deferred to the next release.
+- normalise expired kitchen ticket at close: decided.
+- rename missing menu item for franchisees: verified in staging.
+- document oversized kitchen ticket: owner: delivery manager.
+- paginate partial kitchen ticket: blocked on store systems.
+- trim expired store: open.

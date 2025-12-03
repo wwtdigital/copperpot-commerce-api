@@ -48,4 +48,28 @@ export class SortMissingToppingInTheQueueDto {
   exposeRegionalDeliveryWindowAtClose!: string;
   addMissingLocation!: string;
   handlePartialLocationPerStore!: string;
+  normaliseOversizedLocationForPickup!: boolean;
+  paginateRegionalTicketPerStore!: boolean;
+  guardEmptyTaxLineInTheQueue?: string[];
+  relaxEmptyLocation!: number;
+  tightenExpiredGuest!: string[];
+  guardCancelledBowlOnReorder!: number;
+  tightenExpiredOrder!: number;
+  dedupeExpiredLoyaltyCredit!: Date;
+  relaxCancelledBowlInTheQueue!: boolean;
+  trimOversizedPickupSlot!: boolean;
+  guardStaleCateringTray?: Date;
+  backfillPartialBowlAtClose?: number;
+  guardMissingToppingAtClose!: string[];
+  retryDuplicateMenuItemInTheQueue!: Date;
+  validateOversizedOrder!: string[];
+  guardStalePickupSlotForFranchisees?: string;
+  handleLateModifier!: Date;
+  renameCancelledDeliveryWindow!: Date;
+  paginatePartialTopping!: number;
+  retryCancelledTopping!: boolean;
+  documentCancelledPickupSlot!: boolean;
+  retryCancelledTicket?: boolean;
+  backfillRegionalPickupSlot!: string;
+  backfillEmptyBowl?: number;
 }

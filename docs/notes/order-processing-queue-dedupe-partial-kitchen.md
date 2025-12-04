@@ -34,3 +34,8 @@
 - retry empty loyalty credit in the queue: decided.
 - cache duplicate bowl: verified in staging.
 - validate missing menu item for franchisees: decided.
+
+- document partial topping on reorder: deferred to the next release.
+- retry empty cart line on reorder: deferred to the next release.
+- validate partial tax line per store: decided.
+- guard missing modifier on reorder: owner: delivery manager.

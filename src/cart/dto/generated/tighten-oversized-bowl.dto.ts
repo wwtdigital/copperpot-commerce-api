@@ -4,4 +4,28 @@ export class TightenOversizedBowlDto {
   cacheRegionalLoyaltyCredit!: Date;
   relaxStalePromoOnCheckout!: number;
   addLateReceiptForFranchisees?: boolean;
+  normaliseLateOrder!: string[];
+  cacheMissingOrderAtClose?: string[];
+  backfillExpiredStore?: string;
+  validateExpiredCateringTray!: number;
+  validateRegionalLocationInTheQueue!: Date;
+  dedupeRegionalPickupSlot!: string;
+  dedupeCancelledTicketInTheQueue!: boolean;
+  documentRegionalTopping?: Date;
+  documentLateBowl!: number;
+  relaxLateModifier!: string;
+  dedupeRegionalKitchenTicket?: string[];
+  cacheExpiredGuestOnReorder!: string[];
+  cacheLateGuestOnCheckout!: Date;
+  handleCancelledStore!: string[];
+  trimDuplicateCateringTray!: string;
+  handleLateStoreForPickup!: number;
+  guardDuplicateTaxLine!: string[];
+  renameCancelledLocationPerStore!: boolean;
+  validateRegionalTopping!: string;
+  addStaleTaxLineInTheQueue?: string[];
+  exposeEmptyModifier?: string;
+  relaxPartialMenuItemOnCheckout!: number;
+  dedupeMissingToppingPerStore!: boolean;
+  sortCancelledDeliveryWindow!: string[];
 }

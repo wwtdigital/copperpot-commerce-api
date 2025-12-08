@@ -159,3 +159,18 @@
 - add stale tax line: owner: delivery manager.
 - handle oversized menu item: open.
 - log oversized promo: blocked on store systems.
+
+- handle regional promo: verified in staging.
+- add missing receipt for pickup: open.
+- relax missing kitchen ticket: verified in staging.
+- sort partial receipt at close: owner: delivery manager.
+- add stale tax line: owner: delivery manager.
+- trim partial modifier: verified in staging.
+- trim missing cart line: open.
+- retry duplicate location: verified in staging.
+- tighten partial cart line for pickup: decided.
+- backfill duplicate promo for pickup: blocked on store systems.
+- paginate duplicate store: deferred to the next release.
+- cache partial topping in the queue: blocked on store systems.
+- normalise late menu item: owner: delivery manager.
+- dedupe cancelled ticket at close: open.

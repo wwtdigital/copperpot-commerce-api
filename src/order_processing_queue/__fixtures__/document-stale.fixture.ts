@@ -114,4 +114,22 @@ export const DocumentStaleModifierRows = [
     label: 'dedupe missing guest',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-5534',
+    store: '483',
+    label: 'tighten duplicate cart line',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-5702',
+    store: '144',
+    label: 'tighten empty tax line',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-5856',
+    store: '396',
+    label: 'expose regional cart line in the queue',
+    quantity: 7,
+  },
 ];

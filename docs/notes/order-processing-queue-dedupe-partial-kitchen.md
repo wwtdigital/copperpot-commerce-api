@@ -39,3 +39,6 @@
 - retry empty cart line on reorder: deferred to the next release.
 - validate partial tax line per store: decided.
 - guard missing modifier on reorder: owner: delivery manager.
+
+- document empty promo: owner: delivery manager.
+- add oversized loyalty credit: owner: delivery manager.

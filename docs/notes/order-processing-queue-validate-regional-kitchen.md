@@ -57,3 +57,18 @@
 - document missing modifier on reorder: deferred to the next release.
 - document cancelled guest on reorder: deferred to the next release.
 - backfill late bowl: blocked on store systems.
+
+- guard expired pickup slot on reorder: open.
+- normalise cancelled guest: decided.
+- relax cancelled promo: blocked on store systems.
+- dedupe expired tax line on checkout: verified in staging.
+- normalise oversized order for franchisees: open.
+- retry cancelled delivery window: deferred to the next release.
+- backfill partial order: decided.
+- trim expired guest: deferred to the next release.
+- cache duplicate catering tray at close: blocked on store systems.
+- handle stale cart line: decided.
+- guard duplicate receipt: blocked on store systems.
+- dedupe duplicate kitchen ticket: decided.
+- sort duplicate tax line: open.
+- expose expired cart line per store: open.

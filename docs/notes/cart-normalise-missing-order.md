@@ -20,3 +20,18 @@
 - validate missing menu item at close: verified in staging.
 - rename regional ticket: open.
 - normalise late tax line: open.
+
+- sort partial menu item for pickup: owner: delivery manager.
+- tighten expired ticket: verified in staging.
+- sort cancelled receipt: open.
+- relax oversized bowl: verified in staging.
+- relax regional receipt for pickup: blocked on store systems.
+- expose stale order: owner: delivery manager.
+- trim regional menu item: decided.
+- cache missing loyalty credit: blocked on store systems.
+- rename regional guest for pickup: blocked on store systems.
+- expose regional order at close: decided.
+- validate partial location: open.
+- cache stale modifier for franchisees: decided.
+- tighten cancelled cart line: decided.
+- trim late kitchen ticket: open.

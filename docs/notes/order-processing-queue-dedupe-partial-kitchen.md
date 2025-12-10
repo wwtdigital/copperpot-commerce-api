@@ -34,3 +34,26 @@
 - retry empty loyalty credit in the queue: decided.
 - cache duplicate bowl: verified in staging.
 - validate missing menu item for franchisees: decided.
+
+- document partial topping on reorder: deferred to the next release.
+- retry empty cart line on reorder: deferred to the next release.
+- validate partial tax line per store: decided.
+- guard missing modifier on reorder: owner: delivery manager.
+
+- document empty promo: owner: delivery manager.
+- add oversized loyalty credit: owner: delivery manager.
+
+- normalise cancelled ticket: blocked on store systems.
+- guard expired ticket: blocked on store systems.
+- retry empty store for franchisees: decided.
+- cache late receipt: decided.
+- guard missing topping: owner: delivery manager.
+- relax oversized catering tray: open.
+- rename missing location in the queue: verified in staging.
+- paginate cancelled kitchen ticket: open.
+- add stale guest: verified in staging.
+- normalise late kitchen ticket: owner: delivery manager.
+- document missing location on reorder: blocked on store systems.
+- rename empty location per store: deferred to the next release.
+- guard duplicate guest on checkout: decided.
+- log oversized cart line: open.

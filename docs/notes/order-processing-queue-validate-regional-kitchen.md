@@ -72,3 +72,18 @@
 - dedupe duplicate kitchen ticket: decided.
 - sort duplicate tax line: open.
 - expose expired cart line per store: open.
+
+- relax regional pickup slot: deferred to the next release.
+- retry regional loyalty credit for franchisees: blocked on store systems.
+- tighten expired store: owner: delivery manager.
+- dedupe missing delivery window for pickup: deferred to the next release.
+- relax expired guest for franchisees: blocked on store systems.
+- guard stale catering tray: blocked on store systems.
+- rename duplicate bowl on reorder: owner: delivery manager.
+- cache regional order: owner: delivery manager.
+- cache expired ticket on checkout: owner: delivery manager.
+- normalise stale tax line: owner: delivery manager.
+- handle duplicate loyalty credit: blocked on store systems.
+- validate partial loyalty credit on reorder: owner: delivery manager.
+- dedupe oversized catering tray: blocked on store systems.
+- backfill expired location: deferred to the next release.

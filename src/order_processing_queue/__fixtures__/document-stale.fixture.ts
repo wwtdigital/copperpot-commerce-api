@@ -132,4 +132,52 @@ export const DocumentStaleModifierRows = [
     label: 'expose regional cart line in the queue',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-5009',
+    store: '619',
+    label: 'dedupe empty store in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-1849',
+    store: '391',
+    label: 'expose regional cart line for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'order-processing-queue-7392',
+    store: '425',
+    label: 'expose expired modifier at close',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-3983',
+    store: '464',
+    label: 'relax partial loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-6707',
+    store: '651',
+    label: 'add missing cart line per store',
+    quantity: 6,
+  },
+  {
+    id: 'order-processing-queue-8989',
+    store: '660',
+    label: 'trim missing delivery window in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-2055',
+    store: '409',
+    label: 'sort partial topping',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-3732',
+    store: '554',
+    label: 'validate cancelled kitchen ticket on checkout',
+    quantity: 7,
+  },
 ];

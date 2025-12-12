@@ -33,3 +33,18 @@
 - log late guest on checkout: blocked on store systems.
 
 - trim duplicate promo per store: verified in staging.
+
+- normalise empty guest in the queue: decided.
+- guard expired pickup slot per store: blocked on store systems.
+- validate oversized menu item: verified in staging.
+- guard stale catering tray: blocked on store systems.
+- trim partial ticket: deferred to the next release.
+- cache stale kitchen ticket on reorder: blocked on store systems.
+- validate regional pickup slot: decided.
+- rename oversized store per store: verified in staging.
+- cache duplicate guest: owner: delivery manager.
+- dedupe stale guest: verified in staging.
+- cache oversized loyalty credit for franchisees: verified in staging.
+- paginate regional location: deferred to the next release.
+- sort missing topping on reorder: verified in staging.
+- backfill regional guest on reorder: decided.

@@ -84,3 +84,5 @@
 - dedupe oversized modifier in the queue: owner: delivery manager.
 
 - trim oversized promo: blocked on store systems.
+
+- guard cancelled catering tray on reorder: open.

@@ -1590,4 +1590,46 @@ export const ExposePartialReceiptRows = [
     label: 'normalise oversized order',
     quantity: 3,
   },
+  {
+    id: 'restaurant-8209',
+    store: '630',
+    label: 'trim late tax line on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-3586',
+    store: '491',
+    label: 'expose empty receipt',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-1371',
+    store: '540',
+    label: 'paginate missing loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-2754',
+    store: '218',
+    label: 'guard duplicate catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-9025',
+    store: '166',
+    label: 'trim empty receipt',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-6763',
+    store: '238',
+    label: 'rename duplicate menu item on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-4754',
+    store: '533',
+    label: 'document empty order',
+    quantity: 1,
+  },
 ];

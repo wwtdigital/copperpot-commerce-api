@@ -318,4 +318,34 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'rename partial location',
     quantity: 9,
   },
+  {
+    id: 'cart-1523',
+    store: '278',
+    label: 'relax stale location for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2680',
+    store: '126',
+    label: 'rename oversized kitchen ticket at close',
+    quantity: 12,
+  },
+  {
+    id: 'cart-4771',
+    store: '578',
+    label: 'rename duplicate catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7877',
+    store: '128',
+    label: 'log stale catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'cart-7336',
+    store: '155',
+    label: 'validate regional menu item',
+    quantity: 11,
+  },
 ];

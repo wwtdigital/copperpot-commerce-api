@@ -12,4 +12,22 @@ export const LogPartialTaxLineRows = [
     label: 'guard cancelled cart line',
     quantity: 4,
   },
+  {
+    id: 'menu-6157',
+    store: '182',
+    label: 'trim cancelled delivery window on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3397',
+    store: '578',
+    label: 'trim partial promo',
+    quantity: 8,
+  },
+  {
+    id: 'menu-9583',
+    store: '391',
+    label: 'tighten cancelled promo',
+    quantity: 12,
+  },
 ];

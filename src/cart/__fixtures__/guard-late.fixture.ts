@@ -354,4 +354,10 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'guard stale bowl for franchisees',
     quantity: 3,
   },
+  {
+    id: 'cart-8799',
+    store: '502',
+    label: 'cache oversized receipt',
+    quantity: 9,
+  },
 ];

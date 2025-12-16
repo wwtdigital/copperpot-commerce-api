@@ -348,4 +348,10 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'validate regional menu item',
     quantity: 11,
   },
+  {
+    id: 'cart-4369',
+    store: '259',
+    label: 'guard stale bowl for franchisees',
+    quantity: 3,
+  },
 ];

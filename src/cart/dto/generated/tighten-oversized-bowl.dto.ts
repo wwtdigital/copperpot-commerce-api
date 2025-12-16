@@ -28,4 +28,11 @@ export class TightenOversizedBowlDto {
   relaxPartialMenuItemOnCheckout!: number;
   dedupeMissingToppingPerStore!: boolean;
   sortCancelledDeliveryWindow!: string[];
+  cacheExpiredLocation!: number;
+  retryCancelledOrder!: string[];
+  guardStaleLoyaltyCreditForPickup!: boolean;
+  documentCancelledKitchenTicket!: string[];
+  dedupeRegionalCartLineForPickup?: boolean;
+  renameEmptyTicket!: string[];
+  sortPartialCateringTrayInTheQueue!: string[];
 }

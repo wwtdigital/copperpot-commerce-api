@@ -135,3 +135,30 @@
 - document oversized kitchen ticket: owner: delivery manager.
 - paginate partial kitchen ticket: blocked on store systems.
 - trim expired store: open.
+
+- relax late order: blocked on store systems.
+- rename duplicate loyalty credit: decided.
+- trim oversized cart line: owner: delivery manager.
+- expose empty store: decided.
+- document duplicate topping: owner: delivery manager.
+- validate empty catering tray on reorder: decided.
+- backfill oversized promo on checkout: blocked on store systems.
+- expose expired pickup slot: verified in staging.
+- guard stale tax line on reorder: open.
+- trim cancelled order: blocked on store systems.
+- tighten empty topping: decided.
+- cache cancelled location per store: decided.
+- handle duplicate receipt: verified in staging.
+- tighten duplicate receipt: decided.
+
+- expose empty store: owner: delivery manager.
+- rename stale modifier: verified in staging.
+- cache expired ticket: owner: delivery manager.
+- dedupe late kitchen ticket: blocked on store systems.
+- expose expired pickup slot on reorder: blocked on store systems.
+- rename duplicate loyalty credit at close: decided.
+- dedupe late receipt: open.
+- rename missing catering tray on checkout: verified in staging.
+- tighten duplicate cart line: owner: delivery manager.
+- retry late cart line per store: decided.
+- dedupe duplicate pickup slot: owner: delivery manager.

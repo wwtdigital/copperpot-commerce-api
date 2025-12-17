@@ -111,4 +111,14 @@ export class LogEmptyTaxLineDto {
   backfillStaleModifierForPickup!: number;
   paginateDuplicateDeliveryWindow!: Date;
   backfillRegionalPromo?: boolean;
+  trimOversizedPromoForPickup?: number;
+  validateEmptyTaxLine!: number;
+  validateLateDeliveryWindow!: Date;
+  guardDuplicateLocationAtClose?: string[];
+  validateExpiredTicketForPickup?: string[];
+  renameMissingBowl!: string;
+  addRegionalModifier!: boolean;
+  tightenRegionalTicket!: string;
+  logPartialStore!: string[];
+  dedupePartialBowl?: Date;
 }

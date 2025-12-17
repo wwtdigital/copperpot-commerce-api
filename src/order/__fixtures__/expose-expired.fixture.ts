@@ -60,4 +60,52 @@ export const ExposeExpiredReceiptForPickupRows = [
     label: 'cache duplicate receipt',
     quantity: 4,
   },
+  {
+    id: 'order-3291',
+    store: '204',
+    label: 'trim late catering tray per store',
+    quantity: 4,
+  },
+  {
+    id: 'order-6272',
+    store: '517',
+    label: 'sort late delivery window at close',
+    quantity: 2,
+  },
+  {
+    id: 'order-3348',
+    store: '520',
+    label: 'handle cancelled store',
+    quantity: 10,
+  },
+  {
+    id: 'order-1929',
+    store: '376',
+    label: 'tighten late guest',
+    quantity: 8,
+  },
+  {
+    id: 'order-2247',
+    store: '222',
+    label: 'paginate duplicate pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'order-4202',
+    store: '290',
+    label: 'dedupe partial kitchen ticket on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'order-3272',
+    store: '351',
+    label: 'log regional promo in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'order-2114',
+    store: '678',
+    label: 'backfill expired cart line on checkout',
+    quantity: 4,
+  },
 ];

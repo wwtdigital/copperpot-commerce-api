@@ -221,3 +221,8 @@
 - handle oversized cart line: blocked on store systems.
 - sort late tax line: blocked on store systems.
 - normalise expired cart line for franchisees: blocked on store systems.
+
+- cache duplicate catering tray at close: decided.
+- cache expired topping per store: blocked on store systems.
+- sort cancelled store: decided.
+- trim expired promo: verified in staging.

@@ -155,4 +155,8 @@ export class BackfillRegionalModifierDto {
   backfillLatePickupSlot!: string[];
   normaliseCancelledMenuItem?: string[];
   documentLateDeliveryWindow?: boolean;
+  handleOversizedTaxLineAtClose!: string[];
+  retryLateModifierOnCheckout!: Date;
+  cacheLateTaxLine?: Date;
+  normaliseEmptyBowl!: Date;
 }

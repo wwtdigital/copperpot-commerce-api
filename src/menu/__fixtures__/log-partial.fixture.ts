@@ -30,4 +30,16 @@ export const LogPartialTaxLineRows = [
     label: 'tighten cancelled promo',
     quantity: 12,
   },
+  {
+    id: 'menu-4722',
+    store: '257',
+    label: 'rename stale tax line for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-3810',
+    store: '587',
+    label: 'log late location',
+    quantity: 4,
+  },
 ];

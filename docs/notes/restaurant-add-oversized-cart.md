@@ -174,3 +174,18 @@
 - cache partial topping in the queue: blocked on store systems.
 - normalise late menu item: owner: delivery manager.
 - dedupe cancelled ticket at close: open.
+
+- log missing location: open.
+- normalise partial location: open.
+- rename partial modifier: decided.
+- paginate oversized pickup slot on checkout: blocked on store systems.
+- tighten partial loyalty credit at close: decided.
+- normalise cancelled loyalty credit on checkout: blocked on store systems.
+- validate empty delivery window at close: decided.
+- log oversized loyalty credit at close: blocked on store systems.
+- relax oversized ticket on reorder: deferred to the next release.
+- backfill cancelled ticket: decided.
+- relax empty pickup slot: blocked on store systems.
+- document cancelled bowl: verified in staging.
+- tighten missing loyalty credit at close: verified in staging.
+- add partial delivery window: blocked on store systems.

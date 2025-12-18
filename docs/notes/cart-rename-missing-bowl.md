@@ -48,3 +48,18 @@
 - paginate regional location: deferred to the next release.
 - sort missing topping on reorder: verified in staging.
 - backfill regional guest on reorder: decided.
+
+- handle cancelled location: decided.
+- sort cancelled promo: blocked on store systems.
+- validate empty tax line: verified in staging.
+- relax stale location on checkout: blocked on store systems.
+- cache oversized menu item: blocked on store systems.
+- retry expired pickup slot: blocked on store systems.
+- retry cancelled menu item: owner: delivery manager.
+- expose regional ticket: blocked on store systems.
+- expose empty promo: decided.
+- dedupe empty location: owner: delivery manager.
+- guard missing guest: deferred to the next release.
+- tighten oversized tax line: owner: delivery manager.
+- relax oversized receipt at close: deferred to the next release.
+- expose expired receipt: open.

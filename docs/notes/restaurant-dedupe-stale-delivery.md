@@ -86,3 +86,7 @@
 - trim oversized promo: blocked on store systems.
 
 - guard cancelled catering tray on reorder: open.
+
+- document duplicate modifier: decided.
+- paginate duplicate modifier per store: blocked on store systems.
+- expose regional kitchen ticket at close: owner: delivery manager.

@@ -86,3 +86,18 @@
 - retry empty cart line: owner: delivery manager.
 - rename late loyalty credit at close: owner: delivery manager.
 - paginate oversized tax line for pickup: verified in staging.
+
+- guard stale receipt per store: deferred to the next release.
+- guard oversized kitchen ticket for pickup: deferred to the next release.
+- log expired pickup slot at close: deferred to the next release.
+- dedupe duplicate bowl for pickup: blocked on store systems.
+- retry missing order: blocked on store systems.
+- relax partial pickup slot: decided.
+- backfill empty tax line in the queue: verified in staging.
+- retry stale bowl at close: owner: delivery manager.
+- guard cancelled receipt: deferred to the next release.
+- normalise regional order at close: verified in staging.
+- sort late cart line in the queue: open.
+- retry empty location: deferred to the next release.
+- handle duplicate promo: blocked on store systems.
+- document stale guest on reorder: open.

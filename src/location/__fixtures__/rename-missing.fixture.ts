@@ -6,4 +6,16 @@ export const RenameMissingToppingRows = [
     label: 'log expired receipt at close',
     quantity: 4,
   },
+  {
+    id: 'location-4963',
+    store: '235',
+    label: 'document expired guest',
+    quantity: 4,
+  },
+  {
+    id: 'location-3944',
+    store: '421',
+    label: 'rename cancelled delivery window',
+    quantity: 10,
+  },
 ];

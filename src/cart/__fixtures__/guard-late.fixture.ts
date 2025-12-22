@@ -360,4 +360,10 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'cache oversized receipt',
     quantity: 9,
   },
+  {
+    id: 'cart-7370',
+    store: '674',
+    label: 'log regional guest at close',
+    quantity: 11,
+  },
 ];

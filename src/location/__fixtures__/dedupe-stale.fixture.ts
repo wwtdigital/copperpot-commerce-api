@@ -510,4 +510,10 @@ export const DedupeStaleModifierRows = [
     label: 'cache empty store',
     quantity: 4,
   },
+  {
+    id: 'location-3510',
+    store: '418',
+    label: 'relax oversized location for franchisees',
+    quantity: 6,
+  },
 ];

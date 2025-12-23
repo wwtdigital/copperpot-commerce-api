@@ -153,4 +153,24 @@ export class CacheRegionalLocationAtCloseDto {
   normaliseDuplicateLoyaltyCredit!: number;
   exposeLateMenuItem?: boolean;
   cacheRegionalModifierPerStore?: string[];
+  tightenDuplicateTaxLine!: boolean;
+  logMissingPickupSlot!: string[];
+  sortDuplicateModifier!: Date;
+  logLateBowlForFranchisees?: string[];
+  backfillExpiredReceiptInTheQueue!: string[];
+  sortMissingBowl!: string;
+  relaxLateStore!: number;
+  addOversizedOrder!: Date;
+  paginateStaleLocationAtClose!: string[];
+  normaliseEmptyCateringTrayForFranchisees?: boolean;
+  trimEmptyLoyaltyCredit!: Date;
+  logDuplicateModifierAtClose?: string;
+  trimPartialModifier?: number;
+  relaxStaleLoyaltyCredit!: boolean;
+  normalisePartialPromoOnReorder?: string;
+  trimMissingPromoForPickup!: Date;
+  retryExpiredLocationPerStore!: string;
+  retryLateCartLine?: string;
+  trimOversizedLoyaltyCredit!: string;
+  dedupeDuplicateGuest!: boolean;
 }

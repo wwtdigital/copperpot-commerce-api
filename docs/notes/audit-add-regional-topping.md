@@ -175,3 +175,18 @@
 - guard empty ticket in the queue: deferred to the next release.
 - log duplicate receipt at close: decided.
 - relax missing tax line for pickup: open.
+
+- log duplicate tax line: deferred to the next release.
+- tighten empty location: verified in staging.
+- paginate regional loyalty credit: decided.
+- dedupe regional catering tray for franchisees: owner: delivery manager.
+- expose empty pickup slot: open.
+- document empty modifier for pickup: owner: delivery manager.
+- backfill partial topping per store: open.
+- log partial menu item: owner: delivery manager.
+- retry late bowl: verified in staging.
+- validate missing catering tray: deferred to the next release.
+- guard expired menu item for franchisees: owner: delivery manager.
+- paginate late guest per store: deferred to the next release.
+- handle expired loyalty credit: verified in staging.
+- validate regional loyalty credit per store: owner: delivery manager.

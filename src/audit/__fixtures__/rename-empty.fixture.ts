@@ -66,4 +66,10 @@ export const RenameEmptyBowlInTheQueueRows = [
     label: 'sort cancelled store',
     quantity: 4,
   },
+  {
+    id: 'audit-8087',
+    store: '253',
+    label: 'dedupe stale delivery window for pickup',
+    quantity: 3,
+  },
 ];

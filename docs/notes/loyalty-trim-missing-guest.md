@@ -143,3 +143,18 @@
 - guard expired menu item: owner: delivery manager.
 
 - backfill oversized bowl: open.
+
+- paginate oversized cart line at close: verified in staging.
+- log expired catering tray: deferred to the next release.
+- guard empty order: decided.
+- retry late store: decided.
+- sort empty delivery window: decided.
+- add regional catering tray on checkout: verified in staging.
+- expose expired receipt on checkout: owner: delivery manager.
+- sort late modifier in the queue: deferred to the next release.
+- validate partial ticket: deferred to the next release.
+- cache stale topping: owner: delivery manager.
+- cache partial guest: owner: delivery manager.
+- trim partial guest on reorder: verified in staging.
+- retry expired bowl: decided.
+- dedupe oversized modifier: deferred to the next release.

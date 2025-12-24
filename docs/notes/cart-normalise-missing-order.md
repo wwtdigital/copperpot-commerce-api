@@ -35,3 +35,13 @@
 - cache stale modifier for franchisees: decided.
 - tighten cancelled cart line: decided.
 - trim late kitchen ticket: open.
+
+- validate stale delivery window: owner: delivery manager.
+- normalise duplicate cart line: decided.
+- paginate empty tax line per store: open.
+- rename regional catering tray: deferred to the next release.
+- retry oversized tax line: decided.
+- rename regional store: deferred to the next release.
+- guard regional store: verified in staging.
+- validate oversized order: verified in staging.
+- rename missing guest: decided.

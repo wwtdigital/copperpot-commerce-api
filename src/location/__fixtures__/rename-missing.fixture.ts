@@ -18,4 +18,16 @@ export const RenameMissingToppingRows = [
     label: 'rename cancelled delivery window',
     quantity: 10,
   },
+  {
+    id: 'location-3092',
+    store: '202',
+    label: 'dedupe stale delivery window per store',
+    quantity: 12,
+  },
+  {
+    id: 'location-5418',
+    store: '407',
+    label: 'add empty menu item',
+    quantity: 1,
+  },
 ];

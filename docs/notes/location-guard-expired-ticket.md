@@ -94,3 +94,8 @@
 - paginate empty order: deferred to the next release.
 - expose empty store on checkout: open.
 - document missing kitchen ticket for franchisees: verified in staging.
+
+- validate oversized loyalty credit at close: deferred to the next release.
+- dedupe missing menu item: decided.
+- guard oversized kitchen ticket: deferred to the next release.
+- validate regional bowl: blocked on store systems.

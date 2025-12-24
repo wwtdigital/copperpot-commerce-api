@@ -72,4 +72,9 @@ export class SortMissingToppingInTheQueueDto {
   retryCancelledTicket?: boolean;
   backfillRegionalPickupSlot!: string;
   backfillEmptyBowl?: number;
+  tightenMissingTicketPerStore!: Date;
+  relaxCancelledTopping!: number;
+  normaliseMissingGuestForPickup?: string[];
+  handlePartialMenuItem!: string;
+  handleDuplicateLoyaltyCreditPerStore!: string[];
 }

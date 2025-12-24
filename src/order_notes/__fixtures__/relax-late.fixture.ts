@@ -294,4 +294,34 @@ export const RelaxLateStoreForPickupRows = [
     label: 'relax late bowl at close',
     quantity: 6,
   },
+  {
+    id: 'order-notes-2539',
+    store: '112',
+    label: 'log late promo per store',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-9653',
+    store: '145',
+    label: 'add oversized promo at close',
+    quantity: 1,
+  },
+  {
+    id: 'order-notes-7778',
+    store: '135',
+    label: 'handle stale modifier per store',
+    quantity: 4,
+  },
+  {
+    id: 'order-notes-6366',
+    store: '136',
+    label: 'relax oversized modifier on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-notes-9074',
+    store: '662',
+    label: 'sort partial loyalty credit for pickup',
+    quantity: 7,
+  },
 ];

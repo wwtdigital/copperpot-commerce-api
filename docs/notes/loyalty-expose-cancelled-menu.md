@@ -50,3 +50,6 @@
 - document missing catering tray on checkout: decided.
 - sort late kitchen ticket: blocked on store systems.
 - cache partial kitchen ticket for pickup: blocked on store systems.
+
+- handle oversized guest: owner: delivery manager.
+- guard expired bowl for franchisees: blocked on store systems.

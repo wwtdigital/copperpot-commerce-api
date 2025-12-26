@@ -42,4 +42,10 @@ export const ValidateDuplicateToppingRows = [
     label: 'expose partial promo on reorder',
     quantity: 7,
   },
+  {
+    id: 'order-notes-9107',
+    store: '179',
+    label: 'retry empty order',
+    quantity: 7,
+  },
 ];

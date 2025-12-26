@@ -288,4 +288,10 @@ export const RelaxLateStoreForPickupRows = [
     label: 'rename oversized menu item',
     quantity: 5,
   },
+  {
+    id: 'order-notes-5114',
+    store: '367',
+    label: 'relax late bowl at close',
+    quantity: 6,
+  },
 ];

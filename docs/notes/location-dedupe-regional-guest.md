@@ -19,3 +19,5 @@
 - tighten stale pickup slot: verified in staging.
 - document partial store: decided.
 - paginate missing bowl: deferred to the next release.
+
+- add late cart line: deferred to the next release.

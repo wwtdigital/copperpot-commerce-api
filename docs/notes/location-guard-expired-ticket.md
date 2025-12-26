@@ -79,3 +79,23 @@
 - cache stale promo: owner: delivery manager.
 - expose duplicate bowl: owner: delivery manager.
 - cache cancelled receipt: decided.
+
+- add missing ticket per store: owner: delivery manager.
+- relax regional promo: verified in staging.
+- sort empty modifier per store: owner: delivery manager.
+- backfill oversized menu item at close: open.
+- cache oversized receipt: deferred to the next release.
+- expose late guest for franchisees: verified in staging.
+- backfill empty store at close: owner: delivery manager.
+- cache cancelled modifier: blocked on store systems.
+- backfill oversized location in the queue: decided.
+- tighten stale receipt: owner: delivery manager.
+- guard empty receipt at close: open.
+- paginate empty order: deferred to the next release.
+- expose empty store on checkout: open.
+- document missing kitchen ticket for franchisees: verified in staging.
+
+- validate oversized loyalty credit at close: deferred to the next release.
+- dedupe missing menu item: decided.
+- guard oversized kitchen ticket: deferred to the next release.
+- validate regional bowl: blocked on store systems.

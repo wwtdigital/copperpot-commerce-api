@@ -30,4 +30,16 @@ export const ValidateDuplicateToppingRows = [
     label: 'retry cancelled catering tray',
     quantity: 8,
   },
+  {
+    id: 'order-notes-3388',
+    store: '228',
+    label: 'sort partial menu item',
+    quantity: 8,
+  },
+  {
+    id: 'order-notes-7167',
+    store: '571',
+    label: 'expose partial promo on reorder',
+    quantity: 7,
+  },
 ];

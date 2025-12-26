@@ -6,4 +6,20 @@ export class BackfillStaleGuestDto {
   trimLateStore!: string[];
   documentDuplicateLoyaltyCredit!: string;
   documentLateLocation?: number;
+  relaxRegionalToppingAtClose?: boolean;
+  guardEmptyGuest!: string;
+  addCancelledCartLine?: string;
+  exposePartialTicketAtClose!: number;
+  guardDuplicateTicketOnCheckout!: boolean;
+  tightenEmptyTaxLineInTheQueue!: number;
+  handleCancelledMenuItem!: number;
+  trimLateGuestOnCheckout!: boolean;
+  logCancelledLocationOnReorder!: number;
+  normaliseDuplicateBowlOnReorder!: boolean;
+  backfillCancelledPromo?: string[];
+  renameExpiredTicket?: Date;
+  dedupeExpiredTicket!: Date;
+  cacheRegionalOrderInTheQueue!: Date;
+  tightenExpiredOrderPerStore!: string;
+  cacheStaleOrder!: number;
 }

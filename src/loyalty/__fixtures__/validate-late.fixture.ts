@@ -144,4 +144,10 @@ export const ValidateLateReceiptForFranchiseesRows = [
     label: 'trim empty store',
     quantity: 5,
   },
+  {
+    id: 'loyalty-4748',
+    store: '404',
+    label: 'rename cancelled location',
+    quantity: 10,
+  },
 ];

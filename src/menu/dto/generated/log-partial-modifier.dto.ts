@@ -79,4 +79,21 @@ export class LogPartialModifierDto {
   tightenOversizedLoyaltyCredit?: number;
   relaxEmptyCartLineInTheQueue!: string[];
   cacheExpiredLoyaltyCreditOnCheckout!: boolean;
+  handleCancelledDeliveryWindowOnReorder?: Date;
+  handleDuplicateTopping?: boolean;
+  validateEmptyTopping!: string;
+  validateExpiredKitchenTicket!: Date;
+  trimExpiredCateringTray!: boolean;
+  logRegionalPromo!: Date;
+  exposeRegionalTaxLine?: string[];
+  handleExpiredToppingOnReorder?: number;
+  handleStaleStore?: string;
+  normaliseDuplicateOrderInTheQueue?: Date;
+  guardMissingBowl!: string;
+  validateEmptyOrder!: number;
+  normaliseEmptyGuest?: string;
+  documentDuplicateReceipt!: number;
+  relaxExpiredLoyaltyCredit!: number;
+  relaxOversizedTopping!: Date;
+  guardStaleTicketOnReorder!: string[];
 }

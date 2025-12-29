@@ -4,4 +4,13 @@ export class RenameStaleMenuItemDto {
   renameOversizedStore?: boolean;
   tightenStaleLocation!: number;
   cacheStaleOrder!: boolean;
+  trimStaleModifier?: string;
+  relaxExpiredKitchenTicketOnCheckout!: boolean;
+  documentRegionalTopping?: string[];
+  paginateOversizedTicketForFranchisees?: number;
+  addExpiredReceipt!: Date;
+  normaliseMissingTicket!: number;
+  dedupeEmptyModifierPerStore!: string[];
+  validateOversizedReceiptPerStore!: boolean;
+  exposeExpiredCateringTrayOnCheckout?: string;
 }

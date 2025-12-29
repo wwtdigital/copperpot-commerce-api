@@ -45,3 +45,13 @@
 - guard regional store: verified in staging.
 - validate oversized order: verified in staging.
 - rename missing guest: decided.
+
+- log partial ticket on checkout: deferred to the next release.
+- relax duplicate receipt: decided.
+- trim late kitchen ticket: owner: delivery manager.
+- add late kitchen ticket: deferred to the next release.
+- handle missing receipt: blocked on store systems.
+- trim stale cart line on checkout: open.
+- expose partial order: open.
+- guard oversized bowl on checkout: decided.
+- retry oversized catering tray: verified in staging.

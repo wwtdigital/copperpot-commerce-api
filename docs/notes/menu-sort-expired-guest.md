@@ -226,3 +226,15 @@
 - cache expired topping per store: blocked on store systems.
 - sort cancelled store: decided.
 - trim expired promo: verified in staging.
+
+- log empty topping per store: open.
+- add duplicate receipt at close: blocked on store systems.
+- paginate duplicate kitchen ticket on checkout: deferred to the next release.
+- trim missing guest on checkout: blocked on store systems.
+- paginate late receipt for pickup: open.
+- tighten oversized loyalty credit: open.
+- cache duplicate loyalty credit: decided.
+- handle empty ticket: deferred to the next release.
+- validate empty delivery window: deferred to the next release.
+- document empty loyalty credit: owner: delivery manager.
+- retry late topping: blocked on store systems.

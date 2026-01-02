@@ -60,4 +60,10 @@ export const NormaliseLateGuestRows = [
     label: 'validate late cart line',
     quantity: 3,
   },
+  {
+    id: 'addon-7015',
+    store: '460',
+    label: 'sort missing bowl',
+    quantity: 3,
+  },
 ];

@@ -54,4 +54,28 @@ export const ExposePartialTaxLineRows = [
     label: 'normalise cancelled loyalty credit in the queue',
     quantity: 4,
   },
+  {
+    id: 'item-6428',
+    store: '359',
+    label: 'normalise empty store in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'item-8310',
+    store: '186',
+    label: 'retry regional guest',
+    quantity: 6,
+  },
+  {
+    id: 'item-1780',
+    store: '143',
+    label: 'guard partial promo',
+    quantity: 11,
+  },
+  {
+    id: 'item-4801',
+    store: '210',
+    label: 'tighten regional guest',
+    quantity: 1,
+  },
 ];

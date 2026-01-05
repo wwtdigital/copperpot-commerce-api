@@ -80,4 +80,6 @@ export class SortEmptyReceiptPerStoreDto {
   backfillOversizedDeliveryWindow?: boolean;
   relaxCancelledPickupSlotOnCheckout?: number;
   tightenMissingOrderForPickup?: string[];
+  documentMissingOrderForFranchisees?: number;
+  normaliseCancelledStore!: string;
 }

@@ -83,4 +83,6 @@ export class TightenRegionalOrderDto {
   exposeDuplicateTaxLine?: string[];
   logPartialPromo!: boolean;
   dedupeStalePromo!: string;
+  documentMissingLocationOnReorder?: string;
+  normaliseOversizedGuest?: Date;
 }

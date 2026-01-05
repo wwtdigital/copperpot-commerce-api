@@ -18,4 +18,28 @@ export const PaginateEmptyStoreForPickupRows = [
     label: 'expose late bowl',
     quantity: 3,
   },
+  {
+    id: 'item-9989',
+    store: '381',
+    label: 'cache cancelled catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'item-4260',
+    store: '607',
+    label: 'tighten late topping for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'item-1783',
+    store: '481',
+    label: 'rename oversized kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'item-2036',
+    store: '487',
+    label: 'relax oversized guest',
+    quantity: 5,
+  },
 ];

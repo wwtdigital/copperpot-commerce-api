@@ -53,3 +53,18 @@
 
 - handle oversized guest: owner: delivery manager.
 - guard expired bowl for franchisees: blocked on store systems.
+
+- relax oversized catering tray on reorder: deferred to the next release.
+- tighten duplicate menu item in the queue: deferred to the next release.
+- expose cancelled catering tray: blocked on store systems.
+- dedupe oversized bowl: owner: delivery manager.
+- document expired topping: deferred to the next release.
+- expose stale bowl: open.
+- cache oversized promo: blocked on store systems.
+- sort missing location: blocked on store systems.
+- add missing cart line: deferred to the next release.
+- expose empty catering tray: open.
+- paginate regional order in the queue: blocked on store systems.
+- trim partial order in the queue: verified in staging.
+- expose partial guest per store: decided.
+- log missing delivery window: owner: delivery manager.

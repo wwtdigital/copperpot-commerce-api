@@ -150,4 +150,16 @@ export const ValidateLateReceiptForFranchiseesRows = [
     label: 'rename cancelled location',
     quantity: 10,
   },
+  {
+    id: 'loyalty-6221',
+    store: '490',
+    label: 'handle missing cart line in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-7223',
+    store: '504',
+    label: 'retry partial guest',
+    quantity: 10,
+  },
 ];

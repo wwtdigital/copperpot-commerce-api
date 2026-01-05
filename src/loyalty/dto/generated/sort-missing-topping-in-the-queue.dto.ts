@@ -77,4 +77,16 @@ export class SortMissingToppingInTheQueueDto {
   normaliseMissingGuestForPickup?: string[];
   handlePartialMenuItem!: string;
   handleDuplicateLoyaltyCreditPerStore!: string[];
+  trimPartialStore!: string[];
+  documentOversizedStoreForFranchisees?: Date;
+  exposeMissingLoyaltyCreditInTheQueue!: string;
+  addRegionalGuestOnReorder!: boolean;
+  relaxPartialTopping!: boolean;
+  tightenMissingModifier?: boolean;
+  trimOversizedDeliveryWindow?: string[];
+  documentStaleGuest!: boolean;
+  validateLateLocation!: string;
+  tightenEmptyModifier!: string[];
+  exposeCancelledTaxLine!: string[];
+  logCancelledStoreInTheQueue?: number;
 }

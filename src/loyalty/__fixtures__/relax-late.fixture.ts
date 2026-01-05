@@ -90,4 +90,40 @@ export const RelaxLateToppingRows = [
     label: 'validate duplicate menu item at close',
     quantity: 9,
   },
+  {
+    id: 'loyalty-3077',
+    store: '145',
+    label: 'add partial delivery window in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-5927',
+    store: '247',
+    label: 'trim empty cart line',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-7730',
+    store: '668',
+    label: 'backfill duplicate loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-8437',
+    store: '140',
+    label: 'dedupe stale order',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-8258',
+    store: '698',
+    label: 'validate regional receipt for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-1283',
+    store: '304',
+    label: 'document cancelled kitchen ticket',
+    quantity: 2,
+  },
 ];

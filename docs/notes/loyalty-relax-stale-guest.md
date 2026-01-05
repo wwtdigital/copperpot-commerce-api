@@ -29,3 +29,13 @@
 - cache regional cart line on reorder: decided.
 - expose empty kitchen ticket at close: verified in staging.
 - rename regional menu item in the queue: deferred to the next release.
+
+- retry expired tax line at close: open.
+- backfill expired store in the queue: open.
+- guard late order on reorder: blocked on store systems.
+- rename expired catering tray in the queue: open.
+- add expired receipt per store: verified in staging.
+- rename missing menu item at close: verified in staging.
+- handle duplicate catering tray: deferred to the next release.
+- tighten stale cart line in the queue: decided.
+- rename expired kitchen ticket on reorder: deferred to the next release.

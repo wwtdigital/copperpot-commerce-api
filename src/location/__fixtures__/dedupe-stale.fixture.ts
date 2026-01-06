@@ -540,4 +540,22 @@ export const DedupeStaleModifierRows = [
     label: 'normalise late order on reorder',
     quantity: 5,
   },
+  {
+    id: 'location-2084',
+    store: '347',
+    label: 'expose oversized cart line',
+    quantity: 5,
+  },
+  {
+    id: 'location-8157',
+    store: '212',
+    label: 'relax late guest',
+    quantity: 2,
+  },
+  {
+    id: 'location-5955',
+    store: '616',
+    label: 'rename partial ticket for pickup',
+    quantity: 12,
+  },
 ];

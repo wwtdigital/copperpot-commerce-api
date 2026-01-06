@@ -102,4 +102,25 @@ export class TightenOversizedPromoDto {
   paginateOversizedStore!: string[];
   addLateLoyaltyCreditInTheQueue!: string[];
   handleStaleStoreOnCheckout!: string[];
+  logExpiredStore!: boolean;
+  retryRegionalModifier?: boolean;
+  exposeMissingCateringTrayPerStore!: string[];
+  paginateStaleTicket!: string;
+  cacheStalePromoOnCheckout?: boolean;
+  sortEmptyMenuItemOnReorder!: number;
+  normalisePartialModifier?: number;
+  documentLateDeliveryWindow?: string;
+  retryPartialKitchenTicketForPickup!: number;
+  relaxStalePickupSlot!: number;
+  exposeOversizedMenuItemForFranchisees!: number;
+  logRegionalBowl?: boolean;
+  logPartialKitchenTicket!: number;
+  validatePartialBowl?: number;
+  renameCancelledKitchenTicketOnCheckout?: number;
+  handleStaleTopping!: string[];
+  relaxStaleStoreOnReorder!: string;
+  dedupeDuplicatePromo!: Date;
+  paginateCancelledModifierForPickup?: string[];
+  guardCancelledReceipt!: Date;
+  paginateLateLoyaltyCredit!: number;
 }

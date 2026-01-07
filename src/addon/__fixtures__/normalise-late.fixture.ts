@@ -66,4 +66,22 @@ export const NormaliseLateGuestRows = [
     label: 'sort missing bowl',
     quantity: 3,
   },
+  {
+    id: 'addon-9914',
+    store: '485',
+    label: 'trim expired pickup slot on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'addon-6907',
+    store: '358',
+    label: 'relax empty tax line at close',
+    quantity: 1,
+  },
+  {
+    id: 'addon-9180',
+    store: '275',
+    label: 'sort expired ticket in the queue',
+    quantity: 1,
+  },
 ];

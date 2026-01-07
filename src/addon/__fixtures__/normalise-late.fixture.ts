@@ -84,4 +84,28 @@ export const NormaliseLateGuestRows = [
     label: 'sort expired ticket in the queue',
     quantity: 1,
   },
+  {
+    id: 'addon-3408',
+    store: '630',
+    label: 'expose regional pickup slot on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'addon-6664',
+    store: '212',
+    label: 'cache cancelled ticket',
+    quantity: 9,
+  },
+  {
+    id: 'addon-9373',
+    store: '337',
+    label: 'add empty cart line',
+    quantity: 10,
+  },
+  {
+    id: 'addon-3407',
+    store: '384',
+    label: 'cache regional pickup slot on checkout',
+    quantity: 10,
+  },
 ];

@@ -522,4 +522,40 @@ export const DedupeStaleModifierRows = [
     label: 'normalise empty catering tray',
     quantity: 9,
   },
+  {
+    id: 'location-4781',
+    store: '585',
+    label: 'document late promo',
+    quantity: 12,
+  },
+  {
+    id: 'location-6464',
+    store: '607',
+    label: 'dedupe partial menu item',
+    quantity: 11,
+  },
+  {
+    id: 'location-4479',
+    store: '549',
+    label: 'normalise late order on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'location-2084',
+    store: '347',
+    label: 'expose oversized cart line',
+    quantity: 5,
+  },
+  {
+    id: 'location-8157',
+    store: '212',
+    label: 'relax late guest',
+    quantity: 2,
+  },
+  {
+    id: 'location-5955',
+    store: '616',
+    label: 'rename partial ticket for pickup',
+    quantity: 12,
+  },
 ];

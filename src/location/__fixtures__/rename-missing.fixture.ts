@@ -30,4 +30,10 @@ export const RenameMissingToppingRows = [
     label: 'add empty menu item',
     quantity: 1,
   },
+  {
+    id: 'location-6264',
+    store: '663',
+    label: 'relax missing loyalty credit per store',
+    quantity: 2,
+  },
 ];

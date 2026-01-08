@@ -184,3 +184,18 @@
 - document regional modifier for pickup: decided.
 - guard stale guest for pickup: blocked on store systems.
 - relax regional tax line: deferred to the next release.
+
+- trim partial cart line: deferred to the next release.
+- trim expired guest in the queue: owner: delivery manager.
+- rename empty bowl: owner: delivery manager.
+- dedupe expired pickup slot per store: deferred to the next release.
+- expose stale ticket per store: owner: delivery manager.
+- expose missing loyalty credit: deferred to the next release.
+- paginate expired ticket in the queue: blocked on store systems.
+- normalise expired location: decided.
+- retry empty receipt: open.
+- trim late pickup slot: open.
+- paginate cancelled order: decided.
+- relax expired order: owner: delivery manager.
+- retry partial receipt per store: decided.
+- tighten missing receipt: open.

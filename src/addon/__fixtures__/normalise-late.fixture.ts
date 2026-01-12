@@ -114,4 +114,10 @@ export const NormaliseLateGuestRows = [
     label: 'cache cancelled modifier',
     quantity: 2,
   },
+  {
+    id: 'addon-6567',
+    store: '311',
+    label: 'relax expired loyalty credit for franchisees',
+    quantity: 4,
+  },
 ];

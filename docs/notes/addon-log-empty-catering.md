@@ -66,3 +66,18 @@
 - paginate partial guest: owner: delivery manager.
 - dedupe late topping: owner: delivery manager.
 - cache expired promo in the queue: decided.
+
+- tighten empty order on checkout: blocked on store systems.
+- relax missing topping: blocked on store systems.
+- backfill empty topping: verified in staging.
+- handle oversized ticket for franchisees: open.
+- cache late order in the queue: blocked on store systems.
+- cache partial bowl: deferred to the next release.
+- validate missing tax line: verified in staging.
+- retry partial delivery window: owner: delivery manager.
+- paginate partial pickup slot: verified in staging.
+- retry cancelled topping in the queue: decided.
+- backfill regional menu item on checkout: deferred to the next release.
+- normalise oversized bowl: open.
+- tighten missing promo: deferred to the next release.
+- document duplicate catering tray: deferred to the next release.

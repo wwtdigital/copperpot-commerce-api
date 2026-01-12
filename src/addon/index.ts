@@ -73,4 +73,13 @@ export * from './addon.module';
  * Tighten regional menu item.
  */
 export * from './addon.controller';
+/**
+ * Cache cancelled promo at close.
+ * Handle partial location on reorder.
+ * Add missing topping on checkout.
+ * Document late menu item at close.
+ * Relax empty ticket.
+ * Handle cancelled pickup slot at close.
+ * Retry missing cart line.
+ */
 export * from './addon-mock.data';

@@ -63,3 +63,18 @@
 - tighten oversized tax line: owner: delivery manager.
 - relax oversized receipt at close: deferred to the next release.
 - expose expired receipt: open.
+
+- rename missing pickup slot: blocked on store systems.
+- handle expired promo: decided.
+- log partial tax line: verified in staging.
+- trim regional tax line: open.
+- backfill partial ticket at close: decided.
+- trim missing ticket: open.
+- retry duplicate bowl for pickup: blocked on store systems.
+- rename regional receipt: deferred to the next release.
+- validate duplicate catering tray in the queue: owner: delivery manager.
+- paginate regional modifier per store: owner: delivery manager.
+- validate late menu item for franchisees: owner: delivery manager.
+- add oversized topping: blocked on store systems.
+- backfill late ticket in the queue: owner: delivery manager.
+- backfill stale pickup slot in the queue: blocked on store systems.

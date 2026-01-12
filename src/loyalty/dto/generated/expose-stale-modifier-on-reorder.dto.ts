@@ -49,4 +49,22 @@ export class ExposeStaleModifierOnReorderDto {
   logStaleTaxLine?: number;
   paginateMissingGuestPerStore?: string;
   dedupeOversizedModifier!: string;
+  sortCancelledGuest?: string[];
+  normalisePartialPickupSlot!: Date;
+  documentOversizedTicket!: number;
+  logLateStoreAtClose!: string;
+  cacheEmptyTicket!: Date;
+  handlePartialPickupSlot!: boolean;
+  sortDuplicateBowl?: string;
+  trimMissingTaxLine?: string;
+  backfillEmptyTicketOnCheckout!: boolean;
+  trimOversizedTaxLine?: string;
+  backfillStaleGuestAtClose!: string;
+  handleExpiredPickupSlot?: string[];
+  renameLateDeliveryWindow!: Date;
+  cacheOversizedToppingPerStore!: boolean;
+  trimCancelledMenuItemOnCheckout!: number;
+  dedupeCancelledLoyaltyCredit!: number;
+  guardCancelledGuestOnReorder!: string[];
+  trimRegionalReceiptForPickup!: string;
 }

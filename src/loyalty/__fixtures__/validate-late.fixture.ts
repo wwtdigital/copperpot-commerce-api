@@ -162,4 +162,22 @@ export const ValidateLateReceiptForFranchiseesRows = [
     label: 'retry partial guest',
     quantity: 10,
   },
+  {
+    id: 'loyalty-2280',
+    store: '282',
+    label: 'rename expired tax line in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6138',
+    store: '288',
+    label: 'retry duplicate loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1214',
+    store: '330',
+    label: 'tighten duplicate ticket for pickup',
+    quantity: 8,
+  },
 ];

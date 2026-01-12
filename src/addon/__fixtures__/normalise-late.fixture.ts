@@ -120,4 +120,10 @@ export const NormaliseLateGuestRows = [
     label: 'relax expired loyalty credit for franchisees',
     quantity: 4,
   },
+  {
+    id: 'addon-4102',
+    store: '387',
+    label: 'trim late kitchen ticket per store',
+    quantity: 10,
+  },
 ];

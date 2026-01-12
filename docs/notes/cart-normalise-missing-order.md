@@ -55,3 +55,18 @@
 - expose partial order: open.
 - guard oversized bowl on checkout: decided.
 - retry oversized catering tray: verified in staging.
+
+- dedupe stale modifier in the queue: decided.
+- normalise missing loyalty credit: verified in staging.
+- guard regional store: deferred to the next release.
+- backfill late menu item: deferred to the next release.
+- guard empty loyalty credit for pickup: deferred to the next release.
+- trim duplicate promo: verified in staging.
+- backfill cancelled modifier: decided.
+- handle expired bowl: deferred to the next release.
+- handle late order at close: decided.
+- log late cart line: open.
+- document missing delivery window: decided.
+- log late store: verified in staging.
+- relax partial store per store: decided.
+- cache empty order at close: verified in staging.

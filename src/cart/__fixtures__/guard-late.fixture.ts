@@ -366,4 +366,10 @@ export const GuardLateCateringTrayForFranchiseesRows = [
     label: 'log regional guest at close',
     quantity: 11,
   },
+  {
+    id: 'cart-7373',
+    store: '567',
+    label: 'paginate cancelled location on reorder',
+    quantity: 9,
+  },
 ];

@@ -180,4 +180,10 @@ export const NormaliseLateGuestRows = [
     label: 'validate expired ticket for pickup',
     quantity: 8,
   },
+  {
+    id: 'addon-2362',
+    store: '639',
+    label: 'paginate regional bowl',
+    quantity: 2,
+  },
 ];

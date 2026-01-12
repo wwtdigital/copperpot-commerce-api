@@ -6,4 +6,11 @@ export class TrimRegionalOrderOnReorderDto {
   guardPartialKitchenTicket!: string[];
   documentLateModifier?: boolean;
   dedupeRegionalCateringTray?: string;
+  addOversizedLocation!: string[];
+  sortPartialStoreOnCheckout?: number;
+  dedupeExpiredCartLine!: boolean;
+  backfillCancelledStore?: number;
+  relaxLateTaxLine?: string;
+  paginateRegionalStore?: string[];
+  backfillEmptyLoyaltyCredit!: string;
 }

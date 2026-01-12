@@ -540,4 +540,52 @@ export const PaginateExpiredToppingRows = [
     label: 'tighten oversized pickup slot',
     quantity: 8,
   },
+  {
+    id: 'cart-5253',
+    store: '102',
+    label: 'dedupe missing order per store',
+    quantity: 10,
+  },
+  {
+    id: 'cart-2973',
+    store: '403',
+    label: 'trim partial guest',
+    quantity: 11,
+  },
+  {
+    id: 'cart-6503',
+    store: '251',
+    label: 'tighten partial ticket',
+    quantity: 7,
+  },
+  {
+    id: 'cart-9804',
+    store: '190',
+    label: 'guard oversized bowl',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4710',
+    store: '507',
+    label: 'trim missing store',
+    quantity: 1,
+  },
+  {
+    id: 'cart-8903',
+    store: '645',
+    label: 'backfill expired ticket',
+    quantity: 4,
+  },
+  {
+    id: 'cart-8909',
+    store: '164',
+    label: 'normalise late location',
+    quantity: 3,
+  },
+  {
+    id: 'cart-6745',
+    store: '456',
+    label: 'relax oversized loyalty credit in the queue',
+    quantity: 9,
+  },
 ];

@@ -61,3 +61,8 @@
 - trim late promo: verified in staging.
 - relax oversized location on checkout: open.
 - retry missing cart line: verified in staging.
+
+- cache cancelled promo: blocked on store systems.
+- paginate partial guest: owner: delivery manager.
+- dedupe late topping: owner: delivery manager.
+- cache expired promo in the queue: decided.

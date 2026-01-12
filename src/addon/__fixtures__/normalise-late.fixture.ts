@@ -144,4 +144,40 @@ export const NormaliseLateGuestRows = [
     label: 'backfill stale store',
     quantity: 10,
   },
+  {
+    id: 'addon-4821',
+    store: '226',
+    label: 'normalise oversized kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'addon-9130',
+    store: '151',
+    label: 'tighten cancelled modifier on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'addon-3062',
+    store: '464',
+    label: 'guard cancelled guest on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'addon-8260',
+    store: '605',
+    label: 'handle duplicate topping at close',
+    quantity: 12,
+  },
+  {
+    id: 'addon-1828',
+    store: '110',
+    label: 'paginate duplicate catering tray for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'addon-4372',
+    store: '650',
+    label: 'validate expired ticket for pickup',
+    quantity: 8,
+  },
 ];

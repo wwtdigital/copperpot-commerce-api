@@ -46,3 +46,38 @@
 - validate duplicate tax line for pickup: decided.
 - sort stale menu item: owner: delivery manager.
 - sort empty ticket: owner: delivery manager.
+
+- log missing receipt: deferred to the next release.
+- trim missing receipt: owner: delivery manager.
+- dedupe regional promo: owner: delivery manager.
+- backfill partial guest: open.
+- rename empty menu item: verified in staging.
+- log duplicate location: blocked on store systems.
+- guard expired ticket at close: owner: delivery manager.
+- rename stale receipt: blocked on store systems.
+- cache partial tax line: decided.
+- normalise partial order: deferred to the next release.
+- guard stale location: verified in staging.
+- trim late promo: verified in staging.
+- relax oversized location on checkout: open.
+- retry missing cart line: verified in staging.
+
+- cache cancelled promo: blocked on store systems.
+- paginate partial guest: owner: delivery manager.
+- dedupe late topping: owner: delivery manager.
+- cache expired promo in the queue: decided.
+
+- tighten empty order on checkout: blocked on store systems.
+- relax missing topping: blocked on store systems.
+- backfill empty topping: verified in staging.
+- handle oversized ticket for franchisees: open.
+- cache late order in the queue: blocked on store systems.
+- cache partial bowl: deferred to the next release.
+- validate missing tax line: verified in staging.
+- retry partial delivery window: owner: delivery manager.
+- paginate partial pickup slot: verified in staging.
+- retry cancelled topping in the queue: decided.
+- backfill regional menu item on checkout: deferred to the next release.
+- normalise oversized bowl: open.
+- tighten missing promo: deferred to the next release.
+- document duplicate catering tray: deferred to the next release.

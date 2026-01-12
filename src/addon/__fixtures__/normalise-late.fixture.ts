@@ -108,4 +108,22 @@ export const NormaliseLateGuestRows = [
     label: 'cache regional pickup slot on checkout',
     quantity: 10,
   },
+  {
+    id: 'addon-3058',
+    store: '200',
+    label: 'cache cancelled modifier',
+    quantity: 2,
+  },
+  {
+    id: 'addon-6567',
+    store: '311',
+    label: 'relax expired loyalty credit for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'addon-4102',
+    store: '387',
+    label: 'trim late kitchen ticket per store',
+    quantity: 10,
+  },
 ];

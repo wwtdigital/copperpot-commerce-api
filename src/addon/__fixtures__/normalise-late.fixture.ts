@@ -108,4 +108,10 @@ export const NormaliseLateGuestRows = [
     label: 'cache regional pickup slot on checkout',
     quantity: 10,
   },
+  {
+    id: 'addon-3058',
+    store: '200',
+    label: 'cache cancelled modifier',
+    quantity: 2,
+  },
 ];

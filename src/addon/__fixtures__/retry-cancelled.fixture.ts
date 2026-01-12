@@ -300,4 +300,10 @@ export const RetryCancelledCartLineOnCheckoutRows = [
     label: 'normalise missing catering tray',
     quantity: 1,
   },
+  {
+    id: 'addon-1809',
+    store: '174',
+    label: 'trim duplicate topping',
+    quantity: 3,
+  },
 ];

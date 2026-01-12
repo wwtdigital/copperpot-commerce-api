@@ -46,3 +46,18 @@
 - validate duplicate tax line for pickup: decided.
 - sort stale menu item: owner: delivery manager.
 - sort empty ticket: owner: delivery manager.
+
+- log missing receipt: deferred to the next release.
+- trim missing receipt: owner: delivery manager.
+- dedupe regional promo: owner: delivery manager.
+- backfill partial guest: open.
+- rename empty menu item: verified in staging.
+- log duplicate location: blocked on store systems.
+- guard expired ticket at close: owner: delivery manager.
+- rename stale receipt: blocked on store systems.
+- cache partial tax line: decided.
+- normalise partial order: deferred to the next release.
+- guard stale location: verified in staging.
+- trim late promo: verified in staging.
+- relax oversized location on checkout: open.
+- retry missing cart line: verified in staging.

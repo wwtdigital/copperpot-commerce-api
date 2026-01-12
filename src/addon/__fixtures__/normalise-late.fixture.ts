@@ -126,4 +126,22 @@ export const NormaliseLateGuestRows = [
     label: 'trim late kitchen ticket per store',
     quantity: 10,
   },
+  {
+    id: 'addon-5041',
+    store: '401',
+    label: 'paginate missing delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'addon-7296',
+    store: '144',
+    label: 'normalise stale guest',
+    quantity: 5,
+  },
+  {
+    id: 'addon-4202',
+    store: '275',
+    label: 'backfill stale store',
+    quantity: 10,
+  },
 ];

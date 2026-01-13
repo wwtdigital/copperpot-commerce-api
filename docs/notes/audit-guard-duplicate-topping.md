@@ -22,3 +22,14 @@
 - cache oversized modifier: decided.
 - normalise expired ticket: decided.
 - sort missing catering tray: open.
+
+- log late bowl per store: open.
+- normalise missing topping: decided.
+- tighten expired store: verified in staging.
+- paginate oversized catering tray for pickup: verified in staging.
+- cache expired pickup slot at close: owner: delivery manager.
+- validate duplicate delivery window: verified in staging.
+- sort expired loyalty credit: deferred to the next release.
+- trim cancelled loyalty credit: open.
+- validate oversized topping: open.
+- retry oversized cart line on checkout: verified in staging.

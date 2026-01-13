@@ -90,3 +90,7 @@
 - document duplicate modifier: decided.
 - paginate duplicate modifier per store: blocked on store systems.
 - expose regional kitchen ticket at close: owner: delivery manager.
+
+- paginate stale menu item for franchisees: verified in staging.
+- dedupe expired promo: blocked on store systems.
+- handle regional receipt for franchisees: blocked on store systems.

@@ -48,4 +48,22 @@ export const ValidateDuplicateToppingRows = [
     label: 'retry empty order',
     quantity: 7,
   },
+  {
+    id: 'order-notes-8168',
+    store: '461',
+    label: 'tighten oversized modifier on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'order-notes-8835',
+    store: '526',
+    label: 'paginate expired store',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-2907',
+    store: '157',
+    label: 'relax late promo for franchisees',
+    quantity: 9,
+  },
 ];

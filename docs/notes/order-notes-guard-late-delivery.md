@@ -19,3 +19,8 @@
 - sort empty topping: verified in staging.
 - retry expired receipt: decided.
 - expose expired store on reorder: owner: delivery manager.
+
+- backfill partial ticket on reorder: deferred to the next release.
+- dedupe partial kitchen ticket: decided.
+- rename empty pickup slot: owner: delivery manager.
+- trim cancelled modifier: deferred to the next release.

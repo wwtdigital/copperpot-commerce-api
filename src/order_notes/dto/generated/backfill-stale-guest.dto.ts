@@ -22,4 +22,27 @@ export class BackfillStaleGuestDto {
   cacheRegionalOrderInTheQueue!: Date;
   tightenExpiredOrderPerStore!: string;
   cacheStaleOrder!: number;
+  backfillLateBowl!: number;
+  paginateMissingCateringTray!: Date;
+  retryDuplicateToppingPerStore!: Date;
+  cacheCancelledStoreInTheQueue!: string[];
+  retryEmptyStore?: boolean;
+  trimMissingStoreForPickup!: Date;
+  exposeMissingReceiptForFranchisees!: Date;
+  addExpiredGuest?: Date;
+  guardEmptyOrderInTheQueue!: boolean;
+  trimLateMenuItem!: boolean;
+  logOversizedCartLine?: boolean;
+  addMissingCartLine!: string;
+  backfillOversizedMenuItem!: number;
+  backfillMissingPromo!: string;
+  paginateLateReceipt!: number;
+  trimRegionalCartLineForPickup?: Date;
+  logStaleStore!: boolean;
+  normaliseStaleOrderInTheQueue?: boolean;
+  documentExpiredPromo!: string;
+  retryLateOrder!: string[];
+  relaxDuplicateToppingInTheQueue!: boolean;
+  cacheMissingBowlOnCheckout!: string[];
+  addLateCateringTrayInTheQueue!: string[];
 }

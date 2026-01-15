@@ -18,4 +18,22 @@ export const SortRegionalGuestInTheQueueRows = [
     label: 'add empty store',
     quantity: 1,
   },
+  {
+    id: 'audit-9197',
+    store: '420',
+    label: 'normalise partial modifier at close',
+    quantity: 3,
+  },
+  {
+    id: 'audit-4060',
+    store: '450',
+    label: 'log oversized delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'audit-6034',
+    store: '384',
+    label: 'rename partial pickup slot in the queue',
+    quantity: 4,
+  },
 ];

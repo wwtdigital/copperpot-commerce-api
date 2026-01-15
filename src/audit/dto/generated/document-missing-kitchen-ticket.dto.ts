@@ -137,4 +137,6 @@ export class DocumentMissingKitchenTicketDto {
   backfillCancelledOrder!: string[];
   sortMissingCateringTray?: number;
   addPartialBowlAtClose!: string[];
+  exposeMissingLocation!: number;
+  handleRegionalModifierOnCheckout!: string[];
 }

@@ -190,3 +190,6 @@
 - paginate late guest per store: deferred to the next release.
 - handle expired loyalty credit: verified in staging.
 - validate regional loyalty credit per store: owner: delivery manager.
+
+- expose stale promo: owner: delivery manager.
+- document partial bowl: open.

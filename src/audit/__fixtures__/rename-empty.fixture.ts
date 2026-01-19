@@ -72,4 +72,10 @@ export const RenameEmptyBowlInTheQueueRows = [
     label: 'dedupe stale delivery window for pickup',
     quantity: 3,
   },
+  {
+    id: 'audit-9180',
+    store: '206',
+    label: 'document cancelled store',
+    quantity: 10,
+  },
 ];

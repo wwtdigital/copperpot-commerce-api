@@ -25,4 +25,12 @@ export class RelaxLateDeliveryWindowOnReorderDto {
   normaliseEmptyCartLineOnCheckout!: boolean;
   cacheEmptyLocation!: number;
   documentExpiredKitchenTicket!: string[];
+  retryRegionalCateringTrayAtClose!: boolean;
+  renameOversizedLocation!: Date;
+  tightenRegionalTicket!: string[];
+  relaxStaleOrder!: number;
+  addRegionalTaxLine!: Date;
+  logCancelledLocation!: Date;
+  normaliseCancelledModifierInTheQueue!: string[];
+  handleExpiredDeliveryWindowAtClose!: string[];
 }

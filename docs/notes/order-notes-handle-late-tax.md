@@ -202,3 +202,6 @@
 - rename partial kitchen ticket: deferred to the next release.
 - retry regional tax line: decided.
 - paginate expired store: decided.
+
+- normalise partial topping on reorder: deferred to the next release.
+- log duplicate cart line: open.

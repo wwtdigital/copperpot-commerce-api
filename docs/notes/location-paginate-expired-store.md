@@ -199,3 +199,6 @@
 - relax expired order: owner: delivery manager.
 - retry partial receipt per store: decided.
 - tighten missing receipt: open.
+
+- validate missing ticket: decided.
+- backfill empty store on reorder: verified in staging.

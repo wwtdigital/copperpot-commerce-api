@@ -36,4 +36,16 @@ export const SortRegionalGuestInTheQueueRows = [
     label: 'rename partial pickup slot in the queue',
     quantity: 4,
   },
+  {
+    id: 'audit-8383',
+    store: '116',
+    label: 'expose missing location on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'audit-9459',
+    store: '468',
+    label: 'tighten regional menu item',
+    quantity: 7,
+  },
 ];

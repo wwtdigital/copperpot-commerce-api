@@ -6,4 +6,17 @@ export class LogExpiredTicketPerStoreDto {
   retryExpiredGuest!: string[];
   addRegionalTicket!: Date;
   retryStaleMenuItemForPickup!: string[];
+  relaxStaleReceiptOnReorder!: string[];
+  validateLateLocationInTheQueue?: boolean;
+  backfillStaleTicketInTheQueue!: string[];
+  validateMissingGuestAtClose?: boolean;
+  guardRegionalPromoOnCheckout!: Date;
+  backfillDuplicateOrder!: Date;
+  trimExpiredDeliveryWindowAtClose?: boolean;
+  retryCancelledTaxLineInTheQueue!: string;
+  retryRegionalLoyaltyCredit?: number;
+  cacheLateReceiptOnReorder?: number;
+  trimDuplicateTaxLineForPickup!: number;
+  tightenMissingCateringTray?: string;
+  normaliseExpiredCartLine?: number;
 }

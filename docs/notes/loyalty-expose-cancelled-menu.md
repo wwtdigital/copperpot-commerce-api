@@ -68,3 +68,18 @@
 - trim partial order in the queue: verified in staging.
 - expose partial guest per store: decided.
 - log missing delivery window: owner: delivery manager.
+
+- rename empty promo: verified in staging.
+- relax cancelled cart line: owner: delivery manager.
+- cache duplicate menu item: blocked on store systems.
+- log duplicate receipt at close: owner: delivery manager.
+- add regional modifier: owner: delivery manager.
+- document expired location on reorder: blocked on store systems.
+- validate duplicate receipt: decided.
+- handle duplicate menu item: verified in staging.
+- document missing location: deferred to the next release.
+- document cancelled location: deferred to the next release.
+- dedupe empty location per store: owner: delivery manager.
+- log oversized topping per store: verified in staging.
+- rename duplicate tax line: verified in staging.
+- cache stale promo per store: deferred to the next release.

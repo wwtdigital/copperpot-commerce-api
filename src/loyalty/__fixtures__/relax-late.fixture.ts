@@ -126,4 +126,28 @@ export const RelaxLateToppingRows = [
     label: 'document cancelled kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'loyalty-7040',
+    store: '443',
+    label: 'cache empty store for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-2379',
+    store: '333',
+    label: 'trim partial bowl',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-4663',
+    store: '647',
+    label: 'trim oversized catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-9669',
+    store: '439',
+    label: 'rename missing tax line at close',
+    quantity: 3,
+  },
 ];

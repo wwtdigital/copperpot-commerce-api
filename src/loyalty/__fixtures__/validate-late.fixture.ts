@@ -162,4 +162,58 @@ export const ValidateLateReceiptForFranchiseesRows = [
     label: 'retry partial guest',
     quantity: 10,
   },
+  {
+    id: 'loyalty-2280',
+    store: '282',
+    label: 'rename expired tax line in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6138',
+    store: '288',
+    label: 'retry duplicate loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1214',
+    store: '330',
+    label: 'tighten duplicate ticket for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-6633',
+    store: '152',
+    label: 'validate partial store',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-3569',
+    store: '438',
+    label: 'dedupe expired ticket',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-3989',
+    store: '683',
+    label: 'sort expired store in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-1634',
+    store: '663',
+    label: 'handle cancelled catering tray for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-1146',
+    store: '475',
+    label: 'dedupe cancelled location',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-4898',
+    store: '515',
+    label: 'dedupe partial location',
+    quantity: 5,
+  },
 ];

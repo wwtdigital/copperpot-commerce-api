@@ -150,4 +150,10 @@ export const RelaxLateToppingRows = [
     label: 'rename missing tax line at close',
     quantity: 3,
   },
+  {
+    id: 'loyalty-1169',
+    store: '118',
+    label: 'normalise expired bowl',
+    quantity: 6,
+  },
 ];

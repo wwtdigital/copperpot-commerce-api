@@ -39,3 +39,18 @@
 - handle duplicate catering tray: deferred to the next release.
 - tighten stale cart line in the queue: decided.
 - rename expired kitchen ticket on reorder: deferred to the next release.
+
+- relax oversized store for franchisees: blocked on store systems.
+- add stale kitchen ticket: blocked on store systems.
+- handle late kitchen ticket: decided.
+- rename partial order: open.
+- validate duplicate menu item: blocked on store systems.
+- relax missing topping per store: decided.
+- validate empty receipt for pickup: owner: delivery manager.
+- dedupe missing promo: owner: delivery manager.
+- relax late store: verified in staging.
+- backfill duplicate kitchen ticket: open.
+- log stale location: open.
+- trim duplicate bowl for pickup: decided.
+- cache missing kitchen ticket: owner: delivery manager.
+- handle missing delivery window: verified in staging.

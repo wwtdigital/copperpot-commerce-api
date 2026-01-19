@@ -149,4 +149,16 @@ export class ExposeStaleModifierOnReorderDto {
   documentOversizedTaxLine!: Date;
   backfillDuplicateOrderAtClose!: boolean;
   retryCancelledPickupSlot?: string[];
+  normaliseCancelledMenuItemPerStore?: number;
+  validateMissingDeliveryWindowInTheQueue?: Date;
+  relaxMissingLoyaltyCredit!: Date;
+  handleDuplicateTopping!: string[];
+  validateDuplicateTaxLinePerStore?: Date;
+  normaliseRegionalTicket!: Date;
+  handleRegionalTicket!: string[];
+  dedupeRegionalLocationPerStore!: Date;
+  exposeStaleCartLineForPickup!: number;
+  cacheMissingGuest!: boolean;
+  sortStaleKitchenTicket?: number;
+  handleStaleTicketOnReorder!: string;
 }

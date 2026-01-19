@@ -54,3 +54,16 @@
 - trim duplicate bowl for pickup: decided.
 - cache missing kitchen ticket: owner: delivery manager.
 - handle missing delivery window: verified in staging.
+
+- add stale promo for franchisees: open.
+- add cancelled bowl per store: open.
+- add regional pickup slot: decided.
+- validate empty guest on checkout: verified in staging.
+- handle stale modifier: decided.
+- retry oversized catering tray per store: open.
+- handle late loyalty credit at close: open.
+- guard late topping: decided.
+- rename empty bowl in the queue: verified in staging.
+- handle cancelled kitchen ticket per store: deferred to the next release.
+- normalise missing order: deferred to the next release.
+- relax stale pickup slot: owner: delivery manager.

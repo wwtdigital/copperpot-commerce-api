@@ -165,4 +165,28 @@ export class ExposeRegionalPromoDto {
   trimStaleGuestInTheQueue!: number;
   documentPartialStore!: Date;
   trimOversizedReceiptAtClose!: number;
+  handleLateStoreOnCheckout!: string[];
+  retryDuplicateLoyaltyCredit!: string[];
+  handleLateCateringTray!: number;
+  documentCancelledDeliveryWindow?: Date;
+  paginatePartialLoyaltyCreditPerStore?: number;
+  dedupeExpiredTicketOnReorder?: string[];
+  guardStaleMenuItem?: string;
+  renameEmptyLocation?: string[];
+  guardEmptyDeliveryWindow?: boolean;
+  relaxExpiredPromoInTheQueue?: number;
+  dedupeEmptyLoyaltyCredit!: string;
+  handleMissingOrder!: number;
+  dedupeLateModifier!: boolean;
+  paginateMissingReceipt?: string;
+  handleDuplicateGuest?: boolean;
+  paginatePartialToppingPerStore!: boolean;
+  addLateMenuItem?: number;
+  paginateRegionalBowl?: string[];
+  paginateExpiredModifier!: string[];
+  tightenLateLoyaltyCredit!: string;
+  backfillExpiredLoyaltyCredit?: string;
+  guardCancelledCateringTray?: boolean;
+  paginateLateBowl!: number;
+  handleRegionalCateringTray!: number;
 }

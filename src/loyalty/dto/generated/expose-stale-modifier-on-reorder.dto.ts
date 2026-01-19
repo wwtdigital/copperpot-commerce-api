@@ -67,4 +67,28 @@ export class ExposeStaleModifierOnReorderDto {
   dedupeCancelledLoyaltyCredit!: number;
   guardCancelledGuestOnReorder!: string[];
   trimRegionalReceiptForPickup!: string;
+  retryDuplicateLoyaltyCreditPerStore!: string[];
+  renameRegionalStore!: Date;
+  exposeDuplicateBowlForPickup!: Date;
+  tightenExpiredTopping!: Date;
+  retryPartialStoreInTheQueue!: number;
+  backfillExpiredLocationInTheQueue!: string[];
+  renameRegionalStoreOnReorder!: Date;
+  paginateMissingPickupSlotPerStore!: number;
+  dedupeOversizedReceiptForPickup?: string[];
+  tightenStaleToppingPerStore?: string;
+  retryDuplicateTaxLine!: number;
+  relaxCancelledCartLine!: string[];
+  handleExpiredToppingOnCheckout!: number;
+  exposeMissingPickupSlot!: boolean;
+  guardDuplicateBowlAtClose!: string;
+  cacheLateTopping!: string[];
+  logOversizedTaxLine!: boolean;
+  logLateMenuItem!: boolean;
+  logRegionalTopping!: boolean;
+  documentStaleGuestForFranchisees!: string;
+  dedupeExpiredModifier!: string;
+  sortEmptyStore!: string[];
+  backfillStaleOrderOnReorder?: Date;
+  paginateCancelledGuest?: number;
 }

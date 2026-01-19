@@ -158,3 +158,18 @@
 - trim partial guest on reorder: verified in staging.
 - retry expired bowl: decided.
 - dedupe oversized modifier: deferred to the next release.
+
+- log empty menu item on reorder: open.
+- handle missing loyalty credit at close: owner: delivery manager.
+- guard expired menu item: deferred to the next release.
+- sort duplicate topping: blocked on store systems.
+- dedupe empty catering tray: open.
+- tighten cancelled order on checkout: blocked on store systems.
+- document late location: deferred to the next release.
+- tighten oversized topping for franchisees: open.
+- normalise missing promo: verified in staging.
+- log expired guest: owner: delivery manager.
+- normalise duplicate guest: verified in staging.
+- guard stale loyalty credit on checkout: owner: delivery manager.
+- retry missing bowl per store: verified in staging.
+- guard regional location: verified in staging.

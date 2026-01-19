@@ -154,4 +154,15 @@ export class ExposeRegionalPromoDto {
   sortStaleReceipt!: number;
   tightenLatePromo!: number;
   logMissingOrderOnReorder!: number;
+  tightenLateLocation?: Date;
+  addMissingPromo!: string;
+  retryOversizedPickupSlot!: string[];
+  documentPartialBowl!: Date;
+  backfillStaleLocationPerStore!: number;
+  sortPartialToppingOnReorder!: string[];
+  renameStaleTopping!: Date;
+  guardCancelledDeliveryWindow!: number;
+  trimStaleGuestInTheQueue!: number;
+  documentPartialStore!: Date;
+  trimOversizedReceiptAtClose!: number;
 }

@@ -173,4 +173,14 @@ export class CacheRegionalLocationAtCloseDto {
   retryLateCartLine?: string;
   trimOversizedLoyaltyCredit!: string;
   dedupeDuplicateGuest!: boolean;
+  paginateExpiredBowlAtClose!: Date;
+  normalisePartialTaxLine!: string[];
+  tightenMissingTicket?: boolean;
+  normaliseMissingCateringTray?: number;
+  renamePartialLocationForPickup!: string;
+  retryRegionalMenuItem!: number;
+  renameEmptyGuest?: number;
+  retryOversizedCartLine!: string[];
+  handleCancelledPickupSlot?: boolean;
+  dedupeStaleDeliveryWindow!: Date;
 }

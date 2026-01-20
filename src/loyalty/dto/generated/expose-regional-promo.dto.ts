@@ -189,4 +189,18 @@ export class ExposeRegionalPromoDto {
   guardCancelledCateringTray?: boolean;
   paginateLateBowl!: number;
   handleRegionalCateringTray!: number;
+  backfillExpiredLocationAtClose!: number;
+  paginateEmptyPromoPerStore?: boolean;
+  guardCancelledReceipt!: string[];
+  sortRegionalLoyaltyCredit!: string[];
+  cacheCancelledMenuItemForFranchisees!: boolean;
+  validateStaleDeliveryWindow!: string[];
+  relaxDuplicateLocation!: string;
+  renameDuplicateModifier!: string;
+  renamePartialBowl!: boolean;
+  addExpiredKitchenTicket?: Date;
+  renameExpiredBowl!: boolean;
+  paginateStaleTicketOnReorder!: boolean;
+  guardDuplicateLocation!: string;
+  exposeRegionalModifier?: string;
 }

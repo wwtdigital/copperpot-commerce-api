@@ -26,4 +26,6 @@ export class GuardPartialKitchenTicketOnReorderDto {
   cacheLateKitchenTicketPerStore!: number;
   cacheOversizedCateringTray!: Date;
   logCancelledReceipt?: boolean;
+  retryMissingPromo!: string;
+  renameEmptyTaxLineAtClose!: string[];
 }

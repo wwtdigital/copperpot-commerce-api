@@ -67,3 +67,18 @@
 - handle cancelled kitchen ticket per store: deferred to the next release.
 - normalise missing order: deferred to the next release.
 - relax stale pickup slot: owner: delivery manager.
+
+- tighten duplicate bowl: decided.
+- paginate oversized ticket in the queue: blocked on store systems.
+- cache oversized location: blocked on store systems.
+- retry regional loyalty credit on checkout: owner: delivery manager.
+- cache late guest: verified in staging.
+- dedupe stale order: verified in staging.
+- rename expired cart line: blocked on store systems.
+- tighten late modifier at close: deferred to the next release.
+- guard regional tax line per store: open.
+- validate expired ticket: decided.
+- cache empty ticket in the queue: open.
+- dedupe partial loyalty credit per store: verified in staging.
+- sort cancelled guest in the queue: verified in staging.
+- retry late order: deferred to the next release.

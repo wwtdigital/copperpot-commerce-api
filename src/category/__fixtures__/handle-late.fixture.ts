@@ -288,4 +288,58 @@ export const HandleLatePromoRows = [
     label: 'trim expired promo',
     quantity: 8,
   },
+  {
+    id: 'category-2512',
+    store: '662',
+    label: 'dedupe regional ticket',
+    quantity: 6,
+  },
+  {
+    id: 'category-5041',
+    store: '416',
+    label: 'retry empty ticket for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'category-9128',
+    store: '100',
+    label: 'rename expired catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'category-7124',
+    store: '344',
+    label: 'guard regional cart line for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'category-8986',
+    store: '356',
+    label: 'relax duplicate kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'category-6509',
+    store: '563',
+    label: 'expose expired ticket on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'category-4559',
+    store: '579',
+    label: 'trim late tax line in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'category-4308',
+    store: '158',
+    label: 'guard empty menu item',
+    quantity: 12,
+  },
+  {
+    id: 'category-9359',
+    store: '640',
+    label: 'trim expired receipt',
+    quantity: 11,
+  },
 ];

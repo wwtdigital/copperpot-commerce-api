@@ -85,4 +85,28 @@ export class TightenRegionalOrderDto {
   dedupeStalePromo!: string;
   documentMissingLocationOnReorder?: string;
   normaliseOversizedGuest?: Date;
+  backfillStalePickupSlotOnCheckout!: string;
+  paginateRegionalMenuItemOnCheckout?: string[];
+  backfillEmptyLocation?: boolean;
+  handlePartialTicket!: boolean;
+  renameLatePickupSlot?: number;
+  renamePartialBowlOnReorder!: Date;
+  handleStaleCateringTray!: boolean;
+  handleDuplicateCartLine!: string;
+  relaxLateBowl?: Date;
+  cacheStaleReceipt!: string;
+  dedupeDuplicateLoyaltyCredit?: number;
+  handleOversizedStore!: string;
+  trimDuplicateGuestAtClose!: Date;
+  validateExpiredCateringTrayAtClose?: number;
+  renameExpiredCartLinePerStore?: boolean;
+  documentEmptyPickupSlot?: number;
+  cacheEmptyTaxLine!: Date;
+  renameRegionalCateringTray!: string;
+  backfillExpiredGuest!: Date;
+  validateStaleMenuItem?: number;
+  documentExpiredCateringTray?: string[];
+  normaliseRegionalTopping!: number;
+  tightenMissingGuestOnReorder!: string;
+  tightenEmptyTicket!: string;
 }

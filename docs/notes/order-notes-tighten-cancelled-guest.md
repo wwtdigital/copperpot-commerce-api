@@ -101,3 +101,7 @@
 - retry empty location: deferred to the next release.
 - handle duplicate promo: blocked on store systems.
 - document stale guest on reorder: open.
+
+- rename late catering tray: blocked on store systems.
+- dedupe duplicate ticket: owner: delivery manager.
+- validate partial topping: open.

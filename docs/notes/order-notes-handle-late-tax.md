@@ -205,3 +205,18 @@
 
 - normalise partial topping on reorder: deferred to the next release.
 - log duplicate cart line: open.
+
+- relax empty topping: deferred to the next release.
+- validate oversized ticket per store: deferred to the next release.
+- retry empty receipt for pickup: open.
+- expose duplicate ticket for franchisees: verified in staging.
+- cache empty location: verified in staging.
+- tighten cancelled store for pickup: owner: delivery manager.
+- log expired delivery window for pickup: decided.
+- dedupe missing topping: verified in staging.
+- handle partial kitchen ticket for pickup: deferred to the next release.
+- log missing receipt: verified in staging.
+- retry empty catering tray at close: verified in staging.
+- guard regional store for pickup: decided.
+- retry missing modifier at close: deferred to the next release.
+- add stale location: blocked on store systems.

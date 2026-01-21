@@ -216,4 +216,34 @@ export const ValidateLateReceiptForFranchiseesRows = [
     label: 'dedupe partial location',
     quantity: 5,
   },
+  {
+    id: 'loyalty-3421',
+    store: '150',
+    label: 'rename oversized pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-1751',
+    store: '280',
+    label: 'log partial topping',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8818',
+    store: '309',
+    label: 'retry partial catering tray at close',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-1330',
+    store: '329',
+    label: 'backfill partial ticket',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-3727',
+    store: '158',
+    label: 'guard duplicate delivery window on checkout',
+    quantity: 12,
+  },
 ];

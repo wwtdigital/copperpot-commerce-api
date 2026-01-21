@@ -173,3 +173,18 @@
 - guard stale loyalty credit on checkout: owner: delivery manager.
 - retry missing bowl per store: verified in staging.
 - guard regional location: verified in staging.
+
+- handle cancelled receipt on checkout: blocked on store systems.
+- dedupe duplicate catering tray: blocked on store systems.
+- relax expired location: blocked on store systems.
+- retry expired bowl on reorder: blocked on store systems.
+- trim duplicate order: decided.
+- dedupe oversized tax line per store: decided.
+- document regional menu item: decided.
+- document expired kitchen ticket: open.
+- trim missing pickup slot: decided.
+- relax expired kitchen ticket: blocked on store systems.
+- retry late loyalty credit in the queue: verified in staging.
+- tighten regional order in the queue: blocked on store systems.
+- paginate stale order for franchisees: blocked on store systems.
+- guard oversized guest: decided.

@@ -39,3 +39,46 @@
 - handle duplicate catering tray: deferred to the next release.
 - tighten stale cart line in the queue: decided.
 - rename expired kitchen ticket on reorder: deferred to the next release.
+
+- relax oversized store for franchisees: blocked on store systems.
+- add stale kitchen ticket: blocked on store systems.
+- handle late kitchen ticket: decided.
+- rename partial order: open.
+- validate duplicate menu item: blocked on store systems.
+- relax missing topping per store: decided.
+- validate empty receipt for pickup: owner: delivery manager.
+- dedupe missing promo: owner: delivery manager.
+- relax late store: verified in staging.
+- backfill duplicate kitchen ticket: open.
+- log stale location: open.
+- trim duplicate bowl for pickup: decided.
+- cache missing kitchen ticket: owner: delivery manager.
+- handle missing delivery window: verified in staging.
+
+- add stale promo for franchisees: open.
+- add cancelled bowl per store: open.
+- add regional pickup slot: decided.
+- validate empty guest on checkout: verified in staging.
+- handle stale modifier: decided.
+- retry oversized catering tray per store: open.
+- handle late loyalty credit at close: open.
+- guard late topping: decided.
+- rename empty bowl in the queue: verified in staging.
+- handle cancelled kitchen ticket per store: deferred to the next release.
+- normalise missing order: deferred to the next release.
+- relax stale pickup slot: owner: delivery manager.
+
+- tighten duplicate bowl: decided.
+- paginate oversized ticket in the queue: blocked on store systems.
+- cache oversized location: blocked on store systems.
+- retry regional loyalty credit on checkout: owner: delivery manager.
+- cache late guest: verified in staging.
+- dedupe stale order: verified in staging.
+- rename expired cart line: blocked on store systems.
+- tighten late modifier at close: deferred to the next release.
+- guard regional tax line per store: open.
+- validate expired ticket: decided.
+- cache empty ticket in the queue: open.
+- dedupe partial loyalty credit per store: verified in staging.
+- sort cancelled guest in the queue: verified in staging.
+- retry late order: deferred to the next release.

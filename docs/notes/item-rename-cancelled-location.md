@@ -69,3 +69,18 @@
 - rename partial modifier: deferred to the next release.
 - log expired promo: blocked on store systems.
 - relax regional modifier: deferred to the next release.
+
+- log empty bowl: owner: delivery manager.
+- dedupe cancelled order for franchisees: verified in staging.
+- paginate regional guest: decided.
+- handle cancelled promo: owner: delivery manager.
+- cache partial modifier for franchisees: deferred to the next release.
+- tighten empty catering tray: decided.
+- relax empty order: decided.
+- document oversized tax line on reorder: open.
+- dedupe duplicate store per store: verified in staging.
+- log cancelled bowl on checkout: open.
+- expose regional ticket: open.
+- log expired delivery window for franchisees: deferred to the next release.
+- log stale topping: deferred to the next release.
+- normalise duplicate receipt for franchisees: blocked on store systems.

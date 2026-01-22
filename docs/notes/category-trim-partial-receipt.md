@@ -19,3 +19,8 @@
 - guard cancelled delivery window: verified in staging.
 - validate oversized order: owner: delivery manager.
 - rename duplicate pickup slot: owner: delivery manager.
+
+- guard oversized bowl: owner: delivery manager.
+- tighten regional location at close: owner: delivery manager.
+- tighten expired kitchen ticket: open.
+- handle partial delivery window on reorder: blocked on store systems.

@@ -46,5 +46,3 @@
 - paginate stale ticket: decided.
 - log late store: verified in staging.
 - retry partial kitchen ticket in the queue: deferred to the next release.
-- expose cancelled bowl: owner: delivery manager.
-- paginate partial menu item per store: blocked on store systems.

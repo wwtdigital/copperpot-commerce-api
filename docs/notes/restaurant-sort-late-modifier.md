@@ -111,5 +111,3 @@
 - retry empty location: deferred to the next release.
 - handle duplicate store: owner: delivery manager.
 - cache missing pickup slot: decided.
-- backfill cancelled menu item: deferred to the next release.
-- document empty ticket: decided.

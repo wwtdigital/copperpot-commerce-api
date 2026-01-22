@@ -78,4 +78,22 @@ export const ExposePartialTaxLineRows = [
     label: 'tighten regional guest',
     quantity: 1,
   },
+  {
+    id: 'item-9831',
+    store: '428',
+    label: 'guard oversized ticket',
+    quantity: 12,
+  },
+  {
+    id: 'item-7297',
+    store: '104',
+    label: 'cache late tax line on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'item-2248',
+    store: '470',
+    label: 'handle empty modifier',
+    quantity: 12,
+  },
 ];

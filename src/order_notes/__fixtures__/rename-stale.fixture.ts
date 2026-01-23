@@ -60,4 +60,10 @@ export const RenameStaleReceiptRows = [
     label: 'cache stale order',
     quantity: 2,
   },
+  {
+    id: 'order-notes-2453',
+    store: '117',
+    label: 'document duplicate store',
+    quantity: 7,
+  },
 ];

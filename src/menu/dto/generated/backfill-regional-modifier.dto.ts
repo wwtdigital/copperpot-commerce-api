@@ -193,4 +193,15 @@ export class BackfillRegionalModifierDto {
   addCancelledPromo?: Date;
   normaliseCancelledCartLineOnCheckout?: boolean;
   documentEmptyDeliveryWindowOnReorder!: number;
+  addRegionalLoyaltyCreditPerStore!: Date;
+  normaliseMissingGuest!: string[];
+  paginateEmptyMenuItem!: boolean;
+  retryStaleDeliveryWindow!: string[];
+  renameStaleOrderForPickup?: string;
+  sortCancelledCartLine!: number;
+  addPartialLoyaltyCreditForFranchisees?: number;
+  tightenPartialStoreOnReorder!: string;
+  sortExpiredLocationAtClose!: Date;
+  retryExpiredStoreOnReorder!: Date;
+  retryLateTaxLineForFranchisees!: Date;
 }

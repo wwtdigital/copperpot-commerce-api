@@ -96,4 +96,6 @@ export class LogPartialModifierDto {
   relaxExpiredLoyaltyCredit!: number;
   relaxOversizedTopping!: Date;
   guardStaleTicketOnReorder!: string[];
+  addStaleGuest!: Date;
+  sortExpiredReceiptOnCheckout?: boolean;
 }

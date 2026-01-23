@@ -42,4 +42,16 @@ export const LogPartialTaxLineRows = [
     label: 'log late location',
     quantity: 4,
   },
+  {
+    id: 'menu-3930',
+    store: '351',
+    label: 'retry partial location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'menu-5059',
+    store: '437',
+    label: 'handle cancelled store',
+    quantity: 5,
+  },
 ];

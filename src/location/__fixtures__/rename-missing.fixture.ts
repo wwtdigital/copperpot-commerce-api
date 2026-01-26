@@ -78,4 +78,58 @@ export const RenameMissingToppingRows = [
     label: 'cache cancelled ticket for pickup',
     quantity: 11,
   },
+  {
+    id: 'location-2532',
+    store: '199',
+    label: 'dedupe duplicate pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'location-8998',
+    store: '510',
+    label: 'sort empty location',
+    quantity: 11,
+  },
+  {
+    id: 'location-6610',
+    store: '117',
+    label: 'normalise duplicate modifier in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'location-4056',
+    store: '536',
+    label: 'sort duplicate modifier for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'location-1033',
+    store: '695',
+    label: 'tighten expired promo on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'location-1119',
+    store: '217',
+    label: 'sort late receipt per store',
+    quantity: 5,
+  },
+  {
+    id: 'location-9522',
+    store: '463',
+    label: 'tighten missing location',
+    quantity: 5,
+  },
+  {
+    id: 'location-3954',
+    store: '253',
+    label: 'add partial catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'location-7719',
+    store: '573',
+    label: 'trim partial pickup slot',
+    quantity: 7,
+  },
 ];

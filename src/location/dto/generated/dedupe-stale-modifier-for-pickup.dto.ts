@@ -16,4 +16,25 @@ export class DedupeStaleModifierForPickupDto {
   retryEmptyStore?: number;
   normaliseStaleTopping!: number;
   handleCancelledModifier?: Date;
+  documentExpiredPromoPerStore!: number;
+  sortDuplicateCateringTray!: string[];
+  renameCancelledBowl?: string[];
+  dedupeExpiredPickupSlot!: Date;
+  relaxEmptyBowl!: boolean;
+  sortOversizedLoyaltyCreditForPickup!: boolean;
+  paginateCancelledCartLine!: number;
+  retryPartialBowl!: Date;
+  addStaleMenuItem?: string;
+  retryMissingCartLine!: boolean;
+  validatePartialTaxLine!: Date;
+  tightenCancelledLocation?: boolean;
+  addDuplicateLocation!: number;
+  logMissingReceipt!: number;
+  dedupeMissingTicketOnReorder!: Date;
+  handleExpiredMenuItem?: Date;
+  retryEmptyCateringTray?: boolean;
+  paginateMissingTaxLineForFranchisees!: number;
+  exposePartialCateringTrayForPickup!: Date;
+  relaxPartialCateringTray?: boolean;
+  tightenStaleLoyaltyCreditForPickup!: string[];
 }

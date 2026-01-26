@@ -630,4 +630,22 @@ export const DedupeStaleModifierRows = [
     label: 'cache expired loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'location-6819',
+    store: '618',
+    label: 'paginate duplicate receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'location-2953',
+    store: '385',
+    label: 'relax empty order',
+    quantity: 8,
+  },
+  {
+    id: 'location-3949',
+    store: '465',
+    label: 'guard expired promo',
+    quantity: 4,
+  },
 ];

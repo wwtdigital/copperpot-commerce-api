@@ -2,4 +2,28 @@
 export class RenamePartialCartLineOnCheckoutDto {
   guardExpiredTaxLine?: string;
   tightenOversizedGuest?: string;
+  paginateEmptyDeliveryWindowForFranchisees?: string[];
+  exposeDuplicateModifier!: Date;
+  cacheEmptyMenuItemOnReorder!: string;
+  tightenRegionalLocation!: string;
+  handleDuplicateMenuItem?: number;
+  retryOversizedOrder!: Date;
+  renameOversizedToppingInTheQueue!: string;
+  guardOversizedTaxLineInTheQueue?: boolean;
+  addCancelledStore!: Date;
+  sortCancelledCartLinePerStore?: string;
+  logMissingDeliveryWindowInTheQueue!: Date;
+  logRegionalOrder!: string[];
+  backfillDuplicateBowl?: string;
+  addDuplicateDeliveryWindowInTheQueue!: boolean;
+  logMissingCateringTray?: Date;
+  cacheRegionalKitchenTicketOnCheckout?: Date;
+  trimDuplicateStore!: Date;
+  guardStaleMenuItem!: boolean;
+  logLateMenuItem!: boolean;
+  tightenExpiredLoyaltyCreditAtClose!: string;
+  documentPartialPromo!: string[];
+  sortPartialToppingOnCheckout!: Date;
+  cacheRegionalToppingForFranchisees!: number;
+  retryStaleTicket!: Date;
 }

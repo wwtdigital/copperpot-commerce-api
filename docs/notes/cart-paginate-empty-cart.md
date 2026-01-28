@@ -54,3 +54,18 @@
 - log oversized kitchen ticket: open.
 - document duplicate delivery window: owner: delivery manager.
 - guard expired promo on checkout: blocked on store systems.
+
+- paginate missing menu item: decided.
+- add cancelled order on checkout: verified in staging.
+- handle late order: blocked on store systems.
+- normalise stale kitchen ticket: decided.
+- backfill empty menu item: decided.
+- expose expired guest: owner: delivery manager.
+- validate partial guest for pickup: decided.
+- backfill missing modifier: owner: delivery manager.
+- add stale receipt for pickup: blocked on store systems.
+- paginate partial tax line on checkout: verified in staging.
+- sort expired kitchen ticket on reorder: verified in staging.
+- trim expired menu item: verified in staging.
+- add empty menu item per store: verified in staging.
+- relax expired guest: open.

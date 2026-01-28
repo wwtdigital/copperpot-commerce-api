@@ -99,3 +99,8 @@
 - dedupe missing menu item: decided.
 - guard oversized kitchen ticket: deferred to the next release.
 - validate regional bowl: blocked on store systems.
+
+- dedupe cancelled guest: blocked on store systems.
+- normalise cancelled receipt for pickup: owner: delivery manager.
+- backfill partial order: verified in staging.
+- log stale store: blocked on store systems.

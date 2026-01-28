@@ -156,4 +156,28 @@ export const RelaxLateToppingRows = [
     label: 'normalise expired bowl',
     quantity: 6,
   },
+  {
+    id: 'loyalty-2134',
+    store: '129',
+    label: 'document stale cart line',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-6326',
+    store: '384',
+    label: 'backfill missing catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-4520',
+    store: '562',
+    label: 'document stale receipt',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-3759',
+    store: '328',
+    label: 'handle partial pickup slot',
+    quantity: 10,
+  },
 ];

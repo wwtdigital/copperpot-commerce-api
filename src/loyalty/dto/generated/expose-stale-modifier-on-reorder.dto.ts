@@ -161,4 +161,27 @@ export class ExposeStaleModifierOnReorderDto {
   cacheMissingGuest!: boolean;
   sortStaleKitchenTicket?: number;
   handleStaleTicketOnReorder!: string;
+  backfillPartialMenuItem?: string[];
+  backfillStaleReceiptPerStore!: Date;
+  normaliseLateToppingPerStore!: Date;
+  logExpiredTaxLine?: string[];
+  paginateOversizedPickupSlot!: Date;
+  exposeLateGuest!: boolean;
+  addEmptyDeliveryWindowPerStore!: boolean;
+  dedupeExpiredDeliveryWindow!: number;
+  dedupeOversizedPickupSlot!: string;
+  retryOversizedOrderForPickup!: number;
+  documentEmptyCartLine!: string[];
+  guardRegionalTopping!: boolean;
+  normaliseCancelledStoreAtClose!: number;
+  handleRegionalStore?: number;
+  backfillCancelledBowl!: Date;
+  documentOversizedPickupSlot!: Date;
+  exposeOversizedGuest?: string[];
+  logLateKitchenTicketForPickup!: string;
+  addEmptyToppingForFranchisees?: boolean;
+  exposeLateStore!: boolean;
+  relaxStaleStoreForPickup!: string;
+  documentPartialMenuItemOnCheckout?: string;
+  normaliseOversizedPickupSlot!: string;
 }

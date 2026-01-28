@@ -82,3 +82,18 @@
 - dedupe partial loyalty credit per store: verified in staging.
 - sort cancelled guest in the queue: verified in staging.
 - retry late order: deferred to the next release.
+
+- trim regional location: open.
+- document expired guest: owner: delivery manager.
+- trim missing pickup slot in the queue: open.
+- paginate partial modifier: blocked on store systems.
+- guard partial menu item: owner: delivery manager.
+- handle regional tax line in the queue: blocked on store systems.
+- retry late tax line in the queue: blocked on store systems.
+- add stale pickup slot: owner: delivery manager.
+- relax duplicate pickup slot: open.
+- rename cancelled location: deferred to the next release.
+- relax late order: decided.
+- normalise partial delivery window in the queue: deferred to the next release.
+- sort oversized kitchen ticket: blocked on store systems.
+- relax stale topping: open.

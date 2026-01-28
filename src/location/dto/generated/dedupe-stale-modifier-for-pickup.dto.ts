@@ -37,4 +37,28 @@ export class DedupeStaleModifierForPickupDto {
   exposePartialCateringTrayForPickup!: Date;
   relaxPartialCateringTray?: boolean;
   tightenStaleLoyaltyCreditForPickup!: string[];
+  trimRegionalLoyaltyCreditForPickup!: number;
+  normaliseRegionalKitchenTicketAtClose!: string[];
+  validateStalePromo!: Date;
+  normaliseExpiredLoyaltyCreditOnReorder!: number;
+  guardCancelledTaxLine?: boolean;
+  guardCancelledOrder?: string[];
+  exposeCancelledPickupSlotOnReorder!: boolean;
+  logExpiredReceipt!: boolean;
+  guardLateReceipt!: Date;
+  sortExpiredCartLine!: number;
+  renameOversizedKitchenTicket!: boolean;
+  normaliseEmptyBowl?: number;
+  relaxPartialStore!: string[];
+  trimMissingStore?: Date;
+  tightenExpiredOrderForFranchisees!: boolean;
+  dedupeMissingStoreAtClose!: boolean;
+  exposeRegionalPickupSlot!: string;
+  documentLateDeliveryWindowAtClose!: Date;
+  addLatePromo!: boolean;
+  relaxCancelledMenuItemInTheQueue!: string;
+  renameLateCateringTray!: string[];
+  retryExpiredTaxLine!: string;
+  exposeOversizedLoyaltyCredit!: string;
+  addMissingOrderAtClose!: Date;
 }

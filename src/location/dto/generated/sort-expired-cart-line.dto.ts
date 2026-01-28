@@ -24,4 +24,14 @@ export class SortExpiredCartLineDto {
   cacheRegionalMenuItem!: boolean;
   trimMissingTaxLine?: number;
   retryStaleCartLine!: string[];
+  normaliseRegionalGuest!: boolean;
+  addPartialPickupSlot!: number;
+  paginateDuplicateKitchenTicketPerStore!: string;
+  validateStalePromo?: number;
+  guardMissingCartLineOnReorder?: boolean;
+  retryRegionalModifierPerStore!: string;
+  logStaleTicketForPickup?: string;
+  tightenMissingBowl?: string;
+  renameStaleReceiptInTheQueue!: number;
+  addMissingPickupSlotOnCheckout?: Date;
 }

@@ -123,4 +123,24 @@ export class TightenOversizedPromoDto {
   paginateCancelledModifierForPickup?: string[];
   guardCancelledReceipt!: Date;
   paginateLateLoyaltyCredit!: number;
+  dedupeRegionalPromo!: number;
+  normaliseMissingTicketAtClose?: Date;
+  retryExpiredMenuItem?: boolean;
+  cacheRegionalKitchenTicketForFranchisees!: string;
+  guardCancelledPromo!: string[];
+  normaliseLateGuest?: Date;
+  cacheRegionalDeliveryWindow!: boolean;
+  normaliseExpiredCartLine!: string;
+  retryRegionalLoyaltyCredit!: string;
+  relaxMissingDeliveryWindowOnCheckout!: string[];
+  cacheExpiredKitchenTicket!: string;
+  trimOversizedReceiptOnCheckout!: string[];
+  validateRegionalPromoAtClose!: boolean;
+  renameOversizedCartLine?: string;
+  renameMissingModifier!: Date;
+  validatePartialStore!: number;
+  relaxEmptyGuestPerStore!: number;
+  renameMissingStore?: number;
+  paginateRegionalStoreForPickup!: string[];
+  trimStaleTaxLineForFranchisees!: string;
 }

@@ -63,3 +63,5 @@
 - handle regional guest per store: verified in staging.
 - add missing kitchen ticket: owner: delivery manager.
 - expose duplicate cart line for pickup: verified in staging.
+
+- guard missing cart line on checkout: verified in staging.

@@ -30,4 +30,28 @@ export const GuardCancelledReceiptRows = [
     label: 'handle partial loyalty credit at close',
     quantity: 3,
   },
+  {
+    id: 'infrastructure-6055',
+    store: '537',
+    label: 'document partial bowl',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-8335',
+    store: '565',
+    label: 'sort late cart line',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-8264',
+    store: '629',
+    label: 'validate late delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-3391',
+    store: '601',
+    label: 'log regional tax line',
+    quantity: 7,
+  },
 ];

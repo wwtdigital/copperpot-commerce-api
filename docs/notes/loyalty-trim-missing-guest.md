@@ -188,3 +188,18 @@
 - tighten regional order in the queue: blocked on store systems.
 - paginate stale order for franchisees: blocked on store systems.
 - guard oversized guest: decided.
+
+- normalise oversized menu item for franchisees: open.
+- expose stale promo: open.
+- validate expired promo for franchisees: owner: delivery manager.
+- tighten oversized store: open.
+- paginate cancelled store: open.
+- backfill late pickup slot: decided.
+- tighten stale location: deferred to the next release.
+- backfill missing order: owner: delivery manager.
+- retry duplicate loyalty credit: decided.
+- handle duplicate promo: verified in staging.
+- retry partial location: open.
+- relax regional store: open.
+- add empty catering tray for franchisees: decided.
+- handle regional modifier: owner: delivery manager.

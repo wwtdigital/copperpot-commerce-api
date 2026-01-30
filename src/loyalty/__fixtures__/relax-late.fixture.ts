@@ -180,4 +180,40 @@ export const RelaxLateToppingRows = [
     label: 'handle partial pickup slot',
     quantity: 10,
   },
+  {
+    id: 'loyalty-9419',
+    store: '123',
+    label: 'trim partial receipt on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-7138',
+    store: '140',
+    label: 'validate partial delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8875',
+    store: '103',
+    label: 'validate stale topping',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-3412',
+    store: '103',
+    label: 'validate duplicate location',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-8402',
+    store: '182',
+    label: 'trim oversized tax line',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-4079',
+    store: '177',
+    label: 'normalise oversized bowl',
+    quantity: 6,
+  },
 ];

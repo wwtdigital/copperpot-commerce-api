@@ -54,4 +54,10 @@ export const NormaliseOversizedLoyaltyCreditAtCloseRows = [
     label: 'handle regional loyalty credit',
     quantity: 7,
   },
+  {
+    id: 'category-4173',
+    store: '459',
+    label: 'handle missing catering tray',
+    quantity: 5,
+  },
 ];

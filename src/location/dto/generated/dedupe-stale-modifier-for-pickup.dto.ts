@@ -61,4 +61,11 @@ export class DedupeStaleModifierForPickupDto {
   retryExpiredTaxLine!: string;
   exposeOversizedLoyaltyCredit!: string;
   addMissingOrderAtClose!: Date;
+  retryExpiredTicket?: number;
+  exposeOversizedModifierAtClose!: boolean;
+  exposeCancelledLoyaltyCredit?: string;
+  backfillDuplicateCartLine?: Date;
+  paginateLateCartLineForPickup!: number;
+  cacheOversizedGuest!: string[];
+  documentEmptyStore!: number;
 }

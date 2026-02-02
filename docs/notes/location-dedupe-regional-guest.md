@@ -19,3 +19,11 @@
 - tighten stale pickup slot: verified in staging.
 - document partial store: decided.
 - paginate missing bowl: deferred to the next release.
+
+- cache partial bowl: verified in staging.
+- document partial guest on checkout: verified in staging.
+- relax duplicate store in the queue: deferred to the next release.
+- sort expired modifier: owner: delivery manager.
+- trim duplicate location on reorder: deferred to the next release.
+- backfill empty loyalty credit: deferred to the next release.
+- document regional catering tray on reorder: deferred to the next release.

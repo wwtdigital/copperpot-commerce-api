@@ -648,4 +648,34 @@ export const DedupeStaleModifierRows = [
     label: 'guard expired promo',
     quantity: 4,
   },
+  {
+    id: 'location-2075',
+    store: '256',
+    label: 'tighten cancelled order on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'location-5128',
+    store: '677',
+    label: 'document oversized store',
+    quantity: 7,
+  },
+  {
+    id: 'location-5283',
+    store: '341',
+    label: 'handle regional kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'location-9310',
+    store: '697',
+    label: 'handle empty loyalty credit in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'location-5281',
+    store: '205',
+    label: 'dedupe cancelled tax line',
+    quantity: 3,
+  },
 ];

@@ -104,3 +104,18 @@
 - normalise cancelled receipt for pickup: owner: delivery manager.
 - backfill partial order: verified in staging.
 - log stale store: blocked on store systems.
+
+- trim regional modifier: deferred to the next release.
+- trim cancelled loyalty credit on checkout: verified in staging.
+- paginate expired store: verified in staging.
+- document duplicate loyalty credit: verified in staging.
+- add oversized ticket: verified in staging.
+- log cancelled pickup slot: verified in staging.
+- cache expired kitchen ticket: deferred to the next release.
+- log cancelled catering tray: verified in staging.
+- handle stale ticket: blocked on store systems.
+- guard stale guest: owner: delivery manager.
+- backfill oversized modifier per store: open.
+- validate regional modifier: blocked on store systems.
+- trim stale pickup slot on reorder: blocked on store systems.
+- handle expired catering tray in the queue: decided.

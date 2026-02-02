@@ -402,4 +402,22 @@ export const HandleLatePromoRows = [
     label: 'validate duplicate cart line',
     quantity: 6,
   },
+  {
+    id: 'category-5490',
+    store: '294',
+    label: 'retry missing menu item in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'category-7396',
+    store: '316',
+    label: 'trim late topping on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'category-6686',
+    store: '663',
+    label: 'guard cancelled guest',
+    quantity: 12,
+  },
 ];

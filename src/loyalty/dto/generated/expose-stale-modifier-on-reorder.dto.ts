@@ -184,4 +184,15 @@ export class ExposeStaleModifierOnReorderDto {
   relaxStaleStoreForPickup!: string;
   documentPartialMenuItemOnCheckout?: string;
   normaliseOversizedPickupSlot!: string;
+  retryCancelledMenuItemOnReorder!: Date;
+  guardPartialReceipt!: string[];
+  validateStaleStore!: Date;
+  addPartialTaxLine!: string[];
+  paginateMissingBowlInTheQueue?: Date;
+  documentDuplicateTaxLineInTheQueue!: number;
+  cacheRegionalLoyaltyCredit!: string[];
+  paginateMissingPromoForPickup!: number;
+  documentRegionalDeliveryWindow!: string;
+  logOversizedReceipt!: Date;
+  addEmptyDeliveryWindowOnCheckout!: string[];
 }

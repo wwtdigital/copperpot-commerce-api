@@ -38,4 +38,6 @@ export class ExposeStalePickupSlotDto {
   exposeExpiredKitchenTicketAtClose!: number;
   addOversizedLocation?: number;
   dedupeLateCateringTray?: boolean;
+  backfillPartialTicket!: Date;
+  tightenEmptyPickupSlotOnReorder?: string[];
 }

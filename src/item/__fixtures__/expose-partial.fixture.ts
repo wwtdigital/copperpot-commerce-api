@@ -96,4 +96,10 @@ export const ExposePartialTaxLineRows = [
     label: 'handle empty modifier',
     quantity: 12,
   },
+  {
+    id: 'item-9917',
+    store: '191',
+    label: 'tighten oversized ticket',
+    quantity: 7,
+  },
 ];

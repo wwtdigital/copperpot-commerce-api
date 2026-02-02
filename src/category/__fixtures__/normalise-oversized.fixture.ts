@@ -60,4 +60,22 @@ export const NormaliseOversizedLoyaltyCreditAtCloseRows = [
     label: 'handle missing catering tray',
     quantity: 5,
   },
+  {
+    id: 'category-4544',
+    store: '433',
+    label: 'tighten stale order',
+    quantity: 5,
+  },
+  {
+    id: 'category-5288',
+    store: '554',
+    label: 'cache empty promo',
+    quantity: 11,
+  },
+  {
+    id: 'category-4900',
+    store: '327',
+    label: 'log missing tax line in the queue',
+    quantity: 5,
+  },
 ];

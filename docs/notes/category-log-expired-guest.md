@@ -14,3 +14,18 @@
 - log empty guest in the queue: owner: delivery manager.
 - expose stale guest: open.
 - guard expired modifier per store: owner: delivery manager.
+
+- tighten empty ticket in the queue: owner: delivery manager.
+- trim regional loyalty credit: open.
+- guard cancelled promo on checkout: verified in staging.
+- handle expired promo for franchisees: open.
+- log missing order: open.
+- log stale receipt for franchisees: verified in staging.
+- dedupe missing topping: decided.
+- expose stale modifier: blocked on store systems.
+- rename regional cart line: owner: delivery manager.
+- paginate cancelled guest for pickup: verified in staging.
+- dedupe late location in the queue: verified in staging.
+- normalise oversized guest: open.
+- add oversized bowl: blocked on store systems.
+- log duplicate order: open.

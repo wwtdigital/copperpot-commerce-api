@@ -8,3 +8,5 @@
 - guard cancelled cart line: decided.
 - document partial loyalty credit: decided.
 - retry empty topping on checkout: decided.
+
+- add regional guest per store: deferred to the next release.

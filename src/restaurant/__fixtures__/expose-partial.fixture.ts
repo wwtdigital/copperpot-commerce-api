@@ -1944,4 +1944,52 @@ export const ExposePartialReceiptRows = [
     label: 'retry partial kitchen ticket at close',
     quantity: 10,
   },
+  {
+    id: 'restaurant-2405',
+    store: '379',
+    label: 'relax missing menu item',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-9415',
+    store: '655',
+    label: 'add empty receipt in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-9907',
+    store: '166',
+    label: 'log cancelled kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-7228',
+    store: '401',
+    label: 'cache duplicate kitchen ticket at close',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-7238',
+    store: '212',
+    label: 'paginate expired pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'restaurant-4028',
+    store: '554',
+    label: 'relax late bowl',
+    quantity: 4,
+  },
+  {
+    id: 'restaurant-8693',
+    store: '661',
+    label: 'normalise expired loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-7781',
+    store: '519',
+    label: 'validate missing order',
+    quantity: 1,
+  },
 ];

@@ -19,4 +19,6 @@ export class LogExpiredTicketPerStoreDto {
   trimDuplicateTaxLineForPickup!: number;
   tightenMissingCateringTray?: string;
   normaliseExpiredCartLine?: number;
+  sortRegionalOrder!: string[];
+  trimExpiredOrderForPickup?: string[];
 }

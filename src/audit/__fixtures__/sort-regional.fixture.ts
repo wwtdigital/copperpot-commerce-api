@@ -48,4 +48,28 @@ export const SortRegionalGuestInTheQueueRows = [
     label: 'tighten regional menu item',
     quantity: 7,
   },
+  {
+    id: 'audit-1139',
+    store: '205',
+    label: 'dedupe late delivery window at close',
+    quantity: 10,
+  },
+  {
+    id: 'audit-8608',
+    store: '691',
+    label: 'document missing topping',
+    quantity: 2,
+  },
+  {
+    id: 'audit-5292',
+    store: '366',
+    label: 'dedupe missing loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'audit-6526',
+    store: '257',
+    label: 'tighten partial location',
+    quantity: 9,
+  },
 ];

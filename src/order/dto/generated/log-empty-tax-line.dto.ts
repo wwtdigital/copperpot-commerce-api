@@ -121,4 +121,27 @@ export class LogEmptyTaxLineDto {
   tightenRegionalTicket!: string;
   logPartialStore!: string[];
   dedupePartialBowl?: Date;
+  trimDuplicateTicketPerStore!: number;
+  logLateOrder!: string;
+  addDuplicateTicket?: Date;
+  relaxCancelledCateringTrayOnCheckout!: string[];
+  relaxPartialKitchenTicket!: string;
+  guardLateStoreAtClose!: Date;
+  sortExpiredLoyaltyCreditOnCheckout!: number;
+  retryExpiredTicketInTheQueue!: boolean;
+  relaxLateTicket!: Date;
+  validateOversizedPickupSlot!: string;
+  cacheEmptyTicket!: Date;
+  retryRegionalCartLine!: number;
+  paginateOversizedGuest!: number;
+  tightenCancelledReceipt!: Date;
+  addStaleOrder!: string[];
+  dedupeCancelledCateringTrayForPickup!: boolean;
+  sortEmptyPickupSlot?: string;
+  validateEmptyLoyaltyCreditOnReorder!: string;
+  sortRegionalTaxLine?: boolean;
+  exposeEmptyPickupSlot!: string[];
+  normalisePartialLocationInTheQueue!: boolean;
+  renameCancelledTopping!: string;
+  sortLateReceipt!: Date;
 }

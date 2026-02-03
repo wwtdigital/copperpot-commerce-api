@@ -106,4 +106,27 @@ export class PaginateLateStoreAtCloseDto {
   backfillEmptyStore!: boolean;
   trimDuplicateCartLineInTheQueue?: number;
   documentExpiredToppingInTheQueue?: boolean;
+  documentPartialPickupSlot!: string;
+  retryDuplicateLoyaltyCredit?: string[];
+  backfillPartialTicket!: Date;
+  backfillPartialMenuItem?: boolean;
+  guardPartialKitchenTicket!: string;
+  exposeOversizedGuest?: number;
+  exposeOversizedPromoOnCheckout!: string;
+  exposeDuplicateTaxLineInTheQueue!: boolean;
+  documentEmptyLocation?: number;
+  backfillPartialBowl!: Date;
+  dedupeLateTicket!: number;
+  backfillEmptyTicket!: string;
+  renameStaleLocationInTheQueue?: number;
+  exposeOversizedCateringTray!: string[];
+  paginateEmptyTopping!: boolean;
+  sortRegionalReceipt?: string[];
+  relaxOversizedMenuItemForPickup!: number;
+  addLateDeliveryWindowForFranchisees!: string[];
+  addCancelledPickupSlot!: string[];
+  retryPartialGuest!: string;
+  trimExpiredReceipt?: Date;
+  sortCancelledGuest?: string[];
+  guardDuplicateKitchenTicket!: Date;
 }

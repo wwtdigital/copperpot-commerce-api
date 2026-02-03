@@ -36,4 +36,10 @@ export const PaginateExpiredGuestAtCloseRows = [
     label: 'relax missing menu item on reorder',
     quantity: 4,
   },
+  {
+    id: 'restaurant-5381',
+    store: '565',
+    label: 'rename empty receipt',
+    quantity: 8,
+  },
 ];

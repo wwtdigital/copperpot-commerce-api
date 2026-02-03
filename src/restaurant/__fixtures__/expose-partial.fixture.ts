@@ -1992,4 +1992,52 @@ export const ExposePartialReceiptRows = [
     label: 'validate missing order',
     quantity: 1,
   },
+  {
+    id: 'restaurant-9927',
+    store: '425',
+    label: 'rename late topping on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-2405',
+    store: '148',
+    label: 'backfill empty store for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-1255',
+    store: '275',
+    label: 'dedupe oversized catering tray at close',
+    quantity: 10,
+  },
+  {
+    id: 'restaurant-4028',
+    store: '146',
+    label: 'sort expired receipt',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-3723',
+    store: '582',
+    label: 'guard regional cart line',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-1603',
+    store: '302',
+    label: 'expose expired menu item on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-4552',
+    store: '686',
+    label: 'guard partial location per store',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-9243',
+    store: '109',
+    label: 'cache late delivery window for pickup',
+    quantity: 7,
+  },
 ];

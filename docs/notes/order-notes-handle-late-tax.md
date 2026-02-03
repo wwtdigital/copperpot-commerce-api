@@ -220,3 +220,18 @@
 - guard regional store for pickup: decided.
 - retry missing modifier at close: deferred to the next release.
 - add stale location: blocked on store systems.
+
+- document partial delivery window: owner: delivery manager.
+- expose duplicate loyalty credit: owner: delivery manager.
+- add oversized location: blocked on store systems.
+- handle cancelled loyalty credit in the queue: verified in staging.
+- cache missing delivery window per store: verified in staging.
+- expose partial location: decided.
+- guard cancelled topping at close: owner: delivery manager.
+- log missing receipt for franchisees: deferred to the next release.
+- log missing catering tray in the queue: owner: delivery manager.
+- add partial order: blocked on store systems.
+- paginate duplicate loyalty credit in the queue: decided.
+- tighten duplicate catering tray in the queue: owner: delivery manager.
+- cache partial cart line: blocked on store systems.
+- log duplicate loyalty credit: owner: delivery manager.

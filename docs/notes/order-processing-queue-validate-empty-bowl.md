@@ -162,3 +162,6 @@
 - tighten duplicate cart line: owner: delivery manager.
 - retry late cart line per store: decided.
 - dedupe duplicate pickup slot: owner: delivery manager.
+
+- sort missing pickup slot: blocked on store systems.
+- cache missing cart line: decided.

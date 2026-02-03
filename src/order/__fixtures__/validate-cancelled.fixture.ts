@@ -30,4 +30,52 @@ export const ValidateCancelledLocationRows = [
     label: 'dedupe missing receipt for pickup',
     quantity: 9,
   },
+  {
+    id: 'order-6964',
+    store: '665',
+    label: 'normalise oversized guest at close',
+    quantity: 8,
+  },
+  {
+    id: 'order-5351',
+    store: '524',
+    label: 'document partial receipt',
+    quantity: 1,
+  },
+  {
+    id: 'order-1371',
+    store: '645',
+    label: 'rename expired cart line',
+    quantity: 5,
+  },
+  {
+    id: 'order-7753',
+    store: '642',
+    label: 'validate stale ticket on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'order-9365',
+    store: '699',
+    label: 'expose cancelled kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-1989',
+    store: '280',
+    label: 'cache missing location',
+    quantity: 4,
+  },
+  {
+    id: 'order-2811',
+    store: '586',
+    label: 'validate duplicate store',
+    quantity: 5,
+  },
+  {
+    id: 'order-4841',
+    store: '208',
+    label: 'paginate cancelled cart line',
+    quantity: 11,
+  },
 ];

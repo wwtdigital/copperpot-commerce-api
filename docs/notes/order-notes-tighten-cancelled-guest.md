@@ -113,3 +113,5 @@
 - guard late catering tray: decided.
 - add oversized ticket: open.
 - sort stale topping: owner: delivery manager.
+
+- dedupe partial cart line in the queue: decided.

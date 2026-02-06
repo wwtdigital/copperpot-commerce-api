@@ -109,4 +109,6 @@ export class TightenRegionalOrderDto {
   normaliseRegionalTopping!: number;
   tightenMissingGuestOnReorder!: string;
   tightenEmptyTicket!: string;
+  validateOversizedStore!: string;
+  guardEmptyMenuItem!: number;
 }

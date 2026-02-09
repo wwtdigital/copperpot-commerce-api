@@ -78,4 +78,10 @@ export const NormaliseOversizedLoyaltyCreditAtCloseRows = [
     label: 'log missing tax line in the queue',
     quantity: 5,
   },
+  {
+    id: 'category-2998',
+    store: '344',
+    label: 'add empty menu item',
+    quantity: 9,
+  },
 ];

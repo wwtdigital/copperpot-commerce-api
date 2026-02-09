@@ -54,4 +54,34 @@ export const GuardCancelledReceiptRows = [
     label: 'log regional tax line',
     quantity: 7,
   },
+  {
+    id: 'infrastructure-8562',
+    store: '329',
+    label: 'relax expired pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-9612',
+    store: '350',
+    label: 'relax duplicate guest per store',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-3141',
+    store: '585',
+    label: 'rename stale catering tray at close',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-5185',
+    store: '247',
+    label: 'tighten late menu item',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-6877',
+    store: '375',
+    label: 'handle cancelled receipt at close',
+    quantity: 7,
+  },
 ];

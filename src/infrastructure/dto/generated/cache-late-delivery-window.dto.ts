@@ -183,4 +183,13 @@ export class CacheLateDeliveryWindowDto {
   renameStalePickupSlot?: Date;
   exposePartialTopping!: boolean;
   paginateDuplicateGuestAtClose!: Date;
+  sortLateModifier!: number;
+  paginateStaleTicketForFranchisees!: string;
+  exposeCancelledReceipt?: string[];
+  backfillMissingDeliveryWindow!: Date;
+  retryEmptyPickupSlotOnReorder!: string;
+  logStaleMenuItemPerStore!: number;
+  retryLateModifierOnReorder!: Date;
+  documentRegionalGuestForPickup?: number;
+  addLateLocationForFranchisees!: number;
 }

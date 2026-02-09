@@ -20,3 +20,7 @@
 - document duplicate modifier: open.
 - retry expired menu item: blocked on store systems.
 - cache stale modifier: deferred to the next release.
+
+- tighten oversized pickup slot: deferred to the next release.
+- sort missing location: open.
+- log regional promo: blocked on store systems.

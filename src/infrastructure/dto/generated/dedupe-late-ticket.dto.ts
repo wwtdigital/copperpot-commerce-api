@@ -72,4 +72,15 @@ export class DedupeLateTicketDto {
   tightenRegionalKitchenTicketOnCheckout!: boolean;
   relaxPartialBowl!: Date;
   cacheRegionalDeliveryWindow!: Date;
+  normaliseExpiredPromo!: string[];
+  handleLateMenuItemForFranchisees!: string;
+  validateLateKitchenTicketAtClose?: number;
+  renameStaleTopping?: boolean;
+  trimOversizedTicket?: boolean;
+  addRegionalLocationForFranchisees?: string;
+  tightenRegionalOrder!: Date;
+  cacheDuplicateLocationOnReorder?: Date;
+  logDuplicateBowl!: string;
+  exposeExpiredCateringTrayPerStore?: boolean;
+  sortEmptyLocationAtClose!: string[];
 }

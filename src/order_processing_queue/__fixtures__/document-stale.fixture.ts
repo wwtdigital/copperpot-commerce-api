@@ -180,4 +180,58 @@ export const DocumentStaleModifierRows = [
     label: 'validate cancelled kitchen ticket on checkout',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-4546',
+    store: '111',
+    label: 'normalise cancelled guest',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-2927',
+    store: '601',
+    label: 'cache duplicate ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-3167',
+    store: '336',
+    label: 'add stale promo on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-2816',
+    store: '234',
+    label: 'cache partial menu item',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-6181',
+    store: '658',
+    label: 'trim missing delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'order-processing-queue-1660',
+    store: '285',
+    label: 'expose late menu item',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-5088',
+    store: '674',
+    label: 'add expired pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-4181',
+    store: '303',
+    label: 'trim partial location on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-5656',
+    store: '153',
+    label: 'rename missing modifier on checkout',
+    quantity: 6,
+  },
 ];

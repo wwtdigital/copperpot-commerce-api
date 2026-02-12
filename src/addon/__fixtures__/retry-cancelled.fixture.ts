@@ -306,4 +306,10 @@ export const RetryCancelledCartLineOnCheckoutRows = [
     label: 'trim duplicate topping',
     quantity: 3,
   },
+  {
+    id: 'addon-3807',
+    store: '482',
+    label: 'tighten stale menu item',
+    quantity: 6,
+  },
 ];

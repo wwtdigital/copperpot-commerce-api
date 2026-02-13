@@ -26,4 +26,19 @@ export class AddRegionalTaxLineAtCloseDto {
   renameCancelledReceipt?: Date;
   trimPartialMenuItem!: number;
   trimExpiredStore!: string;
+  trimEmptyPickupSlot!: boolean;
+  cacheCancelledDeliveryWindowForFranchisees!: Date;
+  relaxStaleGuest?: number;
+  renamePartialTicket!: boolean;
+  renameEmptyToppingInTheQueue?: string;
+  tightenStalePickupSlot!: string[];
+  cachePartialOrderPerStore?: boolean;
+  tightenOversizedReceipt?: number;
+  guardMissingReceipt?: string[];
+  cacheMissingDeliveryWindow!: string;
+  renameMissingCartLine!: number;
+  handleCancelledStore!: string[];
+  normaliseCancelledTaxLine!: boolean;
+  addRegionalPromoPerStore!: number;
+  renameStaleBowl?: boolean;
 }

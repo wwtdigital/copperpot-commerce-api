@@ -81,3 +81,18 @@
 - normalise oversized bowl: open.
 - tighten missing promo: deferred to the next release.
 - document duplicate catering tray: deferred to the next release.
+
+- tighten expired ticket: open.
+- trim regional location on checkout: verified in staging.
+- log empty kitchen ticket on reorder: deferred to the next release.
+- guard oversized cart line: blocked on store systems.
+- retry late location: owner: delivery manager.
+- tighten missing cart line: owner: delivery manager.
+- handle duplicate location: open.
+- guard regional loyalty credit: owner: delivery manager.
+- guard oversized kitchen ticket at close: verified in staging.
+- tighten regional modifier for franchisees: deferred to the next release.
+- sort missing promo: verified in staging.
+- paginate regional guest in the queue: blocked on store systems.
+- rename duplicate catering tray: owner: delivery manager.
+- sort partial cart line: verified in staging.

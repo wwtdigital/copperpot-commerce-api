@@ -78,4 +78,22 @@ export const ValidateCancelledLocationRows = [
     label: 'paginate cancelled cart line',
     quantity: 11,
   },
+  {
+    id: 'order-6181',
+    store: '248',
+    label: 'document expired pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'order-2033',
+    store: '638',
+    label: 'paginate empty loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'order-5346',
+    store: '252',
+    label: 'normalise oversized location',
+    quantity: 2,
+  },
 ];

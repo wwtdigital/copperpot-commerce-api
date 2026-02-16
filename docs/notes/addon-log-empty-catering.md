@@ -96,3 +96,18 @@
 - paginate regional guest in the queue: blocked on store systems.
 - rename duplicate catering tray: owner: delivery manager.
 - sort partial cart line: verified in staging.
+
+- dedupe expired kitchen ticket: blocked on store systems.
+- guard oversized loyalty credit: decided.
+- handle partial menu item: open.
+- trim duplicate ticket: deferred to the next release.
+- backfill partial topping: blocked on store systems.
+- document missing modifier: owner: delivery manager.
+- sort stale order for pickup: open.
+- tighten cancelled order: blocked on store systems.
+- paginate cancelled receipt at close: blocked on store systems.
+- handle stale guest: blocked on store systems.
+- cache expired kitchen ticket: verified in staging.
+- log duplicate ticket: decided.
+- relax partial menu item: blocked on store systems.
+- sort stale store: blocked on store systems.

@@ -18,4 +18,10 @@ export const GuardOversizedStoreForPickupRows = [
     label: 'cache missing topping',
     quantity: 2,
   },
+  {
+    id: 'item-2792',
+    store: '504',
+    label: 'tighten regional catering tray at close',
+    quantity: 4,
+  },
 ];

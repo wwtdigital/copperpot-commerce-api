@@ -40,4 +40,27 @@ export class ExposeStalePickupSlotDto {
   dedupeLateCateringTray?: boolean;
   backfillPartialTicket!: Date;
   tightenEmptyPickupSlotOnReorder?: string[];
+  sortStaleReceiptOnReorder!: string[];
+  retryRegionalTicket?: Date;
+  logMissingCateringTrayForPickup!: Date;
+  tightenLateGuest!: number;
+  renameDuplicateLocation?: string[];
+  sortPartialGuestOnReorder?: string[];
+  exposeDuplicateOrder!: string[];
+  renameRegionalCateringTray!: string;
+  validateExpiredCateringTrayAtClose?: string;
+  retryPartialKitchenTicket!: number;
+  relaxExpiredMenuItemForPickup!: boolean;
+  cacheRegionalLocation?: string[];
+  paginateEmptyGuestForFranchisees?: string;
+  renameDuplicateLoyaltyCredit!: string;
+  paginateMissingDeliveryWindow!: number;
+  relaxOversizedDeliveryWindow?: number;
+  documentStaleMenuItemInTheQueue!: string[];
+  tightenExpiredPickupSlotOnReorder!: string[];
+  cacheRegionalGuestOnReorder!: number;
+  cacheDuplicatePromo!: number;
+  handleLateGuest!: number;
+  retryOversizedTaxLine!: number;
+  addPartialReceiptOnReorder!: Date;
 }

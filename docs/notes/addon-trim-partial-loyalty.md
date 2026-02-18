@@ -14,3 +14,5 @@
 - cache regional modifier for pickup: open.
 - rename regional ticket per store: verified in staging.
 - normalise duplicate loyalty credit on reorder: open.
+
+- backfill cancelled modifier: blocked on store systems.

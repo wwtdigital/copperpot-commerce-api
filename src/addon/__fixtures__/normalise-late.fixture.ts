@@ -486,4 +486,10 @@ export const NormaliseLateGuestRows = [
     label: 'retry partial topping',
     quantity: 10,
   },
+  {
+    id: 'addon-2690',
+    store: '655',
+    label: 'relax expired order on checkout',
+    quantity: 3,
+  },
 ];

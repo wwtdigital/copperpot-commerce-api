@@ -68,4 +68,26 @@ export class RenameMissingModifierForPickupDto {
   relaxRegionalBowl!: string[];
   tightenOversizedCateringTrayOnCheckout!: Date;
   normaliseEmptyTopping?: string[];
+  guardLateStore?: string;
+  relaxOversizedKitchenTicket!: number;
+  paginateDuplicateTaxLine?: number;
+  tightenPartialTicketOnReorder!: Date;
+  dedupeOversizedModifierForFranchisees?: number;
+  exposeMissingLocationAtClose!: number;
+  renameRegionalKitchenTicket!: Date;
+  addPartialPickupSlot!: Date;
+  tightenStaleReceipt!: Date;
+  handleExpiredMenuItemAtClose!: boolean;
+  trimLateKitchenTicket?: Date;
+  documentCancelledLocation!: string;
+  backfillRegionalPickupSlot?: string;
+  paginatePartialTicket!: string[];
+  paginateDuplicateCartLineForFranchisees!: string;
+  documentEmptyTicket!: number;
+  normaliseStaleCartLineOnCheckout!: Date;
+  dedupeDuplicateMenuItem?: boolean;
+  guardOversizedKitchenTicketPerStore!: string[];
+  backfillCancelledLoyaltyCredit?: string;
+  tightenRegionalTicketForPickup!: string[];
+  dedupeRegionalTaxLinePerStore!: number;
 }

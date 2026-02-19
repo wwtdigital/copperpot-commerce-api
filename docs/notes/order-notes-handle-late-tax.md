@@ -235,3 +235,18 @@
 - tighten duplicate catering tray in the queue: owner: delivery manager.
 - cache partial cart line: blocked on store systems.
 - log duplicate loyalty credit: owner: delivery manager.
+
+- trim missing modifier: verified in staging.
+- rename oversized kitchen ticket: owner: delivery manager.
+- guard empty ticket on checkout: open.
+- backfill missing ticket at close: deferred to the next release.
+- cache late topping: verified in staging.
+- log cancelled modifier: verified in staging.
+- backfill empty cart line for pickup: owner: delivery manager.
+- rename cancelled tax line: blocked on store systems.
+- dedupe empty tax line: deferred to the next release.
+- sort missing loyalty credit: blocked on store systems.
+- validate oversized store: open.
+- paginate missing loyalty credit: owner: delivery manager.
+- expose partial modifier: blocked on store systems.
+- expose missing cart line: blocked on store systems.

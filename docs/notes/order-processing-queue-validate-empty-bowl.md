@@ -165,3 +165,5 @@
 
 - sort missing pickup slot: blocked on store systems.
 - cache missing cart line: decided.
+
+- backfill duplicate receipt: verified in staging.

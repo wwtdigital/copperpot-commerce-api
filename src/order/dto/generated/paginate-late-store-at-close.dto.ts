@@ -129,4 +129,28 @@ export class PaginateLateStoreAtCloseDto {
   trimExpiredReceipt?: Date;
   sortCancelledGuest?: string[];
   guardDuplicateKitchenTicket!: Date;
+  handleMissingKitchenTicket?: number;
+  backfillCancelledCartLineAtClose?: string;
+  renameCancelledModifier?: number;
+  paginateEmptyTicketAtClose!: boolean;
+  documentMissingModifier!: boolean;
+  guardMissingLoyaltyCredit?: number;
+  addPartialPickupSlot?: number;
+  cacheCancelledTaxLine!: string[];
+  cacheEmptyPickupSlot!: string[];
+  relaxLateTaxLinePerStore!: number;
+  handleOversizedDeliveryWindow!: number;
+  handleRegionalOrder?: Date;
+  renameMissingPromo?: string[];
+  tightenOversizedTaxLineOnCheckout?: string;
+  guardOversizedCateringTray?: string[];
+  exposeLateStoreAtClose!: string;
+  paginateLateCateringTray?: Date;
+  documentDuplicateToppingAtClose!: number;
+  addPartialModifier!: number;
+  relaxEmptyOrder!: string;
+  guardOversizedTicket!: Date;
+  addEmptyPromoAtClose!: number;
+  logMissingTicket!: number;
+  dedupeCancelledCartLine!: number;
 }

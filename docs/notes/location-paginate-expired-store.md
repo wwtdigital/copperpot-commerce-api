@@ -16,3 +16,18 @@
 - backfill duplicate tax line per store: decided.
 - guard cancelled ticket: blocked on store systems.
 - guard stale modifier: decided.
+
+- handle late location per store: verified in staging.
+- tighten regional guest in the queue: decided.
+- handle late receipt: verified in staging.
+- cache regional topping: owner: delivery manager.
+- document late delivery window: owner: delivery manager.
+- guard missing catering tray: verified in staging.
+- guard stale store: blocked on store systems.
+- paginate oversized guest at close: verified in staging.
+- rename partial delivery window at close: verified in staging.
+- tighten partial promo for pickup: decided.
+- add missing store: open.
+- validate missing cart line: open.
+- guard partial guest in the queue: owner: delivery manager.
+- log stale catering tray: verified in staging.

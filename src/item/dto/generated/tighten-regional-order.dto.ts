@@ -111,4 +111,6 @@ export class TightenRegionalOrderDto {
   tightenEmptyTicket!: string;
   validateOversizedStore!: string;
   guardEmptyMenuItem!: number;
+  dedupeStalePromoForPickup!: Date;
+  logPartialModifierPerStore!: Date;
 }

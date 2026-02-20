@@ -161,4 +161,6 @@ export class AddPartialGuestOnCheckoutDto {
   guardStaleMenuItemForFranchisees!: string[];
   dedupeMissingLoyaltyCredit!: boolean;
   guardDuplicatePromoOnCheckout!: string[];
+  normaliseDuplicateReceiptOnCheckout?: Date;
+  exposeMissingTicket!: Date;
 }

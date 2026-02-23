@@ -26,4 +26,13 @@ export class RenamePartialCartLineOnCheckoutDto {
   sortPartialToppingOnCheckout!: Date;
   cacheRegionalToppingForFranchisees!: number;
   retryStaleTicket!: Date;
+  guardMissingReceiptForPickup?: string[];
+  handleMissingReceiptForPickup!: Date;
+  logMissingReceiptOnCheckout?: boolean;
+  cacheLateCateringTray?: Date;
+  addMissingReceipt!: boolean;
+  validatePartialLoyaltyCredit!: Date;
+  sortOversizedGuest!: Date;
+  backfillLateModifierAtClose!: string;
+  trimStaleBowl!: Date;
 }

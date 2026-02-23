@@ -83,3 +83,13 @@
 - tighten expired ticket in the queue: decided.
 - add duplicate cart line: decided.
 - document stale cart line: open.
+
+- add duplicate bowl: verified in staging.
+- tighten partial pickup slot: owner: delivery manager.
+- handle regional store: blocked on store systems.
+- guard oversized tax line on reorder: open.
+- tighten regional guest: owner: delivery manager.
+- sort missing bowl: decided.
+- document missing pickup slot: open.
+- validate empty topping: open.
+- add cancelled tax line: decided.

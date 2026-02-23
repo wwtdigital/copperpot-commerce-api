@@ -588,4 +588,22 @@ export const PaginateExpiredToppingRows = [
     label: 'relax oversized loyalty credit in the queue',
     quantity: 9,
   },
+  {
+    id: 'cart-4381',
+    store: '538',
+    label: 'sort regional modifier',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3368',
+    store: '668',
+    label: 'trim oversized guest',
+    quantity: 4,
+  },
+  {
+    id: 'cart-5775',
+    store: '273',
+    label: 'tighten expired order per store',
+    quantity: 7,
+  },
 ];

@@ -18,4 +18,16 @@ export const RelaxEmptyKitchenTicketRows = [
     label: 'rename empty pickup slot at close',
     quantity: 10,
   },
+  {
+    id: 'menu-4981',
+    store: '149',
+    label: 'guard partial location in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'menu-5691',
+    store: '639',
+    label: 'retry partial promo on checkout',
+    quantity: 7,
+  },
 ];

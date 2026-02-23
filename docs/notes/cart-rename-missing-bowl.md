@@ -78,3 +78,8 @@
 - add oversized topping: blocked on store systems.
 - backfill late ticket in the queue: owner: delivery manager.
 - backfill stale pickup slot in the queue: blocked on store systems.
+
+- dedupe empty tax line: owner: delivery manager.
+- tighten expired ticket in the queue: decided.
+- add duplicate cart line: decided.
+- document stale cart line: open.

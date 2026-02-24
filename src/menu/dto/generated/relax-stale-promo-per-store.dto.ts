@@ -33,4 +33,15 @@ export class RelaxStalePromoPerStoreDto {
   guardMissingReceipt!: Date;
   logExpiredTicket!: string[];
   trimStaleKitchenTicketOnReorder!: boolean;
+  addMissingPickupSlot!: Date;
+  cacheLateLocation?: boolean;
+  normaliseMissingOrder!: boolean;
+  cacheRegionalLocation!: string[];
+  tightenPartialCateringTrayPerStore!: boolean;
+  renameExpiredTaxLine!: string;
+  relaxCancelledLocationForFranchisees?: string[];
+  sortExpiredCartLine!: string;
+  documentLateReceipt?: number;
+  retryStaleModifierForFranchisees!: Date;
+  validateExpiredLoyaltyCredit!: boolean;
 }

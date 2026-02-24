@@ -98,4 +98,22 @@ export class LogPartialModifierDto {
   guardStaleTicketOnReorder!: string[];
   addStaleGuest!: Date;
   sortExpiredReceiptOnCheckout?: boolean;
+  backfillDuplicateReceiptAtClose?: string;
+  trimStaleTaxLine!: string;
+  relaxExpiredCateringTrayInTheQueue!: string[];
+  paginateRegionalReceipt!: number;
+  documentDuplicateDeliveryWindow!: number;
+  cacheLateMenuItem?: number;
+  exposeRegionalTopping!: number;
+  tightenExpiredDeliveryWindow!: number;
+  retryRegionalCartLine!: number;
+  dedupeExpiredPickupSlotOnReorder?: Date;
+  exposePartialTicket?: string[];
+  handlePartialOrder!: number;
+  addRegionalTaxLinePerStore!: number;
+  renameExpiredPickupSlotPerStore!: Date;
+  trimDuplicateMenuItem!: boolean;
+  relaxMissingReceipt!: string[];
+  sortDuplicateStore!: string;
+  retryRegionalOrderOnReorder!: string;
 }

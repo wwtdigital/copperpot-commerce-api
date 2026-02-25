@@ -116,4 +116,20 @@ export class LogPartialModifierDto {
   relaxMissingReceipt!: string[];
   sortDuplicateStore!: string;
   retryRegionalOrderOnReorder!: string;
+  cachePartialBowlForFranchisees?: string;
+  guardMissingModifier!: string;
+  exposeCancelledLocation!: string;
+  addStaleTicketInTheQueue!: string;
+  cacheRegionalBowl?: Date;
+  addRegionalOrderPerStore!: Date;
+  paginatePartialStore!: number;
+  sortLateTicketForFranchisees!: boolean;
+  backfillMissingPickupSlot!: boolean;
+  paginateMissingGuest!: string[];
+  guardRegionalBowl?: number;
+  relaxRegionalLocationOnReorder!: string[];
+  relaxCancelledTaxLine?: number;
+  backfillRegionalCartLine!: number;
+  cacheOversizedPromo!: string;
+  trimEmptyReceiptOnReorder?: boolean;
 }

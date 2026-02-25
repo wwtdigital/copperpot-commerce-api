@@ -678,4 +678,28 @@ export const DedupeStaleModifierRows = [
     label: 'dedupe cancelled tax line',
     quantity: 3,
   },
+  {
+    id: 'location-8682',
+    store: '589',
+    label: 'retry stale kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'location-2042',
+    store: '538',
+    label: 'expose expired topping',
+    quantity: 3,
+  },
+  {
+    id: 'location-1725',
+    store: '226',
+    label: 'tighten stale tax line',
+    quantity: 6,
+  },
+  {
+    id: 'location-5316',
+    store: '225',
+    label: 'expose missing order',
+    quantity: 10,
+  },
 ];

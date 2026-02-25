@@ -70,3 +70,18 @@
 - log late store: verified in staging.
 - relax partial store per store: decided.
 - cache empty order at close: verified in staging.
+
+- dedupe partial receipt: blocked on store systems.
+- sort late tax line: open.
+- dedupe missing location at close: deferred to the next release.
+- dedupe missing pickup slot on checkout: decided.
+- relax missing loyalty credit for franchisees: open.
+- dedupe empty kitchen ticket: owner: delivery manager.
+- validate regional ticket on checkout: blocked on store systems.
+- trim partial catering tray: verified in staging.
+- cache regional loyalty credit: blocked on store systems.
+- paginate empty loyalty credit: verified in staging.
+- validate regional cart line on reorder: blocked on store systems.
+- relax partial tax line: verified in staging.
+- retry cancelled bowl: owner: delivery manager.
+- rename late location: verified in staging.

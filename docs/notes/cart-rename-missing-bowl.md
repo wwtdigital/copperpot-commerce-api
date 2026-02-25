@@ -93,3 +93,18 @@
 - document missing pickup slot: open.
 - validate empty topping: open.
 - add cancelled tax line: decided.
+
+- paginate cancelled loyalty credit on checkout: blocked on store systems.
+- relax cancelled order at close: owner: delivery manager.
+- validate cancelled modifier: deferred to the next release.
+- cache late order: deferred to the next release.
+- backfill missing location in the queue: owner: delivery manager.
+- log expired guest: deferred to the next release.
+- document cancelled tax line in the queue: decided.
+- normalise stale kitchen ticket for franchisees: decided.
+- sort expired cart line on reorder: deferred to the next release.
+- rename late receipt on checkout: owner: delivery manager.
+- document regional tax line on reorder: open.
+- add oversized ticket: verified in staging.
+- add missing receipt in the queue: verified in staging.
+- dedupe partial guest for pickup: verified in staging.

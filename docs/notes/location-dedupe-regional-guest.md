@@ -27,3 +27,6 @@
 - trim duplicate location on reorder: deferred to the next release.
 - backfill empty loyalty credit: deferred to the next release.
 - document regional catering tray on reorder: deferred to the next release.
+
+- relax oversized delivery window: deferred to the next release.
+- add missing guest: open.

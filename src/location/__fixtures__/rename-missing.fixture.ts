@@ -132,4 +132,10 @@ export const RenameMissingToppingRows = [
     label: 'trim partial pickup slot',
     quantity: 7,
   },
+  {
+    id: 'location-3308',
+    store: '427',
+    label: 'retry duplicate loyalty credit',
+    quantity: 12,
+  },
 ];

@@ -115,4 +115,19 @@ export class DocumentEmptyReceiptDto {
   renameDuplicateModifierForFranchisees?: string;
   exposeRegionalStore!: boolean;
   handleCancelledPromo!: string;
+  sortCancelledLocation!: number;
+  sortOversizedReceipt!: string[];
+  validateRegionalPickupSlot?: number;
+  addMissingTaxLine?: string[];
+  handleCancelledTaxLineAtClose!: boolean;
+  exposeEmptyGuest?: boolean;
+  exposeDuplicateBowlForFranchisees!: boolean;
+  tightenLateTaxLine?: number;
+  dedupeLatePickupSlot?: Date;
+  tightenMissingCartLineForFranchisees?: string[];
+  paginateLateLoyaltyCredit!: Date;
+  trimRegionalMenuItemPerStore?: boolean;
+  addMissingModifierAtClose?: string;
+  handleEmptyTicket!: boolean;
+  exposeRegionalTicket!: string[];
 }

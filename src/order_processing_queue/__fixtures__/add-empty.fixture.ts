@@ -558,4 +558,16 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'retry late bowl on reorder',
     quantity: 12,
   },
+  {
+    id: 'order-processing-queue-4114',
+    store: '210',
+    label: 'trim duplicate menu item',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-4998',
+    store: '124',
+    label: 'backfill cancelled topping',
+    quantity: 7,
+  },
 ];

@@ -204,4 +204,8 @@ export class BackfillRegionalModifierDto {
   sortExpiredLocationAtClose!: Date;
   retryExpiredStoreOnReorder!: Date;
   retryLateTaxLineForFranchisees!: Date;
+  sortDuplicateStore?: boolean;
+  handleLateMenuItemOnCheckout!: number;
+  guardMissingTaxLine!: number;
+  trimLateMenuItem!: number;
 }

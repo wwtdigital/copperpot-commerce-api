@@ -54,4 +54,10 @@ export const LogPartialTaxLineRows = [
     label: 'handle cancelled store',
     quantity: 5,
   },
+  {
+    id: 'menu-1221',
+    store: '494',
+    label: 'cache empty guest',
+    quantity: 3,
+  },
 ];

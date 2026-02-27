@@ -236,3 +236,23 @@
 - backfill expired menu item: open.
 - guard stale delivery window: open.
 - handle expired guest per store: deferred to the next release.
+
+- tighten duplicate ticket in the queue: decided.
+- add expired delivery window: open.
+- validate partial order: blocked on store systems.
+- cache missing guest: open.
+- backfill cancelled tax line: open.
+- dedupe missing receipt per store: blocked on store systems.
+- add expired modifier: deferred to the next release.
+- validate oversized store at close: blocked on store systems.
+- rename oversized pickup slot: decided.
+- backfill expired cart line on reorder: owner: delivery manager.
+- add late guest: owner: delivery manager.
+- relax missing modifier for franchisees: owner: delivery manager.
+- guard empty menu item: verified in staging.
+- trim expired tax line at close: blocked on store systems.
+
+- tighten regional tax line: blocked on store systems.
+- expose missing receipt on reorder: open.
+- tighten cancelled topping for pickup: blocked on store systems.
+- tighten expired delivery window: blocked on store systems.

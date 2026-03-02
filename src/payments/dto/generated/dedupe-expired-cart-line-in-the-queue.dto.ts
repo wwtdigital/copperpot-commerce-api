@@ -24,4 +24,26 @@ export class DedupeExpiredCartLineInTheQueueDto {
   documentOversizedKitchenTicketAtClose?: string;
   backfillLateCartLineForFranchisees?: string[];
   renameStaleGuestOnReorder?: string[];
+  addOversizedPickupSlotForPickup!: Date;
+  validateCancelledPickupSlot!: Date;
+  cacheMissingToppingOnReorder!: Date;
+  sortCancelledPickupSlot!: boolean;
+  renameMissingCateringTray!: Date;
+  addRegionalDeliveryWindowAtClose!: number;
+  relaxCancelledPickupSlot!: boolean;
+  cacheOversizedOrderOnCheckout!: boolean;
+  exposeOversizedTopping?: Date;
+  renamePartialBowl!: boolean;
+  logDuplicatePromo?: boolean;
+  addExpiredPromo?: Date;
+  sortPartialReceipt!: Date;
+  normaliseEmptyTaxLine?: string[];
+  retryLateLocationOnCheckout!: string;
+  exposeCancelledGuest!: string[];
+  backfillOversizedDeliveryWindowForPickup?: string;
+  documentExpiredCateringTrayOnCheckout?: boolean;
+  exposeLatePickupSlot!: number;
+  dedupeDuplicateStore!: number;
+  addStalePromoForPickup!: Date;
+  tightenExpiredPickupSlot!: string;
 }

@@ -124,3 +124,9 @@
 - validate oversized loyalty credit: open.
 - handle stale topping: verified in staging.
 - normalise regional topping at close: decided.
+
+- relax empty receipt: decided.
+- handle regional bowl on checkout: blocked on store systems.
+- retry late receipt per store: blocked on store systems.
+- backfill cancelled cart line: blocked on store systems.
+- trim regional receipt: decided.

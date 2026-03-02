@@ -17,3 +17,18 @@
 - paginate oversized modifier: deferred to the next release.
 - document late catering tray for franchisees: owner: delivery manager.
 - sort oversized tax line at close: verified in staging.
+
+- handle duplicate location on reorder: owner: delivery manager.
+- validate regional receipt at close: verified in staging.
+- dedupe cancelled promo in the queue: deferred to the next release.
+- rename empty bowl per store: open.
+- sort empty store at close: decided.
+- handle missing promo: deferred to the next release.
+- retry stale menu item per store: open.
+- log oversized catering tray: open.
+- tighten empty menu item: blocked on store systems.
+- sort expired promo on checkout: deferred to the next release.
+- relax duplicate catering tray: decided.
+- handle partial tax line for pickup: open.
+- sort cancelled kitchen ticket: deferred to the next release.
+- normalise duplicate modifier at close: owner: delivery manager.

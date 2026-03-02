@@ -46,4 +46,24 @@ export class DedupeExpiredCartLineInTheQueueDto {
   dedupeDuplicateStore!: number;
   addStalePromoForPickup!: Date;
   tightenExpiredPickupSlot!: string;
+  validateMissingCateringTray?: string;
+  cacheEmptyLocation!: number;
+  logRegionalTaxLine!: boolean;
+  sortOversizedCateringTrayForPickup?: string[];
+  addRegionalKitchenTicketPerStore!: Date;
+  addMissingToppingOnCheckout!: Date;
+  relaxCancelledModifierAtClose?: Date;
+  paginateEmptyMenuItemOnCheckout!: boolean;
+  documentExpiredPickupSlotOnReorder!: string[];
+  retryDuplicatePickupSlotInTheQueue?: Date;
+  backfillExpiredDeliveryWindow?: string;
+  handleCancelledGuest!: boolean;
+  logOversizedModifierAtClose!: string;
+  validateRegionalLoyaltyCredit?: string;
+  handleExpiredCateringTrayPerStore?: boolean;
+  renameRegionalReceipt!: string[];
+  addLateDeliveryWindow!: string;
+  dedupeDuplicateKitchenTicketAtClose!: number;
+  backfillRegionalCateringTrayOnCheckout?: string[];
+  dedupeCancelledStore!: boolean;
 }

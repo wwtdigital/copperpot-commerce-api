@@ -72,4 +72,58 @@ export const SortRegionalGuestInTheQueueRows = [
     label: 'tighten partial location',
     quantity: 9,
   },
+  {
+    id: 'audit-1040',
+    store: '131',
+    label: 'guard duplicate modifier per store',
+    quantity: 8,
+  },
+  {
+    id: 'audit-7633',
+    store: '629',
+    label: 'retry cancelled bowl on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'audit-3465',
+    store: '615',
+    label: 'tighten regional guest',
+    quantity: 10,
+  },
+  {
+    id: 'audit-7021',
+    store: '631',
+    label: 'relax expired receipt',
+    quantity: 1,
+  },
+  {
+    id: 'audit-1617',
+    store: '408',
+    label: 'tighten cancelled tax line',
+    quantity: 10,
+  },
+  {
+    id: 'audit-5210',
+    store: '237',
+    label: 'rename regional guest',
+    quantity: 3,
+  },
+  {
+    id: 'audit-4294',
+    store: '610',
+    label: 'normalise expired promo on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'audit-4919',
+    store: '557',
+    label: 'retry expired modifier',
+    quantity: 1,
+  },
+  {
+    id: 'audit-5713',
+    store: '122',
+    label: 'add stale promo for franchisees',
+    quantity: 11,
+  },
 ];

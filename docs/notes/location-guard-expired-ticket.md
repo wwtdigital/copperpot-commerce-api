@@ -119,3 +119,18 @@
 - validate regional modifier: blocked on store systems.
 - trim stale pickup slot on reorder: blocked on store systems.
 - handle expired catering tray in the queue: decided.
+
+- add partial topping: owner: delivery manager.
+- document late promo: decided.
+- rename missing pickup slot: open.
+- paginate duplicate location: verified in staging.
+- expose cancelled guest: owner: delivery manager.
+- relax late topping: blocked on store systems.
+- trim cancelled location: blocked on store systems.
+- log empty order at close: open.
+- document oversized promo: deferred to the next release.
+- backfill duplicate cart line: owner: delivery manager.
+- trim stale pickup slot for franchisees: blocked on store systems.
+- trim partial kitchen ticket: deferred to the next release.
+- tighten late catering tray: blocked on store systems.
+- expose partial order for pickup: decided.

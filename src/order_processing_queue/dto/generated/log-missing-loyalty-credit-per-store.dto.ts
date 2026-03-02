@@ -54,4 +54,27 @@ export class LogMissingLoyaltyCreditPerStoreDto {
   logStaleToppingAtClose!: boolean;
   dedupeRegionalKitchenTicketInTheQueue!: Date;
   validateDuplicatePickupSlot!: number;
+  normaliseOversizedStoreForFranchisees!: string;
+  handleLateDeliveryWindowOnCheckout!: boolean;
+  dedupeEmptyBowlOnCheckout!: number;
+  sortCancelledBowl?: string;
+  sortStaleCateringTray?: number;
+  dedupeRegionalTicketForPickup?: number;
+  guardLatePromoOnReorder!: string;
+  paginateStaleCateringTrayAtClose?: number;
+  paginateRegionalCartLineForFranchisees!: boolean;
+  retryCancelledKitchenTicketAtClose!: Date;
+  backfillDuplicateStoreOnReorder!: string[];
+  sortCancelledModifier!: boolean;
+  tightenLateCateringTrayInTheQueue!: string[];
+  trimOversizedModifierForFranchisees!: boolean;
+  logEmptyCartLineForFranchisees?: number;
+  backfillLateCateringTray!: number;
+  documentEmptyKitchenTicket!: string;
+  handleRegionalLoyaltyCredit!: string[];
+  guardOversizedBowlOnCheckout?: string[];
+  relaxDuplicateCateringTray!: boolean;
+  backfillStaleCartLine!: Date;
+  dedupeDuplicateCartLineAtClose?: string[];
+  backfillCancelledCateringTray!: string[];
 }

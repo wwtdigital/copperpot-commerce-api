@@ -139,4 +139,25 @@ export class DocumentMissingKitchenTicketDto {
   addPartialBowlAtClose!: string[];
   exposeMissingLocation!: number;
   handleRegionalModifierOnCheckout!: string[];
+  addPartialCateringTrayPerStore!: Date;
+  addStalePromoInTheQueue?: boolean;
+  addMissingTopping?: number;
+  retryPartialBowl!: number;
+  retryOversizedReceiptOnCheckout!: Date;
+  renameExpiredToppingForFranchisees!: Date;
+  logEmptyReceipt!: string;
+  addMissingCartLineForFranchisees?: number;
+  normaliseMissingTicket?: Date;
+  handleOversizedReceiptAtClose!: string;
+  validateCancelledTaxLine!: string;
+  validateMissingTicketOnCheckout!: Date;
+  relaxExpiredPickupSlot?: boolean;
+  exposeEmptyStorePerStore?: boolean;
+  guardOversizedOrderOnReorder!: number;
+  backfillMissingToppingPerStore!: string;
+  validateStaleTicket!: boolean;
+  backfillLateStoreForFranchisees!: string[];
+  normaliseMissingMenuItemOnCheckout?: number;
+  documentOversizedLoyaltyCredit!: string[];
+  guardPartialTaxLineInTheQueue?: string[];
 }

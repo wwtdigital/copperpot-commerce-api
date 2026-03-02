@@ -24,4 +24,16 @@ export const NormalisePartialReceiptRows = [
     label: 'dedupe late receipt',
     quantity: 2,
   },
+  {
+    id: 'audit-8032',
+    store: '115',
+    label: 'rename expired menu item',
+    quantity: 1,
+  },
+  {
+    id: 'audit-4005',
+    store: '102',
+    label: 'paginate duplicate delivery window',
+    quantity: 8,
+  },
 ];

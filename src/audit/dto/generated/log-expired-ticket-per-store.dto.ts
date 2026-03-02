@@ -21,4 +21,28 @@ export class LogExpiredTicketPerStoreDto {
   normaliseExpiredCartLine?: number;
   sortRegionalOrder!: string[];
   trimExpiredOrderForPickup?: string[];
+  retryLateGuest?: string;
+  sortEmptyPromo!: boolean;
+  addStaleTicket!: string[];
+  sortCancelledModifier?: number;
+  dedupeOversizedPromo!: Date;
+  sortLateGuest?: number;
+  trimOversizedStoreAtClose?: boolean;
+  sortExpiredOrder!: string[];
+  normaliseDuplicateTaxLine!: Date;
+  tightenPartialTicket!: boolean;
+  handleStaleStore?: string;
+  backfillRegionalLocation?: string;
+  handleStaleKitchenTicket!: boolean;
+  logPartialMenuItem!: string;
+  sortMissingKitchenTicket!: boolean;
+  handleCancelledModifierOnCheckout!: number;
+  paginateOversizedKitchenTicketPerStore?: boolean;
+  addRegionalTicketInTheQueue!: number;
+  normaliseExpiredLocationForPickup!: string[];
+  validateCancelledGuestPerStore!: Date;
+  addExpiredGuestOnReorder!: Date;
+  dedupeDuplicatePickupSlotOnCheckout?: number;
+  sortMissingLoyaltyCredit!: boolean;
+  addStaleBowl!: boolean;
 }

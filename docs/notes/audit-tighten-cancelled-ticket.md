@@ -46,3 +46,18 @@
 - paginate stale ticket: decided.
 - log late store: verified in staging.
 - retry partial kitchen ticket in the queue: deferred to the next release.
+
+- sort empty topping: deferred to the next release.
+- validate cancelled pickup slot: owner: delivery manager.
+- expose partial promo: owner: delivery manager.
+- paginate duplicate kitchen ticket: deferred to the next release.
+- expose partial location: verified in staging.
+- document cancelled tax line: verified in staging.
+- cache missing guest at close: owner: delivery manager.
+- paginate regional menu item on checkout: deferred to the next release.
+- validate partial receipt: blocked on store systems.
+- expose stale loyalty credit: decided.
+- tighten regional cart line: open.
+- tighten duplicate order in the queue: deferred to the next release.
+- log duplicate receipt: deferred to the next release.
+- handle missing order: deferred to the next release.

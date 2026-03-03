@@ -234,4 +234,10 @@ export const DocumentStaleModifierRows = [
     label: 'rename missing modifier on checkout',
     quantity: 6,
   },
+  {
+    id: 'order-processing-queue-8386',
+    store: '658',
+    label: 'tighten cancelled tax line at close',
+    quantity: 9,
+  },
 ];

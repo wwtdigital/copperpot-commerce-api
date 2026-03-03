@@ -570,4 +570,40 @@ export const AddEmptyDeliveryWindowOnCheckoutRows = [
     label: 'backfill cancelled topping',
     quantity: 7,
   },
+  {
+    id: 'order-processing-queue-8006',
+    store: '463',
+    label: 'add cancelled bowl',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-5787',
+    store: '406',
+    label: 'log cancelled pickup slot on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-6152',
+    store: '552',
+    label: 'add duplicate topping',
+    quantity: 2,
+  },
+  {
+    id: 'order-processing-queue-7166',
+    store: '194',
+    label: 'rename expired location',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-1669',
+    store: '309',
+    label: 'handle missing pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'order-processing-queue-6789',
+    store: '283',
+    label: 'handle duplicate modifier',
+    quantity: 6,
+  },
 ];

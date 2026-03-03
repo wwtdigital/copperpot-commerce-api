@@ -139,3 +139,13 @@
 - validate empty guest: verified in staging.
 - rename cancelled promo: open.
 - relax oversized topping for franchisees: verified in staging.
+
+- document late receipt in the queue: owner: delivery manager.
+- retry oversized menu item: decided.
+- guard stale modifier: decided.
+- relax stale tax line at close: open.
+- expose empty bowl per store: blocked on store systems.
+- handle cancelled guest: owner: delivery manager.
+- document oversized order per store: deferred to the next release.
+- sort empty ticket: blocked on store systems.
+- rename duplicate promo: blocked on store systems.

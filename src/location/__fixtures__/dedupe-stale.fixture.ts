@@ -732,4 +732,16 @@ export const DedupeStaleModifierRows = [
     label: 'expose empty cart line',
     quantity: 2,
   },
+  {
+    id: 'location-8955',
+    store: '630',
+    label: 'guard late delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'location-2135',
+    store: '680',
+    label: 'tighten duplicate store in the queue',
+    quantity: 1,
+  },
 ];

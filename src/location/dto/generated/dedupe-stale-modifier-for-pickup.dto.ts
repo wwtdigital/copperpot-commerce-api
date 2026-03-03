@@ -68,4 +68,20 @@ export class DedupeStaleModifierForPickupDto {
   paginateLateCartLineForPickup!: number;
   cacheOversizedGuest!: string[];
   documentEmptyStore!: number;
+  dedupePartialTicket!: boolean;
+  addEmptyToppingAtClose?: string;
+  tightenEmptyStoreInTheQueue?: string;
+  addDuplicateReceipt?: Date;
+  logOversizedDeliveryWindowForFranchisees!: number;
+  validateEmptyOrder?: Date;
+  normaliseStaleStore?: string;
+  documentStaleBowlForFranchisees?: string;
+  handleMissingMenuItemInTheQueue!: boolean;
+  sortMissingPickupSlot!: boolean;
+  retryOversizedLoyaltyCredit!: number;
+  backfillRegionalCateringTray?: number;
+  addDuplicatePromoPerStore?: Date;
+  documentDuplicatePromoForPickup!: string;
+  validateDuplicateTicketPerStore!: boolean;
+  backfillMissingTopping!: boolean;
 }

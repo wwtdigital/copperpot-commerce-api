@@ -134,3 +134,8 @@
 - trim partial kitchen ticket: deferred to the next release.
 - tighten late catering tray: blocked on store systems.
 - expose partial order for pickup: decided.
+
+- retry expired bowl in the queue: owner: delivery manager.
+- validate empty guest: verified in staging.
+- rename cancelled promo: open.
+- relax oversized topping for franchisees: verified in staging.

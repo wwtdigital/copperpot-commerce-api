@@ -138,4 +138,16 @@ export const RenameMissingToppingRows = [
     label: 'retry duplicate loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'location-8064',
+    store: '618',
+    label: 'log late catering tray on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'location-8752',
+    store: '444',
+    label: 'cache oversized ticket',
+    quantity: 12,
+  },
 ];

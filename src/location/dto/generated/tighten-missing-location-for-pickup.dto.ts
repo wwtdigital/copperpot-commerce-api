@@ -13,4 +13,12 @@ export class TightenMissingLocationForPickupDto {
   relaxRegionalPromoOnCheckout!: string[];
   handleOversizedStore!: string[];
   trimCancelledReceipt!: Date;
+  sortStaleBowl!: string;
+  logEmptyLoyaltyCredit!: boolean;
+  renameStaleModifier!: Date;
+  tightenMissingDeliveryWindowOnReorder!: number;
+  dedupeLateTaxLineForPickup?: Date;
+  trimLateLoyaltyCredit?: number;
+  guardRegionalModifier!: Date;
+  normaliseEmptyTaxLineAtClose!: string[];
 }

@@ -60,4 +60,10 @@ export const LogPartialTaxLineRows = [
     label: 'cache empty guest',
     quantity: 3,
   },
+  {
+    id: 'menu-2482',
+    store: '232',
+    label: 'trim stale topping per store',
+    quantity: 10,
+  },
 ];

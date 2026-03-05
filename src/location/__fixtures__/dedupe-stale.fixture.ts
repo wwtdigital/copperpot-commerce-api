@@ -702,4 +702,34 @@ export const DedupeStaleModifierRows = [
     label: 'expose missing order',
     quantity: 10,
   },
+  {
+    id: 'location-2830',
+    store: '626',
+    label: 'retry late store at close',
+    quantity: 4,
+  },
+  {
+    id: 'location-3874',
+    store: '648',
+    label: 'retry regional delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'location-5184',
+    store: '516',
+    label: 'document expired menu item',
+    quantity: 9,
+  },
+  {
+    id: 'location-3220',
+    store: '656',
+    label: 'retry partial guest',
+    quantity: 5,
+  },
+  {
+    id: 'location-6903',
+    store: '350',
+    label: 'expose empty cart line',
+    quantity: 2,
+  },
 ];

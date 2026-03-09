@@ -203,3 +203,33 @@
 - relax regional store: open.
 - add empty catering tray for franchisees: decided.
 - handle regional modifier: owner: delivery manager.
+
+- dedupe empty tax line: deferred to the next release.
+- retry stale catering tray: decided.
+- sort cancelled tax line for franchisees: verified in staging.
+- validate expired kitchen ticket: decided.
+- rename regional loyalty credit: deferred to the next release.
+- paginate late catering tray at close: open.
+- cache cancelled promo for pickup: owner: delivery manager.
+- retry oversized store on reorder: verified in staging.
+- log expired cart line: deferred to the next release.
+- tighten partial location for pickup: verified in staging.
+- backfill empty delivery window: verified in staging.
+- tighten duplicate topping at close: open.
+- trim expired kitchen ticket at close: owner: delivery manager.
+- trim empty bowl: verified in staging.
+
+- rename late pickup slot for franchisees: blocked on store systems.
+- expose cancelled bowl: verified in staging.
+- add expired store: decided.
+- cache missing catering tray: open.
+- rename partial catering tray: deferred to the next release.
+- trim missing cart line: decided.
+- handle empty kitchen ticket: blocked on store systems.
+- paginate empty loyalty credit: open.
+- document expired order: open.
+- trim expired receipt: blocked on store systems.
+- trim stale store: blocked on store systems.
+- paginate cancelled delivery window per store: open.
+- validate regional promo for pickup: deferred to the next release.
+- rename expired kitchen ticket: decided.

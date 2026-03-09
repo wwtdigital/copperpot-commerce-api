@@ -203,4 +203,16 @@ export class ExposeRegionalPromoDto {
   paginateStaleTicketOnReorder!: boolean;
   guardDuplicateLocation!: string;
   exposeRegionalModifier?: string;
+  dedupeStaleCateringTray!: string;
+  cacheMissingKitchenTicketForPickup?: string;
+  paginateLateDeliveryWindowOnReorder?: boolean;
+  trimMissingLoyaltyCreditPerStore!: string[];
+  documentMissingModifier!: boolean;
+  validateOversizedGuest!: boolean;
+  relaxStaleDeliveryWindow!: string[];
+  tightenEmptyLoyaltyCredit?: string[];
+  logEmptyCartLine?: number;
+  addCancelledCartLine!: Date;
+  documentExpiredKitchenTicket!: boolean;
+  renameStaleOrderOnReorder!: string[];
 }

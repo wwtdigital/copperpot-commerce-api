@@ -78,4 +78,16 @@ export const TrimExpiredPromoRows = [
     label: 'validate stale pickup slot',
     quantity: 11,
   },
+  {
+    id: 'loyalty-9530',
+    store: '412',
+    label: 'expose cancelled store on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-4640',
+    store: '536',
+    label: 'expose stale promo for franchisees',
+    quantity: 11,
+  },
 ];

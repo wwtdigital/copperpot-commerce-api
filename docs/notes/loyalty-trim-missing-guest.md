@@ -218,3 +218,18 @@
 - tighten duplicate topping at close: open.
 - trim expired kitchen ticket at close: owner: delivery manager.
 - trim empty bowl: verified in staging.
+
+- rename late pickup slot for franchisees: blocked on store systems.
+- expose cancelled bowl: verified in staging.
+- add expired store: decided.
+- cache missing catering tray: open.
+- rename partial catering tray: deferred to the next release.
+- trim missing cart line: decided.
+- handle empty kitchen ticket: blocked on store systems.
+- paginate empty loyalty credit: open.
+- document expired order: open.
+- trim expired receipt: blocked on store systems.
+- trim stale store: blocked on store systems.
+- paginate cancelled delivery window per store: open.
+- validate regional promo for pickup: deferred to the next release.
+- rename expired kitchen ticket: decided.

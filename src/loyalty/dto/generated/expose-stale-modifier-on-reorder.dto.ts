@@ -195,4 +195,28 @@ export class ExposeStaleModifierOnReorderDto {
   documentRegionalDeliveryWindow!: string;
   logOversizedReceipt!: Date;
   addEmptyDeliveryWindowOnCheckout!: string[];
+  relaxPartialDeliveryWindow!: boolean;
+  tightenExpiredGuest!: number;
+  trimCancelledOrder?: string[];
+  paginateCancelledMenuItem?: string[];
+  handleOversizedPickupSlot!: boolean;
+  trimMissingCartLine!: string;
+  documentDuplicateCateringTrayOnReorder?: number;
+  exposeStaleGuest!: number;
+  cacheMissingDeliveryWindow!: Date;
+  logDuplicateModifierInTheQueue!: boolean;
+  paginateStaleMenuItemInTheQueue?: boolean;
+  dedupeRegionalCartLineAtClose!: boolean;
+  dedupeMissingPromo!: boolean;
+  handleLateDeliveryWindow!: Date;
+  cacheMissingOrder!: string[];
+  dedupeEmptyDeliveryWindowPerStore!: string;
+  tightenMissingKitchenTicket!: string;
+  documentStaleTaxLine!: string;
+  logMissingTaxLine!: boolean;
+  logCancelledModifierForFranchisees!: boolean;
+  retryEmptyTaxLineForPickup?: number;
+  guardRegionalDeliveryWindow!: boolean;
+  cacheExpiredTicket!: boolean;
+  exposeRegionalKitchenTicketAtClose?: string[];
 }

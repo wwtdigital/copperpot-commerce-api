@@ -1,0 +1,81 @@
+/* Fixture rows for loyalty tests: trim expired promo. Generated data, not production data. */
+export const TrimExpiredPromoRows = [
+  {
+    id: 'loyalty-1287',
+    store: '620',
+    label: 'sort missing pickup slot per store',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-3476',
+    store: '145',
+    label: 'paginate stale loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-3623',
+    store: '662',
+    label: 'expose empty ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-7840',
+    store: '670',
+    label: 'cache expired delivery window on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-6713',
+    store: '566',
+    label: 'retry expired guest',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-7512',
+    store: '490',
+    label: 'backfill empty ticket on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-4746',
+    store: '420',
+    label: 'validate partial catering tray for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-7449',
+    store: '373',
+    label: 'relax late loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-9069',
+    store: '333',
+    label: 'rename duplicate catering tray for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-4432',
+    store: '308',
+    label: 'add stale kitchen ticket in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1604',
+    store: '459',
+    label: 'add partial modifier for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-9695',
+    store: '393',
+    label: 'rename partial cart line',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-2331',
+    store: '101',
+    label: 'validate stale pickup slot',
+    quantity: 11,
+  },
+];

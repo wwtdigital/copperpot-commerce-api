@@ -294,4 +294,40 @@ export const ExposePartialTaxLineRows = [
     label: 'expose partial promo',
     quantity: 5,
   },
+  {
+    id: 'item-6008',
+    store: '343',
+    label: 'document stale tax line',
+    quantity: 12,
+  },
+  {
+    id: 'item-7451',
+    store: '181',
+    label: 'retry late store',
+    quantity: 8,
+  },
+  {
+    id: 'item-4689',
+    store: '543',
+    label: 'trim late bowl for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'item-9301',
+    store: '196',
+    label: 'cache expired catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'item-6485',
+    store: '164',
+    label: 'add cancelled kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'item-6492',
+    store: '356',
+    label: 'add oversized delivery window on checkout',
+    quantity: 7,
+  },
 ];

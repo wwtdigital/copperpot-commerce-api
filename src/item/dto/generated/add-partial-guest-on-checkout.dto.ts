@@ -163,4 +163,6 @@ export class AddPartialGuestOnCheckoutDto {
   guardDuplicatePromoOnCheckout!: string[];
   normaliseDuplicateReceiptOnCheckout?: Date;
   exposeMissingTicket!: Date;
+  tightenCancelledDeliveryWindowInTheQueue!: Date;
+  tightenLateLoyaltyCredit?: string;
 }

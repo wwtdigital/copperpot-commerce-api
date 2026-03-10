@@ -44,4 +44,11 @@ export class RelaxStalePromoPerStoreDto {
   documentLateReceipt?: number;
   retryStaleModifierForFranchisees!: Date;
   validateExpiredLoyaltyCredit!: boolean;
+  tightenEmptyGuestOnCheckout?: string;
+  validateLateCartLine!: string;
+  guardRegionalMenuItemOnCheckout?: string[];
+  renamePartialTicket?: string[];
+  guardCancelledLoyaltyCredit!: string[];
+  trimOversizedMenuItemForPickup?: Date;
+  addExpiredCartLine!: Date;
 }

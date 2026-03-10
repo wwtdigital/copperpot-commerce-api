@@ -48,4 +48,7 @@ export class RelaxStalePromoPerStoreDto {
   validateLateCartLine!: string;
   guardRegionalMenuItemOnCheckout?: string[];
   renamePartialTicket?: string[];
+  guardCancelledLoyaltyCredit!: string[];
+  trimOversizedMenuItemForPickup?: Date;
+  addExpiredCartLine!: Date;
 }

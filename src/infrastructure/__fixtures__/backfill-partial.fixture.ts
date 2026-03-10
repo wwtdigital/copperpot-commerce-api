@@ -132,4 +132,28 @@ export const BackfillPartialStoreForFranchiseesRows = [
     label: 'normalise empty menu item',
     quantity: 3,
   },
+  {
+    id: 'infrastructure-1190',
+    store: '575',
+    label: 'log empty loyalty credit at close',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-8666',
+    store: '416',
+    label: 'validate cancelled catering tray on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-6549',
+    store: '373',
+    label: 'relax partial promo',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-1018',
+    store: '262',
+    label: 'guard stale ticket per store',
+    quantity: 9,
+  },
 ];

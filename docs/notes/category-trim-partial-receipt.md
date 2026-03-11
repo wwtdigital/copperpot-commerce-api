@@ -54,3 +54,18 @@
 - log late tax line: open.
 - guard oversized menu item: blocked on store systems.
 - normalise expired catering tray: owner: delivery manager.
+
+- retry stale kitchen ticket at close: decided.
+- tighten oversized receipt in the queue: blocked on store systems.
+- cache duplicate topping on checkout: verified in staging.
+- relax empty topping for pickup: owner: delivery manager.
+- paginate expired store: verified in staging.
+- log cancelled catering tray: owner: delivery manager.
+- dedupe missing topping: decided.
+- guard late catering tray for pickup: open.
+- relax partial receipt: decided.
+- normalise duplicate catering tray on checkout: owner: delivery manager.
+- trim missing loyalty credit for pickup: blocked on store systems.
+- guard stale receipt in the queue: verified in staging.
+- guard expired menu item: verified in staging.
+- rename partial tax line: decided.

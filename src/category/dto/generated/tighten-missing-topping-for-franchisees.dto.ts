@@ -61,4 +61,6 @@ export class TightenMissingToppingForFranchiseesDto {
   guardPartialLoyaltyCreditAtClose!: string;
   guardRegionalPickupSlot?: boolean;
   backfillLateCateringTrayForFranchisees?: string[];
+  backfillPartialPromo?: Date;
+  paginateCancelledLocation!: Date;
 }

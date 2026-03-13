@@ -540,4 +540,34 @@ export const HandleLatePromoRows = [
     label: 'document regional guest',
     quantity: 3,
   },
+  {
+    id: 'category-9079',
+    store: '444',
+    label: 'log missing kitchen ticket for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'category-8060',
+    store: '109',
+    label: 'paginate stale pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'category-8555',
+    store: '339',
+    label: 'backfill missing receipt in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'category-8009',
+    store: '232',
+    label: 'rename late order',
+    quantity: 11,
+  },
+  {
+    id: 'category-7350',
+    store: '148',
+    label: 'backfill regional receipt per store',
+    quantity: 1,
+  },
 ];

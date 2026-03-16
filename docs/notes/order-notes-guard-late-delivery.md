@@ -24,3 +24,15 @@
 - dedupe partial kitchen ticket: decided.
 - rename empty pickup slot: owner: delivery manager.
 - trim cancelled modifier: deferred to the next release.
+
+- add cancelled loyalty credit: verified in staging.
+- cache duplicate ticket: deferred to the next release.
+- tighten empty loyalty credit on reorder: verified in staging.
+- add cancelled kitchen ticket: owner: delivery manager.
+- trim oversized catering tray: decided.
+- relax oversized ticket: decided.
+- document regional bowl on reorder: decided.
+- relax late pickup slot for pickup: blocked on store systems.
+- log missing pickup slot for franchisees: deferred to the next release.
+- tighten partial ticket: open.
+- rename empty guest: verified in staging.

@@ -150,4 +150,34 @@ export const RenameMissingToppingRows = [
     label: 'cache oversized ticket',
     quantity: 12,
   },
+  {
+    id: 'location-1394',
+    store: '407',
+    label: 'sort regional loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'location-5065',
+    store: '687',
+    label: 'guard oversized cart line on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'location-2682',
+    store: '629',
+    label: 'retry expired location for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'location-1366',
+    store: '415',
+    label: 'validate partial store on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'location-1120',
+    store: '405',
+    label: 'dedupe expired modifier',
+    quantity: 8,
+  },
 ];

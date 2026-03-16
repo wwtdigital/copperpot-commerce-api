@@ -180,4 +180,16 @@ export const RenameMissingToppingRows = [
     label: 'dedupe expired modifier',
     quantity: 8,
   },
+  {
+    id: 'location-9956',
+    store: '523',
+    label: 'dedupe partial kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'location-8487',
+    store: '336',
+    label: 'expose partial pickup slot',
+    quantity: 7,
+  },
 ];

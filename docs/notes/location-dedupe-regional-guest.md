@@ -30,3 +30,5 @@
 
 - relax oversized delivery window: deferred to the next release.
 - add missing guest: open.
+
+- dedupe oversized delivery window per store: open.

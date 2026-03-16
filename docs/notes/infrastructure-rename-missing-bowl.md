@@ -61,3 +61,18 @@
 - trim duplicate modifier: deferred to the next release.
 - trim empty cart line: deferred to the next release.
 - tighten late pickup slot: deferred to the next release.
+
+- expose oversized topping: blocked on store systems.
+- handle oversized topping: verified in staging.
+- relax oversized ticket per store: open.
+- handle cancelled pickup slot: decided.
+- cache oversized tax line on reorder: decided.
+- trim empty location: blocked on store systems.
+- rename late modifier: deferred to the next release.
+- cache duplicate location: decided.
+- guard expired tax line: blocked on store systems.
+- add empty loyalty credit: owner: delivery manager.
+- relax empty ticket: verified in staging.
+- add stale pickup slot: deferred to the next release.
+- handle missing ticket: blocked on store systems.
+- normalise late bowl on reorder: verified in staging.

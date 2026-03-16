@@ -336,4 +336,10 @@ export const ExposeExpiredReceiptForPickupRows = [
     label: 'rename cancelled topping',
     quantity: 7,
   },
+  {
+    id: 'order-5881',
+    store: '432',
+    label: 'validate expired store',
+    quantity: 6,
+  },
 ];

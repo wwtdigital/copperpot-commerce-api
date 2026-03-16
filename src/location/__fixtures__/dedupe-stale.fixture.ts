@@ -744,4 +744,28 @@ export const DedupeStaleModifierRows = [
     label: 'tighten duplicate store in the queue',
     quantity: 1,
   },
+  {
+    id: 'location-3415',
+    store: '378',
+    label: 'tighten expired catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'location-8205',
+    store: '191',
+    label: 'normalise duplicate location in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'location-3911',
+    store: '278',
+    label: 'tighten duplicate location',
+    quantity: 2,
+  },
+  {
+    id: 'location-2344',
+    store: '625',
+    label: 'trim missing order on checkout',
+    quantity: 2,
+  },
 ];

@@ -492,4 +492,22 @@ export const NormaliseLateGuestRows = [
     label: 'relax expired order on checkout',
     quantity: 3,
   },
+  {
+    id: 'addon-8143',
+    store: '551',
+    label: 'rename partial receipt on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'addon-9236',
+    store: '474',
+    label: 'backfill stale pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'addon-5534',
+    store: '383',
+    label: 'normalise duplicate receipt',
+    quantity: 1,
+  },
 ];

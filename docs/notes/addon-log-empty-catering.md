@@ -111,3 +111,18 @@
 - log duplicate ticket: decided.
 - relax partial menu item: blocked on store systems.
 - sort stale store: blocked on store systems.
+
+- trim regional tax line on reorder: verified in staging.
+- dedupe partial order on checkout: open.
+- tighten missing kitchen ticket in the queue: owner: delivery manager.
+- rename oversized modifier on checkout: deferred to the next release.
+- retry oversized menu item on reorder: decided.
+- log regional kitchen ticket in the queue: deferred to the next release.
+- normalise duplicate topping: decided.
+- backfill oversized promo: blocked on store systems.
+- dedupe late catering tray: owner: delivery manager.
+- normalise cancelled promo: owner: delivery manager.
+- retry cancelled delivery window: decided.
+- paginate empty kitchen ticket: open.
+- log duplicate delivery window: verified in staging.
+- expose regional guest: owner: delivery manager.

@@ -115,3 +115,17 @@
 - sort stale topping: owner: delivery manager.
 
 - dedupe partial cart line in the queue: decided.
+
+- retry missing store on checkout: decided.
+- dedupe cancelled kitchen ticket on checkout: verified in staging.
+- document partial modifier: owner: delivery manager.
+- tighten regional topping: owner: delivery manager.
+- backfill duplicate tax line: blocked on store systems.
+- log empty catering tray: open.
+- handle stale guest per store: verified in staging.
+- tighten duplicate topping: open.
+- trim late kitchen ticket: deferred to the next release.
+- document cancelled ticket: open.
+- handle missing loyalty credit for franchisees: verified in staging.
+- dedupe cancelled cart line: open.
+- guard cancelled delivery window for franchisees: owner: delivery manager.

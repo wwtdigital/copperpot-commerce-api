@@ -65,3 +65,18 @@
 - expose duplicate cart line for pickup: verified in staging.
 
 - guard missing cart line on checkout: verified in staging.
+
+- paginate missing receipt at close: deferred to the next release.
+- document missing order for pickup: blocked on store systems.
+- validate oversized order on reorder: open.
+- paginate stale cart line at close: decided.
+- sort expired catering tray: verified in staging.
+- guard regional ticket: deferred to the next release.
+- validate oversized pickup slot: owner: delivery manager.
+- backfill partial guest: decided.
+- dedupe cancelled tax line on reorder: owner: delivery manager.
+- document late receipt: open.
+- validate empty receipt for franchisees: blocked on store systems.
+- retry duplicate promo in the queue: verified in staging.
+- document missing store: owner: delivery manager.
+- rename cancelled kitchen ticket: verified in staging.

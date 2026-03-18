@@ -156,4 +156,28 @@ export const BackfillPartialStoreForFranchiseesRows = [
     label: 'guard stale ticket per store',
     quantity: 9,
   },
+  {
+    id: 'infrastructure-5859',
+    store: '432',
+    label: 'retry oversized ticket',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-6388',
+    store: '431',
+    label: 'backfill missing location for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-2356',
+    store: '580',
+    label: 'document regional store',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-3765',
+    store: '491',
+    label: 'cache missing ticket',
+    quantity: 4,
+  },
 ];

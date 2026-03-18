@@ -153,17 +153,3 @@
 
 - expose empty store: owner: delivery manager.
 - rename stale modifier: verified in staging.
-- cache expired ticket: owner: delivery manager.
-- dedupe late kitchen ticket: blocked on store systems.
-- expose expired pickup slot on reorder: blocked on store systems.
-- rename duplicate loyalty credit at close: decided.
-- dedupe late receipt: open.
-- rename missing catering tray on checkout: verified in staging.
-- tighten duplicate cart line: owner: delivery manager.
-- retry late cart line per store: decided.
-- dedupe duplicate pickup slot: owner: delivery manager.
-
-- sort missing pickup slot: blocked on store systems.
-- cache missing cart line: decided.
-
-- backfill duplicate receipt: verified in staging.

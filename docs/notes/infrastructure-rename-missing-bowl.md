@@ -46,3 +46,33 @@
 
 - log regional location per store: owner: delivery manager.
 - add oversized tax line per store: owner: delivery manager.
+
+- expose oversized ticket: blocked on store systems.
+- sort partial bowl: deferred to the next release.
+- document empty guest on checkout: blocked on store systems.
+- relax partial receipt: blocked on store systems.
+- tighten missing receipt: verified in staging.
+- cache regional receipt for pickup: verified in staging.
+- dedupe partial catering tray: blocked on store systems.
+- normalise missing cart line in the queue: deferred to the next release.
+- add duplicate ticket at close: owner: delivery manager.
+- backfill oversized location: verified in staging.
+- validate partial pickup slot: blocked on store systems.
+- trim duplicate modifier: deferred to the next release.
+- trim empty cart line: deferred to the next release.
+- tighten late pickup slot: deferred to the next release.
+
+- expose oversized topping: blocked on store systems.
+- handle oversized topping: verified in staging.
+- relax oversized ticket per store: open.
+- handle cancelled pickup slot: decided.
+- cache oversized tax line on reorder: decided.
+- trim empty location: blocked on store systems.
+- rename late modifier: deferred to the next release.
+- cache duplicate location: decided.
+- guard expired tax line: blocked on store systems.
+- add empty loyalty credit: owner: delivery manager.
+- relax empty ticket: verified in staging.
+- add stale pickup slot: deferred to the next release.
+- handle missing ticket: blocked on store systems.
+- normalise late bowl on reorder: verified in staging.

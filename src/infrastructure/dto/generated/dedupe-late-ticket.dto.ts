@@ -83,4 +83,27 @@ export class DedupeLateTicketDto {
   logDuplicateBowl!: string;
   exposeExpiredCateringTrayPerStore?: boolean;
   sortEmptyLocationAtClose!: string[];
+  sortRegionalTopping?: string[];
+  dedupeEmptyKitchenTicket!: number;
+  logDuplicateDeliveryWindow!: boolean;
+  paginateCancelledDeliveryWindow?: number;
+  relaxExpiredToppingPerStore!: string;
+  sortMissingOrderAtClose!: string[];
+  backfillLateCateringTrayOnReorder!: string[];
+  dedupeCancelledTaxLineOnCheckout!: boolean;
+  logPartialLocation?: number;
+  documentCancelledCartLine!: string[];
+  addDuplicateOrderForPickup!: boolean;
+  dedupeStaleReceipt!: string;
+  logStaleGuest!: string[];
+  addCancelledBowl?: boolean;
+  guardRegionalLoyaltyCredit!: number;
+  dedupeCancelledBowl?: number;
+  validateLatePickupSlot!: Date;
+  tightenExpiredLocationInTheQueue!: number;
+  sortRegionalLoyaltyCredit!: number;
+  logStaleDeliveryWindow!: Date;
+  paginateLateReceiptForFranchisees!: string;
+  logRegionalCateringTrayInTheQueue?: string[];
+  addMissingPromoInTheQueue!: string[];
 }

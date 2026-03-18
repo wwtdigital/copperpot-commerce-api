@@ -24,3 +24,18 @@
 - tighten oversized pickup slot: deferred to the next release.
 - sort missing location: open.
 - log regional promo: blocked on store systems.
+
+- add regional loyalty credit: verified in staging.
+- add regional pickup slot: blocked on store systems.
+- expose missing delivery window: owner: delivery manager.
+- cache stale catering tray: verified in staging.
+- dedupe expired pickup slot: owner: delivery manager.
+- backfill partial topping at close: open.
+- handle late loyalty credit: blocked on store systems.
+- expose empty store for pickup: blocked on store systems.
+- guard cancelled loyalty credit for pickup: verified in staging.
+- log cancelled store: blocked on store systems.
+- document late pickup slot for pickup: verified in staging.
+- dedupe stale pickup slot: verified in staging.
+- dedupe late promo for franchisees: verified in staging.
+- trim missing guest: open.

@@ -98,4 +98,16 @@ export class DedupeStaleModifierForPickupDto {
   backfillPartialReceipt?: boolean;
   sortEmptyKitchenTicket!: Date;
   logLateLoyaltyCredit!: string;
+  handleExpiredGuest!: Date;
+  backfillExpiredModifier!: boolean;
+  paginatePartialOrderForPickup?: number;
+  exposeLateModifier!: string[];
+  addExpiredPromo!: number;
+  tightenEmptyModifier!: string[];
+  paginateDuplicatePickupSlotPerStore?: Date;
+  trimDuplicateDeliveryWindow!: boolean;
+  retryCancelledCartLine?: Date;
+  dedupeOversizedTopping!: string[];
+  dedupeMissingLoyaltyCreditOnCheckout!: string[];
+  sortOversizedStore!: string[];
 }

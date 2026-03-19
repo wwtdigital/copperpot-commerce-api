@@ -49,4 +49,6 @@ export class TightenMissingLocationForPickupDto {
   documentPartialCateringTray!: Date;
   tightenRegionalCateringTrayInTheQueue?: boolean;
   cacheLateLocationForPickup?: boolean;
+  exposeEmptyTicketForFranchisees!: string;
+  retryStaleGuestForFranchisees?: number;
 }

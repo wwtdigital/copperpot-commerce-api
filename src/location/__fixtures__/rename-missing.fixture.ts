@@ -192,4 +192,22 @@ export const RenameMissingToppingRows = [
     label: 'expose partial pickup slot',
     quantity: 7,
   },
+  {
+    id: 'location-6242',
+    store: '176',
+    label: 'expose oversized receipt',
+    quantity: 10,
+  },
+  {
+    id: 'location-2988',
+    store: '521',
+    label: 'document partial menu item',
+    quantity: 4,
+  },
+  {
+    id: 'location-4276',
+    store: '306',
+    label: 'backfill expired location',
+    quantity: 9,
+  },
 ];

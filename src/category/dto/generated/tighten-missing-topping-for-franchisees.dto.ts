@@ -87,4 +87,6 @@ export class TightenMissingToppingForFranchiseesDto {
   validateDuplicateLocation?: string;
   retryLateCateringTray!: Date;
   backfillExpiredCartLine!: string[];
+  documentEmptyTaxLineInTheQueue!: Date;
+  addLateMenuItem!: string;
 }

@@ -267,4 +267,28 @@ export class ExposeStaleModifierOnReorderDto {
   exposeExpiredTicketInTheQueue?: string;
   trimDuplicateModifier?: number;
   dedupeRegionalToppingForFranchisees!: boolean;
+  exposeRegionalCartLine?: Date;
+  addStaleDeliveryWindow!: string[];
+  sortRegionalPromo!: boolean;
+  dedupeEmptyBowl!: string[];
+  retryPartialStore?: Date;
+  renamePartialCartLineOnReorder?: string[];
+  handleMissingGuestForFranchisees!: boolean;
+  normalisePartialLocation!: boolean;
+  paginatePartialLocation!: boolean;
+  backfillStaleOrderInTheQueue!: number;
+  handleEmptyLocationAtClose?: string;
+  tightenExpiredTaxLineOnReorder!: boolean;
+  guardLateTicket!: string[];
+  addLateKitchenTicket?: boolean;
+  normaliseRegionalGuest!: boolean;
+  exposeEmptyGuestForFranchisees!: string[];
+  renameRegionalTaxLine?: string;
+  renameMissingLoyaltyCreditOnCheckout?: string[];
+  tightenLateLocation?: string[];
+  guardDuplicateToppingOnCheckout?: number;
+  logCancelledModifier?: number;
+  exposePartialDeliveryWindow!: boolean;
+  documentStaleLocation!: number;
+  relaxExpiredLocation?: string;
 }

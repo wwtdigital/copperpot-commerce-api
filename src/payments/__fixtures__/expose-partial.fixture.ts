@@ -54,4 +54,10 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'validate expired menu item in the queue',
     quantity: 10,
   },
+  {
+    id: 'payments-1706',
+    store: '584',
+    label: 'tighten partial kitchen ticket',
+    quantity: 8,
+  },
 ];

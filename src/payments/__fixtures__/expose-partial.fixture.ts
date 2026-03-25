@@ -60,4 +60,28 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'tighten partial kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'payments-9416',
+    store: '301',
+    label: 'add empty store on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'payments-8924',
+    store: '536',
+    label: 'add stale topping in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'payments-1428',
+    store: '179',
+    label: 'rename empty store',
+    quantity: 7,
+  },
+  {
+    id: 'payments-5030',
+    store: '513',
+    label: 'normalise oversized tax line',
+    quantity: 7,
+  },
 ];

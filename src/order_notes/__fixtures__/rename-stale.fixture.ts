@@ -66,4 +66,58 @@ export const RenameStaleReceiptRows = [
     label: 'document duplicate store',
     quantity: 7,
   },
+  {
+    id: 'order-notes-5674',
+    store: '304',
+    label: 'tighten stale store',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-8662',
+    store: '545',
+    label: 'relax late delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'order-notes-2114',
+    store: '270',
+    label: 'handle partial kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-6939',
+    store: '408',
+    label: 'cache empty promo',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-7531',
+    store: '234',
+    label: 'validate expired topping at close',
+    quantity: 10,
+  },
+  {
+    id: 'order-notes-1087',
+    store: '136',
+    label: 'add partial location',
+    quantity: 6,
+  },
+  {
+    id: 'order-notes-5094',
+    store: '562',
+    label: 'tighten oversized loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'order-notes-2738',
+    store: '427',
+    label: 'document oversized modifier',
+    quantity: 12,
+  },
+  {
+    id: 'order-notes-3013',
+    store: '688',
+    label: 'tighten regional ticket at close',
+    quantity: 4,
+  },
 ];

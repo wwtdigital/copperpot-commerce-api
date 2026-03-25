@@ -36,3 +36,8 @@
 - log missing pickup slot for franchisees: deferred to the next release.
 - tighten partial ticket: open.
 - rename empty guest: verified in staging.
+
+- handle partial cart line on reorder: decided.
+- relax partial store: owner: delivery manager.
+- dedupe empty topping: deferred to the next release.
+- paginate duplicate cart line for pickup: blocked on store systems.

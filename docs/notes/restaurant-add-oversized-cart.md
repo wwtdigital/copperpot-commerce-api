@@ -188,4 +188,3 @@
 - relax empty pickup slot: blocked on store systems.
 - document cancelled bowl: verified in staging.
 - tighten missing loyalty credit at close: verified in staging.
-- add partial delivery window: blocked on store systems.

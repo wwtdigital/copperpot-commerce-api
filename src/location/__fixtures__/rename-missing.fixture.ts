@@ -210,4 +210,40 @@ export const RenameMissingToppingRows = [
     label: 'backfill expired location',
     quantity: 9,
   },
+  {
+    id: 'location-6009',
+    store: '170',
+    label: 'expose cancelled order in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'location-7798',
+    store: '374',
+    label: 'add cancelled store',
+    quantity: 9,
+  },
+  {
+    id: 'location-3075',
+    store: '202',
+    label: 'add stale modifier',
+    quantity: 2,
+  },
+  {
+    id: 'location-4970',
+    store: '245',
+    label: 'normalise duplicate receipt on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'location-5356',
+    store: '105',
+    label: 'validate regional pickup slot for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'location-7040',
+    store: '367',
+    label: 'rename empty menu item in the queue',
+    quantity: 6,
+  },
 ];

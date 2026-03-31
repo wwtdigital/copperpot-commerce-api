@@ -2040,4 +2040,16 @@ export const ExposePartialReceiptRows = [
     label: 'cache late delivery window for pickup',
     quantity: 7,
   },
+  {
+    id: 'restaurant-5700',
+    store: '349',
+    label: 'backfill stale location for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-5682',
+    store: '686',
+    label: 'paginate late delivery window',
+    quantity: 2,
+  },
 ];

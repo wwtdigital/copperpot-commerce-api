@@ -510,4 +510,16 @@ export const NormaliseLateGuestRows = [
     label: 'normalise duplicate receipt',
     quantity: 1,
   },
+  {
+    id: 'addon-4314',
+    store: '284',
+    label: 'backfill stale menu item',
+    quantity: 8,
+  },
+  {
+    id: 'addon-5509',
+    store: '194',
+    label: 'guard partial promo',
+    quantity: 8,
+  },
 ];

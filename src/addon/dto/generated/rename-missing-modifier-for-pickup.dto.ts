@@ -90,4 +90,9 @@ export class RenameMissingModifierForPickupDto {
   backfillCancelledLoyaltyCredit?: string;
   tightenRegionalTicketForPickup!: string[];
   dedupeRegionalTaxLinePerStore!: number;
+  dedupeCancelledDeliveryWindowOnReorder!: string[];
+  logPartialOrderForFranchisees!: number;
+  renameOversizedPickupSlotAtClose!: string;
+  documentStalePickupSlot?: string;
+  addMissingGuest!: number;
 }

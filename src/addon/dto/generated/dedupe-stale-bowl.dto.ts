@@ -24,4 +24,12 @@ export class DedupeStaleBowlDto {
   validateOversizedStore!: number;
   trimMissingDeliveryWindowForPickup!: number;
   relaxLateOrder!: string[];
+  documentPartialOrder?: Date;
+  retryStaleDeliveryWindow!: number;
+  documentOversizedCartLine!: string;
+  exposePartialMenuItem!: number;
+  cacheLateKitchenTicket?: boolean;
+  relaxCancelledDeliveryWindow!: number;
+  cacheCancelledModifier!: number;
+  relaxStalePromo?: number;
 }

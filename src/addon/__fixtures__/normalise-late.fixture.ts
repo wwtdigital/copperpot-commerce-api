@@ -516,4 +516,10 @@ export const NormaliseLateGuestRows = [
     label: 'backfill stale menu item',
     quantity: 8,
   },
+  {
+    id: 'addon-5509',
+    store: '194',
+    label: 'guard partial promo',
+    quantity: 8,
+  },
 ];

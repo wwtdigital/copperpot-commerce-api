@@ -90,4 +90,10 @@ export const TrimExpiredPromoRows = [
     label: 'expose stale promo for franchisees',
     quantity: 11,
   },
+  {
+    id: 'loyalty-3427',
+    store: '620',
+    label: 'normalise oversized promo',
+    quantity: 4,
+  },
 ];

@@ -188,3 +188,16 @@
 - relax empty pickup slot: blocked on store systems.
 - document cancelled bowl: verified in staging.
 - tighten missing loyalty credit at close: verified in staging.
+
+- dedupe stale cart line: decided.
+- cache expired promo: verified in staging.
+- backfill missing modifier: owner: delivery manager.
+- sort late kitchen ticket at close: owner: delivery manager.
+- document cancelled store: decided.
+- document missing bowl for pickup: owner: delivery manager.
+- cache duplicate guest on checkout: blocked on store systems.
+- handle empty promo: verified in staging.
+- expose regional order: blocked on store systems.
+
+- normalise missing loyalty credit: verified in staging.
+- log late location at close: open.

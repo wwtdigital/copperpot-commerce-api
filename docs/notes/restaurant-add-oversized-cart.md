@@ -198,3 +198,6 @@
 - cache duplicate guest on checkout: blocked on store systems.
 - handle empty promo: verified in staging.
 - expose regional order: blocked on store systems.
+
+- normalise missing loyalty credit: verified in staging.
+- log late location at close: open.

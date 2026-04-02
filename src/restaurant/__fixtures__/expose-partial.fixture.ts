@@ -2052,4 +2052,22 @@ export const ExposePartialReceiptRows = [
     label: 'paginate late delivery window',
     quantity: 2,
   },
+  {
+    id: 'restaurant-3353',
+    store: '460',
+    label: 'retry late ticket',
+    quantity: 9,
+  },
+  {
+    id: 'restaurant-4725',
+    store: '282',
+    label: 'relax regional cart line',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-9006',
+    store: '631',
+    label: 'trim empty tax line',
+    quantity: 10,
+  },
 ];

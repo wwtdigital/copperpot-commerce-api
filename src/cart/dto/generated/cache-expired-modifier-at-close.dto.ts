@@ -2,4 +2,10 @@
 export class CacheExpiredModifierAtCloseDto {
   normaliseStaleTaxLine!: boolean;
   retryPartialGuestAtClose!: string[];
+  documentExpiredCartLine?: string;
+  normaliseDuplicatePickupSlot!: string;
+  relaxEmptyTopping!: boolean;
+  validatePartialMenuItemPerStore!: string;
+  backfillDuplicateCartLineForFranchisees!: boolean;
+  normaliseMissingTaxLineForPickup?: string[];
 }

@@ -121,3 +121,7 @@
 - cache stale kitchen ticket: open.
 - document oversized order on checkout: owner: delivery manager.
 - normalise oversized pickup slot: verified in staging.
+
+- relax duplicate bowl for pickup: decided.
+- cache oversized store for franchisees: owner: delivery manager.
+- document missing kitchen ticket: deferred to the next release.

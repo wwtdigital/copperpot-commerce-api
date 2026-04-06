@@ -276,4 +276,10 @@ export const RelaxLateToppingRows = [
     label: 'cache regional location for franchisees',
     quantity: 9,
   },
+  {
+    id: 'loyalty-7417',
+    store: '686',
+    label: 'guard missing kitchen ticket',
+    quantity: 7,
+  },
 ];

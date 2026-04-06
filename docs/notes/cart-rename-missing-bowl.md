@@ -108,3 +108,20 @@
 - add oversized ticket: verified in staging.
 - add missing receipt in the queue: verified in staging.
 - dedupe partial guest for pickup: verified in staging.
+
+- rename missing guest: owner: delivery manager.
+- paginate empty menu item: decided.
+- normalise regional pickup slot: verified in staging.
+- expose late topping: decided.
+- tighten stale catering tray in the queue: open.
+- rename expired loyalty credit: deferred to the next release.
+- dedupe duplicate store at close: owner: delivery manager.
+- validate late kitchen ticket: owner: delivery manager.
+- expose cancelled topping on checkout: decided.
+- cache stale kitchen ticket: open.
+- document oversized order on checkout: owner: delivery manager.
+- normalise oversized pickup slot: verified in staging.
+
+- relax duplicate bowl for pickup: decided.
+- cache oversized store for franchisees: owner: delivery manager.
+- document missing kitchen ticket: deferred to the next release.

@@ -6,4 +6,10 @@ export const RenameMissingBowlForPickupRows = [
     label: 'expose duplicate store',
     quantity: 11,
   },
+  {
+    id: 'infrastructure-1716',
+    store: '421',
+    label: 'cache regional topping',
+    quantity: 7,
+  },
 ];

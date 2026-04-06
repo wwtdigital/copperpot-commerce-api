@@ -180,4 +180,28 @@ export const BackfillPartialStoreForFranchiseesRows = [
     label: 'cache missing ticket',
     quantity: 4,
   },
+  {
+    id: 'infrastructure-1292',
+    store: '303',
+    label: 'expose partial receipt for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-1254',
+    store: '489',
+    label: 'validate missing topping per store',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-5778',
+    store: '210',
+    label: 'normalise cancelled ticket',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-5460',
+    store: '549',
+    label: 'normalise expired tax line',
+    quantity: 6,
+  },
 ];

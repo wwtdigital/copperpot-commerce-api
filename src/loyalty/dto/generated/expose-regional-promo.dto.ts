@@ -215,4 +215,11 @@ export class ExposeRegionalPromoDto {
   addCancelledCartLine!: Date;
   documentExpiredKitchenTicket!: boolean;
   renameStaleOrderOnReorder!: string[];
+  guardPartialModifierOnCheckout!: boolean;
+  documentExpiredPromoInTheQueue!: Date;
+  trimMissingGuest?: boolean;
+  paginateExpiredTopping?: string;
+  exposeLateOrderForFranchisees!: string[];
+  retryLateTopping!: string[];
+  normaliseLateBowlOnCheckout!: boolean;
 }

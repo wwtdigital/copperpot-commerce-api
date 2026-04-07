@@ -84,4 +84,10 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'normalise oversized tax line',
     quantity: 7,
   },
+  {
+    id: 'payments-9975',
+    store: '594',
+    label: 'log expired kitchen ticket at close',
+    quantity: 7,
+  },
 ];

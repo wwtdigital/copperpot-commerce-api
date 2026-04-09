@@ -48,4 +48,10 @@ export const PaginateMissingGuestRows = [
     label: 'document cancelled kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'cart-4433',
+    store: '357',
+    label: 'tighten cancelled pickup slot',
+    quantity: 6,
+  },
 ];

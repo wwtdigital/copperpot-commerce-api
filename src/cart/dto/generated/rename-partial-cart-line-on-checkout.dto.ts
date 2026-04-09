@@ -35,4 +35,6 @@ export class RenamePartialCartLineOnCheckoutDto {
   sortOversizedGuest!: Date;
   backfillLateModifierAtClose!: string;
   trimStaleBowl!: Date;
+  documentRegionalPickupSlot!: string[];
+  retryDuplicateStore!: Date;
 }

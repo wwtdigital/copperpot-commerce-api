@@ -192,4 +192,18 @@ export class CacheLateDeliveryWindowDto {
   retryLateModifierOnReorder!: Date;
   documentRegionalGuestForPickup?: number;
   addLateLocationForFranchisees!: number;
+  tightenOversizedCateringTrayOnCheckout!: string[];
+  relaxPartialGuestOnReorder!: string;
+  paginateLateDeliveryWindowForPickup!: number;
+  logOversizedTicketOnReorder!: number;
+  validateStaleModifier!: string[];
+  cacheOversizedGuest?: string;
+  handleCancelledTicketOnCheckout!: string;
+  handleLateTaxLine!: string;
+  sortLateOrder!: number;
+  addRegionalTopping!: string[];
+  retryRegionalGuestForPickup!: Date;
+  exposeRegionalGuest!: number;
+  renameOversizedMenuItem?: Date;
+  renameEmptyMenuItemOnCheckout!: Date;
 }

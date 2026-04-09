@@ -76,4 +76,27 @@ export class GuardPartialKitchenTicketOnReorderDto {
   documentRegionalKitchenTicket?: Date;
   sortMissingBowlAtClose!: number;
   sortMissingLocationPerStore!: string;
+  renameOversizedGuest!: string[];
+  validateMissingDeliveryWindowForFranchisees?: string;
+  trimCancelledPickupSlotInTheQueue!: boolean;
+  relaxDuplicateToppingAtClose!: string[];
+  sortLateKitchenTicketInTheQueue!: boolean;
+  guardPartialGuest!: string[];
+  relaxPartialKitchenTicket?: boolean;
+  guardDuplicateLoyaltyCreditAtClose?: boolean;
+  trimMissingCateringTray?: boolean;
+  paginateEmptyModifier!: number;
+  backfillDuplicateGuest!: Date;
+  backfillEmptyTicket?: number;
+  addDuplicateCateringTray?: number;
+  retryOversizedModifier!: string[];
+  exposeExpiredReceiptForPickup?: boolean;
+  cacheCancelledTicketForPickup!: number;
+  exposeRegionalTopping!: string;
+  backfillPartialPickupSlot!: Date;
+  validateExpiredTaxLine!: Date;
+  retryStaleCartLine!: boolean;
+  dedupeCancelledOrder!: boolean;
+  guardCancelledStore?: string;
+  renameExpiredPromo!: boolean;
 }

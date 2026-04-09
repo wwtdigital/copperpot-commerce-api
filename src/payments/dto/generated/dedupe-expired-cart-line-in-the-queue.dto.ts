@@ -66,4 +66,10 @@ export class DedupeExpiredCartLineInTheQueueDto {
   dedupeDuplicateKitchenTicketAtClose!: number;
   backfillRegionalCateringTrayOnCheckout?: string[];
   dedupeCancelledStore!: boolean;
+  documentCancelledGuestInTheQueue!: Date;
+  handleLateLoyaltyCreditOnReorder!: string[];
+  relaxDuplicateLoyaltyCredit!: string[];
+  exposeEmptyCateringTrayOnReorder?: boolean;
+  documentEmptyGuest!: Date;
+  cacheLateCartLineInTheQueue!: string[];
 }

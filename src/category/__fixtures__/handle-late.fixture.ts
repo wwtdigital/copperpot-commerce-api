@@ -726,4 +726,16 @@ export const HandleLatePromoRows = [
     label: 'log empty catering tray',
     quantity: 3,
   },
+  {
+    id: 'category-4011',
+    store: '682',
+    label: 'paginate stale kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'category-2335',
+    store: '141',
+    label: 'backfill oversized catering tray',
+    quantity: 4,
+  },
 ];

@@ -246,4 +246,22 @@ export const RenameMissingToppingRows = [
     label: 'rename empty menu item in the queue',
     quantity: 6,
   },
+  {
+    id: 'location-2374',
+    store: '399',
+    label: 'sort partial location',
+    quantity: 6,
+  },
+  {
+    id: 'location-1436',
+    store: '317',
+    label: 'rename cancelled promo',
+    quantity: 8,
+  },
+  {
+    id: 'location-7574',
+    store: '579',
+    label: 'add cancelled bowl',
+    quantity: 8,
+  },
 ];

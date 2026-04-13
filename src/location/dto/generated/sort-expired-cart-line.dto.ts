@@ -34,4 +34,17 @@ export class SortExpiredCartLineDto {
   tightenMissingBowl?: string;
   renameStaleReceiptInTheQueue!: number;
   addMissingPickupSlotOnCheckout?: Date;
+  handleMissingStore!: number;
+  relaxLateDeliveryWindowAtClose?: string;
+  tightenLateDeliveryWindow!: boolean;
+  sortCancelledCateringTray!: boolean;
+  documentExpiredLoyaltyCredit!: string;
+  exposeRegionalLoyaltyCreditForFranchisees!: number;
+  relaxOversizedDeliveryWindowPerStore?: string;
+  retryCancelledGuest!: string[];
+  tightenDuplicateDeliveryWindow!: string;
+  guardLateOrder!: boolean;
+  validateRegionalCartLineForFranchisees!: string;
+  guardOversizedLoyaltyCredit?: Date;
+  paginateLateGuest!: string;
 }

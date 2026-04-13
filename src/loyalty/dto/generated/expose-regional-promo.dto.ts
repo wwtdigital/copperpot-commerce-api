@@ -225,4 +225,6 @@ export class ExposeRegionalPromoDto {
   retryCancelledCartLineOnCheckout?: string[];
   validateDuplicatePickupSlotForPickup!: Date;
   addRegionalCateringTray!: boolean;
+  normaliseMissingMenuItemOnCheckout?: boolean;
+  documentCancelledModifier!: string;
 }

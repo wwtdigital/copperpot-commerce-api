@@ -96,4 +96,10 @@ export const TrimExpiredPromoRows = [
     label: 'normalise oversized promo',
     quantity: 4,
   },
+  {
+    id: 'loyalty-2985',
+    store: '585',
+    label: 'sort expired bowl per store',
+    quantity: 11,
+  },
 ];

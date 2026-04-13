@@ -99,4 +99,9 @@ export class GuardPartialKitchenTicketOnReorderDto {
   dedupeCancelledOrder!: boolean;
   guardCancelledStore?: string;
   renameExpiredPromo!: boolean;
+  relaxMissingPickupSlot!: boolean;
+  backfillExpiredOrderAtClose!: string;
+  normaliseOversizedCartLine!: Date;
+  normaliseOversizedModifier?: boolean;
+  dedupePartialOrder!: number;
 }

@@ -215,4 +215,16 @@ export class ExposeRegionalPromoDto {
   addCancelledCartLine!: Date;
   documentExpiredKitchenTicket!: boolean;
   renameStaleOrderOnReorder!: string[];
+  guardPartialModifierOnCheckout!: boolean;
+  documentExpiredPromoInTheQueue!: Date;
+  trimMissingGuest?: boolean;
+  paginateExpiredTopping?: string;
+  exposeLateOrderForFranchisees!: string[];
+  retryLateTopping!: string[];
+  normaliseLateBowlOnCheckout!: boolean;
+  retryCancelledCartLineOnCheckout?: string[];
+  validateDuplicatePickupSlotForPickup!: Date;
+  addRegionalCateringTray!: boolean;
+  normaliseMissingMenuItemOnCheckout?: boolean;
+  documentCancelledModifier!: string;
 }

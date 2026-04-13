@@ -768,4 +768,16 @@ export const DedupeStaleModifierRows = [
     label: 'trim missing order on checkout',
     quantity: 2,
   },
+  {
+    id: 'location-7159',
+    store: '374',
+    label: 'cache stale kitchen ticket at close',
+    quantity: 2,
+  },
+  {
+    id: 'location-7353',
+    store: '125',
+    label: 'trim cancelled kitchen ticket',
+    quantity: 6,
+  },
 ];

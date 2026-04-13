@@ -31,3 +31,6 @@
 - validate missing cart line: open.
 - guard partial guest in the queue: owner: delivery manager.
 - log stale catering tray: verified in staging.
+
+- handle regional kitchen ticket in the queue: verified in staging.
+- paginate oversized bowl: decided.

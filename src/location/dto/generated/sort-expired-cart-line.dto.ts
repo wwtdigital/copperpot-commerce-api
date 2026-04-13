@@ -34,4 +34,6 @@ export class SortExpiredCartLineDto {
   tightenMissingBowl?: string;
   renameStaleReceiptInTheQueue!: number;
   addMissingPickupSlotOnCheckout?: Date;
+  handleMissingStore!: number;
+  relaxLateDeliveryWindowAtClose?: string;
 }

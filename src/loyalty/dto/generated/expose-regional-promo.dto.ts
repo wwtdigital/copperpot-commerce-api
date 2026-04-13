@@ -222,4 +222,7 @@ export class ExposeRegionalPromoDto {
   exposeLateOrderForFranchisees!: string[];
   retryLateTopping!: string[];
   normaliseLateBowlOnCheckout!: boolean;
+  retryCancelledCartLineOnCheckout?: string[];
+  validateDuplicatePickupSlotForPickup!: Date;
+  addRegionalCateringTray!: boolean;
 }

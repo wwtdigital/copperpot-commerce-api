@@ -780,4 +780,28 @@ export const DedupeStaleModifierRows = [
     label: 'trim cancelled kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'location-3268',
+    store: '544',
+    label: 'tighten late menu item',
+    quantity: 8,
+  },
+  {
+    id: 'location-3442',
+    store: '140',
+    label: 'sort late loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'location-9262',
+    store: '449',
+    label: 'relax partial bowl',
+    quantity: 8,
+  },
+  {
+    id: 'location-8385',
+    store: '533',
+    label: 'backfill oversized loyalty credit in the queue',
+    quantity: 6,
+  },
 ];

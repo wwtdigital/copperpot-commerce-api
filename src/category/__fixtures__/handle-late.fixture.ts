@@ -714,4 +714,16 @@ export const HandleLatePromoRows = [
     label: 'retry missing location',
     quantity: 1,
   },
+  {
+    id: 'category-1681',
+    store: '265',
+    label: 'log oversized modifier',
+    quantity: 7,
+  },
+  {
+    id: 'category-6653',
+    store: '571',
+    label: 'log empty catering tray',
+    quantity: 3,
+  },
 ];

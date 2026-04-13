@@ -258,4 +258,10 @@ export const RenameMissingToppingRows = [
     label: 'rename cancelled promo',
     quantity: 8,
   },
+  {
+    id: 'location-7574',
+    store: '579',
+    label: 'add cancelled bowl',
+    quantity: 8,
+  },
 ];

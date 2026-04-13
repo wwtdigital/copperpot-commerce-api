@@ -804,4 +804,28 @@ export const DedupeStaleModifierRows = [
     label: 'backfill oversized loyalty credit in the queue',
     quantity: 6,
   },
+  {
+    id: 'location-9786',
+    store: '109',
+    label: 'backfill cancelled tax line on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'location-8754',
+    store: '571',
+    label: 'add late kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'location-5771',
+    store: '118',
+    label: 'tighten empty promo',
+    quantity: 2,
+  },
+  {
+    id: 'location-5217',
+    store: '190',
+    label: 'document regional kitchen ticket',
+    quantity: 2,
+  },
 ];

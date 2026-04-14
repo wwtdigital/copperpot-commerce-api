@@ -8,4 +8,6 @@ export class CacheExpiredModifierAtCloseDto {
   validatePartialMenuItemPerStore!: string;
   backfillDuplicateCartLineForFranchisees!: boolean;
   normaliseMissingTaxLineForPickup?: string[];
+  tightenDuplicateCartLineForPickup!: string[];
+  handleExpiredLocation!: boolean;
 }

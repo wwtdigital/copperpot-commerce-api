@@ -125,3 +125,18 @@
 - relax duplicate bowl for pickup: decided.
 - cache oversized store for franchisees: owner: delivery manager.
 - document missing kitchen ticket: deferred to the next release.
+
+- retry regional catering tray for pickup: deferred to the next release.
+- guard regional pickup slot on reorder: decided.
+- relax cancelled cart line: verified in staging.
+- document empty cart line: blocked on store systems.
+- expose missing store in the queue: open.
+- expose empty bowl: verified in staging.
+- sort cancelled catering tray in the queue: open.
+- rename late catering tray per store: verified in staging.
+- normalise missing receipt: blocked on store systems.
+- add empty guest: open.
+- normalise partial tax line: verified in staging.
+- normalise late guest: verified in staging.
+- backfill cancelled cart line: open.
+- validate oversized delivery window: deferred to the next release.

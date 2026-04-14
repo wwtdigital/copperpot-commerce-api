@@ -24,4 +24,21 @@ export class DocumentRegionalKitchenTicketDto {
   relaxStaleLoyaltyCreditOnCheckout!: Date;
   backfillOversizedPickupSlot!: string[];
   tightenExpiredMenuItem!: boolean;
+  paginateRegionalTopping!: Date;
+  paginateStaleOrder!: Date;
+  logDuplicateTaxLineForPickup!: boolean;
+  addEmptyReceipt?: string;
+  cacheMissingTicketOnReorder!: boolean;
+  tightenExpiredPickupSlotAtClose!: number;
+  relaxEmptyModifier!: number;
+  relaxRegionalPickupSlotForFranchisees?: Date;
+  logDuplicateCartLine?: Date;
+  documentLateStore!: string;
+  exposeCancelledOrder!: string;
+  logLatePickupSlotInTheQueue?: Date;
+  validatePartialReceipt!: Date;
+  guardExpiredMenuItem?: number;
+  logOversizedTicket?: boolean;
+  backfillDuplicateBowlForPickup?: string[];
+  retryMissingCateringTrayForFranchisees!: number;
 }

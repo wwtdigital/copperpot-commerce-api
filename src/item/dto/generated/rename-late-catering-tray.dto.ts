@@ -2,4 +2,8 @@
 export class RenameLateCateringTrayDto {
   sortStaleMenuItem!: string[];
   guardRegionalLoyaltyCredit?: Date;
+  sortMissingTicket!: Date;
+  handleStaleToppingAtClose?: string;
+  exposePartialModifier!: number;
+  documentStalePromo!: string[];
 }

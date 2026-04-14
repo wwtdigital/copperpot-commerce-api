@@ -16,3 +16,18 @@
 - trim partial bowl on checkout: open.
 - dedupe empty ticket: decided.
 - trim oversized pickup slot: verified in staging.
+
+- backfill partial store: blocked on store systems.
+- sort stale bowl per store: verified in staging.
+- paginate missing menu item: blocked on store systems.
+- validate expired location: open.
+- sort duplicate tax line: decided.
+- dedupe missing topping per store: open.
+- handle stale modifier on reorder: decided.
+- rename empty bowl on checkout: blocked on store systems.
+- tighten missing menu item: verified in staging.
+- log missing store per store: verified in staging.
+- normalise empty cart line per store: verified in staging.
+- cache expired order: owner: delivery manager.
+- rename stale promo on reorder: deferred to the next release.
+- expose stale topping: verified in staging.

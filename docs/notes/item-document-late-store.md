@@ -19,3 +19,18 @@
 - add missing topping in the queue: verified in staging.
 - normalise empty topping: blocked on store systems.
 - tighten late modifier for franchisees: decided.
+
+- dedupe missing store at close: owner: delivery manager.
+- expose empty location: open.
+- guard cancelled tax line: owner: delivery manager.
+- rename oversized pickup slot: verified in staging.
+- add late bowl in the queue: open.
+- guard late delivery window: blocked on store systems.
+- handle stale receipt: open.
+- guard duplicate guest: blocked on store systems.
+- retry duplicate loyalty credit for pickup: blocked on store systems.
+- document expired topping per store: deferred to the next release.
+- expose partial bowl for franchisees: decided.
+- sort oversized order: deferred to the next release.
+- backfill regional cart line at close: deferred to the next release.
+- document stale loyalty credit for franchisees: decided.

@@ -738,4 +738,10 @@ export const HandleLatePromoRows = [
     label: 'backfill oversized catering tray',
     quantity: 4,
   },
+  {
+    id: 'category-6193',
+    store: '527',
+    label: 'add regional pickup slot for pickup',
+    quantity: 6,
+  },
 ];

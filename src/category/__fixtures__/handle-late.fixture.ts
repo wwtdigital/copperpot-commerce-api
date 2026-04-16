@@ -714,4 +714,34 @@ export const HandleLatePromoRows = [
     label: 'retry missing location',
     quantity: 1,
   },
+  {
+    id: 'category-1681',
+    store: '265',
+    label: 'log oversized modifier',
+    quantity: 7,
+  },
+  {
+    id: 'category-6653',
+    store: '571',
+    label: 'log empty catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'category-4011',
+    store: '682',
+    label: 'paginate stale kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'category-2335',
+    store: '141',
+    label: 'backfill oversized catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'category-6193',
+    store: '527',
+    label: 'add regional pickup slot for pickup',
+    quantity: 6,
+  },
 ];

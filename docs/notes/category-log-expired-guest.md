@@ -6,3 +6,6 @@
 - trim regional bowl: blocked on store systems.
 - cache expired delivery window: owner: delivery manager.
 - backfill partial location: blocked on store systems.
+
+- backfill expired catering tray: decided.
+- normalise cancelled loyalty credit on checkout: blocked on store systems.

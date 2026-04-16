@@ -69,3 +69,7 @@
 - guard stale receipt in the queue: verified in staging.
 - guard expired menu item: verified in staging.
 - rename partial tax line: decided.
+
+- dedupe empty guest: verified in staging.
+- handle cancelled order at close: open.
+- add duplicate receipt: open.

@@ -6,4 +6,27 @@ export class RenameLateCateringTrayDto {
   handleStaleToppingAtClose?: string;
   exposePartialModifier!: number;
   documentStalePromo!: string[];
+  paginateDuplicateOrder!: string;
+  paginateCancelledPromoAtClose?: string[];
+  logDuplicateTaxLine!: string[];
+  validatePartialOrder!: number;
+  dedupeExpiredStoreInTheQueue!: number;
+  addLateKitchenTicket!: Date;
+  dedupeExpiredTicketPerStore?: number;
+  dedupeStaleLoyaltyCredit!: number;
+  exposePartialBowl!: string[];
+  validatePartialMenuItem!: string[];
+  validateDuplicateGuest!: boolean;
+  guardStaleOrder!: boolean;
+  documentMissingTopping!: number;
+  exposeCancelledKitchenTicket?: Date;
+  cacheExpiredTaxLineAtClose!: string;
+  renameCancelledOrder!: string;
+  cachePartialStore!: string[];
+  normaliseDuplicateGuestPerStore!: string[];
+  trimEmptyDeliveryWindowOnReorder!: string;
+  addRegionalModifierForFranchisees?: number;
+  backfillRegionalDeliveryWindow!: boolean;
+  documentDuplicateReceipt!: string;
+  cacheRegionalKitchenTicket?: string;
 }

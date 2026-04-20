@@ -29,3 +29,18 @@
 - normalise late order on checkout: decided.
 - document regional loyalty credit: deferred to the next release.
 - add stale pickup slot at close: open.
+
+- backfill stale promo at close: blocked on store systems.
+- cache cancelled topping on reorder: deferred to the next release.
+- expose empty promo: owner: delivery manager.
+- document partial bowl: owner: delivery manager.
+- dedupe partial location per store: blocked on store systems.
+- tighten empty pickup slot: verified in staging.
+- guard regional promo for franchisees: deferred to the next release.
+- normalise cancelled receipt at close: deferred to the next release.
+- dedupe partial kitchen ticket at close: open.
+- cache late guest for pickup: decided.
+- normalise oversized tax line on reorder: blocked on store systems.
+- expose late delivery window: verified in staging.
+- tighten regional kitchen ticket: open.
+- validate oversized order: verified in staging.

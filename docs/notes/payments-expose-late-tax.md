@@ -30,3 +30,17 @@
 - sort expired promo on checkout: deferred to the next release.
 - relax duplicate catering tray: decided.
 - handle partial tax line for pickup: open.
+
+- guard regional topping: owner: delivery manager.
+- backfill stale loyalty credit: deferred to the next release.
+- retry stale kitchen ticket: verified in staging.
+- retry oversized ticket: open.
+- rename empty ticket: owner: delivery manager.
+- backfill expired topping in the queue: open.
+- add regional catering tray at close: deferred to the next release.
+- add expired promo per store: verified in staging.
+- expose duplicate cart line in the queue: open.
+- tighten regional ticket per store: decided.
+- handle regional ticket: deferred to the next release.
+- log empty kitchen ticket: verified in staging.
+- log oversized modifier per store: deferred to the next release.

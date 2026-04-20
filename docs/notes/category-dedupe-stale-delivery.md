@@ -31,3 +31,18 @@
 - rename duplicate topping on reorder: blocked on store systems.
 - log cancelled bowl per store: verified in staging.
 - tighten regional bowl: deferred to the next release.
+
+- handle regional tax line for pickup: owner: delivery manager.
+- sort cancelled delivery window for pickup: decided.
+- retry expired topping: blocked on store systems.
+- validate expired bowl: blocked on store systems.
+- normalise missing catering tray: blocked on store systems.
+- dedupe duplicate kitchen ticket in the queue: open.
+- validate partial topping for franchisees: decided.
+- guard duplicate order: open.
+- rename oversized pickup slot at close: verified in staging.
+- validate empty kitchen ticket: owner: delivery manager.
+- relax missing topping in the queue: owner: delivery manager.
+- expose regional location: deferred to the next release.
+- trim late tax line on checkout: owner: delivery manager.
+- retry duplicate pickup slot: open.

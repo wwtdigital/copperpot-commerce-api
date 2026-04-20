@@ -103,3 +103,5 @@
 - document missing loyalty credit: deferred to the next release.
 - normalise stale bowl at close: verified in staging.
 - document late loyalty credit for pickup: open.
+
+- log stale kitchen ticket: decided.

@@ -216,4 +216,16 @@ export const NormaliseOversizedLoyaltyCreditAtCloseRows = [
     label: 'relax cancelled location',
     quantity: 1,
   },
+  {
+    id: 'category-1231',
+    store: '649',
+    label: 'paginate expired catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'category-3859',
+    store: '314',
+    label: 'trim empty location at close',
+    quantity: 9,
+  },
 ];

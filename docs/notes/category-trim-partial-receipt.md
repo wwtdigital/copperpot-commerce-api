@@ -73,3 +73,18 @@
 - dedupe empty guest: verified in staging.
 - handle cancelled order at close: open.
 - add duplicate receipt: open.
+
+- paginate late bowl on checkout: deferred to the next release.
+- rename regional cart line on reorder: decided.
+- dedupe missing loyalty credit for franchisees: open.
+- sort cancelled order: open.
+- backfill duplicate cart line: blocked on store systems.
+- dedupe regional bowl: open.
+- add duplicate tax line on checkout: decided.
+- log regional ticket: decided.
+- backfill oversized store: owner: delivery manager.
+- expose cancelled tax line: decided.
+- expose duplicate modifier on reorder: open.
+- handle expired order: open.
+- paginate oversized cart line: deferred to the next release.
+- sort partial bowl per store: verified in staging.

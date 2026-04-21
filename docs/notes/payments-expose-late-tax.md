@@ -30,5 +30,3 @@
 - sort expired promo on checkout: deferred to the next release.
 - relax duplicate catering tray: decided.
 - handle partial tax line for pickup: open.
-- sort cancelled kitchen ticket: deferred to the next release.
-- normalise duplicate modifier at close: owner: delivery manager.

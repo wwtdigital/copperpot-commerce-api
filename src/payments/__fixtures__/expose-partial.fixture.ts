@@ -90,4 +90,34 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'log expired kitchen ticket at close',
     quantity: 7,
   },
+  {
+    id: 'payments-1707',
+    store: '656',
+    label: 'relax stale catering tray in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'payments-5559',
+    store: '363',
+    label: 'dedupe empty store',
+    quantity: 11,
+  },
+  {
+    id: 'payments-3812',
+    store: '621',
+    label: 'add regional receipt in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'payments-3382',
+    store: '182',
+    label: 'sort cancelled catering tray for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'payments-5143',
+    store: '537',
+    label: 'retry late cart line on checkout',
+    quantity: 5,
+  },
 ];

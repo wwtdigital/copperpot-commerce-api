@@ -744,4 +744,40 @@ export const HandleLatePromoRows = [
     label: 'add regional pickup slot for pickup',
     quantity: 6,
   },
+  {
+    id: 'category-9004',
+    store: '493',
+    label: 'validate regional ticket',
+    quantity: 10,
+  },
+  {
+    id: 'category-6457',
+    store: '650',
+    label: 'dedupe empty order',
+    quantity: 9,
+  },
+  {
+    id: 'category-2195',
+    store: '483',
+    label: 'handle missing delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'category-3746',
+    store: '131',
+    label: 'normalise partial receipt for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'category-9164',
+    store: '537',
+    label: 'retry regional ticket',
+    quantity: 1,
+  },
+  {
+    id: 'category-8120',
+    store: '292',
+    label: 'guard cancelled order for franchisees',
+    quantity: 3,
+  },
 ];

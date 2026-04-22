@@ -88,3 +88,20 @@
 - handle expired order: open.
 - paginate oversized cart line: deferred to the next release.
 - sort partial bowl per store: verified in staging.
+
+- expose regional receipt for pickup: verified in staging.
+- handle partial topping for pickup: blocked on store systems.
+- cache partial cart line: verified in staging.
+- add empty pickup slot: owner: delivery manager.
+- handle partial bowl: decided.
+- add expired delivery window: decided.
+- document partial cart line for pickup: blocked on store systems.
+- rename cancelled ticket: deferred to the next release.
+- rename duplicate kitchen ticket on checkout: verified in staging.
+- tighten empty tax line: decided.
+- log stale loyalty credit: verified in staging.
+- document missing loyalty credit: deferred to the next release.
+- normalise stale bowl at close: verified in staging.
+- document late loyalty credit for pickup: open.
+
+- log stale kitchen ticket: decided.

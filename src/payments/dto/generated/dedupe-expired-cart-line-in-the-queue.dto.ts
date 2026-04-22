@@ -72,4 +72,6 @@ export class DedupeExpiredCartLineInTheQueueDto {
   exposeEmptyCateringTrayOnReorder?: boolean;
   documentEmptyGuest!: Date;
   cacheLateCartLineInTheQueue!: string[];
+  tightenStaleDeliveryWindow?: boolean;
+  renameExpiredTicketForPickup!: Date;
 }

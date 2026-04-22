@@ -12,4 +12,40 @@ export const GuardEmptyPromoRows = [
     label: 'trim oversized cart line in the queue',
     quantity: 6,
   },
+  {
+    id: 'payments-2850',
+    store: '332',
+    label: 'rename empty store',
+    quantity: 6,
+  },
+  {
+    id: 'payments-7600',
+    store: '615',
+    label: 'backfill late kitchen ticket in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'payments-3146',
+    store: '328',
+    label: 'expose oversized order',
+    quantity: 8,
+  },
+  {
+    id: 'payments-6447',
+    store: '355',
+    label: 'expose oversized cart line',
+    quantity: 9,
+  },
+  {
+    id: 'payments-9462',
+    store: '199',
+    label: 'backfill late modifier',
+    quantity: 12,
+  },
+  {
+    id: 'payments-9225',
+    store: '598',
+    label: 'add duplicate guest',
+    quantity: 10,
+  },
 ];

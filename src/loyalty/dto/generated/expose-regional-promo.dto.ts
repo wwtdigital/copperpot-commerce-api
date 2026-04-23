@@ -233,4 +233,6 @@ export class ExposeRegionalPromoDto {
   backfillMissingTaxLineAtClose!: Date;
   dedupePartialReceiptPerStore?: string;
   cacheRegionalMenuItem!: string[];
+  addPartialTaxLine!: boolean;
+  dedupeRegionalDeliveryWindow!: string[];
 }

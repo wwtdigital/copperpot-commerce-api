@@ -125,7 +125,3 @@
 - handle stale guest per store: verified in staging.
 - tighten duplicate topping: open.
 - trim late kitchen ticket: deferred to the next release.
-- document cancelled ticket: open.
-- handle missing loyalty credit for franchisees: verified in staging.
-- dedupe cancelled cart line: open.
-- guard cancelled delivery window for franchisees: owner: delivery manager.

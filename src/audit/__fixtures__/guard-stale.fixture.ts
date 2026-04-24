@@ -12,4 +12,10 @@ export const GuardStaleModifierInTheQueueRows = [
     label: 'document cancelled tax line per store',
     quantity: 7,
   },
+  {
+    id: 'audit-4259',
+    store: '197',
+    label: 'tighten late topping for franchisees',
+    quantity: 9,
+  },
 ];

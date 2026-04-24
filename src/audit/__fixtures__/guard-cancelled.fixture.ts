@@ -6,4 +6,10 @@ export const GuardCancelledTaxLineForFranchiseesRows = [
     label: 'tighten partial ticket',
     quantity: 10,
   },
+  {
+    id: 'audit-3304',
+    store: '417',
+    label: 'expose oversized modifier on reorder',
+    quantity: 6,
+  },
 ];

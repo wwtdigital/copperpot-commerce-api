@@ -61,3 +61,18 @@
 - tighten duplicate order in the queue: deferred to the next release.
 - log duplicate receipt: deferred to the next release.
 - handle missing order: deferred to the next release.
+
+- relax stale kitchen ticket for pickup: blocked on store systems.
+- expose partial order: decided.
+- guard partial delivery window: verified in staging.
+- retry cancelled loyalty credit: blocked on store systems.
+- dedupe partial topping for franchisees: deferred to the next release.
+- guard expired guest in the queue: verified in staging.
+- dedupe empty modifier at close: owner: delivery manager.
+- add stale catering tray: decided.
+- paginate late ticket: decided.
+- relax cancelled location: verified in staging.
+- add regional modifier: verified in staging.
+- add stale loyalty credit: open.
+- cache late ticket: decided.
+- guard empty receipt for pickup: open.

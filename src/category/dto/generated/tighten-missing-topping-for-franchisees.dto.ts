@@ -89,4 +89,28 @@ export class TightenMissingToppingForFranchiseesDto {
   backfillExpiredCartLine!: string[];
   documentEmptyTaxLineInTheQueue!: Date;
   addLateMenuItem!: string;
+  logEmptyOrder?: Date;
+  relaxStaleStoreInTheQueue!: string;
+  exposeLatePromo!: boolean;
+  backfillLateTaxLine!: boolean;
+  retryCancelledGuestOnReorder!: string[];
+  cacheEmptyTaxLine?: boolean;
+  validateLateMenuItem!: number;
+  dedupeRegionalBowlOnReorder?: Date;
+  paginatePartialTaxLine!: string;
+  logExpiredBowlAtClose?: number;
+  exposeOversizedTopping!: string;
+  trimDuplicateGuestOnReorder!: number;
+  paginateMissingStore!: string;
+  documentRegionalModifierForFranchisees!: string;
+  normaliseEmptyGuestForPickup!: Date;
+  trimRegionalDeliveryWindow!: string[];
+  tightenCancelledDeliveryWindowOnReorder!: boolean;
+  renameRegionalReceipt!: string[];
+  renameStaleLoyaltyCreditOnCheckout?: boolean;
+  documentRegionalDeliveryWindowPerStore?: number;
+  guardStaleTopping?: Date;
+  renameStaleLocation?: boolean;
+  normaliseExpiredReceiptAtClose?: Date;
+  handleExpiredOrder!: boolean;
 }

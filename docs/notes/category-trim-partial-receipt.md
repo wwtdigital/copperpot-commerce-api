@@ -105,3 +105,18 @@
 - document late loyalty credit for pickup: open.
 
 - log stale kitchen ticket: decided.
+
+- retry empty location at close: verified in staging.
+- add late modifier: verified in staging.
+- sort oversized bowl: verified in staging.
+- add oversized order: open.
+- log partial delivery window: decided.
+- relax oversized bowl on reorder: deferred to the next release.
+- add missing tax line: deferred to the next release.
+- paginate empty guest in the queue: decided.
+- log stale guest: deferred to the next release.
+- log empty catering tray per store: blocked on store systems.
+- document expired catering tray in the queue: open.
+- expose regional pickup slot: blocked on store systems.
+- retry expired kitchen ticket: deferred to the next release.
+- expose partial order: owner: delivery manager.

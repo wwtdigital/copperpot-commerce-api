@@ -822,4 +822,10 @@ export const HandleLatePromoRows = [
     label: 'document cancelled kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'category-9962',
+    store: '315',
+    label: 'relax cancelled promo on checkout',
+    quantity: 1,
+  },
 ];

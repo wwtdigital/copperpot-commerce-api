@@ -288,4 +288,28 @@ export const RelaxLateToppingRows = [
     label: 'expose missing bowl on reorder',
     quantity: 2,
   },
+  {
+    id: 'loyalty-9393',
+    store: '106',
+    label: 'guard regional bowl',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-4465',
+    store: '305',
+    label: 'retry empty modifier for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-2259',
+    store: '536',
+    label: 'rename missing menu item',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-9964',
+    store: '401',
+    label: 'validate expired guest',
+    quantity: 6,
+  },
 ];

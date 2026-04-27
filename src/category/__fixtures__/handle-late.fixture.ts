@@ -780,4 +780,46 @@ export const HandleLatePromoRows = [
     label: 'guard cancelled order for franchisees',
     quantity: 3,
   },
+  {
+    id: 'category-1028',
+    store: '510',
+    label: 'add missing menu item on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'category-2489',
+    store: '617',
+    label: 'relax late bowl for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'category-5273',
+    store: '451',
+    label: 'add expired loyalty credit in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'category-5377',
+    store: '349',
+    label: 'add late kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'category-2981',
+    store: '591',
+    label: 'handle empty store per store',
+    quantity: 4,
+  },
+  {
+    id: 'category-4992',
+    store: '531',
+    label: 'log missing catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'category-8164',
+    store: '452',
+    label: 'document cancelled kitchen ticket',
+    quantity: 2,
+  },
 ];

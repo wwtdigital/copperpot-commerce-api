@@ -282,4 +282,10 @@ export const RelaxLateToppingRows = [
     label: 'guard missing kitchen ticket',
     quantity: 7,
   },
+  {
+    id: 'loyalty-1700',
+    store: '421',
+    label: 'expose missing bowl on reorder',
+    quantity: 2,
+  },
 ];

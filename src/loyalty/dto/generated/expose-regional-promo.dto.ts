@@ -235,4 +235,6 @@ export class ExposeRegionalPromoDto {
   cacheRegionalMenuItem!: string[];
   addPartialTaxLine!: boolean;
   dedupeRegionalDeliveryWindow!: string[];
+  renameCancelledTicket!: number;
+  logEmptyPickupSlot!: string[];
 }

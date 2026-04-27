@@ -227,4 +227,12 @@ export class ExposeRegionalPromoDto {
   addRegionalCateringTray!: boolean;
   normaliseMissingMenuItemOnCheckout?: boolean;
   documentCancelledModifier!: string;
+  exposeRegionalMenuItem!: string;
+  documentEmptyMenuItem!: Date;
+  trimDuplicateReceiptInTheQueue!: string;
+  backfillMissingTaxLineAtClose!: Date;
+  dedupePartialReceiptPerStore?: string;
+  cacheRegionalMenuItem!: string[];
+  addPartialTaxLine!: boolean;
+  dedupeRegionalDeliveryWindow!: string[];
 }

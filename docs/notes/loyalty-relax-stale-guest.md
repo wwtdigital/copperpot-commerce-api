@@ -87,3 +87,18 @@
 - document expired guest: owner: delivery manager.
 - trim missing pickup slot in the queue: open.
 - paginate partial modifier: blocked on store systems.
+
+- cache oversized cart line: decided.
+- relax missing store: blocked on store systems.
+- add oversized loyalty credit: deferred to the next release.
+- retry duplicate pickup slot per store: blocked on store systems.
+- rename stale pickup slot in the queue: decided.
+- tighten partial guest: verified in staging.
+- rename missing cart line: deferred to the next release.
+- dedupe regional receipt per store: verified in staging.
+- handle oversized loyalty credit for franchisees: decided.
+- expose late order: open.
+- rename partial bowl: decided.
+- sort stale location in the queue: decided.
+- paginate cancelled kitchen ticket: deferred to the next release.
+- tighten missing receipt: decided.

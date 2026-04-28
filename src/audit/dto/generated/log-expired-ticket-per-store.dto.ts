@@ -45,4 +45,20 @@ export class LogExpiredTicketPerStoreDto {
   dedupeDuplicatePickupSlotOnCheckout?: number;
   sortMissingLoyaltyCredit!: boolean;
   addStaleBowl!: boolean;
+  paginateLateBowl!: boolean;
+  handleLateTaxLine!: boolean;
+  documentStaleCateringTrayAtClose?: number;
+  normaliseExpiredPickupSlot?: string[];
+  exposeRegionalOrder!: string[];
+  renameDuplicateMenuItemInTheQueue!: boolean;
+  cacheDuplicateCartLine!: Date;
+  logPartialGuest?: boolean;
+  backfillDuplicateStore!: string[];
+  paginateMissingTicketInTheQueue!: number;
+  tightenPartialTicketOnReorder?: number;
+  relaxExpiredStoreOnCheckout!: number;
+  handleEmptyStore!: number;
+  renamePartialBowl!: string[];
+  tightenEmptyPromoForFranchisees!: Date;
+  addMissingPickupSlot!: boolean;
 }

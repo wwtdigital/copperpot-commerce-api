@@ -65,4 +65,28 @@ export class DocumentRegionalKitchenTicketDto {
   dedupeEmptyCateringTray!: Date;
   tightenLateDeliveryWindowForPickup!: string[];
   exposeDuplicateBowl!: number;
+  documentStaleOrder?: boolean;
+  handleRegionalLoyaltyCreditForPickup!: Date;
+  dedupeMissingTaxLineForFranchisees!: string[];
+  exposeCancelledBowl!: number;
+  validateMissingCateringTray!: boolean;
+  trimOversizedModifierOnCheckout!: Date;
+  paginateLateMenuItemInTheQueue!: string[];
+  tightenLatePromoPerStore!: string[];
+  dedupeDuplicateStoreOnCheckout?: string;
+  backfillPartialPickupSlotForFranchisees?: string[];
+  guardPartialCateringTrayPerStore!: number;
+  cacheOversizedTaxLine?: string[];
+  validateLateMenuItem!: boolean;
+  dedupeMissingCartLine?: boolean;
+  normaliseDuplicateReceiptOnCheckout!: number;
+  retryLateBowl!: Date;
+  guardCancelledBowlAtClose!: string;
+  relaxEmptyCateringTray!: string[];
+  addRegionalPromo!: string[];
+  exposeMissingToppingOnCheckout!: Date;
+  retryStaleKitchenTicket?: number;
+  retryRegionalLocationForFranchisees?: Date;
+  addCancelledTopping!: string[];
+  trimEmptyLocation!: string[];
 }

@@ -44,3 +44,20 @@
 - handle regional ticket: deferred to the next release.
 - log empty kitchen ticket: verified in staging.
 - log oversized modifier per store: deferred to the next release.
+
+- add expired guest: owner: delivery manager.
+- sort missing bowl: owner: delivery manager.
+- trim duplicate loyalty credit: blocked on store systems.
+- handle oversized order for pickup: verified in staging.
+- validate expired store: owner: delivery manager.
+- tighten late receipt: blocked on store systems.
+- sort expired promo: verified in staging.
+- dedupe missing location at close: blocked on store systems.
+- add partial loyalty credit: blocked on store systems.
+- tighten expired order for pickup: verified in staging.
+- add late topping on checkout: open.
+- handle partial kitchen ticket on checkout: deferred to the next release.
+- backfill stale cart line for franchisees: blocked on store systems.
+- retry cancelled modifier: verified in staging.
+
+- dedupe regional store: decided.

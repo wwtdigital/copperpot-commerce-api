@@ -44,3 +44,22 @@
 - expose late delivery window: verified in staging.
 - tighten regional kitchen ticket: open.
 - validate oversized order: verified in staging.
+
+- tighten stale loyalty credit on checkout: blocked on store systems.
+- normalise cancelled guest: owner: delivery manager.
+- rename missing catering tray: blocked on store systems.
+- document empty modifier on reorder: blocked on store systems.
+- backfill missing tax line at close: blocked on store systems.
+- relax duplicate topping on reorder: decided.
+- normalise empty cart line on reorder: open.
+- handle expired ticket on reorder: deferred to the next release.
+- document oversized bowl: owner: delivery manager.
+- cache regional kitchen ticket on checkout: decided.
+- log expired menu item: open.
+- log late receipt at close: verified in staging.
+- retry missing order: blocked on store systems.
+- rename cancelled receipt: decided.
+
+- dedupe empty loyalty credit for pickup: decided.
+- retry oversized guest: blocked on store systems.
+- expose empty loyalty credit: decided.

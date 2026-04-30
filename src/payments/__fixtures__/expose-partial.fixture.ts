@@ -120,4 +120,10 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'retry late cart line on checkout',
     quantity: 5,
   },
+  {
+    id: 'payments-5792',
+    store: '197',
+    label: 'log duplicate pickup slot',
+    quantity: 4,
+  },
 ];

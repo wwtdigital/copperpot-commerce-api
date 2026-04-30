@@ -59,3 +59,7 @@
 - log late receipt at close: verified in staging.
 - retry missing order: blocked on store systems.
 - rename cancelled receipt: decided.
+
+- dedupe empty loyalty credit for pickup: decided.
+- retry oversized guest: blocked on store systems.
+- expose empty loyalty credit: decided.

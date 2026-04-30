@@ -81,4 +81,14 @@ export class GuardPartialLoyaltyCreditDto {
   documentStaleLocation!: string;
   cachePartialToppingPerStore!: number;
   paginateDuplicateLocation?: number;
+  renameExpiredMenuItem!: string[];
+  relaxStaleDeliveryWindowPerStore!: number;
+  trimMissingModifierInTheQueue!: boolean;
+  logEmptyTicket?: string[];
+  tightenCancelledKitchenTicketOnCheckout!: string;
+  logOversizedGuest!: string[];
+  trimEmptyOrderForFranchisees!: Date;
+  retryRegionalPickupSlot!: number;
+  exposeDuplicateLocation!: number;
+  validateOversizedStoreOnCheckout?: Date;
 }

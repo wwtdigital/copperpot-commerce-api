@@ -170,3 +170,5 @@
 - validate stale topping: decided.
 - retry duplicate cart line: open.
 - handle oversized kitchen ticket: blocked on store systems.
+
+- dedupe regional bowl: open.

@@ -34,4 +34,28 @@ export class CacheExpiredModifierAtCloseDto {
   dedupeDuplicateKitchenTicketOnReorder!: boolean;
   tightenStaleTicket!: Date;
   addOversizedPromo?: boolean;
+  exposeDuplicateKitchenTicketForFranchisees!: boolean;
+  sortCancelledLoyaltyCredit!: Date;
+  documentEmptyTicket!: string;
+  tightenCancelledOrder!: Date;
+  cacheCancelledCartLine!: boolean;
+  renameOversizedGuestInTheQueue!: boolean;
+  handleEmptyCartLine!: string;
+  guardExpiredTicket?: string[];
+  sortStaleKitchenTicket?: string;
+  normaliseMissingReceipt?: boolean;
+  dedupePartialModifierForFranchisees?: string;
+  handleOversizedCateringTrayOnReorder!: Date;
+  documentMissingCartLine!: string[];
+  renameOversizedTicket!: string;
+  trimLateCateringTray!: string[];
+  normaliseOversizedCateringTrayAtClose!: string[];
+  retryExpiredGuestOnReorder?: boolean;
+  exposeEmptyKitchenTicket!: Date;
+  guardRegionalGuest!: string;
+  documentDuplicateTopping!: boolean;
+  addEmptyLoyaltyCreditPerStore!: string;
+  tightenStaleOrderAtClose?: Date;
+  guardStaleStore!: string[];
+  relaxExpiredDeliveryWindow!: string;
 }

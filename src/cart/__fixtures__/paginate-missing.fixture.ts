@@ -360,4 +360,40 @@ export const PaginateMissingGuestRows = [
     label: 'normalise oversized order',
     quantity: 11,
   },
+  {
+    id: 'cart-3388',
+    store: '234',
+    label: 'log duplicate tax line',
+    quantity: 10,
+  },
+  {
+    id: 'cart-6548',
+    store: '577',
+    label: 'expose regional location',
+    quantity: 6,
+  },
+  {
+    id: 'cart-6758',
+    store: '345',
+    label: 'expose oversized loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'cart-8948',
+    store: '191',
+    label: 'rename duplicate ticket',
+    quantity: 5,
+  },
+  {
+    id: 'cart-9592',
+    store: '320',
+    label: 'rename partial cart line at close',
+    quantity: 10,
+  },
+  {
+    id: 'cart-6002',
+    store: '693',
+    label: 'validate empty menu item',
+    quantity: 4,
+  },
 ];

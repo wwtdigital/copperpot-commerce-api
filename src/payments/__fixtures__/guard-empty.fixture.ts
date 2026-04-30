@@ -48,4 +48,46 @@ export const GuardEmptyPromoRows = [
     label: 'add duplicate guest',
     quantity: 10,
   },
+  {
+    id: 'payments-8184',
+    store: '464',
+    label: 'handle oversized tax line',
+    quantity: 5,
+  },
+  {
+    id: 'payments-1063',
+    store: '205',
+    label: 'expose cancelled location on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'payments-5316',
+    store: '468',
+    label: 'guard missing pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'payments-5764',
+    store: '229',
+    label: 'expose partial loyalty credit for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'payments-3377',
+    store: '269',
+    label: 'trim empty kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'payments-6214',
+    store: '619',
+    label: 'rename missing receipt',
+    quantity: 7,
+  },
+  {
+    id: 'payments-1807',
+    store: '507',
+    label: 'log late loyalty credit for pickup',
+    quantity: 3,
+  },
 ];

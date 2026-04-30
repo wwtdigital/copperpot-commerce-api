@@ -59,3 +59,5 @@
 - handle partial kitchen ticket on checkout: deferred to the next release.
 - backfill stale cart line for franchisees: blocked on store systems.
 - retry cancelled modifier: verified in staging.
+
+- dedupe regional store: decided.

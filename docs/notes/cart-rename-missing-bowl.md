@@ -140,3 +140,33 @@
 - normalise late guest: verified in staging.
 - backfill cancelled cart line: open.
 - validate oversized delivery window: deferred to the next release.
+
+- backfill regional store in the queue: verified in staging.
+- validate late location in the queue: blocked on store systems.
+- handle expired cart line: verified in staging.
+- retry missing ticket: owner: delivery manager.
+- dedupe empty bowl: verified in staging.
+- retry late order on checkout: owner: delivery manager.
+- guard missing loyalty credit per store: owner: delivery manager.
+- document oversized promo on reorder: verified in staging.
+- validate cancelled bowl for pickup: open.
+- validate stale topping: deferred to the next release.
+- sort partial ticket: owner: delivery manager.
+- log late catering tray on checkout: open.
+- paginate late bowl in the queue: deferred to the next release.
+- log late cart line for pickup: decided.
+
+- retry regional kitchen ticket per store: deferred to the next release.
+- sort partial loyalty credit at close: deferred to the next release.
+- cache late store: owner: delivery manager.
+- add regional kitchen ticket: open.
+- paginate missing receipt: verified in staging.
+- trim duplicate loyalty credit: open.
+- handle partial location: decided.
+- expose empty guest: decided.
+- document expired order: decided.
+- expose empty pickup slot in the queue: blocked on store systems.
+- paginate duplicate topping for franchisees: decided.
+- validate stale topping: decided.
+- retry duplicate cart line: open.
+- handle oversized kitchen ticket: blocked on store systems.

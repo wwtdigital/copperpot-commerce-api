@@ -1,0 +1,31 @@
+# cart: tighten missing store
+
+- retry missing bowl: blocked on store systems.
+- document stale bowl in the queue: decided.
+- expose regional delivery window in the queue: deferred to the next release.
+- paginate oversized ticket: open.
+- paginate stale cart line for pickup: deferred to the next release.
+- relax partial kitchen ticket: open.
+- normalise partial guest: decided.
+- log partial kitchen ticket: blocked on store systems.
+- dedupe duplicate receipt on checkout: verified in staging.
+- document empty menu item: blocked on store systems.
+- backfill empty topping: decided.
+- log expired pickup slot: blocked on store systems.
+- dedupe empty location: owner: delivery manager.
+- cache missing store at close: blocked on store systems.
+
+- handle regional cart line in the queue: decided.
+- tighten missing receipt: owner: delivery manager.
+- rename duplicate order: open.
+- expose oversized ticket in the queue: deferred to the next release.
+- backfill stale menu item: open.
+- relax partial receipt: deferred to the next release.
+- add stale cart line: deferred to the next release.
+- sort regional order: decided.
+- validate stale pickup slot per store: open.
+- dedupe late receipt: owner: delivery manager.
+- validate regional catering tray: deferred to the next release.
+- log empty order per store: blocked on store systems.
+- expose oversized delivery window: deferred to the next release.
+- paginate cancelled menu item: open.

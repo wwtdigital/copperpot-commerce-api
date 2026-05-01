@@ -10,4 +10,28 @@ export class CacheExpiredModifierAtCloseDto {
   normaliseMissingTaxLineForPickup?: string[];
   tightenDuplicateCartLineForPickup!: string[];
   handleExpiredLocation!: boolean;
+  addCancelledReceipt!: Date;
+  handleLateDeliveryWindowOnCheckout?: boolean;
+  cacheOversizedStoreOnReorder!: string;
+  addMissingPickupSlotForFranchisees!: boolean;
+  handleLateTaxLineOnCheckout!: number;
+  guardOversizedTopping?: Date;
+  backfillPartialToppingOnReorder!: boolean;
+  cacheRegionalLocation?: number;
+  guardEmptyBowlPerStore!: string[];
+  addEmptyLocation!: string[];
+  exposePartialTicket?: string;
+  addRegionalStoreInTheQueue!: string[];
+  trimMissingTicket?: boolean;
+  sortMissingPickupSlot?: Date;
+  guardRegionalLocation!: boolean;
+  logOversizedDeliveryWindow!: string[];
+  relaxEmptyLoyaltyCredit?: string[];
+  cacheRegionalDeliveryWindow!: number;
+  renameCancelledOrder!: Date;
+  trimExpiredCateringTrayForPickup!: number;
+  tightenDuplicateGuestPerStore!: Date;
+  dedupeDuplicateKitchenTicketOnReorder!: boolean;
+  tightenStaleTicket!: Date;
+  addOversizedPromo?: boolean;
 }

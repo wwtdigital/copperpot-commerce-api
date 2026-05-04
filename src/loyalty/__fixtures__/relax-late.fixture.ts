@@ -312,4 +312,16 @@ export const RelaxLateToppingRows = [
     label: 'validate expired guest',
     quantity: 6,
   },
+  {
+    id: 'loyalty-9063',
+    store: '411',
+    label: 'rename regional topping',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-4681',
+    store: '524',
+    label: 'expose stale guest',
+    quantity: 7,
+  },
 ];

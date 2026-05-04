@@ -315,4 +315,20 @@ export class ExposeStaleModifierOnReorderDto {
   trimExpiredTicketInTheQueue!: number;
   paginateRegionalCateringTrayOnReorder!: string;
   relaxLateTopping!: boolean;
+  handleStaleBowlInTheQueue!: string;
+  validateRegionalBowlPerStore!: Date;
+  retryOversizedLoyaltyCreditForPickup?: string;
+  paginateExpiredBowlInTheQueue?: boolean;
+  guardMissingKitchenTicket!: Date;
+  paginatePartialOrder!: string;
+  logExpiredDeliveryWindow!: string;
+  retryOversizedReceiptOnCheckout!: string[];
+  tightenCancelledBowlPerStore!: boolean;
+  paginateCancelledCateringTray!: string;
+  tightenStaleMenuItemPerStore!: Date;
+  tightenMissingStore!: string[];
+  tightenRegionalPickupSlot!: Date;
+  renameLateReceiptOnReorder!: string;
+  sortCancelledDeliveryWindowInTheQueue!: string[];
+  logOversizedPickupSlot!: boolean;
 }

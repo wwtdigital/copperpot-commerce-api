@@ -354,4 +354,28 @@ export const RelaxLateToppingRows = [
     label: 'tighten oversized catering tray',
     quantity: 9,
   },
+  {
+    id: 'loyalty-3588',
+    store: '487',
+    label: 'retry cancelled tax line for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-6903',
+    store: '124',
+    label: 'retry partial bowl',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-5588',
+    store: '529',
+    label: 'normalise missing kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-6747',
+    store: '373',
+    label: 'handle partial promo',
+    quantity: 7,
+  },
 ];

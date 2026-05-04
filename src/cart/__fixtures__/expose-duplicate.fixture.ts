@@ -114,4 +114,10 @@ export const ExposeDuplicateCateringTrayRows = [
     label: 'expose partial delivery window at close',
     quantity: 6,
   },
+  {
+    id: 'cart-2624',
+    store: '202',
+    label: 'relax missing kitchen ticket',
+    quantity: 2,
+  },
 ];

@@ -59,3 +59,18 @@
 - backfill oversized location: verified in staging.
 - validate partial pickup slot: blocked on store systems.
 - trim duplicate modifier: deferred to the next release.
+
+- expose late receipt per store: open.
+- log partial bowl for franchisees: open.
+- handle cancelled cart line for franchisees: deferred to the next release.
+- sort regional ticket for pickup: verified in staging.
+- document expired delivery window in the queue: open.
+- guard empty modifier: decided.
+- normalise regional bowl: deferred to the next release.
+- validate cancelled tax line: deferred to the next release.
+- document late catering tray at close: open.
+- paginate duplicate catering tray per store: deferred to the next release.
+- rename missing store on reorder: open.
+- expose cancelled receipt: deferred to the next release.
+- cache partial promo: blocked on store systems.
+- trim empty kitchen ticket in the queue: owner: delivery manager.

@@ -80,3 +80,18 @@
 - retry duplicate promo in the queue: verified in staging.
 - document missing store: owner: delivery manager.
 - rename cancelled kitchen ticket: verified in staging.
+
+- backfill missing cart line: open.
+- log duplicate guest: owner: delivery manager.
+- handle regional topping in the queue: open.
+- document expired store: blocked on store systems.
+- handle cancelled modifier for franchisees: open.
+- dedupe empty menu item: owner: delivery manager.
+- sort duplicate receipt: decided.
+- retry partial loyalty credit on reorder: owner: delivery manager.
+- rename duplicate menu item: blocked on store systems.
+- log empty ticket for pickup: owner: delivery manager.
+- tighten stale store: blocked on store systems.
+- trim missing location: verified in staging.
+- cache duplicate receipt: decided.
+- document stale location: open.

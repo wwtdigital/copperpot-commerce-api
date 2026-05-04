@@ -34,3 +34,7 @@
 - backfill missing menu item: blocked on store systems.
 - tighten expired promo: blocked on store systems.
 - cache oversized ticket at close: decided.
+
+- log duplicate receipt for pickup: open.
+- relax regional cart line: deferred to the next release.
+- cache stale kitchen ticket for franchisees: decided.

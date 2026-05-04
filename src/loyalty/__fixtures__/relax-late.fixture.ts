@@ -324,4 +324,34 @@ export const RelaxLateToppingRows = [
     label: 'expose stale guest',
     quantity: 7,
   },
+  {
+    id: 'loyalty-4027',
+    store: '420',
+    label: 'log duplicate catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-5617',
+    store: '379',
+    label: 'dedupe stale modifier for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-2795',
+    store: '502',
+    label: 'guard partial location on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-1332',
+    store: '418',
+    label: 'trim empty guest',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-3331',
+    store: '199',
+    label: 'tighten oversized catering tray',
+    quantity: 9,
+  },
 ];

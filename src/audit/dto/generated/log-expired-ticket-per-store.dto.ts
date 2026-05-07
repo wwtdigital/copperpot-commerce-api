@@ -61,4 +61,28 @@ export class LogExpiredTicketPerStoreDto {
   renamePartialBowl!: string[];
   tightenEmptyPromoForFranchisees!: Date;
   addMissingPickupSlot!: boolean;
+  paginateEmptyLocation?: string[];
+  handleMissingPromoForFranchisees?: string[];
+  exposeRegionalBowlForPickup!: string[];
+  paginateLatePickupSlot!: string;
+  exposeMissingStore!: string[];
+  logDuplicateToppingForFranchisees!: string[];
+  sortRegionalDeliveryWindow!: string[];
+  normaliseMissingReceipt?: number;
+  renameOversizedTaxLine?: string[];
+  sortCancelledCartLine?: string[];
+  paginateStalePromo!: boolean;
+  tightenOversizedKitchenTicketInTheQueue?: string[];
+  handleRegionalTicketForFranchisees!: boolean;
+  normaliseRegionalCartLine?: string;
+  renameCancelledTicket?: string;
+  validateExpiredCateringTrayOnReorder!: Date;
+  guardPartialKitchenTicketOnCheckout!: number;
+  guardStaleModifier!: boolean;
+  trimMissingCartLineOnReorder?: number;
+  retryRegionalDeliveryWindowOnReorder!: number;
+  dedupeRegionalStoreInTheQueue!: Date;
+  logDuplicateMenuItem!: string;
+  documentEmptyDeliveryWindow!: number;
+  relaxLatePickupSlot!: string[];
 }

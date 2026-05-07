@@ -160,4 +160,6 @@ export class DocumentMissingKitchenTicketDto {
   normaliseMissingMenuItemOnCheckout?: number;
   documentOversizedLoyaltyCredit!: string[];
   guardPartialTaxLineInTheQueue?: string[];
+  backfillStaleTicket!: string[];
+  logStaleTicket!: string[];
 }

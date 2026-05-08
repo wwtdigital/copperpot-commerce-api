@@ -330,4 +330,46 @@ export const GuardEmptyPromoRows = [
     label: 'rename expired tax line',
     quantity: 8,
   },
+  {
+    id: 'payments-2035',
+    store: '463',
+    label: 'cache empty tax line at close',
+    quantity: 2,
+  },
+  {
+    id: 'payments-7669',
+    store: '161',
+    label: 'backfill cancelled location',
+    quantity: 1,
+  },
+  {
+    id: 'payments-4478',
+    store: '251',
+    label: 'retry oversized promo',
+    quantity: 6,
+  },
+  {
+    id: 'payments-4850',
+    store: '118',
+    label: 'relax partial loyalty credit in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'payments-7557',
+    store: '196',
+    label: 'tighten duplicate tax line',
+    quantity: 9,
+  },
+  {
+    id: 'payments-8427',
+    store: '283',
+    label: 'retry partial menu item',
+    quantity: 2,
+  },
+  {
+    id: 'payments-1216',
+    store: '218',
+    label: 'backfill expired menu item at close',
+    quantity: 11,
+  },
 ];

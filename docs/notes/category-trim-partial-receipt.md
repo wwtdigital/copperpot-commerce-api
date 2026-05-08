@@ -120,3 +120,6 @@
 - expose regional pickup slot: blocked on store systems.
 - retry expired kitchen ticket: deferred to the next release.
 - expose partial order: owner: delivery manager.
+
+- add stale delivery window in the queue: deferred to the next release.
+- rename oversized pickup slot: verified in staging.

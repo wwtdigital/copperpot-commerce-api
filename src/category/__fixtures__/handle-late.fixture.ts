@@ -960,4 +960,10 @@ export const HandleLatePromoRows = [
     label: 'trim duplicate receipt per store',
     quantity: 6,
   },
+  {
+    id: 'category-3063',
+    store: '527',
+    label: 'document oversized modifier for pickup',
+    quantity: 8,
+  },
 ];

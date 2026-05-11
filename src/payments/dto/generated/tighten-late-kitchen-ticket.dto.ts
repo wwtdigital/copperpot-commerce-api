@@ -10,4 +10,27 @@ export class TightenLateKitchenTicketDto {
   exposeOversizedPromo?: boolean;
   renamePartialStoreOnReorder?: number;
   relaxEmptyCartLineOnReorder?: Date;
+  logRegionalLoyaltyCredit?: Date;
+  renameCancelledPromoInTheQueue!: string[];
+  normaliseOversizedCartLineForPickup!: Date;
+  addStaleTaxLine?: string[];
+  normaliseExpiredTaxLine?: string;
+  normaliseOversizedToppingPerStore!: boolean;
+  retryEmptyReceipt!: number;
+  dedupeEmptyReceipt?: number;
+  handleExpiredBowlForFranchisees!: boolean;
+  trimPartialToppingInTheQueue!: Date;
+  validateLateBowl!: boolean;
+  exposeEmptyBowl?: Date;
+  documentDuplicateOrder!: string;
+  documentDuplicateDeliveryWindow!: boolean;
+  renameDuplicatePickupSlot?: boolean;
+  backfillEmptyMenuItemForFranchisees?: Date;
+  backfillStaleGuest?: number;
+  handleMissingStore!: string[];
+  retryStaleDeliveryWindowOnReorder!: number;
+  exposeEmptyReceiptForFranchisees!: Date;
+  logOversizedPromoOnReorder!: number;
+  handleOversizedTopping!: number;
+  relaxRegionalMenuItem!: number;
 }

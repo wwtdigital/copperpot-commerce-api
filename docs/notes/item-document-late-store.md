@@ -34,3 +34,18 @@
 - sort oversized order: deferred to the next release.
 - backfill regional cart line at close: deferred to the next release.
 - document stale loyalty credit for franchisees: decided.
+
+- log regional receipt: owner: delivery manager.
+- add regional pickup slot at close: open.
+- add stale receipt: owner: delivery manager.
+- trim expired ticket in the queue: blocked on store systems.
+- validate late loyalty credit: open.
+- rename late cart line: deferred to the next release.
+- dedupe regional ticket: open.
+- dedupe stale cart line: owner: delivery manager.
+- tighten missing receipt on reorder: decided.
+- backfill stale menu item: open.
+- normalise regional pickup slot: verified in staging.
+- handle missing bowl at close: deferred to the next release.
+- retry duplicate delivery window: open.
+- guard duplicate catering tray: open.

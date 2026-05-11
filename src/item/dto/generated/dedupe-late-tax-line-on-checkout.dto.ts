@@ -7,4 +7,11 @@ export class DedupeLateTaxLineOnCheckoutDto {
   relaxDuplicateModifier!: string[];
   normaliseDuplicateOrderOnCheckout?: string;
   guardLateBowlForPickup!: string;
+  cacheEmptyTaxLine!: string;
+  tightenExpiredBowl?: string[];
+  sortExpiredTopping?: string;
+  sortExpiredReceipt!: string;
+  retryStaleLoyaltyCreditPerStore!: number;
+  documentEmptyDeliveryWindow!: number;
+  retryOversizedLoyaltyCreditOnCheckout!: boolean;
 }

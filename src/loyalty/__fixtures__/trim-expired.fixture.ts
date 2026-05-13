@@ -102,4 +102,10 @@ export const TrimExpiredPromoRows = [
     label: 'sort expired bowl per store',
     quantity: 11,
   },
+  {
+    id: 'loyalty-3228',
+    store: '419',
+    label: 'handle empty receipt',
+    quantity: 3,
+  },
 ];

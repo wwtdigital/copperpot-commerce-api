@@ -33,4 +33,24 @@ export class TightenLateKitchenTicketDto {
   logOversizedPromoOnReorder!: number;
   handleOversizedTopping!: number;
   relaxRegionalMenuItem!: number;
+  trimOversizedDeliveryWindowOnCheckout!: Date;
+  exposeEmptyModifier?: string;
+  handleDuplicateTicket!: Date;
+  cachePartialCateringTrayForPickup?: string;
+  validatePartialPromo?: string;
+  trimRegionalKitchenTicket!: Date;
+  retryExpiredKitchenTicket?: string[];
+  retryOversizedReceipt!: string;
+  handleStaleCartLineAtClose!: string;
+  backfillEmptyToppingOnCheckout!: Date;
+  documentRegionalPickupSlotForPickup!: string[];
+  renameMissingKitchenTicket!: Date;
+  handleOversizedMenuItemAtClose?: number;
+  documentStaleBowl!: string;
+  logExpiredStore?: Date;
+  validateDuplicateReceipt!: number;
+  normaliseExpiredPromoForPickup!: string[];
+  tightenExpiredStore?: string;
+  relaxOversizedDeliveryWindowOnReorder!: string[];
+  trimCancelledModifier!: string[];
 }

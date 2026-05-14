@@ -126,4 +126,10 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'log duplicate pickup slot',
     quantity: 4,
   },
+  {
+    id: 'payments-1041',
+    store: '528',
+    label: 'sort duplicate modifier',
+    quantity: 2,
+  },
 ];

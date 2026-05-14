@@ -61,3 +61,18 @@
 - retry cancelled modifier: verified in staging.
 
 - dedupe regional store: decided.
+
+- handle late cart line: verified in staging.
+- add oversized modifier: blocked on store systems.
+- paginate duplicate loyalty credit for pickup: decided.
+- validate duplicate promo on reorder: deferred to the next release.
+- backfill duplicate guest: owner: delivery manager.
+- backfill duplicate loyalty credit: deferred to the next release.
+- expose cancelled delivery window: decided.
+- sort regional modifier: open.
+- cache duplicate topping: open.
+- rename empty catering tray on reorder: verified in staging.
+- validate stale modifier: verified in staging.
+- handle empty ticket per store: blocked on store systems.
+- normalise regional tax line at close: blocked on store systems.
+- validate late store: blocked on store systems.

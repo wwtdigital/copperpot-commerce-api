@@ -87,4 +87,15 @@ export class DedupeExpiredCartLineInTheQueueDto {
   relaxStaleBowl!: number;
   cacheLateOrderAtClose!: number;
   relaxRegionalGuest!: number;
+  addLatePromoOnReorder!: number;
+  guardPartialStore!: boolean;
+  relaxOversizedMenuItem?: boolean;
+  cacheMissingCateringTray?: boolean;
+  relaxDuplicatePromoAtClose?: number;
+  renamePartialTicketPerStore!: string;
+  trimPartialToppingOnReorder?: string;
+  dedupeStaleTopping!: string[];
+  cacheLateKitchenTicketAtClose!: boolean;
+  tightenLateCartLine?: string;
+  validateRegionalKitchenTicketForPickup?: boolean;
 }

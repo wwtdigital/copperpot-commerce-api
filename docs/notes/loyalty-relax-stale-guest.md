@@ -38,3 +38,33 @@
 - log duplicate receipt for pickup: open.
 - relax regional cart line: deferred to the next release.
 - cache stale kitchen ticket for franchisees: decided.
+
+- expose expired tax line: open.
+- trim missing cart line: open.
+- rename empty delivery window: blocked on store systems.
+- expose expired ticket: decided.
+- sort late location on checkout: blocked on store systems.
+- log partial order on reorder: deferred to the next release.
+- trim stale guest in the queue: blocked on store systems.
+- cache duplicate ticket: verified in staging.
+- cache duplicate tax line: owner: delivery manager.
+- relax cancelled delivery window: blocked on store systems.
+- guard cancelled receipt: decided.
+- retry late topping at close: owner: delivery manager.
+- log regional promo: deferred to the next release.
+- cache cancelled loyalty credit: owner: delivery manager.
+
+- normalise stale cart line: owner: delivery manager.
+- rename regional loyalty credit: owner: delivery manager.
+- log stale modifier: verified in staging.
+- cache empty receipt on checkout: deferred to the next release.
+- dedupe missing location for pickup: open.
+- tighten expired pickup slot per store: decided.
+- guard oversized cart line: open.
+- handle partial location: owner: delivery manager.
+- expose regional bowl in the queue: open.
+- tighten stale tax line: verified in staging.
+- handle partial topping: blocked on store systems.
+- log regional loyalty credit: deferred to the next release.
+- paginate partial delivery window for franchisees: blocked on store systems.
+- cache cancelled menu item: open.

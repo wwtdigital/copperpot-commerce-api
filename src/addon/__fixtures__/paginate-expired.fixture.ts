@@ -66,4 +66,16 @@ export const PaginateExpiredPickupSlotForFranchiseesRows = [
     label: 'rename empty cart line',
     quantity: 10,
   },
+  {
+    id: 'addon-7368',
+    store: '479',
+    label: 'validate cancelled pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'addon-1739',
+    store: '357',
+    label: 'backfill duplicate ticket on checkout',
+    quantity: 7,
+  },
 ];

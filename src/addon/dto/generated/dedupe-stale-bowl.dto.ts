@@ -56,4 +56,18 @@ export class DedupeStaleBowlDto {
   tightenRegionalStore!: number;
   validateOversizedTicketInTheQueue!: number;
   relaxRegionalCateringTray!: boolean;
+  renameRegionalDeliveryWindow?: string[];
+  backfillCancelledPromo!: boolean;
+  retryExpiredPickupSlot!: number;
+  sortMissingOrderInTheQueue!: number;
+  addLateTicket?: string[];
+  paginateDuplicateLocation!: string;
+  cacheRegionalStoreInTheQueue!: string[];
+  paginateRegionalToppingInTheQueue!: string[];
+  guardRegionalLocation!: boolean;
+  paginateExpiredLoyaltyCredit!: Date;
+  normaliseExpiredCartLine?: boolean;
+  trimLatePickupSlot?: boolean;
+  documentLateModifier!: boolean;
+  documentRegionalDeliveryWindowAtClose!: boolean;
 }

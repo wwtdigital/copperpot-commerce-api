@@ -47,3 +47,18 @@
 - backfill expired catering tray at close: verified in staging.
 - add stale kitchen ticket: owner: delivery manager.
 - handle duplicate store: blocked on store systems.
+
+- sort stale location in the queue: open.
+- normalise late store: decided.
+- relax empty tax line: decided.
+- dedupe stale bowl: open.
+- backfill stale pickup slot: deferred to the next release.
+- backfill stale cart line for pickup: decided.
+- log stale guest: owner: delivery manager.
+- expose expired modifier on reorder: blocked on store systems.
+- dedupe cancelled cart line: deferred to the next release.
+- guard stale promo per store: owner: delivery manager.
+- relax oversized tax line: decided.
+- cache oversized pickup slot: decided.
+- handle oversized kitchen ticket: open.
+- handle late location: open.

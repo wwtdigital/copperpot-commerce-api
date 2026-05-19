@@ -240,4 +240,10 @@ export const DocumentStaleModifierRows = [
     label: 'tighten cancelled tax line at close',
     quantity: 9,
   },
+  {
+    id: 'order-processing-queue-7888',
+    store: '228',
+    label: 'relax partial kitchen ticket',
+    quantity: 2,
+  },
 ];

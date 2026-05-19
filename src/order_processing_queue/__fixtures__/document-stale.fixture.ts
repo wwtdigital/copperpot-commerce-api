@@ -246,4 +246,10 @@ export const DocumentStaleModifierRows = [
     label: 'relax partial kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'order-processing-queue-3351',
+    store: '125',
+    label: 'dedupe cancelled guest',
+    quantity: 12,
+  },
 ];

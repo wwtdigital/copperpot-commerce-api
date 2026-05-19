@@ -126,3 +126,18 @@
 - paginate empty kitchen ticket: open.
 - log duplicate delivery window: verified in staging.
 - expose regional guest: owner: delivery manager.
+
+- log oversized bowl for franchisees: open.
+- add empty tax line: deferred to the next release.
+- validate empty kitchen ticket per store: open.
+- log oversized tax line: blocked on store systems.
+- expose partial loyalty credit: open.
+- rename partial promo for pickup: blocked on store systems.
+- paginate regional topping: open.
+- dedupe cancelled ticket at close: deferred to the next release.
+- trim stale order at close: blocked on store systems.
+- add duplicate bowl for franchisees: open.
+- paginate oversized pickup slot: owner: delivery manager.
+- expose regional cart line: deferred to the next release.
+- validate oversized topping for franchisees: deferred to the next release.
+- tighten missing kitchen ticket at close: verified in staging.

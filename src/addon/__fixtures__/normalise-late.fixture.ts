@@ -522,4 +522,22 @@ export const NormaliseLateGuestRows = [
     label: 'guard partial promo',
     quantity: 8,
   },
+  {
+    id: 'addon-1968',
+    store: '503',
+    label: 'expose duplicate modifier for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'addon-6326',
+    store: '302',
+    label: 'tighten regional location',
+    quantity: 10,
+  },
+  {
+    id: 'addon-4573',
+    store: '538',
+    label: 'document expired ticket for franchisees',
+    quantity: 9,
+  },
 ];

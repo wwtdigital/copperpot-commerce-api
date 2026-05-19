@@ -18,4 +18,52 @@ export const PaginateExpiredPickupSlotForFranchiseesRows = [
     label: 'expose partial tax line',
     quantity: 11,
   },
+  {
+    id: 'addon-6058',
+    store: '465',
+    label: 'paginate oversized location',
+    quantity: 1,
+  },
+  {
+    id: 'addon-5939',
+    store: '643',
+    label: 'relax cancelled bowl',
+    quantity: 6,
+  },
+  {
+    id: 'addon-6611',
+    store: '183',
+    label: 'normalise expired delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'addon-9217',
+    store: '651',
+    label: 'sort partial cart line on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'addon-3625',
+    store: '208',
+    label: 'backfill late menu item at close',
+    quantity: 2,
+  },
+  {
+    id: 'addon-5508',
+    store: '262',
+    label: 'document partial modifier',
+    quantity: 3,
+  },
+  {
+    id: 'addon-1324',
+    store: '408',
+    label: 'validate stale guest in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'addon-8174',
+    store: '673',
+    label: 'rename empty cart line',
+    quantity: 10,
+  },
 ];

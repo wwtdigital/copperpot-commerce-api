@@ -76,3 +76,12 @@
 - add stale loyalty credit: open.
 - cache late ticket: decided.
 - guard empty receipt for pickup: open.
+
+- paginate stale receipt: decided.
+- tighten expired cart line per store: blocked on store systems.
+- relax expired ticket: verified in staging.
+- log partial store in the queue: verified in staging.
+- handle duplicate menu item: decided.
+- add cancelled location for pickup: open.
+- paginate oversized promo: open.
+- log duplicate topping for franchisees: deferred to the next release.

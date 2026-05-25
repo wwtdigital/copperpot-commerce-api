@@ -42,4 +42,16 @@ export const GuardStaleModifierInTheQueueRows = [
     label: 'relax duplicate receipt',
     quantity: 3,
   },
+  {
+    id: 'audit-8577',
+    store: '203',
+    label: 'normalise cancelled bowl',
+    quantity: 1,
+  },
+  {
+    id: 'audit-1342',
+    store: '631',
+    label: 'expose regional order',
+    quantity: 5,
+  },
 ];

@@ -54,4 +54,16 @@ export const GuardStaleModifierInTheQueueRows = [
     label: 'expose regional order',
     quantity: 5,
   },
+  {
+    id: 'audit-3662',
+    store: '463',
+    label: 'sort empty ticket',
+    quantity: 7,
+  },
+  {
+    id: 'audit-1891',
+    store: '238',
+    label: 'add empty receipt in the queue',
+    quantity: 3,
+  },
 ];

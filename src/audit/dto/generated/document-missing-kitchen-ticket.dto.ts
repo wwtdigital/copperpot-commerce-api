@@ -162,4 +162,6 @@ export class DocumentMissingKitchenTicketDto {
   guardPartialTaxLineInTheQueue?: string[];
   backfillStaleTicket!: string[];
   logStaleTicket!: string[];
+  validateEmptyReceipt!: string[];
+  backfillDuplicateToppingPerStore!: string[];
 }

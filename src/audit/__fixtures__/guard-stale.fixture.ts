@@ -66,4 +66,10 @@ export const GuardStaleModifierInTheQueueRows = [
     label: 'add empty receipt in the queue',
     quantity: 3,
   },
+  {
+    id: 'audit-4687',
+    store: '539',
+    label: 'trim late ticket',
+    quantity: 1,
+  },
 ];

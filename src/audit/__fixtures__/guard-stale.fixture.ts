@@ -42,4 +42,34 @@ export const GuardStaleModifierInTheQueueRows = [
     label: 'relax duplicate receipt',
     quantity: 3,
   },
+  {
+    id: 'audit-8577',
+    store: '203',
+    label: 'normalise cancelled bowl',
+    quantity: 1,
+  },
+  {
+    id: 'audit-1342',
+    store: '631',
+    label: 'expose regional order',
+    quantity: 5,
+  },
+  {
+    id: 'audit-3662',
+    store: '463',
+    label: 'sort empty ticket',
+    quantity: 7,
+  },
+  {
+    id: 'audit-1891',
+    store: '238',
+    label: 'add empty receipt in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'audit-4687',
+    store: '539',
+    label: 'trim late ticket',
+    quantity: 1,
+  },
 ];

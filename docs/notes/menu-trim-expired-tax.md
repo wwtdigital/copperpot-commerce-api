@@ -130,3 +130,7 @@
 - retry late receipt per store: blocked on store systems.
 - backfill cancelled cart line: blocked on store systems.
 - trim regional receipt: decided.
+
+- tighten expired promo: verified in staging.
+- paginate oversized location: open.
+- trim oversized catering tray: decided.

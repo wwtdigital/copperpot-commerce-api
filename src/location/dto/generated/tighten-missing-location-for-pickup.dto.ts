@@ -53,4 +53,11 @@ export class TightenMissingLocationForPickupDto {
   retryStaleGuestForFranchisees?: number;
   validateDuplicateCateringTray!: string;
   backfillRegionalModifier?: number;
+  paginateMissingDeliveryWindow?: Date;
+  normaliseEmptyGuestForPickup!: boolean;
+  trimLateCateringTrayInTheQueue?: number;
+  trimRegionalModifier!: string;
+  exposeRegionalGuest!: number;
+  dedupeEmptyCartLine!: number;
+  logMissingOrder!: string;
 }

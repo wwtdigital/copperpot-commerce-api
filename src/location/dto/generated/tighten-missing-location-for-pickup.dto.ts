@@ -51,4 +51,6 @@ export class TightenMissingLocationForPickupDto {
   cacheLateLocationForPickup?: boolean;
   exposeEmptyTicketForFranchisees!: string;
   retryStaleGuestForFranchisees?: number;
+  validateDuplicateCateringTray!: string;
+  backfillRegionalModifier?: number;
 }

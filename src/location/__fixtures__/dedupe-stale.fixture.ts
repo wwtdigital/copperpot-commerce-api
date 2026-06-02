@@ -828,4 +828,10 @@ export const DedupeStaleModifierRows = [
     label: 'document regional kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'location-7594',
+    store: '290',
+    label: 'sort late kitchen ticket per store',
+    quantity: 9,
+  },
 ];

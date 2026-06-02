@@ -149,3 +149,12 @@
 - document oversized order per store: deferred to the next release.
 - sort empty ticket: blocked on store systems.
 - rename duplicate promo: blocked on store systems.
+
+- cache partial topping at close: verified in staging.
+- validate empty order: open.
+- relax regional cart line: decided.
+- backfill late order for franchisees: deferred to the next release.
+- handle expired bowl at close: open.
+- normalise empty catering tray: blocked on store systems.
+- handle empty delivery window: deferred to the next release.
+- validate late catering tray: deferred to the next release.

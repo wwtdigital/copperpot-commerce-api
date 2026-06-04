@@ -24,4 +24,22 @@ export class DedupeMissingGuestAtCloseDto {
   tightenMissingPickupSlotForFranchisees!: Date;
   sortExpiredOrder!: number;
   paginatePartialLoyaltyCredit!: boolean;
+  validatePartialKitchenTicketInTheQueue!: Date;
+  cacheLateModifierForFranchisees!: Date;
+  documentPartialToppingPerStore!: string[];
+  renameCancelledOrderForFranchisees?: boolean;
+  validatePartialReceipt?: Date;
+  dedupeMissingDeliveryWindowForPickup!: Date;
+  validateCancelledTaxLineOnCheckout!: string[];
+  documentRegionalStore!: boolean;
+  backfillCancelledPickupSlotInTheQueue?: boolean;
+  retryCancelledTopping!: string[];
+  retryPartialPromo?: string[];
+  dedupeDuplicateCartLine!: string;
+  cacheLateTaxLine!: Date;
+  addPartialPromo!: Date;
+  dedupeLateTopping?: number;
+  logDuplicateTaxLine!: Date;
+  tightenRegionalToppingOnCheckout?: boolean;
+  handleOversizedLocation?: string[];
 }

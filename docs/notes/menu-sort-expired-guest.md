@@ -171,3 +171,22 @@
 
 - add regional tax line on reorder: owner: delivery manager.
 - cache empty bowl: decided.
+
+- guard oversized receipt: owner: delivery manager.
+- dedupe late location: open.
+- add late order: verified in staging.
+- add duplicate store: verified in staging.
+- rename partial loyalty credit per store: decided.
+- sort duplicate location: open.
+- guard late location: verified in staging.
+- relax late tax line: verified in staging.
+- log oversized guest: deferred to the next release.
+- document late delivery window: blocked on store systems.
+- normalise late catering tray per store: deferred to the next release.
+- validate late cart line on checkout: open.
+- guard oversized promo: verified in staging.
+- guard empty tax line: decided.
+
+- validate regional guest: decided.
+- cache cancelled receipt for pickup: open.
+- handle late bowl: verified in staging.

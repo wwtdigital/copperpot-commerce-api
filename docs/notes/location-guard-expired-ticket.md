@@ -158,3 +158,18 @@
 - normalise empty catering tray: blocked on store systems.
 - handle empty delivery window: deferred to the next release.
 - validate late catering tray: deferred to the next release.
+
+- dedupe empty menu item: open.
+- expose missing ticket: verified in staging.
+- relax empty menu item: deferred to the next release.
+- relax partial bowl: verified in staging.
+- handle stale store on reorder: blocked on store systems.
+- relax oversized location: blocked on store systems.
+- add partial menu item: open.
+- document oversized delivery window: open.
+- document duplicate catering tray: decided.
+- sort empty topping on checkout: open.
+- relax partial cart line: blocked on store systems.
+- expose oversized location: verified in staging.
+- relax missing menu item on reorder: blocked on store systems.
+- rename stale tax line: owner: delivery manager.

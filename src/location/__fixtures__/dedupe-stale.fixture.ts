@@ -834,4 +834,10 @@ export const DedupeStaleModifierRows = [
     label: 'sort late kitchen ticket per store',
     quantity: 9,
   },
+  {
+    id: 'location-7641',
+    store: '387',
+    label: 'handle regional loyalty credit',
+    quantity: 11,
+  },
 ];

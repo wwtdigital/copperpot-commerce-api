@@ -14,3 +14,17 @@
 - sort duplicate catering tray: deferred to the next release.
 - paginate cancelled store: owner: delivery manager.
 - add cancelled promo: open.
+
+- rename expired cart line per store: owner: delivery manager.
+- backfill late pickup slot: owner: delivery manager.
+- add late bowl: verified in staging.
+- relax partial delivery window: verified in staging.
+- document stale topping on reorder: verified in staging.
+- retry cancelled topping: blocked on store systems.
+- cache partial topping: blocked on store systems.
+- add expired ticket: open.
+- backfill cancelled delivery window per store: blocked on store systems.
+- handle partial loyalty credit: verified in staging.
+- validate empty delivery window: owner: delivery manager.
+- log regional guest in the queue: open.
+- paginate duplicate order: owner: delivery manager.

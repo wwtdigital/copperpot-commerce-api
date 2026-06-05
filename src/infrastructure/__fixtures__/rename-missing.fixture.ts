@@ -54,4 +54,58 @@ export const RenameMissingBowlForPickupRows = [
     label: 'cache expired order for pickup',
     quantity: 10,
   },
+  {
+    id: 'infrastructure-7226',
+    store: '438',
+    label: 'relax regional catering tray per store',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-3877',
+    store: '408',
+    label: 'trim oversized guest on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-4647',
+    store: '325',
+    label: 'trim stale promo',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-2939',
+    store: '424',
+    label: 'retry partial kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-3757',
+    store: '121',
+    label: 'validate stale guest for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-1373',
+    store: '664',
+    label: 'cache late store',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-7761',
+    store: '694',
+    label: 'cache empty modifier for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-3721',
+    store: '544',
+    label: 'paginate missing order in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-9329',
+    store: '569',
+    label: 'paginate late cart line',
+    quantity: 5,
+  },
 ];

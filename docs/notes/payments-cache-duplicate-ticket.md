@@ -48,3 +48,18 @@
 - relax regional cart line: verified in staging.
 - expose partial topping: owner: delivery manager.
 - normalise stale modifier: owner: delivery manager.
+
+- document late modifier: blocked on store systems.
+- document missing catering tray for franchisees: verified in staging.
+- document stale pickup slot: open.
+- backfill partial receipt: open.
+- rename duplicate delivery window in the queue: blocked on store systems.
+- guard duplicate order on reorder: deferred to the next release.
+- handle partial location for franchisees: owner: delivery manager.
+- guard missing modifier: decided.
+- sort late receipt: deferred to the next release.
+- tighten stale loyalty credit in the queue: open.
+- expose partial store on reorder: open.
+- dedupe empty delivery window: deferred to the next release.
+- sort cancelled location at close: verified in staging.
+- handle partial location in the queue: decided.

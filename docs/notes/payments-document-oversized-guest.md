@@ -63,3 +63,18 @@
 - dedupe empty loyalty credit for pickup: decided.
 - retry oversized guest: blocked on store systems.
 - expose empty loyalty credit: decided.
+
+- tighten cancelled bowl for franchisees: decided.
+- trim duplicate store: blocked on store systems.
+- dedupe expired ticket: owner: delivery manager.
+- validate late modifier: open.
+- guard late delivery window on reorder: open.
+- sort missing store on checkout: verified in staging.
+- paginate empty order: deferred to the next release.
+- relax partial location: deferred to the next release.
+- trim stale kitchen ticket: verified in staging.
+- guard partial order: open.
+- trim duplicate receipt for franchisees: decided.
+- rename cancelled modifier per store: open.
+- validate stale kitchen ticket: verified in staging.
+- paginate missing topping: deferred to the next release.

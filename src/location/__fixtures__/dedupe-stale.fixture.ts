@@ -840,4 +840,52 @@ export const DedupeStaleModifierRows = [
     label: 'handle regional loyalty credit',
     quantity: 11,
   },
+  {
+    id: 'location-3556',
+    store: '291',
+    label: 'cache cancelled ticket',
+    quantity: 10,
+  },
+  {
+    id: 'location-3822',
+    store: '260',
+    label: 'cache expired tax line on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'location-2085',
+    store: '571',
+    label: 'guard duplicate pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'location-2329',
+    store: '572',
+    label: 'guard late location',
+    quantity: 8,
+  },
+  {
+    id: 'location-9172',
+    store: '392',
+    label: 'normalise late loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'location-6056',
+    store: '112',
+    label: 'dedupe stale location on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'location-7625',
+    store: '625',
+    label: 'cache stale order',
+    quantity: 9,
+  },
+  {
+    id: 'location-2462',
+    store: '276',
+    label: 'document expired order',
+    quantity: 4,
+  },
 ];

@@ -132,4 +132,16 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'sort duplicate modifier',
     quantity: 2,
   },
+  {
+    id: 'payments-4734',
+    store: '518',
+    label: 'guard empty modifier on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'payments-9070',
+    store: '210',
+    label: 'tighten late receipt at close',
+    quantity: 3,
+  },
 ];

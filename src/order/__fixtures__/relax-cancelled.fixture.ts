@@ -36,4 +36,34 @@ export const RelaxCancelledStoreInTheQueueRows = [
     label: 'retry missing cart line',
     quantity: 5,
   },
+  {
+    id: 'order-2799',
+    store: '664',
+    label: 'retry expired location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-1236',
+    store: '535',
+    label: 'document missing cart line',
+    quantity: 1,
+  },
+  {
+    id: 'order-1433',
+    store: '508',
+    label: 'add empty guest',
+    quantity: 6,
+  },
+  {
+    id: 'order-9613',
+    store: '692',
+    label: 'retry stale tax line',
+    quantity: 6,
+  },
+  {
+    id: 'order-5463',
+    store: '136',
+    label: 'trim stale cart line',
+    quantity: 4,
+  },
 ];

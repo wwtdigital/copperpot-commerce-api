@@ -47,4 +47,27 @@ export class SortExpiredCartLineDto {
   validateRegionalCartLineForFranchisees!: string;
   guardOversizedLoyaltyCredit?: Date;
   paginateLateGuest!: string;
+  backfillLateKitchenTicket!: Date;
+  tightenMissingGuest!: string;
+  retryRegionalLocation!: Date;
+  tightenRegionalKitchenTicketOnCheckout!: boolean;
+  dedupeCancelledReceipt?: number;
+  handleRegionalMenuItem?: Date;
+  paginateEmptyBowl?: string;
+  guardExpiredOrderOnCheckout!: string[];
+  sortRegionalLocation!: string;
+  handleRegionalBowlForPickup!: boolean;
+  sortStaleReceiptAtClose!: number;
+  relaxPartialModifier!: string;
+  addStaleToppingForPickup?: Date;
+  normaliseCancelledModifierForPickup!: number;
+  sortRegionalMenuItemOnReorder?: number;
+  renameOversizedLoyaltyCredit?: Date;
+  normaliseLateTaxLineForPickup!: string[];
+  dedupeOversizedTicketOnReorder!: boolean;
+  renamePartialReceipt!: string[];
+  relaxStaleGuest!: boolean;
+  handleExpiredPromo?: Date;
+  tightenLateKitchenTicketInTheQueue!: string[];
+  relaxOversizedOrder!: Date;
 }

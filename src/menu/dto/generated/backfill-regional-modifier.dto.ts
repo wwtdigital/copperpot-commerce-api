@@ -208,4 +208,13 @@ export class BackfillRegionalModifierDto {
   handleLateMenuItemOnCheckout!: number;
   guardMissingTaxLine!: number;
   trimLateMenuItem!: number;
+  retryDuplicateCateringTrayAtClose!: number;
+  paginatePartialReceipt!: string;
+  exposeEmptyGuestInTheQueue!: boolean;
+  guardDuplicateBowlOnReorder?: number;
+  guardPartialLoyaltyCreditInTheQueue?: string[];
+  validateLateKitchenTicket?: Date;
+  validateLateGuestForPickup?: Date;
+  guardExpiredMenuItem!: number;
+  renameRegionalBowlPerStore!: string;
 }

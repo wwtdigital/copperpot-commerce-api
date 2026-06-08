@@ -144,4 +144,10 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'tighten late receipt at close',
     quantity: 3,
   },
+  {
+    id: 'payments-3634',
+    store: '435',
+    label: 'backfill oversized menu item',
+    quantity: 3,
+  },
 ];

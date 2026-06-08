@@ -76,3 +76,18 @@
 - handle empty ticket per store: blocked on store systems.
 - normalise regional tax line at close: blocked on store systems.
 - validate late store: blocked on store systems.
+
+- validate partial loyalty credit for pickup: verified in staging.
+- guard regional store for franchisees: deferred to the next release.
+- trim oversized tax line: verified in staging.
+- log partial loyalty credit: open.
+- retry missing cart line: decided.
+- tighten oversized guest: verified in staging.
+- guard duplicate pickup slot: decided.
+- expose stale promo at close: decided.
+- rename duplicate order: verified in staging.
+- cache oversized receipt: verified in staging.
+- paginate missing order on checkout: deferred to the next release.
+- trim missing catering tray: open.
+- document duplicate loyalty credit: verified in staging.
+- backfill stale bowl: owner: delivery manager.

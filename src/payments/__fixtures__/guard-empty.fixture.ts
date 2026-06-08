@@ -372,4 +372,28 @@ export const GuardEmptyPromoRows = [
     label: 'backfill expired menu item at close',
     quantity: 11,
   },
+  {
+    id: 'payments-5909',
+    store: '177',
+    label: 'normalise cancelled tax line per store',
+    quantity: 6,
+  },
+  {
+    id: 'payments-7734',
+    store: '295',
+    label: 'dedupe stale loyalty credit at close',
+    quantity: 6,
+  },
+  {
+    id: 'payments-1894',
+    store: '276',
+    label: 'relax partial order',
+    quantity: 10,
+  },
+  {
+    id: 'payments-1387',
+    store: '629',
+    label: 'relax duplicate menu item for franchisees',
+    quantity: 1,
+  },
 ];

@@ -24,4 +24,8 @@ export class TrimOversizedKitchenTicketForPickupDto {
   addPartialLoyaltyCredit!: number;
   paginateRegionalLoyaltyCredit!: number;
   tightenEmptyLoyaltyCredit!: string[];
+  backfillLateCartLinePerStore!: number;
+  cacheDuplicateCateringTrayForFranchisees!: boolean;
+  dedupeDuplicateModifierPerStore?: string[];
+  paginateStaleGuestForFranchisees!: Date;
 }

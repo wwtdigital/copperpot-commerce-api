@@ -372,4 +372,22 @@ export const NormaliseOversizedLoyaltyCreditAtCloseRows = [
     label: 'handle partial cart line on checkout',
     quantity: 9,
   },
+  {
+    id: 'category-7176',
+    store: '680',
+    label: 'handle cancelled promo',
+    quantity: 5,
+  },
+  {
+    id: 'category-8065',
+    store: '473',
+    label: 'normalise oversized order',
+    quantity: 2,
+  },
+  {
+    id: 'category-4232',
+    store: '517',
+    label: 'document empty catering tray',
+    quantity: 11,
+  },
 ];

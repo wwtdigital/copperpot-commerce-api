@@ -113,4 +113,12 @@ export class TightenMissingToppingForFranchiseesDto {
   renameStaleLocation?: boolean;
   normaliseExpiredReceiptAtClose?: Date;
   handleExpiredOrder!: boolean;
+  renameDuplicateCateringTrayOnCheckout!: string[];
+  handleExpiredCateringTray!: number;
+  normaliseOversizedDeliveryWindow?: Date;
+  backfillEmptyDeliveryWindowForFranchisees!: Date;
+  renameDuplicateLocationForFranchisees?: boolean;
+  dedupeStaleLoyaltyCredit!: boolean;
+  relaxEmptyPickupSlot?: string[];
+  sortExpiredMenuItemInTheQueue?: number;
 }

@@ -70,4 +70,22 @@ export class SortExpiredCartLineDto {
   handleExpiredPromo?: Date;
   tightenLateKitchenTicketInTheQueue!: string[];
   relaxOversizedOrder!: Date;
+  validateExpiredGuest?: Date;
+  paginateOversizedBowl!: string;
+  guardPartialBowl?: boolean;
+  relaxRegionalCateringTray!: Date;
+  logMissingLocationOnReorder!: Date;
+  exposeOversizedLocation!: number;
+  trimMissingPickupSlot!: Date;
+  exposeStaleModifierForPickup!: string;
+  trimStaleTopping!: string[];
+  cacheRegionalDeliveryWindowOnReorder!: string[];
+  renameLateKitchenTicketForFranchisees!: boolean;
+  exposeLateReceipt!: number;
+  tightenOversizedPickupSlot?: string;
+  exposeDuplicatePromo!: boolean;
+  logPartialBowlOnCheckout!: Date;
+  renameStaleCateringTray!: boolean;
+  exposeOversizedMenuItem!: boolean;
+  documentStaleStoreForPickup?: string[];
 }

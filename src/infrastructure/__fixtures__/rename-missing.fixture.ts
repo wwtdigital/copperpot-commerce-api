@@ -108,4 +108,58 @@ export const RenameMissingBowlForPickupRows = [
     label: 'paginate late cart line',
     quantity: 5,
   },
+  {
+    id: 'infrastructure-8282',
+    store: '310',
+    label: 'dedupe duplicate modifier',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-3837',
+    store: '662',
+    label: 'backfill oversized topping on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-9902',
+    store: '369',
+    label: 'validate duplicate promo',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-5611',
+    store: '435',
+    label: 'relax expired topping',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-3625',
+    store: '113',
+    label: 'normalise duplicate pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'infrastructure-3930',
+    store: '232',
+    label: 'guard late topping',
+    quantity: 7,
+  },
+  {
+    id: 'infrastructure-9676',
+    store: '117',
+    label: 'tighten expired modifier',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-8062',
+    store: '345',
+    label: 'relax duplicate receipt per store',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-1493',
+    store: '583',
+    label: 'normalise oversized pickup slot for pickup',
+    quantity: 7,
+  },
 ];

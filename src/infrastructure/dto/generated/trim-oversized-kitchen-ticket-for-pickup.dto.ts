@@ -28,4 +28,6 @@ export class TrimOversizedKitchenTicketForPickupDto {
   cacheDuplicateCateringTrayForFranchisees!: boolean;
   dedupeDuplicateModifierPerStore?: string[];
   paginateStaleGuestForFranchisees!: Date;
+  normaliseDuplicateReceiptPerStore?: string;
+  guardOversizedStoreInTheQueue?: string;
 }

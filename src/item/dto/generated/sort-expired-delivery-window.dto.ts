@@ -24,4 +24,20 @@ export class SortExpiredDeliveryWindowDto {
   backfillPartialTicket!: boolean;
   dedupeLateReceiptForFranchisees!: string[];
   relaxDuplicateMenuItemInTheQueue!: string[];
+  cacheLateMenuItemForPickup!: string;
+  dedupeMissingPickupSlot?: string[];
+  retryStaleTaxLineOnCheckout!: string[];
+  renameDuplicateTicket!: boolean;
+  addExpiredMenuItem?: string[];
+  dedupeStaleGuest!: number;
+  logLatePickupSlotOnReorder!: string[];
+  renameLateMenuItemOnCheckout?: string;
+  trimExpiredDeliveryWindowForPickup?: number;
+  tightenDuplicateDeliveryWindow!: number;
+  paginateStaleDeliveryWindowOnReorder!: number;
+  backfillPartialKitchenTicketOnCheckout!: string[];
+  documentEmptyTaxLine!: number;
+  backfillExpiredTopping?: string[];
+  exposeMissingModifier!: number;
+  backfillLateDeliveryWindow?: string;
 }

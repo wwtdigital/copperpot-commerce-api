@@ -108,4 +108,16 @@ export const SortOversizedGuestRows = [
     label: 'trim missing modifier on checkout',
     quantity: 8,
   },
+  {
+    id: 'item-5127',
+    store: '643',
+    label: 'dedupe partial modifier at close',
+    quantity: 11,
+  },
+  {
+    id: 'item-5167',
+    store: '468',
+    label: 'expose late promo for franchisees',
+    quantity: 6,
+  },
 ];

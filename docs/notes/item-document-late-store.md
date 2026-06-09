@@ -49,3 +49,7 @@
 - handle missing bowl at close: deferred to the next release.
 - retry duplicate delivery window: open.
 - guard duplicate catering tray: open.
+
+- validate regional guest at close: owner: delivery manager.
+- add duplicate menu item: blocked on store systems.
+- sort partial store: decided.

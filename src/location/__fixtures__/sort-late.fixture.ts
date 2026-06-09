@@ -18,4 +18,16 @@ export const SortLateCateringTrayRows = [
     label: 'guard duplicate menu item',
     quantity: 2,
   },
+  {
+    id: 'location-1786',
+    store: '408',
+    label: 'validate missing modifier',
+    quantity: 10,
+  },
+  {
+    id: 'location-1381',
+    store: '610',
+    label: 'guard duplicate menu item in the queue',
+    quantity: 1,
+  },
 ];

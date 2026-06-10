@@ -74,3 +74,18 @@
 - expose cancelled receipt: deferred to the next release.
 - cache partial promo: blocked on store systems.
 - trim empty kitchen ticket in the queue: owner: delivery manager.
+
+- backfill late modifier: decided.
+- trim stale order: deferred to the next release.
+- log missing delivery window: open.
+- normalise late delivery window: deferred to the next release.
+- relax empty kitchen ticket: decided.
+- log empty store at close: blocked on store systems.
+- rename partial menu item at close: verified in staging.
+- expose duplicate guest: blocked on store systems.
+- retry duplicate catering tray: verified in staging.
+- validate stale loyalty credit: verified in staging.
+- paginate oversized guest at close: open.
+- retry partial kitchen ticket: blocked on store systems.
+- handle oversized tax line: blocked on store systems.
+- document empty topping: blocked on store systems.

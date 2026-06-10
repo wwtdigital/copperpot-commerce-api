@@ -162,4 +162,58 @@ export const RenameMissingBowlForPickupRows = [
     label: 'normalise oversized pickup slot for pickup',
     quantity: 7,
   },
+  {
+    id: 'infrastructure-4301',
+    store: '206',
+    label: 'cache regional modifier per store',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-6480',
+    store: '348',
+    label: 'expose stale loyalty credit on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-2545',
+    store: '162',
+    label: 'retry duplicate pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-9650',
+    store: '471',
+    label: 'backfill expired topping',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-9304',
+    store: '131',
+    label: 'document stale guest for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-8925',
+    store: '183',
+    label: 'cache regional menu item',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-2570',
+    store: '371',
+    label: 'paginate regional pickup slot at close',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-7212',
+    store: '255',
+    label: 'expose partial modifier',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-6461',
+    store: '146',
+    label: 'handle regional receipt',
+    quantity: 12,
+  },
 ];

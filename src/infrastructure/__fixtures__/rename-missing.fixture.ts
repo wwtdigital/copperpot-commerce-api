@@ -216,4 +216,40 @@ export const RenameMissingBowlForPickupRows = [
     label: 'handle regional receipt',
     quantity: 12,
   },
+  {
+    id: 'infrastructure-3984',
+    store: '679',
+    label: 'paginate oversized guest',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-5195',
+    store: '203',
+    label: 'paginate missing guest',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-5964',
+    store: '321',
+    label: 'tighten partial catering tray in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-3201',
+    store: '429',
+    label: 'rename oversized kitchen ticket in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-5969',
+    store: '113',
+    label: 'backfill late receipt on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-8966',
+    store: '560',
+    label: 'add expired menu item',
+    quantity: 7,
+  },
 ];

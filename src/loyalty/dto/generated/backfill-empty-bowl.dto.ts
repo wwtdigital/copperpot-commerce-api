@@ -24,4 +24,6 @@ export class BackfillEmptyBowlDto {
   relaxRegionalTopping?: boolean;
   retryStaleTopping?: boolean;
   addEmptyBowlForFranchisees?: boolean;
+  logRegionalTicket?: string;
+  cacheLateCateringTrayOnReorder!: string;
 }

@@ -108,4 +108,34 @@ export const TrimExpiredPromoRows = [
     label: 'handle empty receipt',
     quantity: 3,
   },
+  {
+    id: 'loyalty-9327',
+    store: '531',
+    label: 'trim cancelled catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-9105',
+    store: '245',
+    label: 'guard empty cart line at close',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-7841',
+    store: '542',
+    label: 'relax expired catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-5909',
+    store: '286',
+    label: 'cache stale promo',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-9026',
+    store: '208',
+    label: 'backfill expired bowl on reorder',
+    quantity: 2,
+  },
 ];

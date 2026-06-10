@@ -396,4 +396,16 @@ export const GuardEmptyPromoRows = [
     label: 'relax duplicate menu item for franchisees',
     quantity: 1,
   },
+  {
+    id: 'payments-3691',
+    store: '228',
+    label: 'document expired topping',
+    quantity: 3,
+  },
+  {
+    id: 'payments-4321',
+    store: '526',
+    label: 'expose empty kitchen ticket',
+    quantity: 1,
+  },
 ];

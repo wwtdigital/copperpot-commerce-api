@@ -68,3 +68,18 @@
 - log regional loyalty credit: deferred to the next release.
 - paginate partial delivery window for franchisees: blocked on store systems.
 - cache cancelled menu item: open.
+
+- tighten partial tax line at close: open.
+- guard empty tax line: verified in staging.
+- dedupe missing menu item: verified in staging.
+- paginate cancelled ticket: deferred to the next release.
+- tighten stale cart line: open.
+- cache duplicate menu item: deferred to the next release.
+- document late topping: blocked on store systems.
+- backfill partial loyalty credit: verified in staging.
+- backfill partial menu item at close: blocked on store systems.
+- document regional location: decided.
+- rename oversized bowl: open.
+- dedupe empty store at close: decided.
+- paginate empty loyalty credit per store: deferred to the next release.
+- sort partial store: open.

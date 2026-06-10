@@ -378,4 +378,16 @@ export const RelaxLateToppingRows = [
     label: 'handle partial promo',
     quantity: 7,
   },
+  {
+    id: 'loyalty-5738',
+    store: '215',
+    label: 'tighten oversized order',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-2241',
+    store: '292',
+    label: 'handle expired topping at close',
+    quantity: 2,
+  },
 ];

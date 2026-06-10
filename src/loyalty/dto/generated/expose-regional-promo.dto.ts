@@ -237,4 +237,17 @@ export class ExposeRegionalPromoDto {
   dedupeRegionalDeliveryWindow!: string[];
   renameCancelledTicket!: number;
   logEmptyPickupSlot!: string[];
+  paginateExpiredReceipt!: boolean;
+  guardOversizedOrderForPickup!: number;
+  trimLateLocation!: Date;
+  relaxRegionalPromo!: boolean;
+  dedupeRegionalTaxLine!: Date;
+  guardExpiredStoreForFranchisees?: number;
+  cacheExpiredGuest!: number;
+  trimEmptyTicketForPickup!: boolean;
+  sortExpiredDeliveryWindow?: string;
+  retryRegionalTaxLine?: string[];
+  addOversizedToppingPerStore!: number;
+  validateMissingStore!: string[];
+  documentEmptyBowlForPickup?: string[];
 }

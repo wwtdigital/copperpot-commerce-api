@@ -14,4 +14,28 @@ export class DedupeLateTaxLineOnCheckoutDto {
   retryStaleLoyaltyCreditPerStore!: number;
   documentEmptyDeliveryWindow!: number;
   retryOversizedLoyaltyCreditOnCheckout!: boolean;
+  cacheLatePickupSlot?: boolean;
+  tightenRegionalTicketAtClose!: string;
+  renameExpiredStoreForPickup!: number;
+  renameCancelledStore!: boolean;
+  validatePartialOrder!: number;
+  trimMissingTicketOnCheckout!: boolean;
+  paginateLateMenuItemOnReorder?: string[];
+  retryLateTicket!: Date;
+  normaliseDuplicateGuestForPickup!: Date;
+  normaliseDuplicateKitchenTicket?: Date;
+  handleLateLocation?: string[];
+  guardDuplicateLoyaltyCredit!: boolean;
+  normaliseRegionalMenuItemPerStore!: boolean;
+  validateDuplicateCateringTray!: Date;
+  trimOversizedTaxLineOnCheckout!: number;
+  sortRegionalKitchenTicketInTheQueue!: string;
+  documentMissingGuestAtClose!: string;
+  relaxRegionalGuest!: string[];
+  relaxRegionalPickupSlot!: string[];
+  trimRegionalToppingPerStore!: boolean;
+  exposeMissingTicket!: string[];
+  logOversizedTaxLineInTheQueue?: Date;
+  normaliseExpiredLoyaltyCredit!: string;
+  logCancelledKitchenTicketOnCheckout!: boolean;
 }

@@ -24,4 +24,10 @@ export const LogOversizedTicketRows = [
     label: 'rename empty order',
     quantity: 3,
   },
+  {
+    id: 'item-3249',
+    store: '657',
+    label: 'document stale tax line',
+    quantity: 12,
+  },
 ];

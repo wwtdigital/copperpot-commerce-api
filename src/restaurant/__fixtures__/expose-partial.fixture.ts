@@ -2070,4 +2070,46 @@ export const ExposePartialReceiptRows = [
     label: 'trim empty tax line',
     quantity: 10,
   },
+  {
+    id: 'restaurant-8278',
+    store: '480',
+    label: 'rename oversized location for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-1420',
+    store: '406',
+    label: 'tighten late loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-2752',
+    store: '467',
+    label: 'sort missing kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-1010',
+    store: '249',
+    label: 'rename expired bowl per store',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-3919',
+    store: '269',
+    label: 'add duplicate location',
+    quantity: 1,
+  },
+  {
+    id: 'restaurant-2208',
+    store: '577',
+    label: 'guard empty store at close',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-3729',
+    store: '197',
+    label: 'add missing ticket on reorder',
+    quantity: 8,
+  },
 ];

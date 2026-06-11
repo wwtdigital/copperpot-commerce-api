@@ -170,6 +170,3 @@
 - document duplicate catering tray: decided.
 - sort empty topping on checkout: open.
 - relax partial cart line: blocked on store systems.
-- expose oversized location: verified in staging.
-- relax missing menu item on reorder: blocked on store systems.
-- rename stale tax line: owner: delivery manager.

@@ -54,4 +54,58 @@ export const SortOversizedGuestRows = [
     label: 'rename empty guest on reorder',
     quantity: 9,
   },
+  {
+    id: 'item-9658',
+    store: '127',
+    label: 'sort duplicate promo',
+    quantity: 6,
+  },
+  {
+    id: 'item-7607',
+    store: '611',
+    label: 'sort stale bowl for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'item-6582',
+    store: '531',
+    label: 'sort stale bowl',
+    quantity: 6,
+  },
+  {
+    id: 'item-3869',
+    store: '122',
+    label: 'expose expired catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'item-7891',
+    store: '346',
+    label: 'rename late kitchen ticket per store',
+    quantity: 9,
+  },
+  {
+    id: 'item-6081',
+    store: '391',
+    label: 'normalise stale modifier',
+    quantity: 4,
+  },
+  {
+    id: 'item-1451',
+    store: '147',
+    label: 'log regional topping',
+    quantity: 7,
+  },
+  {
+    id: 'item-6980',
+    store: '398',
+    label: 'guard late kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'item-4094',
+    store: '648',
+    label: 'trim missing modifier on checkout',
+    quantity: 8,
+  },
 ];

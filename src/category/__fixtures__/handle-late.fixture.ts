@@ -966,4 +966,28 @@ export const HandleLatePromoRows = [
     label: 'document oversized modifier for pickup',
     quantity: 8,
   },
+  {
+    id: 'category-3929',
+    store: '425',
+    label: 'expose cancelled guest for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'category-6325',
+    store: '370',
+    label: 'tighten regional cart line',
+    quantity: 1,
+  },
+  {
+    id: 'category-9479',
+    store: '385',
+    label: 'document stale kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'category-4181',
+    store: '653',
+    label: 'backfill regional menu item for franchisees',
+    quantity: 4,
+  },
 ];

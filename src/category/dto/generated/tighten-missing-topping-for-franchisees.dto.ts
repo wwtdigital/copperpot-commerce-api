@@ -121,4 +121,18 @@ export class TightenMissingToppingForFranchiseesDto {
   dedupeStaleLoyaltyCredit!: boolean;
   relaxEmptyPickupSlot?: string[];
   sortExpiredMenuItemInTheQueue?: number;
+  cacheOversizedKitchenTicketInTheQueue!: Date;
+  retryStaleTaxLine!: string[];
+  validateExpiredLocation?: Date;
+  cacheRegionalLoyaltyCreditPerStore!: Date;
+  sortStaleBowl!: Date;
+  normalisePartialBowl!: string;
+  normaliseStaleKitchenTicket?: string[];
+  sortExpiredDeliveryWindow!: boolean;
+  renameLateStore!: number;
+  addMissingCartLineForPickup?: string;
+  dedupePartialLoyaltyCredit?: string[];
+  addExpiredCartLineAtClose?: string[];
+  addOversizedLoyaltyCredit?: string;
+  guardRegionalTicket!: string[];
 }

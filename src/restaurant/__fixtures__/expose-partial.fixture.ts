@@ -2238,4 +2238,40 @@ export const ExposePartialReceiptRows = [
     label: 'paginate expired guest',
     quantity: 11,
   },
+  {
+    id: 'restaurant-8576',
+    store: '249',
+    label: 'backfill late promo',
+    quantity: 2,
+  },
+  {
+    id: 'restaurant-2426',
+    store: '363',
+    label: 'cache partial loyalty credit on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-5732',
+    store: '210',
+    label: 'log late ticket',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-3403',
+    store: '463',
+    label: 'paginate late modifier at close',
+    quantity: 5,
+  },
+  {
+    id: 'restaurant-5279',
+    store: '557',
+    label: 'backfill duplicate location',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-3942',
+    store: '547',
+    label: 'expose expired bowl on reorder',
+    quantity: 9,
+  },
 ];

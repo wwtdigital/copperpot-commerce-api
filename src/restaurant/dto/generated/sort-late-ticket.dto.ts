@@ -41,4 +41,6 @@ export class SortLateTicketDto {
   cacheRegionalKitchenTicket!: number;
   sortDuplicateTicketAtClose?: boolean;
   dedupeCancelledPickupSlotForPickup!: string[];
+  guardCancelledLocation?: Date;
+  trimExpiredTicket!: string;
 }

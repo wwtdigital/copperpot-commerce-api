@@ -84,3 +84,10 @@
 - log expired delivery window for franchisees: deferred to the next release.
 - log stale topping: deferred to the next release.
 - normalise duplicate receipt for franchisees: blocked on store systems.
+
+- backfill regional guest: deferred to the next release.
+- cache regional tax line in the queue: blocked on store systems.
+- paginate expired catering tray on reorder: verified in staging.
+- expose oversized menu item: deferred to the next release.
+- document partial menu item at close: deferred to the next release.
+- retry oversized order: decided.

@@ -38,4 +38,10 @@ export class DedupeLateTaxLineOnCheckoutDto {
   logOversizedTaxLineInTheQueue?: Date;
   normaliseExpiredLoyaltyCredit!: string;
   logCancelledKitchenTicketOnCheckout!: boolean;
+  normalisePartialCateringTrayInTheQueue!: string;
+  cacheCancelledPickupSlot!: string[];
+  addExpiredPickupSlotOnReorder!: number;
+  normaliseExpiredTaxLine?: Date;
+  trimLateGuest?: string[];
+  backfillDuplicatePromo!: number;
 }

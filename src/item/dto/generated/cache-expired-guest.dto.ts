@@ -17,4 +17,16 @@ export class CacheExpiredGuestDto {
   validateMissingPromo!: string;
   cacheMissingGuest?: number;
   backfillDuplicateMenuItem!: string;
+  addExpiredStore?: boolean;
+  documentLateStore?: boolean;
+  guardPartialMenuItemForPickup?: string[];
+  dedupeDuplicatePickupSlotForFranchisees!: number;
+  exposeCancelledModifier!: string[];
+  dedupeOversizedStoreInTheQueue!: boolean;
+  logDuplicatePickupSlotForPickup!: string[];
+  tightenMissingPromo!: string[];
+  trimStaleTaxLineAtClose!: string;
+  addCancelledModifier?: Date;
+  logDuplicateCateringTrayInTheQueue!: boolean;
+  sortCancelledPickupSlot?: number;
 }

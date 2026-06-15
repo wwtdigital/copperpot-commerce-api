@@ -984,4 +984,10 @@ export const HandleLatePromoRows = [
     label: 'document stale kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'category-4181',
+    store: '653',
+    label: 'backfill regional menu item for franchisees',
+    quantity: 4,
+  },
 ];

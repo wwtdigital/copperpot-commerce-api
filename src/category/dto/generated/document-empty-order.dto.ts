@@ -13,4 +13,10 @@ export class DocumentEmptyOrderDto {
   exposeMissingStore!: string;
   retryCancelledLocation!: string[];
   dedupeCancelledReceiptInTheQueue?: number;
+  sortStaleModifierForFranchisees?: Date;
+  renameStaleDeliveryWindow?: string;
+  guardDuplicatePromoPerStore!: string;
+  renameExpiredCartLine!: Date;
+  validateRegionalMenuItem!: Date;
+  paginateMissingModifierPerStore?: boolean;
 }

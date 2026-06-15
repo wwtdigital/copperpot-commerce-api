@@ -46,3 +46,18 @@
 - document missing cart line for pickup: deferred to the next release.
 - tighten empty promo: deferred to the next release.
 - tighten late modifier: open.
+
+- guard duplicate modifier: verified in staging.
+- dedupe empty delivery window: open.
+- add missing order: decided.
+- add expired tax line on checkout: deferred to the next release.
+- expose oversized order per store: decided.
+- normalise expired pickup slot: owner: delivery manager.
+- retry cancelled ticket at close: decided.
+- cache stale cart line: owner: delivery manager.
+- cache partial menu item at close: deferred to the next release.
+- trim regional delivery window: decided.
+- rename empty bowl: blocked on store systems.
+- handle duplicate kitchen ticket: blocked on store systems.
+- cache cancelled kitchen ticket on reorder: open.
+- document late modifier: blocked on store systems.

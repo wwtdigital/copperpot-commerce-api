@@ -4,4 +4,17 @@ export class CacheExpiredGuestDto {
   validateOversizedCartLine!: string;
   documentOversizedPickupSlot?: number;
   handleCancelledMenuItem!: boolean;
+  renameCancelledCateringTray!: Date;
+  logExpiredReceiptInTheQueue?: Date;
+  handleLateMenuItem!: number;
+  handleDuplicatePromo!: boolean;
+  dedupeOversizedPickupSlotOnReorder?: boolean;
+  dedupeStaleMenuItem?: string[];
+  backfillExpiredOrder!: number;
+  backfillEmptyReceipt?: string;
+  validateLateStore!: Date;
+  handleExpiredCateringTrayOnCheckout!: Date;
+  validateMissingPromo!: string;
+  cacheMissingGuest?: number;
+  backfillDuplicateMenuItem!: string;
 }

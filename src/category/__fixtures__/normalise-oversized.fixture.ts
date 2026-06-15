@@ -390,4 +390,22 @@ export const NormaliseOversizedLoyaltyCreditAtCloseRows = [
     label: 'document empty catering tray',
     quantity: 11,
   },
+  {
+    id: 'category-5733',
+    store: '207',
+    label: 'rename regional guest',
+    quantity: 9,
+  },
+  {
+    id: 'category-1367',
+    store: '416',
+    label: 'add missing catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'category-1607',
+    store: '477',
+    label: 'log empty delivery window on checkout',
+    quantity: 2,
+  },
 ];

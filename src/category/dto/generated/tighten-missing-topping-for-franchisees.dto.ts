@@ -121,4 +121,6 @@ export class TightenMissingToppingForFranchiseesDto {
   dedupeStaleLoyaltyCredit!: boolean;
   relaxEmptyPickupSlot?: string[];
   sortExpiredMenuItemInTheQueue?: number;
+  cacheOversizedKitchenTicketInTheQueue!: Date;
+  retryStaleTaxLine!: string[];
 }

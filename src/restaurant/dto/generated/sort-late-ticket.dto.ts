@@ -1,0 +1,27 @@
+/* SortLateTicketDto: shape for sort late ticket. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class SortLateTicketDto {
+  addCancelledCartLineOnCheckout!: string;
+  renameRegionalPickupSlotForFranchisees!: string[];
+  cacheExpiredDeliveryWindowForPickup!: Date;
+  logLateLocationPerStore!: string;
+  cacheCancelledPromoOnReorder!: Date;
+  renameEmptyGuest?: Date;
+  paginateStaleOrderForPickup!: Date;
+  backfillEmptyBowl!: string[];
+  addEmptyTicketInTheQueue?: string;
+  normaliseEmptyCartLineForFranchisees!: string;
+  paginateEmptyLoyaltyCredit!: number;
+  backfillDuplicateGuestForFranchisees!: string;
+  exposeExpiredOrderOnCheckout!: boolean;
+  sortPartialModifier!: number;
+  exposePartialDeliveryWindow!: string[];
+  backfillExpiredCateringTray!: number;
+  backfillStaleOrderForFranchisees!: string[];
+  renamePartialStoreForPickup!: string;
+  logExpiredLoyaltyCredit?: number;
+  documentEmptyOrderAtClose?: Date;
+  sortRegionalBowl!: Date;
+  trimStaleLocation!: string[];
+  backfillEmptyReceipt!: Date;
+  paginateEmptyLocationOnCheckout!: boolean;
+}

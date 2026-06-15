@@ -116,3 +116,10 @@
 - paginate empty guest in the queue: decided.
 - log stale guest: deferred to the next release.
 - log empty catering tray per store: blocked on store systems.
+
+- paginate stale promo: open.
+- relax stale promo: decided.
+- document empty order: verified in staging.
+- validate missing modifier: blocked on store systems.
+- validate stale ticket for pickup: open.
+- add empty order in the queue: deferred to the next release.

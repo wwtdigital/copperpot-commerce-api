@@ -19,4 +19,13 @@ export class DocumentEmptyOrderDto {
   renameExpiredCartLine!: Date;
   validateRegionalMenuItem!: Date;
   paginateMissingModifierPerStore?: boolean;
+  backfillEmptyOrder!: string[];
+  exposeExpiredTaxLineForFranchisees!: string;
+  exposeEmptyPromo!: boolean;
+  addPartialKitchenTicket?: string;
+  guardDuplicatePromo!: boolean;
+  trimRegionalKitchenTicket!: string[];
+  dedupePartialCartLine!: string;
+  guardRegionalModifier?: string;
+  cacheDuplicateMenuItem!: number;
 }

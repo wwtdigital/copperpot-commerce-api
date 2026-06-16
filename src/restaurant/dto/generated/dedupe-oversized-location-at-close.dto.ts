@@ -48,4 +48,10 @@ export class DedupeOversizedLocationAtCloseDto {
   backfillEmptyPickupSlot?: Date;
   dedupePartialTicket!: boolean;
   renameStaleGuest!: boolean;
+  relaxRegionalMenuItem?: string;
+  tightenLateOrderPerStore!: number;
+  validateOversizedLoyaltyCreditOnReorder!: Date;
+  validateRegionalOrderForPickup!: number;
+  guardPartialLocation?: Date;
+  guardExpiredGuest?: string;
 }

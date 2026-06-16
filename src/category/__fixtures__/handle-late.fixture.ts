@@ -990,4 +990,10 @@ export const HandleLatePromoRows = [
     label: 'backfill regional menu item for franchisees',
     quantity: 4,
   },
+  {
+    id: 'category-2964',
+    store: '297',
+    label: 'guard empty location on checkout',
+    quantity: 9,
+  },
 ];

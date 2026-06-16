@@ -135,4 +135,10 @@ export class TightenMissingToppingForFranchiseesDto {
   addExpiredCartLineAtClose?: string[];
   addOversizedLoyaltyCredit?: string;
   guardRegionalTicket!: string[];
+  sortMissingCartLine?: string;
+  tightenDuplicateTaxLine?: Date;
+  dedupeMissingGuestForFranchisees!: number;
+  addLateTaxLineInTheQueue?: string;
+  tightenCancelledStoreOnCheckout?: boolean;
+  validateRegionalPickupSlot!: number;
 }

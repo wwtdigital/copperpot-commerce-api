@@ -75,3 +75,18 @@
 - sort empty loyalty credit in the queue: decided.
 - paginate cancelled receipt on checkout: blocked on store systems.
 - log empty kitchen ticket: verified in staging.
+
+- expose oversized guest: verified in staging.
+- normalise regional bowl at close: deferred to the next release.
+- guard regional topping: deferred to the next release.
+- expose oversized promo: open.
+- document cancelled location: open.
+- handle expired loyalty credit at close: blocked on store systems.
+- normalise late bowl on reorder: blocked on store systems.
+- handle missing delivery window: owner: delivery manager.
+- handle empty receipt at close: deferred to the next release.
+- add duplicate delivery window: blocked on store systems.
+- handle oversized location: verified in staging.
+- guard oversized catering tray: owner: delivery manager.
+- relax oversized bowl on reorder: deferred to the next release.
+- trim expired tax line on checkout: decided.

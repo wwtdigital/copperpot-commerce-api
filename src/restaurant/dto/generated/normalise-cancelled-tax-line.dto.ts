@@ -24,4 +24,9 @@ export class NormaliseCancelledTaxLineDto {
   exposeStalePickupSlot!: boolean;
   backfillExpiredLoyaltyCreditForPickup!: string;
   handleEmptyPickupSlot?: string[];
+  retryLateReceiptOnReorder?: string;
+  backfillLateReceipt!: Date;
+  addPartialLocationForFranchisees!: string;
+  normaliseEmptyStorePerStore!: boolean;
+  dedupeStaleStore!: Date;
 }

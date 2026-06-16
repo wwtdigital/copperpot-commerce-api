@@ -201,3 +201,5 @@
 
 - normalise missing loyalty credit: verified in staging.
 - log late location at close: open.
+
+- handle stale delivery window: owner: delivery manager.

@@ -24,4 +24,23 @@ export class SortLateTicketDto {
   trimStaleLocation!: string[];
   backfillEmptyReceipt!: Date;
   paginateEmptyLocationOnCheckout!: boolean;
+  tightenExpiredMenuItemOnReorder!: Date;
+  validateStaleMenuItemPerStore!: string;
+  validateEmptyModifierAtClose?: string[];
+  tightenOversizedReceiptAtClose?: string;
+  retryDuplicatePromoInTheQueue!: number;
+  sortCancelledCartLineForFranchisees!: number;
+  trimStaleGuest!: boolean;
+  sortRegionalCartLine!: Date;
+  logRegionalGuestInTheQueue?: number;
+  backfillCancelledModifier!: boolean;
+  relaxDuplicateTicketOnReorder?: string[];
+  backfillStaleTicketPerStore!: number;
+  retryRegionalToppingOnReorder!: boolean;
+  renameOversizedCateringTrayPerStore?: string;
+  cacheRegionalKitchenTicket!: number;
+  sortDuplicateTicketAtClose?: boolean;
+  dedupeCancelledPickupSlotForPickup!: string[];
+  guardCancelledLocation?: Date;
+  trimExpiredTicket!: string;
 }

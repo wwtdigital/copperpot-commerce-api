@@ -33,4 +33,28 @@ export class RelaxLateDeliveryWindowOnReorderDto {
   logCancelledLocation!: Date;
   normaliseCancelledModifierInTheQueue!: string[];
   handleExpiredDeliveryWindowAtClose!: string[];
+  documentMissingStoreOnReorder!: string;
+  normaliseLateDeliveryWindowOnCheckout?: Date;
+  relaxRegionalGuest?: Date;
+  trimExpiredCartLine?: number;
+  documentExpiredCartLine!: Date;
+  guardCancelledPromo?: boolean;
+  trimPartialBowl!: string[];
+  addPartialPromo!: Date;
+  guardExpiredBowl!: string;
+  guardOversizedStore?: string;
+  guardLatePromo!: boolean;
+  exposeOversizedMenuItem!: string[];
+  cacheEmptyOrder!: number;
+  logEmptyStore!: Date;
+  backfillCancelledKitchenTicketPerStore!: number;
+  handleExpiredMenuItem?: boolean;
+  dedupePartialCateringTray!: number;
+  sortEmptyLoyaltyCreditForFranchisees!: number;
+  tightenLateDeliveryWindow!: Date;
+  dedupeStaleTicketInTheQueue!: boolean;
+  tightenLatePickupSlotForFranchisees!: number;
+  normaliseLateStore?: Date;
+  tightenPartialBowl!: number;
+  exposeStalePromo!: string[];
 }

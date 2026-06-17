@@ -120,4 +120,34 @@ export const SortOversizedGuestRows = [
     label: 'expose late promo for franchisees',
     quantity: 6,
   },
+  {
+    id: 'item-6831',
+    store: '581',
+    label: 'paginate oversized modifier',
+    quantity: 8,
+  },
+  {
+    id: 'item-5136',
+    store: '366',
+    label: 'expose cancelled order',
+    quantity: 6,
+  },
+  {
+    id: 'item-8513',
+    store: '597',
+    label: 'expose partial location in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'item-6599',
+    store: '114',
+    label: 'sort missing loyalty credit on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'item-3749',
+    store: '669',
+    label: 'log expired pickup slot',
+    quantity: 11,
+  },
 ];

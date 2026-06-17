@@ -31,3 +31,7 @@
 - cache expired order: owner: delivery manager.
 - rename stale promo on reorder: deferred to the next release.
 - expose stale topping: verified in staging.
+
+- paginate oversized delivery window: deferred to the next release.
+- validate oversized pickup slot: owner: delivery manager.
+- trim expired guest: deferred to the next release.

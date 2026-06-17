@@ -70,4 +70,21 @@ export class DedupeStaleBowlDto {
   trimLatePickupSlot?: boolean;
   documentLateModifier!: boolean;
   documentRegionalDeliveryWindowAtClose!: boolean;
+  relaxPartialBowlOnReorder?: string[];
+  retryEmptyCateringTray!: boolean;
+  paginatePartialTaxLine?: string;
+  dedupeDuplicateStoreOnReorder?: string[];
+  trimCancelledBowl!: number;
+  handleRegionalCateringTray!: string[];
+  trimRegionalMenuItem?: number;
+  guardStaleMenuItem?: boolean;
+  validatePartialCateringTray!: Date;
+  backfillStaleLoyaltyCredit!: string[];
+  backfillCancelledToppingOnCheckout!: string[];
+  documentPartialGuestAtClose!: string[];
+  sortPartialOrderInTheQueue!: number;
+  renameOversizedKitchenTicket?: string[];
+  validateCancelledReceiptOnCheckout?: Date;
+  renameExpiredGuest!: string;
+  relaxExpiredBowl!: boolean;
 }

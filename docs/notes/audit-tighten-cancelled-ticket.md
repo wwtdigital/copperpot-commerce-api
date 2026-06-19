@@ -85,3 +85,12 @@
 - add cancelled location for pickup: open.
 - paginate oversized promo: open.
 - log duplicate topping for franchisees: deferred to the next release.
+
+- validate partial order: verified in staging.
+- document partial pickup slot: owner: delivery manager.
+- handle oversized topping: verified in staging.
+- backfill duplicate guest at close: decided.
+- cache late menu item on checkout: decided.
+- tighten cancelled guest: verified in staging.
+- guard missing pickup slot: decided.
+- relax missing topping: verified in staging.

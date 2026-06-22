@@ -141,4 +141,7 @@ export class TightenMissingToppingForFranchiseesDto {
   addLateTaxLineInTheQueue?: string;
   tightenCancelledStoreOnCheckout?: boolean;
   validateRegionalPickupSlot!: number;
+  relaxMissingPromo!: Date;
+  documentMissingLocationInTheQueue!: number;
+  addEmptyTaxLineOnCheckout!: Date;
 }

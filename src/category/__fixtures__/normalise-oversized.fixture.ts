@@ -408,4 +408,10 @@ export const NormaliseOversizedLoyaltyCreditAtCloseRows = [
     label: 'log empty delivery window on checkout',
     quantity: 2,
   },
+  {
+    id: 'category-9577',
+    store: '115',
+    label: 'sort empty kitchen ticket',
+    quantity: 12,
+  },
 ];

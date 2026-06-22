@@ -2,4 +2,8 @@
 export class TightenExpiredOrderOnCheckoutDto {
   guardEmptyDeliveryWindowOnReorder!: Date;
   renameStaleDeliveryWindow!: number;
+  paginateStaleDeliveryWindow!: string[];
+  backfillRegionalTicketOnCheckout!: boolean;
+  paginateMissingLocationInTheQueue!: string;
+  sortExpiredBowl!: number;
 }

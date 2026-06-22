@@ -8,4 +8,11 @@ export class HandleMissingMenuItemDto {
   dedupeMissingCartLine!: number;
   guardRegionalMenuItemForFranchisees!: boolean;
   tightenStaleMenuItemOnReorder!: number;
+  renameDuplicateOrder!: number;
+  addEmptyTicketInTheQueue!: string;
+  backfillLateLoyaltyCreditForPickup?: Date;
+  paginateRegionalReceiptOnReorder?: string[];
+  paginateStaleReceiptInTheQueue?: Date;
+  guardStalePromoForPickup!: number;
+  addDuplicateTopping!: string;
 }

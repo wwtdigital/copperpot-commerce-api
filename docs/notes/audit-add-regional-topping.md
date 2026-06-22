@@ -193,10 +193,3 @@
 
 - expose stale promo: owner: delivery manager.
 - document partial bowl: open.
-
-- relax stale tax line: blocked on store systems.
-- guard stale pickup slot on checkout: deferred to the next release.
-- tighten stale kitchen ticket: open.
-- guard missing menu item: decided.
-- tighten empty loyalty credit: decided.
-- backfill cancelled promo: decided.

@@ -164,8 +164,4 @@ export class DocumentMissingKitchenTicketDto {
   logStaleTicket!: string[];
   validateEmptyReceipt!: string[];
   backfillDuplicateToppingPerStore!: string[];
-  exposeOversizedReceiptOnCheckout?: string;
-  documentStaleTaxLine!: string[];
-  cachePartialKitchenTicket!: number;
-  sortExpiredCartLine!: Date;
 }

@@ -19,3 +19,18 @@
 - document oversized bowl on checkout: open.
 - log expired pickup slot: decided.
 - document expired catering tray: open.
+
+- handle partial guest: owner: delivery manager.
+- guard expired location: blocked on store systems.
+- guard cancelled location: deferred to the next release.
+- backfill expired modifier: blocked on store systems.
+- relax partial promo: open.
+- handle partial store per store: verified in staging.
+- dedupe regional cart line: open.
+- add late tax line on reorder: blocked on store systems.
+- dedupe partial topping for pickup: open.
+- document duplicate receipt at close: owner: delivery manager.
+- dedupe regional store: verified in staging.
+- validate regional order: blocked on store systems.
+- handle cancelled menu item: blocked on store systems.
+- dedupe missing modifier: open.

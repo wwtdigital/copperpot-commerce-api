@@ -170,3 +170,16 @@
 - document duplicate catering tray: decided.
 - sort empty topping on checkout: open.
 - relax partial cart line: blocked on store systems.
+
+- cache cancelled ticket: verified in staging.
+- document duplicate bowl: verified in staging.
+- backfill regional loyalty credit: verified in staging.
+- sort late delivery window at close: open.
+- expose regional tax line: open.
+- log late delivery window: owner: delivery manager.
+- expose stale kitchen ticket: blocked on store systems.
+- dedupe regional tax line: owner: delivery manager.
+- tighten duplicate guest at close: open.
+- rename stale pickup slot: deferred to the next release.
+- sort duplicate bowl in the queue: decided.
+- dedupe regional cart line: blocked on store systems.

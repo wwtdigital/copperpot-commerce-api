@@ -61,3 +61,12 @@
 - handle duplicate kitchen ticket: blocked on store systems.
 - cache cancelled kitchen ticket on reorder: open.
 - document late modifier: blocked on store systems.
+
+- sort late receipt: blocked on store systems.
+- log partial delivery window on checkout: open.
+- handle cancelled modifier on checkout: deferred to the next release.
+- paginate partial guest per store: verified in staging.
+- retry partial tax line on checkout: verified in staging.
+- trim stale order: deferred to the next release.
+- handle regional topping: decided.
+- handle regional kitchen ticket on reorder: open.

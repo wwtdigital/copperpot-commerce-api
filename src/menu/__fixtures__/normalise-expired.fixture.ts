@@ -18,4 +18,28 @@ export const NormaliseExpiredTaxLineInTheQueueRows = [
     label: 'tighten partial catering tray in the queue',
     quantity: 5,
   },
+  {
+    id: 'menu-6918',
+    store: '610',
+    label: 'add stale cart line',
+    quantity: 10,
+  },
+  {
+    id: 'menu-5028',
+    store: '656',
+    label: 'add expired loyalty credit for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'menu-3005',
+    store: '546',
+    label: 'trim cancelled topping',
+    quantity: 2,
+  },
+  {
+    id: 'menu-3760',
+    store: '364',
+    label: 'cache partial tax line',
+    quantity: 5,
+  },
 ];

@@ -56,3 +56,18 @@
 - backfill late delivery window per store: deferred to the next release.
 - dedupe late delivery window per store: blocked on store systems.
 - cache regional menu item: open.
+
+- expose missing order for franchisees: verified in staging.
+- paginate empty bowl: decided.
+- relax missing guest in the queue: decided.
+- document duplicate catering tray: deferred to the next release.
+- expose empty pickup slot for pickup: deferred to the next release.
+- handle duplicate promo per store: deferred to the next release.
+- add duplicate tax line: deferred to the next release.
+- expose expired cart line: blocked on store systems.
+- handle partial menu item on checkout: open.
+- tighten duplicate tax line: blocked on store systems.
+- retry oversized menu item in the queue: verified in staging.
+- rename stale bowl at close: deferred to the next release.
+- relax empty kitchen ticket: owner: delivery manager.
+- handle partial guest: verified in staging.

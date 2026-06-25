@@ -42,4 +42,52 @@ export const NormaliseExpiredTaxLineInTheQueueRows = [
     label: 'cache partial tax line',
     quantity: 5,
   },
+  {
+    id: 'menu-6123',
+    store: '452',
+    label: 'sort oversized tax line on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'menu-3692',
+    store: '599',
+    label: 'relax duplicate store',
+    quantity: 1,
+  },
+  {
+    id: 'menu-6103',
+    store: '203',
+    label: 'log stale tax line',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9124',
+    store: '413',
+    label: 'normalise expired cart line',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8701',
+    store: '378',
+    label: 'retry partial location on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8214',
+    store: '631',
+    label: 'cache missing kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'menu-6533',
+    store: '224',
+    label: 'paginate partial kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'menu-9846',
+    store: '218',
+    label: 'normalise missing receipt on reorder',
+    quantity: 10,
+  },
 ];

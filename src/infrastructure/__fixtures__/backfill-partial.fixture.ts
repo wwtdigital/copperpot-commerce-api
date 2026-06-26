@@ -204,4 +204,28 @@ export const BackfillPartialStoreForFranchiseesRows = [
     label: 'normalise expired tax line',
     quantity: 6,
   },
+  {
+    id: 'infrastructure-1236',
+    store: '377',
+    label: 'paginate empty pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-5494',
+    store: '664',
+    label: 'relax regional location',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-9445',
+    store: '204',
+    label: 'backfill partial kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-8355',
+    store: '159',
+    label: 'backfill partial bowl',
+    quantity: 1,
+  },
 ];

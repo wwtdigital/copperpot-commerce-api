@@ -102,4 +102,6 @@ export class SortExpiredCartLineDto {
   documentOversizedOrderForFranchisees!: string[];
   backfillOversizedLoyaltyCreditOnCheckout!: boolean;
   dedupeCancelledLocation?: Date;
+  normaliseMissingOrder!: string[];
+  validatePartialPickupSlotForFranchisees?: boolean;
 }

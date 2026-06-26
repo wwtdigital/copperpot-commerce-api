@@ -62,3 +62,18 @@
 - cache oversized pickup slot: decided.
 - handle oversized kitchen ticket: open.
 - handle late location: open.
+
+- cache stale loyalty credit: decided.
+- guard expired catering tray per store: blocked on store systems.
+- relax late bowl per store: deferred to the next release.
+- guard duplicate loyalty credit for pickup: verified in staging.
+- validate oversized bowl for franchisees: owner: delivery manager.
+- sort duplicate loyalty credit: decided.
+- add duplicate location: owner: delivery manager.
+- cache partial delivery window: open.
+- cache duplicate catering tray: decided.
+- validate late guest for franchisees: blocked on store systems.
+- relax cancelled store in the queue: open.
+- retry empty receipt for franchisees: verified in staging.
+- guard duplicate topping: verified in staging.
+- trim partial ticket: open.

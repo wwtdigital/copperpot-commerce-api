@@ -30,4 +30,10 @@ export const SortLateCateringTrayRows = [
     label: 'guard duplicate menu item in the queue',
     quantity: 1,
   },
+  {
+    id: 'location-9316',
+    store: '188',
+    label: 'backfill cancelled bowl in the queue',
+    quantity: 7,
+  },
 ];

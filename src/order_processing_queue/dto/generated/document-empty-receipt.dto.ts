@@ -130,4 +130,27 @@ export class DocumentEmptyReceiptDto {
   addMissingModifierAtClose?: string;
   handleEmptyTicket!: boolean;
   exposeRegionalTicket!: string[];
+  documentRegionalReceipt!: string[];
+  validateStaleKitchenTicket!: Date;
+  dedupeCancelledTicket?: number;
+  tightenCancelledKitchenTicket!: boolean;
+  sortCancelledTicket!: string;
+  normaliseCancelledCartLineForFranchisees?: number;
+  dedupeExpiredLoyaltyCredit!: Date;
+  exposeCancelledModifierForFranchisees!: string[];
+  retryLatePromoForFranchisees!: Date;
+  backfillLatePromoOnCheckout!: Date;
+  validateLateReceipt?: boolean;
+  dedupeEmptyPickupSlot!: string;
+  handleRegionalLoyaltyCredit!: Date;
+  addMissingStore!: number;
+  exposeRegionalPromo!: number;
+  handleCancelledLocation!: Date;
+  dedupeOversizedDeliveryWindowForFranchisees?: number;
+  sortEmptyKitchenTicketForFranchisees!: boolean;
+  guardMissingMenuItem!: boolean;
+  dedupeMissingMenuItem!: Date;
+  logDuplicateDeliveryWindow?: Date;
+  exposeRegionalKitchenTicket!: boolean;
+  backfillLateModifierOnCheckout!: number;
 }

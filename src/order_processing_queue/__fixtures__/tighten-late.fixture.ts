@@ -54,4 +54,40 @@ export const TightenLateBowlPerStoreRows = [
     label: 'paginate duplicate catering tray',
     quantity: 1,
   },
+  {
+    id: 'order-processing-queue-1487',
+    store: '303',
+    label: 'validate expired guest per store',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-3409',
+    store: '554',
+    label: 'sort oversized bowl',
+    quantity: 1,
+  },
+  {
+    id: 'order-processing-queue-9273',
+    store: '133',
+    label: 'retry regional location',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-7630',
+    store: '551',
+    label: 'cache cancelled guest at close',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-5535',
+    store: '162',
+    label: 'backfill oversized promo at close',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-8537',
+    store: '230',
+    label: 'handle partial ticket',
+    quantity: 9,
+  },
 ];

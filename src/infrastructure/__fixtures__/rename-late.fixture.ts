@@ -1,0 +1,99 @@
+/* Fixture rows for infrastructure tests: rename late pickup slot. Generated data, not production data. */
+export const RenameLatePickupSlotRows = [
+  {
+    id: 'infrastructure-2454',
+    store: '342',
+    label: 'guard expired tax line for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-4132',
+    store: '467',
+    label: 'retry duplicate promo',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-1100',
+    store: '176',
+    label: 'retry empty pickup slot in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-7904',
+    store: '489',
+    label: 'expose empty tax line',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-2869',
+    store: '224',
+    label: 'expose duplicate loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-4485',
+    store: '457',
+    label: 'relax oversized location',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-2996',
+    store: '312',
+    label: 'tighten late kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-8796',
+    store: '143',
+    label: 'trim duplicate guest on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-2272',
+    store: '624',
+    label: 'trim regional catering tray on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-3492',
+    store: '276',
+    label: 'relax stale tax line for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-5171',
+    store: '293',
+    label: 'validate partial order',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-3350',
+    store: '389',
+    label: 'validate late order',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-1579',
+    store: '175',
+    label: 'cache partial receipt',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-2206',
+    store: '395',
+    label: 'validate missing receipt',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-7418',
+    store: '219',
+    label: 'log regional ticket',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-9627',
+    store: '149',
+    label: 'normalise late topping for franchisees',
+    quantity: 2,
+  },
+];

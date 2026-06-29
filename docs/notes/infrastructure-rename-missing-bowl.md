@@ -89,3 +89,17 @@
 - retry partial kitchen ticket: blocked on store systems.
 - handle oversized tax line: blocked on store systems.
 - document empty topping: blocked on store systems.
+
+- cache duplicate location for franchisees: verified in staging.
+- paginate expired promo: decided.
+- relax partial tax line: open.
+- sort late menu item: decided.
+- retry partial loyalty credit: verified in staging.
+- normalise partial order on reorder: decided.
+- add empty modifier: deferred to the next release.
+- retry expired receipt at close: open.
+- relax cancelled guest on reorder: decided.
+- retry partial guest: decided.
+- relax oversized location: open.
+- tighten stale cart line for pickup: open.
+- add oversized catering tray: blocked on store systems.

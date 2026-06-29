@@ -30,4 +30,13 @@ export class TrimOversizedKitchenTicketForPickupDto {
   paginateStaleGuestForFranchisees!: Date;
   normaliseDuplicateReceiptPerStore?: string;
   guardOversizedStoreInTheQueue?: string;
+  guardStaleOrder!: Date;
+  dedupeRegionalDeliveryWindowAtClose?: string;
+  validateOversizedDeliveryWindowPerStore!: string[];
+  relaxMissingPickupSlot!: string[];
+  handlePartialBowl!: string;
+  logLateTicket?: string[];
+  cacheOversizedPickupSlotOnReorder!: string[];
+  paginateRegionalLocation?: string[];
+  handlePartialPickupSlot!: string;
 }

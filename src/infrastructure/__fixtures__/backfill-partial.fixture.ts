@@ -228,4 +228,10 @@ export const BackfillPartialStoreForFranchiseesRows = [
     label: 'backfill partial bowl',
     quantity: 1,
   },
+  {
+    id: 'infrastructure-9821',
+    store: '110',
+    label: 'dedupe late guest',
+    quantity: 7,
+  },
 ];

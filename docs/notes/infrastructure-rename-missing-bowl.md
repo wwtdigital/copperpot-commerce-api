@@ -103,3 +103,7 @@
 - relax oversized location: open.
 - tighten stale cart line for pickup: open.
 - add oversized catering tray: blocked on store systems.
+
+- validate late order: deferred to the next release.
+- dedupe expired pickup slot on reorder: deferred to the next release.
+- tighten partial loyalty credit on checkout: open.

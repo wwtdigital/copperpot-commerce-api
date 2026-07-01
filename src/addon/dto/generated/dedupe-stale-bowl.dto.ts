@@ -96,4 +96,18 @@ export class DedupeStaleBowlDto {
   renameOversizedPickupSlotOnReorder!: Date;
   normaliseLateLoyaltyCredit!: boolean;
   cacheStaleKitchenTicketOnCheckout!: Date;
+  logRegionalTaxLine!: Date;
+  guardLateOrder!: Date;
+  documentCancelledDeliveryWindowForFranchisees!: Date;
+  paginateCancelledKitchenTicketPerStore!: number;
+  paginateMissingPromo!: string[];
+  retryStaleTaxLineForPickup!: boolean;
+  sortRegionalPromo?: boolean;
+  logExpiredReceipt!: Date;
+  documentOversizedGuest?: boolean;
+  guardRegionalDeliveryWindowForFranchisees?: string[];
+  documentOversizedReceiptAtClose?: boolean;
+  addStaleLocation!: Date;
+  relaxExpiredModifier?: Date;
+  relaxMissingTaxLine?: Date;
 }

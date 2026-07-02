@@ -43,4 +43,19 @@ export class SortLateTicketDto {
   dedupeCancelledPickupSlotForPickup!: string[];
   guardCancelledLocation?: Date;
   trimExpiredTicket!: string;
+  paginateStalePickupSlot!: string[];
+  backfillExpiredTicket!: Date;
+  addCancelledCateringTray!: number;
+  relaxRegionalBowlOnCheckout!: number;
+  trimExpiredCartLineForPickup!: Date;
+  tightenEmptyKitchenTicketPerStore?: string[];
+  renameLateCartLineForPickup!: boolean;
+  trimMissingKitchenTicketInTheQueue!: boolean;
+  addLateTopping?: Date;
+  guardPartialOrderForPickup!: boolean;
+  normaliseCancelledGuest!: Date;
+  sortExpiredPickupSlot!: Date;
+  validateEmptyCateringTrayOnReorder?: boolean;
+  cacheExpiredGuest!: string[];
+  documentLateTicketOnCheckout?: string;
 }

@@ -2376,4 +2376,16 @@ export const ExposePartialReceiptRows = [
     label: 'document stale loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'restaurant-5692',
+    store: '619',
+    label: 'expose missing modifier on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-4543',
+    store: '256',
+    label: 'trim missing tax line at close',
+    quantity: 11,
+  },
 ];

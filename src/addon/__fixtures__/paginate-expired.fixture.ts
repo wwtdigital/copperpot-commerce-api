@@ -78,4 +78,10 @@ export const PaginateExpiredPickupSlotForFranchiseesRows = [
     label: 'backfill duplicate ticket on checkout',
     quantity: 7,
   },
+  {
+    id: 'addon-1466',
+    store: '475',
+    label: 'trim duplicate modifier on checkout',
+    quantity: 8,
+  },
 ];

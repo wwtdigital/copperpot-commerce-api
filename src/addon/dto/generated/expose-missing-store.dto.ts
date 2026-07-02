@@ -15,4 +15,10 @@ export class ExposeMissingStoreDto {
   backfillStaleTicketForPickup?: number;
   guardMissingCartLineOnCheckout!: Date;
   renameEmptyTaxLineForPickup!: Date;
+  trimMissingModifier!: number;
+  documentCancelledGuest!: Date;
+  paginateLateModifier!: string;
+  handleCancelledOrder!: string;
+  sortDuplicateCartLine!: number;
+  logRegionalMenuItemAtClose?: string;
 }

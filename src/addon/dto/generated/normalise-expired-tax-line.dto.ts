@@ -24,4 +24,7 @@ export class NormaliseExpiredTaxLineDto {
   renameDuplicateMenuItem?: boolean;
   handleStaleLocation?: number;
   dedupePartialPickupSlot?: number;
+  relaxStaleReceiptForFranchisees!: string;
+  cachePartialPromo!: Date;
+  backfillDuplicateReceipt!: string[];
 }

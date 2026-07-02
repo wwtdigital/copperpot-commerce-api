@@ -87,4 +87,13 @@ export class DedupeStaleBowlDto {
   validateCancelledReceiptOnCheckout?: Date;
   renameExpiredGuest!: string;
   relaxExpiredBowl!: boolean;
+  validateCancelledCateringTrayOnReorder!: Date;
+  sortOversizedGuest?: boolean;
+  validatePartialLocation!: string[];
+  exposeStaleTicket!: string[];
+  trimEmptyMenuItem?: Date;
+  exposePartialStoreInTheQueue!: boolean;
+  renameOversizedPickupSlotOnReorder!: Date;
+  normaliseLateLoyaltyCredit!: boolean;
+  cacheStaleKitchenTicketOnCheckout!: Date;
 }

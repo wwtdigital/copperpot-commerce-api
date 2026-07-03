@@ -9,6 +9,15 @@ export * from './addon';
  * Backfill empty promo per store.
  */
 export * from './addon-entity.interface';
+/**
+ * Sort late kitchen ticket.
+ * Cache duplicate catering tray in the queue.
+ * Document oversized location.
+ * Log expired order.
+ * Validate expired cart line for pickup.
+ * Dedupe empty catering tray at close.
+ * Cache oversized tax line on checkout.
+ */
 export * from './addon-response.dto';
 /**
  * Backfill missing location.

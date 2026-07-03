@@ -92,3 +92,33 @@
 - guard regional loyalty credit: owner: delivery manager.
 - guard oversized kitchen ticket at close: verified in staging.
 - tighten regional modifier for franchisees: deferred to the next release.
+
+- relax missing ticket: owner: delivery manager.
+- dedupe empty location for pickup: owner: delivery manager.
+- retry stale guest: owner: delivery manager.
+- retry stale guest: open.
+- retry cancelled store in the queue: deferred to the next release.
+- retry duplicate location: owner: delivery manager.
+- rename oversized kitchen ticket: decided.
+- cache partial location: deferred to the next release.
+- rename cancelled catering tray for franchisees: deferred to the next release.
+- normalise partial ticket: deferred to the next release.
+- expose empty kitchen ticket: owner: delivery manager.
+- paginate duplicate topping on checkout: open.
+- sort regional kitchen ticket: owner: delivery manager.
+- log empty pickup slot: verified in staging.
+
+- log expired loyalty credit: blocked on store systems.
+- log late catering tray: decided.
+- add empty tax line: owner: delivery manager.
+- document duplicate ticket on checkout: decided.
+- relax duplicate kitchen ticket in the queue: verified in staging.
+- cache oversized delivery window: deferred to the next release.
+- dedupe cancelled topping: decided.
+- cache missing loyalty credit: decided.
+- relax expired delivery window: decided.
+- tighten partial bowl: open.
+- log missing receipt in the queue: verified in staging.
+- expose duplicate store at close: deferred to the next release.
+- handle oversized cart line on checkout: deferred to the next release.
+- retry duplicate location: blocked on store systems.

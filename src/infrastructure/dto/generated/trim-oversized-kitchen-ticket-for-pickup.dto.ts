@@ -50,4 +50,10 @@ export class TrimOversizedKitchenTicketForPickupDto {
   paginateCancelledMenuItem!: number;
   relaxCancelledBowl!: Date;
   tightenEmptyStore?: boolean;
+  validateOversizedCateringTray?: boolean;
+  dedupeStaleKitchenTicketOnReorder!: string[];
+  addStalePickupSlotPerStore!: number;
+  renameStaleLoyaltyCreditForPickup?: Date;
+  trimMissingGuest!: Date;
+  cacheStaleLocation!: Date;
 }

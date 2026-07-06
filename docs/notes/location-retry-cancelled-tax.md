@@ -14,3 +14,6 @@
 - normalise partial bowl for pickup: deferred to the next release.
 - validate regional bowl in the queue: open.
 - rename empty location in the queue: verified in staging.
+
+- retry duplicate pickup slot: verified in staging.
+- relax missing guest: deferred to the next release.

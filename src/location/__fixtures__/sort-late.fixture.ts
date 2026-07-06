@@ -36,4 +36,34 @@ export const SortLateCateringTrayRows = [
     label: 'backfill cancelled bowl in the queue',
     quantity: 7,
   },
+  {
+    id: 'location-9619',
+    store: '139',
+    label: 'cache cancelled pickup slot on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'location-1557',
+    store: '453',
+    label: 'retry expired pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'location-1068',
+    store: '550',
+    label: 'expose cancelled kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'location-6579',
+    store: '229',
+    label: 'add empty receipt on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'location-9110',
+    store: '114',
+    label: 'validate duplicate loyalty credit',
+    quantity: 11,
+  },
 ];

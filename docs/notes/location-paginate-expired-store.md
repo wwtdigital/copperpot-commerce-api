@@ -34,3 +34,18 @@
 
 - handle regional kitchen ticket in the queue: verified in staging.
 - paginate oversized bowl: decided.
+
+- rename partial kitchen ticket: open.
+- retry cancelled promo on reorder: deferred to the next release.
+- retry regional order: decided.
+- cache expired modifier: owner: delivery manager.
+- relax cancelled tax line for pickup: open.
+- rename stale bowl: owner: delivery manager.
+- add partial ticket: decided.
+- document late kitchen ticket: verified in staging.
+- dedupe late promo: owner: delivery manager.
+- trim regional pickup slot on checkout: verified in staging.
+- retry empty menu item in the queue: owner: delivery manager.
+- dedupe duplicate topping on reorder: owner: delivery manager.
+- log empty ticket: open.
+- add late loyalty credit: verified in staging.

@@ -103,4 +103,10 @@ export class GuardPartialLoyaltyCreditDto {
   guardStalePromo!: Date;
   logRegionalDeliveryWindow!: boolean;
   dedupeEmptyPromo!: boolean;
+  retryPartialPromoInTheQueue?: string[];
+  addDuplicateLoyaltyCredit!: Date;
+  cacheMissingCateringTrayForFranchisees!: Date;
+  guardEmptyCateringTrayOnReorder!: Date;
+  backfillMissingDeliveryWindow?: Date;
+  trimPartialTaxLineOnCheckout!: Date;
 }

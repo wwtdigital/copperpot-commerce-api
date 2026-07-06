@@ -408,4 +408,34 @@ export const GuardEmptyPromoRows = [
     label: 'expose empty kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'payments-9796',
+    store: '305',
+    label: 'dedupe empty ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'payments-1942',
+    store: '170',
+    label: 'rename cancelled location',
+    quantity: 5,
+  },
+  {
+    id: 'payments-5676',
+    store: '647',
+    label: 'handle stale catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'payments-7380',
+    store: '550',
+    label: 'validate oversized store',
+    quantity: 12,
+  },
+  {
+    id: 'payments-2149',
+    store: '697',
+    label: 'trim missing kitchen ticket',
+    quantity: 2,
+  },
 ];

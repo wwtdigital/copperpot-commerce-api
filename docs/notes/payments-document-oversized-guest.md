@@ -78,3 +78,18 @@
 - rename cancelled modifier per store: open.
 - validate stale kitchen ticket: verified in staging.
 - paginate missing topping: deferred to the next release.
+
+- validate late pickup slot at close: deferred to the next release.
+- relax duplicate bowl: open.
+- normalise empty pickup slot in the queue: decided.
+- log empty store for pickup: deferred to the next release.
+- dedupe duplicate guest: deferred to the next release.
+- sort empty menu item: blocked on store systems.
+- rename late tax line: blocked on store systems.
+- retry oversized topping in the queue: owner: delivery manager.
+- handle oversized order: blocked on store systems.
+- expose late order: owner: delivery manager.
+- normalise partial location: owner: delivery manager.
+- expose missing promo: open.
+- cache cancelled loyalty credit: decided.
+- validate duplicate guest: owner: delivery manager.

@@ -58,4 +58,28 @@ export class SortLateTicketDto {
   validateEmptyCateringTrayOnReorder?: boolean;
   cacheExpiredGuest!: string[];
   documentLateTicketOnCheckout?: string;
+  handleCancelledTopping!: Date;
+  dedupeExpiredReceipt?: string[];
+  trimCancelledTopping!: number;
+  normalisePartialPromo!: boolean;
+  addEmptyCateringTray!: Date;
+  validateMissingToppingForFranchisees?: boolean;
+  guardEmptyPromoPerStore?: string;
+  cacheExpiredMenuItemPerStore?: Date;
+  renameEmptyLoyaltyCredit!: Date;
+  logStaleModifierOnCheckout!: boolean;
+  dedupePartialMenuItem?: boolean;
+  tightenRegionalTicket!: boolean;
+  guardMissingCartLine!: string;
+  handleEmptyModifierPerStore?: number;
+  exposeCancelledModifier!: Date;
+  normaliseDuplicateGuest!: boolean;
+  renamePartialBowl?: number;
+  guardStaleDeliveryWindow!: number;
+  trimDuplicateLoyaltyCredit!: number;
+  relaxRegionalCateringTray?: Date;
+  exposeMissingPromo!: Date;
+  handlePartialReceipt!: boolean;
+  tightenOversizedModifier!: string;
+  renameDuplicatePickupSlotAtClose?: Date;
 }

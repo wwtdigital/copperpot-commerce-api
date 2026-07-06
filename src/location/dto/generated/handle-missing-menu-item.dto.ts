@@ -15,4 +15,17 @@ export class HandleMissingMenuItemDto {
   paginateStaleReceiptInTheQueue?: Date;
   guardStalePromoForPickup!: number;
   addDuplicateTopping!: string;
+  trimPartialMenuItemPerStore?: string[];
+  cacheRegionalDeliveryWindow!: Date;
+  relaxCancelledLocationForPickup!: string[];
+  renamePartialBowlOnReorder!: number;
+  relaxRegionalTicket!: number;
+  logMissingCateringTrayForPickup!: string[];
+  renameLateCartLineForFranchisees!: string;
+  handleExpiredToppingPerStore!: boolean;
+  retryCancelledPickupSlot!: string;
+  handleLateLocationForFranchisees!: string;
+  tightenExpiredCartLine!: number;
+  sortPartialLoyaltyCredit!: string;
+  cacheDuplicateDeliveryWindow?: number;
 }

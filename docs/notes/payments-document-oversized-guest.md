@@ -93,3 +93,18 @@
 - expose missing promo: open.
 - cache cancelled loyalty credit: decided.
 - validate duplicate guest: owner: delivery manager.
+
+- expose duplicate modifier: blocked on store systems.
+- guard regional modifier: verified in staging.
+- guard regional order: decided.
+- rename expired ticket: blocked on store systems.
+- tighten empty receipt on checkout: decided.
+- log stale store at close: deferred to the next release.
+- normalise oversized promo for franchisees: owner: delivery manager.
+- sort late bowl: verified in staging.
+- cache duplicate bowl: open.
+- guard expired loyalty credit: deferred to the next release.
+- trim oversized receipt at close: deferred to the next release.
+- trim oversized topping: deferred to the next release.
+- retry missing receipt: deferred to the next release.
+- retry empty pickup slot at close: blocked on store systems.

@@ -53,4 +53,10 @@ export class TightenLateKitchenTicketDto {
   tightenExpiredStore?: string;
   relaxOversizedDeliveryWindowOnReorder!: string[];
   trimCancelledModifier!: string[];
+  guardLateLoyaltyCreditAtClose?: Date;
+  paginateMissingPromoOnCheckout!: number;
+  dedupeRegionalStoreForFranchisees?: Date;
+  tightenDuplicatePickupSlotAtClose!: string[];
+  paginateDuplicatePickupSlot?: string;
+  addOversizedPromo!: string;
 }

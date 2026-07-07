@@ -108,3 +108,10 @@
 - trim oversized topping: deferred to the next release.
 - retry missing receipt: deferred to the next release.
 - retry empty pickup slot at close: blocked on store systems.
+
+- relax late guest: open.
+- guard duplicate modifier: open.
+- log partial promo: deferred to the next release.
+- backfill partial tax line: deferred to the next release.
+- sort duplicate ticket: blocked on store systems.
+- paginate expired modifier: verified in staging.

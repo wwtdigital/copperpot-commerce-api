@@ -93,3 +93,47 @@
 - expose missing promo: open.
 - cache cancelled loyalty credit: decided.
 - validate duplicate guest: owner: delivery manager.
+
+- expose duplicate modifier: blocked on store systems.
+- guard regional modifier: verified in staging.
+- guard regional order: decided.
+- rename expired ticket: blocked on store systems.
+- tighten empty receipt on checkout: decided.
+- log stale store at close: deferred to the next release.
+- normalise oversized promo for franchisees: owner: delivery manager.
+- sort late bowl: verified in staging.
+- cache duplicate bowl: open.
+- guard expired loyalty credit: deferred to the next release.
+- trim oversized receipt at close: deferred to the next release.
+- trim oversized topping: deferred to the next release.
+- retry missing receipt: deferred to the next release.
+- retry empty pickup slot at close: blocked on store systems.
+
+- relax late guest: open.
+- guard duplicate modifier: open.
+- log partial promo: deferred to the next release.
+- backfill partial tax line: deferred to the next release.
+- sort duplicate ticket: blocked on store systems.
+- paginate expired modifier: verified in staging.
+
+- normalise late kitchen ticket for pickup: open.
+- backfill duplicate pickup slot: deferred to the next release.
+- validate partial catering tray: open.
+- add partial location: open.
+- document oversized delivery window: blocked on store systems.
+- tighten expired loyalty credit: decided.
+- rename regional cart line for pickup: deferred to the next release.
+- trim cancelled modifier for franchisees: decided.
+- trim partial delivery window per store: verified in staging.
+- add oversized loyalty credit: owner: delivery manager.
+- guard missing store per store: owner: delivery manager.
+- retry late location: deferred to the next release.
+- log regional promo at close: owner: delivery manager.
+- document duplicate order in the queue: decided.
+
+- retry late loyalty credit for franchisees: owner: delivery manager.
+- normalise duplicate modifier in the queue: verified in staging.
+- rename oversized order for franchisees: blocked on store systems.
+- add oversized kitchen ticket per store: verified in staging.
+- cache partial cart line: deferred to the next release.
+- validate oversized location: verified in staging.

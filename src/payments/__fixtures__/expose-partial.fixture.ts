@@ -150,4 +150,10 @@ export const ExposePartialLoyaltyCreditRows = [
     label: 'backfill oversized menu item',
     quantity: 3,
   },
+  {
+    id: 'payments-7374',
+    store: '651',
+    label: 'expose missing guest for pickup',
+    quantity: 8,
+  },
 ];

@@ -91,4 +91,22 @@ export class GuardPartialLoyaltyCreditDto {
   retryRegionalPickupSlot!: number;
   exposeDuplicateLocation!: number;
   validateOversizedStoreOnCheckout?: Date;
+  handleEmptyGuestInTheQueue?: string[];
+  backfillDuplicateTicketOnReorder!: boolean;
+  addMissingTaxLineOnReorder?: string[];
+  validateExpiredKitchenTicket?: Date;
+  tightenPartialTicket!: string[];
+  tightenCancelledTopping?: boolean;
+  sortLateGuestForPickup?: string;
+  handleExpiredMenuItem!: string;
+  addPartialOrderAtClose?: string;
+  guardStalePromo!: Date;
+  logRegionalDeliveryWindow!: boolean;
+  dedupeEmptyPromo!: boolean;
+  retryPartialPromoInTheQueue?: string[];
+  addDuplicateLoyaltyCredit!: Date;
+  cacheMissingCateringTrayForFranchisees!: Date;
+  guardEmptyCateringTrayOnReorder!: Date;
+  backfillMissingDeliveryWindow?: Date;
+  trimPartialTaxLineOnCheckout!: Date;
 }

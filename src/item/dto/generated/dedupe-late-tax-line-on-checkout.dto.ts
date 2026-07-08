@@ -44,4 +44,28 @@ export class DedupeLateTaxLineOnCheckoutDto {
   normaliseExpiredTaxLine?: Date;
   trimLateGuest?: string[];
   backfillDuplicatePromo!: number;
+  renameDuplicateCateringTrayOnCheckout!: string;
+  guardStaleMenuItem?: boolean;
+  addLateCateringTray!: Date;
+  retryMissingCateringTray!: boolean;
+  renameMissingStore?: boolean;
+  renameStaleLoyaltyCreditForPickup!: number;
+  renameExpiredToppingAtClose!: string[];
+  sortMissingDeliveryWindow!: number;
+  relaxOversizedDeliveryWindow!: boolean;
+  sortMissingTaxLine?: Date;
+  documentMissingLocation!: Date;
+  trimMissingLocationForFranchisees!: boolean;
+  logCancelledBowl!: string;
+  sortRegionalKitchenTicket!: Date;
+  cacheStaleReceipt!: Date;
+  retryOversizedModifier!: string[];
+  retryPartialTaxLine!: string;
+  paginateExpiredStore!: string[];
+  renamePartialCartLine!: Date;
+  backfillStalePromo?: string;
+  dedupeOversizedCartLineInTheQueue?: Date;
+  sortMissingTicket?: string;
+  validateExpiredMenuItemInTheQueue?: boolean;
+  documentMissingCateringTrayForFranchisees?: Date;
 }

@@ -90,3 +90,6 @@
 - guard oversized catering tray: owner: delivery manager.
 - relax oversized bowl on reorder: deferred to the next release.
 - trim expired tax line on checkout: decided.
+
+- tighten regional promo: open.
+- normalise oversized loyalty credit: owner: delivery manager.

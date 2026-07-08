@@ -16,6 +16,3 @@
 - relax partial topping at close: owner: delivery manager.
 - retry late promo in the queue: blocked on store systems.
 - handle regional ticket in the queue: blocked on store systems.
-- log missing store at close: blocked on store systems.
-- relax regional catering tray for pickup: open.
-- log partial loyalty credit in the queue: owner: delivery manager.

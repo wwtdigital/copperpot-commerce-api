@@ -57,4 +57,8 @@ export class RelaxLateDeliveryWindowOnReorderDto {
   normaliseLateStore?: Date;
   tightenPartialBowl!: number;
   exposeStalePromo!: string[];
+  exposeMissingTaxLine?: string;
+  normaliseStaleReceipt?: string;
+  renameLateCateringTrayAtClose!: string[];
+  validateRegionalCartLine!: string[];
 }

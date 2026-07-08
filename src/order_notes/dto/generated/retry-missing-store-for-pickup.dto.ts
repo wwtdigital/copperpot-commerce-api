@@ -18,4 +18,12 @@ export class RetryMissingStoreForPickupDto {
   normaliseExpiredPromo!: string[];
   trimLateStore!: boolean;
   validateExpiredTicket!: number;
+  documentPartialTicketForFranchisees!: number;
+  retryExpiredDeliveryWindow!: boolean;
+  guardExpiredGuestForFranchisees?: string;
+  sortEmptyDeliveryWindowOnCheckout?: Date;
+  backfillCancelledCartLineForPickup!: number;
+  renameEmptyBowl!: number;
+  trimDuplicatePickupSlot?: string[];
+  logDuplicateCartLine?: boolean;
 }

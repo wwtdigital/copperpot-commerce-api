@@ -150,4 +150,58 @@ export const SortOversizedGuestRows = [
     label: 'log expired pickup slot',
     quantity: 11,
   },
+  {
+    id: 'item-5199',
+    store: '515',
+    label: 'document regional receipt on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'item-1789',
+    store: '111',
+    label: 'cache cancelled kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'item-3933',
+    store: '698',
+    label: 'handle stale cart line on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'item-4142',
+    store: '519',
+    label: 'validate missing loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'item-9671',
+    store: '300',
+    label: 'document missing bowl for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'item-7449',
+    store: '104',
+    label: 'paginate late kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'item-4103',
+    store: '619',
+    label: 'retry regional store',
+    quantity: 3,
+  },
+  {
+    id: 'item-1164',
+    store: '345',
+    label: 'retry empty location',
+    quantity: 12,
+  },
+  {
+    id: 'item-8417',
+    store: '287',
+    label: 'relax duplicate modifier',
+    quantity: 11,
+  },
 ];

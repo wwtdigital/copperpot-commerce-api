@@ -1,0 +1,123 @@
+/* Fixture rows for audit tests: backfill stale store. Generated data, not production data. */
+export const BackfillStaleStoreRows = [
+  {
+    id: 'audit-6009',
+    store: '629',
+    label: 'rename stale tax line',
+    quantity: 10,
+  },
+  {
+    id: 'audit-9625',
+    store: '364',
+    label: 'log duplicate loyalty credit per store',
+    quantity: 11,
+  },
+  {
+    id: 'audit-3232',
+    store: '374',
+    label: 'backfill expired loyalty credit on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'audit-4925',
+    store: '131',
+    label: 'retry partial pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'audit-2401',
+    store: '143',
+    label: 'document missing location for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'audit-8808',
+    store: '672',
+    label: 'guard late cart line',
+    quantity: 3,
+  },
+  {
+    id: 'audit-4758',
+    store: '228',
+    label: 'handle late store per store',
+    quantity: 6,
+  },
+  {
+    id: 'audit-2807',
+    store: '641',
+    label: 'tighten partial tax line',
+    quantity: 11,
+  },
+  {
+    id: 'audit-3429',
+    store: '609',
+    label: 'guard duplicate order for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'audit-1603',
+    store: '465',
+    label: 'validate oversized promo',
+    quantity: 11,
+  },
+  {
+    id: 'audit-1348',
+    store: '355',
+    label: 'document empty receipt at close',
+    quantity: 11,
+  },
+  {
+    id: 'audit-1907',
+    store: '145',
+    label: 'handle missing loyalty credit on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'audit-7493',
+    store: '149',
+    label: 'relax oversized kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'audit-6320',
+    store: '518',
+    label: 'cache late loyalty credit for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'audit-4237',
+    store: '490',
+    label: 'cache duplicate promo',
+    quantity: 2,
+  },
+  {
+    id: 'audit-6865',
+    store: '460',
+    label: 'dedupe cancelled menu item in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'audit-5784',
+    store: '600',
+    label: 'tighten empty bowl for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'audit-5794',
+    store: '234',
+    label: 'cache late catering tray per store',
+    quantity: 11,
+  },
+  {
+    id: 'audit-7674',
+    store: '357',
+    label: 'rename cancelled store for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'audit-7087',
+    store: '261',
+    label: 'paginate expired pickup slot',
+    quantity: 1,
+  },
+];

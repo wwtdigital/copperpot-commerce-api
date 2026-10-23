@@ -190,3 +190,14 @@
 - validate regional guest: decided.
 - cache cancelled receipt for pickup: open.
 - handle late bowl: verified in staging.
+
+- guard expired guest for pickup: deferred to the next release.
+- tighten partial guest per store: blocked on store systems.
+- expose oversized bowl on checkout: decided.
+- retry stale location: deferred to the next release.
+- validate stale store: owner: delivery manager.
+- add oversized receipt: blocked on store systems.
+- guard duplicate loyalty credit: owner: delivery manager.
+- paginate stale cart line: verified in staging.
+- rename empty kitchen ticket: owner: delivery manager.
+- validate duplicate cart line: open.

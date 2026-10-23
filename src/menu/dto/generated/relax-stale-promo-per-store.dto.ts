@@ -51,4 +51,26 @@ export class RelaxStalePromoPerStoreDto {
   guardCancelledLoyaltyCredit!: string[];
   trimOversizedMenuItemForPickup?: Date;
   addExpiredCartLine!: Date;
+  documentLateLoyaltyCredit!: string[];
+  addEmptyReceipt!: string;
+  handleExpiredKitchenTicket!: boolean;
+  paginateExpiredPromo!: string[];
+  exposeEmptyToppingForPickup!: Date;
+  relaxRegionalMenuItemOnReorder!: Date;
+  guardStaleGuest!: boolean;
+  addDuplicateTicketForFranchisees!: boolean;
+  addStaleMenuItem?: number;
+  logLateLocation!: Date;
+  tightenExpiredOrder?: string;
+  trimDuplicateMenuItemAtClose!: boolean;
+  tightenDuplicateCateringTrayForPickup!: string;
+  handleEmptyReceiptOnCheckout!: number;
+  exposeOversizedDeliveryWindow!: boolean;
+  cachePartialDeliveryWindowOnReorder?: boolean;
+  trimDuplicateLoyaltyCreditOnCheckout!: string[];
+  exposeEmptyBowl?: number;
+  tightenRegionalReceipt!: boolean;
+  logStaleStore?: number;
+  tightenPartialTaxLineOnCheckout?: number;
+  cacheLateOrderPerStore!: number;
 }

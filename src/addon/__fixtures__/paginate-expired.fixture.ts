@@ -84,4 +84,46 @@ export const PaginateExpiredPickupSlotForFranchiseesRows = [
     label: 'trim duplicate modifier on checkout',
     quantity: 8,
   },
+  {
+    id: 'addon-5471',
+    store: '148',
+    label: 'document regional cart line at close',
+    quantity: 6,
+  },
+  {
+    id: 'addon-7495',
+    store: '176',
+    label: 'dedupe regional pickup slot on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'addon-9011',
+    store: '354',
+    label: 'handle cancelled guest on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'addon-9050',
+    store: '462',
+    label: 'rename stale ticket',
+    quantity: 6,
+  },
+  {
+    id: 'addon-9960',
+    store: '155',
+    label: 'add empty store',
+    quantity: 2,
+  },
+  {
+    id: 'addon-9667',
+    store: '437',
+    label: 'rename oversized tax line',
+    quantity: 7,
+  },
+  {
+    id: 'addon-4520',
+    store: '608',
+    label: 'tighten stale bowl per store',
+    quantity: 10,
+  },
 ];

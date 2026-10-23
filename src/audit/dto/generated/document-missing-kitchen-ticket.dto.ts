@@ -187,4 +187,6 @@ export class DocumentMissingKitchenTicketDto {
   trimLateCateringTray?: boolean;
   dedupeLateCateringTray?: string;
   guardMissingTaxLineOnReorder?: number;
+  backfillLateTopping?: string;
+  handleStaleModifierOnReorder!: string;
 }

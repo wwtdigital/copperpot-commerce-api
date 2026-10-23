@@ -15,4 +15,24 @@ export class RetryRegionalDeliveryWindowForPickupDto {
   handleDuplicateTicket!: string;
   exposeRegionalTaxLine!: string[];
   logStaleReceiptOnReorder?: boolean;
+  renameCancelledTaxLine!: number;
+  handleOversizedLoyaltyCredit!: Date;
+  paginateCancelledDeliveryWindow!: number;
+  normaliseCancelledLocation!: boolean;
+  backfillPartialMenuItemOnReorder!: number;
+  backfillEmptyKitchenTicketPerStore!: string;
+  backfillExpiredBowlForPickup!: string;
+  trimMissingMenuItem!: string;
+  sortLateModifier?: Date;
+  normaliseLateBowl!: boolean;
+  sortLatePromo!: string[];
+  backfillOversizedTaxLine!: number;
+  dedupeExpiredReceipt!: number;
+  relaxExpiredTopping!: number;
+  sortPartialTicketOnReorder!: number;
+  guardStaleMenuItem!: string[];
+  exposeStaleLocationPerStore!: number;
+  retryMissingCartLine!: number;
+  renameDuplicateTicket?: string;
+  paginateDuplicateReceiptAtClose?: Date;
 }

@@ -120,4 +120,58 @@ export const BackfillStaleStoreRows = [
     label: 'paginate expired pickup slot',
     quantity: 1,
   },
+  {
+    id: 'audit-7652',
+    store: '107',
+    label: 'sort partial promo for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'audit-4602',
+    store: '322',
+    label: 'relax partial menu item',
+    quantity: 7,
+  },
+  {
+    id: 'audit-3435',
+    store: '666',
+    label: 'log cancelled guest',
+    quantity: 4,
+  },
+  {
+    id: 'audit-8488',
+    store: '554',
+    label: 'normalise partial delivery window for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'audit-7650',
+    store: '372',
+    label: 'tighten expired pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'audit-5493',
+    store: '655',
+    label: 'expose partial bowl',
+    quantity: 4,
+  },
+  {
+    id: 'audit-2417',
+    store: '527',
+    label: 'normalise late pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'audit-7607',
+    store: '635',
+    label: 'document cancelled promo in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'audit-6708',
+    store: '421',
+    label: 'relax missing kitchen ticket',
+    quantity: 6,
+  },
 ];

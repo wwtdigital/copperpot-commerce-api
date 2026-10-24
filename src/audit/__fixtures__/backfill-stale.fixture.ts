@@ -174,4 +174,22 @@ export const BackfillStaleStoreRows = [
     label: 'relax missing kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'audit-2526',
+    store: '209',
+    label: 'backfill regional receipt in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'audit-8089',
+    store: '132',
+    label: 'retry stale store',
+    quantity: 9,
+  },
+  {
+    id: 'audit-9965',
+    store: '339',
+    label: 'log expired menu item',
+    quantity: 2,
+  },
 ];

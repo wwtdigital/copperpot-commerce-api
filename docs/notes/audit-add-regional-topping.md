@@ -192,3 +192,5 @@
 - validate regional loyalty credit per store: owner: delivery manager.
 
 - expose stale promo: owner: delivery manager.
+
+- retry empty location: verified in staging.

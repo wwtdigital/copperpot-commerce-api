@@ -8,4 +8,23 @@ export class RenameLatePromoDto {
   backfillLateBowl!: string;
   guardStaleDeliveryWindow!: string[];
   renameRegionalTopping?: boolean;
+  exposeDuplicateCateringTray!: number;
+  renameOversizedModifierOnCheckout!: Date;
+  logStaleLocationPerStore?: boolean;
+  trimEmptyToppingAtClose!: boolean;
+  dedupeEmptyPickupSlot!: string;
+  retryRegionalPickupSlotAtClose!: string[];
+  exposeRegionalOrderInTheQueue?: boolean;
+  trimDuplicateLoyaltyCredit!: string;
+  backfillCancelledDeliveryWindowAtClose!: number;
+  handleOversizedCateringTrayPerStore?: number;
+  addEmptyMenuItem!: Date;
+  cacheEmptyTaxLine!: string;
+  paginateMissingGuestOnReorder!: number;
+  cacheStaleToppingForFranchisees!: string;
+  retryOversizedLoyaltyCredit!: string;
+  normaliseMissingOrderPerStore!: boolean;
+  cacheStaleGuestOnReorder?: boolean;
+  backfillDuplicateBowlOnReorder!: number;
+  sortDuplicateDeliveryWindowPerStore!: Date;
 }

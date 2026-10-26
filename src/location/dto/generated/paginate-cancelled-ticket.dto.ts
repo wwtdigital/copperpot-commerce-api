@@ -24,4 +24,20 @@ export class PaginateCancelledTicketDto {
   renameRegionalModifier!: string[];
   tightenMissingPromo!: string[];
   cacheRegionalPromo!: string;
+  documentExpiredToppingOnReorder!: string;
+  documentStalePromoForFranchisees!: string;
+  addDuplicateTopping!: string[];
+  addStaleToppingForPickup!: Date;
+  exposeRegionalLoyaltyCredit!: boolean;
+  normalisePartialPromo!: Date;
+  dedupeDuplicateToppingOnCheckout?: Date;
+  exposeStaleModifier!: Date;
+  handleOversizedTaxLine!: number;
+  trimDuplicateReceipt!: string;
+  normaliseDuplicateGuestForPickup!: number;
+  validateMissingDeliveryWindow!: number;
+  tightenEmptyCateringTray!: string[];
+  addOversizedLocation!: string[];
+  guardCancelledReceipt?: boolean;
+  cacheOversizedKitchenTicketAtClose?: string;
 }

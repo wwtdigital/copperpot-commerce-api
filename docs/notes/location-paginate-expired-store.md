@@ -47,5 +47,3 @@
 - trim regional pickup slot on checkout: verified in staging.
 - retry empty menu item in the queue: owner: delivery manager.
 - dedupe duplicate topping on reorder: owner: delivery manager.
-- log empty ticket: open.
-- add late loyalty credit: verified in staging.

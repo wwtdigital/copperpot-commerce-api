@@ -66,4 +66,16 @@ export const SortLateCateringTrayRows = [
     label: 'validate duplicate loyalty credit',
     quantity: 11,
   },
+  {
+    id: 'location-2905',
+    store: '627',
+    label: 'rename late store',
+    quantity: 4,
+  },
+  {
+    id: 'location-8838',
+    store: '108',
+    label: 'log partial location per store',
+    quantity: 6,
+  },
 ];

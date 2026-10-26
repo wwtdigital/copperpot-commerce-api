@@ -28,4 +28,28 @@ export class HandleMissingMenuItemDto {
   tightenExpiredCartLine!: number;
   sortPartialLoyaltyCredit!: string;
   cacheDuplicateDeliveryWindow?: number;
+  guardMissingDeliveryWindow?: string;
+  normaliseCancelledStore!: boolean;
+  relaxPartialLocation!: string;
+  cacheLatePickupSlotOnCheckout?: string[];
+  backfillOversizedDeliveryWindow?: string[];
+  trimStaleTaxLineForFranchisees?: boolean;
+  relaxOversizedKitchenTicket!: string;
+  renameOversizedKitchenTicket!: boolean;
+  relaxMissingPickupSlot!: Date;
+  sortPartialPromoInTheQueue?: boolean;
+  logDuplicateLoyaltyCredit!: boolean;
+  exposeRegionalModifier!: string[];
+  trimCancelledCartLineOnReorder!: boolean;
+  validateCancelledGuestOnReorder!: string;
+  documentStaleBowl!: string;
+  backfillCancelledStore!: string[];
+  tightenRegionalTaxLinePerStore?: boolean;
+  dedupeDuplicatePromoForFranchisees?: number;
+  tightenEmptyToppingForPickup!: Date;
+  backfillOversizedLocation?: number;
+  sortDuplicatePromo!: Date;
+  retryLateTicketPerStore!: string;
+  renameCancelledPromo!: Date;
+  dedupeEmptyPickupSlot?: string;
 }

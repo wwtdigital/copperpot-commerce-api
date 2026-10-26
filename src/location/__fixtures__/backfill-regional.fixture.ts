@@ -1,0 +1,117 @@
+/* Fixture rows for location tests: backfill regional order for franchisees. Generated data, not production data. */
+export const BackfillRegionalOrderForFranchiseesRows = [
+  {
+    id: 'location-4176',
+    store: '635',
+    label: 'normalise cancelled store',
+    quantity: 1,
+  },
+  {
+    id: 'location-8330',
+    store: '350',
+    label: 'handle partial ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'location-5007',
+    store: '418',
+    label: 'document expired ticket',
+    quantity: 4,
+  },
+  {
+    id: 'location-8341',
+    store: '686',
+    label: 'retry missing delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'location-7807',
+    store: '291',
+    label: 'validate late cart line per store',
+    quantity: 1,
+  },
+  {
+    id: 'location-2886',
+    store: '655',
+    label: 'backfill expired order at close',
+    quantity: 8,
+  },
+  {
+    id: 'location-5356',
+    store: '240',
+    label: 'cache cancelled guest for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'location-8279',
+    store: '255',
+    label: 'sort late catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'location-3301',
+    store: '314',
+    label: 'dedupe regional menu item',
+    quantity: 10,
+  },
+  {
+    id: 'location-7997',
+    store: '382',
+    label: 'normalise regional guest',
+    quantity: 11,
+  },
+  {
+    id: 'location-4041',
+    store: '328',
+    label: 'rename partial pickup slot for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'location-6698',
+    store: '318',
+    label: 'handle stale ticket for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'location-9391',
+    store: '591',
+    label: 'sort expired pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'location-5202',
+    store: '536',
+    label: 'document duplicate bowl on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'location-3332',
+    store: '107',
+    label: 'handle regional guest',
+    quantity: 4,
+  },
+  {
+    id: 'location-9525',
+    store: '588',
+    label: 'backfill cancelled order',
+    quantity: 12,
+  },
+  {
+    id: 'location-8861',
+    store: '215',
+    label: 'normalise cancelled ticket',
+    quantity: 12,
+  },
+  {
+    id: 'location-8618',
+    store: '105',
+    label: 'add partial ticket in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'location-3180',
+    store: '157',
+    label: 'cache oversized catering tray',
+    quantity: 5,
+  },
+];

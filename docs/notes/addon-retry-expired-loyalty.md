@@ -14,3 +14,18 @@
 - document expired topping: owner: delivery manager.
 - tighten duplicate delivery window: owner: delivery manager.
 - normalise oversized pickup slot on reorder: open.
+
+- retry stale promo: blocked on store systems.
+- document partial menu item: blocked on store systems.
+- add partial tax line at close: owner: delivery manager.
+- log stale topping: decided.
+- handle duplicate bowl on reorder: deferred to the next release.
+- add partial tax line: blocked on store systems.
+- trim stale location at close: deferred to the next release.
+- dedupe oversized bowl on reorder: verified in staging.
+- retry late bowl: decided.
+- relax late menu item for pickup: deferred to the next release.
+- paginate stale ticket for pickup: blocked on store systems.
+- trim missing loyalty credit per store: verified in staging.
+- relax missing pickup slot for franchisees: owner: delivery manager.
+- handle partial pickup slot: open.

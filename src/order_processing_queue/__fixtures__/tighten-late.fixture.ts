@@ -180,4 +180,10 @@ export const TightenLateBowlPerStoreRows = [
     label: 'expose duplicate location on reorder',
     quantity: 8,
   },
+  {
+    id: 'order-processing-queue-7060',
+    store: '253',
+    label: 'trim cancelled loyalty credit',
+    quantity: 7,
+  },
 ];

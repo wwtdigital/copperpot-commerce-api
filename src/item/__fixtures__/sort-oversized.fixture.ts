@@ -312,4 +312,16 @@ export const SortOversizedGuestRows = [
     label: 'sort cancelled guest in the queue',
     quantity: 7,
   },
+  {
+    id: 'item-8281',
+    store: '661',
+    label: 'cache late delivery window on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'item-4868',
+    store: '160',
+    label: 'relax regional receipt for franchisees',
+    quantity: 11,
+  },
 ];

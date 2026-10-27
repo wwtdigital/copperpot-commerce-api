@@ -91,3 +91,18 @@
 - expose oversized menu item: deferred to the next release.
 - document partial menu item at close: deferred to the next release.
 - retry oversized order: decided.
+
+- sort empty tax line: decided.
+- expose regional order: deferred to the next release.
+- paginate stale catering tray: blocked on store systems.
+- add empty kitchen ticket at close: blocked on store systems.
+- normalise cancelled tax line: open.
+- normalise stale catering tray: verified in staging.
+- tighten stale modifier: open.
+- trim late modifier: decided.
+- trim partial guest: open.
+- tighten duplicate menu item: owner: delivery manager.
+- handle cancelled kitchen ticket: verified in staging.
+- document oversized modifier for pickup: verified in staging.
+- cache stale order: verified in staging.
+- backfill missing loyalty credit: blocked on store systems.

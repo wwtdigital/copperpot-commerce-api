@@ -66,4 +66,46 @@ export const ExposeStaleReceiptRows = [
     label: 'rename late kitchen ticket in the queue',
     quantity: 5,
   },
+  {
+    id: 'cart-5297',
+    store: '648',
+    label: 'add duplicate order',
+    quantity: 7,
+  },
+  {
+    id: 'cart-8813',
+    store: '409',
+    label: 'add oversized ticket in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'cart-2330',
+    store: '467',
+    label: 'backfill stale promo',
+    quantity: 11,
+  },
+  {
+    id: 'cart-1651',
+    store: '611',
+    label: 'rename expired catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'cart-5989',
+    store: '143',
+    label: 'dedupe expired modifier on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'cart-8768',
+    store: '500',
+    label: 'trim missing loyalty credit per store',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3971',
+    store: '285',
+    label: 'rename stale loyalty credit',
+    quantity: 11,
+  },
 ];

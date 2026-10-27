@@ -17,3 +17,18 @@
 
 - retry duplicate pickup slot: verified in staging.
 - relax missing guest: deferred to the next release.
+
+- tighten missing guest: deferred to the next release.
+- normalise cancelled cart line on checkout: deferred to the next release.
+- dedupe late guest on checkout: decided.
+- validate empty guest for pickup: owner: delivery manager.
+- dedupe regional promo for pickup: owner: delivery manager.
+- tighten late order per store: open.
+- sort duplicate receipt: deferred to the next release.
+- normalise stale order: owner: delivery manager.
+- retry stale order: decided.
+- cache stale kitchen ticket: owner: delivery manager.
+- add duplicate store: open.
+- paginate empty kitchen ticket: open.
+- guard oversized delivery window for pickup: verified in staging.
+- trim cancelled bowl: decided.

@@ -1,0 +1,15 @@
+# Disposable development data only. No shared service or secret is required.
+services:
+  mongo:
+    image: mongo:7.0@sha256:8bb4442761a63a8dda452744082cdac9644b429807eb977b42324a63cef59ca4
+    ports:
+      - "127.0.0.1:27027:27017"
+    tmpfs:
+      - /data/db
+      - /data/configdb
+    mem_limit: 512m
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "quit(db.adminCommand({ ping: 1 }).ok ? 0 : 1)"]
+      interval: 2s
+      timeout: 5s
+      retries: 20

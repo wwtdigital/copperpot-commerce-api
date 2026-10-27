@@ -58,4 +58,28 @@ export class CacheExpiredModifierAtCloseDto {
   tightenStaleOrderAtClose?: Date;
   guardStaleStore!: string[];
   relaxExpiredDeliveryWindow!: string;
+  relaxExpiredPromoForFranchisees?: string;
+  dedupeRegionalToppingForPickup!: number;
+  relaxDuplicateLoyaltyCredit!: string[];
+  dedupeOversizedCartLineForPickup!: number;
+  logPartialTicket?: Date;
+  validateMissingDeliveryWindowOnReorder!: string;
+  backfillMissingCateringTrayOnCheckout?: string;
+  backfillStaleModifierAtClose?: number;
+  addLateLoyaltyCreditInTheQueue?: string;
+  guardCancelledOrderOnReorder!: string;
+  cacheStalePromo!: boolean;
+  retryLateTaxLine!: Date;
+  retryOversizedCateringTray!: number;
+  exposeDuplicateReceiptOnCheckout!: string[];
+  guardDuplicateGuest!: boolean;
+  sortDuplicateReceiptForPickup!: number;
+  logOversizedPickupSlotOnCheckout?: string[];
+  trimStaleCateringTray?: string[];
+  backfillEmptyMenuItem!: boolean;
+  handleLateLoyaltyCreditPerStore?: string;
+  addExpiredTaxLineInTheQueue?: number;
+  sortLateLoyaltyCredit?: string[];
+  guardExpiredToppingInTheQueue?: string[];
+  backfillRegionalLoyaltyCredit?: string[];
 }

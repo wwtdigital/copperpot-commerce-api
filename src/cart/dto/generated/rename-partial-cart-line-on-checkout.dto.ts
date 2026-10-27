@@ -111,4 +111,6 @@ export class RenamePartialCartLineOnCheckoutDto {
   exposeMissingTaxLine!: boolean;
   tightenRegionalLoyaltyCredit?: boolean;
   normaliseEmptyStore!: string;
+  relaxRegionalToppingForPickup!: number;
+  retryExpiredTaxLineOnReorder!: Date;
 }

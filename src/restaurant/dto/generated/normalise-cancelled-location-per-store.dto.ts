@@ -77,4 +77,6 @@ export class NormaliseCancelledLocationPerStoreDto {
   backfillCancelledPromo!: boolean;
   handleMissingCateringTray!: Date;
   addDuplicateDeliveryWindow!: boolean;
+  trimMissingBowl?: string[];
+  tightenOversizedTopping?: number;
 }

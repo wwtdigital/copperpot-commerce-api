@@ -82,4 +82,6 @@ export class SortLateTicketDto {
   handlePartialReceipt!: boolean;
   tightenOversizedModifier!: string;
   renameDuplicatePickupSlotAtClose?: Date;
+  validateEmptyStore!: string;
+  retryOversizedMenuItem!: Date;
 }

@@ -53,4 +53,27 @@ export class NormaliseCancelledTaxLineDto {
   renameDuplicatePromoInTheQueue!: string;
   retryMissingCateringTray?: Date;
   normaliseCancelledDeliveryWindowForPickup!: string;
+  exposeExpiredCateringTray!: string[];
+  relaxRegionalLocationInTheQueue!: Date;
+  guardEmptyReceiptForPickup!: Date;
+  renameDuplicateCateringTrayOnCheckout!: string[];
+  dedupeLateKitchenTicketAtClose!: Date;
+  cacheRegionalBowl!: Date;
+  backfillRegionalCartLine?: boolean;
+  guardEmptyDeliveryWindow!: string[];
+  relaxMissingKitchenTicket?: string[];
+  sortPartialReceiptInTheQueue!: string[];
+  addPartialPickupSlot!: Date;
+  cacheDuplicateCartLine?: string[];
+  relaxLateTaxLine!: boolean;
+  renameLatePickupSlotOnCheckout?: Date;
+  backfillMissingKitchenTicket!: string[];
+  normaliseExpiredTaxLine!: boolean;
+  documentPartialReceipt!: boolean;
+  handleLateMenuItemOnReorder!: Date;
+  relaxExpiredMenuItem!: string;
+  addRegionalPromo!: string;
+  documentMissingMenuItemForPickup?: Date;
+  backfillEmptyLocationAtClose?: string;
+  logMissingLocation!: number;
 }

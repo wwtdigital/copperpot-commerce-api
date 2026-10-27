@@ -540,4 +540,22 @@ export const NormaliseLateGuestRows = [
     label: 'document expired ticket for franchisees',
     quantity: 9,
   },
+  {
+    id: 'addon-2758',
+    store: '140',
+    label: 'rename empty store for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'addon-2510',
+    store: '298',
+    label: 'guard duplicate receipt',
+    quantity: 2,
+  },
+  {
+    id: 'addon-8274',
+    store: '580',
+    label: 'paginate oversized modifier',
+    quantity: 1,
+  },
 ];

@@ -1,0 +1,42 @@
+{
+  "kind": "fictional-demo-local-baseline-verification",
+  "verifiedAt": "2026-10-27T22:47:12.399947+00:00",
+  "sourceBaseCommit": "db41142daade7641fac43455bebcf59dd83041d7",
+  "task": "CPB-7478",
+  "runtime": {
+    "node": "20.20.2",
+    "npm": "10.9.9",
+    "os": "Darwin",
+    "architecture": "arm64"
+  },
+  "checks": {
+    "lockedInstall": "pass",
+    "build": "pass",
+    "lintCheck": "pass",
+    "formatCheck": "pass",
+    "unitSuites": 8,
+    "unitTests": 24,
+    "guestHealth": "pass",
+    "storeHealth": "pass",
+    "missingCorrelationHeader": "HTTP 400 from each app",
+    "existingEnvironmentPreserved": true,
+    "environmentMode": "0600",
+    "nonlocalDatabaseRefusedBeforeStartup": true
+  },
+  "limits": [
+    "Local startup contracts only; no business-flow, payment, ledger or deployment acceptance.",
+    "No readiness score is assigned by this receipt.",
+    "The prior assessment remains a dated snapshot; assessment 1 awaits its live history cutoff."
+  ],
+  "files": {
+    "README.md": "7a3c4742a815775815476c79359793dc92d72cfe58c115a67d064e19f80e706d",
+    "package.json": "862016598f140f9ec9bcae694454d0ff8952c2eb30704c930e9a74f5b5ed5102",
+    ".nvmrc": "5378796307535df3ec8d8b15a2e2dc5641419c3d3060cfe32238c0fa973f7aa3",
+    "compose.local.yml": "daa6ffd35d5ad5a792017af441e35c558b65a2335e538ade4bf117234c243762",
+    "docs/local-development.md": "60b7f148519b87bf48d0d3086ad793c6d425503ad1165cb86f3b2c82ce726b28",
+    "docs/change-workflow.md": "8017877c0d909cd98886ae7606e27e1a58e563789e4fa5900832cfaa404f40cf",
+    "docs/system-context.md": "c8bb043b76eadc4d69ff18dcc55f73772a129645dec3747db498395a4845bbe9",
+    "scripts/local-env.mjs": "4f7a615bea908923671d3ad4edc9dc67c06b95f62e60eb20781d4de0afbcea6f",
+    "scripts/local-smoke.mjs": "abc6eb7333a949e30868aa03b0a6f870da58b806271d96e7a82ac0a93ebfb91c"
+  }
+}

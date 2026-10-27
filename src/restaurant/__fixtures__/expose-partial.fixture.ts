@@ -2388,4 +2388,10 @@ export const ExposePartialReceiptRows = [
     label: 'trim missing tax line at close',
     quantity: 11,
   },
+  {
+    id: 'restaurant-3949',
+    store: '544',
+    label: 'sort missing menu item',
+    quantity: 11,
+  },
 ];

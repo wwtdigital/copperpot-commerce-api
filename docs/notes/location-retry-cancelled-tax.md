@@ -32,3 +32,6 @@
 - paginate empty kitchen ticket: open.
 - guard oversized delivery window for pickup: verified in staging.
 - trim cancelled bowl: decided.
+
+- log oversized tax line on reorder: owner: delivery manager.
+- log regional promo: verified in staging.

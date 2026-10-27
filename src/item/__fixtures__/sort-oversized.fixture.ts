@@ -324,4 +324,16 @@ export const SortOversizedGuestRows = [
     label: 'relax regional receipt for franchisees',
     quantity: 11,
   },
+  {
+    id: 'item-9558',
+    store: '589',
+    label: 'paginate oversized guest',
+    quantity: 1,
+  },
+  {
+    id: 'item-4184',
+    store: '485',
+    label: 'backfill oversized promo',
+    quantity: 11,
+  },
 ];

@@ -29,4 +29,28 @@ export class NormaliseCancelledTaxLineDto {
   addPartialLocationForFranchisees!: string;
   normaliseEmptyStorePerStore!: boolean;
   dedupeStaleStore!: Date;
+  trimEmptyLoyaltyCreditForPickup?: string[];
+  cacheStalePickupSlotForFranchisees!: number;
+  addMissingTaxLine?: Date;
+  trimLateLocation!: string;
+  cacheCancelledLocation!: boolean;
+  paginateLateTaxLine!: number;
+  retryRegionalTopping?: Date;
+  guardLateBowlOnCheckout?: number;
+  documentDuplicateLocationOnCheckout!: Date;
+  validateDuplicateOrder?: string;
+  dedupePartialStore?: Date;
+  addStaleTaxLineOnCheckout?: boolean;
+  addExpiredOrder!: Date;
+  retryStalePromo?: string[];
+  retryPartialTaxLineOnCheckout!: number;
+  paginateStaleOrder!: boolean;
+  cacheOversizedCateringTray!: number;
+  relaxRegionalKitchenTicket!: string;
+  tightenRegionalDeliveryWindow?: string;
+  paginateExpiredModifierAtClose!: boolean;
+  tightenMissingGuest!: string[];
+  renameDuplicatePromoInTheQueue!: string;
+  retryMissingCateringTray?: Date;
+  normaliseCancelledDeliveryWindowForPickup!: string;
 }

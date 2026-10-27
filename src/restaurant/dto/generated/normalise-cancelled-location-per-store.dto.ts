@@ -72,4 +72,9 @@ export class NormaliseCancelledLocationPerStoreDto {
   logExpiredPickupSlot!: boolean;
   addOversizedBowlOnCheckout!: string[];
   sortEmptyTicket!: string;
+  cacheOversizedGuest?: string;
+  relaxEmptyCartLineOnCheckout!: string[];
+  backfillCancelledPromo!: boolean;
+  handleMissingCateringTray!: Date;
+  addDuplicateDeliveryWindow!: boolean;
 }

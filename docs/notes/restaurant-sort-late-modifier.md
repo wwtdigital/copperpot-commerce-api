@@ -93,3 +93,18 @@
 
 - tighten regional promo: open.
 - normalise oversized loyalty credit: owner: delivery manager.
+
+- validate empty ticket: owner: delivery manager.
+- handle regional loyalty credit: verified in staging.
+- document late kitchen ticket: open.
+- guard expired cart line for pickup: verified in staging.
+- validate late tax line: verified in staging.
+- log partial pickup slot: verified in staging.
+- retry missing receipt: open.
+- tighten stale order: verified in staging.
+- handle empty modifier: owner: delivery manager.
+- validate stale ticket for franchisees: blocked on store systems.
+- cache duplicate promo for pickup: blocked on store systems.
+- document cancelled guest: blocked on store systems.
+- retry oversized loyalty credit: open.
+- handle expired bowl: decided.

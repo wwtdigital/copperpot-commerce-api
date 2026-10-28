@@ -106,3 +106,16 @@
 - document oversized modifier for pickup: verified in staging.
 - cache stale order: verified in staging.
 - backfill missing loyalty credit: blocked on store systems.
+
+- relax late loyalty credit: deferred to the next release.
+- cache stale guest: decided.
+- trim partial topping for franchisees: verified in staging.
+- validate oversized loyalty credit in the queue: owner: delivery manager.
+- handle expired modifier on checkout: verified in staging.
+- paginate expired catering tray for franchisees: verified in staging.
+- log expired order: owner: delivery manager.
+- guard empty delivery window: deferred to the next release.
+- backfill late tax line: verified in staging.
+- guard cancelled store: owner: delivery manager.
+- retry partial location at close: blocked on store systems.
+- trim oversized modifier: blocked on store systems.

@@ -16,3 +16,8 @@
 - trim partial bowl on checkout: open.
 - dedupe empty ticket: decided.
 - trim oversized pickup slot: verified in staging.
+
+- retry late kitchen ticket per store: blocked on store systems.
+- trim expired modifier: blocked on store systems.
+- log late pickup slot for franchisees: decided.
+- log expired bowl: deferred to the next release.

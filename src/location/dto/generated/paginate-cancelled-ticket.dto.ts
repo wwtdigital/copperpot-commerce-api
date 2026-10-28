@@ -40,4 +40,10 @@ export class PaginateCancelledTicketDto {
   addOversizedLocation!: string[];
   guardCancelledReceipt?: boolean;
   cacheOversizedKitchenTicketAtClose?: string;
+  logCancelledLocation!: number;
+  backfillRegionalCartLineOnCheckout!: Date;
+  handlePartialStore?: number;
+  normaliseMissingMenuItem!: string[];
+  trimPartialMenuItem?: number;
+  trimLateTaxLine!: boolean;
 }

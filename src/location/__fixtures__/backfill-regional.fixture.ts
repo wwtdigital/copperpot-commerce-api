@@ -114,4 +114,10 @@ export const BackfillRegionalOrderForFranchiseesRows = [
     label: 'cache oversized catering tray',
     quantity: 5,
   },
+  {
+    id: 'location-6528',
+    store: '690',
+    label: 'trim cancelled kitchen ticket for franchisees',
+    quantity: 12,
+  },
 ];

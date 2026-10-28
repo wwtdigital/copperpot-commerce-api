@@ -402,4 +402,22 @@ export const SortOversizedGuestRows = [
     label: 'add oversized pickup slot',
     quantity: 2,
   },
+  {
+    id: 'item-3857',
+    store: '324',
+    label: 'document duplicate menu item',
+    quantity: 1,
+  },
+  {
+    id: 'item-1356',
+    store: '123',
+    label: 'validate stale modifier in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'item-6333',
+    store: '467',
+    label: 'sort late catering tray',
+    quantity: 10,
+  },
 ];

@@ -96,4 +96,28 @@ export const RenameLatePickupSlotRows = [
     label: 'normalise late topping for franchisees',
     quantity: 2,
   },
+  {
+    id: 'infrastructure-6947',
+    store: '534',
+    label: 'sort stale cart line in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-5003',
+    store: '253',
+    label: 'guard partial menu item for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'infrastructure-5213',
+    store: '456',
+    label: 'dedupe late menu item on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-3615',
+    store: '416',
+    label: 'paginate stale bowl',
+    quantity: 5,
+  },
 ];

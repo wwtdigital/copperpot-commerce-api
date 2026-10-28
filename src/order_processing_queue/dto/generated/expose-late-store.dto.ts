@@ -29,4 +29,28 @@ export class ExposeLateStoreDto {
   guardPartialLoyaltyCredit!: string;
   paginateRegionalLocation!: string;
   normaliseExpiredStoreOnCheckout!: Date;
+  cacheExpiredLocation?: string;
+  sortEmptyDeliveryWindow!: boolean;
+  guardExpiredPickupSlot!: number;
+  exposeLatePromo?: string;
+  documentExpiredTopping!: Date;
+  renameCancelledCateringTray!: boolean;
+  sortStaleLocation!: Date;
+  dedupeCancelledLoyaltyCredit!: string;
+  backfillCancelledToppingForPickup!: boolean;
+  handleEmptyKitchenTicketAtClose!: boolean;
+  renameExpiredStoreOnCheckout?: boolean;
+  tightenMissingModifier!: string;
+  relaxDuplicateGuestAtClose?: boolean;
+  validateExpiredPickupSlotAtClose!: Date;
+  normaliseOversizedLoyaltyCredit!: boolean;
+  relaxExpiredLocation?: string[];
+  logOversizedToppingAtClose?: number;
+  backfillCancelledPromo!: boolean;
+  sortOversizedPromo!: number;
+  sortEmptyToppingOnCheckout!: Date;
+  sortPartialReceipt?: Date;
+  renameOversizedCateringTrayPerStore!: Date;
+  retryPartialReceipt!: string;
+  documentExpiredStore!: string[];
 }

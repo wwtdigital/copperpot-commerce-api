@@ -34,4 +34,28 @@ export class CachePartialModifierDto {
   normaliseStaleMenuItemAtClose?: Date;
   exposeExpiredReceiptInTheQueue?: number;
   addExpiredOrder!: string;
+  exposeDuplicateCartLine!: number;
+  trimLateStore!: string[];
+  normaliseOversizedLocation?: boolean;
+  guardOversizedTopping!: Date;
+  dedupeOversizedDeliveryWindowOnCheckout!: Date;
+  validateMissingKitchenTicketForPickup?: string;
+  logStaleDeliveryWindowAtClose!: boolean;
+  logEmptyBowl!: string;
+  paginateExpiredTaxLineForPickup?: boolean;
+  logCancelledMenuItem?: Date;
+  paginateDuplicateDeliveryWindowPerStore?: number;
+  exposeRegionalKitchenTicketForPickup!: string[];
+  sortStaleReceipt!: string;
+  tightenDuplicateMenuItem!: boolean;
+  guardEmptyPickupSlotOnReorder!: string[];
+  trimMissingOrderPerStore!: boolean;
+  documentPartialModifierAtClose?: Date;
+  documentRegionalTopping!: string;
+  relaxStaleReceipt?: boolean;
+  dedupeDuplicateLoyaltyCreditAtClose?: number;
+  dedupeExpiredTicket?: string[];
+  sortRegionalLoyaltyCredit?: string;
+  relaxCancelledOrderForPickup!: string[];
+  logEmptyLocation?: string[];
 }

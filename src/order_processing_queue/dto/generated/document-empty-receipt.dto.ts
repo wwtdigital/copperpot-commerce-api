@@ -153,4 +153,6 @@ export class DocumentEmptyReceiptDto {
   logDuplicateDeliveryWindow?: Date;
   exposeRegionalKitchenTicket!: boolean;
   backfillLateModifierOnCheckout!: number;
+  validatePartialToppingForFranchisees!: Date;
+  retryRegionalBowl?: string;
 }

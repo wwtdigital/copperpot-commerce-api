@@ -5,4 +5,28 @@ export class TightenRegionalReceiptDto {
   exposeMissingTopping!: number;
   sortExpiredReceiptOnCheckout!: string[];
   renameDuplicateBowl!: boolean;
+  backfillCancelledCartLineAtClose!: string;
+  dedupeLateKitchenTicket!: number;
+  guardStalePickupSlot!: Date;
+  exposePartialTopping?: number;
+  documentOversizedPromo!: boolean;
+  sortDuplicateTicket!: Date;
+  sortExpiredModifier!: string;
+  paginateOversizedLocation!: boolean;
+  backfillPartialTopping!: number;
+  relaxEmptyGuest!: Date;
+  guardMissingModifier!: boolean;
+  dedupeDuplicateTaxLineAtClose!: number;
+  normaliseMissingModifier?: string[];
+  dedupeDuplicateTaxLinePerStore?: string[];
+  tightenMissingCateringTrayOnCheckout?: Date;
+  paginateMissingPromo?: Date;
+  addDuplicateLocationAtClose!: Date;
+  backfillExpiredCateringTray!: boolean;
+  sortDuplicateTaxLineOnCheckout?: boolean;
+  renameStaleTaxLine!: string;
+  cacheOversizedStore?: string[];
+  trimLateCartLine!: string[];
+  relaxMissingPickupSlot!: string;
+  trimLateMenuItem?: boolean;
 }

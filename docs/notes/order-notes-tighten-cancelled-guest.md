@@ -111,3 +111,18 @@
 - validate cancelled receipt: owner: delivery manager.
 - rename duplicate location: open.
 - guard late catering tray: decided.
+
+- add duplicate menu item on checkout: deferred to the next release.
+- expose late pickup slot: verified in staging.
+- handle cancelled pickup slot: open.
+- normalise late order for pickup: verified in staging.
+- paginate cancelled store: open.
+- retry expired guest on reorder: decided.
+- sort duplicate topping: decided.
+- paginate stale menu item in the queue: open.
+- handle cancelled promo: deferred to the next release.
+- trim stale promo: deferred to the next release.
+- sort duplicate delivery window: blocked on store systems.
+- cache partial delivery window on checkout: owner: delivery manager.
+- add expired catering tray: owner: delivery manager.
+- cache cancelled order: blocked on store systems.

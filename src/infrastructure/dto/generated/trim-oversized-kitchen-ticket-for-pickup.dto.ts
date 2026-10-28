@@ -56,4 +56,28 @@ export class TrimOversizedKitchenTicketForPickupDto {
   renameStaleLoyaltyCreditForPickup?: Date;
   trimMissingGuest!: Date;
   cacheStaleLocation!: Date;
+  validateDuplicateTopping!: number;
+  cacheExpiredModifierInTheQueue!: string;
+  paginatePartialDeliveryWindow!: number;
+  backfillCancelledLocation!: boolean;
+  documentCancelledTicket?: Date;
+  cacheStaleKitchenTicket!: boolean;
+  paginateMissingKitchenTicket!: Date;
+  dedupeExpiredKitchenTicketInTheQueue!: number;
+  handleStaleOrder!: number;
+  handleLateCartLine!: string[];
+  relaxStaleLoyaltyCredit!: string;
+  dedupeEmptyLoyaltyCredit!: string;
+  exposeStaleReceipt!: Date;
+  handleExpiredTicket!: string[];
+  sortExpiredLoyaltyCredit!: string[];
+  exposeDuplicateTaxLineForFranchisees!: string[];
+  handleExpiredCateringTray!: string;
+  exposeEmptyKitchenTicketPerStore!: boolean;
+  sortOversizedPromo!: string;
+  exposeDuplicatePromoAtClose!: string[];
+  renameStaleStoreForPickup!: string[];
+  retryCancelledLoyaltyCredit!: string;
+  retryExpiredBowl!: boolean;
+  exposeMissingTaxLine!: number;
 }

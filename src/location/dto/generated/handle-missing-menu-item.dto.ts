@@ -52,4 +52,16 @@ export class HandleMissingMenuItemDto {
   retryLateTicketPerStore!: string;
   renameCancelledPromo!: Date;
   dedupeEmptyPickupSlot?: string;
+  guardStaleToppingPerStore?: string[];
+  relaxEmptyBowl!: Date;
+  validateExpiredPickupSlot?: string;
+  addOversizedPromoOnReorder?: string;
+  sortLateTaxLineForFranchisees?: Date;
+  validateOversizedKitchenTicketOnReorder?: number;
+  normaliseOversizedPickupSlot!: Date;
+  paginateRegionalLoyaltyCreditForFranchisees!: number;
+  handleMissingOrderForFranchisees?: string[];
+  documentCancelledTicketPerStore!: string;
+  documentEmptyBowlOnReorder!: Date;
+  documentMissingBowl!: number;
 }

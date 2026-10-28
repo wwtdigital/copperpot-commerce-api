@@ -31,3 +31,18 @@
 - document stale promo on reorder: open.
 - relax duplicate ticket at close: blocked on store systems.
 - dedupe late ticket: open.
+
+- cache expired kitchen ticket: owner: delivery manager.
+- document oversized modifier: open.
+- trim late promo: blocked on store systems.
+- relax oversized pickup slot for pickup: blocked on store systems.
+- backfill expired receipt: blocked on store systems.
+- retry stale store: deferred to the next release.
+- relax missing cart line: decided.
+- guard expired order on reorder: open.
+- add missing tax line: decided.
+- retry duplicate location: owner: delivery manager.
+- expose stale topping for franchisees: blocked on store systems.
+- cache partial order: owner: delivery manager.
+- normalise regional receipt per store: blocked on store systems.
+- rename oversized catering tray: owner: delivery manager.

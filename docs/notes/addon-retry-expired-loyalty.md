@@ -29,3 +29,18 @@
 - trim missing loyalty credit per store: verified in staging.
 - relax missing pickup slot for franchisees: owner: delivery manager.
 - handle partial pickup slot: open.
+
+- validate stale order: deferred to the next release.
+- paginate empty catering tray on reorder: verified in staging.
+- dedupe cancelled ticket: deferred to the next release.
+- rename missing order: deferred to the next release.
+- retry duplicate guest on reorder: decided.
+- trim oversized modifier: owner: delivery manager.
+- relax duplicate delivery window: open.
+- dedupe oversized kitchen ticket for franchisees: decided.
+- guard stale promo for pickup: deferred to the next release.
+- add empty kitchen ticket: verified in staging.
+- trim empty catering tray at close: deferred to the next release.
+- guard empty tax line: deferred to the next release.
+- rename regional promo: decided.
+- tighten empty bowl: blocked on store systems.

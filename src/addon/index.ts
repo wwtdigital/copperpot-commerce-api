@@ -1,3 +1,12 @@
+/**
+ * Dedupe oversized store for pickup.
+ * Paginate empty cart line on reorder.
+ * Log missing cart line.
+ * Normalise duplicate tax line on reorder.
+ * Expose duplicate delivery window.
+ * Guard missing menu item.
+ * Trim regional receipt.
+ */
 export * from './addon';
 /**
  * Relax missing menu item.

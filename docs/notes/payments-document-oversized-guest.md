@@ -137,3 +137,18 @@
 - add oversized kitchen ticket per store: verified in staging.
 - cache partial cart line: deferred to the next release.
 - validate oversized location: verified in staging.
+
+- sort cancelled tax line at close: deferred to the next release.
+- retry stale topping: open.
+- trim oversized loyalty credit: owner: delivery manager.
+- validate regional promo: decided.
+- rename cancelled ticket: deferred to the next release.
+- log oversized ticket at close: owner: delivery manager.
+- trim expired loyalty credit at close: verified in staging.
+- backfill expired delivery window on checkout: owner: delivery manager.
+- add empty guest: open.
+- log duplicate kitchen ticket: verified in staging.
+- document partial topping per store: blocked on store systems.
+- relax partial loyalty credit: decided.
+- tighten cancelled guest: blocked on store systems.
+- sort missing guest: owner: delivery manager.

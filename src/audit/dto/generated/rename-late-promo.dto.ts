@@ -27,4 +27,28 @@ export class RenameLatePromoDto {
   cacheStaleGuestOnReorder?: boolean;
   backfillDuplicateBowlOnReorder!: number;
   sortDuplicateDeliveryWindowPerStore!: Date;
+  dedupeCancelledLocation!: boolean;
+  guardLateKitchenTicketPerStore!: string;
+  cacheStaleTicket!: boolean;
+  backfillLateModifierOnCheckout!: boolean;
+  validateLateKitchenTicketInTheQueue!: Date;
+  guardLatePromo!: string[];
+  cacheLateTaxLine!: string;
+  normaliseRegionalStoreForPickup!: Date;
+  exposeLateKitchenTicketOnReorder!: Date;
+  exposeEmptyTicket?: number;
+  cacheMissingMenuItem!: string[];
+  guardLateModifier!: string[];
+  sortRegionalModifier?: string;
+  retryOversizedKitchenTicket!: Date;
+  validateEmptyTicket?: Date;
+  relaxCancelledCateringTrayOnCheckout?: string[];
+  addMissingTaxLineForPickup!: Date;
+  dedupeStaleLocationPerStore?: boolean;
+  renameEmptyDeliveryWindow!: boolean;
+  paginateEmptyLocationForPickup!: string[];
+  dedupeOversizedStore!: string;
+  guardOversizedCateringTray!: number;
+  handleRegionalPromoPerStore?: string;
+  backfillCancelledBowl!: boolean;
 }

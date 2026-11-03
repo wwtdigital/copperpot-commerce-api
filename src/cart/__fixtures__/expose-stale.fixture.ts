@@ -108,4 +108,46 @@ export const ExposeStaleReceiptRows = [
     label: 'rename stale loyalty credit',
     quantity: 11,
   },
+  {
+    id: 'cart-3252',
+    store: '217',
+    label: 'backfill late cart line for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'cart-6636',
+    store: '659',
+    label: 'tighten stale topping on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'cart-1932',
+    store: '567',
+    label: 'dedupe expired promo',
+    quantity: 4,
+  },
+  {
+    id: 'cart-8294',
+    store: '427',
+    label: 'expose partial loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2534',
+    store: '150',
+    label: 'tighten stale pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'cart-9568',
+    store: '296',
+    label: 'dedupe empty menu item',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4512',
+    store: '663',
+    label: 'guard empty topping',
+    quantity: 9,
+  },
 ];

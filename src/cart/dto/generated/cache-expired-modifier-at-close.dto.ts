@@ -82,4 +82,6 @@ export class CacheExpiredModifierAtCloseDto {
   sortLateLoyaltyCredit?: string[];
   guardExpiredToppingInTheQueue?: string[];
   backfillRegionalLoyaltyCredit?: string[];
+  addLateCateringTray!: string[];
+  renameCancelledKitchenTicket!: boolean;
 }

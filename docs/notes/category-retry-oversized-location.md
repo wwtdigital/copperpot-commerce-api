@@ -28,3 +28,5 @@
 - validate empty delivery window: owner: delivery manager.
 - log regional guest in the queue: open.
 - paginate duplicate order: owner: delivery manager.
+
+- relax regional guest for pickup: verified in staging.

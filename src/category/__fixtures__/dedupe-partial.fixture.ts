@@ -1,0 +1,105 @@
+/* Fixture rows for category tests: dedupe partial receipt. Generated data, not production data. */
+export const DedupePartialReceiptRows = [
+  {
+    id: 'category-1078',
+    store: '483',
+    label: 'backfill empty cart line',
+    quantity: 5,
+  },
+  {
+    id: 'category-4546',
+    store: '112',
+    label: 'log stale guest',
+    quantity: 6,
+  },
+  {
+    id: 'category-3651',
+    store: '172',
+    label: 'normalise oversized store',
+    quantity: 8,
+  },
+  {
+    id: 'category-8355',
+    store: '513',
+    label: 'validate cancelled modifier for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'category-3176',
+    store: '472',
+    label: 'relax expired cart line',
+    quantity: 6,
+  },
+  {
+    id: 'category-9075',
+    store: '557',
+    label: 'paginate duplicate cart line',
+    quantity: 9,
+  },
+  {
+    id: 'category-8945',
+    store: '264',
+    label: 'paginate duplicate order per store',
+    quantity: 11,
+  },
+  {
+    id: 'category-6896',
+    store: '666',
+    label: 'validate missing bowl',
+    quantity: 9,
+  },
+  {
+    id: 'category-5801',
+    store: '555',
+    label: 'sort stale loyalty credit on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'category-3865',
+    store: '513',
+    label: 'document expired tax line in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'category-1423',
+    store: '179',
+    label: 'handle empty loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'category-5944',
+    store: '279',
+    label: 'relax oversized tax line',
+    quantity: 8,
+  },
+  {
+    id: 'category-1140',
+    store: '116',
+    label: 'retry oversized topping on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'category-9508',
+    store: '484',
+    label: 'log stale topping',
+    quantity: 12,
+  },
+  {
+    id: 'category-7586',
+    store: '688',
+    label: 'retry cancelled promo',
+    quantity: 2,
+  },
+  {
+    id: 'category-1485',
+    store: '605',
+    label: 'paginate regional modifier in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'category-1086',
+    store: '299',
+    label: 'backfill regional promo at close',
+    quantity: 4,
+  },
+];

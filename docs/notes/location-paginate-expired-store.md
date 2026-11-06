@@ -47,3 +47,18 @@
 - trim regional pickup slot on checkout: verified in staging.
 - retry empty menu item in the queue: owner: delivery manager.
 - dedupe duplicate topping on reorder: owner: delivery manager.
+
+- cache oversized tax line for franchisees: decided.
+- dedupe cancelled loyalty credit for pickup: deferred to the next release.
+- rename regional ticket: open.
+- relax oversized receipt: decided.
+- validate empty kitchen ticket: blocked on store systems.
+- trim partial store: verified in staging.
+- validate duplicate order: open.
+- retry oversized menu item for pickup: open.
+- rename empty menu item on checkout: owner: delivery manager.
+- tighten late ticket: decided.
+- cache partial promo on reorder: open.
+- tighten stale menu item for franchisees: blocked on store systems.
+- retry regional pickup slot: blocked on store systems.
+- normalise partial ticket on reorder: deferred to the next release.

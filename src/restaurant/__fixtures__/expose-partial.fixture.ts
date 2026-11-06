@@ -2394,4 +2394,40 @@ export const ExposePartialReceiptRows = [
     label: 'sort missing menu item',
     quantity: 11,
   },
+  {
+    id: 'restaurant-1911',
+    store: '533',
+    label: 'relax oversized menu item',
+    quantity: 6,
+  },
+  {
+    id: 'restaurant-3405',
+    store: '237',
+    label: 'document missing ticket',
+    quantity: 8,
+  },
+  {
+    id: 'restaurant-6362',
+    store: '658',
+    label: 'normalise stale store at close',
+    quantity: 3,
+  },
+  {
+    id: 'restaurant-6679',
+    store: '335',
+    label: 'trim regional catering tray on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'restaurant-4812',
+    store: '477',
+    label: 'backfill regional guest',
+    quantity: 7,
+  },
+  {
+    id: 'restaurant-1874',
+    store: '425',
+    label: 'tighten missing promo on reorder',
+    quantity: 8,
+  },
 ];

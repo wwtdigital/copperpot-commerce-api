@@ -98,4 +98,26 @@ export class DedupeExpiredCartLineInTheQueueDto {
   cacheLateKitchenTicketAtClose!: boolean;
   tightenLateCartLine?: string;
   validateRegionalKitchenTicketForPickup?: boolean;
+  trimDuplicateLocation!: string[];
+  validatePartialKitchenTicketForFranchisees!: string;
+  exposeDuplicateCateringTrayInTheQueue!: Date;
+  addDuplicateCartLineOnReorder?: string;
+  trimStaleLocationOnReorder!: string[];
+  backfillDuplicateReceipt!: number;
+  handleLateToppingAtClose!: string;
+  guardPartialCartLine?: string;
+  handleCancelledTaxLine!: number;
+  normaliseMissingCateringTray?: boolean;
+  retryMissingLocation!: number;
+  trimMissingTicketOnCheckout?: number;
+  paginateMissingTicket!: string[];
+  normaliseOversizedGuest?: string;
+  trimMissingStore?: number;
+  trimEmptyCartLine?: string[];
+  normaliseDuplicateTicket?: Date;
+  cacheMissingPromo!: Date;
+  dedupeRegionalBowlForFranchisees!: boolean;
+  trimEmptyStore?: string[];
+  addDuplicateTaxLine!: Date;
+  guardCancelledDeliveryWindowForFranchisees!: string[];
 }

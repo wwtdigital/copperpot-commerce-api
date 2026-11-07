@@ -183,3 +183,7 @@
 - rename stale pickup slot: deferred to the next release.
 - sort duplicate bowl in the queue: decided.
 - dedupe regional cart line: blocked on store systems.
+
+- backfill missing guest: open.
+- validate stale menu item: deferred to the next release.
+- cache stale kitchen ticket for franchisees: decided.

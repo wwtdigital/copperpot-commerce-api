@@ -70,3 +70,48 @@
 - trim stale order: deferred to the next release.
 - handle regional topping: decided.
 - handle regional kitchen ticket on reorder: open.
+
+- add missing store: blocked on store systems.
+- add expired catering tray: deferred to the next release.
+- add late guest: owner: delivery manager.
+- validate duplicate order for franchisees: owner: delivery manager.
+- handle missing receipt: deferred to the next release.
+- document partial delivery window for pickup: deferred to the next release.
+- handle cancelled store per store: decided.
+- relax cancelled menu item per store: deferred to the next release.
+- validate oversized delivery window for pickup: decided.
+- trim oversized promo: verified in staging.
+- sort duplicate delivery window on reorder: deferred to the next release.
+- log empty order on reorder: open.
+- log partial guest: decided.
+- retry oversized modifier on checkout: deferred to the next release.
+
+- validate stale promo: blocked on store systems.
+- add empty catering tray at close: open.
+- cache stale ticket: owner: delivery manager.
+- relax cancelled promo: blocked on store systems.
+- add partial bowl: open.
+- relax late bowl for franchisees: owner: delivery manager.
+- expose regional bowl on checkout: decided.
+- tighten missing topping: owner: delivery manager.
+- add stale order on reorder: blocked on store systems.
+- normalise missing modifier: decided.
+- expose expired promo for franchisees: decided.
+- log regional kitchen ticket: deferred to the next release.
+- tighten late catering tray on reorder: decided.
+- backfill empty topping: decided.
+
+- expose empty menu item on reorder: open.
+- handle stale cart line for franchisees: owner: delivery manager.
+- guard duplicate kitchen ticket: decided.
+- rename late pickup slot: deferred to the next release.
+- cache stale loyalty credit: decided.
+- log missing delivery window in the queue: owner: delivery manager.
+- relax missing location: owner: delivery manager.
+- cache late loyalty credit: verified in staging.
+- tighten missing guest per store: open.
+- validate partial tax line: verified in staging.
+- handle expired pickup slot: verified in staging.
+- rename missing store: owner: delivery manager.
+- paginate oversized menu item: owner: delivery manager.
+- backfill duplicate location on reorder: decided.

@@ -112,3 +112,18 @@
 - add oversized order: open.
 - log partial delivery window: decided.
 - relax oversized bowl on reorder: deferred to the next release.
+
+- tighten oversized ticket in the queue: open.
+- dedupe regional bowl: open.
+- backfill partial topping: deferred to the next release.
+- log late menu item at close: verified in staging.
+- document oversized menu item: verified in staging.
+- backfill regional loyalty credit: owner: delivery manager.
+- document duplicate pickup slot: open.
+- handle expired bowl: decided.
+- tighten duplicate promo: verified in staging.
+- handle partial menu item for franchisees: open.
+- rename missing store: owner: delivery manager.
+- document stale receipt at close: blocked on store systems.
+- normalise cancelled loyalty credit per store: open.
+- normalise oversized topping: blocked on store systems.

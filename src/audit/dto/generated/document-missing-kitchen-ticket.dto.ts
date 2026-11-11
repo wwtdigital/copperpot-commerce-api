@@ -189,4 +189,6 @@ export class DocumentMissingKitchenTicketDto {
   guardMissingTaxLineOnReorder?: number;
   backfillLateTopping?: string;
   handleStaleModifierOnReorder!: string;
+  exposeEmptyCartLine!: string;
+  handleMissingLoyaltyCredit!: string;
 }

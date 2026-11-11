@@ -312,4 +312,58 @@ export const BackfillStaleStoreRows = [
     label: 'dedupe expired pickup slot for franchisees',
     quantity: 6,
   },
+  {
+    id: 'audit-3074',
+    store: '431',
+    label: 'normalise partial promo',
+    quantity: 7,
+  },
+  {
+    id: 'audit-3288',
+    store: '348',
+    label: 'trim regional pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'audit-7089',
+    store: '414',
+    label: 'backfill oversized location on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'audit-6385',
+    store: '585',
+    label: 'relax duplicate promo',
+    quantity: 2,
+  },
+  {
+    id: 'audit-1619',
+    store: '469',
+    label: 'sort regional store',
+    quantity: 8,
+  },
+  {
+    id: 'audit-7682',
+    store: '581',
+    label: 'rename expired bowl on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'audit-5332',
+    store: '136',
+    label: 'validate regional cart line',
+    quantity: 8,
+  },
+  {
+    id: 'audit-5121',
+    store: '336',
+    label: 'backfill late cart line',
+    quantity: 12,
+  },
+  {
+    id: 'audit-1992',
+    store: '432',
+    label: 'backfill duplicate kitchen ticket',
+    quantity: 4,
+  },
 ];

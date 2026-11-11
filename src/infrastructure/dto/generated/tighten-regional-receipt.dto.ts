@@ -29,4 +29,6 @@ export class TightenRegionalReceiptDto {
   trimLateCartLine!: string[];
   relaxMissingPickupSlot!: string;
   trimLateMenuItem?: boolean;
+  renameCancelledGuest!: string;
+  normaliseLateCateringTray!: string[];
 }

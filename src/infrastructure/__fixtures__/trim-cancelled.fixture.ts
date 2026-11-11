@@ -1,0 +1,123 @@
+/* Fixture rows for infrastructure tests: trim cancelled delivery window in the queue. Generated data, not production data. */
+export const TrimCancelledDeliveryWindowInTheQueueRows = [
+  {
+    id: 'infrastructure-7361',
+    store: '235',
+    label: 'add duplicate store',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-2779',
+    store: '278',
+    label: 'validate regional receipt in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-5217',
+    store: '205',
+    label: 'validate duplicate receipt on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-3830',
+    store: '150',
+    label: 'trim partial topping',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-8700',
+    store: '566',
+    label: 'handle expired catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-1994',
+    store: '604',
+    label: 'paginate cancelled topping for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-1949',
+    store: '639',
+    label: 'log oversized topping',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-4413',
+    store: '535',
+    label: 'sort cancelled loyalty credit on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-9666',
+    store: '542',
+    label: 'backfill expired receipt',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-2703',
+    store: '444',
+    label: 'document duplicate ticket in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'infrastructure-8892',
+    store: '280',
+    label: 'sort empty order',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-8316',
+    store: '277',
+    label: 'validate missing store in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'infrastructure-7779',
+    store: '482',
+    label: 'handle regional ticket on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-7354',
+    store: '432',
+    label: 'rename partial topping',
+    quantity: 5,
+  },
+  {
+    id: 'infrastructure-6555',
+    store: '543',
+    label: 'expose expired loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-3630',
+    store: '401',
+    label: 'normalise duplicate catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'infrastructure-6315',
+    store: '469',
+    label: 'normalise late guest in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'infrastructure-1050',
+    store: '294',
+    label: 'rename expired loyalty credit in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'infrastructure-1394',
+    store: '229',
+    label: 'tighten regional tax line',
+    quantity: 9,
+  },
+  {
+    id: 'infrastructure-7007',
+    store: '333',
+    label: 'paginate duplicate modifier for pickup',
+    quantity: 6,
+  },
+];

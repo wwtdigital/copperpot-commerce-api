@@ -53,4 +53,14 @@ export class ExposeLateStoreDto {
   renameOversizedCateringTrayPerStore!: Date;
   retryPartialReceipt!: string;
   documentExpiredStore!: string[];
+  addExpiredPickupSlotOnCheckout!: boolean;
+  trimEmptyStorePerStore!: Date;
+  trimOversizedKitchenTicket!: Date;
+  backfillEmptyReceipt?: string[];
+  relaxStaleModifier!: string;
+  dedupeDuplicateCateringTray!: string[];
+  addDuplicateTicket!: Date;
+  relaxDuplicateCateringTray!: boolean;
+  logLateReceipt!: boolean;
+  trimMissingMenuItemForFranchisees!: number;
 }

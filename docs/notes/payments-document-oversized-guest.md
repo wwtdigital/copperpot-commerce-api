@@ -152,3 +152,18 @@
 - relax partial loyalty credit: decided.
 - tighten cancelled guest: blocked on store systems.
 - sort missing guest: owner: delivery manager.
+
+- log missing bowl for franchisees: deferred to the next release.
+- dedupe late catering tray: decided.
+- tighten duplicate order: open.
+- rename late receipt: decided.
+- rename cancelled delivery window per store: decided.
+- guard empty guest for franchisees: owner: delivery manager.
+- normalise partial catering tray for pickup: decided.
+- add duplicate receipt: deferred to the next release.
+- backfill partial store: open.
+- expose regional modifier for pickup: deferred to the next release.
+- handle expired receipt: decided.
+- add expired bowl on checkout: open.
+- log duplicate menu item: decided.
+- expose duplicate tax line for franchisees: verified in staging.

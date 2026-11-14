@@ -438,4 +438,16 @@ export const GuardEmptyPromoRows = [
     label: 'trim missing kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'payments-3216',
+    store: '193',
+    label: 'expose partial ticket',
+    quantity: 12,
+  },
+  {
+    id: 'payments-1501',
+    store: '364',
+    label: 'tighten cancelled tax line in the queue',
+    quantity: 12,
+  },
 ];

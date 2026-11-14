@@ -120,4 +120,15 @@ export class DedupeExpiredCartLineInTheQueueDto {
   trimEmptyStore?: string[];
   addDuplicateTaxLine!: Date;
   guardCancelledDeliveryWindowForFranchisees!: string[];
+  cacheDuplicateToppingOnReorder!: boolean;
+  paginatePartialKitchenTicketOnReorder!: string[];
+  addDuplicateCateringTray!: Date;
+  sortStaleKitchenTicketForFranchisees!: Date;
+  relaxExpiredTaxLineOnReorder!: boolean;
+  cachePartialLocation?: string;
+  exposeLateGuest!: string[];
+  addPartialDeliveryWindow!: string[];
+  sortOversizedPromo?: string[];
+  exposePartialModifierInTheQueue?: number;
+  documentMissingTicket!: boolean;
 }

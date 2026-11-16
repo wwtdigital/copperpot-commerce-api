@@ -77,3 +77,7 @@
 - retry empty receipt for franchisees: verified in staging.
 - guard duplicate topping: verified in staging.
 - trim partial ticket: open.
+
+- validate duplicate menu item: blocked on store systems.
+- backfill missing bowl: decided.
+- sort expired receipt: decided.

@@ -2,4 +2,14 @@
 export class NormalisePartialOrderPerStoreDto {
   normaliseStaleDeliveryWindow?: string;
   sortCancelledDeliveryWindow?: boolean;
+  normaliseRegionalPromoOnCheckout!: Date;
+  guardEmptyLoyaltyCredit!: string;
+  addExpiredMenuItem?: Date;
+  documentPartialPickupSlot?: string[];
+  paginateRegionalLocation?: number;
+  documentMissingLocationPerStore!: string[];
+  renameStaleBowl!: boolean;
+  validateRegionalToppingOnReorder!: number;
+  cacheDuplicateToppingForPickup?: number;
+  validateMissingTicket!: string[];
 }

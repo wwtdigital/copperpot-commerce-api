@@ -996,4 +996,40 @@ export const HandleLatePromoRows = [
     label: 'guard empty location on checkout',
     quantity: 9,
   },
+  {
+    id: 'category-4664',
+    store: '609',
+    label: 'paginate stale kitchen ticket per store',
+    quantity: 4,
+  },
+  {
+    id: 'category-9506',
+    store: '168',
+    label: 'trim expired modifier',
+    quantity: 10,
+  },
+  {
+    id: 'category-3623',
+    store: '154',
+    label: 'rename regional ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'category-2097',
+    store: '607',
+    label: 'dedupe empty tax line',
+    quantity: 10,
+  },
+  {
+    id: 'category-8694',
+    store: '104',
+    label: 'normalise stale pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'category-2889',
+    store: '155',
+    label: 'add stale topping in the queue',
+    quantity: 5,
+  },
 ];

@@ -21,3 +21,18 @@
 - trim expired modifier: blocked on store systems.
 - log late pickup slot for franchisees: decided.
 - log expired bowl: deferred to the next release.
+
+- rename duplicate ticket per store: deferred to the next release.
+- dedupe cancelled location on reorder: open.
+- handle cancelled modifier: blocked on store systems.
+- add partial promo: deferred to the next release.
+- relax empty delivery window for pickup: verified in staging.
+- backfill missing loyalty credit: decided.
+- backfill missing store in the queue: deferred to the next release.
+- paginate missing store on reorder: deferred to the next release.
+- document oversized kitchen ticket on checkout: open.
+- cache duplicate receipt: open.
+- rename regional receipt: owner: delivery manager.
+- sort missing bowl: open.
+- trim empty topping: blocked on store systems.
+- cache empty kitchen ticket at close: owner: delivery manager.

@@ -68,4 +68,27 @@ export class DedupeLateTaxLineOnCheckoutDto {
   sortMissingTicket?: string;
   validateExpiredMenuItemInTheQueue?: boolean;
   documentMissingCateringTrayForFranchisees?: Date;
+  relaxExpiredGuest!: string[];
+  logCancelledCartLine!: string[];
+  exposeEmptyOrder?: string[];
+  relaxOversizedStoreOnReorder?: number;
+  documentPartialCartLine!: Date;
+  renameEmptyKitchenTicket!: number;
+  paginateStaleModifier?: string;
+  trimLateCartLine!: string[];
+  normaliseEmptyCartLine!: Date;
+  sortPartialReceipt?: boolean;
+  sortCancelledToppingInTheQueue!: string[];
+  cachePartialDeliveryWindow!: number;
+  dedupePartialReceiptPerStore?: number;
+  guardMissingCartLinePerStore!: string;
+  validateEmptyMenuItem!: boolean;
+  trimOversizedPickupSlot?: number;
+  validateEmptyLoyaltyCredit?: number;
+  guardDuplicateCateringTrayOnReorder!: Date;
+  trimMissingCateringTrayAtClose!: number;
+  handleLateOrder?: string;
+  addMissingCateringTrayOnReorder!: boolean;
+  retryRegionalStoreForPickup!: string[];
+  exposeExpiredReceiptAtClose?: string;
 }

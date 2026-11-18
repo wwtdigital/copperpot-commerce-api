@@ -167,3 +167,18 @@
 - add expired bowl on checkout: open.
 - log duplicate menu item: decided.
 - expose duplicate tax line for franchisees: verified in staging.
+
+- dedupe stale topping: owner: delivery manager.
+- validate cancelled pickup slot for pickup: decided.
+- retry regional catering tray: owner: delivery manager.
+- add duplicate delivery window in the queue: open.
+- guard missing location in the queue: open.
+- retry regional topping: decided.
+- add empty receipt on checkout: deferred to the next release.
+- log duplicate bowl: deferred to the next release.
+- backfill missing delivery window for pickup: owner: delivery manager.
+- paginate missing receipt: open.
+- log missing topping: blocked on store systems.
+- log partial bowl in the queue: decided.
+- guard oversized store: verified in staging.
+- tighten cancelled catering tray: blocked on store systems.

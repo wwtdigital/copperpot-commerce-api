@@ -438,4 +438,40 @@ export const TightenLateBowlPerStoreRows = [
     label: 'paginate partial menu item in the queue',
     quantity: 9,
   },
+  {
+    id: 'order-processing-queue-5799',
+    store: '332',
+    label: 'paginate regional bowl',
+    quantity: 4,
+  },
+  {
+    id: 'order-processing-queue-6935',
+    store: '374',
+    label: 'backfill late ticket',
+    quantity: 9,
+  },
+  {
+    id: 'order-processing-queue-8359',
+    store: '553',
+    label: 'tighten partial guest',
+    quantity: 12,
+  },
+  {
+    id: 'order-processing-queue-7046',
+    store: '163',
+    label: 'rename regional promo at close',
+    quantity: 7,
+  },
+  {
+    id: 'order-processing-queue-2789',
+    store: '406',
+    label: 'expose empty ticket at close',
+    quantity: 3,
+  },
+  {
+    id: 'order-processing-queue-3273',
+    store: '235',
+    label: 'paginate late catering tray',
+    quantity: 9,
+  },
 ];

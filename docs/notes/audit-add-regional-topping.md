@@ -194,3 +194,15 @@
 - expose stale promo: owner: delivery manager.
 
 - retry empty location: verified in staging.
+
+- backfill stale catering tray: open.
+- guard expired kitchen ticket in the queue: blocked on store systems.
+- cache expired kitchen ticket: owner: delivery manager.
+- normalise late topping per store: open.
+- dedupe oversized guest for franchisees: open.
+- retry empty topping: blocked on store systems.
+- log oversized promo: decided.
+- sort regional loyalty credit at close: verified in staging.
+- handle duplicate catering tray: decided.
+- tighten partial receipt: verified in staging.
+- validate duplicate topping: verified in staging.

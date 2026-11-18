@@ -120,4 +120,22 @@ export const TrimCancelledDeliveryWindowInTheQueueRows = [
     label: 'paginate duplicate modifier for pickup',
     quantity: 6,
   },
+  {
+    id: 'infrastructure-5106',
+    store: '662',
+    label: 'guard duplicate receipt for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'infrastructure-7481',
+    store: '110',
+    label: 'expose empty catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'infrastructure-8144',
+    store: '156',
+    label: 'paginate duplicate bowl per store',
+    quantity: 2,
+  },
 ];

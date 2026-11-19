@@ -58,4 +58,8 @@ export class CachePartialModifierDto {
   sortRegionalLoyaltyCredit?: string;
   relaxCancelledOrderForPickup!: string[];
   logEmptyLocation?: string[];
+  sortExpiredModifier!: number;
+  handleRegionalBowl!: boolean;
+  logDuplicateKitchenTicket?: number;
+  sortOversizedToppingForPickup!: number;
 }

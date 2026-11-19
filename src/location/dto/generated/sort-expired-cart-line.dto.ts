@@ -104,4 +104,28 @@ export class SortExpiredCartLineDto {
   dedupeCancelledLocation?: Date;
   normaliseMissingOrder!: string[];
   validatePartialPickupSlotForFranchisees?: boolean;
+  validateCancelledCateringTray!: number;
+  normaliseStaleModifierForFranchisees!: string;
+  sortDuplicateBowlOnCheckout!: string;
+  dedupeEmptyKitchenTicketAtClose!: number;
+  normaliseMissingLoyaltyCredit!: string[];
+  paginateMissingModifier!: Date;
+  tightenEmptyTicket!: string[];
+  paginateStaleCartLineOnReorder!: string;
+  logDuplicateTopping!: string;
+  guardMissingBowlAtClose!: Date;
+  sortLateBowl?: string;
+  tightenLateCateringTray?: boolean;
+  exposeCancelledLocationPerStore?: string;
+  handleDuplicateMenuItemForFranchisees?: boolean;
+  documentLateKitchenTicket?: number;
+  logEmptyDeliveryWindow!: number;
+  documentCancelledCartLineForFranchisees!: string[];
+  renameLateStore!: Date;
+  validatePartialPromoForPickup!: Date;
+  renameDuplicateLocation!: Date;
+  validateMissingTicketAtClose?: Date;
+  relaxExpiredDeliveryWindow!: string;
+  renameOversizedMenuItem!: string[];
+  documentLateTicketAtClose!: boolean;
 }

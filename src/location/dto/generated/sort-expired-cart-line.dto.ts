@@ -128,4 +128,28 @@ export class SortExpiredCartLineDto {
   relaxExpiredDeliveryWindow!: string;
   renameOversizedMenuItem!: string[];
   documentLateTicketAtClose!: boolean;
+  tightenExpiredLocation!: boolean;
+  logStaleStoreAtClose!: string[];
+  dedupeEmptyDeliveryWindowInTheQueue!: boolean;
+  guardRegionalPickupSlotForFranchisees!: string;
+  backfillOversizedDeliveryWindow!: string;
+  paginatePartialCartLine!: string;
+  retryEmptyTaxLineInTheQueue!: string;
+  renameEmptyTicketOnReorder!: string[];
+  sortEmptyPickupSlot!: Date;
+  sortPartialCartLine!: Date;
+  renameDuplicateTopping!: boolean;
+  addMissingGuest!: number;
+  normaliseMissingMenuItemAtClose?: string[];
+  addLateTicket?: boolean;
+  tightenPartialTopping!: string;
+  trimStaleLoyaltyCreditOnCheckout!: boolean;
+  exposeLateTicket!: number;
+  paginateOversizedGuest!: string[];
+  relaxEmptyModifier!: Date;
+  documentExpiredCateringTray!: string[];
+  documentLateReceipt!: boolean;
+  documentPartialReceiptAtClose?: Date;
+  addExpiredCartLinePerStore!: string[];
+  handlePartialKitchenTicket!: number;
 }

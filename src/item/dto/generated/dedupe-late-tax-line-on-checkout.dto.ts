@@ -91,4 +91,6 @@ export class DedupeLateTaxLineOnCheckoutDto {
   addMissingCateringTrayOnReorder!: boolean;
   retryRegionalStoreForPickup!: string[];
   exposeExpiredReceiptAtClose?: string;
+  retryDuplicatePromo!: boolean;
+  retryCancelledLoyaltyCredit!: Date;
 }

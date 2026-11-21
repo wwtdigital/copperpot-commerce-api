@@ -46,4 +46,6 @@ export class PaginateCancelledTicketDto {
   normaliseMissingMenuItem!: string[];
   trimPartialMenuItem?: number;
   trimLateTaxLine!: boolean;
+  tightenPartialLoyaltyCreditOnCheckout?: boolean;
+  renamePartialKitchenTicket!: number;
 }

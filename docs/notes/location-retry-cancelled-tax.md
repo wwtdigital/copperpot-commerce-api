@@ -35,3 +35,18 @@
 
 - log oversized tax line on reorder: owner: delivery manager.
 - log regional promo: verified in staging.
+
+- trim empty delivery window per store: open.
+- tighten stale order: verified in staging.
+- normalise regional menu item: owner: delivery manager.
+- handle expired guest: verified in staging.
+- document expired modifier at close: blocked on store systems.
+- tighten partial pickup slot on checkout: deferred to the next release.
+- document oversized promo in the queue: verified in staging.
+- normalise oversized ticket: verified in staging.
+- sort partial bowl at close: open.
+- relax oversized loyalty credit in the queue: decided.
+- cache duplicate location: owner: delivery manager.
+- validate regional pickup slot: open.
+- backfill regional tax line: deferred to the next release.
+- retry missing bowl for franchisees: decided.

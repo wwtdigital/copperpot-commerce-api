@@ -122,3 +122,18 @@
 - expose duplicate store at close: deferred to the next release.
 - handle oversized cart line on checkout: deferred to the next release.
 - retry duplicate location: blocked on store systems.
+
+- tighten regional kitchen ticket for franchisees: deferred to the next release.
+- normalise expired topping for franchisees: deferred to the next release.
+- handle oversized catering tray per store: open.
+- tighten missing promo: deferred to the next release.
+- rename partial tax line per store: verified in staging.
+- dedupe partial store: verified in staging.
+- cache oversized location: blocked on store systems.
+- add stale ticket at close: verified in staging.
+- normalise missing pickup slot: verified in staging.
+- backfill late order: open.
+- dedupe partial promo for franchisees: owner: delivery manager.
+- add partial loyalty credit: deferred to the next release.
+- cache regional delivery window on reorder: open.
+- normalise oversized menu item: decided.

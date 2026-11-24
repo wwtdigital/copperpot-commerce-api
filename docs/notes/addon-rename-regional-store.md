@@ -17,3 +17,18 @@
 - trim duplicate location in the queue: blocked on store systems.
 - backfill expired order at close: blocked on store systems.
 - paginate duplicate topping: deferred to the next release.
+
+- relax empty topping: decided.
+- dedupe stale guest in the queue: decided.
+- expose stale kitchen ticket: open.
+- guard cancelled cart line: blocked on store systems.
+- cache regional guest: verified in staging.
+- dedupe empty tax line: decided.
+- sort late location for franchisees: blocked on store systems.
+- normalise late loyalty credit: deferred to the next release.
+- guard regional menu item: deferred to the next release.
+- normalise partial catering tray: open.
+- backfill expired bowl at close: owner: delivery manager.
+- sort duplicate cart line: blocked on store systems.
+- add regional bowl for franchisees: blocked on store systems.
+- document stale tax line per store: decided.

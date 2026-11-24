@@ -152,4 +152,26 @@ export class SortExpiredCartLineDto {
   documentPartialReceiptAtClose?: Date;
   addExpiredCartLinePerStore!: string[];
   handlePartialKitchenTicket!: number;
+  retryDuplicateTaxLine!: Date;
+  paginateStaleOrder!: string[];
+  logCancelledCateringTray!: boolean;
+  guardPartialCartLine!: Date;
+  sortPartialCateringTray?: boolean;
+  retryOversizedTopping?: string[];
+  sortCancelledTicket!: boolean;
+  documentCancelledDeliveryWindowPerStore!: number;
+  backfillRegionalCateringTray?: string[];
+  logPartialTicket!: boolean;
+  dedupeDuplicateBowl?: Date;
+  addDuplicateTaxLine!: Date;
+  normaliseStaleStore?: Date;
+  tightenMissingMenuItemForPickup!: string[];
+  addLateTopping!: string;
+  addPartialReceiptOnReorder?: Date;
+  cacheRegionalKitchenTicketInTheQueue!: boolean;
+  dedupeLateDeliveryWindow!: string;
+  documentOversizedBowl?: string;
+  handleDuplicateLoyaltyCredit!: string[];
+  relaxEmptyTaxLineInTheQueue!: string;
+  handleEmptyKitchenTicketForPickup!: boolean;
 }

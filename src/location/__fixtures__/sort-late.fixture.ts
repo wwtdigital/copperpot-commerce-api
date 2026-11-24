@@ -294,4 +294,58 @@ export const SortLateCateringTrayRows = [
     label: 'trim late location on checkout',
     quantity: 3,
   },
+  {
+    id: 'location-6389',
+    store: '383',
+    label: 'retry duplicate order on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'location-7866',
+    store: '577',
+    label: 'expose cancelled receipt',
+    quantity: 2,
+  },
+  {
+    id: 'location-1983',
+    store: '698',
+    label: 'add expired kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'location-3980',
+    store: '401',
+    label: 'handle expired catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'location-8888',
+    store: '484',
+    label: 'trim duplicate tax line',
+    quantity: 11,
+  },
+  {
+    id: 'location-2185',
+    store: '303',
+    label: 'backfill late topping per store',
+    quantity: 4,
+  },
+  {
+    id: 'location-9390',
+    store: '283',
+    label: 'relax missing catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'location-4123',
+    store: '642',
+    label: 'tighten empty catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'location-9274',
+    store: '100',
+    label: 'relax cancelled menu item',
+    quantity: 2,
+  },
 ];

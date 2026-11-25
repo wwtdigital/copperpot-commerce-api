@@ -16,6 +16,3 @@
 - normalise stale location on reorder: owner: delivery manager.
 - tighten partial store for franchisees: verified in staging.
 - normalise expired modifier: decided.
-- document oversized bowl on checkout: open.
-- log expired pickup slot: decided.
-- document expired catering tray: open.

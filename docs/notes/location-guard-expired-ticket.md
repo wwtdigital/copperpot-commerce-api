@@ -187,3 +187,18 @@
 - backfill missing guest: open.
 - validate stale menu item: deferred to the next release.
 - cache stale kitchen ticket for franchisees: decided.
+
+- document oversized order: decided.
+- rename stale catering tray on reorder: verified in staging.
+- relax missing guest at close: decided.
+- dedupe late promo: blocked on store systems.
+- backfill expired kitchen ticket: deferred to the next release.
+- paginate stale promo: decided.
+- tighten missing order: deferred to the next release.
+- retry oversized store: blocked on store systems.
+- guard partial topping: owner: delivery manager.
+- document late order on reorder: deferred to the next release.
+- guard expired kitchen ticket for pickup: deferred to the next release.
+- cache oversized cart line at close: decided.
+- relax cancelled tax line: owner: delivery manager.
+- backfill missing receipt: decided.

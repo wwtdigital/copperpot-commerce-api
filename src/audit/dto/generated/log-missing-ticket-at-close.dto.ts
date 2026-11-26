@@ -14,28 +14,4 @@ export class LogMissingTicketAtCloseDto {
   backfillExpiredPickupSlotAtClose!: string[];
   renameRegionalReceiptOnCheckout!: number;
   dedupeExpiredKitchenTicketOnCheckout!: number;
-  cacheRegionalPickupSlot!: boolean;
-  normaliseOversizedPromoForPickup!: number;
-  dedupeCancelledTaxLineOnCheckout!: Date;
-  tightenDuplicateTicketForFranchisees?: boolean;
-  exposeMissingMenuItem!: string;
-  trimEmptyDeliveryWindowForFranchisees!: boolean;
-  retryPartialReceiptOnCheckout!: number;
-  backfillOversizedDeliveryWindowForPickup!: string;
-  cacheCancelledTopping?: number;
-  normaliseStaleGuestOnReorder!: boolean;
-  dedupeStalePickupSlotOnReorder!: string;
-  guardRegionalLocationInTheQueue?: boolean;
-  renameDuplicateGuestForFranchisees!: string[];
-  logExpiredGuestPerStore!: number;
-  logRegionalStore!: boolean;
-  cacheEmptyPromoForFranchisees!: number;
-  documentCancelledLoyaltyCredit!: boolean;
-  logDuplicatePickupSlot?: number;
-  sortLateOrder?: number;
-  logLateCartLine!: number;
-  logMissingTicket!: Date;
-  dedupeStaleLoyaltyCredit!: number;
-  tightenDuplicateKitchenTicket!: string;
-  documentOversizedCartLine?: Date;
 }

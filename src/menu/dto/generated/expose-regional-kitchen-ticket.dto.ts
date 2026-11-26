@@ -1,0 +1,39 @@
+/* ExposeRegionalKitchenTicketDto: shape for expose regional kitchen ticket. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class ExposeRegionalKitchenTicketDto {
+  backfillExpiredModifierAtClose?: Date;
+  dedupeLateCateringTray?: string;
+  retryRegionalCateringTrayAtClose!: number;
+  documentExpiredDeliveryWindowOnCheckout!: number;
+  paginateOversizedCartLine!: Date;
+  sortLateToppingOnCheckout!: boolean;
+  renamePartialOrderForFranchisees!: string[];
+  handleOversizedPickupSlot!: Date;
+  renameExpiredModifier!: string;
+  backfillEmptyKitchenTicket!: string;
+  logCancelledStore!: number;
+  handleLateLoyaltyCredit!: Date;
+  renamePartialTaxLine!: string[];
+  trimMissingLoyaltyCredit!: string[];
+  exposePartialPromo!: string[];
+  trimPartialTicketInTheQueue!: number;
+  documentRegionalDeliveryWindowInTheQueue?: boolean;
+  documentPartialGuest!: Date;
+  dedupeMissingTicketAtClose!: string[];
+  relaxPartialOrder?: string;
+  cacheRegionalStoreForPickup!: string[];
+  relaxExpiredBowl!: Date;
+  dedupeStalePickupSlot!: string;
+  documentPartialOrderOnCheckout!: boolean;
+  sortDuplicateReceipt!: boolean;
+  paginateRegionalTaxLine!: string[];
+  logCancelledTicket!: Date;
+  addStaleTopping?: number;
+  cachePartialTopping!: Date;
+  normaliseLatePromoPerStore!: string;
+  sortOversizedDeliveryWindow!: string;
+  trimLateTopping!: number;
+  cacheCancelledTaxLineOnReorder?: string;
+  exposeOversizedDeliveryWindow?: string;
+  tightenMissingTaxLine?: string[];
+  relaxPartialToppingOnReorder!: string;
+}

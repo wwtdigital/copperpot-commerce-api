@@ -256,3 +256,17 @@
 - expose missing receipt on reorder: open.
 - tighten cancelled topping for pickup: blocked on store systems.
 - tighten expired delivery window: blocked on store systems.
+
+- backfill oversized bowl: verified in staging.
+- cache regional bowl: deferred to the next release.
+- paginate expired bowl: owner: delivery manager.
+- backfill stale order on checkout: open.
+- cache late pickup slot: deferred to the next release.
+- rename duplicate loyalty credit at close: deferred to the next release.
+- handle partial topping: verified in staging.
+- document regional guest for franchisees: owner: delivery manager.
+- validate empty order for pickup: blocked on store systems.
+- trim empty store at close: blocked on store systems.
+- expose regional loyalty credit: owner: delivery manager.
+- backfill stale cart line for franchisees: blocked on store systems.
+- handle empty bowl on checkout: owner: delivery manager.

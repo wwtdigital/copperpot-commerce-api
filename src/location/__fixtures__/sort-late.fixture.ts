@@ -348,4 +348,28 @@ export const SortLateCateringTrayRows = [
     label: 'relax cancelled menu item',
     quantity: 2,
   },
+  {
+    id: 'location-2795',
+    store: '589',
+    label: 'expose empty receipt at close',
+    quantity: 12,
+  },
+  {
+    id: 'location-7007',
+    store: '659',
+    label: 'paginate partial guest',
+    quantity: 5,
+  },
+  {
+    id: 'location-7156',
+    store: '570',
+    label: 'trim duplicate tax line',
+    quantity: 12,
+  },
+  {
+    id: 'location-2259',
+    store: '433',
+    label: 'validate late modifier',
+    quantity: 5,
+  },
 ];

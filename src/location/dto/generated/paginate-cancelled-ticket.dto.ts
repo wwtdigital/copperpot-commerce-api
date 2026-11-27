@@ -48,4 +48,28 @@ export class PaginateCancelledTicketDto {
   trimLateTaxLine!: boolean;
   tightenPartialLoyaltyCreditOnCheckout?: boolean;
   renamePartialKitchenTicket!: number;
+  guardStaleCateringTrayPerStore?: boolean;
+  exposeMissingGuest!: boolean;
+  relaxStaleDeliveryWindow!: number;
+  logMissingCateringTrayAtClose!: Date;
+  tightenRegionalLoyaltyCredit!: boolean;
+  retryEmptyBowlOnReorder?: number;
+  handleCancelledGuestForPickup!: boolean;
+  tightenStaleOrder!: Date;
+  dedupeExpiredCartLineAtClose?: string;
+  tightenLateCateringTray?: boolean;
+  normaliseExpiredMenuItem?: string[];
+  retryLatePromo?: boolean;
+  trimLatePromoForFranchisees?: boolean;
+  trimPartialLocation!: Date;
+  backfillMissingTicket!: string[];
+  cacheMissingPromoForFranchisees?: string[];
+  normaliseStaleCartLineOnReorder?: string[];
+  relaxCancelledBowlPerStore!: boolean;
+  validateStaleOrderAtClose?: string[];
+  addPartialBowl!: string[];
+  cacheRegionalBowlPerStore!: boolean;
+  relaxCancelledStore!: boolean;
+  guardPartialMenuItemInTheQueue!: string[];
+  guardCancelledCateringTrayForPickup!: number;
 }

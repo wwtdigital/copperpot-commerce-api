@@ -206,3 +206,18 @@
 - handle duplicate catering tray: decided.
 - tighten partial receipt: verified in staging.
 - validate duplicate topping: verified in staging.
+
+- retry late location for pickup: open.
+- handle cancelled bowl per store: deferred to the next release.
+- log partial tax line per store: owner: delivery manager.
+- backfill late bowl: decided.
+- handle missing loyalty credit: blocked on store systems.
+- sort expired store: decided.
+- cache cancelled order in the queue: owner: delivery manager.
+- expose regional menu item: verified in staging.
+- handle late receipt: deferred to the next release.
+- add missing bowl on reorder: blocked on store systems.
+- backfill stale guest for pickup: blocked on store systems.
+- handle partial ticket: deferred to the next release.
+- log missing bowl: open.
+- cache missing tax line: decided.

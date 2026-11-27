@@ -366,4 +366,52 @@ export const BackfillStaleStoreRows = [
     label: 'backfill duplicate kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'audit-5989',
+    store: '470',
+    label: 'log partial cart line',
+    quantity: 8,
+  },
+  {
+    id: 'audit-1475',
+    store: '692',
+    label: 'rename late store',
+    quantity: 1,
+  },
+  {
+    id: 'audit-7486',
+    store: '502',
+    label: 'expose duplicate location for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'audit-4539',
+    store: '234',
+    label: 'rename partial ticket',
+    quantity: 11,
+  },
+  {
+    id: 'audit-9731',
+    store: '685',
+    label: 'cache missing catering tray per store',
+    quantity: 10,
+  },
+  {
+    id: 'audit-1030',
+    store: '143',
+    label: 'retry expired store at close',
+    quantity: 8,
+  },
+  {
+    id: 'audit-9038',
+    store: '135',
+    label: 'trim regional loyalty credit per store',
+    quantity: 12,
+  },
+  {
+    id: 'audit-4191',
+    store: '351',
+    label: 'backfill stale ticket at close',
+    quantity: 2,
+  },
 ];

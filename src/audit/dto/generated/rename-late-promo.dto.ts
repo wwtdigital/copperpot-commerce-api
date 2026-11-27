@@ -51,4 +51,28 @@ export class RenameLatePromoDto {
   guardOversizedCateringTray!: number;
   handleRegionalPromoPerStore?: string;
   backfillCancelledBowl!: boolean;
+  renamePartialTopping!: boolean;
+  dedupeMissingOrderOnCheckout!: string[];
+  guardDuplicateModifier!: number;
+  relaxDuplicateTaxLineOnCheckout?: boolean;
+  tightenMissingLocationOnReorder!: string;
+  backfillOversizedGuestOnReorder!: string[];
+  paginateRegionalMenuItem?: number;
+  documentRegionalCateringTrayAtClose!: Date;
+  paginateOversizedDeliveryWindow?: boolean;
+  retryOversizedTicket?: number;
+  sortExpiredPromo!: number;
+  renameDuplicateLocationPerStore!: number;
+  renameOversizedPickupSlotForFranchisees!: boolean;
+  cacheCancelledCartLineOnReorder!: boolean;
+  cacheLateTicketOnCheckout!: number;
+  logExpiredLocation!: string;
+  sortRegionalTicketOnReorder?: Date;
+  validateDuplicateCateringTrayInTheQueue!: boolean;
+  guardRegionalMenuItem?: boolean;
+  paginateEmptyMenuItemForFranchisees!: Date;
+  handleRegionalTopping?: Date;
+  exposeDuplicateCartLine!: Date;
+  exposeOversizedReceipt!: number;
+  relaxPartialStorePerStore!: number;
 }

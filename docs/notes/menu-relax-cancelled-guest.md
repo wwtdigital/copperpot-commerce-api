@@ -270,3 +270,18 @@
 - expose regional loyalty credit: owner: delivery manager.
 - backfill stale cart line for franchisees: blocked on store systems.
 - handle empty bowl on checkout: owner: delivery manager.
+
+- relax expired loyalty credit: decided.
+- trim stale pickup slot: decided.
+- sort regional cart line: verified in staging.
+- document partial menu item: blocked on store systems.
+- log cancelled catering tray: decided.
+- validate oversized store in the queue: deferred to the next release.
+- dedupe late store on reorder: open.
+- rename oversized guest: owner: delivery manager.
+- cache cancelled catering tray: deferred to the next release.
+- trim expired menu item at close: verified in staging.
+- paginate oversized order: blocked on store systems.
+- cache partial menu item in the queue: decided.
+- rename cancelled guest: open.
+- normalise stale cart line in the queue: deferred to the next release.

@@ -36,28 +36,4 @@ export class ExposeRegionalKitchenTicketDto {
   exposeOversizedDeliveryWindow?: string;
   tightenMissingTaxLine?: string[];
   relaxPartialToppingOnReorder!: string;
-  retryRegionalModifier!: number;
-  renameMissingTicket!: number;
-  tightenPartialOrder!: string;
-  relaxMissingStore?: boolean;
-  relaxMissingPickupSlotForPickup!: boolean;
-  logEmptyReceiptPerStore?: string[];
-  handlePartialLocation!: number;
-  renameExpiredMenuItem!: string;
-  retryMissingLoyaltyCreditOnCheckout?: boolean;
-  retryStaleModifierForPickup!: number;
-  sortDuplicateCateringTray!: string;
-  cacheStaleDeliveryWindow!: Date;
-  addDuplicatePickupSlotPerStore?: string;
-  dedupeOversizedTaxLine!: Date;
-  documentLateBowlOnReorder!: number;
-  documentEmptyModifier!: boolean;
-  normaliseOversizedBowlPerStore!: Date;
-  handleEmptyGuest?: number;
-  cacheCancelledKitchenTicket!: Date;
-  cacheDuplicateToppingForPickup?: number;
-  renameMissingPromo!: boolean;
-  relaxPartialCartLine!: boolean;
-  trimPartialBowlOnCheckout!: string;
-  renameExpiredCateringTray!: string;
 }
